@@ -1,0 +1,23 @@
+﻿---
+ID: "854482cc-eed3-43c9-9600-b42dd5afa593"
+Parent: "f208628c-6f73-4d96-9721-b501a7adbd1d"
+Template: "5ef07850-4c04-4b83-9daf-efd752cfaba8"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Flips/OneWeb Flip
+DB: master
+BranchID: "7152d5bd-bdf6-424f-96b1-e268b0c4808e"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C90757E0-5E0B-4296-8B55-5DF895B4BCAA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T091727Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

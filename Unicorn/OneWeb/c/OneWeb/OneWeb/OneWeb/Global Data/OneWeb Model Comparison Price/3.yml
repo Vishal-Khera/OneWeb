@@ -1,0 +1,20 @@
+﻿---
+ID: "55073daf-5e53-42e2-8799-d47c36774d4b"
+Parent: "3500e821-5297-4b70-819e-4b527d67fa9a"
+Template: "851511fa-16f0-4200-9650-33c8af27bf94"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Global Data/OneWeb Model Comparison Price/3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220809T193609Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: 
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3

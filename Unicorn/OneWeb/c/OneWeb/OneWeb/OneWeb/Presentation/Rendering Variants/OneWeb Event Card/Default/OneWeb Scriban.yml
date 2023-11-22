@@ -1,0 +1,112 @@
+﻿---
+ID: "3824bb69-0e9a-4bc6-9497-be12cd9469bf"
+Parent: "190ba710-56b7-4df2-b029-2596624041fb"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Event Card/Default/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{StartDate=ow_eventcard_date i_item 'StartDate'}}
+    {{EndDate=ow_eventcard_date i_item 'EndDate'}}
+    
+    {{start_split=StartDate | string.split ' ' ~}}
+    {{startday =start_split| array.first}}
+    {{if start_split.size>2}}
+    {{startmonth=start_split| array.offset 1| array.first}}
+    {{startyear=start_split| array.last}}
+    {{end}}
+    
+    {{end_split=EndDate | string.split ' ' ~}}
+    {{endday =end_split| array.first}}
+    {{endmonth=end_split| array.offset 1| array.first}}
+    {{endyear=end_split| array.last}}
+    
+    {{Category=sc_field i_item "Page Type"}}
+    	{{primary_link_classes = ""}}
+    		{{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    					if( primary_filtered_classes)
+    						if(primary_filtered_classes.class | string.size) > 0
+    						primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    						end
+    					end}}
+    		{{link_model = ow_link_model i_item 'PrimaryLink'}}	
+    
+    <div class="component column">		
+    {{ if (link_model.url!="") }}
+    		<a href="{{link_model.url}}" target="{{link_model.target}}" class="{{primary_link_classes}}" title="{{link_model.title}}">			
+    {{end}}
+    			<div class="card">
+    			
+    				{{if(i_item.image != "") }}	
+    					<div class="card-image">
+    						<img class="ow-lazy" data-src = "{{ i_item.Image.media_url }}"  alt="{{i_item.Image.alt.raw}}" title="{{ i_item.Image.title.raw}}" />
+    					</div>
+    				{{end}}
+    							
+    				
+    				
+    				<div class="card-body">
+    										
+    													
+    					{{if Category}}
+    					<h5 class="card-title">{{Category}}</h5>					
+    					{{end}}
+    						
+    					{{if(i_item.Title != "") }}
+    						<div class="card-subtitle">{{i_item.Title}}</div>
+    					{{end}}
+    						
+    					<div class="card-location">
+    						<i class="icon-location"></i>
+    							{{if(i_item.City != "") }}
+    								{{i_item.City}},
+    							{{end}}
+    						
+    							{{if(i_item.State != "") }}	
+    								{{i_item.State}}
+    							{{end}}
+    					</div>      
+    				</div>
+    				<div class="card-footer">
+    					<div class="time-format">
+    						<div class="start-date">
+    							<div class="date">{{startday}}</div>
+    							{{if startmonth}}
+    								<div class="month-year">
+    									<div class="month">{{startmonth}}</div>
+    									<div class="year">{{startyear}}</div>
+    								</div>
+    							{{end}}
+    							<i class="icon-Date-Arrow"></i>
+    						</div>
+    						<div class="close-date">
+    							<div class="date">{{endday}}</div>
+    							<div class="month-year">
+    								<div class="month">{{endmonth}}</div>
+    								<div class="year">{{endyear}}</div>
+    							</div>
+    						</div>
+    						
+    					</div>
+    			</div>
+    				
+    				
+    			</div>			
+    {{ if (link_model.url!="") }}
+    		</a>
+    {{end}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220705T114903Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

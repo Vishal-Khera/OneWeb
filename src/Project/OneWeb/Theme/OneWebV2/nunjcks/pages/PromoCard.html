@@ -1,0 +1,87 @@
+
+{% extends "layout/layout.html" %} {% block maincontent %}
+<main>
+    <div id="content">
+
+<div class="component container-fluid ">
+    <div class="component-content">
+        <div class="component row">
+            <div class="component container">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component col-12">
+                            <div class="promo-card dark-theme">
+                            {% include "../templates/components/component-promo.html" %}
+                        </div>
+                    </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="component container-fluid">
+    <div class="component-content">
+        <div class="component row">
+            <div class="component container">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component col-12">
+                            <div class="promo-card">
+                            {% include "../templates/components/component-promo.html" %}
+                        </div>
+                    </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="component container-fluid">
+    <div class="component-content">
+        <div class="component row">
+            <div class="component container">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component col-12 promo-card overflow-top dark-theme">
+                            {% include "../templates/components/component-PromoCard-overflow.html" %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- with image and video -->
+<div class="component container-fluid">
+    <div class="component-content">
+        <div class="component row">
+            <div class="component container">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component col-12 promo-card light-theme">
+                            {% include "../templates/components/component-promo-card-content-without-image.html" %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+</main>
+{% endblock %}

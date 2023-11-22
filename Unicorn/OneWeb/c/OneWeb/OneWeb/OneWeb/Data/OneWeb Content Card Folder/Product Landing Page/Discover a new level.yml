@@ -1,0 +1,20 @@
+﻿---
+ID: "622baa77-9274-4634-bdf2-5162e0ce4918"
+Parent: "c9b8ada8-e7c1-4149-9b65-ad1fdb6ad176"
+Template: "2dab00c3-0548-4391-9113-5f8c2605231e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder/Product Landing Page/Discover a new level
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T181644Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Discover a new level in performance for 3D measurements
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Creaform develops, manufactures and sells portable 3D measurement solutions, application software platforms and dimensional metrology for industrial applications.

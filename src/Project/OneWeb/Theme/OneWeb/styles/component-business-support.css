@@ -1,0 +1,78 @@
+.product-business {
+  margin-top: 20px;
+  margin-bottom: 50px; }
+  .product-business:last-child {
+    margin-bottom: 0px; }
+
+.business-support-query {
+  color: #fff;
+  padding: 20px 15px;
+  align-items: center;
+  font-size: 12px; }
+  @media screen and (min-width: 0) {
+    .business-support-query {
+      font-size: 12px; } }
+  @media screen and (min-width: 768px) {
+    .business-support-query {
+      font-size: 12px; } }
+  @media screen and (min-width: 992px) {
+    .business-support-query {
+      font-size: 12px; } }
+  @media only screen and (min-width: 768px) {
+    .business-support-query {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between; } }
+  .business-support-query a {
+    color: #fff; }
+  .business-support-query ul {
+    list-style-type: none; }
+    .business-support-query ul li {
+      padding-bottom: 10px; }
+      .business-support-query ul li:last-child {
+        padding-bottom: 0; }
+      .business-support-query ul li i {
+        margin-right: 5px; }
+  .business-support-query .business-support-dropdown {
+    display: flex;
+    align-items: center; }
+    @media (max-width: 767px) {
+      .business-support-query .business-support-dropdown {
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 15px;
+        border-top: 1px solid #BEBEBE;
+        padding-top: 15px; } }
+    .business-support-query .business-support-dropdown p {
+      margin-bottom: 0;
+      margin-right: 10px; }
+    .business-support-query .business-support-dropdown .dropdown {
+      margin-top: 10px;
+      position: relative; }
+      .business-support-query .business-support-dropdown .dropdown::after {
+        content: '';
+        width: 0px;
+        height: 0px;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 8px solid #D9171D;
+        position: absolute;
+        z-index: 1;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 2px; }
+      @media only screen and (min-width: 768px) {
+        .business-support-query .business-support-dropdown .dropdown {
+          margin-top: 0; } }
+      .business-support-query .business-support-dropdown .dropdown select {
+        height: 35px;
+        padding-right: 30px;
+        appearance: none;
+        -webkit-appearance: none;
+        padding-left: 10px;
+        background: #fff; }
+  .business-support-query .business-support-contact ul {
+    display: none; }
+    .business-support-query .business-support-contact ul.active {
+      display: block; }

@@ -1,0 +1,45 @@
+﻿---
+ID: "46ab44b1-74a4-4af9-af93-5d2629851afe"
+Parent: "ce45253d-92fe-46ba-afbc-57c6a5dff7bb"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Page Navigation/P2 Page Navigation/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if o_model -}}
+       <nav class="navbar navbar-expand-lg px-0">
+    {{ if(o_model.navigation_title | string.size >0) }}
+    	  <a class="navbar-brand" href="#">{{-o_model.navigation_title-}}</a>
+       {{end}} 
+        <div class="dropdown-arrow-btn d-flex order-lg-2">
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="navbar-toggler-icons"></div>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    	<ul class="navbar-nav">
+    	{{-for menu_item in o_model.page_navigation_list-}}
+    	{{ if ((menu_item.page_nav_id | string.size >0) && (menu_item.page_nav_title | string.size >0)) }}
+    	<li class="nav-item">
+          <a class="nav-link" href="#{{-menu_item.page_nav_id-}}">{{-menu_item.page_nav_title-}}</a>
+        </li>
+       {{end}}
+      {{end}}
+       </ul>
+      </div>
+     </nav>
+       {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220721T193257Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,42 @@
+﻿---
+ID: "0775d088-29f5-4e03-b0be-55d8bd755c43"
+Parent: "ce1c3416-c8d9-468d-a399-956ff0bff466"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Texts/crea text/Press Release Listing Text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T135829Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <p class="publication-date"><span class="date-display-single">June 21, 2022</span></p>
+            <p align="center"><em>Remaining faithful to its ongoing dedication to help its customers streamline their product development and quality control processes, Creaform keeps ahead of the trend, and releases the comprehensive VXelements 10.</em></p>
+        <p><strong>Lévis, Québec, June 22, 2022—</strong><a href="https://cf3d.io/ueHfa">Creaform</a>, a business unit of AMETEK, Inc. and worldwide leader in <a href="https://cf3d.io/ueHfb">portable 3D measurement solutions</a> and <a href="https://cf3d.io/ueHfc">engineering services</a>, announced today, at the dawn of its 20<sup>th</sup> anniversary, the launch of <a href="https://cf3d.io/ueHfd">VXelements 10</a>—now boasting a new cloud licensing system, new 3D mesh and entity edition functionalities, multiple CAD imports, and compatibility of the MetraSCAN-R 3D scanners with collaborative robots (cobots).</p>
+        <p>VXelements, now an integrated 3D measurement software platform that comprises several acquisition and application modules—VXscan, VXprobe, VXshot, VXmodel, VXtrack, VXinspect, VXscan-R—traces all the way back to 2005 with version 1.0 of VXscan, first software module developed by Creaform.</p>
+        <p>“This new software offering sets new standards in metrology, inspection and reverse engineering. We aimed to deliver a unique, differentiated and cutting-edge set of tools that works in complete synergy with the entire fleet of Creaform 3D measurement solutions,” says François Lachance, Product Manager&nbsp;– Software at Creaform.</p>
+        <p>Below, discover some of the new features and benefits found in VXelements 10.</p>
+        <p><strong><u>Overall</u></strong></p>
+        <p>A new cloud licensing system has been implemented to facilitate license sharing between users of a given company. It is now easier to maximize software investment by increasing cooperation between team members, making collaborative projects simpler and faster.</p>
+        <p><strong><u>VXscan 3D acquisition and optimization module</u></strong></p>
+        <p>The upgraded VXscan module unveils improvements to the <em>Merge Scan</em> feature: better computing performance, new target alignment, and the ability to retain the original data.</p>
+        <p><strong><u>VXmodel scan-to-CAD module</u></strong></p>
+        <p>The VXmodel scan-to-CAD software module now boasts a flexible entity edition tool, a new cross-section feature (resizing of cut plans, cross-section distance and angle with “arbitrary” entities).</p>
+        <p><strong><u>VXinspect dimensional inspection software module</u></strong></p>
+        <p>End users can now import and use multiple CAD models in VXinspect for added flexibility. This in turn facilitates working with symmetrical objects and saves time when processing assembly parts.</p>
+        <p><strong><u>Vxscan-R digital twin environment software module</u></strong></p>
+        <p>Automated metrology is now more accessible than ever before. VXscan-R is part of Creaform’s offering using collaborative robots (cobots) to streamline scanning cell deployments, and leverage the best scanning technology using off-line programming software.</p>
+        <p>At the dawn of its 20<sup>th</sup> anniversary, Creaform is in full control of its fast-paced development, always looking out for the best interest of its customers, and strives towards the “Never Stop Innovating” motto.</p>
+        <p><strong>About Creaform</strong></p>
+        <p><em>Never Stop Innovating</em>, a motto that represents the core values of Creaform, from its beginning in 2002 all the way to 2022, which marks the 20<sup>th</sup> anniversary of the company. To this day, Creaform continues to develop, manufacture, and sell cutting-edge 3D portable and automated measurement technologies that provide innovative solutions for applications such as 3D scanning, reverse engineering, quality control, non-destructive testing, product development, and numerical simulation (FEA/CFD). Its products and engineering services redefine the boundaries in a variety of industries, including automotive, aerospace, consumer products, heavy industries, manufacturing, oil and gas, power generation, research and education.</p>
+        <p>With headquarters and manufacturing operations in Lévis, Québec, Creaform is present in more than 85 countries, through its 14 local offices located all around the world and a network of over 125 distributors. Creaform is part of the Ultra Precision Technologies Division of AMETEK Inc., a leading global manufacturer of electronic instruments and electromechanical devices with 2021 sales of $5.5 billion.</p>
+        <p><a href="https://cf3d.io/ueHfa">creaform3d.com</a></p>

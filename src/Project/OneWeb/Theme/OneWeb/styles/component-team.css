@@ -1,0 +1,90 @@
+.ow-card-team-bg {
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-bottom: 0 !important;
+  padding: 0; }
+  .ow-card-team-bg .banner-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+    margin: 0px; }
+
+.ow-meet-team {
+  margin-bottom: 0px; }
+  @media only screen and (min-width: 992px) {
+    .ow-meet-team {
+      margin-top: -156px; } }
+  .ow-meet-team .component-content .ow-card-tiles .card-item {
+    margin-bottom: 30px; }
+  .ow-meet-team .component-content .ow-card-tiles h4 {
+    color: #fff; }
+  .ow-meet-team .component-content .ow-card-tiles h5 {
+    font-family: "HelveticaNeue-Light";
+    font-size: 18px;
+    color: #fff; }
+    @media screen and (min-width: 0) {
+      .ow-meet-team .component-content .ow-card-tiles h5 {
+        font-size: 18px; } }
+    @media screen and (min-width: 768px) {
+      .ow-meet-team .component-content .ow-card-tiles h5 {
+        font-size: 18px; } }
+    @media screen and (min-width: 992px) {
+      .ow-meet-team .component-content .ow-card-tiles h5 {
+        font-size: 18px; } }
+  .ow-meet-team .component-content .ow-card-tiles .slick-dots {
+    padding-left: 0;
+    bottom: -15px !important;
+    display: block;
+    margin-left: 15px;
+    padding-top: 0;
+    left: 0;
+    justify-content: unset;
+    align-items: unset;
+    top: unset; }
+    @media only screen and (min-width: 768px) {
+      .ow-meet-team .component-content .ow-card-tiles .slick-dots {
+        padding-top: unset; } }
+    .ow-meet-team .component-content .ow-card-tiles .slick-dots li {
+      background: #2B2B2B !important; }
+      .ow-meet-team .component-content .ow-card-tiles .slick-dots li.slick-active {
+        background: #fff !important;
+        border: 1px solid #2B2B2B !important; }
+
+.text-block {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  padding: 30px 0;
+  margin-bottom: 0 !important; }
+  @media only screen and (min-width: 992px) {
+    .text-block {
+      background: #D9171D; } }
+  .text-block h3 {
+    color: #000;
+    font-size: 32px;
+    font-family: "Helvetica Neue"; }
+    @media screen and (min-width: 0) {
+      .text-block h3 {
+        font-size: 32px; } }
+    @media screen and (min-width: 768px) {
+      .text-block h3 {
+        font-size: 32px; } }
+    @media screen and (min-width: 992px) {
+      .text-block h3 {
+        font-size: 32px; } }
+    @media screen and (min-width: 1200px) {
+      .text-block h3 {
+        font-size: 40px; } }
+    @media only screen and (min-width: 992px) {
+      .text-block h3 {
+        color: #fff; } }
+  .text-block p {
+    display: none; }
+    @media only screen and (min-width: 992px) {
+      .text-block p {
+        color: #fff;
+        font-family: "Helvetica Neue";
+        display: block; } }

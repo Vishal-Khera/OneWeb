@@ -1,0 +1,25 @@
+﻿---
+ID: "12f69911-664d-4710-83f9-846b5a47298f"
+Parent: "d84485ad-38fe-45d2-963f-4adb78febcde"
+Template: "d84485ad-38fe-45d2-963f-4adb78febcde"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Navigation/Datasource/OneWeb Navigation Link List Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {6D57A043-3697-4E10-B32E-B6D8B9807D35}
+    {D84485AD-38FE-45D2-963F-4ADB78FEBCDE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220706T121835Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

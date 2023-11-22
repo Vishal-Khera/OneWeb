@@ -1,0 +1,69 @@
+@import 'base/base-index.scss';
+
+.ow-link-list {
+    h4 {
+        @include font-size($lg-font);
+        color: $white;
+        margin-bottom: 27px;
+        font-family: 'HelveticaNeue-Bold';
+        a {
+            color: $white;
+            @include font-size($lg-font);
+        }
+    }
+    p {
+        color: $white;
+    }
+    ul {
+        .field-link {
+            a {
+                color: $mid-light-gray;
+            }
+        }
+    }
+}
+.footer-contact-wrapper {
+    width: 9em;
+    margin-left: 0px;
+    @include md {
+        text-align: right;
+        width: 25% !important;
+        margin-left: 38%;
+    }
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+
+        @include md {
+            width: 50%;
+        }
+    }
+    .col-xl {
+        max-width: 60%;
+        flex: unset;
+        margin-top: -4px;
+
+        @include md {
+            width: 100%;
+        }
+    }
+    p {
+        @include font-size($lg-font);
+        width: 90%;
+    }
+}
+.footer-contact-wrapper {
+    &+div {
+        width: 8em;
+
+        @include md {
+            width: auto;
+        }
+    }
+
+}
+@media (min-device-width:768px) and (max-device-width:1024px) {
+    .footer-contact-wrapper {
+        margin-left: 0px;
+    }
+}

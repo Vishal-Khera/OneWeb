@@ -1,0 +1,18 @@
+﻿---
+ID: "f970e449-4d96-43ec-88aa-f277e600e42e"
+Parent: "ba7313dc-8f70-4a80-9255-30c9e409229d"
+Template: "e35eaa2d-edea-431c-a9e6-488272b53782"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/OneWebSendEmail/PageSettings
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180405T172614Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,29 @@
+﻿---
+ID: "e478b8b9-cba8-4b37-aa5c-b78073734fd4"
+Parent: "b59e370d-57b2-48dd-8164-76ab94761b9f"
+Template: "fca1aaee-864c-4658-8fdb-75cdb4ca89be"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Link Lists/Footer Crea/Social Links/Follow Us/Latest Updates
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{872F582F-5D63-4C0E-9D19-05E706EAD5D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T090611Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: |
+        <link text="Latest Updates" anchor="" linktype="internal" class="icon-twitter" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />
+    - ID: "c1ef176f-8343-4bbc-aa16-684ef202abf0"
+      Hint: Icon
+      Value: 

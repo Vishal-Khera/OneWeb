@@ -1,0 +1,31 @@
+﻿---
+ID: "d739fe5b-2ecf-49b1-8e24-5f6693d8a650"
+Parent: "4bdded48-fe24-4fb4-b791-421622199e10"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWeb/images/time-svgrepo-com-black"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/D739FE5B2ECF49B18E245F6693D8A650.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "ab1bd47c-fa68-4050-a637-15c9d0ce5ff1"
+  Value: PHN2ZyBpZD0idGltZS1zdmdyZXBvLWNvbSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMCAxMCI+DQogIDxwYXRoIGlkPSJQYXRoXzUyMyIgZGF0YS1uYW1lPSJQYXRoIDUyMyIgZD0iTTUsMGE1LDUsMCwxLDAsNSw1QTUuMDA2LDUuMDA2LDAsMCwwLDUsMFpNNSw5LjI3N0E0LjI3Nyw0LjI3NywwLDEsMSw5LjI3OCw1LDQuMjgyLDQuMjgyLDAsMCwxLDUsOS4yNzdaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4wMDEgMCkiIGZpbGw9IiM3MDcwNzAiLz4NCiAgPHBhdGggaWQ9IlBhdGhfNTI0IiBkYXRhLW5hbWU9IlBhdGggNTI0IiBkPSJNNDAuMzA4LDIyLjE3MUg0MC4zbC0xLjA4LjAxNlYxOS4zNjFhLjM2MS4zNjEsMCwxLDAtLjcyMywwdjMuMTk1czAsMCwwLDBhLjM1Mi4zNTIsMCwwLDAsMCwuMDQzYzAsLjAwOSwwLC4wMTgsMCwuMDI3YS4zNC4zNCwwLDAsMCwuMDE0LjA0NWMwLC4wMDgsMCwuMDE2LjAwNy4wMjNhLjM3NC4zNzQsMCwwLDAsLjAyMy4wNDJjMCwuMDA2LjAwNi4wMTMuMDEuMDE5YS4zOC4zOCwwLDAsMCwuMDMxLjAzN2wuMDEzLjAxNmEuMzc5LjM3OSwwLDAsMCwuMDM4LjAzMWwuMDE1LjAxM2EuMzUuMzUsMCwwLDAsLjA0NS4wMjVsLjAxNi4wMDhhLjM3MS4zNzEsMCwwLDAsLjA1Ny4wMThsLjAxMSwwYS4zNjcuMzY3LDAsMCwwLC4wNzIuMDA3aC4wMDZsMS40NDctLjAyMmEuMzYxLjM2MSwwLDAsMC0uMDA1LS43MjNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzMuODYyIC0xNi43MTEpIiBmaWxsPSIjNzA3MDcwIi8+DQo8L3N2Zz4NCg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 817
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T100748Z

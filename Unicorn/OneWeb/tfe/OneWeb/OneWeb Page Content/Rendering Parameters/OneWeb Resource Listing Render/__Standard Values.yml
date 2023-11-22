@@ -1,0 +1,26 @@
+﻿---
+ID: "b630d86f-48a8-4452-804d-c06d3e603e76"
+Parent: "7cecad18-be11-4ef8-89ad-d0e65a24fc08"
+Template: "7cecad18-be11-4ef8-89ad-d0e65a24fc08"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Resource Listing Rendering Parameters/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a00c343-add5-4f75-8019-3b0c4eee64c1"
+      Hint: Show Separator
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211202T073644Z
+    - ID: "df3bb7ad-d0e0-47f2-96ec-a82ce057dfcc"
+      Hint: Show Button
+      Type: Checkbox
+      Value: 1

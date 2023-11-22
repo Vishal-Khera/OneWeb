@@ -1,0 +1,18 @@
+﻿---
+ID: "0a675b4d-79bc-4937-b3c4-65dd6a95f4b7"
+Parent: "c12a6af2-8b57-4369-9ad2-62a25e9a563f"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Page Content/OneWeb Text With Placeholder
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220930T170752Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

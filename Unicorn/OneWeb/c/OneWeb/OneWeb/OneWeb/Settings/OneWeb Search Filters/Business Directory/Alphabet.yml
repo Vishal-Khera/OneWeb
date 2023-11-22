@@ -1,0 +1,32 @@
+﻿---
+ID: "53306818-9dc2-43a4-9035-193139c4d153"
+Parent: "bab278bc-d7fe-4530-8517-abbfc60f4b57"
+Template: "1da424d9-d256-4cfe-8ba9-23ede9519e1c"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/OneWeb Search Filters/Business Directory/Alphabet
+DB: master
+SharedFields:
+- ID: "40f3911c-31ae-4cc6-a811-68104dd8e899"
+  Hint: FieldName
+  Value: ow_alphabet_s
+- ID: "6ae1dc0b-a3c2-4090-8212-3d8453178906"
+  Hint: FilterType
+  Value: Link
+- ID: "813292fc-041f-4bdf-ae52-2fb5fd8df217"
+  Hint: Enabled
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1680635b-2b61-4c1a-a1ab-e789aec2156a"
+      Hint: IsDynamicFilter
+      Type: Checkbox
+      Value: 0
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T115138Z
+    - ID: "c2162163-f687-44eb-8cd0-b3f28a91965b"
+      Hint: DisplayName
+      Value: Alphabet

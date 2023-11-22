@@ -1,0 +1,14 @@
+﻿@using OneWeb.Foundation.SitecoreExtensions.Caching
+@using OneWeb.Foundation.SitecoreExtensions.Extensions
+@{
+    var googleTagManager = CacheManager.GetOrSet("GetTagManagerModel", IntegrationsExtensions.GetTagManagerModel, 86400);
+    if (googleTagManager != null && !string.IsNullOrWhiteSpace(googleTagManager.Id))
+    {
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=@googleTagManager.Id"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    }
+}

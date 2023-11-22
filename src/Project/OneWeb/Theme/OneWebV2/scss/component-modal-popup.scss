@@ -1,0 +1,108 @@
+@import 'base/base-index.scss';
+
+body{
+    
+    .modal {
+        background: $modal-bg;
+        z-index: 9999;
+         .modal-dialog {
+            background: none;
+            position: relative;
+            max-width: unset;
+            max-width: inherit;
+            @include lg {
+                padding: 3px;
+                min-height: 100%;
+                align-items: center;
+                display: flex;
+            }
+
+            .modal-content{
+                background-color: $base-light-gray;
+                @include border-radius(8px);
+                position: static;
+                background-color: transparent;
+                .text-wrapper{
+                    h4{
+                        @include font-size($mlg-font);
+                        color: $brandblack2;
+                        margin-bottom: 5px;
+                        &:last-child{
+                            margin-bottom: 0px;
+                        }
+                        @include lg{
+                            color: $brandblack;
+                        }
+                    }
+                }
+                .text-wrapper{
+                    background: $base-light-gray;
+                }
+            }
+    
+            .close {
+                width: 25px;
+                height: 25px;
+                font-size: 20px;
+                color: $brandblack2;
+                background: $base-light-gray;
+                top: 20px;
+                right: 20px;
+                position: fixed;
+                text-shadow: none;
+    
+                @include lg {
+                    top: -35px;
+                    width: 48px;
+                    height: 48px;
+                    font-size: 35px;
+                }
+
+                span {
+                    @include lg {
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .modal-wrapper{
+                @include md {
+                    max-width: 500px;
+                }
+                @include lg {
+                    max-width: 900px;
+                }
+            }
+
+            .iframe-wrapper {
+                iframe{
+                    @include border-radius(8px 8px 0px 0px);
+                }
+                &:last-child{
+                    iframe{
+                        @include border-radius(8px);
+                    }
+                }
+                .iframe-overlay {
+                    .play-video {
+                        img{
+                            &:focus-visible{
+                                outline: 2px solid $brand;
+                            }
+                        }
+                    }
+                }
+            }
+            .videowraper{
+                video{
+                    @include border-radius(8px 8px 0px 0px);
+                }
+                &:last-child{
+                    video{
+                        @include border-radius(8px);
+                    }
+                }
+            }
+        }
+    }
+}

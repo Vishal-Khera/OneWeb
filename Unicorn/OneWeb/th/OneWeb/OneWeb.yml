@@ -1,0 +1,19 @@
+﻿---
+ID: "609f65c4-aeca-48ae-b8d5-e34683784f68"
+Parent: "dffb86f9-c7af-4f14-84c8-d9f3210ac616"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Themes/OneWeb/OneWeb
+DB: master
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\owuser|pe|+item:read|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T102907Z

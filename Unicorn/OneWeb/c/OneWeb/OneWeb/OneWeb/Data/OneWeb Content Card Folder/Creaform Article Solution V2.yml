@@ -1,0 +1,26 @@
+﻿---
+ID: "53eb1c56-6caa-41a9-953f-f64ef508106e"
+Parent: "d76ac750-a8fc-467d-821a-8a73faba8e41"
+Template: "2dab00c3-0548-4391-9113-5f8c2605231e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder/Creaform Article Solution V2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220803T170725Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: 
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        <h2>Techopedia Explains Lorem Ipsum</h2>
+        Lorem ipsum is the filler text that typically demonstrates the font and style of a text in a document or visual demonstration. It serves as a place holder <br />indicating where the text will be in the final iteration.<br />
+        Originally from Latin, Lorem ipsum has no intelligible meaning. It is simply a display of letters to be viewed as a sample with given graphical elements in a <br />file.<br />
+        "Lipsum" (a portmanteau of lorem and ipsum) generators are commonly used to form generic text in a file. The words are adequately like normal text to <br />demonstrate a font, without distracting the reader with its content.<br />
+        <h3><ul>
+        <li>Delivering the A-QC service offering by creating or optimizing robot trajectories<br /> for our customers quailty control, off-line simulation or assistance in the <br /> mechanical design of jigs adapted to digitization and integration.</li><br /><li>Integrating Creaform systems during the installation of robotic solutions on<br /> customers sites by acting as a coordinator as needed, of the various participants;</li><br /><li>integrating Creaform systems during the installation of robotics solution on customer sites on<br /> customers sites by acting as a coordinator as needed, of the various participants;</li><br /></ul></h3>

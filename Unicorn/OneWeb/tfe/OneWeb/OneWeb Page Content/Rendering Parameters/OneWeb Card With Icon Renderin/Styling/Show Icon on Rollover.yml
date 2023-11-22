@@ -1,0 +1,21 @@
+﻿---
+ID: "ad94dbc6-585f-4547-bda7-8367f0f0264d"
+Parent: "95643c15-8fc1-474e-a985-dbc8c630f0ee"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Card With Icon Rendering Parameters/Styling/Show Icon on Rollover
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211227T084309Z

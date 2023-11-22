@@ -1,0 +1,14 @@
+﻿---
+ID: "1f8784f1-fa6a-4ddb-882d-a8cd6df12b1a"
+Parent: "5b1f5cbb-f635-4979-bce4-2cb90460cd81"
+Template: "fca1aaee-864c-4658-8fdb-75cdb4ca89be"
+Path: /sitecore/templates/Branches/Feature/OneWeb/OneWeb Navigation/OneWeb Link List Branch/$name/Parent/Child 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T214709Z

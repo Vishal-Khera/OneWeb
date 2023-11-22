@@ -1,0 +1,14 @@
+﻿---
+ID: "a3094a4d-c76a-4e88-a818-7a8644894e14"
+Parent: "432d1709-18c7-40dc-b151-dc41bbb8e24f"
+Template: "432d1709-18c7-40dc-b151-dc41bbb8e24f"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Job List Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220809T164323Z

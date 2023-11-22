@@ -1,0 +1,35 @@
+﻿---
+ID: "efaa0c1e-7209-4a31-8509-cdaf2e6cb547"
+Parent: "418b3266-d2c1-4bf8-a2a3-2747bb084775"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWebV2/styles/sitecore-editable"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/EFAA0C1E72094A318509CDAF2E6CB547.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "76716597-d498-41d2-93f6-cc3732805856"
+  Value: Lm9uLXBhZ2UtZWRpdG9yIC5vdy1wcmltYXJ5LWhlYWRlci5zdGlja3ktaGVhZGVyIHsKICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgdG9wOiBhdXRvOyB9Cgoub24tcGFnZS1lZGl0b3IgLm93LXByaW1hcnktaGVhZGVyIC5uYXZiYXItZXhwYW5kLWxnIC5uYXZiYXItbmF2IHsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOyB9Cgoub24tcGFnZS1lZGl0b3IgLm93LXByaW1hcnktaGVhZGVyIC5kcm9wZG93bi1tZW51IHsKICBwb3NpdGlvbjogcmVsYXRpdmUgIWltcG9ydGFudDsKICBkaXNwbGF5OiBibG9jayAhaW1wb3J0YW50OyB9Cgoub24tcGFnZS1lZGl0b3IgLm93LXByaW1hcnktaGVhZGVyIC5tb2JpbGUtbG9nbyB7CiAgZGlzcGxheTogYmxvY2sgIWltcG9ydGFudDsgfQoKLm9uLXBhZ2UtZWRpdG9yIGhlYWRlciB7CiAgei1pbmRleDogMCAhaW1wb3J0YW50OyB9Cgoub24tcGFnZS1lZGl0b3IgLmRhcmstdGhlbWUgLm93LXByaW1hcnktaGVhZGVyIC5tb2JpbGUtbG9nby13aGl0ZSB7CiAgZGlzcGxheTogYmxvY2sgIWltcG9ydGFudDsgfQoKLm9uLXBhZ2UtZWRpdG9yIC5kYXJrLXRoZW1lIC5vdy1wcmltYXJ5LWhlYWRlciAubW9iaWxlLWxvZ28gewogIGRpc3BsYXk6IG5vbmUgIWltcG9ydGFudDsgfQoKLm9uLXBhZ2UtZWRpdG9yIC5jb2xsYXBzZSB7CiAgd2lkdGg6IDExNTJweDsgfQogIC5vbi1wYWdlLWVkaXRvciAuY29sbGFwc2UgLm5hdmJhci1uYXYgewogICAgd2lkdGg6IDEwMCU7IH0KCi5vbi1wYWdlLWVkaXRvciAucHJpbWFyeS1uYXYtd3JhcHBlciAuZC1mbGV4ID4gLmNvbXBvbmVudC1jb250ZW50IHsKICBhbGlnbi1pdGVtczogdW5zZXQgIWltcG9ydGFudDsgfQoKLm9uLXBhZ2UtZWRpdG9yIC5wcmltYXJ5LW5hdi13cmFwcGVyIC5tb2JpbGUtbG9nbyB7CiAgZGlzcGxheTogYmxvY2s7IH0KCi5vbi1wYWdlLWVkaXRvciAub3ctYWNjb3JkaW9uIC50b2dnbGUtY29udGVudCB7CiAgZGlzcGxheTogYmxvY2sgIWltcG9ydGFudDsgfQoKLm9uLXBhZ2UtZWRpdG9yIC5vdy1hY2NvcmRpb24gLnNjTG9vc2VGcmFtZVpvbmUgewogIG92ZXJmbG93LXk6IHZpc2libGUgIWltcG9ydGFudDsgfQoKLm9uLXBhZ2UtZWRpdG9yIGZvb3RlciB7CiAgd2lkdGg6IDEwMCUgIWltcG9ydGFudDsgfQo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1136
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220916T191711Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

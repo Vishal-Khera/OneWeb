@@ -1,0 +1,42 @@
+﻿---
+ID: "64f1f4a0-a2d7-4649-bd85-5dab63ebd54e"
+Parent: "d348ed39-65fc-4f19-8b4a-ad988bb62d85"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Link List/P2 Left Navigation/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{							
+    				data_count = sc_parameter 'Count'									
+    				link_to_show = sc_parameter 'DisplayLink'												
+    }}
+    
+    <div count="{{-data_count-}}" displaylink="{{-link_to_show-}}">
+    {{primary_link_classes = ""}}						
+    {{ primary_filtered_classes = ow_link_model i_item 'Link'
+    							if primary_filtered_classes 
+    								if (primary_filtered_classes.class | string.size) > 0
+    									primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    								end
+    							end}}
+    							
+    						{{primary_link = (sc_field i_item 'PrimaryLink'[['text', (i_item.PrimaryLink.text)], ['class', (primary_link_classes)]])}}
+    						
+    						{{-if primary_link-}}
+    						<a href="{{primary_filtered_classes.url}}" class="{{primary_filtered_classes.class}}" target="{{primary_filtered_classes.target}}" title="{{primary_filtered_classes.title}}">{{primary_filtered_classes.text}}</a>
+    						{{-end-}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220804T113453Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

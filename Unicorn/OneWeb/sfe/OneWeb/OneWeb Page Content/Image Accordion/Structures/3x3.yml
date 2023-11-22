@@ -1,0 +1,212 @@
+﻿---
+ID: "a89a9349-7cbd-48d1-8f9a-25b6d9e5a7ba"
+Parent: "84435fee-4f6b-4ef9-8186-7d292557f446"
+Template: "851511fa-16f0-4200-9650-33c8af27bf94"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Page Content/Image Accordion/Structures/3x3
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2A918814-9A5B-46A5-A3DA-209B36A15D2F}"
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T060358Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3x3
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211215T102300Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3x3
+- Language: "en-GB"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T060451Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3x3
+- Language: "en-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T055706Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3x3
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T060545Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3x3
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T060508Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3x3
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T060435Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3x3
+- Language: "ko-KR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T060319Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3x3
+- Language: "pt-BR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T060420Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{4785714C-2C4A-4784-955B-D638CB42E994}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3x3
+- Language: "th-TH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T060138Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{4785714C-2C4A-4784-955B-D638CB42E994}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3x3
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T060524Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3x3
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T060605Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 3x3

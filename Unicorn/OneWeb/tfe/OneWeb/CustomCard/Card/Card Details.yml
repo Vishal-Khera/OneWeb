@@ -1,0 +1,18 @@
+﻿---
+ID: "05821fc7-19d0-4d91-9680-4eb4e42e00a9"
+Parent: "7c097c41-1982-4f91-8ec5-48bbd1c8621a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/CustomCard/Card/Card Details
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230512T084911Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

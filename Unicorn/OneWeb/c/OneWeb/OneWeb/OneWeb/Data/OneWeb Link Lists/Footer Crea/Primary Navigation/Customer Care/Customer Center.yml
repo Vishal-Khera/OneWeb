@@ -1,0 +1,22 @@
+﻿---
+ID: "d9dbae64-7ddb-4ab0-adee-0efc09694335"
+Parent: "71cedf3f-9c86-4e87-bd51-3ec0df7df599"
+Template: "fca1aaee-864c-4658-8fdb-75cdb4ca89be"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Link Lists/Footer Crea/Primary Navigation/Customer Care/Customer Center
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T090007Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: |
+        <link text="Customer Center" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

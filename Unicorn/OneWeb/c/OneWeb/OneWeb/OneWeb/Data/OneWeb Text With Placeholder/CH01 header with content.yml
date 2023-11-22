@@ -1,0 +1,21 @@
+﻿---
+ID: "8aa91463-d1d0-48e5-a4ac-0a2b08a2b4ca"
+Parent: "b327e41f-ccd9-4aae-a95b-83f8d11dde02"
+Template: "7501c76d-ca5a-4436-b9d6-1330d295f3fa"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Text With Placeholder/CH01 header with content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T133801Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Featured Resource
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

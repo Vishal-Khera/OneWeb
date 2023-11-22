@@ -1,0 +1,22 @@
+﻿---
+ID: "7a4d53c3-8ea3-4811-8d99-cc763ae90798"
+Parent: "504ae189-9f36-4c62-9767-66d73d6c3084"
+Template: "267d9ac7-5d85-4e9d-af89-99ab296cc218"
+Path: /sitecore/system/Dictionary/OneWeb
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/earth.png
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\AmetekCorpOwNonEnglish|pe|+item:read|+item:write|pd|+item:read|+item:write|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211127T195821Z

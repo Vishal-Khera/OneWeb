@@ -1,0 +1,23 @@
+﻿---
+ID: "c083b341-7446-487e-9174-0171f09afb28"
+Parent: "1ddc00ba-6c96-47a8-a88e-114be246befa"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Hero Banner/Hero Banner With Title and Description
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{7AA2AE68-BEA6-42F4-BDF3-0352BF16AF33}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220502T095625Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

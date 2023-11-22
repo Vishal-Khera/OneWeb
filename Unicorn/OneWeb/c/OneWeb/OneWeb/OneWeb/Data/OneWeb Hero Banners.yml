@@ -1,0 +1,18 @@
+﻿---
+ID: "d977a6d2-6b9f-4304-9f88-2bcf5f4c04ba"
+Parent: "8cdb02ae-4106-4fc3-9627-8a8e6d01de5d"
+Template: "d52fd9d8-11c4-4a54-ada5-ee6c42ce700c"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Hero Banners
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T121400Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,14 @@
+﻿---
+ID: "4378deaf-3636-4d4e-8645-095286b2c3f7"
+Parent: "fa58903c-fca5-4abf-9428-b0f7a95a319a"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Video Thumbnail
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220119T105922Z

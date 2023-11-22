@@ -1,0 +1,14 @@
+﻿---
+ID: "cfb0c500-73d1-49de-8ff8-4f22f43d0d5a"
+Parent: "4229641b-8fbd-46b0-b87c-cdfafdc08a01"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Related Listing Rendering Parameters/Page Template
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220920T012519Z

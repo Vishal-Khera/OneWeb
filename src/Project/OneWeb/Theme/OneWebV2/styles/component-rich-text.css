@@ -1,0 +1,23 @@
+.rich-text h2 {
+  font-family: "FranklinGothicLTPro-Md" !important; }
+
+.rich-text .mobile-tabs ul {
+  margin-left: 0px; }
+
+.rich-text ul {
+  margin-left: 20px; }
+  .rich-text ul li::before {
+    content: "\2022";
+    color: #236192;
+    display: inline-block;
+    margin-left: -1em;
+    width: 1em;
+    font-family: "FranklinGothicLTPro-Md" !important; }
+
+.rich-text a, .rich-text a:hover {
+  color: #236192;
+  text-decoration: underline; }
+
+.rich-text a:focus {
+  outline: 4px solid rgba(35, 97, 146, 0.7);
+  line-height: 1.2; }

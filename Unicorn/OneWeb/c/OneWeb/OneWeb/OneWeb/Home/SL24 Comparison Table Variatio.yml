@@ -1,0 +1,78 @@
+﻿---
+ID: "9eb2423e-6000-4608-a932-011cb8fdea38"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/SL24 Comparison Table Variation
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{42E7F7C4-FDFF-4091-AD02-03B11EABB095}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8A542DCB-706A-4B7A-AB94-8B01EF72289B}"
+          p:before="*"
+          s:ds="{BAA65DB7-AC78-4A42-B2EA-EE4829C6FB16}"
+          s:id="{0A6B1318-1F93-43C4-8B71-1D52D17E6DF7}"
+          s:par="GridParameters=%7B7F0C5511-0738-4742-A6B8-343E2438F908%7D&amp;Autoplay&amp;Autoplay Speed=30000&amp;Show Arrows=1&amp;Show Dots=1&amp;Slides To Show=3&amp;Slides To Show Mobile=2.2&amp;Slides To Show Tab=2.2&amp;Custom Slider Class&amp;Carousel Desktop Disable=1&amp;Infinite Loop&amp;Expand Content&amp;FieldNames=%7B0551FB95-4DEA-4F46-AA3D-F578430C9A54%7D&amp;Styles&amp;Word Limit&amp;Dark Theme&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4/ow-text-placeholder*" />
+        <r
+          uid="{1A85B0A9-78A8-4D91-9BE3-0C01D0BD01B1}"
+          p:after="r[@uid='{8A542DCB-706A-4B7A-AB94-8B01EF72289B}']"
+          s:ds="{5EDCC28C-8BE8-4A6D-AA30-B8B4432E801B}"
+          s:id="{2CB89FED-7E2A-4525-81FB-5F5DA79516EF}"
+          s:par="GridParameters&amp;FieldNames=%7B6187D1CB-A528-46F0-970D-E9A9B279300B%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4" />
+        <r
+          uid="{C13D096B-0708-44DF-93CF-BCFE601D23B3}"
+          p:after="r[@uid='{1A85B0A9-78A8-4D91-9BE3-0C01D0BD01B1}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3" />
+        <r
+          uid="{383ADA77-B291-41C0-91EC-EB5CC637FBE0}"
+          p:after="r[@uid='{C13D096B-0708-44DF-93CF-BCFE601D23B3}']"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{1AC07C66-831B-4420-9CAC-47EFDD00EF7E}"
+          p:after="r[@uid='{383ADA77-B291-41C0-91EC-EB5CC637FBE0}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-fluid-1" />
+        <r
+          uid="{50FA2164-CDAD-40AB-81B1-EE571870473E}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1&amp;OwClass=light-theme-card%20light-theme%20large-padding"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220805T082655Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: SL24 Comparison Table Variation
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: SL24 Comparison Table Variation

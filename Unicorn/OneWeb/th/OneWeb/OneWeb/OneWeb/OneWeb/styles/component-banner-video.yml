@@ -1,0 +1,35 @@
+﻿---
+ID: "227d93b7-57bf-4afb-aa61-a285312eff45"
+Parent: "2aa2366f-1418-4350-80c6-81f202505a50"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWeb/styles/component-banner-video"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/227D93B757BF4AFBAA61A285312EFF45.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "ba5bdf1f-b53b-4033-9175-027622bbff8f"
+  Value: Lm93LXZpZGVvLWJhbm5lciB7CiAgd2lkdGg6IDEwMCU7CiAgcG9zaXRpb246IHJlbGF0aXZlOyB9CiAgLm93LXZpZGVvLWJhbm5lciAudmlkZW8tY29udGFpbmVyIHsKICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsKICAgIHBhZGRpbmctdG9wOiA1Ni4yNSU7CiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0OwogICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyOwogICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjsKICAgIG92ZXJmbG93OiBoaWRkZW47IH0KICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTkycHgpIHsKICAgICAgLm93LXZpZGVvLWJhbm5lciAudmlkZW8tY29udGFpbmVyIHsKICAgICAgICBwYWRkaW5nLXRvcDogNDIuOSU7IH0gfQogICAgLm93LXZpZGVvLWJhbm5lciAudmlkZW8tY29udGFpbmVyIGlmcmFtZSwKICAgIC5vdy12aWRlby1iYW5uZXIgLnZpZGVvLWNvbnRhaW5lciB2aWRlbyB7CiAgICAgIHdpZHRoOiAxMDAlOwogICAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICAgIHRvcDogNTAlOwogICAgICBvYmplY3QtZml0OiBjb3ZlcjsKICAgICAgaGVpZ2h0OiAxMDIlOwogICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTUwJSk7IH0KICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTJweCkgewogICAgICAgIC5vdy12aWRlby1iYW5uZXIgLnZpZGVvLWNvbnRhaW5lciBpZnJhbWUsCiAgICAgICAgLm93LXZpZGVvLWJhbm5lciAudmlkZW8tY29udGFpbmVyIHZpZGVvIHsKICAgICAgICAgIGhlaWdodDogMTMyJTsgfSB9CiAgICAub3ctdmlkZW8tYmFubmVyIC52aWRlby1jb250YWluZXIgaWZyYW1lIHsKICAgICAgb2JqZWN0LWZpdDogY29udGFpbiAhaW1wb3J0YW50OyB9Cgoub3ctYmctb3ZlcmxheSAudmlkZW8tY29udGFpbmVyOmFmdGVyIHsKICBjb250ZW50OiAnJzsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgbGVmdDogMDsKICB0b3A6IDA7CiAgaGVpZ2h0OiAxMDAlOwogIHdpZHRoOiAxMDAlOwogIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50IGxpbmVhci1ncmFkaWVudCgyNzBkZWcsICMwMDAwMDAwMCAwJSwgIzAwMDAwMDcwIDAlLCAjMDAwMDAwIDEwMCUpIDAlIDAlIG5vLXJlcGVhdCBwYWRkaW5nLWJveDsgfQo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1139
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T123706Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,39 @@
+﻿---
+ID: "023c978b-50b7-4051-b7e2-57b75c01ee8f"
+Parent: "67b53de4-593a-437f-8c06-6087c34f70b5"
+Template: "1c0ee710-b440-4f8d-80ae-ca464571204b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Image Accordions/Careers/Image Accordion Item 1
+DB: master
+BranchID: "ce00af4f-a371-4142-ac38-c238f4d3e2da"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F3E9648C-3A53-4F00-B29F-3706C4FB051A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211215T101501Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: "Mission-Critical Solution to the <strong>Medical &amp; Healthcare Fields</strong>"
+    - ID: "5457a43c-834a-46a9-b57d-eca5a856f48b"
+      Hint: Image List
+      Value: "{DA2F738E-A5B9-4788-AFA3-3EB5779201E6}|{789BFA3B-8693-45EF-8E32-3C69D89D520E}|{6324F540-AF70-44C4-97C7-3EBB8D039CD1}|{9B3CE77C-30EE-4E68-9F7B-87F3F94DDBD3}|{0012F677-28F0-40C0-8AEC-3276EAE9296C}|{3D4FCE42-7A15-4325-A257-D811619FD7C2}|{2D135965-81B6-40F4-AD67-E5C0E1011CD8}|{5D23CC9F-6E6E-4816-915C-9C0194D7EBDE}|{991DFB77-1BB8-4C91-A27F-BB10FA296569}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: 
+    - ID: "c1ef176f-8343-4bbc-aa16-684ef202abf0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F503A2E1-1769-47A0-8FF2-6DD206CF5C9C}" />
+    - ID: "da373cd7-f723-416e-a552-1ade06c7f708"
+      Hint: Structure
+      Value: "{A89A9349-7CBD-48D1-8F9A-25B6D9E5A7BA}"

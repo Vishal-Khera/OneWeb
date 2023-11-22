@@ -1,0 +1,25 @@
+﻿---
+ID: "2ee3b01f-a027-4084-88df-e5725e481b5a"
+Parent: "b3909844-ff45-449b-8f94-42cb3c9dbbf2"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Comparison Table Folder
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/notebook2.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{99374FE4-EDB6-4EE8-8670-25E6ECB62DA5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T195129Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "cb52b43e-24f3-4db4-830c-5cb8b6ca432f"
+Parent: "876181a5-766e-429b-bb5a-744cb913bfec"
+Template: "fd7827f5-19f9-4c1d-9b11-5349bf84b44b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Page Designs/OneWeb P2 Search
+DB: master
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{1E501F74-4AF3-42A4-A093-0E0D9077D82F}|{49477394-D58F-4784-867D-CC78C2C67E9A}|{997FEEA6-DC8D-4780-99AC-C6E01EBF42F4}|{EC626F14-C173-4D83-AC12-0B2507BD628D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220708T125149Z

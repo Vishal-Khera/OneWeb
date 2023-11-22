@@ -1,0 +1,26 @@
+﻿---
+ID: "7112f084-c861-4ac7-b53b-906d1922fb56"
+Parent: "fa9a11d6-5add-48cf-89f5-86a4fe0f1e82"
+Template: "8d19a541-9707-4001-bf7f-4b7728809ebc"
+Path: /sitecore/templates/Branches/Feature/OneWeb/OneWeb Page Content/OneWeb ImageGallery/$name
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: people/16x16/palette.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220513T033243Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

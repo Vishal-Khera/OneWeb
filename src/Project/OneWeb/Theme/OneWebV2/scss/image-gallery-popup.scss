@@ -1,0 +1,132 @@
+@import 'base/base-index.scss';
+
+.ekko-lightbox {
+    * {
+        font-family: $franklinMd  !important;
+    }
+    display: flex !important;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-right: 0 !important;
+
+    &.modal {
+        overflow-y: hidden;
+        transition: ease-in-out .2s all;
+
+        .modal-dialog {
+            padding: 0px 15px;
+            background: transparent;
+            
+        }
+    }
+
+    .modal-content {
+        background-color: transparent !important;
+        position: absolute !important;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(100% - 30px);
+        @include xl{
+            width: 100%;
+        }
+        .modal-header {
+            padding: 0;
+            border: 0;
+
+            h4 {
+                display: none;
+            }
+
+            .close {
+                position: absolute;
+                top: 0px;
+                right: 5px;
+                width: 25px;
+                height: 25px;
+
+                span {
+                    font-size: 25px;
+                    color: $mediumblack;
+                }
+            }
+        }
+    }
+
+    
+
+    .modal-body {
+        width: 100%;
+        padding: 10px;
+
+        a {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 46%;
+            display: flex;
+            border-radius: 50%;
+            background: $base-light-gray;
+            align-items: center;
+
+            
+
+            span {
+                margin-top: 2px;
+                color: $mediumblack;
+                font-size: 18px;
+            }
+
+            &:first-child {
+                left: -11px;
+                span{
+                    padding-left: 9px;
+                }
+            }
+
+            &:nth-child(2) {
+                right: -11px;
+                span{
+                    padding-left: 11px;
+                }
+            }
+        }
+
+        .ekko-lightbox-item {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+            &.show {
+                height: 100%;
+            }
+
+            img,
+            iframe {
+                height: 100%;
+                @include border-radius(8px);
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    .modal-footer {
+        @include font-size($smlg-font);
+        background: transparent;
+        width: 100%;
+        color: $base-light-gray;
+        border-top: 0;
+        padding: 0 10px;
+        justify-content: center;
+    }
+
+    &.modal.show {
+        .modal-dialog {
+            transform: translate(0, 0%);
+        }
+    }
+}

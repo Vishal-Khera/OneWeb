@@ -1,0 +1,22 @@
+﻿---
+ID: "48c76f95-5f50-499d-97b1-f615203993a9"
+Parent: "c026d2c6-9e2e-4b6b-b746-2879c994e094"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Styles/OneWeb/OneWeb Card/Solution Card
+DB: master
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "solution-card"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220727T100910Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,20 @@
+﻿---
+ID: "cbc345c7-5757-4eb2-81a3-a4f23aead5bd"
+Parent: "b131f76f-30df-47fd-aca8-068f3f5fdbdd"
+Template: "203c7e2d-0b1e-452a-9131-0571054d9633"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Tags/Products/HandyCAM
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T125358Z
+    - ID: "b8a6200e-1384-441a-be51-bf534bc99511"
+      Hint: Color
+      Value: 
+    - ID: "e19779a0-5442-4bc9-a131-898a2a98d42f"
+      Hint: Title
+      Value: HandyCAM

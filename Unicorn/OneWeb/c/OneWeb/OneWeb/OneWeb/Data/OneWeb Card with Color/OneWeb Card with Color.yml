@@ -1,0 +1,24 @@
+﻿---
+ID: "a21dbd55-778b-4024-bf4b-eebe49dff7ff"
+Parent: "d1b67493-84ff-42a1-8fb9-82d9c91bf81b"
+Template: "79805dc1-05db-489f-9aa0-f06f284e3534"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Card with Color/OneWeb Card with Color
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T130446Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Advantages for customers
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Due to the high Ip classes of our brushless DC motors, our drives can withstand the toughest conditions, whether dirt, dust or water in any environment and in all weather conditions. Therefore, our intelligent drives with integrated controllers are ideally suited for the agriculture industry.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

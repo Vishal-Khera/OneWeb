@@ -1,0 +1,45 @@
+﻿---
+ID: "2da247a4-91fb-4ab1-9f2c-07d27efeb5c3"
+Parent: "a91c4152-c825-4fe9-b6df-28c4f77ca3f4"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Related Listing/P2 Related List With Page Type/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if o_model && (o_model.related_listing.size > 0)}} 
+    <div class="component-content wide-image-promo-card">
+       <div class="component ow-related-list">
+         <div class="component-content">
+            <div class="ow-card ow-related-post">
+             <div class="ow-card-content">
+                 <ul>   	    
+                 {{ for data in o_model.related_listing}}
+                 {{item = ow_item data.item_id}}
+        		{{pageType= sc_field item 'Page Type'}}
+    			 <li>		
+    			 {{if (pageType | string.size >0)}}
+    			  {{pageType}}
+    			  {{end}} 
+        		{{if (data.title | string.size >0)}}
+                  <a class="title" href = '{{item.url}}' target="_self">{{data.title}}</a>
+        		{{end}} 
+    		     </li>
+              {{end}}
+        </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    {{end}}
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220211T144323Z

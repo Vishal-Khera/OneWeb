@@ -1,0 +1,32 @@
+﻿---
+ID: "93b5c935-c8cf-49e3-99fc-daabea7a749e"
+Parent: "dd15dd71-fa02-47d1-91b2-d4ea64b866dc"
+Template: "de4ce863-9911-457a-9a47-7e98a634bad6"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Product Card Folder/Big Product Card White
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{B96BBB30-DABE-44ED-B2B8-42AFBD4D6E57}"></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220714T114158Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: SmartDENT&nbsp;<sup>TM</sup>
+    - ID: "59de0dd6-79df-4fd5-a7b9-44b75095adba"
+      Hint: Category
+      Value: Aircraft surface 3D assessments software
+    - ID: "d8102b5b-0ae4-4e50-9880-2d71b652465e"
+      Hint: MobileImage
+      Value: |
+        <image mediaid="{B96BBB30-DABE-44ED-B2B8-42AFBD4D6E57}" />
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

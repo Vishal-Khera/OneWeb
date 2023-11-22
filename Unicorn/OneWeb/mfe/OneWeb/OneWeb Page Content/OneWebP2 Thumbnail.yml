@@ -1,0 +1,14 @@
+﻿---
+ID: "86243855-1ea1-4a84-9fc8-cc4808b5d82d"
+Parent: "c12a6af2-8b57-4369-9ad2-62a25e9a563f"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Page Content/OneWebP2 Thumbnail
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T065825Z

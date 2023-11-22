@@ -1,0 +1,45 @@
+﻿---
+ID: "1ebbf47e-02b9-42f7-a75a-cc3c6b3fd3b0"
+Parent: "0b5aec76-e247-40d7-9005-3451fcb625f8"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/OneWeb/OneWeb/Redirect
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/arrow_loop.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {371D5FBB-5498-4D94-AB2B-E3B70EEBE78C}
+    {22B8278C-B4AD-4FA6-AB36-02E8CC05B845}
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 250
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{03F94279-C5FA-4532-9ECC-1C04104FB0AC}" />
+    </r>
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{9112A052-05BF-4F24-801E-E0A4798E6862}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120111T081900Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

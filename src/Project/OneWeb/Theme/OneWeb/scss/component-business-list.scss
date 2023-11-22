@@ -1,0 +1,33 @@
+@import 'base/base-index.scss';
+
+.business-list{
+    padding: 30px 15px 15px;
+    background: $white-gray;
+    @include md{
+        padding: 40px;
+    }
+    .business-list-items{
+        h3{
+            font-family: 'HelveticaNeue-Medium';
+            @include font-size($md-font);
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            a{
+                color:$primary;
+            }
+            li{
+                padding-bottom: 10px;
+                @include font-size($sm-font);
+            }
+        }
+    }
+    .business-logo{
+        max-width: 200px;
+        @include md{
+            max-width: 170px;
+        }
+    }
+}

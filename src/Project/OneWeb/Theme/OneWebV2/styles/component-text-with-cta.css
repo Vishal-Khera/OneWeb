@@ -1,0 +1,13 @@
+.text-cta-wrapper {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  padding: 30px 15px; }
+  @media only screen and (min-width: 768px) {
+    .text-cta-wrapper {
+      padding: 30px 20px; } }
+  .text-cta-wrapper * {
+    font-family: "FranklinGothicLTPro-Md" !important; }
+
+.blue-theme.text-cta-wrapper h2 {
+  color: #F7F7F7; }

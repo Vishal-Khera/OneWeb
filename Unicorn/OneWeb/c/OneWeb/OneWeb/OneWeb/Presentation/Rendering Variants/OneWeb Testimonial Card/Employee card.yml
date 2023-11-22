@@ -1,0 +1,14 @@
+﻿---
+ID: "264d6881-214c-4144-b737-98b377aa7fa3"
+Parent: "d31cb4ab-ec7c-4371-b7a8-43346625686b"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Testimonial Card/Employee card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220330T075303Z

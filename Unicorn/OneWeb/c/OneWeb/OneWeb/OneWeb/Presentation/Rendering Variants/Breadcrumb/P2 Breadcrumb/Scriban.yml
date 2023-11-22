@@ -1,0 +1,35 @@
+﻿---
+ID: "d41cf965-b696-48fa-ab3f-6473c8c49fe4"
+Parent: "59136c84-39cd-45d3-b799-e4618de3bca5"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Breadcrumb/P2 Breadcrumb/Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if (i_item.NavigationTitle=="")-}}
+    <div class=" navigation-title field-navigationtitle ">
+    <a href="{{i_item.url}}">
+    <i class="icon-breadcrumb-home"></i>
+    </a>
+    </div>
+    {{end}}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T114233Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

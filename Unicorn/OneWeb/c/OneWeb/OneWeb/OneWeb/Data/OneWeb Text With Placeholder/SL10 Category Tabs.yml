@@ -1,0 +1,17 @@
+﻿---
+ID: "5800654d-750c-415f-8a83-a80c7dc0d15d"
+Parent: "b327e41f-ccd9-4aae-a95b-83f8d11dde02"
+Template: "7501c76d-ca5a-4436-b9d6-1330d295f3fa"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Text With Placeholder/SL10 Category Tabs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220821T205133Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Events, news &amp; other resources

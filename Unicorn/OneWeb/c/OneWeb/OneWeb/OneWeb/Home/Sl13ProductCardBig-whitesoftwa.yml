@@ -1,0 +1,100 @@
+﻿---
+ID: "02582d46-82bb-450c-a1af-347e6f15e2fe"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Home/Sl13ProductCardBig-whitesoftware"
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{FD2C7E55-12EB-4B43-9831-78319043AABD}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2F2682A4-683F-49D3-95A3-02B6FA502CDC}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1408DB4A-92C4-41DF-9257-1A28DBC9B1AF}"
+          p:before="*"
+          s:ds="{93B5C935-C8CF-49E3-99FC-DAABEA7A749E}"
+          s:id="{ECC6279A-D20B-4C66-87CD-D25E3B7434CF}"
+          s:par="GridParameters&amp;FieldNames=%7B51453DAE-2491-48DF-B029-15066AB16AF1%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4/ow-column-5" />
+        <r
+          uid="{7F386FD7-23F1-4CE7-8D4F-B0F7A44D0410}"
+          p:after="r[@uid='{1408DB4A-92C4-41DF-9257-1A28DBC9B1AF}']"
+          s:ds="{93B5C935-C8CF-49E3-99FC-DAABEA7A749E}"
+          s:id="{ECC6279A-D20B-4C66-87CD-D25E3B7434CF}"
+          s:par="GridParameters&amp;FieldNames=%7B51453DAE-2491-48DF-B029-15066AB16AF1%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4/ow-column-6" />
+        <r
+          uid="{71054123-436C-490F-8028-6141AF69BA0D}"
+          p:after="r[@uid='{7F386FD7-23F1-4CE7-8D4F-B0F7A44D0410}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7B67B5C879-BCEF-466C-A740-F637E0F4647C%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5&amp;OwClass=py-md-4"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4" />
+        <r
+          uid="{BF08DD9C-304D-4F5F-880E-2693FB23A48F}"
+          p:after="r[@uid='{71054123-436C-490F-8028-6141AF69BA0D}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7B67B5C879-BCEF-466C-A740-F637E0F4647C%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6&amp;OwClass=py-md-4"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4" />
+        <r
+          uid="{E7A50729-6AE9-4281-905A-0BA5DDDBAABD}"
+          p:after="r[@uid='{BF08DD9C-304D-4F5F-880E-2693FB23A48F}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3" />
+        <r
+          uid="{9B963750-42CC-4956-BB90-B8597A7DF690}"
+          p:after="r[@uid='{E7A50729-6AE9-4281-905A-0BA5DDDBAABD}']"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{038168D5-7F72-4F73-9119-514BD16CB31D}"
+          p:after="r[@uid='{9B963750-42CC-4956-BB90-B8597A7DF690}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-fluid-1" />
+        <r
+          uid="{7FFF87CE-C29F-4FDA-B02E-3FCA1D1D84BB}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220711T091644Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Sl13 Product Card Big
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sl13 Product Card Big
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

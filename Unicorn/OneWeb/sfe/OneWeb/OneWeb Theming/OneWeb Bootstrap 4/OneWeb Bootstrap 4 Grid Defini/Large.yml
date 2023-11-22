@@ -1,0 +1,27 @@
+﻿---
+ID: "4b69c376-d516-42f5-a0e9-689af7c67221"
+Parent: "9992045a-61ed-4624-8dd5-33e61e11a6da"
+Template: "bca0e629-150f-41dd-893b-f4b65338c0b7"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Theming/OneWeb Bootstrap 4/OneWeb Bootstrap 4 Grid Definition/Large
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161216T080538Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        default\Anonymous
+    - ID: "b55a9065-9589-41d8-997b-9b4592852134"
+      Hint: Tooltip
+      Value: |
+        Layout settings for laptops.
+        Will be used on desktops if not overridden.

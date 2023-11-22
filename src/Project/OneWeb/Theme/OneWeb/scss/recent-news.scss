@@ -1,0 +1,33 @@
+@import 'base/base-index.scss';
+
+
+
+.ow-recent-news {
+    .ow-card-content {
+        border: 1px solid $mid-gray;
+        border-radius: 5px;
+        padding: 25px  20px;
+        h2{
+            font-family: 'HelveticaNeue-Medium';
+            @include font-size($lg-font);
+        }
+        ul {
+            @include font-size($md-font);
+            li { 
+                a{
+                    color:$black;
+                    &:hover, &:focus{
+                        color:$black;
+                        
+                    }
+
+                }
+               border-top: 1px solid $mid-gray; 
+               padding: 10px 0px;
+               &:last-child{
+                padding: 10px 0px 0px 0px;
+               } 
+            }
+        }
+    }
+}

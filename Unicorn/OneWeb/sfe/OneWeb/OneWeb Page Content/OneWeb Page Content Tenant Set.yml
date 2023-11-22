@@ -1,0 +1,21 @@
+﻿---
+ID: "3846ed70-fb17-4c8f-addf-c03cf1965efa"
+Parent: "c64dd82c-dcb3-41c2-a998-28c801e42c7c"
+Template: "141df88e-7156-4d2e-a004-c8c1a7c51e9d"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Page Content/OneWeb Page Content Tenant Setup
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211120T185639Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: OneWeb Page Content

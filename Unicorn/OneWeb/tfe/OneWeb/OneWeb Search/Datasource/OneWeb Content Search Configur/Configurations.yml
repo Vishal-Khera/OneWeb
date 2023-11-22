@@ -1,0 +1,14 @@
+﻿---
+ID: "8146861a-b66e-4382-ad1e-3efdd17d158b"
+Parent: "1a08b4cb-c273-4f3a-a001-b2878151081e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Datasource/OneWeb Content Search Configuration/Configurations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T120953Z

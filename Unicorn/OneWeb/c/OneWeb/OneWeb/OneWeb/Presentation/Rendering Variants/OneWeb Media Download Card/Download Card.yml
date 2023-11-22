@@ -1,0 +1,19 @@
+﻿---
+ID: "d65be06d-b9f3-464e-917b-249c93628037"
+Parent: "0d55844f-1c30-41dd-8c8a-b0bf4e7bd03d"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Media Download Card/Download Card
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B1F82055-E06E-428F-B182-29D7C7334ABE}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220104T153153Z

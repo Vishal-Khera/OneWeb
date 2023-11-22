@@ -1,0 +1,39 @@
+﻿---
+ID: "7a025f51-91b1-46de-a0d3-e20603c17b0d"
+Parent: "905e8f7d-9e27-408f-a922-1c199606d548"
+Template: "b8b8eaa3-d3b3-4cb0-a337-8132ef69005f"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Comparison Cards/Card 3
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c01cfada-cf62-4d48-b8c0-3c3bcd4a1687"
+  Hint: Property
+  Value: |
+    {"{68573936-2EE9-46C4-9F70-2D45C285F59E}":"Up to 0.030 mm\n<span>(0.0012 in)</span>","{A06F708A-C749-4E78-A7E1-8C9320BF05E9}":"0.086 mm\n<span>(0.0012 in)</span>","{30D2C1C8-05D9-4B6E-8178-067C2051A0BA}":"0.122 mm\n<span>(0.0012 in)</span>","{2ED72DD5-35BE-4D77-B37A-04B6CB6E6A48}":"0.060 mm + 0.015mm/m\n<span>(0.0012 in + 0.00018 in/ft)</span>","{75C7A459-20C1-4F37-BF57-7B01E367AAC5}":"0.030 mm\n<span>(0.0012 in)</span>","{72578A70-5DF8-4D0D-8ABD-B2C790A26320}":"0.100 mm\n<span>(0.0012 in)</span>"}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{08E2DEAB-CF84-401E-9A10-728C7107AE0F}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220805T184216Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: MetraSCAN BLACK<sup>TM</sup>|Elite
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Price starting at <b>$41,000<sup>00</sup></b>
+    - ID: "983a37b2-16e7-4dba-a96d-c0d5530f7699"
+      Hint: Subtext
+      Value: 
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

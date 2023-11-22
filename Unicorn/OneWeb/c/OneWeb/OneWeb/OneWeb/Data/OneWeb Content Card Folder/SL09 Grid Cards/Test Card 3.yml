@@ -1,0 +1,28 @@
+﻿---
+ID: "5c2da9e1-e219-4c1f-9985-2ff02080e325"
+Parent: "6f41bd2b-d367-4409-9dd4-22ae5a5661e3"
+Template: "2dab00c3-0548-4391-9113-5f8c2605231e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder/SL09 Grid Cards/Test Card 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{2823E5A5-D517-4425-8F33-D643114AC820}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220718T085036Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Replacement/Recycling
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Molestie a iaculis at erat pellentesque adipiscing commodo elit.
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

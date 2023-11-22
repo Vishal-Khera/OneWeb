@@ -1,0 +1,21 @@
+﻿---
+ID: "d3312cb6-1126-49c1-b4e2-ee8fe5b525b7"
+Parent: "778df151-8203-4995-bc89-bbfec2d232e4"
+Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/OneWebRedirect/PageSettings/HeaderSubtitle
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "240acdcd-c405-4e49-a96a-b3caab843920"
+      Hint: Text
+      Value: Select an Internal Page or an External Link that you want to redirect to on Form Submission.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170403T085023Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

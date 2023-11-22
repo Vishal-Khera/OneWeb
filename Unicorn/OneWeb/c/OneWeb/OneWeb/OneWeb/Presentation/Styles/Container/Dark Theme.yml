@@ -1,0 +1,26 @@
+﻿---
+ID: "1f5570e3-010f-4b51-8a6e-ad08639e1fb9"
+Parent: "74318771-3388-4f15-9968-d5f5e5b64dcc"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Styles/Container/Dark Theme
+DB: master
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "dark-theme"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Type: TreelistEx
+  Value: "{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220629T132509Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

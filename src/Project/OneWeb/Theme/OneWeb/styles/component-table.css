@@ -1,0 +1,173 @@
+.table-data {
+  table-layout: fixed;
+  width: 1000px;
+  overflow-x: scroll; }
+  @media only screen and (min-width: 992px) {
+    .table-data {
+      table-layout: unset;
+      width: 100%; } }
+  .table-data thead tr th {
+    border-top: unset;
+    border-bottom: unset;
+    color: #D9171D;
+    font-size: 22px;
+    font-family: "HelveticaNeue-Bold";
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 166px; }
+    @media screen and (min-width: 0) {
+      .table-data thead tr th {
+        font-size: 22px; } }
+    @media screen and (min-width: 768px) {
+      .table-data thead tr th {
+        font-size: 24px; } }
+    @media screen and (min-width: 992px) {
+      .table-data thead tr th {
+        font-size: 24px; } }
+    .table-data thead tr th:nth-child(1) {
+      width: 300px; }
+  .table-data tbody tr td {
+    color: #707070;
+    font-size: 16px;
+    font-family: "HelveticaNeue-Light";
+    border-color: #707070;
+    background-color: unset;
+    padding-left: 5px;
+    padding-right: 5px;
+    word-break: break-word; }
+    @media screen and (min-width: 0) {
+      .table-data tbody tr td {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .table-data tbody tr td {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .table-data tbody tr td {
+        font-size: 16px; } }
+    .table-data tbody tr td a {
+      font-size: 20px;
+      color: #000;
+      font-family: "HelveticaNeue-Medium"; }
+      @media screen and (min-width: 0) {
+        .table-data tbody tr td a {
+          font-size: 20px; } }
+      @media screen and (min-width: 768px) {
+        .table-data tbody tr td a {
+          font-size: 20px; } }
+      @media screen and (min-width: 992px) {
+        .table-data tbody tr td a {
+          font-size: 20px; } }
+      .table-data tbody tr td a:hover {
+        color: #D9171D; }
+  .table-data tbody tr:nth-of-type(odd) {
+    background-color: #fff; }
+  .table-data tbody tr:nth-of-type(even) {
+    background-color: #fff; }
+
+.specifications {
+  table-layout: fixed;
+  min-width: 600px; }
+  @media only screen and (min-width: 992px) {
+    .specifications {
+      table-layout: fixed;
+      width: unset; } }
+  .specifications tbody tr td {
+    color: #707070;
+    font-size: 22px;
+    font-family: 'Helvetica Neue';
+    border-color: #707070;
+    background-color: unset;
+    padding-left: 5px;
+    padding-right: 5px;
+    word-break: break-word;
+    color: #2B2B2B;
+    width: 100px; }
+    @media screen and (min-width: 0) {
+      .specifications tbody tr td {
+        font-size: 22px; } }
+    @media screen and (min-width: 768px) {
+      .specifications tbody tr td {
+        font-size: 24px; } }
+    @media screen and (min-width: 992px) {
+      .specifications tbody tr td {
+        font-size: 24px; } }
+    .specifications tbody tr td:nth-child(1) {
+      width: 200px; }
+    .specifications tbody tr td:nth-child(2) {
+      width: 280px; }
+
+.user-manager {
+  table-layout: fixed;
+  width: 1000px;
+  overflow-x: scroll; }
+  @media only screen and (min-width: 992px) {
+    .user-manager {
+      table-layout: unset;
+      width: 100%; } }
+  .user-manager thead tr th {
+    border-top: unset;
+    border-bottom: unset;
+    color: #D9171D;
+    font-size: 22px;
+    font-family: "HelveticaNeue-Bold";
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 166px; }
+    @media screen and (min-width: 0) {
+      .user-manager thead tr th {
+        font-size: 22px; } }
+    @media screen and (min-width: 768px) {
+      .user-manager thead tr th {
+        font-size: 24px; } }
+    @media screen and (min-width: 992px) {
+      .user-manager thead tr th {
+        font-size: 24px; } }
+  .user-manager tbody tr td {
+    color: #707070;
+    font-size: 16px;
+    font-family: "HelveticaNeue-Light";
+    border-color: #707070;
+    background-color: unset;
+    padding-left: 5px;
+    padding-right: 5px;
+    word-break: break-word; }
+    @media screen and (min-width: 0) {
+      .user-manager tbody tr td {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .user-manager tbody tr td {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .user-manager tbody tr td {
+        font-size: 16px; } }
+    .user-manager tbody tr td a {
+      display: inline;
+      padding: 5px; }
+    .user-manager tbody tr td .active {
+      font-size: 14px;
+      color: #D9171D; }
+      @media screen and (min-width: 0) {
+        .user-manager tbody tr td .active {
+          font-size: 14px; } }
+      @media screen and (min-width: 768px) {
+        .user-manager tbody tr td .active {
+          font-size: 14px; } }
+      @media screen and (min-width: 992px) {
+        .user-manager tbody tr td .active {
+          font-size: 14px; } }
+    .user-manager tbody tr td .inactive {
+      font-size: 14px;
+      color: #7F7F7F; }
+      @media screen and (min-width: 0) {
+        .user-manager tbody tr td .inactive {
+          font-size: 14px; } }
+      @media screen and (min-width: 768px) {
+        .user-manager tbody tr td .inactive {
+          font-size: 14px; } }
+      @media screen and (min-width: 992px) {
+        .user-manager tbody tr td .inactive {
+          font-size: 14px; } }
+  .user-manager tbody tr:nth-of-type(odd) {
+    background-color: #fff; }
+  .user-manager tbody tr:nth-of-type(even) {
+    background-color: #fff; }

@@ -1,0 +1,87 @@
+.filter-search-wrapper {
+  position: relative; }
+  .filter-search-wrapper .filter-search {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: 0px 3px 6px #00000029; }
+    .filter-search-wrapper .filter-search input {
+      width: 100%;
+      border-right: 0;
+      border-radius: 0; }
+      .filter-search-wrapper .filter-search input:focus-visible, .filter-search-wrapper .filter-search input:focus {
+        border: 1px solid #D9171D !important;
+        outline: none; }
+      @media (max-width: 1365px) {
+        .filter-search-wrapper .filter-search input:hover, .filter-search-wrapper .filter-search input:focus {
+          border: 1px solid #D9171D !important; } }
+      @media not all and (min-resolution: 0.001dpcm) {
+        @supports (-webkit-appearance: none) {
+          .filter-search-wrapper .filter-search input:hover, .filter-search-wrapper .filter-search input:focus {
+            border: 1px solid #D9171D !important; } } }
+    .filter-search-wrapper .filter-search button {
+      width: 43px;
+      background-color: #D9171D;
+      appearance: none;
+      -webkit-appearance: none;
+      border: 0;
+      outline: 0;
+      color: #fff;
+      font-size: 30px;
+      background-image: url("../images/search-white.svg");
+      background-repeat: no-repeat;
+      background-size: 16px;
+      background-position: center;
+      cursor: pointer; }
+      .filter-search-wrapper .filter-search button:focus-visible {
+        outline: 2px solid #fff; }
+  .filter-search-wrapper .filter-facets .search-value {
+    color: #D9171D; }
+  .filter-search-wrapper .search-for {
+    margin-bottom: 15px;
+    float: left;
+    margin-right: 10px; }
+    @media only screen and (min-width: 768px) {
+      .filter-search-wrapper .search-for {
+        margin-bottom: 0; } }
+  .filter-search-wrapper .suggestion-label {
+    float: left; }
+    .filter-search-wrapper .suggestion-label a {
+      margin-left: 5px;
+      color: #000; }
+
+@media only screen and (min-width: 768px) {
+  .filter-result.gridView .ow-container {
+    display: flex;
+    flex-wrap: wrap; } }
+
+@media only screen and (min-width: 768px) {
+  .filter-result.gridView {
+    display: flex;
+    flex-wrap: wrap; }
+    .filter-result.gridView .ow-card-news {
+      width: calc(100%/3);
+      padding: 40px 15px 20px;
+      background-color: #F1F1F1;
+      border-bottom: 0;
+      position: relative;
+      border-left: 8px solid #fff;
+      border-right: 8px solid #fff; }
+      .filter-result.gridView .ow-card-news label:not(.suggestion-label) {
+        position: absolute;
+        left: 0;
+        top: 0; }
+      .filter-result.gridView .ow-card-news h3 {
+        -webkit-line-clamp: 5; } }
+
+.filter-result .ow-container {
+  width: 100%; }
+
+.filter-result .ow-load-more {
+  width: 100%; }
+
+.filter-result p {
+  float: left; }
+
+.search-half-overflow {
+  margin-top: -22px; }

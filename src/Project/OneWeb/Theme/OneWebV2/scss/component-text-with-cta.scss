@@ -1,0 +1,20 @@
+@import 'base/base-index.scss';
+
+.text-cta-wrapper{
+    @include border-radius(8px);
+    padding: 30px 15px;
+    @include md{
+        padding: 30px 20px;
+    }
+    *{
+        font-family: $franklinMd !important;
+    }
+}
+
+.blue-theme{
+    &.text-cta-wrapper{
+        h2{
+            color: $base-light-gray;
+        }
+    }
+}

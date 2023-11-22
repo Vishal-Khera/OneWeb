@@ -1,0 +1,37 @@
+﻿---
+ID: "aa64cfa5-ce5f-4501-a382-f470ff7b17c6"
+Parent: "88a338cd-14ae-4077-aee0-dc272b2b151b"
+Template: "1c0ee710-b440-4f8d-80ae-ca464571204b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Image Accordions/Creaform Vertical Cards/Image Accordion Item 5
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220112T190057Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Reverse Engineering
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+         <p>
+                                    High-resolution, versatile, easy-to-use, and quick 3D scanning tools and software are the solutions to fulfill your goals and overcome your challenges.
+                                </p>
+    - ID: "5457a43c-834a-46a9-b57d-eca5a856f48b"
+      Hint: Image List
+      Value: "{F4F032AC-3F41-44CF-8E9B-3E989E174D46}"
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />
+    - ID: "c1ef176f-8343-4bbc-aa16-684ef202abf0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F503A2E1-1769-47A0-8FF2-6DD206CF5C9C}" />
+    - ID: "da373cd7-f723-416e-a552-1ade06c7f708"
+      Hint: Structure
+      Value: "{A89A9349-7CBD-48D1-8F9A-25B6D9E5A7BA}"

@@ -1,0 +1,40 @@
+@import 'base/base-index.scss';
+
+.shared-global{
+    float: right;
+
+    ul{
+        list-style:none;
+        margin-top: 39px;
+        border-left: 1px solid $border-light-gray;
+        margin-left: 0px;
+        padding: 0;
+        margin-bottom: 0;
+        li{
+            padding:0 0 0 15px;
+            margin: 0px;
+            line-height: 24px;
+            list-style: none;
+            list-style-position: unset;
+            &::marker{
+                display: none;
+                content: '';
+            }
+            a{
+                font-size: 12px;
+                color: $white;
+                text-decoration: none;
+                &:hover{
+                    color: $white !important;
+                }
+                @include md{
+                    font-size: 12px;
+                    
+                }
+                i{
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+}

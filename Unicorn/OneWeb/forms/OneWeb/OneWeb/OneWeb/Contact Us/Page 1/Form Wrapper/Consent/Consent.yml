@@ -1,0 +1,32 @@
+﻿---
+ID: "b0cf6a0a-242b-4afe-972b-f26e0ce30f55"
+Parent: "3a639a7a-a44a-4c07-b0c0-7dd03f0d6246"
+Template: "2f07293c-077f-456c-b715-fdb791acb367"
+Path: /sitecore/Forms/OneWeb/OneWeb/OneWeb/Contact Us/Page 1/Form Wrapper/Consent/Consent
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: B425F64C9B1C4B00B218C032FB30AC1E
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "ecd17630-5f51-45db-b52f-b3dfaec4fa1b"
+  Hint: Store Binding Value
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211205T165334Z
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: To receive our materials around our products and services, check this box. You can unsubscribe at any time using the 'unsubscribe' feature at the buttom of this page.

@@ -1,0 +1,39 @@
+﻿---
+ID: "40509e7d-ea09-41a0-9fe3-586c7699f5be"
+Parent: "bd1fda27-36ba-4ab8-8789-e154618e452d"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/P2 Advanced Checkbox Filter/Container
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="filters-card filter-facet-wrapper" data-list="{{sc_raw i_item 'Visible Count'}}">
+        <div class="filters-card__title filter-facet-head" ow-key="{{sc_raw i_item "FieldName"}}">
+            {{sc_raw i_item 'DisplayName'}}
+            <a href="javascript:void(0)" class="toggle-filter">
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="filters-card__items">
+            <div class="ow-container"></div>        
+            <a href="javascript:void(0)" class="show-filter">{{sc_raw i_item 'Show More Text'}}</a>
+            <a href="javascript:void(0)" class="less-filter">{{sc_raw i_item 'Show Less Text'}}</a>
+        </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T182542Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

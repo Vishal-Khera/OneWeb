@@ -1,0 +1,74 @@
+@import 'base/base-index.scss';
+
+.social-links-wrapper{
+    background-color: $fade-blue;
+    @include border-radius(4px);
+    padding: 0px 0px;
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    li{
+        margin: 3px;
+        // padding: 3px 5px;
+        a{
+            padding: 10px 12px;
+            outline: 4px solid transparent;
+            transition: .25s;
+            line-height: 1;
+            &:hover{
+                background:$brand;
+                i{
+                    color: $white;
+                }
+            }
+            &:active{
+                background:$brand;
+                outline: 4px solid $sea-blue;
+                i{
+                    color: $white;
+                }
+            }
+        }
+        
+    }
+    i{
+        color: $brand;
+        &::before{
+            font-size: 20px;
+        }
+    }
+}
+
+.social-share{
+    .at-share-btn-elements{
+        padding: 3px;
+        background-color: $fade-blue;
+        @include border-radius(4px);
+        width: max-content;
+        a{
+            background-color: transparent !important;
+            margin: 0 2px;
+            span{
+                margin: 5px;
+            }
+            svg{
+                fill: $brand !important;
+            }
+            &:hover{
+                background-color: $brand !important;
+                svg{
+                    fill: $base-light-gray !important;
+                }
+            }
+            &:focus{
+                background-color: $brand !important;
+                outline: 4px solid $sea-blue;
+                svg{
+                    fill: $base-light-gray !important;
+                }
+            }
+        }
+    }
+}
+

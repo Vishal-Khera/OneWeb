@@ -1,0 +1,35 @@
+﻿---
+ID: "90a58529-5415-401f-b477-9f0cf1b3b524"
+Parent: "2aa2366f-1418-4350-80c6-81f202505a50"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWeb/styles/component-social-icon"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/90A585295415401FB4779F0CF1B3B524.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "2ee6b8d5-2c09-430e-a04e-baef38c57931"
+  Value: Lm93LWltYWdlLWxpbmstbGlzdCB7CiAgdGV4dC1hbGlnbjogbGVmdDsKICBmb250LXdlaWdodDogMzAwOwogIG1hcmdpbi10b3A6IDE1cHg7IH0KICAub3ctaW1hZ2UtbGluay1saXN0IHVsIHsKICAgIGxpc3Qtc3R5bGU6IG5vbmU7CiAgICBtYXJnaW46IDA7CiAgICBwYWRkaW5nOiAwOyB9CiAgICAub3ctaW1hZ2UtbGluay1saXN0IHVsIGxpIHsKICAgICAgZGlzcGxheTogaW5saW5lLWZsZXg7IH0KICAgICAgLm93LWltYWdlLWxpbmstbGlzdCB1bCBsaSBhIHsKICAgICAgICBkaXNwbGF5OiBmbGV4OwogICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwogICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgICAgICAgbWFyZ2luOiAwIDRweDsKICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7CiAgICAgICAgd2lkdGg6IDMwcHg7CiAgICAgICAgaGVpZ2h0OiAzMHB4OwogICAgICAgIGJhY2tncm91bmQ6ICNEOTE3MUQ7CiAgICAgICAgYm9yZGVyLXJhZGl1czogMTAwJTsKICAgICAgICAtd2Via2l0LWJvcmRlci1yYWRpdXM6IDEwMCU7CiAgICAgICAgLW1vei1ib3JkZXItcmFkaXVzOiAxMDAlOyB9CiAgICAgICAgLm93LWltYWdlLWxpbmstbGlzdCB1bCBsaSBhIGkgewogICAgICAgICAgY29sb3I6ICNmZmY7CiAgICAgICAgICBmb250LXNpemU6IDE4cHg7IH0K
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 669
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T123707Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

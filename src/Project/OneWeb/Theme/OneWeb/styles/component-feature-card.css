@@ -1,0 +1,67 @@
+.ow-card-tiles.ow-product-feature .card-item, .ow-card.ow-product-feature .card-item {
+  margin-bottom: 30px;
+  cursor: default; }
+  .ow-card-tiles.ow-product-feature .card-item .tile-slide .card-title-content img, .ow-card.ow-product-feature .card-item .tile-slide .card-title-content img {
+    margin-bottom: 12px; }
+  .ow-card-tiles.ow-product-feature .card-item .card-overlay, .ow-card.ow-product-feature .card-item .card-overlay {
+    top: 0px;
+    background-color: unset; }
+    .ow-card-tiles.ow-product-feature .card-item .card-overlay img, .ow-card.ow-product-feature .card-item .card-overlay img {
+      margin-bottom: 10px; }
+    .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text {
+      color: #fff;
+      font-size: 16px; }
+      @media screen and (min-width: 0) {
+        .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text {
+          font-size: 16px; } }
+      @media screen and (min-width: 768px) {
+        .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text {
+          font-size: 16px; } }
+      @media screen and (min-width: 992px) {
+        .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text {
+          font-size: 16px; } }
+      .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text h4, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text h4 {
+        color: #D9171D;
+        font-size: 22px;
+        font-family: "Helvetica Neue"; }
+        @media screen and (min-width: 0) {
+          .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text h4, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text h4 {
+            font-size: 22px; } }
+        @media screen and (min-width: 768px) {
+          .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text h4, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text h4 {
+            font-size: 24px; } }
+        @media screen and (min-width: 992px) {
+          .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text h4, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text h4 {
+            font-size: 24px; } }
+      .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text .list-item, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text .list-item {
+        padding-left: 20px;
+        margin: 0; }
+        .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text .list-item ul, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text .list-item ul {
+          padding-left: 0; }
+          .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text .list-item ul li, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text .list-item ul li {
+            list-style-type: square;
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: #2B2B2B; }
+            @media screen and (min-width: 0) {
+              .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text .list-item ul li, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text .list-item ul li {
+                font-size: 18px; } }
+            @media screen and (min-width: 768px) {
+              .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text .list-item ul li, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text .list-item ul li {
+                font-size: 18px; } }
+            @media screen and (min-width: 992px) {
+              .ow-card-tiles.ow-product-feature .card-item .card-overlay .card-overlay-text .list-item ul li, .ow-card.ow-product-feature .card-item .card-overlay .card-overlay-text .list-item ul li {
+                font-size: 18px; } }
+
+.ow-card-tiles.ow-product-feature .slick-dots, .ow-card.ow-product-feature .slick-dots {
+  bottom: -15px !important;
+  display: block;
+  margin-left: 0px;
+  padding-top: unset;
+  left: 0px;
+  top: unset; }
+  .ow-card-tiles.ow-product-feature .slick-dots li, .ow-card.ow-product-feature .slick-dots li {
+    background: #2B2B2B !important; }
+    .ow-card-tiles.ow-product-feature .slick-dots li.slick-active, .ow-card.ow-product-feature .slick-dots li.slick-active {
+      background: #fff !important;
+      border: 1px solid #2B2B2B !important; }

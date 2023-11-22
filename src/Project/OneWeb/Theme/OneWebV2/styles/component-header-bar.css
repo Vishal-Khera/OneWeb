@@ -1,0 +1,19 @@
+.brand-bg {
+  background-color: #236192 !important; }
+  .brand-bg .header-bar {
+    color: #fff;
+    padding: 12px 0px; }
+    @media only screen and (min-width: 768px) {
+      .brand-bg .header-bar {
+        display: flex;
+        padding: 15px 0px; } }
+    .brand-bg .header-bar .gray-text {
+      color: rgba(255, 255, 255, 0.6) !important; }
+    .brand-bg .header-bar a {
+      color: #fff;
+      text-decoration: underline; }
+      @media only screen and (min-width: 768px) {
+        .brand-bg .header-bar a {
+          padding-left: 15px; } }
+      .brand-bg .header-bar a:hover {
+        color: #fff; }

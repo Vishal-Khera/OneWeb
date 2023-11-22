@@ -1,0 +1,70 @@
+﻿---
+ID: "f62fdc58-813e-48e5-9453-321bd2ce9cb9"
+Parent: "8f4c33f6-9afa-4031-9a84-2cfc3953b5ad"
+Template: "92d1da5d-4ad7-44ce-8f19-d55b2e12b042"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Businesses/Businesses/Zygo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{8D9EF454-2999-4D5B-A4BE-7280D8703DBE}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211222T035643Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Zygo
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                            and scrambled it to make a type specimen book.
+    - ID: "40510a5e-3ee8-4124-b8c2-b776926dd5f1"
+      Hint: Logo
+      Value: |
+        <image mediaid="{C7C8FE1F-C294-40B1-B8A8-EFB50B74F758}" />
+    - ID: "492d4291-3add-415a-981e-247d76cb6185"
+      Hint: Featured Support Group
+      Value: "{3988AF9F-8430-4EEE-AD65-64EFFC4D636D}"
+    - ID: "8f71537b-0bdd-4968-95d3-2ec9c57fb1b5"
+      Hint: Brands
+      Type: TreelistEx
+      Value: "{26D071E0-F24F-4F84-BDA4-1116E2EC93A4}"
+    - ID: "c1fb5481-5cbb-4d46-ade8-28ae1a87408b"
+      Hint: Products
+      Type: TreelistEx
+      Value: |
+        {F5F6B711-0F4E-4A60-98DB-52C5FE20E922}
+        {168700E9-C25D-4E57-BB7A-B8ED6323722C}
+        {F02D2D23-031C-4AE4-B5DB-EF58750232AC}
+        {F18CECE6-94EC-4C77-927C-B975370A4A9D}
+        {CB0E2E06-5B4E-42FC-BA79-11C8EFE61ACD}
+    - ID: "d118b624-58c9-48b1-b576-bf3835ab05ea"
+      Hint: Industries
+      Type: TreelistEx
+      Value: |
+        {067FCC80-049A-4BA5-AE81-706FF8F0BFC3}
+        {7E04D910-0569-472F-80CA-BA52206D7182}
+        {4F3D44CD-7722-4EB3-AE84-0AC2ACDB5973}
+    - ID: "d2a4876c-f72c-4f9a-be84-1a75fb52bd47"
+      Hint: Support Groups
+      Value: "{3988AF9F-8430-4EEE-AD65-64EFFC4D636D}|{91F7C1A1-D354-4E7E-AB53-9083E1716895}"
+    - ID: "df1a4406-3c14-4411-82f0-6f1ef1f2a52b"
+      Hint: Support Groups Title
+      Value: "Where do you need USA support?"
+    - ID: "f13ce9a8-e57f-43b6-8b32-62fa64effbc7"
+      Hint: Link
+      Value: |
+        <link text="Creaform" linktype="external" url="https://www.zygo.com" anchor="" target="" />
+    - ID: "f911a3f4-9d39-4148-90fc-decf7dd59619"
+      Hint: Footer Note
+      Value: |
+        2300 Dulles Station Blvd.<br />
+        6th Floor<br />
+        Herndon, Virginia 20171

@@ -1,0 +1,14 @@
+﻿---
+ID: "f9ff04e6-7a36-4612-bb0c-bc39235d5245"
+Parent: "59c57b29-1492-451c-8904-f80dc032ff9b"
+Template: "861d0715-e397-4114-870a-7fbb1fe8c9d6"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/Carousal Images
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220707T144710Z

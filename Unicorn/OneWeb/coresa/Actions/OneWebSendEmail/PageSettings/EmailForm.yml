@@ -1,0 +1,14 @@
+﻿---
+ID: "f901e922-9ccc-4c5e-a246-dca04983f81b"
+Parent: "f970e449-4d96-43ec-88aa-f277e600e42e"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/OneWebSendEmail/PageSettings/EmailForm
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180405T200443Z

@@ -1,0 +1,110 @@
+﻿---
+ID: "5898d398-3c39-4f2b-b6c5-f137c65c3f05"
+Parent: "d716cb0a-1b6f-4a7b-9b0a-598a9e6eba10"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/P2 Tab Results/Template
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    [[#each Results]]
+    <div class="slider-item">
+        [[#if (equals this.TemplateName 'Resource')]]
+        <div class="resource-header-container">
+            <div class="component-content">
+                <a href="[[this.Url]]" class="card resource-card-simple">
+                    [[#if (isdefined this.Image)]]
+                    [[#jsonBlock this.Image]]
+                    <div class="card-image">
+                        <img class="ow-lazy" data-src="[[@Url]]" class="ow-lazy" title="[[@Title]]" alt="[[@Alt]]">
+                    </div>
+                    [[/jsonBlock]]
+                    [[/if]]
+    
+                    <div class="card-body">
+                        <div class="card-title">
+                            [[this.PageType]]
+                        </div>
+                        <div class="card-text">
+                            [[this.Title]]
+                            <div class="create-date">
+                                [[this.Date]]
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        [[else]]
+        <div class="ow-event-card">
+            <div class="component-content">
+                <a href="javscript:void(0)">
+                    <div class="card">
+                        [[#if (isdefined this.Image)]]
+                        [[#jsonBlock this.Image]]
+                        <div class="card-image">
+                            <img class="card-img-top ow-lazy" data-src="[[@Url]]" class="ow-lazy" title="[[@Title]]"
+                                alt="[[@Alt]]">
+                        </div>
+                        [[/jsonBlock]]
+                        [[/if]]
+                        <div class="card-body">
+                            <h5 class="card-title">[[this.PageType]]</h5>
+                            <div class="card-subtitle">[[this.Title]]</div>
+                            <div class="card-location"><i class="icon-location"></i>[[this.EventCity]] [[this.EventCountry]]
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="time-format">
+                                [[#if (isdefined this.EventStartDate)]]
+                                [[#jsonBlock this.EventStartDate]]
+                                <div class="start-date">
+                                    <div class="date">[[@Day]]</div>
+                                    <div class="month-year">
+                                        <div class="month">[[@Month]]</div>
+                                        <div class="year">[[@Year]]</div>
+                                    </div>
+                                    <i class="icon-Date-Arrow"></i>
+                                </div>
+                                [[/jsonBlock]]
+                                [[/if]]
+                                [[#if (isdefined this.EventEndDate)]]
+                                [[#jsonBlock this.EventEndDate]]
+                                <div class="close-date">
+                                    <div class="date">[[@Day]]</div>
+                                    <div class="month-year">
+                                        <div class="month">[[@Month]]</div>
+                                        <div class="year">[[@Year]]</div>
+                                    </div>
+                                </div>
+                                [[/jsonBlock]]
+                                [[/if]]
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        [[/if]]
+    </div>
+    [[/each]]
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T182542Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

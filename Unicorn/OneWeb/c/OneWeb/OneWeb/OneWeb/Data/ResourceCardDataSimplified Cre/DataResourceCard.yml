@@ -1,0 +1,31 @@
+﻿---
+ID: "8c1d59a8-938d-4507-ba66-23422dce619a"
+Parent: "4ddb54b0-b298-44f7-806c-31c7d2668871"
+Template: "b794d898-4dca-4f59-9674-6b9994b63b59"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/ResourceCardDataSimplified Crea/DataResourceCard
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{75746CB0-482A-414B-A9BF-285A349380D7}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220713T134045Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: <p>Creaform Expands with New Center in Texas</p>
+    - ID: "2b1035b2-079b-4c94-8744-e65376ca9aef"
+      Hint: Page Type
+      Value: News
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: ResourceCard
+    - ID: "6a30b727-97b0-48ff-94d8-0656a5973182"
+      Hint: Navigation Url
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

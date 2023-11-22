@@ -1,0 +1,36 @@
+{% extends "layout/layout.html" %} {% block maincontent %}
+<main>
+    <div id="content">
+
+        {% include "../templates/components/modal-popup.html" %}
+
+        <!-- Banner-video -->
+        <div class="component container-fluid dark-theme ow-head-space">
+            <div class="component row">
+
+                <div class="component container-fluid small-paddings">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component row">
+                                <div class="component col-12">
+                                    <div class="breadcrumb">
+                                        {% include "../templates/components/component-breadcrumb.html" %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="component container-fluid  no-margin small-padding">
+                    <div class="component row">
+                        {% include "../templates/components/banner-video.html" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</main>
+{% endblock %}

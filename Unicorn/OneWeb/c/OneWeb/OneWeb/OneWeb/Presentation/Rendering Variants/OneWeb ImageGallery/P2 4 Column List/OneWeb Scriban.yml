@@ -1,0 +1,47 @@
+﻿---
+ID: "78193dc7-41c9-4d8b-a7a4-ac2450f3532e"
+Parent: "77c40497-bd85-470b-9c25-f03ca6bf47db"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb ImageGallery/P2 4 Column List/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="logo-list-wrapper">
+    	{{if (i_item.Title|string.size > 0 )}}
+             <h2>{{i_item.Title}}</h2>
+    	{{end}}
+    	{{logo_list =(sc_followmany i_item "Images")}}
+    	{{if (logo_list | array.size) > 0	}}
+    		<div class="row ">
+    			{{for logo in logo_list}}		
+    				<div class="col-6 col-md-3 my-4">
+    					{{media = ow_media_model logo 'Image'}}
+    					{{if media}}
+    						{{if (media.url|string.size > 0 )}}
+    							<div class="logo-box">
+    								<img class="ow-lazy" alt="{{media.title}}" title="{{media.title}}" data-src="{{media.url}}">
+    							</div>
+    						{{end}}
+    					{{end}}
+    				</div>
+    			{{end}}
+    		 </div>
+    	 {{end}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220701T114933Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

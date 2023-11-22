@@ -1,0 +1,31 @@
+﻿---
+ID: "ccd667c4-81c1-43f5-91e8-a86f700644db"
+Parent: "1b7f82fb-5ea9-4aff-8c07-a6c595ff45a7"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Logos/mobile-logo-white"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/CCD667C481C143F591E8A86F700644DB.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "b2f6822d-e665-41d5-ab43-7bad19b71b3f"
+  Value: PHN2ZyBpZD0iR3JvdXBfMjciIGRhdGEtbmFtZT0iR3JvdXAgMjciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIzMC40MzUiIGhlaWdodD0iMjAuNDUyIiB2aWV3Qm94PSIwIDAgMzAuNDM1IDIwLjQ1MiI+DQogIDxkZWZzPg0KICAgIDxjbGlwUGF0aCBpZD0iY2xpcC1wYXRoIj4NCiAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfNzIiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDcyIiB3aWR0aD0iMzAuNDM1IiBoZWlnaHQ9IjIwLjQ1MiIgZmlsbD0ibm9uZSIvPg0KICAgIDwvY2xpcFBhdGg+DQogIDwvZGVmcz4NCiAgPHBhdGggaWQ9IlBhdGhfNDIiIGRhdGEtbmFtZT0iUGF0aCA0MiIgZD0iTTE5LjMzLjI1OWw0LjMzMyw5Ljk5MkgzMi40NEwyOC4xMDcuMjU5WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIuMDA1IC0wLjAyNykiIGZpbGw9IiMzYjgzYjciLz4NCiAgPHBhdGggaWQ9IlBhdGhfNDMiIGRhdGEtbmFtZT0iUGF0aCA0MyIgZD0iTTIzLjY2MywxMS40MDgsMTkuMzMsMjEuNGg4Ljc3OGw0LjMzMy05Ljk5MloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yLjAwNSAtMS4xODMpIiBmaWxsPSIjMjU1ZDg2Ii8+DQogIDxnIGlkPSJHcm91cF8yNiIgZGF0YS1uYW1lPSJHcm91cCAyNiI+DQogICAgPGcgaWQ9Ikdyb3VwXzI1IiBkYXRhLW5hbWU9Ikdyb3VwIDI1IiBjbGlwLXBhdGg9InVybCgjY2xpcC1wYXRoKSI+DQogICAgICA8cGF0aCBpZD0iUGF0aF80NCIgZGF0YS1uYW1lPSJQYXRoIDQ0IiBkPSJNMTQuNDM5LDEyLjgyMWE0Ljk1OCw0Ljk1OCwwLDEsMSwwLTUuMTkybDIuMTE1LTUuNDJhMTAuMjIsMTAuMjIsMCwxLDAtNi4zMjcsMTguMjQyLDEwLjE1MiwxMC4xNTIsMCwwLDAsNi4zMjgtMi4yMDlaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIiBmaWxsPSIjZmZmIi8+DQogICAgPC9nPg0KICA8L2c+DQo8L3N2Zz4NCg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 982
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220705T090918Z

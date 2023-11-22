@@ -1,0 +1,14 @@
+﻿---
+ID: "63b28ac8-19a7-4e0d-9e1f-a4027e535492"
+Parent: "beef29e6-1876-4917-bbc0-35533f716f0b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Media/Datasource/OneWeb Video Provider/Provider
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T114444Z

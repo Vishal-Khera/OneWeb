@@ -1,0 +1,53 @@
+﻿---
+ID: "3716437b-defd-42db-b40c-9f38a886f025"
+Parent: "dc694f78-85f5-46a8-bb09-a9ea1c441ed3"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/P2 Search Results/Template
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="row">
+    [[#each Results]]
+    <div class="news-wrapper">
+        [[#if (isdefined this.Image)]]
+            [[#jsonBlock this.Image]]
+            <div class="news-wrapper__image">
+                <img data-src="[[@Url]]" class="ow-lazy" title="[[@Title]]" alt="[[@Alt]]">
+            </div>
+    
+            [[/jsonBlock]]
+        [[else]]
+            [[#if (isdefined this.DefaultImage)]]
+                [[#jsonBlock this.DefaultImage]]
+                <div class="news-wrapper__image">
+                    <img data-src="[[@Url]]" class="ow-lazy" title="[[@Title]]" alt="[[@Alt]]">
+                </div>
+                [[/jsonBlock]]
+            [[/if]]
+        [[/if]]
+        <div class="news-wrapper__content"> 
+            [[#if (isdefined this.PageType)]]
+    <label class="title-label">[[this.PageType]]</label>
+            [[/if]]
+            <a href="[[this.Url]]"><h3>[[[Title]]]</h3></a>
+            [[#if (isdefined Content)]] 
+            <div class="paragraph-wrapper">[[[Content]]]</div>
+            [[/if]]
+        </div>
+    </div>
+    [[/each]]
+    </div>
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T145420Z

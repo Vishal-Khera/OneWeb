@@ -1,0 +1,112 @@
+@import 'base/base-index.scss';
+
+.simple-list{
+    &.card{
+        * {
+            font-family: $franklinMd  !important;
+        }
+        width: 100%;
+        height: unset;
+        display: flex;
+        justify-content: start;
+        padding: 15px;
+        align-items: center;
+        background-color: $cta-gray;
+        @include border-radius(0px);
+        @include md{
+            padding: 20px;
+        }
+        border-bottom: 1px solid $lightblack;
+        i{
+            font-family: 'icomoon' !important;
+            &::before{
+                color: $base-light-gray;
+                @include font-size($sssm-font);
+            }
+        }
+    }
+    .card-title{
+        color: $brand;
+        @include font-size($smlg-font);
+    }
+    .card-icon{
+        min-width: 24px;
+        height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $brand;
+        @include border-radius(50%);
+        margin-right: 10px;
+        @include md{
+            margin-right: 15px;
+        }
+    }
+    .card-info{
+        @include font-size($md-font);
+    }
+}
+
+.dark-theme, .dark-theme-overlay{
+    .simple-list{
+        background-color: $brandblack;
+        &.card{
+            background-color: $brandblack;
+            color: $base-light-gray !important;
+            border-bottom: 1px solid $white-gray-light;
+        }
+        .card-info{
+            color: $base-light-gray !important;
+        }
+        i{
+            &::before{
+                color: $base-light-gray;
+            }
+        }
+    }
+}
+
+.blue-theme, .blue-theme-overlay{
+    .simple-list{
+        background-color: $dark-blue;
+        &.card{
+            background-color: $dark-blue;
+            color: $base-light-gray !important;
+            border-bottom: 1px solid $white-gray-light;
+        }
+        .card-info{
+            color: $base-light-gray !important;
+        }
+        i{
+            &::before{
+                color: $base-light-gray;
+            }
+        }
+    }
+}
+
+.simple-list-wrapper{
+    .ow-card-icon {
+        &:first-child {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            border-bottom: 1px solid $lightblack;
+
+            .simple-list {
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+            }
+        }
+
+        &:last-child {
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            border-bottom: none;
+
+            .simple-list {
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+            }
+        }
+    }
+}

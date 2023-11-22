@@ -1,0 +1,22 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields
+@model OneWeb.Feature.Login.Models.UserSearchBoxRenderingModel 
+
+
+<div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "ow-user-search-box", Model.Attributes) ow-empty-text-message="@Model.EmptyTextMessage" ow-results-by-default="@Model.ShowUsersByDefault" ow-page-size="@Model.PageSize">
+    <div class="component-content">
+        @if (Model.DataSourceItem == null)
+        {
+            @Model.MessageIsEmpty
+        }
+        else
+        {
+            foreach (BaseVariantField variantField in Model.VariantFields)
+            {
+                @Html.RenderingVariants().RenderVariant(variantField, Model.Item, Model.RenderingWebEditingParams, Model)
+            }
+        }
+    </div>
+</div>

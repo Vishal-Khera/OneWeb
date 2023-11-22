@@ -1,0 +1,22 @@
+﻿---
+ID: "f58f2fe6-0713-4e17-af94-876886d7b5dc"
+Parent: "74318771-3388-4f15-9968-d5f5e5b64dcc"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Styles/Container/No Margin Bottom
+DB: master
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "no-margin-bottom"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211227T175405Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,65 @@
+.column-content {
+  margin-bottom: 15px;
+  display: flex; }
+  @media only screen and (min-width: 992px) {
+    .column-content {
+      margin-bottom: unset; } }
+  .column-content .ow-card-content {
+    border-left-style: solid;
+    border-left-width: 6px; }
+    .column-content .ow-card-content .title {
+      color: #fff;
+      padding: 15px 25px;
+      font-size: 22px;
+      width: 90%;
+      font-family: "Helvetica Neue";
+      margin-left: -1px;
+      word-break: break-word; }
+      @media screen and (min-width: 0) {
+        .column-content .ow-card-content .title {
+          font-size: 22px; } }
+      @media screen and (min-width: 768px) {
+        .column-content .ow-card-content .title {
+          font-size: 24px; } }
+      @media screen and (min-width: 992px) {
+        .column-content .ow-card-content .title {
+          font-size: 24px; } }
+      @media only screen and (min-width: 992px) {
+        .column-content .ow-card-content .title {
+          width: 70%; } }
+      .column-content .ow-card-content .title:after {
+        transform: skew(-10deg);
+        content: "";
+        background: #F9F9F9;
+        width: 41px;
+        height: 80px;
+        position: absolute;
+        right: 7%;
+        top: 0px; }
+        @media only screen and (min-width: 992px) {
+          .column-content .ow-card-content .title:after {
+            right: 29%;
+            height: 65px; } }
+      .column-content .ow-card-content .title.blue-bg {
+        background: #D9171D; }
+      .column-content .ow-card-content .title.orange-bg {
+        background: #D9171D; }
+    .column-content .ow-card-content .description {
+      padding: 10px 25px;
+      font-family: "HelveticaNeue-Light";
+      color: #000;
+      font-size: 18px;
+      line-height: 24px; }
+      @media screen and (min-width: 0) {
+        .column-content .ow-card-content .description {
+          font-size: 18px; } }
+      @media screen and (min-width: 768px) {
+        .column-content .ow-card-content .description {
+          font-size: 18px; } }
+      @media screen and (min-width: 992px) {
+        .column-content .ow-card-content .description {
+          font-size: 18px; } }
+    .column-content .ow-card-content.border-blue {
+      border-left: 6px solid #D9171D; }
+    .column-content .ow-card-content.border-orange {
+      border-left: 6px solid #D9171D; }

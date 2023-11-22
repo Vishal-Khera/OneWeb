@@ -1,0 +1,65 @@
+﻿---
+ID: "ba7313dc-8f70-4a80-9255-30c9e409229d"
+Parent: "a3e5e09f-1422-4050-9414-dc959aa60d7b"
+Template: "5f2c442f-2554-4c80-b1d9-2195fa6168b1"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/OneWebSendEmail
+DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{5A7CF08C-3647-4F56-B189-9E8C0531FBAF}">
+        <r
+          id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}"
+          par="IsLicenceCheckDisabled&amp;PageCodeScriptFileName=%2Fsitecore%2Fshell%2Fclient%2FApplications%2FFormsBuilder%2FLayouts%2FActions%2FOneWebEmail.js&amp;PageCodeTypeName&amp;SpeakCoreVersion=%7B3F937240-C16E-4229-9641-4CE5B4CB4ABA%7D&amp;AssetsLoadingType"
+          ph="Page.Code"
+          uid="{D7A37C81-CF01-4D78-B0EC-E38013906C4E}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="TextSize&amp;Behaviors&amp;StaticData&amp;Id=HeaderTitle&amp;AccessKey&amp;TextStyle&amp;ConfigurationItem&amp;IsVisible=0&amp;DisplayFieldName&amp;Text&amp;TextWeight&amp;Tooltip"
+          ph="Page.Body"
+          uid="{C39CF34E-3001-4E94-90CD-8D4381525078}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="TextSize&amp;Behaviors&amp;StaticData&amp;Id=HeaderSubtitle&amp;AccessKey&amp;TextStyle&amp;ConfigurationItem&amp;IsVisible=0&amp;DisplayFieldName&amp;Text&amp;TextWeight&amp;Tooltip"
+          ph="Page.Body"
+          uid="{803152AF-A723-4746-82CD-7DFA9021C3D3}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="PaddingType=Left&amp;RequiresWrite&amp;ConfigurationItem&amp;Id=MainBorder&amp;AccessKey&amp;ContentHorizontalAlignment&amp;UsePadding=1&amp;Behaviors&amp;IsVisible=1&amp;Tooltip&amp;IsButtonGroup&amp;RequiresRead&amp;ShowBorder"
+          ph="Page.Body"
+          uid="{A28D6936-94A0-42E2-A514-EB9D7303DDB0}" />
+        <r
+          id="{59E2A66D-11D2-488D-A3BC-6C1C81326645}"
+          par="FieldDefinitionType=%7b167CCD4C-34CE-4557-985B-0915D86B3D99%7d&amp;ConfigurationItem&amp;ExcludedFields&amp;Id=EmailForm&amp;VisualStyle&amp;AccessKey&amp;IsVisible=1&amp;Tooltip&amp;SectionVisualization&amp;Behaviors&amp;FieldDefinitionRoot&amp;BindingTarget&amp;FormData&amp;FieldSections&amp;FieldsLayout=4-1-1-1&amp;FieldDefinitionDatabase"
+          ph="MainBorder.Content"
+          uid="{BF8002A9-BD33-44A5-91F8-E6E314F383B3}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="TextSize&amp;Behaviors&amp;StaticData&amp;Id=ValidTokens&amp;AccessKey&amp;TextStyle&amp;ConfigurationItem&amp;IsVisible=1&amp;DisplayFieldName&amp;Text&amp;TextWeight&amp;Tooltip"
+          ph="MainBorder.Content"
+          uid="{9ABD7163-D440-43C2-9C49-813E932448FE}" />
+      </d>
+    </r>
+- ID: "f7b4ebc1-2335-4eb8-afae-3444923a38be"
+  Hint: Subthemes
+  Type: Checklist
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180405T170206Z
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: OneWeb Send Email

@@ -1,0 +1,27 @@
+﻿---
+ID: "ce1d5fde-ba0b-4b33-a8e9-ef3a77b9792a"
+Parent: "67b53de4-593a-437f-8c06-6087c34f70b5"
+Template: "1c0ee710-b440-4f8d-80ae-ca464571204b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Image Accordions/Careers/Image Accordion Item 6
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220112T190342Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Ensure Reliable Energy, Production and Supply
+    - ID: "5457a43c-834a-46a9-b57d-eca5a856f48b"
+      Hint: Image List
+      Value: "{28528E7C-E8BA-45F9-BFCB-FC17F42665ED}|{D2989571-1552-4D79-8D2C-4CC6AA45373F}|{EF027C4D-4779-4C59-A094-BED5B3F1250D}|{7E4889AB-E2BA-4353-9B09-801066EBFE0B}|{9A8D5E1F-7978-46FA-9A4F-FD8344240A5A}|{78FE44DE-9D46-4927-814A-69E61365737B}|{8A843749-20F6-498E-8962-3A66DBEC2EA1}|{9510328E-83A0-443A-9C5E-A7D70B95E287}|{CC7CCDEB-9300-449E-BFCF-C40EB081CAB1}"
+    - ID: "c1ef176f-8343-4bbc-aa16-684ef202abf0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F503A2E1-1769-47A0-8FF2-6DD206CF5C9C}" />
+    - ID: "da373cd7-f723-416e-a552-1ade06c7f708"
+      Hint: Structure
+      Value: "{A89A9349-7CBD-48D1-8F9A-25B6D9E5A7BA}"

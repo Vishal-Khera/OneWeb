@@ -1,0 +1,114 @@
+﻿---
+ID: "e2a2acd1-e702-4662-8454-815692445d5e"
+Parent: "2dd4d431-2b76-439b-b998-c982d3f17085"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Hero Banner/Hero Banner Text over Image/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+            
+                        <div class="ow-banner-data-value slider-item">
+                           <div class="slider-image">
+                              <div class="slide ow-lazy" data-src="{{ i_item.Image.media_url }}">
+    						  <div class="data-value-banner-mobile d-lg-none"> 
+    						{{-if i_item.title !=""-}}
+                            <h2>{{-i_item.title-}}</h2>
+    						{{-end-}}
+    						<hr>
+    						{{-if i_item.content !=""-}}
+                            <div class="banner-description"> {{-i_item.content-}}</div>
+    						{{-end-}}						
+    						
+    						{{primary_link_classes = "btn btn-primary "}}
+    						{{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    							if primary_filtered_classes 
+    								if (primary_filtered_classes.class | string.size) > 0
+    									primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    								end
+    							end}}
+    							
+    						{{primary_link = (sc_field i_item 'PrimaryLink'[['text', (i_item.PrimaryLink.text)], ['class', (primary_link_classes)]])}}
+    						{{-if primary_link-}}
+    							{{primary_link}}
+    						{{-end-}}
+    
+    						{{secondary_link_classes = "btn btn-primary "}}
+    						{{ secondary_filtered_classes = ow_link_model i_item 'SecondaryLink'
+    							if( secondary_filtered_classes)
+    								if(secondary_filtered_classes.class | string.size) > 0
+    									secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+    								end
+    							end}}
+    							
+    						{{secondary_link = (sc_field i_item 'SecondaryLink'[['text', (i_item.SecondaryLink.text)], ['class', (secondary_link_classes)]])}}
+    						{{-if secondary_link-}}
+    							{{secondary_link}}
+    						{{-end-}}
+                                       
+    						  
+    						  </div>
+                           </div>
+                           <div class="slider-content">
+                              <div class="container">
+                                 <div class="row">
+    
+                                    <div class="col-lg-12 mobile-text d-none d-lg-block text-center">
+    
+    						{{-if i_item.title !=""-}}
+                            <h2>{{-i_item.title-}}</h2>
+    						{{-end-}}
+    						<hr>
+    						{{-if i_item.content !=""-}}
+                            <div class="banner-description"> {{-i_item.content-}}</div>
+    						{{-end-}}						
+    						
+    						{{primary_link_classes = "btn btn-primary "}}
+    						{{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    							if primary_filtered_classes 
+    								if (primary_filtered_classes.class | string.size) > 0
+    									primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    								end
+    							end}}
+    							
+    						{{primary_link = (sc_field i_item 'PrimaryLink'[['text', (i_item.PrimaryLink.text)], ['class', (primary_link_classes)]])}}
+    						{{-if primary_link-}}
+    							{{primary_link}}
+    						{{-end-}}
+    
+    						{{secondary_link_classes = "btn btn-primary "}}
+    						{{ secondary_filtered_classes = ow_link_model i_item 'SecondaryLink'
+    							if( secondary_filtered_classes)
+    								if(secondary_filtered_classes.class | string.size) > 0
+    									secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+    								end
+    							end}}
+    							
+    						{{secondary_link = (sc_field i_item 'SecondaryLink'[['text', (i_item.SecondaryLink.text)], ['class', (secondary_link_classes)]])}}
+    						{{-if secondary_link-}}
+    							{{secondary_link}}
+    						{{-end-}}
+                                       
+                                    </div>
+    
+                                   
+    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+       
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220423T082303Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

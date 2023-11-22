@@ -1,0 +1,62 @@
+.ow-full-text {
+  width: 100%;
+  padding: 40px 0; }
+  .ow-full-text .ow-card-content {
+    width: 100%; }
+    .ow-full-text .ow-card-content h3 {
+      font-family: "Helvetica Neue";
+      font-size: 32px;
+      margin-bottom: 20px; }
+      @media screen and (min-width: 0) {
+        .ow-full-text .ow-card-content h3 {
+          font-size: 32px; } }
+      @media screen and (min-width: 768px) {
+        .ow-full-text .ow-card-content h3 {
+          font-size: 32px; } }
+      @media screen and (min-width: 992px) {
+        .ow-full-text .ow-card-content h3 {
+          font-size: 32px; } }
+      @media screen and (min-width: 1200px) {
+        .ow-full-text .ow-card-content h3 {
+          font-size: 40px; } }
+    .ow-full-text .ow-card-content .list-item {
+      padding-left: 25px;
+      margin: 0; }
+      .ow-full-text .ow-card-content .list-item li {
+        list-style-type: square;
+        font-size: 20px;
+        margin-bottom: 20px; }
+        @media screen and (min-width: 0) {
+          .ow-full-text .ow-card-content .list-item li {
+            font-size: 20px; } }
+        @media screen and (min-width: 768px) {
+          .ow-full-text .ow-card-content .list-item li {
+            font-size: 20px; } }
+        @media screen and (min-width: 992px) {
+          .ow-full-text .ow-card-content .list-item li {
+            font-size: 20px; } }
+        @media only screen and (min-width: 992px) {
+          .ow-full-text .ow-card-content .list-item li {
+            font-size: 22px;
+            line-height: 40px; } }
+  @media only screen and (min-width: 992px) and (min-width: 0) {
+    .ow-full-text .ow-card-content .list-item li {
+      font-size: 22px; } }
+  @media only screen and (min-width: 992px) and (min-width: 768px) {
+    .ow-full-text .ow-card-content .list-item li {
+      font-size: 24px; } }
+  @media only screen and (min-width: 992px) and (min-width: 992px) {
+    .ow-full-text .ow-card-content .list-item li {
+      font-size: 24px; } }
+        .ow-full-text .ow-card-content .list-item li .highlight-text {
+          color: #D9171D; }
+  .ow-full-text .card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px; }
+    @media only screen and (min-width: 992px) {
+      .ow-full-text .card-image {
+        align-items: unset;
+        justify-content: unset;
+        margin-top: unset; } }

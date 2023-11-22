@@ -1,0 +1,27 @@
+﻿---
+ID: "f8244bf1-d32d-4ec0-8927-8b004921442d"
+Parent: "997bbe5c-b97c-4961-8bfe-d96d2c59ca64"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Feature/OneWeb/OneWeb Login/Available OneWeb User Search Box Renderings/$name
+DB: master
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Type: TreelistEx
+  Value: |
+    {3F95F003-C0A2-4091-AF90-7D6AE9579934}
+    {DB97FB62-E013-4995-8445-511DABBFC082}
+    {45ACF4D4-66B5-419B-A7BD-CDEE0EF35CD9}
+    {B31B469B-132C-41D3-B6F9-8E5F488877EF}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T104335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

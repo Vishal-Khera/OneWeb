@@ -1,0 +1,23 @@
+﻿---
+ID: "a571e701-bca8-485c-89f7-6a79beddfed7"
+Parent: "4267893e-dbe6-4a1f-95d4-93628100e045"
+Template: "27843b52-eb62-4fad-9943-3c07d2755207"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/OneWeb Search Configurations/AutoSuggest/Header
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1247450e-83fa-4299-9e7f-dc7855ed1065"
+      Hint: Query
+      Value: "ow_title_t:(*{{keyword}}*) OR ow_content_t:(*{{keyword}}*) OR ow_content_txm:(*{{keyword}}*)"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211225T033513Z
+    - ID: "3ab70f36-4477-46a3-a62d-fba5cf2a7890"
+      Hint: EnabledTemplates
+      Value: "{92D1DA5D-4AD7-44CE-8F19-D55B2E12B042}=Business&{B794D898-4DCA-4F59-9674-6B9994B63B59}=Press%20Release&{97167EAA-FBDE-43AC-AACE-F453D151CD87}=Page"
+    - ID: "48823c0f-c3e8-4728-a7ea-317eedc54ab9"
+      Hint: Grouping
+      Value: _template=2

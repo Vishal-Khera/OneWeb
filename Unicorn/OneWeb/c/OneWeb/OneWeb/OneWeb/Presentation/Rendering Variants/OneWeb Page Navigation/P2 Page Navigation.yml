@@ -1,0 +1,23 @@
+﻿---
+ID: "ce45253d-92fe-46ba-afbc-57c6a5dff7bb"
+Parent: "20bae2e2-e4b2-4f0a-8c05-6446fb863006"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Page Navigation/P2 Page Navigation
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1F6D5FC4-4303-4571-B908-0D3B29A88221}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220721T193250Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

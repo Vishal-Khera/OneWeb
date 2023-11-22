@@ -1,0 +1,82 @@
+﻿---
+ID: "12a6123d-c29b-401b-81f3-9d3165baca7b"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/AccordianTestPage
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{39585166-248F-4A71-B09E-8E35A8EFA251}">
+        <r
+          ds="{008CF6F7-F1CE-4653-BA63-4742A788EB50}"
+          id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          ph="/main/ow-accordion-content-3-3/ow-container-7/ow-row-8/ow-column-9"
+          uid="{3D538410-A038-4D80-B139-9B99A6EF9CC8}" />
+        <r
+          id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          ph="/main/ow-accordion-content-3-3/ow-container-7/ow-row-8"
+          uid="{2A7EF468-9764-409C-873B-13BAC83B743B}"
+          ds="" />
+        <r
+          id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          ph="/main/ow-accordion-content-3-3/ow-container-7"
+          uid="{D182FCE9-3853-4872-9A72-A0F8ECDC5188}"
+          ds="" />
+        <r
+          id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          ph="/main/ow-accordion-content-3-3"
+          uid="{B98A6A0C-DACF-4C20-B4E6-14EE83AFEAFC}"
+          ds="" />
+        <r
+          ds="{008CF6F7-F1CE-4653-BA63-4742A788EB50}"
+          id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          ph="/main/ow-accordion-content-{096A3E26-BEBA-40A9-9030-F85D5F7CBAB8}"
+          uid="{32BE63D8-DC20-4670-8637-6818B051A2A5}" />
+        <r
+          ds="{008CF6F7-F1CE-4653-BA63-4742A788EB50}"
+          id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+          par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          ph="/main/ow-accordion-content-1"
+          uid="{5B4319D8-07E0-4659-A41C-0BB803FA9A70}" />
+        <r
+          ds="{A3EADE10-4862-474F-A754-AEB5AEAC7B56}"
+          id="{E6F37564-BD57-48A2-93D4-F2DE461A4370}"
+          par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;EasingFunction=Swing&amp;Speed=500&amp;CanOpenMultiple&amp;CanToggle=1&amp;ExpandedByDefault&amp;ExpandOnHover&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          ph="main"
+          uid="{9C3ADB84-B4AC-4508-B0C3-20C76E79E601}" />
+        <r
+          ds="{9189FD11-A205-4B4D-AD0C-92405088BDDB}"
+          id="{E6F37564-BD57-48A2-93D4-F2DE461A4370}"
+          par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Styles&amp;EasingFunction=Swing&amp;Speed=500&amp;CanOpenMultiple&amp;CanToggle=1&amp;ExpandedByDefault&amp;ExpandOnHover&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          ph="main"
+          uid="{B1141E01-7DD1-4BD7-8E2F-805C66C93F51}" />
+      </d>
+      <d
+        id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}"
+        l="{72C595AD-68BB-44BC-B5CD-2A857039515F}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220426T084825Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: AccordianTestPage
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: AccordianTestPage

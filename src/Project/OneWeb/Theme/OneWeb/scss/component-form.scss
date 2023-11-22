@@ -1,0 +1,78 @@
+
+@import 'base/base-index.scss';
+.ow-form-validation{
+
+    .field-validation-error{        
+        color: $primary;
+        @include font-size($ssm-font);
+       
+    }
+
+    .form-control {       
+        padding:10px;
+        @include font-size($md-font);        
+        color: $black;
+        border: 1px solid $border-gray-white;
+        border-radius:unset;
+        transition:unset;
+        box-shadow:unset;
+        
+    }
+
+    label{
+        font-family: 'HelveticaNeue-Medium';
+    }
+
+    .checkbox{
+        label{
+            position: relative;
+            padding-left: 20px;
+            font-family: 'HelveticaNeue-Thin';           
+            input[type=checkbox]{                
+                left: 0;
+                height: auto;
+                position: absolute;
+                vertical-align: text-top;
+                top: 3px;
+               
+            }
+
+            
+        }
+    }
+
+     [type=submit]{
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+        @include md{
+            width: auto;
+        }
+    }
+
+    select {
+        height:43px !important;
+    }
+
+    textarea {
+        resize: none;
+        border-color:$border-gray-white; 
+        height:200px !important;
+      }
+
+   
+        .required:after {
+            content: "*";
+            display: inline-block;
+            padding: 0 5px;
+            color: $primary;
+            position: absolute;
+        }
+       
+}
+
+
+
+.text-subheading{
+    @include font-size($xxl-font); 
+}

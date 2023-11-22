@@ -1,0 +1,21 @@
+﻿---
+ID: "0e69d85b-291d-44ae-9166-8e2fb8bd3222"
+Parent: "a6ab4fa2-fb96-48ee-a794-9349a68218e8"
+Template: "141df88e-7156-4d2e-a004-c8c1a7c51e9d"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Page Structure/OneWeb Page Structure Tenant Setup
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211125T121038Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: OneWeb Page Structure

@@ -1,0 +1,41 @@
+
+@import 'base/base-index.scss';
+.ow-social-icons{
+    display: flex;
+    align-items: center;
+    border:1px solid $dark-mid-gray;
+    border-radius: 5px;
+    padding:20px;
+    > .component-content{
+        display: flex;
+        align-items: center;
+    }
+    h3{
+        font-family: 'HelveticaNeue-Medium';
+        @include font-size($mlg-font);
+       margin-bottom: unset;
+       a{
+           pointer-events: none;
+       }
+    }
+    ul{
+        display:flex;
+        padding-left: 20px;
+        li{
+            padding: 0px 5px;
+            a{
+                border-radius: 50%;
+                background-color: $primary;
+                height: 35px;
+                width: 35px;
+                font-size: 22px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $white;
+            }
+        }
+    }
+
+}

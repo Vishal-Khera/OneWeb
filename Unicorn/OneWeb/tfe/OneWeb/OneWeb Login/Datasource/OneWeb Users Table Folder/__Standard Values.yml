@@ -1,0 +1,25 @@
+﻿---
+ID: "6a74d3a3-090a-4e24-a24d-e8f97a422797"
+Parent: "d3446600-e5db-4d13-a700-a5095678394b"
+Template: "d3446600-e5db-4d13-a700-a5095678394b"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Login/Datasource/OneWeb Users Table Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {6CC51919-DE68-4610-A680-F16FD0BB574B}
+    {D3446600-E5DB-4D13-A700-A5095678394B}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

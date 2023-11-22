@@ -1,0 +1,14 @@
+﻿---
+ID: "35019c88-63e2-47ba-9178-f5ad46fa4fb5"
+Parent: "e69a6f9b-91c6-4d1e-9576-41b41d134e60"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/OneWeb/Taxonomy/_Taxonomy/Tagging
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T073153Z

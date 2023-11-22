@@ -1,0 +1,18 @@
+﻿---
+ID: "09cf765c-f7a1-4bbb-9b74-a24b6e809fc1"
+Parent: "9eae8ecc-7718-476a-a81d-c8a9ad7c57d6"
+Template: "9967a2dd-8448-4296-b0bb-aeae6bc01402"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards With Icon/Creaform Solution Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T150135Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

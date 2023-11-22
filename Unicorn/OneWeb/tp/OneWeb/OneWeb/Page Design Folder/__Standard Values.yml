@@ -1,0 +1,25 @@
+﻿---
+ID: "1da67b34-1308-4077-a10d-404930b64569"
+Parent: "034c87db-04a4-4c07-b44d-6b7c267aa543"
+Template: "034c87db-04a4-4c07-b44d-6b7c267aa543"
+Path: /sitecore/templates/Project/OneWeb/OneWeb/Page Design Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {034C87DB-04A4-4C07-B44D-6B7C267AA543}
+    {FD7827F5-19F9-4C1D-9B11-5349BF84B44B}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T073819Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

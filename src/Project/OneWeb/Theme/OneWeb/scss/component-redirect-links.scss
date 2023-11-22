@@ -1,0 +1,70 @@
+@import "base/base-index.scss";
+.ow-redirect-navigation {
+  margin-bottom: 0px;
+  width: 100%;
+  .component-content {
+    margin-bottom: 0px;
+    position: relative;
+    border-width:unset;
+    border-style: unset;
+    border-color: unset;
+    .ow-redirect-link {
+      width: 100%;
+      border-spacing: 5px;
+      .row-data {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $border-light-gray;
+        padding: 5px 0;
+        width: 100%;
+        .list {
+          width: 50%;
+          @include font-size($sm-font);
+          font-family: "Helvetica Neue";
+
+          .rte_content {
+            @include font-size($sm-font);
+            font-family: "Helvetica Neue";
+            p {
+              @include font-size($sm-font);
+              font-family: "Helvetica Neue";
+            }
+          }
+
+          &:last-child {
+            @include font-size($ssm-font);
+            position: relative;
+            text-align: right;
+            padding-right: 0px;
+            a {
+              @include font-size($ssm-font);
+              position: relative;
+              color: $primary;
+              font-family: "Helvetica Neue";
+
+              &:after {
+                content: " \203A";
+                @include font-size($xl-font);
+                font-size: 28px;
+                position: relative;
+                top: 1px;
+                padding-left: 5px;
+                line-height: 0;
+                padding: 0;
+
+                @include lg {
+                  top: 4px;
+                }
+              }
+
+              &:hover {
+                color: $primary;
+                font-family: 'HelveticaNeue-bold';       
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

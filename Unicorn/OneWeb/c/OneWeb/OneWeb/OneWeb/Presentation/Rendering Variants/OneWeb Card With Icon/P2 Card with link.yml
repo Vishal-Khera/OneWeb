@@ -1,0 +1,19 @@
+﻿---
+ID: "e7697b73-41e2-46c5-a677-7223124995a8"
+Parent: "056fd221-6825-4091-b2f5-44014f8ab3f2"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card With Icon/P2 Card with link
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DB8BCFE8-0967-4E70-A9FE-7246A698E23F}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T134629Z

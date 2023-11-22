@@ -1,0 +1,32 @@
+﻿---
+ID: "8dff7f30-7c33-4017-9d01-88d1018e3598"
+Parent: "d447f0e1-8001-418f-bc73-72118b000439"
+Template: "d447f0e1-8001-418f-bc73-72118b000439"
+Path: /sitecore/templates/Foundation/OneWeb/Rendering Parameters/_BaseSliderRenderingParameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a7bc63e-502f-410d-b1a8-c0a29f3ee8af"
+      Hint: Show Dots
+      Type: Checkbox
+      Value: 0
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211209T092127Z
+    - ID: "2f3e68f4-a2d5-43d0-ade3-0c00685a0b4b"
+      Hint: Slides To Show Tab
+      Value: 2.2
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8a939b68-063a-4011-b561-43a45743c56b"
+      Hint: Show Arrows
+      Type: Checkbox
+      Value: 0
+    - ID: "b35fc72d-b048-405c-aed7-ffdb9daaa4b6"
+      Hint: Slides To Show Mobile
+      Value: 1.2

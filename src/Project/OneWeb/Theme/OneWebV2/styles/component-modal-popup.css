@@ -1,0 +1,84 @@
+body .modal {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999; }
+  body .modal .modal-dialog {
+    background: none;
+    position: relative;
+    max-width: unset;
+    max-width: inherit; }
+    @media only screen and (min-width: 992px) {
+      body .modal .modal-dialog {
+        padding: 3px;
+        min-height: 100%;
+        align-items: center;
+        display: flex; } }
+    body .modal .modal-dialog .modal-content {
+      background-color: #F7F7F7;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      position: static;
+      background-color: transparent; }
+      body .modal .modal-dialog .modal-content .text-wrapper h4 {
+        font-size: 21px;
+        color: #1A1918;
+        margin-bottom: 5px; }
+        @media screen and (min-width: 0) {
+          body .modal .modal-dialog .modal-content .text-wrapper h4 {
+            font-size: 21px; } }
+        @media screen and (min-width: 768px) {
+          body .modal .modal-dialog .modal-content .text-wrapper h4 {
+            font-size: 28px; } }
+        @media screen and (min-width: 992px) {
+          body .modal .modal-dialog .modal-content .text-wrapper h4 {
+            font-size: 28px; } }
+        body .modal .modal-dialog .modal-content .text-wrapper h4:last-child {
+          margin-bottom: 0px; }
+        @media only screen and (min-width: 992px) {
+          body .modal .modal-dialog .modal-content .text-wrapper h4 {
+            color: #2C2A29; } }
+      body .modal .modal-dialog .modal-content .text-wrapper {
+        background: #F7F7F7; }
+    body .modal .modal-dialog .close {
+      width: 25px;
+      height: 25px;
+      font-size: 20px;
+      color: #1A1918;
+      background: #F7F7F7;
+      top: 20px;
+      right: 20px;
+      position: fixed;
+      text-shadow: none; }
+      @media only screen and (min-width: 992px) {
+        body .modal .modal-dialog .close {
+          top: -35px;
+          width: 48px;
+          height: 48px;
+          font-size: 35px; } }
+      @media only screen and (min-width: 992px) {
+        body .modal .modal-dialog .close span {
+          margin-bottom: 0px; } }
+    @media only screen and (min-width: 768px) {
+      body .modal .modal-dialog .modal-wrapper {
+        max-width: 500px; } }
+    @media only screen and (min-width: 992px) {
+      body .modal .modal-dialog .modal-wrapper {
+        max-width: 900px; } }
+    body .modal .modal-dialog .iframe-wrapper iframe {
+      border-radius: 8px 8px 0px 0px;
+      -webkit-border-radius: 8px 8px 0px 0px;
+      -moz-border-radius: 8px 8px 0px 0px; }
+    body .modal .modal-dialog .iframe-wrapper:last-child iframe {
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px; }
+    body .modal .modal-dialog .iframe-wrapper .iframe-overlay .play-video img:focus-visible {
+      outline: 2px solid #236192; }
+    body .modal .modal-dialog .videowraper video {
+      border-radius: 8px 8px 0px 0px;
+      -webkit-border-radius: 8px 8px 0px 0px;
+      -moz-border-radius: 8px 8px 0px 0px; }
+    body .modal .modal-dialog .videowraper:last-child video {
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px; }

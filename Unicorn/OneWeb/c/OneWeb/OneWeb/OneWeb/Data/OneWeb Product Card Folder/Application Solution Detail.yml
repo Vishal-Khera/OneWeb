@@ -1,0 +1,18 @@
+﻿---
+ID: "fa212259-aedc-406b-a58c-4ef77a0cebc4"
+Parent: "dd15dd71-fa02-47d1-91b2-d4ea64b866dc"
+Template: "76b7124e-d1b4-4943-aae5-11b955fc070d"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Product Card Folder/Application Solution Detail
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220825T200308Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

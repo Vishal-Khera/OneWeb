@@ -1,0 +1,27 @@
+@import 'base/base-index.scss';
+
+.mobile-tabs{
+    transition: 0.2s ease-in-out all;
+    width: 100%;
+    margin-bottom: 15px;
+    ul{
+        display: flex;
+        border-bottom: 1px solid $lightblack;
+        li{
+            font-family: $franklinMd !important;
+            //padding: 15px 0;
+            padding-bottom: 15px;
+            width: 100%;
+            @include font-size($slg-font);
+            text-align: center;
+            &::before{
+                content: none !important;
+            }
+        }
+    }
+    .active{
+        display: block;
+        color: $brand;
+        border-bottom: 1px solid $brand;
+    }
+}

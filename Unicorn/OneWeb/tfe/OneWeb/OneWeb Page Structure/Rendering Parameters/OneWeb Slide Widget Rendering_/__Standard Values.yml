@@ -1,0 +1,18 @@
+﻿---
+ID: "c290a2bb-9ba4-45d6-aac9-968d885d0186"
+Parent: "d8275ab0-1ef0-4d3a-bd68-d83553ed04f6"
+Template: "d8275ab0-1ef0-4d3a-bd68-d83553ed04f6"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Structure/Rendering Parameters/OneWeb Slide Widget Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220730T172539Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\VishalKhera

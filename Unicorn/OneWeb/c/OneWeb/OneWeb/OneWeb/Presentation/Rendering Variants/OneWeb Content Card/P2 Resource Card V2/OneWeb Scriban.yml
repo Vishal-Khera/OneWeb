@@ -1,0 +1,59 @@
+﻿---
+ID: "89617190-cd4d-4431-bdf2-a5bc356bdef5"
+Parent: "09c43757-6abd-46cd-aa37-a634b946e1a2"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Content Card/P2 Resource Card V2/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{Category=sc_follow i_item "Page Type"}}
+    {{primary_link_classes = ""}}
+    		{{ primary_filtered_classes = ow_link_model i_item 'Navigation Url'
+    					if( primary_filtered_classes)
+    						if(primary_filtered_classes.class | string.size) > 0
+    						primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    						end
+    					end}}
+    		{{link_model = ow_link_model i_item 'Navigation Url'}}	
+    
+    
+    {{ if (link_model.url && link_model.url !="") }}
+    		<a href="{{link_model.url}}" target="{{link_model.target}}" class="{{primary_link_classes}}" title="{{link_model.title}}">			
+    {{end}}		
+     <div class="card">
+     <div class="card-body">
+    {{if Category}}	    
+          <div class="card-title">{{sc_follow i_item "Page Type" | sc_raw "Title"}}</div>
+    {{end}}	  
+    {{if(i_item.Title != "") }}	 
+    		<div class="paragraph-wrapper">        
+    		{{i_item.Title}}
+            </div>
+    {{end}}		    
+    </div>
+    {{if(i_item.image != "") }}
+    <div class="card-image">
+         <div class="card-image-holder">
+    		<img class="ow-lazy" data-src = "{{ i_item.Image.media_url }}"  alt="{{i_item.Image.alt.raw}}" title="{{ i_item.Image.title.raw}}" />
+    	 </div>
+    </div>
+    {{end}}
+    </div>
+    {{ if (link_model.url!="") }}
+    	</a>
+    {{end}}
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220713T134218Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

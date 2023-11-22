@@ -1,0 +1,24 @@
+﻿---
+ID: "0d15c6d0-33ac-4fcc-b5ab-84be8c61d5ef"
+Parent: "b2c85aeb-b584-48b8-a171-839e8b7b467a"
+Template: "8d19a541-9707-4001-bf7f-4b7728809ebc"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb ImageGallery Folder/Application Solution Detail
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220701T122425Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ef14bad-809e-4c37-b48a-1b73420b077c"
+      Hint: Images
+      Value: "{55C71357-B639-4796-881F-14854EE69FAC}|{3C77803B-CDF2-4913-AE1C-CC166192703E}|{F605038E-7236-4EC4-839D-7DEA5A59702C}|{8A0CA937-D9CA-4F2B-8B7E-68867F67C6DC}|{A9DBBEBC-84B5-45AD-A9EA-92EE174A5CB4}|{69BADCDC-E354-4C47-967E-A8B32CF89350}"

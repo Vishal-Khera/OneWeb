@@ -1,0 +1,21 @@
+﻿---
+ID: "a908b235-b1cf-4d36-b08c-9563338aaf5a"
+Parent: "3146e207-8c21-49a0-b1ac-6805cc60efab"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Media/Datasource/OneWeb Video/Specific Controls/Muted
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1177
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T190342Z

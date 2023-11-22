@@ -1,0 +1,22 @@
+.lightbox-wrapper * {
+  font-family: "FranklinGothicLTPro-Md" !important; }
+
+.lightbox-wrapper .lightbox-text h2 {
+  border-bottom: 2px solid rgba(26, 25, 24, 0.15);
+  margin-bottom: 25px;
+  font-size: 32px; }
+  @media screen and (min-width: 0) {
+    .lightbox-wrapper .lightbox-text h2 {
+      font-size: 32px; } }
+  @media screen and (min-width: 768px) {
+    .lightbox-wrapper .lightbox-text h2 {
+      font-size: 32px; } }
+  @media screen and (min-width: 992px) {
+    .lightbox-wrapper .lightbox-text h2 {
+      font-size: 48px; } }
+
+.lightbox-wrapper .lightbox-gallery a {
+  overflow: hidden;
+  transition: 0.2s ease-in-out all; }
+  .lightbox-wrapper .lightbox-gallery a:hover {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.4)); }

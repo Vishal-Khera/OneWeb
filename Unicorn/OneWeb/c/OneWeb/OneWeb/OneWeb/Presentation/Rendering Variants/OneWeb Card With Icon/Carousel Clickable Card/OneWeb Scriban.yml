@@ -1,0 +1,59 @@
+﻿---
+ID: "1fadbf2c-01db-4b50-ab91-05ee7883c4b7"
+Parent: "25bedf70-c251-4383-b91f-45b86b53b80b"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card With Icon/Carousel Clickable Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{item = ow_item i_item.id}}
+    {{default_URL= ow_default_gated_content item}}
+    {{primary_link_classes = "btn btn-primary "}}
+    {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    if( primary_filtered_classes)
+    	if(primary_filtered_classes.class | string.size) > 0
+    		primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    	end
+    end}}
+    <div class="component ow-two-card ow-card ow-card-icon mb-2">
+    
+    
+                        <div class="product-slide">
+    					{{ if(i_item.image | string.size > 0)}}
+    					   {{if(i_item.PrimaryLink !="")}}
+    					   <a href="{{default_URL}}">
+                            <div class="product-image image-full">
+                               <img data-src = "{{ i_item.image.media_url }}"  class="ow-lazy"  alt="{{ i_item.image.alt.Raw }}" title="{{ i_item.image.title.Raw }}" />
+                            </div>
+    					   </a>
+    					   {{ end }}
+    						{{ end }}
+                            <div class="products-content">
+    						{{if (i_item.title | string.size > 0)}}
+                                <h3 aria-label="head">{{i_item.title}}</h3>
+    							{{ end }}
+    							{{if(i_item.content | string.size > 0)}}
+                                <div aria-label="content">{{ i_item.content}}</div>
+    							{{end}}
+    
+                            </div>
+                        </div>
+    					
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220712T082258Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

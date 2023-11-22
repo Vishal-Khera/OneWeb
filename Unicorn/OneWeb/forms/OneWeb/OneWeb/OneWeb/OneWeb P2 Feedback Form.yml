@@ -1,0 +1,24 @@
+﻿---
+ID: "c7c595d9-0bfb-4d31-b3f7-067b74d9fa3b"
+Parent: "3f72c50c-83f0-4d63-b540-068ce8fbf3f6"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: /sitecore/Forms/OneWeb/OneWeb/OneWeb/OneWeb P2 Feedback Form
+DB: master
+SharedFields:
+- ID: "5303564e-92a6-4a74-b0d5-1471c717197d"
+  Hint: Css Class
+  Value: "ow-form-validation"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "fce03b41-4cbb-4f7f-920f-ff04f12fa896"
+  Hint: Scripts
+  Value: "jquery-2.1.3.min.js|jquery.validate.min.js|formsextensions.validate.js|jquery.validate.unobtrusive.min.js|jquery.unobtrusive-ajax.min.js|form.validate.js|form.tracking.js|form.conditions.js"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211205T165327Z

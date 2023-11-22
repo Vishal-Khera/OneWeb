@@ -1,0 +1,32 @@
+﻿---
+ID: "fb56db39-f802-4260-a565-4e43c40e257b"
+Parent: "5484b88d-bcfc-4d44-b603-c85937c6a4d8"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: /sitecore/Forms/OneWeb/OneWeb/OneWeb/OneWeb/SubscribeSucess/Section/ThankyouMassage
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 2289125D7FCE4A9E9A0325814967EF27
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211127T113713Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9666782b-21bb-40ce-b38f-8f6c53fa5070"
+      Hint: Text
+      Value: You have successfully subscribed to the newsletter

@@ -1,0 +1,9 @@
+﻿@model OneWeb.Feature.PageContent.Models.CustomCardModel
+
+<div class="card">
+    <div class="card-image">@Html.Sitecore().Field("Image")</div>
+    <div class="card-content">
+        <h3 class="card-title">@Html.Sitecore().Field("Title")</h3>
+        <p class="card-description">@Html.Sitecore().Field("Content")</p>
+    </div>
+</div>

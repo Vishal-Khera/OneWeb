@@ -1,0 +1,21 @@
+﻿---
+ID: "e899327e-715d-41f2-be54-7a60f1aaf567"
+Parent: "876181a5-766e-429b-bb5a-744cb913bfec"
+Template: "fd7827f5-19f9-4c1d-9b11-5349bf84b44b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Page Designs/OneWeb Squeeze Base
+DB: master
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{1E501F74-4AF3-42A4-A093-0E0D9077D82F}|{066EB666-B935-442F-8C9C-5C8E3218F23A}|{2A3A58AE-DAB4-4604-BFAD-1B5611E69D3E}|{556DF85B-6D4F-442B-B56B-6AEE36DD6E0D}"
+- ID: "7b487159-e180-4846-be49-e196e4c3a2b3"
+  Hint: Page Design Theme
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211123T141612Z

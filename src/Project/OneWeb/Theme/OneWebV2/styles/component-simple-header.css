@@ -1,0 +1,72 @@
+.simple-header .text-wrapper h2 {
+  font-size: 26px; }
+  @media screen and (min-width: 0) {
+    .simple-header .text-wrapper h2 {
+      font-size: 26px; } }
+  @media screen and (min-width: 768px) {
+    .simple-header .text-wrapper h2 {
+      font-size: 40px; } }
+  @media screen and (min-width: 992px) {
+    .simple-header .text-wrapper h2 {
+      font-size: 40px; } }
+
+.simple-header .paragraph-wrapper p {
+  font-size: 16px; }
+  @media screen and (min-width: 0) {
+    .simple-header .paragraph-wrapper p {
+      font-size: 16px; } }
+  @media screen and (min-width: 768px) {
+    .simple-header .paragraph-wrapper p {
+      font-size: 16px; } }
+  @media screen and (min-width: 992px) {
+    .simple-header .paragraph-wrapper p {
+      font-size: 18px; } }
+
+.simple-header .overflow-hide {
+  overflow: hidden; }
+
+.simple-header .ow-content-card .text-wrapper h2 {
+  color: #2C2A29;
+  font-size: 21px; }
+  @media screen and (min-width: 0) {
+    .simple-header .ow-content-card .text-wrapper h2 {
+      font-size: 21px; } }
+  @media screen and (min-width: 768px) {
+    .simple-header .ow-content-card .text-wrapper h2 {
+      font-size: 28px; } }
+  @media screen and (min-width: 992px) {
+    .simple-header .ow-content-card .text-wrapper h2 {
+      font-size: 28px; } }
+
+.simple-header .text-wraper-body {
+  color: #2C2A29; }
+
+.simple-header .ow-video .component-content {
+  display: unset; }
+
+.simple-header .promo-card {
+  padding: 0; }
+  .simple-header .promo-card .promo-card_content {
+    display: flex;
+    align-items: center; }
+    .simple-header .promo-card .promo-card_content .text-wrapper {
+      display: unset;
+      width: 100%;
+      padding: 0;
+      height: auto; }
+  .simple-header .promo-card .promo-card_image {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px; }
+    .simple-header .promo-card .promo-card_image video,
+    .simple-header .promo-card .promo-card_image img,
+    .simple-header .promo-card .promo-card_image .product-image {
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px; }
+
+.simple-header .reverse-column .promo-card .promo-card_content .text-wrapper {
+  padding: 40px 0px 20px 0px; }
+  @media only screen and (min-width: 992px) {
+    .simple-header .reverse-column .promo-card .promo-card_content .text-wrapper {
+      padding: 20px 0px 20px 20px; } }

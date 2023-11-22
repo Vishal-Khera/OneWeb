@@ -1,0 +1,23 @@
+﻿---
+ID: "a25f5572-0bca-4978-a496-4f848b09b262"
+Parent: "40ba3e3e-3603-4f69-a8f3-5085c8884763"
+Template: "b14bab5b-8965-466b-886b-1f93175bcab3"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/Social Media Groups
+DB: master
+BranchID: "4ddbdd69-8a15-4520-bed8-f7553139586b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{0C61D3F5-59C2-40AD-B24F-D0DAE93EAC65}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T074304Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

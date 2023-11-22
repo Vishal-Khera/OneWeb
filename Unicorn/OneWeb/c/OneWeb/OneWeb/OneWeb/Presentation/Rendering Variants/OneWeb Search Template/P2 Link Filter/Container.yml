@@ -1,0 +1,47 @@
+﻿---
+ID: "16a4705b-29e9-4944-8a44-0b62423d0c93"
+Parent: "9ffe037a-1bce-4c31-aeb2-861cc3897eb8"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/P2 Link Filter/Container
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="filter-tab filter-category-wrap">
+        {{sc_raw i_item 'DisplayName'}}
+    </div>
+    <div class="filter-facet-wrapper d-none mb-lg-5">
+        <div class="filter-wrapper-container">
+        <div class="filter-tab filter-title">
+            {{sc_raw i_item 'DisplayName'}}
+            <a href="javascript:void(0)" class="close-filter">
+                <span class="sr-only"> Cross Icon </span>
+            </a>
+        </div>
+        <div class="filters-card filter-category filter-facet-head" data-list="{{sc_raw i_item 'Visible Count'}}" ow-key="{{sc_raw i_item "FieldName"}}">
+            <div class="filters-card__items">
+                    <div class="ow-container"></div>
+                <a href="javascript:void(0)" class="show-filter">{{sc_raw i_item 'View All Text'}}</a>
+                <a href="javascript:void(0)" class="show-filter uncheck-all">{{sc_raw i_item 'Reset Text'}}</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T182542Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

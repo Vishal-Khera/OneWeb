@@ -1,0 +1,33 @@
+﻿---
+ID: "eeb43744-456b-45f3-bc95-7cad290f4c08"
+Parent: "fee56d1e-c179-482f-8210-a10338a63fd8"
+Template: "cc367e43-6f32-47af-9381-c86f0a4acedb"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Search Boxes/Press Release
+DB: master
+SharedFields:
+- ID: "63db90e0-b346-4593-b20c-9e5308c33273"
+  Hint: Search Result Page
+  Value: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/Press Releases
+- ID: "b6e7773a-5792-4eff-8807-d7ac8ff56343"
+  Hint: AutoSuggest Configuration
+  Value: "{436AF50A-C7F8-40E9-AF55-E49C8386603B}"
+- ID: "c74845f6-8ddf-4bab-9892-7b28cfd407b2"
+  Hint: Configuration
+  Value: "{D8A0475F-4182-4D47-B50E-D7658EF20FA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T030820Z
+    - ID: "2eaa0cac-146a-4d1b-b003-977e7742e0b7"
+      Hint: AutoSuggest Trigger Count
+      Value: 5
+    - ID: "e9c0cae5-4b15-4d9e-b8de-f7ee876e76e4"
+      Hint: Placeholder Text
+      Value: Search...
+    - ID: "f5b21f5c-96e7-4381-8837-a5ac2f22d33a"
+      Hint: Empty Text Message
+      Value: Please enter a keyword to initiate search...

@@ -1,0 +1,18 @@
+﻿---
+ID: "e329dc42-eb2a-4c22-a0f8-98ac092daa58"
+Parent: "faca2f6d-89b2-4a07-9ec2-6bd8ada8c5b4"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Taxonomy/Rendering Parameters/OneWeb Taxonomy/Search Criteria
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150904T093455Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

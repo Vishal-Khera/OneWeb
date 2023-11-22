@@ -1,0 +1,116 @@
+@import "base/base-index.scss";
+
+.ow-video {
+  display: flex;
+  .modal-wrapper{
+    width: 100%;
+  }
+  .component-content {
+    display: flex;
+    a {
+      display: flex;
+      width: 100%;
+      .video-tutorial-wrapper {
+        box-shadow: 0 3px 12px $mid-gray;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        box-sizing: border-box;
+        margin-left: 0px;
+        height: auto;
+        margin-bottom: 20px;
+        cursor: pointer;
+        width: 100%;
+
+        .video-thumbanial {
+          position: relative;
+          height: 250px;
+
+          img {
+            width: 100%;
+            height: 250px;
+            object-fit:cover;
+          }
+
+          .play-icon {
+            position: absolute;
+            z-index: 2;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            img {
+              height: 106px;
+
+              @include lg {
+                height: 112px;
+              }
+            }
+          }
+        }
+
+        .video-title-group {
+          width: 100%;
+          padding: 10px 20px;
+          height: auto;
+          background: $white;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+
+          .title {
+            width: 75%;
+            text-align: left;
+
+            h4 {
+              @include font-size($lg-font);
+              color: $primary;
+              font-family: "Helvetica Neue";
+              display: -webkit-box;
+              -webkit-line-clamp:2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+
+            .description {
+              @include font-size($md-font);
+              color: $dark-gray;
+              font-family: "Helvetica Neue";
+              display: -webkit-box;
+              -webkit-line-clamp:1;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+          }
+
+          .watch-time {
+            width: 25%;
+            text-align: right;
+
+            &::before {
+              background: url(../images/time-svgrepo-com-black.svg);
+              content: "";
+              color: $black;
+              background-repeat: no-repeat;
+              padding-right: 15px;
+              position: relative;
+              top: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    .video-notice {
+      background-color: rgba(255, 255, 255, 0.9);
+      text-align: center;
+      padding: 3rem;
+      width: 100%;
+      display: block;
+      position: absolute;
+      left: 0;
+      z-index: 10;
+      height: 100%;
+    }
+  }
+}

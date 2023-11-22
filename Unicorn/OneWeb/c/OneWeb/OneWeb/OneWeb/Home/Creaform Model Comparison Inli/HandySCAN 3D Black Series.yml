@@ -1,0 +1,43 @@
+﻿---
+ID: "bf4febb9-ec3c-45b9-b84d-1c4edb529d58"
+Parent: "e2096837-1681-4b51-844a-6411f6b10f86"
+Template: "de4ce863-9911-457a-9a47-7e98a634bad6"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/Creaform Model Comparison Inline/HandySCAN 3D Black Series
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{5646FE4B-4B09-4A03-AAE4-6B73A355E148}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T141044Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: HandySCAN 3D<br />Black Series
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        Accuracy to 0.025mm<br />
+        11 blue laser crosses<br />
+        <span class="light-gray">(+1 extra line)</span><br />
+        Certified ISO 1725
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "d8102b5b-0ae4-4e50-9880-2d71b652465e"
+      Hint: MobileImage
+      Value: |
+        <image mediaid="{5646FE4B-4B09-4A03-AAE4-6B73A355E148}" />
+    - ID: "eb53270e-6095-4d95-a1d4-2421086f95eb"
+      Hint: Price
+      Value: 3
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="View all specs" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

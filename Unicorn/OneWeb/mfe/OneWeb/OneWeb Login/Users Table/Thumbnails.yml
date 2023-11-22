@@ -1,0 +1,18 @@
+﻿---
+ID: "17d4da2c-7a3e-46e8-9f9d-75937e1a57a3"
+Parent: "0d94d2f5-af96-480d-8a35-2d538c0593db"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Login/Users Table/Thumbnails
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220323T153143Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

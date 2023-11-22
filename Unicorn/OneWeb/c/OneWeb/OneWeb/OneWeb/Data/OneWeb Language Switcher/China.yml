@@ -1,0 +1,26 @@
+﻿---
+ID: "47488859-feb1-4529-bbef-0d068a78c84c"
+Parent: "36f44537-16d9-4e82-9db8-e9057b708e6f"
+Template: "17364ce9-0f0e-463f-8169-1b464c481c66"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Language Switcher/China
+DB: master
+SharedFields:
+- ID: "9349257f-c51c-4648-bf34-60a933807ebd"
+  Hint: Link
+  Value: |
+    <link linktype="external" url="http://google.com" anchor="" target="_blank" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211119T064244Z
+    - ID: "2890fa99-b5bf-49a8-8a28-e2efe3f93780"
+      Hint: Title
+      Value: CN
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

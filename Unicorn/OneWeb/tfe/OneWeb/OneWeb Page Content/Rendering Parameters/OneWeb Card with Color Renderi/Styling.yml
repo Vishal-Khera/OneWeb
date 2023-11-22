@@ -1,0 +1,18 @@
+﻿---
+ID: "c8eb5e8b-45a9-48b1-851f-ea3df759b477"
+Parent: "51b5ff10-e0ac-417a-9671-3f749f6640cb"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Card with Color Rendering Parameters/Styling
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T125257Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

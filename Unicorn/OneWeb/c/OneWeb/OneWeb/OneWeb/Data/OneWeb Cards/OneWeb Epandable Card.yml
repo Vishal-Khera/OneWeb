@@ -1,0 +1,18 @@
+﻿---
+ID: "50ad7767-4aeb-4ee6-9fcc-dc68e1562403"
+Parent: "8fac35fd-1bf6-42e4-9353-b2375f689162"
+Template: "3ff47763-b0a6-4b2f-a3d1-afdbddf46495"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards/OneWeb Epandable Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220509T132922Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

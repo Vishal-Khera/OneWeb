@@ -1,0 +1,21 @@
+﻿---
+ID: "1e651ace-b74d-40b2-86e0-70e2b67e926e"
+Parent: "4aae86c7-36ba-4379-855c-6ece1c5a9244"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Feature/OneWeb/OneWeb Page Structure/ow-column"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "ow-column*"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080110T042900Z

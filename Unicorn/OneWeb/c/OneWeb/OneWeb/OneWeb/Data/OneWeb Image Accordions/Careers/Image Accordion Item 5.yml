@@ -1,0 +1,27 @@
+﻿---
+ID: "d9f7ce3e-dd76-4385-9ed8-ee2447eb9c5e"
+Parent: "67b53de4-593a-437f-8c06-6087c34f70b5"
+Template: "1c0ee710-b440-4f8d-80ae-ca464571204b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Image Accordions/Careers/Image Accordion Item 5
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220112T190057Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Extending Limits in Test, Measurement & Detection
+    - ID: "5457a43c-834a-46a9-b57d-eca5a856f48b"
+      Hint: Image List
+      Value: "{02E57FE8-20D1-4018-A350-A945E456419F}|{9E0D3F28-4255-4526-9208-076CA945DA0F}|{5424CD48-C8DB-4FD4-83EE-B026016B66E9}|{E6C0A0B8-31B8-400F-AD09-03D939CDD347}|{BB873B41-CCC6-4E8D-B861-51596A6F0212}|{B6AFA2A3-925B-46BB-84A0-B60A3DD5AB02}|{CF4641D5-39AC-4496-9CD4-87E0B2AC7A32}|{A688EF4E-00EE-46C2-850D-4400007EDAE0}|{F721C640-FEAE-49E2-AB3C-007AD39CB591}"
+    - ID: "c1ef176f-8343-4bbc-aa16-684ef202abf0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F503A2E1-1769-47A0-8FF2-6DD206CF5C9C}" />
+    - ID: "da373cd7-f723-416e-a552-1ade06c7f708"
+      Hint: Structure
+      Value: "{A89A9349-7CBD-48D1-8F9A-25B6D9E5A7BA}"

@@ -1,0 +1,55 @@
+﻿---
+ID: "8295e0ea-88a4-490d-abda-c021af92860c"
+Parent: "1c828ec1-6eda-4b42-988d-da5a143ead70"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card/CTA Popup/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div id="ow-popup" class="ekko-lightbox modal" tabindex="-1" role="dialog">
+    
+        <div class="modal-dialog" role="document">
+    
+            <div class="modal-content">
+               
+                <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    
+                </div>
+    
+                <div class="modal-body">
+    
+                    <div class="ekko-lightbox-container">
+    
+                        <div class="ekko-lightbox-item">
+    
+                              	{{ if(i_item.title != "") }}
+    		                    {{ i_item.title }}
+    	                        {{ end }}<br>
+    	                        {{ if(i_item.content != "") }}
+    		                     {{ i_item.content }}
+    	                        {{ end }}  <br>
+    						<div class="text-center popup-btns"> <a href="javascript:void(0)" class="agree-cta">Agree</a>&emsp;&emsp;<a class="close-popup">Disagree</a> </div>
+                         </div>
+    
+            </div>
+    
+        </div>
+    
+    </div>
+    </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220714T014936Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

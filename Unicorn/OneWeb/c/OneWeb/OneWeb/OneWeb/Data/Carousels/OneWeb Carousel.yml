@@ -1,0 +1,23 @@
+﻿---
+ID: "d715b54c-f51f-45f0-86d5-9ca7682b6c2d"
+Parent: "6618c041-f25d-4523-a8e9-ebf3d58c7faf"
+Template: "add22f05-6b4c-4344-95ad-9a1a9ba6a216"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Carousels/OneWeb Carousel
+DB: master
+BranchID: "3fa4800d-eca0-44ed-9b49-7d6da032c747"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{7FA72CB2-AB57-4207-B1B5-48EF497810BC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T091513Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

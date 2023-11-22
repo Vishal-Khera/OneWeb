@@ -1,0 +1,112 @@
+﻿---
+ID: "ef744fb3-dd2c-43f8-825f-6ce231b3909f"
+Parent: "66922ee0-8219-47c8-b7ff-7aead775af9a"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb 5050 Card/P2 Image On Left/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{
+    				show_arrows= sc_parameter "Show Arrows"
+    				if show_arrows  && show_arrows == 1
+    					show_arrows = "true"
+    				else
+    					show_arrows= "false"		
+    				end 
+    				
+    				show_dots = sc_parameter "Show Dots"
+    				if show_dots  && show_dots == 1
+    					show_dots = "true"
+    				else
+    					show_dots= "false"		
+    				end 
+    				
+    				auto_play = sc_parameter "AutoPlay"
+    				if auto_play  && auto_play == 1
+    					auto_play = "true"
+    				else
+    					auto_play= "false"		
+    				end 
+    				
+    				data_autoplay_speed = sc_parameter 'Autoplay Speed'					
+    				
+    				data_slides_to_show = sc_parameter 'Slides To Show'		
+    				
+    				data_slides_to_show_mob = sc_parameter 'Slides To Show Mobile'
+    								
+    				data_slides_to_show_tab = sc_parameter 'Slides To Show Tab'				
+    				
+    }}
+    <div class="component row align-items-center">
+        <div class="col-md-6 dot-center">	
+    		<div class="slider-wrapper" data-arrow="{{-show_arrows-}}" data-dots="{{-show_dots-}}" data-autoplaySpeed="{{-data_autoplay_speed-}}" data-autoplay="{{-auto_play-}}" data-infinite="false" data-slides-to-show-tab="{{-data_slides_to_show_tab-}}" 
+    		data-slides-to-show-mob="{{-data_slides_to_show_mob-}}" data-slides-to-show="{{-data_slides_to_show-}}">
+    			{{-for banner_slide in (sc_followmany i_item "Images")-}}
+    			<div class="slider-item">
+    				{{media_model = ow_default_media banner_slide.Image.media_url}}
+    				{{-if media_model-}}
+    					<div class="slider-image">
+    						<img class="ow-lazy" data-src="{{media_model.url }}" alt="{{media_model.alt }}" title="{{media_model.title}}"></img>
+    					</div>
+    				{{-end-}}
+    			</div>	
+    			{{end}}
+    		</div>	
+    	</div>
+    <div class="col-md-6">
+    <div class="component text-wrapper">
+         {{-if i_item.title !=""-}}	 
+            <h2>{{-i_item.title-}}</h2>
+    	{{-end-}}
+      
+    	{{-if i_item.subtext !=""-}}
+            <h2 class="light-gray-text">{{-i_item.subtext-}}</h2>
+    	{{-end-}}
+      
+         {{-if i_item.content !=""-}}
+      <div class="paragraph-wrapper lg-paragraph">
+         {{-i_item.content-}}
+      </div>
+    	 {{-end-}} 
+    	 
+    	   
+            {{primary_link_classes = "button btn-default"}}
+            {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+                  if( primary_filtered_classes)
+    	            if(primary_filtered_classes.class | string.size) > 0
+    		          primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    	            end
+                  end}}
+            {{secondary_link_classes = "button btn-simple"}}
+            {{ secondary_filtered_classes = ow_link_model i_item 'SecondaryLink'
+                     if( secondary_filtered_classes)
+    	               if(secondary_filtered_classes.class | string.size) > 0
+    		              secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+    	               end
+                     end}}	   
+    		 {{link_model = ow_link_model i_item 'PrimaryLink'}}
+    		  {{ if(link_model.url != "") }}
+                      <a href="{{link_model.url}}" class="{{primary_link_classes}}" title="{{link_model.title}}" target="{{link_model.target}}">{{link_model.text}}</a>
+    		   {{ end }}
+    		{{link_model_sec = ow_link_model i_item 'SecondaryLink'}}
+    		{{ if(link_model_sec.url != "") }}
+    		<a href="{{link_model_sec.url}}" class="{{secondary_link_classes}}" title="{{link_model_sec.title}}" target="{{link_model_sec.target}}">{{link_model_sec.text}}</a>
+                    {{ end }} 
+    	</div>
+        </div>
+    
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220629T082610Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,132 @@
+.image-textbox {
+  width: 100%;
+  height: 720px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center; }
+  @media only screen and (min-width: 768px) {
+    .image-textbox {
+      padding-top: 74%; } }
+  @media only screen and (min-width: 992px) {
+    .image-textbox {
+      height: 0;
+      padding-top: 42.71%; } }
+  .image-textbox > .container, .image-textbox .row, .image-textbox .col-12 {
+    height: 100%; }
+  .image-textbox .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .image-textbox.textbox-left {
+    justify-content: end; }
+  .image-textbox .full-width-content {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row; }
+  .image-textbox .file-type-icon-media-link img {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%; }
+  .image-textbox .text-bg {
+    color: #fff;
+    padding: 30px 15px;
+    margin-top: 20px;
+    float: left;
+    background: rgba(0, 0, 0, 0.5); }
+    @media only screen and (min-width: 768px) {
+      .image-textbox .text-bg {
+        margin-top: 40px; } }
+    @media only screen and (min-width: 1200px) {
+      .image-textbox .text-bg {
+        padding: 40px;
+        margin-top: 60px; } }
+    .image-textbox .text-bg .text-red {
+      color: #D9171D; }
+    .image-textbox .text-bg .btn {
+      margin-top: 20px;
+      padding: 0;
+      background-color: transparent !important;
+      color: #fff !important;
+      border: 0 !important;
+      border-bottom: 1px solid #fff !important;
+      text-transform: none; }
+      .image-textbox .text-bg .btn:hover {
+        color: #fff !important;
+        border: 0 !important;
+        border-bottom: 1px solid #fff !important; }
+    .image-textbox .text-bg h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      font-family: 'HelveticaNeue-Bold'; }
+      @media screen and (min-width: 0) {
+        .image-textbox .text-bg h2 {
+          font-size: 32px; } }
+      @media screen and (min-width: 768px) {
+        .image-textbox .text-bg h2 {
+          font-size: 32px; } }
+      @media screen and (min-width: 992px) {
+        .image-textbox .text-bg h2 {
+          font-size: 36px; } }
+    .image-textbox .text-bg label {
+      font-family: 'HelveticaNeue-Bold';
+      font-size: 14px;
+      text-transform: uppercase;
+      margin-bottom: 15px; }
+      @media screen and (min-width: 0) {
+        .image-textbox .text-bg label {
+          font-size: 14px; } }
+      @media screen and (min-width: 768px) {
+        .image-textbox .text-bg label {
+          font-size: 14px; } }
+      @media screen and (min-width: 992px) {
+        .image-textbox .text-bg label {
+          font-size: 14px; } }
+    .image-textbox .text-bg p {
+      margin-bottom: 20px; }
+  .image-textbox.textbox-right .wide-section-content {
+    order: 0; }
+  .image-textbox.textbox-right .wide-content-img-placeholder {
+    order: 1;
+    display: none; }
+  @media only screen and (min-width: 992px) {
+    .image-textbox.textbox-right .wide-section-content {
+      order: 1; }
+    .image-textbox.textbox-right .wide-content-img-placeholder {
+      order: 0;
+      display: flex; } }
+  .image-textbox.textbox-left .wide-content-img-placeholder {
+    order: 1;
+    display: none; }
+  .image-textbox.textbox-left .wide-section-content {
+    order: 0; }
+  @media only screen and (min-width: 992px) {
+    .image-textbox.textbox-left .wide-content-img-placeholder {
+      display: flex; } }
+  @media (max-width: 991px) {
+    .image-textbox .wide-section-content {
+      flex: 0 0 100%;
+      max-width: 100%; } }
+  @media (max-width: 991px) {
+    .image-textbox .wide-content-img-placeholder {
+      display: block !important;
+      flex: 0 0 100%;
+      max-width: 100%; }
+      .image-textbox .wide-content-img-placeholder img {
+        left: 50% !important;
+        top: 0 !important;
+        transform: translate(-50%, 0%) !important;
+        position: relative; } }
+  .image-textbox .wide-content-img-placeholder img {
+    width: auto !important;
+    max-height: 450px; }
+    @media only screen and (min-width: 992px) {
+      .image-textbox .wide-content-img-placeholder img {
+        max-height: 500px; } }
+    @media only screen and (min-width: 1200px) {
+      .image-textbox .wide-content-img-placeholder img {
+        max-height: 650px; } }

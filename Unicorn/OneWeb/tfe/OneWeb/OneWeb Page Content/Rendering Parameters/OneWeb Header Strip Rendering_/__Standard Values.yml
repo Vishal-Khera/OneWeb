@@ -1,0 +1,14 @@
+﻿---
+ID: "85b786d9-daea-4ee3-9629-b0a8a23fe6f4"
+Parent: "322b89f1-e8c9-4e7a-9704-d62243a5b932"
+Template: "322b89f1-e8c9-4e7a-9704-d62243a5b932"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Header Strip Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211214T083118Z

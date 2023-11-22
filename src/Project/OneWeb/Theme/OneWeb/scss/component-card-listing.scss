@@ -1,0 +1,59 @@
+@import "base/base-index.scss";
+
+.slider-wrapper {
+  &.product-card-item {
+    position: relative;
+    .card-item {      
+      margin-bottom: 30px;
+      h4 {
+        color: $white;
+        @include font-size($sxl-font);
+        font-family: "HelveticaNeue-Bold";
+      }
+
+      .card-overlay {
+        img {
+          margin-bottom: 10px;
+        }
+        .card-overlay-text {
+          color: $white;
+          @include font-size($md-font);
+
+          .description {            
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            color: $white;
+           
+            
+          }
+
+          .btn {
+            position: absolute;
+            bottom: 0;
+            width:auto;
+          }
+        }
+      }
+    }
+
+    .slick-dots {
+      bottom: -15px !important;      
+      display: block;
+      margin-left: 0px;
+      padding-top:unset;
+      left: 0px;
+      top: unset;
+
+      li {
+        background: $dark-gray !important;
+
+        &.slick-active {
+          background: $white !important;
+          border: 1px solid $dark-gray !important;
+        }
+      }
+    }
+  }
+}

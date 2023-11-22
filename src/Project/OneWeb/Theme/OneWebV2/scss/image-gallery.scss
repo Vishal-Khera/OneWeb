@@ -1,0 +1,26 @@
+@import 'base/base-index.scss';
+
+.lightbox-wrapper {
+  * {
+    font-family: $franklinMd  !important;
+  }
+
+  .lightbox-text {
+    h2 {
+      border-bottom: 2px solid $lightblack;
+      margin-bottom: 25px;
+      @include font-size($xxl-font);
+    }
+  }
+
+  .lightbox-gallery {
+    a {
+      overflow: hidden;
+      transition: 0.2s ease-in-out all;
+
+      &:hover {
+        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.4));
+      }
+    }
+  }
+}

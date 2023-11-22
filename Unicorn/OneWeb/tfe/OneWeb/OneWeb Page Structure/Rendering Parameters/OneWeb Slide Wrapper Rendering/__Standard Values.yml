@@ -1,0 +1,22 @@
+﻿---
+ID: "bc4d0f71-3424-46cb-987a-c539e9c6309e"
+Parent: "a661db9c-06f3-42ea-b24f-ee5a8fa0b769"
+Template: "a661db9c-06f3-42ea-b24f-ee5a8fa0b769"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Structure/Rendering Parameters/OneWeb Slide Wrapper Rendering Parameters/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05c23396-32b5-4ea1-ba59-5d7e18a9445d"
+      Hint: Carousel Desktop Disable
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120803T085734Z

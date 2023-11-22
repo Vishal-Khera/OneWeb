@@ -1,0 +1,213 @@
+@import 'base/base-index.scss';
+
+.job-header {
+    background-color: $cta-gray;
+
+    .row{
+        align-items: flex-start;
+    }
+
+    .ow-primary-header{
+        .row{
+            align-items: center;
+        }
+    }
+
+    .button-row {
+        margin-top: 20px;
+    }
+
+    .text-wrapper {
+        h2 {
+            @include font-size($xl-font);
+        }
+    }
+    .media-wrapper{
+        padding: 0;
+        img{
+            @include border-radius(8px);
+            width: 100%;
+        }
+        @include lg{
+            position: relative;
+            &__media{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+            img{
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+        }
+    }
+}
+
+.job-header-wrapper {
+    * {
+        font-family: $franklinMd  !important;
+    }
+    padding-top: 20px;
+
+    @include xl {
+        padding-top: 0px;
+    }
+
+    .apply-button {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        @include lg{
+            margin-bottom: 50px;
+        }
+    }
+
+    .text-wrapper{
+        .light-gray-text{
+            color: $mediumblack !important;
+        }
+    }
+}
+
+.job-info {
+    @include font-size($slg-font);
+
+    @include md {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div {
+        padding-top: 15px;
+
+        @include md {
+            width: 50%;
+            padding-top: 30px;
+        }
+    }
+
+    i {
+        padding-right: 10px;
+        font-family: 'icomoon' !important;
+
+        &::before {
+            color: $brand;
+            @include font-size($md-font);
+        }
+    }
+}
+
+.job-detail-wrapper {
+    * {
+        font-family: $franklinMd  !important;
+    }
+
+    .job-detail {
+        @include font-size($smlg-font);
+        color: $mediumblack;
+        margin-bottom: 20px;
+    }
+}
+
+.text-black {
+    color: $brandblack2;
+}
+
+.article-left-section{
+    // border-right: 1px solid $lightblack;
+    // .col-12{
+    //     padding: 0;
+    // }
+    //padding-bottom: 50px;
+    //@include lg{
+    //    padding-bottom: 80px;
+    //}
+    .social-links-wrapper {
+        @include md{
+            float: right;
+        }
+    }
+    .ow-video{
+        .component-content{
+            display: unset;
+        }
+    }
+    .ow-text-with-placeholder{
+        .text-wrapper{
+            padding: 0;
+            .component-placeholder-wrapper{
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    }
+    .text-wrapper{
+        .paragraph-wrapper{
+            margin: 0px;
+        }
+    }
+    .card-grid{
+        @include border-radius(16px);
+        padding-top: 20px;
+        @include md{
+            padding: 0 15px;
+            padding-top: 50px;
+        }
+        .text-wrapper{
+            h2{
+                padding: 0 10px;
+                @include md{
+                    padding: 0 15px;
+                }
+            }
+            .component-placeholder-wrapper{
+                margin-top: 20px;
+                padding-bottom: 0;
+                @include md{
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+.article-right-section {
+    display: none;
+    //padding-bottom: 30px;
+    @include md{
+        display: block;
+    }
+    //@include lg{
+    //    padding-bottom: 80px;
+    //}
+    .ow-header-content{
+        margin-bottom:15px;
+    }
+    // .social-links-wrapper {
+    //     @include xl{
+    //         float: right;
+    //     }
+    // }
+    .card-list-wrapper{
+        .card{
+            @include md{
+                padding: 15px 25px;
+            }
+        }
+        .card-title{
+            @include font-size($md-font);
+        }
+    }
+}
+
+.mob-img-radius{
+    img{
+        @media(max-width:767px){
+            @include border-radius(8px);
+            width: 100%;
+        }
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+}

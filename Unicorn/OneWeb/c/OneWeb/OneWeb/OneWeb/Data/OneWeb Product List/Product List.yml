@@ -1,0 +1,21 @@
+﻿---
+ID: "419f0c96-d9a8-4995-8a1a-8cb403840b82"
+Parent: "d9fa867a-26fd-47a3-ba91-b5a4ae299cb1"
+Template: "e47dab27-cf96-422a-9a74-7f7f5d2ca3fc"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Product List/Product List
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220329T143816Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "657d540d-e855-44ce-a71b-c1fb4168a8ca"
+      Hint: Product List
+      Value: "{0F48A855-AE61-4FDA-ACDB-3B76EFBAFB32}|{939DA2C4-AF16-4CCB-9A23-96895F735C48}|{19C12AA7-2BD6-4330-865E-10B7217E094E}|{7FC07C70-2C08-4634-BD20-40C9DF11B2AD}|{70DD2B41-E9F9-400F-908E-9DE37DB70F7D}|{35F5AAF1-367F-49FD-AAAE-FA2E0E7BAB5B}"

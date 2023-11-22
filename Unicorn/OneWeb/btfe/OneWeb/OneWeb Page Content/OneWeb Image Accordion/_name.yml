@@ -1,0 +1,22 @@
+﻿---
+ID: "e5385a14-6d5c-4d31-821b-310f6ed06265"
+Parent: "ce00af4f-a371-4142-ac38-c238f4d3e2da"
+Template: "9025dcb8-3ff4-46d5-884d-83325274e7e8"
+Path: /sitecore/templates/Branches/Feature/OneWeb/OneWeb Page Content/OneWeb Image Accordion/$name
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/postage_stamp.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170724T113400Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

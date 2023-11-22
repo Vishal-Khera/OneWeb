@@ -1,0 +1,25 @@
+﻿---
+ID: "c6f692ba-5cd6-49ba-9b88-cb43c8fed6aa"
+Parent: "9a217c09-021b-4fbe-ba84-387783e85574"
+Template: "9a217c09-021b-4fbe-ba84-387783e85574"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Job List Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {E27F4069-06C7-47DF-9B39-AC20FDB11D90}
+    {9A217C09-021B-4FBE-BA84-387783E85574}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

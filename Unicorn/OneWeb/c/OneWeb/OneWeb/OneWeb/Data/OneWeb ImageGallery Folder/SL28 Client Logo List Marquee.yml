@@ -1,0 +1,24 @@
+﻿---
+ID: "187c5031-a658-41dd-8e2b-f62d392f5788"
+Parent: "b2c85aeb-b584-48b8-a171-839e8b7b467a"
+Template: "8d19a541-9707-4001-bf7f-4b7728809ebc"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb ImageGallery Folder/SL28 Client Logo List Marquee
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220701T122425Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Compatible with your software
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ef14bad-809e-4c37-b48a-1b73420b077c"
+      Hint: Images
+      Value: "{55C71357-B639-4796-881F-14854EE69FAC}|{3C77803B-CDF2-4913-AE1C-CC166192703E}|{F605038E-7236-4EC4-839D-7DEA5A59702C}|{8A0CA937-D9CA-4F2B-8B7E-68867F67C6DC}|{A9DBBEBC-84B5-45AD-A9EA-92EE174A5CB4}|{69BADCDC-E354-4C47-967E-A8B32CF89350}|{D077C795-9340-40C7-8FA6-9BEF5BEC707A}|{04908466-5F7F-44FC-BDB2-3E047F6B9AAF}|{B435A61D-317A-4FBE-8636-27341E6E56B0}|{AB7476E0-7EF3-47AF-AAE8-0C38FF6597E9}|{B65C4844-045B-4DEC-8FC6-A223B4A84752}|{EB3290AE-5B43-4219-9E98-189DDE85B220}"

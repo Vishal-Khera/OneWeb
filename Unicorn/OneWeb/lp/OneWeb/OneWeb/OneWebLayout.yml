@@ -1,0 +1,18 @@
+﻿---
+ID: "39585166-248f-4a71-b09e-8e35a8efa251"
+Parent: "a63277bd-9171-4f92-a07f-9683899d3996"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/OneWeb/OneWeb/OneWebLayout
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: ~/Views/Project/OneWeb/OneWebLayout.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211113T204806Z

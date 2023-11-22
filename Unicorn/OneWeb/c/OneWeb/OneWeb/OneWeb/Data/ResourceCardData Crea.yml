@@ -1,0 +1,20 @@
+﻿---
+ID: "3de5a6b5-f79a-4f0f-b814-3913f5ef43d9"
+Parent: "8cdb02ae-4106-4fc3-9627-8a8e6d01de5d"
+Template: "6ef46bc6-1f7f-438f-a981-177b67adfa17"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/ResourceCardData Crea
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220713T133525Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: ResourceCardData Crea
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: ResourceCardData Crea

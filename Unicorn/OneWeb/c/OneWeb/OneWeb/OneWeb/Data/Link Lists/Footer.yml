@@ -1,0 +1,18 @@
+﻿---
+ID: "6bbe631b-1844-4bf8-8ee2-ba89a107be45"
+Parent: "f82513bc-10d7-4e82-84f0-2f16a0be5f5c"
+Template: "2fb317e5-509a-4be9-b348-bf79168665c9"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Link Lists/Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211126T141346Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

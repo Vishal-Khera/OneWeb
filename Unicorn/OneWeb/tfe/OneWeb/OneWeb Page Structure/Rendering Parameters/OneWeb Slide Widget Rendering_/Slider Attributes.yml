@@ -1,0 +1,14 @@
+﻿---
+ID: "fbdfdba5-291f-4d05-9bc2-fa850c453aaf"
+Parent: "d8275ab0-1ef0-4d3a-bd68-d83553ed04f6"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Structure/Rendering Parameters/OneWeb Slide Widget Rendering Parameters/Slider Attributes
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220721T112850Z

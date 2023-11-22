@@ -1,0 +1,93 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@model OneWeb.Feature.PageContent.Models.AccordionRenderingModel
+@using OneWeb.Foundation.Serialization
+@using OneWeb.Foundation.SitecoreExtensions.Extensions
+
+
+
+@{
+    const string placeholderKeyPrefix = "ow-accordion-content";
+    var index = 0;
+    var key = string.Format("{0}-{1}", placeholderKeyPrefix, Model.Id);
+}
+
+
+<div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "ow-accordion accordion", Model.Attributes) data-properties="@Model.JsonDataProperties">
+    <div class="component-content">
+
+
+        @if (Model.HasCompositeLoop)
+        {
+            @Model.MessageHasLoop
+        }
+        else if (Model.DataSourceItem == null)
+        {
+            @Model.MessageIsEmpty
+        }
+        @if (Model.Rendering.DataSourceItem != null && Model.CompositeItems != null && !Model.CompositeItems.Any())
+        {
+            using (Html.Sxa().BeginEditFrame(Html.Sitecore().CurrentRendering.DataSource, "Accordion Empty", Model.IsControlEditable))
+            {
+                @Model.MessageIsEmpty
+            }
+        }
+        @if (Model.Rendering.DataSourceItem != null && Model.CompositeItems.Any() && !Model.HasCompositeLoop)
+        {
+            <div>
+                <ul class="items">
+                    @foreach (var composite in Model.CompositeItems)
+                    {
+                        index++;
+                        <li class="item">
+                            @using (Html.Sxa().BeginEditFrame(composite.Value.ID.ToString(), "Accordion", Model.IsControlEditable))
+                            {
+                                <div class="toggle-header" tabindex="0">
+                                    <div class="label">
+                                        <div class="component">
+                                            <div class="component content">
+                                                <div class="field-heading">
+                                                    <a href="javascript:void(0)" tabindex="-1">
+                                                    @Html.Sitecore().Field("Title", composite.Value)
+                                                        </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="toggle-content">
+                                    <div class="description">
+                                        @Html.Sitecore().Field("Content", composite.Value)
+                                        @Html.Sitecore().Placeholder(key + "-" + index)
+                                    </div>
+
+                                    @{
+                                        var PrimaryCTAClass = string.Empty;
+                                        var SecondaryCTAClass = string.Empty;
+                                        if (!string.IsNullOrEmpty(composite.Value.GetLinkFieldModel(BaseCta.Fields.PrimaryLink).Class))
+                                        {
+                                            PrimaryCTAClass = composite.Value.GetLinkFieldModel(BaseCta.Fields.PrimaryLink).Class;
+                                        }
+
+                                        if (!string.IsNullOrEmpty(composite.Value.GetLinkFieldModel(BaseCta.Fields.SecondaryLink).Class))
+                                        {
+                                            SecondaryCTAClass = composite.Value.GetLinkFieldModel(BaseCta.Fields.SecondaryLink).Class;
+                                        }
+                                    }
+                                    <div class="accordion-btn-wrapper">
+                                        <div class="primary-link">
+                                            @Html.Sitecore().Field("PrimaryLink", composite.Value, new { @class = "btn-accordion" + " " + PrimaryCTAClass })
+                                        </div>
+                                        <div class="secondary-link">
+                                            @Html.Sitecore().Field("SecondaryLink", composite.Value, new { @class = "btn-accordion" + " " + SecondaryCTAClass })
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </li>
+                    }
+                </ul>
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,24 @@
+﻿---
+ID: "8235764d-5df7-4681-b06c-ac069e118d2d"
+Parent: "3aab6472-670f-4713-a785-3afbf8c6cd57"
+Template: "552c7c41-fcf3-45a9-a813-3d75a4d5c654"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Header Contents/CH01 similar jobs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T163849Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Similar Jobs
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

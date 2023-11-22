@@ -1,0 +1,50 @@
+﻿---
+ID: "e271623c-c46b-4909-bd7f-4185a2eae05d"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "6ef46bc6-1f7f-438f-a981-177b67adfa17"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/Articles Tab
+DB: master
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Type: Checklist
+  Value: |
+    {61BD64D6-809E-40AE-9297-2724A19329B3}
+    {D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}
+    {500AE4C0-FA7B-463F-8149-EFFF7F044101}
+    {A0E7FF57-6994-4B09-AA21-104239628D5A}
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{4356DD57-8D6C-4711-92E0-8A3EF8D5BEE1}"
+- ID: "a0c7d8e5-d7a7-491f-b9a5-e97d89671455"
+  Hint: Taxonomy Tag
+  Value: "{98C14F7A-3974-498C-8B83-9F42CF63151E}"
+- ID: "e40bdb84-8c4c-44ea-8fe6-005ee4708672"
+  Hint: Tags
+  Value: "{DC2A5454-E5CA-44CE-AC12-C00BB9EB0E48}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211207T073541Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Articles Tab
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Articles Tab
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7fe66c10-ba30-4d8f-b3d8-f3ebfdb9308c"
+      Hint: Resources
+      Type: TreelistEx
+      Value: 

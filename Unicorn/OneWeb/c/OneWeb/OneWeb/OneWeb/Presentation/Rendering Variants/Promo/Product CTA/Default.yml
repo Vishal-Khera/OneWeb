@@ -1,0 +1,34 @@
+﻿---
+ID: "d091dafe-d665-45cb-bb51-9a8274874aa6"
+Parent: "c97927ab-0dde-4dcd-8481-33cda8b80f7e"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Promo/Product CTA/Default
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="column-icon">
+        		{{sc_field i_item 'PromoIcon' [['class', 'icon-default ow-lazy']]}}
+            {{sc_field i_item 'PromoIcon2' [['class', 'icon-hover ow-lazy']]}}
+        	</div>
+        	<div class="column-details">
+        	{{if (i_item.PromoText | string.size >0)}}
+        		<div class="description">{{i_item.PromoText}}</div>
+        	{{end}}
+        		
+        			{{primary_link_classes = ow_get_linkClass  i_item "PromoLink" "btn btn-primary "}}
+        			  {{primary_link = (sc_field i_item 'PromoLink'[['text', (i_item.PrimaryLink.text)], ['class', (primary_link_classes)]])}}
+        			  {{-if primary_link-}}
+        				{{primary_link}}
+        			  {{-end-}}
+        		
+        	</div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220106T090404Z

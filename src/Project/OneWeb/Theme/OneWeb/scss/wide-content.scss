@@ -1,0 +1,32 @@
+@import 'base/base-index.scss';
+
+
+
+.ow-wide-content {
+    .ow-card-content{
+        padding: 30px 15px;
+    }
+    .btn-primary{
+        &:hover{
+            background: transparent !important;
+            border: 3px solid $black !important;
+            color:$black !important
+        }
+    }
+    .business-img{
+        width: 100%;
+        background-color: $dark-gray;
+        height: 100%;
+    }
+    &.ow-wide-content{
+        .set-order{
+            order: 1;
+        }
+    }
+   &.ow-background-clipimage{
+       img{
+           height: 100%;
+           object-fit: cover;
+       }
+   } 
+}

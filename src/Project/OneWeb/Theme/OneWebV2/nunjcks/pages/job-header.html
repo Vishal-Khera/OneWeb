@@ -1,0 +1,664 @@
+{% extends "layout/header-layout.html" %} {% block maincontent %}
+<main>
+    <div id="content">
+
+        {% include "../templates/components/modal-popup.html" %}
+
+       
+
+        <!-- Banner-video -->
+        <div class="component container-fluid dark-theme">
+            <div class="component row">
+
+                {% include "../templates/components/banner-video.html" %}
+            </div>
+        </div>
+
+        <!-- Banner-image -->
+        <div class="component container-fluid dark-theme">
+            <div class="component row">
+
+                {% include "../templates/components/banner-image.html" %}
+            </div>
+        </div>
+
+
+        <!-- Banner-image popup-->
+        <div class="component container-fluid dark-theme">
+            <div class="component row">
+
+                {% include "../templates/components/banner-image-pop-up.html" %}
+            </div>
+        </div>
+
+
+        <!-- Banner-Image Text Centre -->
+        <div class="component container-fluid dark-theme small-padding">
+            <div class="component row">
+                {% include "../templates/components/banner-Image-text-centre.html" %}
+            </div>
+        </div>
+
+        <!-- Resource Card Wide -->
+        <div class="component container-fluid dark-theme medium-padding">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <div class="component row justify-content-start  py-4 px-3">
+                                <div class="col-lg-6 px-0">
+                                    <div class="component-content resource-card-wide">
+                                        <div class="ow-content-card">
+                                            <div class="component-content">
+                                                {% include "../templates/components/component-resource-card.html" %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Simple Solution card-->
+        <div class="component container-fluid light-theme-base medium-padding">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <div class="component row">
+                                <div class="col-12 ow-card-align ow-card-row">
+                                    <div class="component-content">
+                                        <div class="col-6 col-md-3 col-lg-2 solution-card">
+                                            <div class="component-content">
+                                                <div class="ow-content-card">
+                                                    <a class="solution-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-solution-card.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 col-md-3 col-lg-2 solution-card">
+                                            <div class="component-content">
+                                                <div class="ow-content-card">
+                                                    <a class="solution-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-solution-card.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-6 col-md-3 col-lg-2 solution-card">
+                                            <div class="component-content">
+                                                <div class="ow-content-card">
+                                                    <a class="solution-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-solution-card.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 col-md-3 col-lg-2 solution-card">
+                                            <div class="component-content">
+                                                <div class="ow-content-card">
+                                                    <a class="solution-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-solution-card.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-6 col-md-3 col-lg-2 solution-card">
+                                            <div class="component-content">
+                                                <div class="ow-content-card">
+                                                    <a class="solution-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-solution-card.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-6 col-md-3 col-lg-2 solution-card">
+                                            <div class="component-content">
+                                                <div class="ow-content-card">
+                                                    <a class="solution-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-solution-card.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Simple Resource Card-->
+            <div class="component container-fluid small-padding">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="col-md-9">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="component-content">
+                                                    <div class="ow-content-card">
+                                                        <div class="component-content">
+                                                            <a class="product-card-wrapper" href="javascript:void(0)">
+                                                                {% include
+                                                                "../templates/components/component-simpleresource-card.html"
+                                                                %}
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="component-content">
+                                                    <div class="ow-content-card">
+                                                        <div class="component-content">
+                                                            <a class="product-card-wrapper" href="javascript:void(0)">
+                                                                {% include
+                                                                "../templates/components/component-simpleresource-card.html"
+                                                                %}
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Separator -->
+            <div class="component container-fluid separator-top large-padding">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="col-12">
+                                        {% include "../templates/components/component-text-separator.html" %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Popup -->
+            <div class="component container-fluid separator-top large-padding">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="col-12">
+                                        <a href="#" class="video-modal">
+                                            <h3>Test video</h3>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Info Card-->
+            <div class="component container-fluid">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="col-md-6 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-content-card">
+                                                <div class="component-content">
+                                                    <a class="info-card-wrapper" href="javascript:void(0)">
+                                                        {% include "../templates/components/component-infocard.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-content-card">
+                                                <div class="component-content">
+                                                    <a class="info-card-wrapper" href="javascript:void(0)">
+                                                        {% include "../templates/components/component-infocard.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card Big White with Description -->
+            <div class="component container-fluid">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="col-md-6 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv5.html" %}
+                                                    </a>
+                                                    {% include "../templates/components/component-card-description.html"
+                                                    %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv5.html" %}
+                                                    </a>
+                                                    {% include "../templates/components/component-card-description.html"
+                                                    %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card Big -->
+            <div class="component container-fluid">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="col-md-6 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv4.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv4.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card Big White Software -->
+            <div class="component container-fluid">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="col-md-6 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv3.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv3.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simple Card-->
+            <div class="component container-fluid">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="col-md-4 col-lg-3 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-content-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include "../templates/components/component-simplecard.html"
+                                                        %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-content-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include "../templates/components/component-simplecard.html"
+                                                        %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-content-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include "../templates/components/component-simplecard.html"
+                                                        %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-content-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include "../templates/components/component-simplecard.html"
+                                                        %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card Light -->
+            <div class="component container-fluid">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="col-md-4 col-lg-3 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv2.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv2.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv2.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv2.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card Small -->
+            <div class="component container-fluid">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="col-md-4 col-lg-3 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv1.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv1.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv1.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-3 py-md-4">
+                                        <div class="component-content">
+                                            <div class="ow-product-card">
+                                                <div class="component-content">
+                                                    <a class="product-card-wrapper" href="javascript:void(0)">
+                                                        {% include
+                                                        "../templates/components/component-productcardv1.html" %}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quote-card -->
+            <div class="component container-fluid">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="component column col-12">
+                                        <div class="component-content">
+                                            {% include "../templates/components/component-quote-card.html" %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logo-List -->
+            <div class="component container-fluid light-theme">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="container">
+                            {% include "../templates/components/component-logo-list.html" %}
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logo-Marquee -->
+            <div class="component container-fluid">
+                <div class="component-content">
+                    <div class="row">
+                        {% include "../templates/components/component-logo-marquee.html" %}
+                    </div>
+                    <div class="row">
+                        {% include "../templates/components/component-logo-marquee.html" %}
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Video Player -->
+            <div class="component container-fluid">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="component column col-12">
+                                        <div class="component-content">
+                                            {% include "../templates/components/video-player.html" %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Component-Text -->
+            <div class="component container-fluid light-theme large-padding">
+                <div class="component-content">
+                    <div class="component row">
+                        <div class="component container">
+                            <div class="component-content">
+                                <div class="component row">
+                                    <div class="component column col-12">
+                                        <div class="component-content">
+                                            <div class="component row">
+                                                <div class="col-md-8">
+                                                    {% include "../templates/components/component-text.html" %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</main>
+{% endblock %}

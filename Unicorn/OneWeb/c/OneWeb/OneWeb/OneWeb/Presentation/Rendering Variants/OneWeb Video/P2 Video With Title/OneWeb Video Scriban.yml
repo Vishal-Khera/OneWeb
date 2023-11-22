@@ -1,0 +1,88 @@
+﻿---
+ID: "76c61bf7-6ab7-4688-8972-5c0b90a0af12"
+Parent: "1de27e4b-a8ec-4d29-8a38-0acfa01d3a7f"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Video/P2 Video With Title/OneWeb Video Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if o_model.video_info && o_model.video_info.sitecore_video && (o_model.video_info.sitecore_video.url |string.size > 0)}}
+                                    <div class="ow-video-player ow-video-play">
+    								  <a href="javascript:void(0)">
+    									 <span class="sr-only"> text</span>
+                                        </a>
+                                        <div class="media-wrapper">
+                                            <video controls>
+    											<source data-src="{{o_model.video_info.sitecore_video.url}}" type="video/mp4">
+    										</video>
+    										<div class="ow-play-button">
+                                                    <i class="icon-play-btn"></i>
+                                            </div>
+                                        </div>                                 
+    									{{if (o_model.video_info.placeholder_image.url | string.size>0)}}
+                                            <div class="ow-overlay-thumbnail">
+                                                 <img class="ow-lazy" data-src='{{o_model.video_info.placeholder_image.url}}'
+    													alt='{{o_model.video_info.placeholder_image.alt}}'
+    											title='{{o_model.video_info.placeholder_image.title}}' />
+                                            </div>  
+    										{{end}}
+                                                <div class="overlay-text">
+                                                    {{if o_model.video_info.title != ''}}
+    												<h2>{{o_model.video_info.title}}</h2>
+    												{{end}}
+    												{{if o_model.video_info.content != ''}}
+    												{{o_model.video_info.content}}
+    											{{end}}
+                                                </div>
+    										
+                                    </div>
+    {{else}}
+    {{if o_model.video_info && o_model.video_info.iframe && o_model.video_info.iframe != ''}}
+                                    <div class="ow-video-player">
+    								  <a href="javascript:void(0)">
+                                           <span class="sr-only">text</span>
+                                       </a>
+    								<div class="media-wrapper">
+                                      {{o_model.video_info.iframe}}
+    								 <div class="ow-play-button">
+                                          <i class="icon-play-btn"></i>
+                                      </div>
+    								  </div>
+    								  {{if o_model.video_info.placeholder_image && o_model.video_info.placeholder_image.url}}                                  
+    									 <div class="ow-overlay-thumbnail">
+                                             {{if (o_model.video_info.placeholder_image.url | string.size>0)}}
+    										<img class="ow-lazy" data-src='{{o_model.video_info.placeholder_image.url}}'
+    										alt='{{o_model.video_info.placeholder_image.alt}}'
+    										title='{{o_model.video_info.placeholder_image.title}}' />
+    										{{end}}
+                                            </div>
+                                                <div class="overlay-text">
+                                                {{if o_model.video_info.title != ''}}
+    												<h2>{{o_model.video_info.title}}</h2>
+    												{{end}}
+    												{{if o_model.video_info.content != ''}}
+    											{{o_model.video_info.content}}
+    											{{end}}
+                                                </div>
+    								{{end}}
+                                 </div>
+                   {{end}}    
+           {{-end-}}			   
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T192025Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

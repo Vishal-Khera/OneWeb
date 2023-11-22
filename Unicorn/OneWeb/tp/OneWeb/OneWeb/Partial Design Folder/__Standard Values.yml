@@ -1,0 +1,26 @@
+﻿---
+ID: "6dc37739-a19b-4ddb-b2d2-d852426044ac"
+Parent: "01dcd591-920d-4a5a-8628-068b09c97b48"
+Template: "01dcd591-920d-4a5a-8628-068b09c97b48"
+Path: /sitecore/templates/Project/OneWeb/OneWeb/Partial Design Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {01DCD591-920D-4A5A-8628-068B09C97B48}
+    {5FB09CB1-CAF4-43F1-B10D-5DACA960B3CA}
+    {C2A8E276-1757-4957-9DD5-8669B79FD80D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T073818Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

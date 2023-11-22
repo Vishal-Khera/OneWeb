@@ -1,0 +1,18 @@
+﻿---
+ID: "12e179b2-e349-4121-a2ec-2894ca65d3d4"
+Parent: "3de68669-63e7-43eb-9033-f4ae15eaa899"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/OneWeb/Base/_BaseCarousel/Carousel
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T001301Z

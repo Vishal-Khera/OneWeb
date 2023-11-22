@@ -1,0 +1,26 @@
+@import 'base/base-index.scss';
+
+.ow-related-product-card{
+    font-family: 'HelveticaNeue-Bold';
+    &-image{
+        background-color: $white;
+        margin-bottom: 20px;
+        padding: 30px;
+        img{
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        
+    }
+    &-text{
+        color: $black;
+    }
+}
+
+.dark-theme{
+    background-color: $dark-gray;
+    color:$white;
+    *{
+        color:inherit !important;
+    }
+}

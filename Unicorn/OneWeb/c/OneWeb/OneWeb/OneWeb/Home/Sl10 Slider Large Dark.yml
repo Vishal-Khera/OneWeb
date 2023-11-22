@@ -1,0 +1,119 @@
+﻿---
+ID: "9a21fdb4-73ff-46ba-b0f8-016a55b89517"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/SL10 Slider Large Dark
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{42E7F7C4-FDFF-4091-AD02-03B11EABB095}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8C7A0531-3831-4BDF-9C20-2D654CB03468}"
+          p:before="*"
+          s:ds="{42181924-1379-45AC-BAC4-E8E530C19E21}"
+          s:id="{ECC6279A-D20B-4C66-87CD-D25E3B7434CF}"
+          s:par="GridParameters&amp;FieldNames=%7BCE8F69F2-F69C-4393-BA4C-1E26AFFA9994%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4/ow-text-placeholder*/ow-slide-widget-6/ow-column-9" />
+        <r
+          uid="{0B360338-C951-48CE-9E2A-FAC9AC6A75B5}"
+          p:after="r[@uid='{8C7A0531-3831-4BDF-9C20-2D654CB03468}']"
+          s:ds="{88874979-9CC7-484C-9CD3-846EDAAFBAD5}"
+          s:id="{ECC6279A-D20B-4C66-87CD-D25E3B7434CF}"
+          s:par="GridParameters&amp;FieldNames=%7BCE8F69F2-F69C-4393-BA4C-1E26AFFA9994%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4/ow-text-placeholder*/ow-slide-widget-6/ow-column-10" />
+        <r
+          uid="{C35DF19F-0D32-4E95-BC61-E435AAAF7FA3}"
+          p:after="r[@uid='{0B360338-C951-48CE-9E2A-FAC9AC6A75B5}']"
+          s:ds="{E899CD09-FE75-4509-BA7B-4A2D438EF84C}"
+          s:id="{ECC6279A-D20B-4C66-87CD-D25E3B7434CF}"
+          s:par="GridParameters&amp;FieldNames=%7BCE8F69F2-F69C-4393-BA4C-1E26AFFA9994%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4/ow-text-placeholder*/ow-slide-widget-6/ow-column-11" />
+        <r
+          uid="{5779A166-916B-4206-8012-812749F18649}"
+          p:after="r[@uid='{C35DF19F-0D32-4E95-BC61-E435AAAF7FA3}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4/ow-text-placeholder*/ow-slide-widget-6" />
+        <r
+          uid="{F6EC90BD-0D0F-476C-B5A4-09D09880EBB7}"
+          p:after="r[@uid='{5779A166-916B-4206-8012-812749F18649}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4/ow-text-placeholder*/ow-slide-widget-6" />
+        <r
+          uid="{B85A2DB8-8FB1-4E2B-B86D-39DF84247A38}"
+          p:after="r[@uid='{F6EC90BD-0D0F-476C-B5A4-09D09880EBB7}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4/ow-text-placeholder*/ow-slide-widget-6" />
+        <r
+          uid="{F53C6757-6769-4962-8815-A02F8D89B0B3}"
+          p:after="r[@uid='{B85A2DB8-8FB1-4E2B-B86D-39DF84247A38}']"
+          s:ds=""
+          s:id="{D7E6ECBA-52DA-471B-A473-6D4CC0E64F93}"
+          s:par="Autoplay&amp;Autoplay Speed&amp;Show Arrows=1&amp;Show Dots=1&amp;Slides To Show=2&amp;Slides To Show Mobile=1.1&amp;Rows Mobile=1&amp;Slides To Show Tab=2&amp;Custom Slider Class&amp;Rows Tablet=1&amp;Carousel Desktop Disable&amp;Rows Desktop=1&amp;Infinite Loop&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4/ow-text-placeholder*" />
+        <r
+          uid="{CE9AFB66-0A1A-402E-9917-A60DF75C6826}"
+          p:after="r[@uid='{F53C6757-6769-4962-8815-A02F8D89B0B3}']"
+          s:ds="{BE17E421-B989-4C54-97C0-3E3294A70288}"
+          s:id="{2CB89FED-7E2A-4525-81FB-5F5DA79516EF}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4" />
+        <r
+          uid="{A0F54760-C7B1-4CE0-A4E9-25846E50FE72}"
+          p:after="r[@uid='{CE9AFB66-0A1A-402E-9917-A60DF75C6826}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3" />
+        <r
+          uid="{07165038-7963-44F2-96E0-B55366D6BFF2}"
+          p:after="r[@uid='{A0F54760-C7B1-4CE0-A4E9-25846E50FE72}']"
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{5CE4C612-7FC9-4C54-BAC4-AA441F87EBE4}"
+          p:after="r[@uid='{07165038-7963-44F2-96E0-B55366D6BFF2}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-fluid-1" />
+        <r
+          uid="{F1618ECC-8FC1-4B8E-BC5D-D95953C88235}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles=%7B1F5570E3-010F-4B51-8A6E-AD08639E1FB9%7D&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220721T094208Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Sl10 Slider
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sl10 Slider

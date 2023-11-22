@@ -1,0 +1,35 @@
+﻿---
+ID: "3f5ab738-498a-412d-9e10-708712eb9322"
+Parent: "fdd86cd8-201e-46ea-8d4b-620b0b6935f1"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Header Content/Default/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{heading_size= sc_parameter 'HeaderStyle'}}
+    {{if heading_size}}
+    {{header_item = ow_item heading_size}}
+    {{if header_item}}
+    {{header_tag = header_item.Value.raw}}
+    <{{header_tag}}>
+    {{i_item.Title}}
+    </{{header_tag}}>
+    {{end}}
+    {{ end }}
+    {{if i_item.Content !=""}}
+    <p>{{i_item.Content}}</p>
+    {{ end }}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211229T110717Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,28 @@
+﻿---
+ID: "0a5486cf-1947-43d2-8357-6372e49bbc01"
+Parent: "8209811f-8b59-4ad0-83dc-15fa00662245"
+Template: "8a157750-d8f9-433a-94fe-c875b5580d80"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/Business Supports/Italy/Italy - Sales for Global Floorcare Motors"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211224T221104Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: AMETEK Italy
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        <p>Sales for Global Floorcare Motors</p>
+        <p>Via De Gasperi 18/A</p>
+        <p>Ripalta Cremasca 26010</p>
+        <p>Cremona, Italy</p>

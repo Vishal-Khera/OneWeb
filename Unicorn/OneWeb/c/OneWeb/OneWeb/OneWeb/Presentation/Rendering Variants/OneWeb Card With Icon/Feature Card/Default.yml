@@ -1,0 +1,57 @@
+﻿---
+ID: "d8385b3a-2f98-4327-9f7c-64936ed5df1f"
+Parent: "8dfdc62d-ceb5-48a3-a3bb-9b109d5df5e8"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card With Icon/Feature Card/Default
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="card-item">      
+    	 <div class="tile-slide">
+    		<div class="tile-bg-img">
+    		   {{image = sc_field i_item 'Image' }}
+    			{{if image != ""}}
+    			{{sc_field i_item 'Image' [['class', "ow-lazy"]]}}
+    			{{else}}			
+    			{{default_background_image = ow_default_media_model_by_field "Default Feature Card Background Image"}}
+    			{{if default_background_image != ""}}
+    			<img src='{{default_background_image.url}}' alt = '{{default_background_image.alt}}' class = "ow-lazy"/>
+    			{{end}}
+    		{{end}}
+    		</div>
+    		<div class="card-overlay">
+    			<div class="card-overlay-text">
+    			{{if (i_item.icon !="")}}
+    		    <div class="tile-icon">
+    			{{ sc_field i_item 'icon' }}
+    		   </div>
+    		   {{end}}
+    		   {{if (i_item.title | string.size > 0)}}
+    		   <h4>{{i_item.title}}</h4>
+    		   {{end}}
+    		   {{if(i_item.content | string.size > 0)}}
+    		   <div class="list-item">
+    		   {{i_item.content}}
+    			</div>
+    			{{end}}
+    			</div>  
+    		</div>	 
+    	</div>
+    </div>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211227T160946Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

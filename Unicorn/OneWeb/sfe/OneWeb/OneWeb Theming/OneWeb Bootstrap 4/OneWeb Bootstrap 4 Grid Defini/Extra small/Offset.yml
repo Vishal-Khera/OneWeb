@@ -1,0 +1,27 @@
+﻿---
+ID: "59564424-078e-4464-a129-0788b54fbe2d"
+Parent: "d67a09ed-af86-4098-b0ba-03ac21892259"
+Template: "5e32e75f-446a-412c-8ed8-922320ae9031"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Theming/OneWeb Bootstrap 4/OneWeb Bootstrap 4 Grid Definition/Extra small/Offset
+DB: master
+SharedFields:
+- ID: "07a98f74-131f-4ba1-9c00-88416c2832a4"
+  Hint: Advanced
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161216T082225Z
+    - ID: "9c7cf235-a456-4320-a156-03f1e0cca6c6"
+      Hint: Tooltip
+      Value: |
+        Determines how many empty columns should there be on the left of the component.
+        All components to the right will be shifting with the component.

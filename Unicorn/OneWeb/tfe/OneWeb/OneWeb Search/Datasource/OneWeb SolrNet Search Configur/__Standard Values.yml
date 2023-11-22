@@ -1,0 +1,23 @@
+﻿---
+ID: "06335f21-7104-4de6-8a80-d2003dcbc765"
+Parent: "ab283fad-7e7d-4d50-a128-771398a63614"
+Template: "ab283fad-7e7d-4d50-a128-771398a63614"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Datasource/OneWeb SolrNet Search Configuration/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T221151Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

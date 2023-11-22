@@ -1,0 +1,70 @@
+﻿---
+ID: "6cedffd3-6dd4-40d4-a968-25f4b3ee73a3"
+Parent: "ee2a121d-0ecc-4f16-a8a8-72f9d5b07b76"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Content Card/P2 Secondary Navigation Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{primary_link_classes = "nav-card"}}
+    {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    if( primary_filtered_classes)
+    	if(primary_filtered_classes.class | string.size) > 0
+    	primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    	end
+    end}}
+    {{link_model_primary = ow_link_model i_item 'PrimaryLink'
+    if(link_model_primary.url|string.size < 0)
+    		link_model_primary.url= "#"
+    end}}
+    
+    	
+    {{ if (link_model_primary.url && link_model_primary.url !="") }}
+    		<a href="{{link_model_primary.url}}" target="{{link_model_primary.target}}" class="{{primary_link_classes}}" 
+    		title="{{link_model_primary.title}}">			
+    {{end}}	
+    <div class="card">
+    <div class="card-body">
+    {{if(i_item.Title != "") }}
+            <div class="card-title">
+    		{{i_item.Title}}
+    		{{if(i_item.Content != "") }}
+    			<span class="new-text">{{i_item.Content}}</span>
+    		{{end}}
+    		</div>
+    {{end}}
+    
+    
+    
+    {{if(i_item.Subtext != "") }}
+    <div class="card-text">
+    	{{i_item.Subtext}}
+    </div>
+    {{end}}
+    </div>
+    {{if(i_item.image != "") }}
+    <div class="card-image">
+    		<div class="card-image-holder"><img class="ow-lazy" data-src = "{{ i_item.Image.media_url }}"  alt="{{i_item.Image.alt.raw}}" title="{{ i_item.Image.title.raw}}" /></div>
+    </div>
+    {{end}}
+    	<div class="card-arrow">
+            <i class="icon-right-arrow"></i>
+        </div></div>
+    {{ if (link_model_primary.url!="") }}
+    	</a>
+    {{end}}
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220816T141552Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

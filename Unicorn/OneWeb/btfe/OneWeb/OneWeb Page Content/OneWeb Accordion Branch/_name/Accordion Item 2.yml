@@ -1,0 +1,18 @@
+﻿---
+ID: "c5fc9948-223c-4902-850b-98dfcad3c38d"
+Parent: "4af7a1d2-279e-4874-81f8-96c54536be66"
+Template: "1bb3f432-c3b2-44b4-ba39-1a38e5fd2a80"
+Path: /sitecore/templates/Branches/Feature/OneWeb/OneWeb Page Content/OneWeb Accordion Branch/$name/Accordion Item 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170724T113548Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,253 @@
+@import 'base/base-index.scss';
+
+.comparsion-table-card {
+    @media (max-width:767px){
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .comparison-wrapper {
+        * {
+            font-family: $franklinMd !important;
+        }
+
+        span {
+            color: $mediumblack !important
+        }
+        
+
+        position: relative;
+
+        &__card-header-row {
+            display: flex;
+            justify-content: flex-end;
+            z-index: 1;
+            right: 0px;
+            top: 20px;
+            width: 100%;
+            left: 0px;
+            right: 0px;
+            margin: auto;
+            color: $brand;
+            padding: 0px 10px;
+            background: $off-gray;
+            @include font-size($ssm-font);
+
+            @include md {
+                padding: unset;
+                position: absolute;
+                width: 100%;
+                background: unset;
+                @include font-size($slg-font);
+            }
+            sup{
+                top:-2px;
+                @include md{
+                    top:-4px;
+                }
+            }
+            .card-wrapper {
+                display: flex;
+                width: 33.33%;
+                padding: 10px 5px;
+                z-index: 1;
+
+                @include md {
+                    width: 25%;
+                    padding: 10px;
+                }
+
+                .comparison-header {
+                    width: 100%;
+                    padding-left: unset;
+                    padding-right: unset;
+
+                    @include md {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                }
+            }
+
+            &.space-between {
+                top: 20px !important;
+            }
+
+            &.element-fix-position {
+                &:after {
+                    background: $off-gray;
+                    content: '';
+                    position: absolute;
+                    width: 300%;
+                    left: -100%;
+                    height: 100%;
+                    top: 0px;
+                }
+            }
+        }
+
+        &__card-row {
+            display: flex;
+            justify-content: flex-end;
+            .card-wrapper {
+                display: none;
+                width: 25%;
+                padding: 10px 5px 20px 10px;
+
+                @include md {
+                    display: flex;
+                }
+
+                &:last-child{
+                    padding-right: 0px;
+                }
+
+                .comparison-table {
+                    width: 100%;
+                    .card-header {
+                        padding: 0px 20px;
+                        border: none;
+
+                        .card-image {
+                            position: relative;
+                            padding-top: 80%;
+                            overflow: hidden;
+                            aspect-ratio: unset;
+                            text-align: center;
+
+                            img {
+                                position: absolute;
+                                top: 0px;
+                                width: unset;
+                                max-width: 100%;
+                                object-fit: cover;
+                                margin: auto;
+                                left: 0px;
+                                right: 0px;
+                            }
+                        }
+                    }
+
+                    .card-footer {
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+
+                        .price {
+                            padding-right: 5px;
+                            b{
+                                color: $brandblack2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        &__specifications {
+            .comparison-row {
+                display: flex;
+                padding-right: 10px;
+                flex-direction: column;
+                position: relative;
+                justify-content: end;
+                @include font-size($ssm-font);
+                
+
+                &::after,
+                &::before {
+                    content: '';
+                    width: 100%;
+                    position: absolute;
+                    background-color: $lightblack;
+                    height: 1px;
+                    top: 0px
+                }
+
+                &::before {
+                    bottom: 0px;
+                    display: none;
+                    top: unset;
+                }
+
+                &:last-child {
+                    &::before {
+                        display: block;
+                    }
+                }
+
+                @include md {
+                    flex-direction:row;
+                    @include font-size($slg-font);
+                    padding-right: unset;
+                    &::after,
+                    &::before {
+                        left: 0px;
+                        width: 100%;
+                    }
+                }
+
+                span {
+                    width: 100%;
+                    display: block;
+                }
+
+                .specifications-wrapper {
+                    width: 100%;
+                    padding: 0px 8px;
+
+                    @include md {
+                        width: 25%;
+                        padding: unset;
+                    }
+
+                    .comparison-column {
+                        width: 100%;
+                        padding: 15px 8px 0px 8px;
+
+                        @include md {
+                            padding: 10px 10px 10px 0px;
+                        }
+
+                        sup {
+                            color: $brand !important;
+                            text-decoration: underline;
+                        }
+
+                    }
+                }
+
+                .comparison-specifications-row {
+                    width: 100%;
+                    display: flex;
+                    padding: 0px 8px;
+
+                    @include md {
+                        width: 75%;
+                        padding: unset;
+                    }
+
+                    .comparison-column {
+
+                        padding: 10px 8px 20px 8px;
+                        width: 100%;
+
+                        @include md {
+                            padding: 10px;
+                            width: 33.33%;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.element-fix-position {
+    position: sticky !important;
+    overflow-x: hidden !important;
+}
+
+.overflowX-hidden {
+    overflow-x: hidden !important;
+}

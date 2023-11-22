@@ -1,0 +1,34 @@
+﻿---
+ID: "b348cf7a-a010-4a26-9d05-83c205e0dd42"
+Parent: "10faad8e-edbd-4a26-a6bb-ac4790eba7ab"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/Alphabet Filter/Container
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="filter-facet-wrapper">
+        <div class="ow-container" ></div>
+     <div class="filter-facet-clear">
+    {{if sc_raw i_item 'Reset Text' | string.size > 0}}
+            <a class="uncheck-all" href="javascript:void(0)">{{sc_raw i_item 'Reset Text'}}</a>
+    {{end}}
+        </div>
+    </div>
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T182542Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

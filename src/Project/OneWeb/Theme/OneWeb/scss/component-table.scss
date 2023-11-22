@@ -1,0 +1,174 @@
+@import "base/base-index.scss";
+
+.table-data {
+  table-layout: fixed;
+  width: 1000px;
+  overflow-x: scroll;
+
+  @include lg {
+    table-layout: unset;
+    width: 100%;
+  }
+
+  thead {
+    tr {
+      th {
+        border-top: unset;
+        border-bottom: unset;
+        color: $primary;
+        @include font-size($sxl-font);
+        font-family: "HelveticaNeue-Bold";
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 166px;
+
+        &:nth-child(1) {
+          width: 300px;
+        }
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        color: $border-light-gray;
+        @include font-size($md-font);
+        font-family: "HelveticaNeue-Light";
+        border-color: $border-light-gray;
+        background-color: unset;
+        padding-left: 5px;
+        padding-right: 5px;
+        word-break:break-word;
+
+        a {
+          @include font-size($lg-font);
+          color: $black;
+          font-family: "HelveticaNeue-Medium";
+
+          &:hover {
+            color: $primary;
+          }
+        }
+      }
+
+      &:nth-of-type(odd) {
+        background-color: $white;
+      }
+
+      &:nth-of-type(even) {
+        background-color: $white;
+      }
+    }
+  }
+}
+
+
+.specifications{
+  table-layout: fixed;
+  min-width: 600px;
+  @include lg{
+    table-layout: fixed;
+    width: unset;
+  }
+
+  tbody {
+    tr {
+      td {
+        color: $border-light-gray;
+        @include font-size($sxl-font);
+        font-family: 'Helvetica Neue';
+        border-color: $border-light-gray;
+        background-color: unset;
+        padding-left: 5px;
+        padding-right: 5px;
+        word-break:break-word;
+        color:$dark-gray;
+        width: 100px;        
+
+        &:nth-child(1) {
+          width: 200px;
+        }
+
+        &:nth-child(2) {
+          width: 280px;
+        }
+     
+      }
+
+     
+     
+    }
+  }
+
+}
+
+
+.user-manager {
+  table-layout: fixed;
+  width: 1000px;
+  overflow-x: scroll;
+
+  @include lg {
+    table-layout: unset;
+    width: 100%;
+  }
+
+  thead {
+    tr {
+      th {
+        border-top: unset;
+        border-bottom: unset;
+        color: $primary;
+        @include font-size($sxl-font);
+        font-family: "HelveticaNeue-Bold";
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 166px;
+
+       
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        color: $border-light-gray;
+        @include font-size($md-font);
+        font-family: "HelveticaNeue-Light";
+        border-color: $border-light-gray;
+        background-color: unset;
+        padding-left: 5px;
+        padding-right: 5px;
+        word-break:break-word;
+
+        a {
+         display: inline;
+         padding: 5px;
+        }
+
+        .active{
+          @include font-size($sm-font);
+          color:$primary;
+        }
+    
+        .inactive{
+          @include font-size($sm-font);
+          color:$mid-gray;
+    
+        }
+    
+
+      }
+
+      &:nth-of-type(odd) {
+        background-color: $white;
+      }
+
+      &:nth-of-type(even) {
+        background-color: $white;
+      }
+    }
+  }
+}

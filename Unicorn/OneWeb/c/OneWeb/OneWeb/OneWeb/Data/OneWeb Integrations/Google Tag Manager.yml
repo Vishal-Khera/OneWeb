@@ -1,0 +1,28 @@
+﻿---
+ID: "55a0105d-4192-42bc-8aa3-bf0522e297b4"
+Parent: "0673d6eb-5bc8-4748-bc54-0ae13a0179f1"
+Template: "a14828fd-d024-403f-bb01-8eb1f3c2cee5"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Integrations/Google Tag Manager
+DB: master
+SharedFields:
+- ID: "c80baf92-186d-412a-b706-c1ab45165f35"
+  Hint: OneTrust Category Id
+  Value: C0003
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211230T163052Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ba8c72d8-2939-4ada-a233-4ddb09d9cbc7"
+      Hint: Google Tag Manager Id
+      Value: abc
+    - ID: "da03d833-d39d-4151-a04f-6603e04a4cd8"
+      Hint: Name
+      Value: Google Tag Manager

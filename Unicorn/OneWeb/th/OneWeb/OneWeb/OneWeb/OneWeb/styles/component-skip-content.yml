@@ -1,0 +1,35 @@
+﻿---
+ID: "fe7fc3f7-bdca-44b9-a4bf-4013cc783f40"
+Parent: "2aa2366f-1418-4350-80c6-81f202505a50"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWeb/styles/component-skip-content"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/FE7FC3F7BDCA44B9A4BF4013CC783F40.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "99bee25f-531a-40c9-855e-45fc71a89902"
+  Value: LnNraXAtY29udGVudCB7CiAgcG9zaXRpb246IGFic29sdXRlOwogIHdpZHRoOiAxcHg7CiAgaGVpZ2h0OiAxcHg7CiAgb3ZlcmZsb3c6IGhpZGRlbjsgfQogIC5za2lwLWNvbnRlbnQ6Zm9jdXMsIC5za2lwLWNvbnRlbnQ6YWN0aXZlIHsKICAgIGNvbG9yOiAjZmZmOwogICAgYmFja2dyb3VuZC1jb2xvcjogIzAwMDsKICAgIGxlZnQ6IDEwMCU7CiAgICB0b3A6IC03N3B4OwogICAgd2lkdGg6IDEwMCU7CiAgICBoZWlnaHQ6IGF1dG87CiAgICBvdmVyZmxvdzogYXV0bzsKICAgIG1hcmdpbjogMTBweCAzNSU7CiAgICBwYWRkaW5nOiAzcHggNXB4OwogICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgZm9udC1zaXplOiAxNnB4OwogICAgei1pbmRleDogOTk7IH0KICAgIEBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDApIHsKICAgICAgLnNraXAtY29udGVudDpmb2N1cywgLnNraXAtY29udGVudDphY3RpdmUgewogICAgICAgIGZvbnQtc2l6ZTogMTZweDsgfSB9CiAgICBAbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NjhweCkgewogICAgICAuc2tpcC1jb250ZW50OmZvY3VzLCAuc2tpcC1jb250ZW50OmFjdGl2ZSB7CiAgICAgICAgZm9udC1zaXplOiAxNnB4OyB9IH0KICAgIEBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDk5MnB4KSB7CiAgICAgIC5za2lwLWNvbnRlbnQ6Zm9jdXMsIC5za2lwLWNvbnRlbnQ6YWN0aXZlIHsKICAgICAgICBmb250LXNpemU6IDE2cHg7IH0gfQo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 737
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T123707Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

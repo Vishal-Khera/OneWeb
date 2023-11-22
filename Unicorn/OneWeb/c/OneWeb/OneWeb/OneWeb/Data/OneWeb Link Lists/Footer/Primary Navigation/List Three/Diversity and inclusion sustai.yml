@@ -1,0 +1,18 @@
+﻿---
+ID: "7b350519-2e79-4ad3-892a-8f090bf59639"
+Parent: "36894cb2-adca-461e-a541-de92577234f9"
+Template: "fca1aaee-864c-4658-8fdb-75cdb4ca89be"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Link Lists/Footer/Primary Navigation/List Three/Diversity and inclusion sustainability
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211126T071309Z
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: |
+        <link text="Diversity and inclusion Sustainability " anchor="" linktype="internal" class="" title=""  querystring="" id="{C64DB581-72F2-4417-842D-FDE4DFBE7AC7}" />

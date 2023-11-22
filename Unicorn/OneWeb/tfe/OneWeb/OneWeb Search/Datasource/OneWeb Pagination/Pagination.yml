@@ -1,0 +1,14 @@
+﻿---
+ID: "9561d74e-ff95-482d-bf13-804d428e786f"
+Parent: "c27a0481-ae52-4f81-bdd7-542533ecd27f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Datasource/OneWeb Pagination/Pagination
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211219T113542Z

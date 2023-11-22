@@ -1,0 +1,54 @@
+﻿---
+ID: "4c804343-f5d2-41eb-8e96-99d2bb66c454"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Home/Image Banner With Pop Up- Creaform"
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{42E7F7C4-FDFF-4091-AD02-03B11EABB095}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{02F9E131-B5B5-4216-82FD-3AB051BDDF61}"
+          p:before="*"
+          s:ds="{CEEAE032-B90A-4430-915F-CDCC0DD37018}"
+          s:id="{04370F62-63D8-4AB4-A238-60EE1A3C60A6}"
+          s:par="GridParameters&amp;Video Banner Variant&amp;FieldNames=%7B81AA07F2-B97B-44D7-820B-5BCB12971E47%7D&amp;Styles&amp;Align Box Right&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{A514A328-63FE-48B2-8597-70702C26A528}"
+          p:after="r[@uid='{02F9E131-B5B5-4216-82FD-3AB051BDDF61}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-fluid-1" />
+        <r
+          uid="{70C361C7-23C2-448B-811E-1649297F8C17}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T132227Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Creaform
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Image Banner With Pop Up- Creaform"

@@ -1,0 +1,14 @@
+@import 'base/base-index.scss';
+
+.logo-list-wrapper{
+    h2{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .logo-box{
+        padding-left: 15px;
+        @include md{
+            padding-left: 35px;
+        }
+    }
+}

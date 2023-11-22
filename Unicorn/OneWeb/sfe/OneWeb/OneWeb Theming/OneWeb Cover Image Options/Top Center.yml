@@ -1,0 +1,21 @@
+﻿---
+ID: "5c008504-94ad-4f8f-93f1-01f164731773"
+Parent: "7b59b60e-cb78-4680-8c9a-f039487555b2"
+Template: "851511fa-16f0-4200-9650-33c8af27bf94"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Theming/OneWeb Cover Image Options/Top Center
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T085447Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: "top-center"

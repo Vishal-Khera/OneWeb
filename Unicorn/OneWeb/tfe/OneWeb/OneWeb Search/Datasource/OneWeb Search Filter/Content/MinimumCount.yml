@@ -1,0 +1,21 @@
+﻿---
+ID: "6f6d3317-9055-4dfc-a5de-ffd670487a44"
+Parent: "f5f8f159-eedc-4c63-9b3e-f2476a946236"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Datasource/OneWeb Search Filter/Content/MinimumCount
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T123152Z

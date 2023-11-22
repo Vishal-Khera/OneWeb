@@ -1,0 +1,14 @@
+﻿---
+ID: "0a121deb-9af6-4244-8d6b-010385884569"
+Parent: "780cdcc0-4dbc-4233-995b-d95e03f6b9ae"
+Template: "780cdcc0-4dbc-4233-995b-d95e03f6b9ae"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Card With Mobile Image/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220214T132750Z

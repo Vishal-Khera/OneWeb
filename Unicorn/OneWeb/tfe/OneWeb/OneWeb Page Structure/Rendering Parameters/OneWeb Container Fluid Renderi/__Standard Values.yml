@@ -1,0 +1,14 @@
+﻿---
+ID: "3ce6192c-dee5-4f49-be3e-c1ed1dd87b81"
+Parent: "ae95deeb-8908-45be-ae96-36b2aaec4e44"
+Template: "ae95deeb-8908-45be-ae96-36b2aaec4e44"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Structure/Rendering Parameters/OneWeb Container Fluid Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120803T142734

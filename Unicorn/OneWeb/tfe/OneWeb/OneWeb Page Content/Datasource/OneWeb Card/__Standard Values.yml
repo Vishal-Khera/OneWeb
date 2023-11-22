@@ -1,0 +1,14 @@
+﻿---
+ID: "cce45f64-b160-46ca-91f0-dc50140ac4bf"
+Parent: "0d4f3a61-243a-42a9-a33c-9f054e02449b"
+Template: "0d4f3a61-243a-42a9-a33c-9f054e02449b"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Card/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T112128Z

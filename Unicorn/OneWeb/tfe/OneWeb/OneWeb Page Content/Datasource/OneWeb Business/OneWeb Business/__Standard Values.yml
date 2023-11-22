@@ -1,0 +1,38 @@
+﻿---
+ID: "d5bc63b6-7236-4f6b-9513-8b6daebbf0b2"
+Parent: "92d1da5d-4ad7-44ce-8f19-d55b2e12b042"
+Template: "92d1da5d-4ad7-44ce-8f19-d55b2e12b042"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Business/OneWeb Business/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d422412-596b-4293-a82d-c818a0fc150a"
+      Hint: Brands Title
+      Value: Brands
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T221151Z
+    - ID: "35dacfca-cea3-4351-bb6d-335263ca37b6"
+      Hint: Products Title
+      Value: Products
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6723fd4e-6bee-4bb3-bcea-058db2e31eac"
+      Hint: Featured Support Group Title
+      Value: Business Directory Details
+    - ID: "7a93a736-f184-42d0-9fcf-1873e22b46bf"
+      Hint: Industries Title
+      Value: Industries
+    - ID: "df1a4406-3c14-4411-82f0-6f1ef1f2a52b"
+      Hint: Support Groups Title
+      Value: "Where do you need support?"

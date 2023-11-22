@@ -1,0 +1,35 @@
+﻿---
+ID: "7e4d5fbe-99ff-4828-a241-9f1f34ac0b33"
+Parent: "418b3266-d2c1-4bf8-a2a3-2747bb084775"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWebV2/styles/component-language-dropdown"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/7E4D5FBE99FF4828A2419F1F34AC0B33.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "4f791f84-4a64-4458-8a15-8ce17c5106f0"
+  Value: QG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTJweCkgewogIC5vdy1sYW5ndWFnZS1zZWxlY3RvciB7CiAgICBtYXJnaW4tdG9wOiAycHg7IH0gfQoKLm93LWxhbmd1YWdlLXNlbGVjdG9yIC5sYW5ndWFnZSB7CiAgYm9yZGVyOiAwOwogIHBhZGRpbmctbGVmdDogMDsKICB6LWluZGV4OiA5OTk7IH0KICAub3ctbGFuZ3VhZ2Utc2VsZWN0b3IgLmxhbmd1YWdlIC5zZWxlY3QtYm94IC5zZWxlY3Rvci1vcHRpb25zIHsKICAgIHBhZGRpbmc6IDEwcHggMDsgfQogICAgLm93LWxhbmd1YWdlLXNlbGVjdG9yIC5sYW5ndWFnZSAuc2VsZWN0LWJveCAuc2VsZWN0b3Itb3B0aW9ucyBsaSB7CiAgICAgIGJvcmRlci1ib3R0b206IDA7CiAgICAgIHBhZGRpbmc6IDVweCAwcHg7IH0KICAgICAgLm93LWxhbmd1YWdlLXNlbGVjdG9yIC5sYW5ndWFnZSAuc2VsZWN0LWJveCAuc2VsZWN0b3Itb3B0aW9ucyBsaTpmaXJzdC1jaGlsZCB7CiAgICAgICAgcGFkZGluZy10b3A6IDA7IH0KICAgICAgLm93LWxhbmd1YWdlLXNlbGVjdG9yIC5sYW5ndWFnZSAuc2VsZWN0LWJveCAuc2VsZWN0b3Itb3B0aW9ucyBsaTpsYXN0LWNoaWxkIHsKICAgICAgICBwYWRkaW5nLWJvdHRvbTogMDsgfQogIC5vdy1sYW5ndWFnZS1zZWxlY3RvciAubGFuZ3VhZ2UubGFuZ3VhZ2UtYWN0aXZlOmFmdGVyIHsKICAgIHRyYW5zZm9ybTogcm90YXRlKC05MGRlZyk7IH0K
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 705
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220916T191710Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

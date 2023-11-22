@@ -1,0 +1,25 @@
+﻿---
+ID: "9cb41bcc-f9cb-4da0-b8a5-ad5164b2c34a"
+Parent: "7dd606c4-52a3-4628-83ef-832b5bb88b0c"
+Template: "7dd606c4-52a3-4628-83ef-832b5bb88b0c"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Card Grid Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {72E57DC4-4C05-4067-A749-C74E9B20BEB0}
+    {7DD606C4-52A3-4628-83EF-832B5BB88B0C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

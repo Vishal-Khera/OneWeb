@@ -1,0 +1,126 @@
+{% extends "layout/layout.html" %} {% block maincontent %}
+<main>
+    <div id="content">
+
+        {% include "../templates/components/modal-popup.html" %}
+
+<!-- Breadcrumb -->
+<div class="component container-fluid small-padding breadcrump-overlay">
+    <div class="component row">
+        <div class="component container">
+            <div class="component row">
+                <div class="component col-12">
+                    <div class="breadcrumb">
+                        {% include "../templates/components/component-breadcrumb.html" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- Info Header With Content -->
+        <div class="container-fluid full-width-hero">
+            <div class="row">
+                {% include "../templates/components/banner-image-fulwidth.html" %}
+            </div>
+        </div>
+
+        <div class="container-fluid blue-theme component-overflow">
+            <div class="row">
+                <div class="container-fluid small-padding">
+                    <div class="row">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="component ow-header-content text-wrapper col-12">
+                                    <div class="component-content">
+
+
+
+                                        <h3>Featured Resources</h3>
+
+
+
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="container">
+
+                            <div class="row ow-card-align">
+                                <div class="component ow-card ow-card-icon card-item col-6 col-md-2">
+                                    {% include "../templates/components/component-team-card.html" %}
+                                </div>
+
+                                <div class="component ow-card ow-card-icon card-item col-6 col-md-2">
+                                    {% include "../templates/components/component-team-card.html" %}
+                                </div>
+                                <div class="component ow-card ow-card-icon card-item col-6 col-md-2">
+                                    {% include "../templates/components/component-team-card.html" %}
+                                </div>
+                                <div class="component ow-card ow-card-icon card-item col-6 col-md-2">
+                                    {% include "../templates/components/component-team-card.html" %}
+                                </div>
+                                <div class="component ow-card ow-card-icon card-item col-6 col-md-2">
+                                    {% include "../templates/components/component-team-card.html" %}
+                                </div>
+
+                                <div class="component ow-card ow-card-icon card-item  col-6 col-md-2">
+                                    {% include "../templates/components/component-team-card.html" %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid small-padding">
+                    <div class="row">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="component ow-header-content text-wrapper col-12">
+                                    <div class="component-content">
+
+
+
+                                        <h3>Featured Resources</h3>
+
+
+
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 mb-4 mb-md-0">
+                                    {% include "../templates/components/component-card-list.html" %}
+                                </div>
+                                <div class="col-md-6 mb-4 mb-md-0">
+                                    {% include "../templates/components/component-testimony-card.html" %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>
+{% endblock %}

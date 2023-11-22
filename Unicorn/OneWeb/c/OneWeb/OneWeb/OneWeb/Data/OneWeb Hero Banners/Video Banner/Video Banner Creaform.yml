@@ -1,0 +1,33 @@
+﻿---
+ID: "ceeae032-b90a-4430-915f-cdcc0dd37018"
+Parent: "b93272da-0882-4e30-b63a-6d85a75d6382"
+Template: "81b6bc15-a405-44bd-8caf-236e785ba28c"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Hero Banners/Video Banner/Video Banner Creaform
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "12781f1c-36f3-4169-a634-45b4ccf2837d"
+      Hint: Video
+      Value: "{0FB72876-3869-4663-B4A2-3AF5664F9700}"
+    - ID: "1666f2e1-fec0-4c0d-8013-f4e9a5e00a32"
+      Hint: SecondaryLink
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T121951Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Designed for manufacturing and metrology professionals
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Insensitive to shop floor vibrations, part movement, and environmental instability, the Metrascan 3D significantly increases the efficiency and versatility of measurement process.
+    - ID: "983a37b2-16e7-4dba-a96d-c0d5530f7699"
+      Hint: Subtext
+      Value: 
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="Discover the new Metrascan 3D" anchor="" linktype="internal" class="video-modal" title=""  querystring="" id="{D9745887-A013-4BCC-B632-DD31CD577C6F}" />

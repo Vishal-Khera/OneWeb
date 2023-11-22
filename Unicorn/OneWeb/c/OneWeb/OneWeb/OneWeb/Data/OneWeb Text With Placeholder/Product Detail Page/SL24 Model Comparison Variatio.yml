@@ -1,0 +1,24 @@
+﻿---
+ID: "5edcc28c-8be8-4a6d-aa30-b8b4432e801b"
+Parent: "ebb488a5-2d31-4a2c-a3c7-bea483e075ea"
+Template: "7501c76d-ca5a-4436-b9d6-1330d295f3fa"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Text With Placeholder/Product Detail Page/SL24 Model Comparison Variation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220805T083339Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: MetraSCAN 3D Tech specs
+    - ID: "983a37b2-16e7-4dba-a96d-c0d5530f7699"
+      Hint: Subtext
+      Value: 
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="View all specs" anchor="" linktype="internal" class="ow-text" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

@@ -1,0 +1,26 @@
+﻿---
+ID: "1bcfeba4-3d6d-4a93-a2a2-7167851247e8"
+Parent: "2203dd70-47a6-4265-991e-d8a5271f38f4"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/Product Support Results/Container
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="row">
+        <div class="col-12 filter-result">
+            <div class="ow-container"></div>
+            <div class="ow-load-more d-none text-center">
+                <a href="javascript:void(0)" class="btn btn-secondary">{{sc_translate 'OneWeb-Search-LoadMore'}}</a>
+            </div>
+        </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211223T225806Z

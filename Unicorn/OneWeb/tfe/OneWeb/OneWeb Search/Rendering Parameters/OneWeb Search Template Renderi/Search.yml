@@ -1,0 +1,14 @@
+﻿---
+ID: "5a109413-0682-4ec6-b4cb-511cc8be3424"
+Parent: "83a8a63c-aadf-4f97-abe4-555a1f8ca28c"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Rendering Parameters/OneWeb Search Template Rendering Parameters/Search
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211220T195114Z

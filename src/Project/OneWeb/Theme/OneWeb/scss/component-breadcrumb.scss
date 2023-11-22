@@ -1,0 +1,73 @@
+@import 'base/base-index.scss';
+ .breadcrumb {
+     display: flex;
+     flex-wrap: wrap;
+     margin-bottom: 0px;
+     list-style: none;
+     background: none;
+     padding-top:20px;
+     padding-bottom: 0px;
+     ol{
+         margin-bottom: 0px;
+     }
+     .breadcrumb-item {
+         position: relative;
+         text-decoration: none;
+         display: inline-flex;
+        &:first-child{
+            a{
+                padding-left: 0;
+            }
+        }
+         .separator{
+             padding-right: 0px;            
+             &::after{
+                content: ' \276F';
+                font-size: 13px; 
+                line-height: 0px;              
+                position: absolute;
+                top: 10px;
+            } 
+        }
+        a{
+            padding-right: 6px;
+            padding-left: 10px;
+        }
+        
+        &.last,&:last-child{
+            .separator{
+                display: none;
+           }
+           
+
+           .navigation-title{
+               
+               a{
+                color: $black !important;
+                cursor: default;
+                padding-left: 10px;
+                pointer-events: none;
+                
+               } 
+               
+               
+        }
+        }
+        
+        &::before{
+            content: '';
+            display: none;
+       }
+        
+    }
+    
+     .navigation-title {
+         display: inline-block;
+         vertical-align: middle;
+         a{
+             color: $primary;
+        }
+    }
+    
+}
+

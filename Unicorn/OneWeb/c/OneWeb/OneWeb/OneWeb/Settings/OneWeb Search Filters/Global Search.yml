@@ -1,0 +1,18 @@
+﻿---
+ID: "25891ac8-3545-4ede-8086-53b2f1ebab4f"
+Parent: "a1efc0b3-7345-46c2-b677-15b28b3255b3"
+Template: "2b5ad215-66b1-4ca2-9199-a98254de50a0"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/OneWeb Search Filters/Global Search
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T051800Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

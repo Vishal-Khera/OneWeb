@@ -1,0 +1,135 @@
+﻿@using OneWeb.Foundation.SitecoreExtensions.Caching
+@using OneWeb.Foundation.SitecoreExtensions.Extensions
+@{
+    var oneTrustModel = CacheManager.GetOrSet("GetOneTrustModel", IntegrationsExtensions.GetOneTrustModel, 86400);
+    var googleAnalyticsModel = CacheManager.GetOrSet("GetGoogleAnalyticsModel", IntegrationsExtensions.GetGoogleAnalyticsModel, 86400);
+
+    if (oneTrustModel != null && !string.IsNullOrEmpty(oneTrustModel.Id))
+    {
+        <!-- One Trust -->
+        if (!oneTrustModel.DisableCookieAutoBlocking)
+        {
+            <script type="text/javascript"
+                    src="https://cdn.cookielaw.org/consent/@oneTrustModel.Id/OtAutoBlock.js">
+            </script>
+        }
+        <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+                type="text/javascript" charset="UTF-8"
+                data-domain-script="@oneTrustModel.Id">
+        </script>
+        if (oneTrustModel.ReloadOnConsentChange)
+        {
+            <script>
+                // function to pull cookie value
+                function getCookie(name) {
+                    var value = "; " + document.cookie;
+                    var parts = value.split("; " + name + "=");
+                    if (parts.length == 2) return parts.pop().split(";").shift();
+                }
+
+                function OptanonWrapper() {
+                    var OABCcookieName = "OptanonAlertBoxClosed";
+                    var bannerAcceptBtn = document.getElementById("onetrust-accept-btn-handler");
+                    var pcAllowAllBtn = document.getElementById("accept-recommended-btn-handler");
+                    var pcSaveBtn = document.getElementsByClassName("save-preference-btn-handler onetrust-close-btn-handler button-theme")[0];
+                    var OABCcookie = getCookie(OABCcookieName);
+
+                    // IF logic needed here because ot-banner-sdk DIV is not injected on page loads if banner is not exposed
+
+                    if (!OABCcookie && bannerAcceptBtn) {
+                        bannerAcceptBtn.addEventListener('click', function () {
+                            location.reload();
+                        });
+                    }
+                    if (pcAllowAllBtn)
+                        pcAllowAllBtn.addEventListener('click', function () {
+                            location.reload();
+                        });
+
+                    pcSaveBtn.addEventListener('click', function () {
+                        location.reload();
+                    });
+                }
+            </script>
+        }
+        else
+        {
+            <script type="text/javascript">function OptanonWrapper() { }</script>
+        }
+        <!-- End One Trust -->
+    }
+
+    if (googleAnalyticsModel != null && !string.IsNullOrEmpty(googleAnalyticsModel.Id))
+    {
+        var scriptParams = string.Empty;
+        if (oneTrustModel != null && !string.IsNullOrWhiteSpace(oneTrustModel.Id) && !string.IsNullOrWhiteSpace(googleAnalyticsModel.OneTrustCategoryId))
+        {
+            scriptParams = "type=\"text/plain\" class=\"optanon-category-" + googleAnalyticsModel.OneTrustCategoryId + "\"";
+        }
+        else
+        {
+            scriptParams = "type=\"text/javascript\"";
+        }
+        <!-- Google Analytics Script -->
+        <script @Html.Raw(scriptParams)>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] ||
+                    function() {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', '@googleAnalyticsModel.Id', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics -->
+    }
+    var googleTagManagerModel = CacheManager.GetOrSet("GetTagManagerModel", IntegrationsExtensions.GetTagManagerModel, 86400);
+    if (googleTagManagerModel != null && !string.IsNullOrEmpty(googleTagManagerModel.Id))
+    {
+        var scriptParams = string.Empty;
+        if (oneTrustModel != null && !string.IsNullOrWhiteSpace(oneTrustModel.Id) && !string.IsNullOrWhiteSpace(googleTagManagerModel.OneTrustCategoryId))
+        {
+            scriptParams = "type=\"text/plain\" class=\"optanon-category-" + googleTagManagerModel.OneTrustCategoryId + "\"";
+        }
+        else
+        {
+            scriptParams = "type=\"text/javascript\"";
+        }
+        <!-- Google Tag Manager -->
+        <script @Html.Raw(scriptParams)>
+    (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', '@googleTagManagerModel.Id');</script>
+        <!-- End Google Tag Manager -->
+    }
+
+    var cspValue = SiteExtensions.GetContentSecurityPolicy();
+    if (!string.IsNullOrWhiteSpace(cspValue))
+    {
+        <meta http-equiv="Content-Security-Policy" content="@cspValue">
+    }
+
+    var allowedOriginsValue = SiteExtensions.GetAccessControlAllowedOrigin();
+    if (!string.IsNullOrEmpty(allowedOriginsValue))
+    {
+        <meta http-equiv="Access-Control-Allow-Origin" content="@allowedOriginsValue">
+    }
+
+    var xFrameOptionsValue = SiteExtensions.GetXFrameOptions();
+    if (!string.IsNullOrEmpty(xFrameOptionsValue))
+    {
+        <meta http-equiv="X-Frame-Options" content="@xFrameOptionsValue">
+    }
+}

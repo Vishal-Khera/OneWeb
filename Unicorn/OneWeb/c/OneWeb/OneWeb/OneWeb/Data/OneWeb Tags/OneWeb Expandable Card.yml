@@ -1,0 +1,18 @@
+﻿---
+ID: "5a332dc4-c7c1-4fba-8341-e41dab7e313d"
+Parent: "02b72c12-65fe-433f-9dc9-9578817a0ea8"
+Template: "8055506f-46b4-42fa-b3e1-6d6a3b3c7f58"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Tags/OneWeb Expandable Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220509T133600Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

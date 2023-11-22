@@ -1,0 +1,41 @@
+﻿---
+ID: "5ee4ea95-c14d-47e7-b0f9-47e3e5bc99e7"
+Parent: "e4e9ed6e-ed31-4913-802b-844120fd72ee"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card With Icon/Link Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{rollover_effect = (sc_parameter 'Rollover Effect')}}
+    {{if rollover_effect != "1"}}
+    	{{card_link = ow_link_model i_item 'PrimaryLink'
+    	if(card_link.url|string.size <=0)
+    		card_link.url= "#"
+    	end}}
+    {{if(card_link.url!= "#")}}
+    	<a href="{{card_link.url}}" class="{{card_link.class}}" target="{{card_link.target}}" anchor="{{card_link.anchor}}" >
+    {{end}}
+    		{{sc_execute i_item "OneWeb Scriban Tile"}}
+    {{if(card_link.url!= "#")}}
+    	</a>
+    {{end}}
+    {{else}}
+    	{{sc_execute i_item "OneWeb Scriban Tile"}}
+    {{end}}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211227T160946Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

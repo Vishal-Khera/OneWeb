@@ -1,0 +1,27 @@
+﻿---
+ID: "51bf145a-23e7-4c54-9c78-a0e24bc66b2a"
+Parent: "4aae86c7-36ba-4379-855c-6ece1c5a9244"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Feature/OneWeb/OneWeb Page Structure/ow-container-fluid"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "ow-container-fluid*"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {BFE4C09B-0469-4348-A5ED-08ED00E18853}
+    {FABD6B1B-311F-4A98-BBE3-58C84DCE4EC1}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080110T042900Z

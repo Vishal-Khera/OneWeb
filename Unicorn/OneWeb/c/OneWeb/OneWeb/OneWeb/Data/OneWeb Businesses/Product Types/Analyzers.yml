@@ -1,0 +1,21 @@
+﻿---
+ID: "ed2a1021-cf22-48ab-a8a0-0e9fd38a284e"
+Parent: "9ca3f90e-a931-4306-a6a8-8242a54c7157"
+Template: "851511fa-16f0-4200-9650-33c8af27bf94"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Businesses/Product Types/Analyzers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211222T040945Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: Analyzers

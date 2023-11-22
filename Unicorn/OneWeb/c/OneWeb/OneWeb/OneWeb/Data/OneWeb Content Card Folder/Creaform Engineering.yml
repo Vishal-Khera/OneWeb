@@ -1,0 +1,20 @@
+﻿---
+ID: "d15d7acc-9315-4a1f-be33-ed3f6ab057d7"
+Parent: "d76ac750-a8fc-467d-821a-8a73faba8e41"
+Template: "2dab00c3-0548-4391-9113-5f8c2605231e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder/Creaform Engineering
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T100839Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Engineering
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: "At Creaform, engineering expertise  applied in variety of far-reaching projects. Whether they are using our 3D measurement technologies in a metrology lab or at a client site or providing full-scale engineering services our mechanical and electrical engineers can rely on the best tools and software on the market"

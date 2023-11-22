@@ -1,0 +1,25 @@
+﻿---
+ID: "24bf341a-01ba-41e5-ae78-2a259859839b"
+Parent: "75805ef9-bdee-4556-8c0c-a6c0f865569b"
+Template: "75805ef9-bdee-4556-8c0c-a6c0f865569b"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Popup Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {75805EF9-BDEE-4556-8C0C-A6C0F865569B}
+    {5953D431-CF7F-47A3-853E-24D240914476}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

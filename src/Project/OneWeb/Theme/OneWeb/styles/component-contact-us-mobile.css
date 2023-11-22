@@ -1,0 +1,22 @@
+.ow-contact-us-link {
+  padding-left: 0px; }
+  .ow-contact-us-link .component-content .field-link a {
+    padding: 10px 0 0 15px;
+    background: unset;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Helvetica Neue'; }
+    @media screen and (min-width: 0) {
+      .ow-contact-us-link .component-content .field-link a {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .ow-contact-us-link .component-content .field-link a {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .ow-contact-us-link .component-content .field-link a {
+        font-size: 16px; } }
+    .ow-contact-us-link .component-content .field-link a:hover {
+      color: inherit !important; }

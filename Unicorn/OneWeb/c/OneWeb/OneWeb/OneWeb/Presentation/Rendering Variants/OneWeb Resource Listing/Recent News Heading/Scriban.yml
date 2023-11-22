@@ -1,0 +1,34 @@
+﻿---
+ID: "82cd47eb-bc2b-482f-8507-67cabcd0e93d"
+Parent: "c582916e-5fc3-4dff-96ad-d596780db941"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Resource Listing/Recent News Heading/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="ow-card ow-recent-news">      
+    	<div class="ow-card-content">
+             <h2>{{sc_translate 'OneWeb-News-Heading'}}</h2>
+    	 <ul>
+    {{if o_model && (o_model.resources.size > 0)}}    	    
+        {{ for data in o_model.press_releases}}    	
+        			{{item = ow_item data.item_id}}    			
+        			 {{if (data.title | string.size >0)}}
+                    <li><a class="title" href = '{{item.url}}' target="_self">{{data.title}}</a></li>
+        			{{end}}    			
+                     
+           {{end}}       
+        {{end}}
+    	</ul>
+     </div>
+     </div>  
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220211T144323Z

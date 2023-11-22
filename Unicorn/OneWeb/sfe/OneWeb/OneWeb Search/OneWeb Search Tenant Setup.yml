@@ -1,0 +1,21 @@
+﻿---
+ID: "0644cbc2-3c86-456c-aec0-66d979e6815d"
+Parent: "32d35dd7-ee15-4801-912e-6ec92faade90"
+Template: "141df88e-7156-4d2e-a004-c8c1a7c51e9d"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Search/OneWeb Search Tenant Setup
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211120T185424Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: OneWeb Search

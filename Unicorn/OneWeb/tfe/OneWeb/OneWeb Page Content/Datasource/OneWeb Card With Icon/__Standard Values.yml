@@ -1,0 +1,14 @@
+﻿---
+ID: "296fb562-915e-4a7f-85af-c8d3a99b87d3"
+Parent: "8bbddf0b-4426-4936-bc91-a3dfcc7db5e7"
+Template: "8bbddf0b-4426-4936-bc91-a3dfcc7db5e7"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Card With Icon/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T112128Z

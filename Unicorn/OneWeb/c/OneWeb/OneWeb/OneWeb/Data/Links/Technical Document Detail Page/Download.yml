@@ -1,0 +1,22 @@
+﻿---
+ID: "77eb6806-8ffc-43c4-b412-96eda8b7dfb5"
+Parent: "b0b5dc34-b757-4e05-8d26-2c5c2e22a479"
+Template: "e24e0789-a058-48bf-abb6-c69c0e60b6b7"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Links/Technical Document Detail Page/Download
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220826T105923Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "dd05144a-bd66-4ea3-956a-4b7104daaba3"
+      Hint: Link
+      Value: |
+        <link text="Download" anchor="" linktype="internal" class="button btn-default btn-download" title=""  querystring="" id="{CC065443-BDCA-4077-B978-3DFDC2AB358D}" />

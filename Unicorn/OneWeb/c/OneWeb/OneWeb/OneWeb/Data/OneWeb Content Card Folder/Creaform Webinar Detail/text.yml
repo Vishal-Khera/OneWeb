@@ -1,0 +1,20 @@
+﻿---
+ID: "c7566b7a-fb49-4540-ae5f-fac6a5ddac44"
+Parent: "b88fce18-ef1e-4f8e-b6c7-f738a46972bc"
+Template: "2dab00c3-0548-4391-9113-5f8c2605231e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder/Creaform Webinar Detail/text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220830T113816Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Title
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s

@@ -1,0 +1,34 @@
+﻿---
+ID: "81b1a499-43bb-4776-9fc7-2a6c0082371f"
+Parent: "192efd74-ba0e-42b6-9500-7b7f1fd6bc34"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Promo/Full Width Text Image reverse/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    			<div class="ow-full-text">
+    			  <div >
+    			  <div class= "row flex-row-reverse">
+    			   <div class="col-lg-9">
+    					 <div class="ow-card-content">
+    						{{sc_field i_item 'PromoText'}}
+    					</div>
+    					</div>
+    			  <div class= "col-lg-3">			  
+    					<div class="card-image">
+    						{{sc_field i_item 'PromoIcon' [['class', 'icon-default']]}}
+    					</div>
+    					 </div>
+    					</div>
+    				</div>
+    			</div>	
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T125634Z

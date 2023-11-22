@@ -1,0 +1,14 @@
+﻿---
+ID: "6fcae22a-81a1-42c0-b287-2b5eafa6b77d"
+Parent: "279ee5a7-711f-4a50-ac87-976e66775f69"
+Template: "267d9ac7-5d85-4e9d-af89-99ab296cc218"
+Path: /sitecore/system/Dictionary/OneWeb/OneWeb/Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211127T195849Z

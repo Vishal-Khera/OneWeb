@@ -1,0 +1,63 @@
+﻿---
+ID: "c104777e-2e77-45a5-9cd5-6415881749a6"
+Parent: "2dfc7cfb-41ed-47d3-99e7-6f277fc3a411"
+Template: "2dab00c3-0548-4391-9113-5f8c2605231e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder/Product Detail Page/Sl29 Featured 5050 Default
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1666f2e1-fec0-4c0d-8013-f4e9a5e00a32"
+      Hint: SecondaryLink
+      Value: |
+        <link text="Download brochures" anchor="" linktype="internal" class="btn-simple btn-download" title=""  querystring="" id="{CC065443-BDCA-4077-B978-3DFDC2AB358D}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220809T152042Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: When accuracy meets versatility and portability
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        Facilisi cras fermentum odio eu feugiat. Tincidunt ornare massa eget egestas purus viverra. Hac habitasse plate dictumst vestibulum rhoncus est. Est ante in nibh mauris cursus.
+        <div class="overflow-scroll">
+        <div class="overflow-scroll__icon">
+        <div class="icon-image"><img class="ow-lazyloaded" data-src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" /></div>
+        <div class="icon-text">ISO 17025</div>
+        </div>
+        <div class="overflow-scroll__icon">
+        <div class="icon-image"><img class="ow-lazyloaded" data-src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" /></div>
+        <div class="icon-text">ISO 17025</div>
+        </div>
+        <div class="overflow-scroll__icon">
+        <div class="icon-image"><img class="ow-lazyloaded" data-src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" /></div>
+        <div class="icon-text">ISO 17025</div>
+        </div>
+        <div class="overflow-scroll__icon">
+        <div class="icon-image"><img class="ow-lazyloaded" data-src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" /></div>
+        <div class="icon-text">ISO 17025</div>
+        </div>
+        <div class="overflow-scroll__icon">
+        <div class="icon-image"><img class="ow-lazyloaded" data-src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" /></div>
+        <div class="icon-text">ISO 17025</div>
+        </div>
+        <div class="overflow-scroll__icon">
+        <div class="icon-image"><img class="ow-lazyloaded" data-src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" /></div>
+        <div class="icon-text">ISO 17025</div>
+        </div>
+        <div class="overflow-scroll__icon">
+        <div class="icon-image"><img class="ow-lazyloaded" data-src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" /></div>
+        <div class="icon-text">ISO 17025</div>
+        </div>
+        <div class="overflow-scroll__icon">
+        <div class="icon-image"><img class="ow-lazyloaded" data-src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" src="-/media/DBAF415308A54DA68AB8D4B99368C3AC.ashx" /></div>
+        <div class="icon-text">ISO 17025</div>
+        </div>
+        </div>
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="Request Information" anchor="" linktype="internal" class="button btn-default" title=""  querystring="" id="{CC065443-BDCA-4077-B978-3DFDC2AB358D}" />

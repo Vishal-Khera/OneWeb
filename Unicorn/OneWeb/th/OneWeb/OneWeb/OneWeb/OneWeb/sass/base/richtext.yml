@@ -1,0 +1,14 @@
+﻿---
+ID: "3344310f-b045-4c90-9ffd-682ab7d7076d"
+Parent: "2285a46f-9152-4b06-9ff5-29f678369bec"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWeb/sass/base/richtext
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170614T063658Z

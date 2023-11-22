@@ -1,0 +1,14 @@
+﻿---
+ID: "cebbbe10-e091-4f2b-9ad4-a66e2f8502c7"
+Parent: "f31c6924-98d2-4ea5-bca2-612040f2930b"
+Template: "f31c6924-98d2-4ea5-bca2-612040f2930b"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Rendering Parameters/OneWeb Pagination Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220804T155854Z

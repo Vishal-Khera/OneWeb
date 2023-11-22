@@ -1,0 +1,82 @@
+.ow-form-validation .field-validation-error {
+  color: #D9171D;
+  font-size: 12px; }
+  @media screen and (min-width: 0) {
+    .ow-form-validation .field-validation-error {
+      font-size: 12px; } }
+  @media screen and (min-width: 768px) {
+    .ow-form-validation .field-validation-error {
+      font-size: 12px; } }
+  @media screen and (min-width: 992px) {
+    .ow-form-validation .field-validation-error {
+      font-size: 12px; } }
+
+.ow-form-validation .form-control {
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+  border: 1px solid #BEBEBE;
+  border-radius: unset;
+  transition: unset;
+  box-shadow: unset; }
+  @media screen and (min-width: 0) {
+    .ow-form-validation .form-control {
+      font-size: 16px; } }
+  @media screen and (min-width: 768px) {
+    .ow-form-validation .form-control {
+      font-size: 16px; } }
+  @media screen and (min-width: 992px) {
+    .ow-form-validation .form-control {
+      font-size: 16px; } }
+
+.ow-form-validation label {
+  font-family: 'HelveticaNeue-Medium'; }
+
+.ow-form-validation .checkbox label {
+  position: relative;
+  padding-left: 20px;
+  font-family: 'HelveticaNeue-Thin'; }
+  .ow-form-validation .checkbox label input[type=checkbox] {
+    left: 0;
+    height: auto;
+    position: absolute;
+    vertical-align: text-top;
+    top: 3px; }
+
+.ow-form-validation [type=submit] {
+  margin-top: 30px;
+  width: 100%;
+  height: auto; }
+  @media only screen and (min-width: 768px) {
+    .ow-form-validation [type=submit] {
+      width: auto; } }
+
+.ow-form-validation select {
+  height: 43px !important; }
+
+.ow-form-validation textarea {
+  resize: none;
+  border-color: #BEBEBE;
+  height: 200px !important; }
+
+.ow-form-validation .required:after {
+  content: "*";
+  display: inline-block;
+  padding: 0 5px;
+  color: #D9171D;
+  position: absolute; }
+
+.text-subheading {
+  font-size: 32px; }
+  @media screen and (min-width: 0) {
+    .text-subheading {
+      font-size: 32px; } }
+  @media screen and (min-width: 768px) {
+    .text-subheading {
+      font-size: 32px; } }
+  @media screen and (min-width: 992px) {
+    .text-subheading {
+      font-size: 32px; } }
+  @media screen and (min-width: 1200px) {
+    .text-subheading {
+      font-size: 40px; } }

@@ -1,0 +1,40 @@
+﻿---
+ID: "f9071696-54bf-4437-9ba9-7d52ff5f6c42"
+Parent: "47690885-0270-4bba-8ed7-878ec2cf6120"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Users Table/Default/Template
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     [[#each UsersInfo]]
+              <tr>
+                <td class="email-address">[[this.EmailAddress]]</td>
+                <td>[[this.FirstName]]</td>
+                <td>[[this.LastName]]</td>
+                 <td>[[this.Country]]</td>        
+                <td>
+        		[[#if this.IsApproved]]
+        		<a id=[[Id]] onClick="approveUser(this.id)"  class="Inactive">{{sc_translate "OneWeb-user-Accept"}} <i class="fa fa-check" aria-hidden="true"></i></a>
+        		<a id=[[Id]] onClick="disableUser(this.id)" class="active">{{sc_translate "OneWeb-user-Disable"}}  </a>
+        		[[else]]
+        		<a id=[[Id]] onClick="approveUser(this.id)"  class="active">{{sc_translate "OneWeb-user-Accept"}}  <i class="fa fa-check" aria-hidden="true"></i></a>
+        		<a id=[[Id]] onClick="disableUser(this.id)" class="Inactive">{{sc_translate "OneWeb-user-Disable"}}</a>
+        		[[/if]]	
+        		<a id=[[Id]] onClick="deleteUser(this.id)" class="active">{{sc_translate "OneWeb-user-Delete"}} <i class="fa fa-trash-o" aria-hidden="true"></i></a>
+        		</td>
+              </tr>
+        [[/each]]
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220316T145258Z

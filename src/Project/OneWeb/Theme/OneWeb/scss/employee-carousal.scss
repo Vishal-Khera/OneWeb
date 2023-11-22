@@ -1,0 +1,11 @@
+@import 'base/base-index.scss';
+.employee-carousal{
+    .ow-card{
+        .ow-card-image{
+            @include lg {
+                min-width: 25%;
+                margin-right: 40px;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+﻿---
+ID: "0d94d2f5-af96-480d-8a35-2d538c0593db"
+Parent: "586bcc2e-81ff-48c8-a1d4-aad4358570a3"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Login/Users Table
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220323T153138Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

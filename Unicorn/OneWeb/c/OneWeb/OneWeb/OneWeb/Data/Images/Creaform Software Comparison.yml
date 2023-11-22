@@ -1,0 +1,18 @@
+﻿---
+ID: "ded37e73-8125-4a2a-8633-4c49cad1742e"
+Parent: "59c57b29-1492-451c-8904-f80dc032ff9b"
+Template: "861d0715-e397-4114-870a-7fbb1fe8c9d6"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/Creaform Software Comparison
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T132121Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

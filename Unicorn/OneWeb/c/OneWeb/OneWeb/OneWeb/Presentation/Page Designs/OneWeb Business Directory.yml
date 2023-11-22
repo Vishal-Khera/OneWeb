@@ -1,0 +1,18 @@
+﻿---
+ID: "891e4047-f3c6-45f6-9d43-34299d4c14fa"
+Parent: "876181a5-766e-429b-bb5a-744cb913bfec"
+Template: "fd7827f5-19f9-4c1d-9b11-5349bf84b44b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Page Designs/OneWeb Business Directory
+DB: master
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{1E501F74-4AF3-42A4-A093-0E0D9077D82F}|{1CF6F261-E509-4472-9376-2C28FBB5B5E0}|{2A3A58AE-DAB4-4604-BFAD-1B5611E69D3E}|{6B468C8D-6211-4A8E-ACDA-353B64973F54}|{556DF85B-6D4F-442B-B56B-6AEE36DD6E0D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211214T195136Z

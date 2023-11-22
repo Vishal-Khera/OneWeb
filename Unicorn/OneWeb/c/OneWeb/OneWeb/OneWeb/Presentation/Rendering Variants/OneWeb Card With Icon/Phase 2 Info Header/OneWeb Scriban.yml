@@ -1,0 +1,32 @@
+﻿---
+ID: "27b57dea-af36-400e-92f4-1303b6395236"
+Parent: "6cc1147a-dbbd-4e31-8438-0faf120e3721"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card With Icon/Phase 2 Info Header/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="card simple-list">
+        <div class="card-icon">
+            <i class="icon-checked"></i>
+        </div>
+    	{{if i_item.title | string.size > 0}}
+    		<div class="card-info">
+    			{{i_item.title}}
+            </div>
+    	{{end}}		
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T145726Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

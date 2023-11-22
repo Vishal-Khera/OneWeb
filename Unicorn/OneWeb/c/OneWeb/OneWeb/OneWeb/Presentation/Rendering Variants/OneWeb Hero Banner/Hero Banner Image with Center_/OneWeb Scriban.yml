@@ -1,0 +1,62 @@
+﻿---
+ID: "1862879f-3a33-4b76-b9ce-b1d61353d3c3"
+Parent: "414ba47a-83e0-4975-9c40-b4a68ec4324f"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Hero Banner/Hero Banner Image with Center Text/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+           <div class="banner-image-text-center text-center">
+                <div class="banner-content">
+                   {{if(i_item.title !="")}}
+                   <div class="banner-title">
+                      {{i_item.title}}
+                   </div>
+                   {{end}}
+                   {{if(i_item.content !="")}}
+                   <div class="banner-sub-title">
+                      {{i_item.content}}
+                   </div>
+                   {{end}}
+                   {{primary_link_classes = "button btn-default"}}
+                   {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+                   if( primary_filtered_classes)
+                   if(primary_filtered_classes.class | string.size) > 0
+                   primary_link_classes = primary_link_classes + primary_filtered_classes.class
+                   end
+                   end}}
+                   {{secondary_link_classes = "btn btn-secondary "}}
+                   {{ secondary_filtered_classes = ow_link_model i_item 'SecondaryLink'
+                   if( secondary_filtered_classes)
+                   if(secondary_filtered_classes.class | string.size) > 0
+                   secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+                   end
+                   end}}
+                   {{primary_link = (sc_field i_item 'PrimaryLink'[['text', (i_item.PrimaryLink.text)], ['class', (primary_link_classes)]])}}
+                   {{secondary_link = (sc_field i_item 'SecondaryLink'[['text', (i_item.SecondaryLink.text)], ['class', (secondary_link_classes)]])}}
+                   {{if(primary_link) | string.size>0}}
+                   <div class="banner-link">
+                   {{primary_link}}
+    	           </div>
+                    {{end}}
+    		       </div>
+                    {{if(i_item.image !="")}}
+                   <div class="banner-image">
+    				  {{media_model = ow_default_media i_item.Image.media_url}}
+                      {{media_model_mobile = ow_default_media_mobile i_item.MobileImage.media_url }}
+                      {{if(media_model) | string.size>0 }}
+                      <img class="ow-lazy" data-src="{{media_model.url}}"  data-mob-src="{{media_model_mobile.url}}" alt="{{i_item.Image.alt.raw}}" title="{{ i_item.Image.title.raw}}" >
+                   {{end}}
+                   </div>
+                    {{end}}
+     </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220719T144307Z

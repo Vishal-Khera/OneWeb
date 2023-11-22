@@ -1,0 +1,49 @@
+﻿---
+ID: "970eb026-aa59-48c4-9245-117ae230c620"
+Parent: "1871c92b-2ec3-4035-8d65-10d3a708fc22"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Locate Distributor/Default/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     {{if i_item}} 
+        <div class="filter-search-wrapper mb-5">
+            <div class="filter-search mb-3">
+                <input type="text" id="locatedistributortextbox" placeholder="{{sc_translate 'OneWeb-LocateDistributor-Placeholder-Text'}}">
+    <a class="clear-text  clear-textLocate" href="javascript:void(0)"><span class="sr-only">cross-icon</span></a>
+                <button class="icon-search" id="locatedistributorbutton" type="submit">   </button>
+            </div>
+    <div class="container mb-5" id="displaynone" style="display:none">
+                <div class="row">
+                    <div class="col-lg-8 ow-locations">
+                        <div class="dealer-location-map">
+                            <div class="g-map" id="map">
+                            </div>
+          <div class="filter-facets mt-2">
+                <div class="description">
+    <label id="locatedistance"></label>
+                  <a onclick="initMap()"> {{sc_translate 'OneWeb-LocateDistributor-Showroute'}}</a></br>
+                   {{sc_translate 'OneWeb-LocateDistributor-Description'}}
+                </div>
+            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ow-contact-side-details" id="locatedata">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div id="noresult" class="col-12">
+      {{sc_translate 'OneWeb-LocateDistributor-Noresult'}}
+    </div>
+        {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220218T061902Z

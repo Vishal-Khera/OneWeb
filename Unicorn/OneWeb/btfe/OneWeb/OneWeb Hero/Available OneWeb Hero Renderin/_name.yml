@@ -1,0 +1,23 @@
+﻿---
+ID: "5c69fed8-3d81-4a16-8c65-6a164c3a7b06"
+Parent: "ecd5c637-d3e2-4637-804c-f1ca6fbbadaf"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Feature/OneWeb/OneWeb Hero/Available OneWeb Hero Renderings/$name
+DB: master
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Type: TreelistEx
+  Value: "{04370F62-63D8-4AB4-A238-60EE1A3C60A6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T104335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

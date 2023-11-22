@@ -1,0 +1,102 @@
+@import 'base/base-index.scss';
+
+// editable mode in sitecore
+.scEnabledChrome{
+    .slider-image{
+        .slick-slide{
+            .slide{
+                min-height: 400px;
+            }
+        }
+    }
+}
+
+.slider-wrapper{
+    .slick-slide{
+        width:100%;
+    }
+    &.banner-small{
+        .slider-item {
+            .slider-image {
+                .slide {
+                    padding-top: 66.4%;
+                    @include md{
+                        padding-top: 56.25%;
+                    }
+                    @include lg{
+                        padding-top: 17.9%;
+                    }
+                }
+            }
+        }
+        &.banner-text-mobile{
+            h2,p{
+                margin-bottom: 0;
+                color:$white;
+                filter: drop-shadow(.0001em .0001em $black);
+                mix-blend-mode: difference
+            }
+            .slider-content{
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-50%, -50%);
+                padding-top: 0;
+                padding-bottom: 0;
+                padding-left: unset;
+                @include lg{
+                    padding-left: 30px;
+                }
+                @include xl{
+                    padding-left: 0px;
+                }
+            }
+            .banner-md-font{
+                h2{
+                    +p, +.banner-description{
+                        margin-top: 10px;
+                    }
+                }
+                p{
+                    @include font-size($lg-font);
+                }
+
+            
+                @include xl{
+                    p{
+                    @include font-size($xl-font);
+                }
+                }
+            }
+        }
+        .banner-description{
+            margin-bottom: 0;
+        }
+    }
+}
+
+.slider-content{
+    .banner-description{
+        margin-bottom: 30px;
+        @include font-size($lg-font);
+        color:$black;
+        @include lg{
+            color: $white;
+            margin-bottom: 50px;
+            filter: drop-shadow(.0001em .0001em $black);
+        }
+        p{
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+.image-slider{
+    width:100%;
+    .slider-image{
+        width:100%;
+    }
+}
+
+

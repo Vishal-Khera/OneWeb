@@ -1,0 +1,17 @@
+﻿---
+ID: "13eb0dac-475b-45c0-8d25-6c22201be675"
+Parent: "1cf31a07-ec6c-42f5-99c5-8fab57346e7c"
+Template: "552c7c41-fcf3-45a9-a813-3d75a4d5c654"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Header Contents/H04 Resource Header/Featured Resources
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T095623Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Featured Resources

@@ -1,0 +1,22 @@
+﻿---
+ID: "3f1144c7-2cd9-4dcd-a9e1-8b2bd0639e4e"
+Parent: "92116c19-ac7a-4455-a4d7-a7f39464fc33"
+Template: "bb8a85ab-1f6d-4518-8772-1c9f4f8dac18"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/OneWeb Image Accordion/Rotron
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220119T112916Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ebe4fdef-16d5-4d19-833c-24a241628a3a"
+      Hint: Image
+      Value: |
+        <image mediaid="{F95CD541-82C7-466B-84F4-054FB9AF698D}" />

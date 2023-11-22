@@ -1,0 +1,21 @@
+﻿---
+ID: "39d6aa78-9c3f-4de4-82e8-050cdd89303b"
+Parent: "9f90c6af-f520-40b5-b30e-d5789ae27710"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/OneWeb/OneWeb/Solution Page/Associated Content/Applications
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: OneWeb Tag Treelist
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220816T001543Z

@@ -1,0 +1,55 @@
+﻿---
+ID: "78f1318d-f47d-4fd8-bb88-e278e16dd46f"
+Parent: "5274cf70-a833-4102-b15f-0f59029db55c"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Box/Global Search Box/Template
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+       <div class="result-item-wrapper">
+            <!-- <div class="result-value"> 12 results for <span class="primary-color">Services</span></div> -->
+            [[#each this.Groups]]
+            <div class="result-item" ow-as-group-identifier="[[this.GroupIdentifier]]" ow-as-identifier="[[this.Identifier]]">
+                <h4>[[[this.Name]]] ([[this.Count]])</h4>
+                <ul>
+                    [[#each this.Results]]
+                    <li>
+                        [[#if (isdefined this.Business)]]
+                        [[#jsonBlock this.Business]]
+                        <a href="[[@Link.Url]]">[[[sanitize this.Title]]]</a>        
+                        [[/jsonBlock]]
+                        [[else]]
+                        <a href="[[this.Url]]">[[[sanitize this.Title]]]</a>
+                        [[/if]]
+                    </li>
+                    [[/each]]
+                    [[#if (gt this.Count this.GroupLimit)]]
+                    <li class="view-all"> 
+                        <a href="javascript:void(0)" >{{sc_translate 'OneWeb-Search-AutoSuggest-ViewAll'}} [[this.Name]]</a>
+                    </li>
+                    [[/if]]
+                </ul>
+            </div>
+            [[/each]]
+        </div>
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T025234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

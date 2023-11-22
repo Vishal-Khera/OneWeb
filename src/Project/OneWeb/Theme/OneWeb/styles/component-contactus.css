@@ -1,0 +1,76 @@
+.ow-link-list h4 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 27px;
+  font-family: 'HelveticaNeue-Bold'; }
+  @media screen and (min-width: 0) {
+    .ow-link-list h4 {
+      font-size: 20px; } }
+  @media screen and (min-width: 768px) {
+    .ow-link-list h4 {
+      font-size: 20px; } }
+  @media screen and (min-width: 992px) {
+    .ow-link-list h4 {
+      font-size: 20px; } }
+  .ow-link-list h4 a {
+    color: #fff;
+    font-size: 20px; }
+    @media screen and (min-width: 0) {
+      .ow-link-list h4 a {
+        font-size: 20px; } }
+    @media screen and (min-width: 768px) {
+      .ow-link-list h4 a {
+        font-size: 20px; } }
+    @media screen and (min-width: 992px) {
+      .ow-link-list h4 a {
+        font-size: 20px; } }
+
+.ow-link-list p {
+  color: #fff; }
+
+.ow-link-list ul .field-link a {
+  color: #c7c7c7; }
+
+.footer-contact-wrapper {
+  width: 9em;
+  margin-left: 0px; }
+  @media only screen and (min-width: 768px) {
+    .footer-contact-wrapper {
+      text-align: right;
+      width: 25% !important;
+      margin-left: 38%; } }
+  .footer-contact-wrapper .row {
+    margin-left: 0;
+    margin-right: 0; }
+    @media only screen and (min-width: 768px) {
+      .footer-contact-wrapper .row {
+        width: 50%; } }
+  .footer-contact-wrapper .col-xl {
+    max-width: 60%;
+    flex: unset;
+    margin-top: -4px; }
+    @media only screen and (min-width: 768px) {
+      .footer-contact-wrapper .col-xl {
+        width: 100%; } }
+  .footer-contact-wrapper p {
+    font-size: 20px;
+    width: 90%; }
+    @media screen and (min-width: 0) {
+      .footer-contact-wrapper p {
+        font-size: 20px; } }
+    @media screen and (min-width: 768px) {
+      .footer-contact-wrapper p {
+        font-size: 20px; } }
+    @media screen and (min-width: 992px) {
+      .footer-contact-wrapper p {
+        font-size: 20px; } }
+
+.footer-contact-wrapper + div {
+  width: 8em; }
+  @media only screen and (min-width: 768px) {
+    .footer-contact-wrapper + div {
+      width: auto; } }
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .footer-contact-wrapper {
+    margin-left: 0px; } }

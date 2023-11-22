@@ -1,0 +1,76 @@
+.media-wrapper {
+  width: 100%; }
+  .media-wrapper__media {
+    position: relative; }
+    .media-wrapper__media::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 2; }
+    .media-wrapper__media img {
+      width: 100%;
+      max-height: 600px; }
+    .media-wrapper__media video {
+      width: 100%; }
+    .media-wrapper__media video::-webkit-media-controls-panel {
+      display: none !important;
+      opacity: 1 !important; }
+    .media-wrapper__media .play-control {
+      position: absolute;
+      z-index: 3;
+      top: 10px;
+      right: 10px;
+      background-color: rgba(255, 255, 255, 0.3);
+      height: 25px;
+      width: 25px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%; }
+      @media only screen and (min-width: 768px) {
+        .media-wrapper__media .play-control {
+          top: 25px;
+          right: 25px; } }
+      .media-wrapper__media .play-control button:focus, .media-wrapper__media .play-control button:focus-visible {
+        outline: none; }
+      .media-wrapper__media .play-control .play-button {
+        position: absolute;
+        left: 8px;
+        cursor: pointer;
+        border: 0;
+        box-sizing: border-box;
+        width: 0;
+        height: 11px;
+        background: transparent;
+        border-style: double;
+        border-width: 0px 0 0px 9px;
+        border-color: transparent transparent transparent #202020;
+        transition: 0.1s all ease;
+        opacity: 0.4; }
+      .media-wrapper__media .play-control.paused .play-button {
+        border-style: solid;
+        border-width: 5px 0 5px 8px;
+        left: 9px; }
+  .media-wrapper__caption {
+    padding-top: 5px;
+    color: rgba(26, 25, 24, 0.5);
+    font-size: 14px; }
+    @media screen and (min-width: 0) {
+      .media-wrapper__caption {
+        font-size: 12px; } }
+    @media screen and (min-width: 768px) {
+      .media-wrapper__caption {
+        font-size: 14px; } }
+    @media screen and (min-width: 992px) {
+      .media-wrapper__caption {
+        font-size: 14px; } }
+    .media-wrapper__caption * {
+      font-family: "FranklinGothicLTPro-Md" !important; }
+    @media only screen and (min-width: 768px) {
+      .media-wrapper__caption {
+        padding-top: 10px; } }

@@ -1,0 +1,31 @@
+﻿---
+ID: "227dc5d8-af29-4e31-abed-a9c4ba46f84f"
+Parent: "fd3b7307-85ed-49ae-aed4-8de69021ecfd"
+Template: "324733cf-afec-4281-9a18-03b6cfc4e535"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Promos/Full Width Text Image
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "14023dd5-30e7-4e3c-bf31-d835f3a87410"
+      Hint: PromoText
+      Value: |
+        <h3>No matter if:</h3>
+        <ul class="list-item">
+            <li> Highest robustness requirements <span class="highlight-text">- IP / shock / vibration / temperature.</span></li>
+            <li>Complex system requirements <span class="highlight-text">- multiple networked drives</span></li>
+            <li>Future-proof technology <span class="highlight-text"> - IIOT, Cloud</span></li>
+        </ul>
+    - ID: "18f9beb8-0116-40fd-b47e-fd0a2327d7e0"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{F8CC7490-02D6-4FF8-B4E7-87460507E737}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T134826Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

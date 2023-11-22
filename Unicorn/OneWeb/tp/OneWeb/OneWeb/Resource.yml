@@ -1,0 +1,31 @@
+﻿---
+ID: "b794d898-4dca-4f59-9674-6b9994b63b59"
+Parent: "0b5aec76-e247-40d7-9005-3451fcb625f8"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/OneWeb/OneWeb/Resource
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/notebook.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {97167EAA-FBDE-43AC-AACE-F453D151CD87}
+    {E8BB5C2B-DD8D-40B3-AB48-CE0340A4852F}
+    {3CF52724-6954-49A7-B90D-4A64A9407028}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{137D79B6-2F40-4A9D-9231-B230E20C0988}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T073817Z

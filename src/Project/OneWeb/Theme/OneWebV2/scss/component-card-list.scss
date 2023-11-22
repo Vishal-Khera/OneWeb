@@ -1,0 +1,186 @@
+@import 'base/base-index.scss';
+
+.card-list-wrapper{
+    * {
+        font-family: $franklinMd  !important;
+    }
+    background-color: $cta-gray;
+    @include border-radius(8px);
+    width:100%;
+    .card{
+        display: block;
+        min-height: 90px;
+        padding: 15px;
+        background-color: $cta-gray;
+        @include border-radius(0px);
+        @include md{
+            padding: 20px 25px;
+        }
+        border-bottom: 1px solid $lightblack;
+        &:first-child{
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        &:last-child{
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            border-bottom: none;
+        }
+    }
+    .card-title{
+        color: $brand;
+        margin-bottom: 0px;
+        @include font-size($smlg-font);
+    }
+    .card-info{
+        display: flex;
+        flex-wrap: wrap;
+        @include font-size($sm-font);
+        .profile, .hours, .location{
+            padding-right: 15px;
+        }
+        i{
+            padding-right: 5px;
+            font-family: 'icomoon' !important;
+            &::before{
+                color: $brand;
+                @include font-size($sssm-font);
+            }
+            &.icon-location{
+                &:before{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    a{
+        &.card{
+            &:hover{
+                background-color: $fade-blue;
+            }
+            &:active{
+                background-color: $fade-blue;
+            }
+            &:focus{
+                z-index: 2;
+                @include border-radius(8px);
+                background-color: $fade-blue;
+                outline: 6px solid $sea-blue;
+                outline-offset: -1px;
+            }
+        }
+        &.button{
+            margin: 10px 0px;
+            margin-left: 15px;
+            @include md{
+                margin: 15px 0px;
+                margin-left: 25px;
+            }
+        }
+    }
+}
+
+.dark-theme{
+    .card-list-wrapper{
+        background-color: $brandblack;
+        .card{
+            background-color: $brandblack;
+            color: $base-light-gray !important;
+            border-bottom: 1px solid $white-gray-light;
+            &:last-child{
+                border-bottom: none;
+            }
+        }
+        .card-title{
+            color: $base-light-gray !important;
+        }
+        .card-info{
+            i{
+                &::before{
+                    color: $base-light-gray;
+                }
+            }
+        }
+        a{
+            &.card{
+                &:hover{
+                    background-color: $white-gray-light;
+                }
+                &:active{
+                    background-color: $white-gray-light;
+                }
+                &:focus{
+                    z-index: 2;
+                    @include border-radius(8px);
+                    background-color: $white-gray-light;
+                    outline: 6px solid $sea-blue;
+                    outline-offset: -1px;
+                }
+            }
+        }
+    }
+}
+
+.blue-theme{
+    .card-list-wrapper{
+        background-color: $dark-blue;
+        .card{
+            background-color: $dark-blue;
+            color: $base-light-gray !important;
+            border-bottom: 1px solid $white-gray-light;
+            &:last-child{
+                border-bottom: none;
+            }
+        }
+        .card-title{
+            color: $base-light-gray !important;
+        }
+        .card-info{
+            i{
+                &::before{
+                    color: $base-light-gray;
+                }
+            }
+        }
+        a{
+            &.card{
+                outline: 4px solid transparent;
+                &:hover{
+                    background-color: $fade-blue;
+                }
+                &:active{
+                    background-color: $fade-blue;
+                }
+                &:focus{
+                    z-index: 2;
+                    @include border-radius(8px);
+                    background-color: $fade-blue;
+                    outline: 4px solid $light-blue;
+                    outline-offset: -1px;
+                }
+            }
+        }
+    }
+}
+
+// .ow-joblist{
+//     .card-list-wrapper {
+//         .card{
+//             @include md{
+//                 padding: 13px 25px;
+//             }
+//             @include lg{
+//                 padding: 25px 25px;
+//             }
+//             @media(min-width:1180px){
+//                 padding: 22px 25px;
+//             }
+//             @include xl{
+//                 padding: 25px 25px;
+//             }
+//         }
+//     }
+    
+// }
+
+

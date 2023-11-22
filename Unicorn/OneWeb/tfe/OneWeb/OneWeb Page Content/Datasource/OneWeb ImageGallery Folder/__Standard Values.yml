@@ -1,0 +1,25 @@
+﻿---
+ID: "71addc6d-838f-4346-bc57-bfa16edeafd8"
+Parent: "72350f9c-26f3-4679-9f3a-74a5851504fe"
+Template: "72350f9c-26f3-4679-9f3a-74a5851504fe"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb ImageGallery Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {8D19A541-9707-4001-BF7F-4B7728809EBC}
+    {72350F9C-26F3-4679-9F3A-74A5851504FE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120625T094410Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

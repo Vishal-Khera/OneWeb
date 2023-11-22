@@ -1,0 +1,164 @@
+.ow-single-column-cta {
+  padding: 0px; }
+  .ow-single-column-cta .component-content {
+    border-width: unset;
+    border-style: unset;
+    border-color: unset; }
+    .ow-single-column-cta .component-content .ow-card-full {
+      width: 100%;
+      padding: 40px 15px; }
+      .ow-single-column-cta .component-content .ow-card-full .ow-card-content {
+        width: 100%; }
+        .ow-single-column-cta .component-content .ow-card-full .ow-card-content h3 {
+          font-family: "Helvetica Neue";
+          font-size: 32px;
+          margin-bottom: 20px; }
+          @media screen and (min-width: 0) {
+            .ow-single-column-cta .component-content .ow-card-full .ow-card-content h3 {
+              font-size: 32px; } }
+          @media screen and (min-width: 768px) {
+            .ow-single-column-cta .component-content .ow-card-full .ow-card-content h3 {
+              font-size: 32px; } }
+          @media screen and (min-width: 992px) {
+            .ow-single-column-cta .component-content .ow-card-full .ow-card-content h3 {
+              font-size: 32px; } }
+          @media screen and (min-width: 1200px) {
+            .ow-single-column-cta .component-content .ow-card-full .ow-card-content h3 {
+              font-size: 40px; } }
+        .ow-single-column-cta .component-content .ow-card-full .ow-card-content .list-item {
+          padding-left: 25px;
+          margin: 0; }
+          .ow-single-column-cta .component-content .ow-card-full .ow-card-content .list-item li {
+            list-style-type: square;
+            font-size: 20px;
+            margin-bottom: 20px; }
+            @media screen and (min-width: 0) {
+              .ow-single-column-cta .component-content .ow-card-full .ow-card-content .list-item li {
+                font-size: 20px; } }
+            @media screen and (min-width: 768px) {
+              .ow-single-column-cta .component-content .ow-card-full .ow-card-content .list-item li {
+                font-size: 20px; } }
+            @media screen and (min-width: 992px) {
+              .ow-single-column-cta .component-content .ow-card-full .ow-card-content .list-item li {
+                font-size: 20px; } }
+            @media only screen and (min-width: 992px) {
+              .ow-single-column-cta .component-content .ow-card-full .ow-card-content .list-item li {
+                font-size: 22px;
+                line-height: 40px; } }
+  @media only screen and (min-width: 992px) and (min-width: 0) {
+    .ow-single-column-cta .component-content .ow-card-full .ow-card-content .list-item li {
+      font-size: 22px; } }
+  @media only screen and (min-width: 992px) and (min-width: 768px) {
+    .ow-single-column-cta .component-content .ow-card-full .ow-card-content .list-item li {
+      font-size: 24px; } }
+  @media only screen and (min-width: 992px) and (min-width: 992px) {
+    .ow-single-column-cta .component-content .ow-card-full .ow-card-content .list-item li {
+      font-size: 24px; } }
+            .ow-single-column-cta .component-content .ow-card-full .ow-card-content .list-item li .highlight-text {
+              color: #D9171D; }
+      .ow-single-column-cta .component-content .ow-card-full .card-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 38px; }
+        @media only screen and (min-width: 992px) {
+          .ow-single-column-cta .component-content .ow-card-full .card-image {
+            align-items: unset;
+            justify-content: unset;
+            margin-top: unset; } }
+      .ow-single-column-cta .component-content .ow-card-full .card-content {
+        display: block;
+        padding: 3px 0;
+        align-items: center; }
+        @media only screen and (min-width: 992px) {
+          .ow-single-column-cta .component-content .ow-card-full .card-content {
+            display: flex;
+            padding: 3px 0; } }
+        .ow-single-column-cta .component-content .ow-card-full .card-content .column-icon {
+          max-width: 100%;
+          margin-right: 17px;
+          text-align: center;
+          margin-bottom: 10px; }
+          @media only screen and (min-width: 992px) {
+            .ow-single-column-cta .component-content .ow-card-full .card-content .column-icon {
+              max-width: 66px;
+              margin-right: 17px; } }
+          .ow-single-column-cta .component-content .ow-card-full .card-content .column-icon img {
+            padding-top: 8px;
+            width: 67px; }
+        .ow-single-column-cta .component-content .ow-card-full .card-content .column-details {
+          width: 100%; }
+          @media only screen and (min-width: 992px) {
+            .ow-single-column-cta .component-content .ow-card-full .card-content .column-details {
+              width: 80%; } }
+          .ow-single-column-cta .component-content .ow-card-full .card-content .column-details .description {
+            font-family: "Helvetica Neue";
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 0px; }
+            @media screen and (min-width: 0) {
+              .ow-single-column-cta .component-content .ow-card-full .card-content .column-details .description {
+                font-size: 18px; } }
+            @media screen and (min-width: 768px) {
+              .ow-single-column-cta .component-content .ow-card-full .card-content .column-details .description {
+                font-size: 18px; } }
+            @media screen and (min-width: 992px) {
+              .ow-single-column-cta .component-content .ow-card-full .card-content .column-details .description {
+                font-size: 18px; } }
+            @media only screen and (min-width: 992px) {
+              .ow-single-column-cta .component-content .ow-card-full .card-content .column-details .description {
+                font-size: 20px;
+                text-align: left;
+                line-height: 36px; } }
+  @media only screen and (min-width: 992px) and (min-width: 0) {
+    .ow-single-column-cta .component-content .ow-card-full .card-content .column-details .description {
+      font-size: 20px; } }
+  @media only screen and (min-width: 992px) and (min-width: 768px) {
+    .ow-single-column-cta .component-content .ow-card-full .card-content .column-details .description {
+      font-size: 20px; } }
+  @media only screen and (min-width: 992px) and (min-width: 992px) {
+    .ow-single-column-cta .component-content .ow-card-full .card-content .column-details .description {
+      font-size: 28px; } }
+        .ow-single-column-cta .component-content .ow-card-full .card-content .button-wrpper {
+          position: unset;
+          left: unset;
+          float: right;
+          width: 100%;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          margin-top: 15px;
+          margin-bottom: 30px; }
+          @media only screen and (min-width: 992px) {
+            .ow-single-column-cta .component-content .ow-card-full .card-content .button-wrpper {
+              margin-bottom: 0px;
+              width: unset;
+              margin-top: 0px; } }
+          .ow-single-column-cta .component-content .ow-card-full .card-content .button-wrpper .btn {
+            margin-right: 0px;
+            font-size: 20px;
+            font-family: "Helvetica Neue";
+            padding: 14.5px 52px;
+            text-decoration: unset; }
+            @media screen and (min-width: 0) {
+              .ow-single-column-cta .component-content .ow-card-full .card-content .button-wrpper .btn {
+                font-size: 20px; } }
+            @media screen and (min-width: 768px) {
+              .ow-single-column-cta .component-content .ow-card-full .card-content .button-wrpper .btn {
+                font-size: 20px; } }
+            @media screen and (min-width: 992px) {
+              .ow-single-column-cta .component-content .ow-card-full .card-content .button-wrpper .btn {
+                font-size: 20px; } }
+            @media only screen and (min-width: 992px) {
+              .ow-single-column-cta .component-content .ow-card-full .card-content .button-wrpper .btn {
+                font-size: 22px;
+                padding: 15px 63px; } }
+  @media only screen and (min-width: 992px) and (min-width: 0) {
+    .ow-single-column-cta .component-content .ow-card-full .card-content .button-wrpper .btn {
+      font-size: 22px; } }
+  @media only screen and (min-width: 992px) and (min-width: 768px) {
+    .ow-single-column-cta .component-content .ow-card-full .card-content .button-wrpper .btn {
+      font-size: 24px; } }
+  @media only screen and (min-width: 992px) and (min-width: 992px) {
+    .ow-single-column-cta .component-content .ow-card-full .card-content .button-wrpper .btn {
+      font-size: 24px; } }

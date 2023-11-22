@@ -1,0 +1,14 @@
+﻿---
+ID: "2ed96ad0-6694-4aeb-ad70-d82fd2b0fdc4"
+Parent: "7183c0e7-13a0-4098-b4c2-00498274d81a"
+Template: "2ee3b01f-a027-4084-88df-e5725e481b5a"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Comparison Table/SL41 Comparison Table
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220805T074733Z

@@ -1,0 +1,50 @@
+﻿---
+ID: "877e9ab7-af2e-433c-b0ec-d8d5db4d57f2"
+Parent: "f654e942-e82c-450d-af88-a6a865a3c5e5"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Filter Wrapper/P2 Wrapper/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="filter-tab">
+        <span class="icon-filter">
+            <span class="path1"></span>
+            <span class="path2"></span>
+            <span class="path3"></span>
+            <span class="path4"></span>
+        </span>
+        {{sc_translate "OneWeb-Search-Filters-FilterBy"}}
+    </div>
+    <div class="filter-wrapper-container">
+        <div class="filter-tab filter-title">
+            <span class="icon-filter">
+                <span class="path1"></span>
+                <span class="path2"></span>
+                <span class="path3"></span>
+                <span class="path4"></span>
+            </span>
+            {{sc_translate "OneWeb-Search-Filters-FilterBy"}}
+            <a href="javascript:void(0);" class="clearAll-filter">{{sc_translate "OneWeb-Search-Filters-ClearAll"}}</a>
+            <a href="javascript:void(0);" class="close-filter">
+                <span class="sr-only"> Cross Icon </span>
+            </a>
+        </div>
+        {{sc_placeholder "ow-search-filter-wrapper"}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T185907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,19 @@
+﻿---
+ID: "59c3f340-ec85-49ab-bd51-916f735fe66a"
+Parent: "d31cb4ab-ec7c-4371-b7a8-43346625686b"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Testimonial Card/Default
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F21653B5-E61A-4C8A-ABB4-2D1BFA10A699}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220206T125601Z

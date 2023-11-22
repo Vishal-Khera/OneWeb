@@ -1,0 +1,18 @@
+﻿---
+ID: "8444f530-6865-404e-a71b-44bb1737cb53"
+Parent: "b327e41f-ccd9-4aae-a95b-83f8d11dde02"
+Template: "80af7f03-7454-4121-b229-e187c275f446"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Text With Placeholder/Model Comparison Inline
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T125334Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

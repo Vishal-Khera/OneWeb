@@ -1,0 +1,23 @@
+@import "base/base-index.scss";
+
+.pagination{
+    .page-item{
+        &.active{
+            background-color: $primary;            
+            .page-link{
+                color: $white !important;
+                background-color: unset;
+            }
+        }
+        .page-link{
+            border: unset;
+            outline: unset;
+            border: unset;
+            color: $primary;
+            font-family: 'Helvetica Neue';
+            &:hover{
+                background-color: unset;
+            }
+        }
+    }
+}

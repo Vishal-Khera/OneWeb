@@ -1,0 +1,73 @@
+﻿---
+ID: "06f3a711-fe17-461b-8301-8dee6153c173"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/SL06 Drawers
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{367D2B7A-CDCE-49F1-9EB4-F7388E9B0EDB}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{9DB9F320-E2BC-4C0A-ACD9-CC2BF756DE6A}"
+          p:before="*"
+          s:ds="{A3EADE10-4862-474F-A754-AEB5AEAC7B56}"
+          s:id="{E6F37564-BD57-48A2-93D4-F2DE461A4370}"
+          s:par="GridParameters&amp;Styles&amp;EasingFunction=Swing&amp;Speed=500&amp;CanOpenMultiple&amp;CanToggle=1&amp;ExpandedByDefault&amp;ExpandOnHover&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-text-placeholder*" />
+        <r
+          uid="{330B2254-6C46-4C5E-8153-CB25E1A21318}"
+          p:after="r[@uid='{9DB9F320-E2BC-4C0A-ACD9-CC2BF756DE6A}']"
+          s:ds="{1937A8A2-ADDA-486E-A1ED-2315C4B22A61}"
+          s:id="{2CB89FED-7E2A-4525-81FB-5F5DA79516EF}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3" />
+        <r
+          uid="{87045705-8387-4BEC-B4E7-05B4239D3D31}"
+          p:after="r[@uid='{330B2254-6C46-4C5E-8153-CB25E1A21318}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-1/ow-row-2" />
+        <r
+          uid="{4EC4F2F0-4FD6-447E-BF6C-730F4EAF34DC}"
+          p:after="r[@uid='{87045705-8387-4BEC-B4E7-05B4239D3D31}']"
+          s:ds=""
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-1" />
+        <r
+          uid="{CF02FD7D-1946-401F-9A69-7FCD0BE57E37}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220629T114135Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Text With Placeholder
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: SL06 Drawers
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

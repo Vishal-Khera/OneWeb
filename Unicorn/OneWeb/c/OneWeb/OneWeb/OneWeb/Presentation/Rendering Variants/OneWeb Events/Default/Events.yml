@@ -1,0 +1,91 @@
+﻿---
+ID: "83492f19-30a5-417b-9e00-a01038a9c5ae"
+Parent: "9ee12b6a-0a61-4448-9291-9de1e261b769"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Events/Default/Events
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if o_model && o_model.events.size > 0}}
+    {{
+    		show_arrows= sc_parameter "Show Arrows"
+        	if show_arrows  && show_arrows == 1
+        		show_arrows = "true"
+        	else
+        		show_arrows= "false"		
+        	end 
+        	
+        	show_dots = sc_parameter "Show Dots"
+        	if show_dots  && show_dots == 1
+        		show_dots = "true"
+        	else
+        		show_dots= "false"		
+        	end 
+        	
+        	auto_play = sc_parameter "Autoplay"
+        	if auto_play  && auto_play == 1
+        		auto_play = "true"
+        	else
+        		auto_play= "false"		
+        	end 
+        	
+        	auto_play_speed = sc_parameter 'Autoplay Speed'
+        	slides_to_in_desktop = sc_parameter "Slides To Show"
+        	slides_to_in_tablet = sc_parameter "Slides To Show Tab"
+        	slides_to_in_mobile = sc_parameter "Slides To Show Mobile"
+    }}
+    		
+    	 <div class="component ow-trade-events  ow-disable-carousal-desktop ow-disable-carousal-desktop row slider-wrapper slick-slider slick-dotted " data-slides-to-show="{{slides_to_in_desktop}}" data-slides-to-show-tab="{{slides_to_in_tablet}}" data-slides-to-show-mob="{{slides_to_in_mobile}}" 
+    		data-arrow="{{show_arrows}}" data-dots="{{show_dots}}" data-autoplayspeed="{{auto_play_speed}}" data-autoplay="{{auto_play}}">
+    		{{count = 0}}
+    	{{for event in o_model.events}}
+    	{{if count < 6}}
+    	{{count = count +1}}
+    	<div class="trade-fair-item col-xl-4">
+    	  <div class="tile-slide">
+    		 <div class="card-title-content">
+    			{{if (event.title | string.size > 0)}}
+    				<h4>{{event.title}}</h4>
+    			{{end}}
+    			{{if(event.content | string.size > 0)}}
+    			<div class="description content-strip">{{event.content}}</div>	
+    			{{end}}
+    			{{item = ow_item event.item_id}}
+    			{{link_class = ow_get_linkClass item "PrimaryLink" "btn btn-tertiary"}}
+    			{{primary_link = (sc_field item 'PrimaryLink'[ ['class', (link_class)], ['target', '_blank']])}}
+    			{{-if primary_link-}}
+    			<div class="button-wrapper">{{primary_link}}</div>
+    			{{-end-}}
+    			
+    		 </div>
+    		 <div class="stripe">
+    			<div class="location">
+    			{{if (event.location !="")}}
+    			<span>{{event.location}}</span>						
+    			{{end}}
+    			</div>
+    			<div class="watch">
+    			<span>{{ow_default_date item 'Start Date' 'Events Date Format'}} {{sc_translate 'OneWeb-Events-To'}}   {{ow_default_date item 'End Date' 'Events Date Format'}}</span>
+    			</div>
+    		 </div>
+    	  </div>
+       </div>
+       {{end}}
+    
+       {{end}}
+    </div>		
+    {{end}}
+    
+    
+    
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220115T170408Z

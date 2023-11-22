@@ -1,0 +1,18 @@
+﻿---
+ID: "0490964a-6d6b-4400-ad7f-f987c9d69b1d"
+Parent: "29e1ab00-b065-48b7-9e33-b85b8cbcddae"
+Template: "c40a151f-d739-4716-bc7b-4ea210d65e6a"
+Path: /sitecore/templates/Branches/Feature/OneWeb/OneWeb Navigation/OneWeb Link List Branch/$name
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171019T090742Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

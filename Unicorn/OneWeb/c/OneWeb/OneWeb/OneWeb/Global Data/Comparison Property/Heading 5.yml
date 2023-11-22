@@ -1,0 +1,24 @@
+﻿---
+ID: "75c7a459-20c1-4f37-bf57-7b01e367aac5"
+Parent: "717552c1-9f02-4711-b149-dae0df12cc3c"
+Template: "5515f2a9-e3bc-4770-8cf5-f139bc49ad99"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Global Data/Comparison Property/Heading 5
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T112726Z
+    - ID: "396a62c4-c8d5-401a-81b7-f6fb37215b06"
+      Hint: Name
+      Value: Probing Accuracy with HandyPROBE Next<sup>4</sup>
+    - ID: "59345215-7302-442f-b132-6c14edabb09e"
+      Hint: Value
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

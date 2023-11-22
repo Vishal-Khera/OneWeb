@@ -1,0 +1,156 @@
+﻿---
+ID: "e1ebc6f9-df59-4dbf-9495-d6f7a2b47a92"
+Parent: "5bd8ee33-823a-4cc0-8c6a-7829d7cce504"
+Template: "c2d1d114-3cfe-4558-a9e3-d1a1ec0fcab7"
+Path: /sitecore/system/Settings/Forms/Submit Actions/OneWeb/OneWeb Increment Reference Number
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Apps/32x32/Print.png
+- ID: "2c6e7306-2871-473a-9149-71443182b8e8"
+  Hint: Model Type
+  Value: OneWeb.Feature.Form.Service.IncrementReferenceNumber
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "d83b5c6b-7230-419f-bd75-4e2d20c87a18"
+  Hint: Editor
+  Value: 
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200711T145023Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "47837625-b3d9-46f1-a73b-ff13dd1c8b25"
+      Hint: Error Message
+      Value: "E-Mail senden fehlgeschlagen"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anujs
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180405T181327Z
+    - ID: "47837625-b3d9-46f1-a73b-ff13dd1c8b25"
+      Hint: Error Message
+      Value: "Incrementing Reference NumberFailed!"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "es-AR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200516T070721Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "47837625-b3d9-46f1-a73b-ff13dd1c8b25"
+      Hint: Error Message
+      Value: " Enviar correo electrónico fallido!"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anujs
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201201T143421Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "47837625-b3d9-46f1-a73b-ff13dd1c8b25"
+      Hint: Error Message
+      Value: "Invio e-mail non riuscito!"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anuj.singh
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200508T091739Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "47837625-b3d9-46f1-a73b-ff13dd1c8b25"
+      Hint: Error Message
+      Value: "Sending Email Failed!"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anujs
+- Language: "pt-BR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200520T125138Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "47837625-b3d9-46f1-a73b-ff13dd1c8b25"
+      Hint: Error Message
+      Value: Error in Sending Mail
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anujs
+- Language: "ru-RU"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200508T150859Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "47837625-b3d9-46f1-a73b-ff13dd1c8b25"
+      Hint: Error Message
+      Value: Email Sent Failed
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anujs
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200509T101034Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "47837625-b3d9-46f1-a73b-ff13dd1c8b25"
+      Hint: Error Message
+      Value:  发送电子邮件失败！
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anujs

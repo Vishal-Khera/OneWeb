@@ -1,0 +1,48 @@
+.ow-locations .locations-wrapper {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px; }
+  .ow-locations .locations-wrapper .ow-card-content h3 {
+    border-bottom: 2px solid rgba(26, 25, 24, 0.15);
+    font-family: "FranklinGothicLTPro-Md" !important;
+    padding-top: 20px; }
+  .ow-locations .locations-wrapper .ow-card-content .locations .locations-detail {
+    border-bottom: 2px solid rgba(26, 25, 24, 0.15); }
+    .ow-locations .locations-wrapper .ow-card-content .locations .locations-detail h4 {
+      font-family: "FranklinGothicLTPro-Md" !important; }
+  .ow-locations .locations-wrapper .ow-card-content .locations .locations-info * {
+    font-family: "FranklinGothicLTPro-Md" !important; }
+  .ow-locations .locations-wrapper .ow-card-content .locations .locations-info a {
+    color: #1A1918 !important; }
+    .ow-locations .locations-wrapper .ow-card-content .locations .locations-info a.web-link {
+      border-radius: 0px;
+      color: #236192 !important;
+      border-bottom: 1px solid #236192 !important; }
+    .ow-locations .locations-wrapper .ow-card-content .locations .locations-info a i {
+      font-family: "Font Awesome 5 Free" !important; }
+
+.locations-wrapper.white-gray-background {
+  background-color: #F7F7F7; }
+
+.light-theme-page .locations-wrapper.white-gray-background {
+  background-color: #EDEDED; }
+
+.dark-theme .ow-locations .ow-card-content h3, .dark-theme-page .ow-locations .ow-card-content h3 {
+  border-bottom: 2px solid rgba(240, 240, 240, 0.15); }
+
+.dark-theme .ow-locations .ow-card-content .locations *, .dark-theme-page .ow-locations .ow-card-content .locations * {
+  color: #F7F7F7 !important; }
+
+.dark-theme .ow-locations .ow-card-content .locations .locations-detail, .dark-theme-page .ow-locations .ow-card-content .locations .locations-detail {
+  border-bottom: 2px solid rgba(240, 240, 240, 0.15); }
+  .dark-theme .ow-locations .ow-card-content .locations .locations-detail div p, .dark-theme-page .ow-locations .ow-card-content .locations .locations-detail div p {
+    color: rgba(240, 240, 240, 0.5) !important; }
+
+.dark-theme .ow-locations .ow-card-content .locations .locations-info a, .dark-theme-page .ow-locations .ow-card-content .locations .locations-info a {
+  color: #F7F7F7 !important; }
+  .dark-theme .ow-locations .ow-card-content .locations .locations-info a.web-link, .dark-theme-page .ow-locations .ow-card-content .locations .locations-info a.web-link {
+    color: #5E8AB4 !important;
+    border-bottom: 1px solid #5E8AB4 !important; }
+
+.dark-theme .locations-wrapper.white-gray-background, .dark-theme-page .locations-wrapper.white-gray-background {
+  background-color: #2C2A29; }

@@ -1,0 +1,79 @@
+﻿---
+ID: "8c4ab04d-f240-4ae7-aa30-e4703339d715"
+Parent: "a3e5e09f-1422-4050-9414-dc959aa60d7b"
+Template: "5f2c442f-2554-4c80-b1d9-2195fa6168b1"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/OneWebRedirect
+DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{5A7CF08C-3647-4F56-B189-9E8C0531FBAF}">
+        <r
+          id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}"
+          par="PageCodeScriptFileName=%2fsitecore%2fshell%2fclient%2fApplications%2fFormsBuilder%2fLayouts%2fActions%2fOneWebRedirect.js&amp;SpeakCoreVersion=%7b3F937240-C16E-4229-9641-4CE5B4CB4ABA%7d"
+          ph="Page.Code"
+          uid="{0B0D3147-9F7C-417F-BEFE-E113D4D61569}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="IsVisible=0&amp;ConfigurationItem=%7bFD7B54DA-85B4-4EBB-8A15-542A5298E405%7d&amp;Id=HeaderTitle"
+          ph="Page.Body"
+          uid="{96A7EEEE-1114-4D18-8DD8-33CBCD7D739D}" />
+        <r
+          id="{EFCD0AB0-5B9D-4F1D-AB81-BE0336CD273C}"
+          par="IsVisible=0&amp;ConfigurationItem=%7bD3312CB6-1126-49C1-B4E2-EE8FE5B525B7%7d&amp;Id=HeaderSubtitle"
+          ph="Page.Body"
+          uid="{CB222779-37C3-4379-B5A2-79C62636B0DF}" />
+        <r
+          id="{08994B8F-7BF1-4963-815D-0FA8D75B3D86}"
+          par="Id=MainBorder"
+          ph="Page.Body"
+          uid="{CA2BB730-30FF-4E3F-91D6-E126B6DB6403}" />
+        <r
+          id="{4D096960-FC73-4E0B-8D93-28736AD98E98}"
+          par="ConfigurationItem=%7b609FCB7D-BBFC-4E07-AE37-7ED2382240B8%7d&amp;Id=ItemTreeView"
+          ph="MainBorder.Content"
+          uid="{715955F3-4FC5-462F-B24A-A9C3CF6B1A1A}" />
+        <r
+          id="{86A75B44-5A2A-4950-AC4E-232C2C2A5D00}"
+          par="IsEnabled=1&amp;IsVisible=1&amp;ConfigurationItem=%7b89CBA272-30A5-4004-9A1B-284474BE2848%7d&amp;Id=ExternalLink"
+          ph="MainBorder.Content"
+          uid="{22EEB25B-9C30-4543-8902-D73BFB90E561}" />
+        <r
+          id="{86A75B44-5A2A-4950-AC4E-232C2C2A5D00}"
+          par="IsEnabled=1&amp;IsVisible=1&amp;ConfigurationItem=%7b3A224934-2787-4A46-8C6B-EB709A2B482C%7d&amp;Id=Anchor"
+          ph="MainBorder.Content"
+          uid="{5C0941A0-8E7F-4E69-992C-BCFDEC665BC7}" />
+        <r
+          id="{86A75B44-5A2A-4950-AC4E-232C2C2A5D00}"
+          par="IsEnabled=1&amp;IsVisible=1&amp;ConfigurationItem=%7b51C93BB1-36FC-457B-9B98-24583A91023B%7d&amp;Id=QueryString"
+          ph="MainBorder.Content"
+          uid="{E1B857B6-7709-49FF-BB96-18A1E77D6F3E}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: OneWeb Redirect
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170330T100042Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "7205a57f-93b4-413a-aa9a-6b16bbc59565"
+      Hint: BrowserTitle
+      Value: Redirect to page

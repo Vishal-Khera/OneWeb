@@ -1,0 +1,32 @@
+﻿---
+ID: "4aeec445-1472-4809-94c0-3f415891fc3d"
+Parent: "a8a78871-9c52-4692-8c67-c566fa1207cf"
+Template: "3139fad4-8e19-4ad1-90f6-c3e870f87dd8"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Testimonial Card Folder/David Allen
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{A3BFECC4-C765-4A9F-8B54-A31591359169}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220330T103627Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: David Allen
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "71603eb2-6d88-4f3f-838a-9ec902cb6da8"
+      Hint: JobTitle
+      Value: Technical Support Manager
+    - ID: "9f1229e5-182a-4e60-a721-4b04fe328b8b"
+      Hint: Caption
+      Value: |
+        <span style="background-color: #ffffff; color: #202124;">"I enjoy working at Telguard because you learn so much from those around you, and everyone works as a team to assist each other any way that they can."</span>

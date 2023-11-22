@@ -1,0 +1,41 @@
+﻿---
+ID: "59313827-cfd2-45ef-91a8-2a9997877008"
+Parent: "f97af39d-00bd-469b-a048-57453a9d9037"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card Grid/Static Icon Text/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if i_item}}
+    {{-for feature_card in (sc_followmany i_item "Card List")-}}						
+    {{-if feature_card -}}
+    <div class="col-6 col-md-6 col-lg-2">
+                       <div class="static-feature-promo ">
+                            {{if (feature_card.icon !="")}}
+                              <div class="feature-icon">
+    						  {{ sc_field feature_card 'icon' }}
+    						  </div>
+    						{{end}}
+                         {{if(feature_card.content !="")}}
+                            <div class="feature-info-wrap">     
+    <div class="description">
+                         {{feature_card.content}}		
+    </div>				
+                           </div> 
+                           {{end}}
+                
+            </div>
+        </div>
+        {{end}}
+         {{end}}
+        {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220202T114256Z

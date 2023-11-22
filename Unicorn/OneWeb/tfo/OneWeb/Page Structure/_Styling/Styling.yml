@@ -1,0 +1,14 @@
+﻿---
+ID: "7095bf77-fbfa-44f6-9dfb-150a9a7c177c"
+Parent: "0ccf48a6-9886-4baf-89f8-137ebeb32d68"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/OneWeb/Page Structure/_Styling/Styling
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T180130Z

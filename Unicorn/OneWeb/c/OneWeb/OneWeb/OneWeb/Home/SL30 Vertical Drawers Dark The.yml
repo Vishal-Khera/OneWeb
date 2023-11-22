@@ -1,0 +1,76 @@
+﻿---
+ID: "ef145aaa-0c6f-4619-a57e-cb24963f8587"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/SL30 Vertical Drawers Dark Theme
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{42E7F7C4-FDFF-4091-AD02-03B11EABB095}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2FD633BC-5F88-4F9C-B90A-BDD5F1F8DB74}"
+          p:before="*"
+          s:ds="{B329F9EB-AB13-4980-8804-ACB8F62F2F21}"
+          s:id="{35C04913-63CE-4EF7-8E94-87960A343347}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;AccordionItemCount=10&amp;Autoplay=1&amp;Autoplay Speed=8000&amp;Show Arrows&amp;Show Dots&amp;Slides To Show=1&amp;Slides To Show Mobile=1.1&amp;Slides To Show Tab=2&amp;Custom Slider Class&amp;Carousel Desktop Disable&amp;Infinite Loop=1&amp;FieldNames=%7BD8962D5B-A714-433B-9EA2-C7BF0A623A00%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/ow-container-fluid-2/ow-row-3/ow-container-4/ow-row-5/ow-column-6" />
+        <r
+          uid="{5FD080F6-430E-4364-88B6-E7B176F55EB3}"
+          p:after="r[@uid='{2FD633BC-5F88-4F9C-B90A-BDD5F1F8DB74}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/ow-container-fluid-2/ow-row-3/ow-container-4/ow-row-5" />
+        <r
+          uid="{622CD011-36D7-46B1-BE78-6F9346431FEF}"
+          p:after="r[@uid='{5FD080F6-430E-4364-88B6-E7B176F55EB3}']"
+          s:ds=""
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-fluid-2/ow-row-3/ow-container-4" />
+        <r
+          uid="{B17FE0F8-8472-4DA7-99F6-3170477529E4}"
+          p:after="r[@uid='{622CD011-36D7-46B1-BE78-6F9346431FEF}']"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/ow-container-fluid-2/ow-row-3" />
+        <r
+          uid="{E32AE442-5760-4882-BE85-FEC33E496610}"
+          p:after="r[@uid='{B17FE0F8-8472-4DA7-99F6-3170477529E4}']"
+          s:ds=""
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-fluid-2" />
+        <r
+          uid="{0D7A8AA4-4C84-4B47-B812-5A51D497CB8D}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles=%7B1F5570E3-010F-4B51-8A6E-AD08639E1FB9%7D&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220718T144531Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: SL30 Vertical Drawers Dark Theme
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: SL30 Vertical Drawers Dark Theme

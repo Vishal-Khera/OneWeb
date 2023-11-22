@@ -1,0 +1,26 @@
+﻿---
+ID: "255f01c3-3ce6-423e-b2ed-076e0c4cf3c9"
+Parent: "55d119b3-f68d-48b2-8795-2e99c423de25"
+Template: "637e9764-b3b0-4e41-9c32-a5b7db19ca70"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb 5050 Cards/Creaform Education Landing Page/Education Solution Suite
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T164414Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Education Solution Suite
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        At Creaform, we believe that teachers and researchers should have access to the latest 3D measurement technologies in order to more effectively prepare the engineers and designers for tomorrow’s workplace—and carry out ahead-of-the-curve research that will guide the future.
+        
+        Say hello to Creaform ACADEMIA, a game-changing solution suite tailored to the unique needs of academics everywhere.
+    - ID: "8ef14bad-809e-4c37-b48a-1b73420b077c"
+      Hint: Images
+      Value: "{597B15AF-9E66-45B9-9F2A-7D7864ABE17C}"

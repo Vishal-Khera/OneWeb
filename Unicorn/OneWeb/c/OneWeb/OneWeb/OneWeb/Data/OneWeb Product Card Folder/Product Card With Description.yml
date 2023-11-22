@@ -1,0 +1,41 @@
+﻿---
+ID: "761cac6f-b1f9-4b28-9d4a-54bbd7dbf2e5"
+Parent: "dd15dd71-fa02-47d1-91b2-d4ea64b866dc"
+Template: "de4ce863-9911-457a-9a47-7e98a634bad6"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Product Card Folder/Product Card With Description
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{F433ACA3-194E-473A-8506-CDA000A177C7}" />
+    - ID: "1666f2e1-fec0-4c0d-8013-f4e9a5e00a32"
+      Hint: SecondaryLink
+      Value: |
+        <link text="Watch HandySCAN 3D | Silver Series" anchor="" linktype="internal" class="" title=""  querystring="" id="{1F1FB60A-AEEC-4688-83BC-7A8442C14491}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220719T140605Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value:  MetraSCAN 3D
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+         <p>Made in North America, this professional-grade 3D scanner offers the
+                                            perfect mix between unbeatable performance at a great price. Based on
+                                            trusted and patented metrology-grade 3D scanning technology.</p>
+    - ID: "59de0dd6-79df-4fd5-a7b9-44b75095adba"
+      Hint: Category
+      Value: Optical CMM 3D scanners and probe
+    - ID: "983a37b2-16e7-4dba-a96d-c0d5530f7699"
+      Hint: Subtext
+      Value: Starting at $19,000.00
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

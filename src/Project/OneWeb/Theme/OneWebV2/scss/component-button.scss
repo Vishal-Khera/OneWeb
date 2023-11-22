@@ -1,0 +1,382 @@
+@import 'base/base-index.scss';
+
+.button {
+    @include border-radius(5px);
+    width: max-content !important;
+    padding: 13px 50px 13px 20px;
+    color: $brand;
+    display: flex;
+    @include font-size($md-font);
+    transition: all .2s;
+    outline: 3px solid transparent;
+    position: relative;
+    overflow: hidden;
+
+    i {
+        display: none !important;
+    }
+
+    &::after,
+    &::before {
+        font-family: 'icomoon' !important;
+        content: "\e900";
+        position: absolute;
+        transition: .35s;
+        opacity: 1;
+        font-size: 11px;
+        top: 50%;
+        transition: .35s;
+        transform: translate(-50%, -50%);
+    }
+
+    &::after {
+        right: 15px;
+        transition-delay: .13s;
+    }
+
+    &::before {
+        left: -20px;
+        opacity: 0;
+    }
+
+    &:hover,
+    &:focus {
+        padding: 13px 20px 13px 50px;
+
+        &::after {
+            right: -15px;
+            opacity: 0;
+            transition-delay: 0s;
+        }
+
+        &::before {
+            left: 25px;
+            transition-delay: .16s;
+            opacity: 1;
+        }
+    }
+
+    &.btn-default {
+        background: $brand;
+        color: $white;
+        border: none;
+
+        &:hover,
+        &:active {
+            background: $brand;
+            color: $white;
+            border: none;
+            outline: none;
+            text-decoration: none;
+        }
+
+        &:focus {
+            box-shadow: none;
+            border: none;
+            outline: 3px solid $btn-light-border;
+        }
+
+        &.orange-theme {
+            background-color: $orange !important;
+            color: $brandblack;
+
+            &:hover,
+            &:active {
+                background-color: $orange;
+                color: $brandblack;
+            }
+
+            &:focus {
+                box-shadow: none;
+                border: none;
+                outline: 3px solid $orange;
+            }
+        }
+
+        &.btn-download {
+            &::after,
+            &::before{
+                content: "\e905";
+                right: 15px;
+                left: unset;
+            }
+            &::before{
+                top: -20px;
+            }
+            &:hover,
+            &:focus {
+                padding : 13px 50px 13px 20px;
+                 &::after{
+                     top: 90px;
+                     opacity: 0;
+                }
+                &::before{
+                    top: 24px;
+                }
+            }
+        }
+    }
+
+
+    &.btn-standard {
+        background: $btn-standard-light;
+        color: $brand;
+        border: none;
+
+        &:hover,
+        &:active {
+            background: $btn-standard-light;
+            color: $brand;
+            border: none;
+            outline: 3px solid transparent;
+            text-decoration: none;
+        }
+
+        &:focus {
+            background: $btn-standard-light;
+            border: none;
+            color: $brand;
+            box-shadow: none;
+            outline: 3px solid $btn-light-border;
+        }
+    }
+
+    &.btn-simple {
+        transition: ease-in-out 0.2s all;
+        padding: 9px 50px 9px 0px;
+        background: transparent;
+        color: $brand;
+        border: none;
+        outline: none;
+
+        &:hover,
+        &:active {
+            background: transparent;
+            color: $brand;
+            border: none;
+            outline: none;
+            text-decoration: none;
+            padding: 9px 25px 9px 30px;
+
+            &::before {
+                left: 10px;
+                transition-delay: .12s;
+                opacity: 1;
+            }
+
+        }
+
+        &:focus {
+            background: transparent;
+            border: none;
+            color: $brand;
+            box-shadow: none;
+            outline: 3px solid $btn-light-border;
+            padding: 9px 20px 9px 35px;
+
+            &::before {
+                left: 15px;
+                transition-delay: .12s;
+                opacity: 1;
+            }
+
+
+        }
+
+        &.btn-download {
+            &::after{
+                content: "\e905";
+            }
+            &:before{
+                display: none;
+            } 
+            &:hover,
+            &:focus {
+                padding-left: 0px !important;
+                padding-right: 50px !important;
+                &::after{
+                    right: 20px !important;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+
+
+    .icon-right-arrow {
+        margin-left: 12px;
+
+        @include md {
+            margin-left: 15px;
+        }
+
+        &::before {
+            @include font-size($sssm-font);
+        }
+    }
+
+    &.disbaled-hover{
+        pointer-events: none !important;
+    }
+}
+
+.video-play-btn {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    outline: none !important;
+    border: none !important;
+
+    &:hover {
+        .video-play-icon {
+            background-color: $brand;
+
+            &::before {
+                color: $white;
+                transition: outline .50s;
+            }
+        }
+
+    }
+    &:focus{
+        .video-play-icon {
+            background-color: $brand;
+            transition: outline .50s;
+            outline: 3px solid $btn-light-border;
+            &::before {
+                color: $white;
+            }
+        }
+    }
+
+    .video-play-icon {
+        height: 48px;
+        width: 48px;
+        border-radius: 100%;
+        background-color: $white;
+        position: relative;
+        outline: 3px solid transparent;
+        transition: .35s;
+        outline-offset: 1px;
+        min-width:48px;
+
+        &::before {
+            font-family: 'icomoon' !important;
+            content: "\e901";
+            color: $brandblack;
+            top: 52%;
+            left: 55%;
+            position: absolute;
+            transform: translateY(-50%) translatex(-50%);
+        }
+    }
+}
+
+
+.dark-theme, .blue-theme {
+    .button {
+        @include border-radius(5px);
+        width: max-content;
+        color: $brand;
+
+        &.btn-default {
+            background: $white;
+            color: $brand !important;
+            border: none;
+
+            &:hover,
+            &:active {
+                background: $white;
+                color: $brand;
+                border: none;
+                outline: none;
+                text-decoration: none;
+            }
+
+            &:focus {
+                background: $white;
+                border: none;
+                color: $brand;
+                box-shadow: none;
+                outline: 2px solid $btn-inverted-border;
+            }
+        }
+        &.default-btn-color{
+            background: $brand !important;
+            color: $white  !important;
+            border: none;
+    }
+        &.orange-theme {
+            background-color: $orange !important;
+            color: $brandblack !important;
+
+            &:hover,
+            &:active {
+                background-color: $orange;
+                color: $brandblack !important;
+            }
+
+            &:focus {
+                box-shadow: none;
+                border: none;
+                outline: 3px solid $orange;
+            }
+        }
+
+        &.btn-standard {
+            background: $white-gray-light;
+            color: $white !important;
+            border: none;
+
+            &:hover,
+            &:active {
+                background: $white-gray-light;
+                color: $white;
+                border: none;
+                outline: none;
+                text-decoration: none;
+            }
+
+            &:focus {
+                background: $white-gray-light;
+                border: none;
+                color: $white;
+                box-shadow: none;
+                outline: 3px solid $btn-inverted-border;
+            }
+        }
+
+        &.btn-simple {
+            background: transparent;
+            color: $white !important;
+            border: none;
+            outline: none;
+
+            &:hover,
+            &:active {
+                background: transparent;
+                color: $white;
+                border: none;
+                outline: none;
+                text-decoration: none;
+            }
+
+            &:focus {
+                background: transparent;
+                border: none;
+                color: $white;
+                box-shadow: none;
+                outline: 3px solid $btn-inverted-border;
+            }
+        }
+        &.btn-download {
+            *{
+                color: $white !important;
+            }
+        }
+    }
+
+    
+}
+

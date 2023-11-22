@@ -1,0 +1,19 @@
+﻿---
+ID: "cfd3fd36-899c-483a-88ad-28a1a858e954"
+Parent: "c5079bd9-6fe7-43f3-8f9f-742b598aa2fd"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Image Accordion/Default
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6D229DD3-EE01-4843-A5B2-C9A7DC205EC1}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211216T082640Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "d29b8bdb-7c0f-4a56-ae88-f545f86163f8"
+Parent: "a6f3bdd3-42d3-4554-b6cd-0fd3aa18ebeb"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Login/Datasource/OneWeb Export User Column/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220309T155623Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

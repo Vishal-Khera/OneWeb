@@ -1,0 +1,44 @@
+﻿---
+ID: "539824a7-cba7-402e-98c1-29d9c0b72c49"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/SL02 Footer cards
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{5A834B99-53AB-4025-ADD2-75C1C759D2F3}"
+              p:before="*"
+              s:ds="{AA64F002-707C-455C-A6FB-CF112D048D2E}"
+              s:id="{88DC582F-61D7-4BF2-9A9D-74D7929F9B4A}"
+              s:par="GridParameters=%7BB815A5D7-F00B-4989-88E0-9A3E1B0921A4%7D%7C%7B730F4379-126B-49DD-95D9-1F64B40A6B70%7D&amp;Expand Content&amp;FieldNames=%7B113FC51C-2A26-4E87-AB01-8055C728BE22%7D&amp;Styles&amp;Word Limit&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2&amp;ow=mb-3"
+              s:ph="main" />
+            <r
+              uid="{E9C7151A-1AE3-4C9D-A769-006C2B4FF399}"
+              p:after="*[1=2]"
+              s:ds="{A68918AB-D557-48BA-A053-63CF1BA1F694}"
+              s:id="{88DC582F-61D7-4BF2-9A9D-74D7929F9B4A}"
+              s:par="GridParameters=%7BB815A5D7-F00B-4989-88E0-9A3E1B0921A4%7D%7C%7B730F4379-126B-49DD-95D9-1F64B40A6B70%7D&amp;Expand Content&amp;FieldNames=%7BD86E6EFF-257B-48FD-A4E1-F0B98EED981F%7D&amp;Styles&amp;Word Limit&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1&amp;ow=mb-3"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220706T120150Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Test footer cards
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: SL02 Footer cards

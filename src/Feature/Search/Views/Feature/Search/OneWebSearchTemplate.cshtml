@@ -1,0 +1,50 @@
+﻿@using Newtonsoft.Json
+@using Newtonsoft.Json.Linq
+@using OneWeb.Foundation.Serialization
+@using OneWeb.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Fields
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields
+@using StringExtensions = OneWeb.Foundation.SitecoreExtensions.Extensions.StringExtensions
+@model OneWeb.Foundation.SitecoreExtensions.Models.HandleBarRenderingModel
+
+@if (Html.Sxa().IsEdit)
+{
+	if (Model.DataSourceItem == null)
+	{
+		@Model.MessageIsEmpty
+	}
+	else
+	{
+		<div>Search Template for : @Model.DataSourceItem.Name</div>
+	}
+}
+else
+{
+    if (Model.DataSourceItem != null)
+    {
+        var parameterString = string.Empty;
+        foreach (var key in Model.Parameters.Keys)
+        {
+            parameterString += key + "=" + Model.Parameters[key] + " ";
+        }
+	    var pageSize = Model.Parameters.ContainsKey("PageSize") ? "ow-page-size=" + Model.Parameters["PageSize"] : string.Empty;
+        <div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "ow-search-template", Model.Attributes) ow-config-id="@Model.ConfigurationId" ow-source-id="@Model.SourceId" ow-endpoint="@Model.Endpoint" @pageSize @Model.TemplateType @parameterString>
+            <div class="component-content ">
+                @if (Model.DataSourceItem == null)
+                {
+                    @Model.MessageIsEmpty
+                }
+                else
+                {
+                    foreach (BaseVariantField variantField in Model.VariantFields)
+                    {
+                        @Html.RenderingVariants().RenderVariant(variantField, Model.Item, Model.RenderingWebEditingParams, Model)
+                    }
+                }
+            </div>
+        </div>
+    }
+}

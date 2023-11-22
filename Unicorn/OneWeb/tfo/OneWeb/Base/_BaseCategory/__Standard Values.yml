@@ -1,0 +1,18 @@
+﻿---
+ID: "d1d3d1e4-0f3c-4145-b163-661e361f1917"
+Parent: "e77e61db-f78f-4ed1-913a-bde24011d670"
+Template: "e77e61db-f78f-4ed1-913a-bde24011d670"
+Path: /sitecore/templates/Foundation/OneWeb/Base/_BaseCategory/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T081020Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

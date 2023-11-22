@@ -1,0 +1,124 @@
+@import "base/base-index.scss";
+
+.ow-product-card {
+  margin-bottom: 30px;
+  display: flex;
+
+  .component-content {
+    height: auto;
+    display: flex;
+
+    a {
+      text-decoration: none;
+      background: $white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 9;
+      padding: 25px;
+      box-sizing: border-box;
+      margin-left: 0px;
+      width: 100%;
+
+      .product-thumbnail {
+        display: flex;
+        align-items: center;
+        height: auto;
+        @include lg {
+          height: 203px;
+        }
+
+        img{
+          @include lg{
+            height: 203px;
+          }
+        }
+      }
+
+      .product-details {
+        position: relative;
+
+        .product-category {
+          display: block;
+          @include font-size($sm-font);
+          text-transform: uppercase;
+          color: $mid-light-gray;
+          margin-bottom: 10px;
+          color: $primary;
+        }
+
+        h4 {
+          @include font-size($lg-font);
+          font-family: "HelveticaNeue-Medium";
+          color: $primary;
+        }
+        .description {
+          @include font-size($md-font);
+          line-height: 22px;
+          color: $black;
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          margin-bottom: 10px;
+        }
+      }
+
+      &:hover {
+        -ms-transform: scale(1.03); /* IE 9 */
+        -webkit-transform: scale(1.03); /* Safari 3-8 */
+        transform: scale(1.03);
+        border: 1px solid $primary;
+        transition: transform 0.5s;
+      }
+    }
+
+    .row-item {
+      @include lg {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        display: flex !important ;
+        height: 100%;
+        width: 100%;
+      }
+      .product-thumbnail {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-right: 15px;
+
+        @include lg {
+          width: 300px !important;
+        }
+
+        img {
+          @include lg {
+            max-width: 250px;
+            object-fit: contain;
+          }
+        }
+      }
+
+      .product-details {
+        width: 100%;
+        @include lg {
+          width: 65%;
+          position: relative;
+        }
+        .btn {
+          left: 0px;
+          margin-top: 27px;
+          position: relative;
+
+          @include lg {
+            position: absolute;
+            bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+}

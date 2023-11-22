@@ -1,0 +1,39 @@
+﻿---
+ID: "ad43cbcc-288b-4dad-93c8-0ef2532001af"
+Parent: "ebe552c2-2228-4b80-a4b0-5eba298fbf08"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Link With Text/Right CTA/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="right-CTA">
+      {{primary_link = (sc_field i_item 'PrimaryLink'[['text', (i_item.PrimaryLink.text)]])}}
+      {{link_model = (ow_link_model i_item 'PrimaryLink')}}
+      {{-if primary_link-}}
+    	<a href="{{i_item.PrimaryLink.Url}}" class="btn btn-primary" target="{{link_model.target}}">
+       {{if ( i_item.title|string.size > 0)}}
+    		{{if ( i_item.Content|string.size > 0)}}
+              {{ i_item.Content }}
+    	    {{end}}
+            <span class="text-CTA">{{ i_item.title }}</span>
+      {{end}}
+    	</a>
+     {{-end-}}	  
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220705T031626Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

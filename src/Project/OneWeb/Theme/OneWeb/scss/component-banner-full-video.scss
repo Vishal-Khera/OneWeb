@@ -1,0 +1,144 @@
+@import "base/base-index.scss";
+.ow-video-banner {
+  .video-container {
+    &.video-full {
+      padding-top: 56.3%;
+      iframe{
+        display: none;       
+        @include lg{
+            display: block;
+        }
+    }    
+   
+    }
+
+
+    img{
+      position: absolute;
+      top:0;
+      object-fit: cover;
+      height: 100%;
+      object-position: center;
+      width: 100%;
+      @include lg{
+          display: none;
+      }
+  }
+
+  
+    .video-notice {
+      background-color: rgba(255, 255, 255, 0.9);
+      text-align: center;
+      padding: 3rem;
+      width: 100%;
+      display: block;
+      position: absolute;
+      left: 0;
+      z-index: 10;
+      height: 100%;
+      top: 0;
+    }
+
+  }
+
+  .overlay-striped {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20.5px 0px;
+    width: 100%;
+    color: $white;
+    z-index: 9;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+    .title {
+      width: 70%;
+
+      p {
+        color: $white;
+        margin: 0px;
+        @include font-size($lg-font);
+        display: -webkit-box;
+        font-family: "Helvetica Neue";
+        line-height: 24px;
+        padding-left: 20px;
+        padding-right: 15px;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+         overflow: hidden;
+
+        @include lg {
+          @include font-size($sxl-font);
+          padding-left: 30px;
+        }
+      }
+    }
+
+    .video-icon {
+      width: 30%;
+      text-align: right;
+      padding-right: 20px;
+      @include lg {
+        padding-right: 50px;
+      }
+
+      a {
+        display: block;
+        text-align: center;
+
+        @include lg {
+          text-align: left;
+          display: inline-block;
+        }
+
+        img {
+          height: 51px;
+
+          @include lg {
+            height: 35px;
+          }
+        }
+      }
+      .full-video {
+        text-decoration: none;
+        color: $white;
+        text-transform: uppercase;
+        font-size: 8px;
+        @include lg {
+          @include font-size($sm-font);
+        }
+
+        &:after {
+          content: ">>";
+          color: $white;
+          font-size: 14px;
+          padding-left: 5px;
+          position: relative;
+          top: -2px;
+        }
+      }
+    }
+  }
+
+  .btn {
+    &.btn-primary {
+      border-color:transparent !important; 
+      color: $white !important;    
+      background-color: $primary !important;
+      &:focus,
+      &:active {
+        border-color:transparent !important;
+        background-color: $primary !important;      
+       
+      }
+     
+    }
+
+  
+  }
+
+
+
+}

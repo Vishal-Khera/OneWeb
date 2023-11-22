@@ -1,0 +1,121 @@
+﻿---
+ID: "bcd2a362-e21f-4223-82e3-548207dce4a5"
+Parent: "e8e46d90-9776-4263-a4cb-34a8eed099f3"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Hero Banner/P2 Video Banner With Breadcrumb/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     <div class="main-banner">
+    
+      <div class="main-banner__media-wrapper">
+      
+        {{if i_item.Video
+            video_model = i_item.Video.target
+            if video_model            
+            auto_play =  video_model.autoplay
+                if auto_play  && auto_play == "1"
+                    auto_play = "autoplay"
+                else
+                    auto_play= ""        
+                end 
+            data_loop = video_model.loop
+                if data_loop  && data_loop == "1"
+                    data_loop = "loop"
+                else
+                    data_loop= ""        
+                end 
+            data_muted = video_model.muted
+                if data_muted  && data_muted == "1"
+                    data_muted = "muted"
+                else
+                    data_muted= ""        
+                end         
+                video_iframe = ow_video_model video_model    
+                if video_iframe 
+                    if (video_iframe.sitecore_video.url| string.size) > 0}}
+                        <video class="banner-video ow-lazy" playsinline="playsinline" {{auto_play}} {{data_muted}} {{data_loop}}>
+                            <source src="{{video_iframe.sitecore_video.url}}" type="video/mp4">
+                        </video>
+                    {{else if (video_iframe.placeholder_image| string.size) > 0}}
+                        <img data-src="{{ video_iframe.placeholder_image.url }}" class="ow-lazy">
+                        {{-end-}}
+                {{-end-}}
+            {{-end-}}
+        {{-end-}}
+    
+      </div>  
+      <div class="component container">
+        <div class="component-content">
+    	<div class="component row">
+      <div class="main-banner__content-wrapper container content-bottom">
+        <div class="banner-content ">
+        {{if i_item.title !=""}}
+          <div class="banner-title">
+              <h1>{{i_item.title}} </h1>
+          </div>
+          {{end}}
+          {{if i_item.subtext !=""}}
+          <div class="banner-sub-title">
+           <h2>{{i_item.subtext}}</h2>
+          </div>
+          {{end}}
+          {{if i_item.content !=""}}
+          <div class="paragraph-wrapper">
+             {{i_item.content}}
+        </div>
+        {{end}}
+    
+          <div class="banner-link">
+              {{primary_link_classes = "video-play-btn "}}
+    {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    if( primary_filtered_classes)
+        if(primary_filtered_classes.class | string.size) > 0
+            primary_link_classes = primary_link_classes + primary_filtered_classes.class
+        end
+    end}}
+     {{link_model_primary = ow_link_model i_item 'PrimaryLink'}}
+              {{ if(link_model_primary.url != "") }}
+                      <a href="{{link_model_primary.url}}" class="{{primary_link_classes}}" title="{{link_model_primary.title}}" target="{{link_model_primary.target}}">
+    
+    
+                <div class="video-play-icon"></div>
+                <div class="video-icon-text pl-3">{{link_model_primary.text}}</div>
+    
+              </a>
+              {{end}}
+               {{secondary_link_classes = "button btn-default "}}
+            {{ secondary_filtered_classes = ow_link_model i_item 'SecondaryLink'
+                     if( secondary_filtered_classes)
+                       if(secondary_filtered_classes.class | string.size) > 0
+                          secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+                       end
+                     end}}    
+                     {{link_model_sec = ow_link_model i_item 'SecondaryLink'}}
+            {{ if(link_model_sec.url != "") }}
+            <a href="{{link_model_sec.url}}" class="{{secondary_link_classes}}" title="{{link_model_sec.title}}" target="{{link_model_sec.target}}">{{link_model_sec.text}}<i class="icon-right-arrow"></i></a>
+                    {{ end }}
+    
+    
+          </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T132144Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,22 @@
+﻿---
+ID: "f45eb602-95a0-44a6-a2fa-67c9afa88ab7"
+Parent: "4e9ab191-0a04-4c9d-b795-7c4fba95b0a1"
+Template: "fca1aaee-864c-4658-8fdb-75cdb4ca89be"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Link Lists/Footer Crea/Primary Navigation/Listone/Ask for a demo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T084323Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: |
+        <link text="Ask for a demo" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

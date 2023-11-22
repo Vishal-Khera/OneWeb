@@ -1,0 +1,18 @@
+﻿---
+ID: "87cd9345-ab56-46f0-a417-ecd97e6f9c74"
+Parent: "4b2a8f7a-3d21-4e56-afc3-5df781ccbd50"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/Careers Landing Page/Data/Text 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T151504Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

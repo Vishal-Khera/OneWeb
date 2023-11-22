@@ -1,0 +1,28 @@
+﻿---
+ID: "e8dc1f89-2d8d-4cbe-b8b2-9698efc4fe23"
+Parent: "40328b9a-cded-44ea-8e5c-d010d7968cea"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb User Search Box/Default/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if i_item}}
+    <div class="filter-search-wrapper mb-5">
+        <div class="filter-search">
+           <label class="sr-only" for="search-page">global-search</label>
+            <input type="text" autocomplete="off" id="search-user" class="search-box-input" placeholder="{{sc_raw i_item 'Placeholder Text'}}">
+    <a class="clear-text" href="javascript:void(0)"><span class="sr-only">cross-icon</span></a>
+            <button class="icon-search" type="submit"><span class="sr-only">button</span></button>
+        </div>
+    </div>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220316T071801Z

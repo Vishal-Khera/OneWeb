@@ -1,0 +1,118 @@
+@charset "UTF-8";
+.left-navigation {
+  position: relative;
+  font-family: "HelveticaNeue-Medium"; }
+  @media (max-width: 767px) {
+    .left-navigation {
+      padding-left: 0px;
+      margin-left: -15px;
+      margin-right: -15px; } }
+  .left-navigation .active {
+    font-family: 'HelveticaNeue-Bold'; }
+  .left-navigation .dropdwon-arrow {
+    left: 0px;
+    display: block;
+    cursor: pointer;
+    margin-left: -5px;
+    padding: 0px 5px; }
+    @media (max-width: 767px) {
+      .left-navigation .dropdwon-arrow {
+        right: 0px;
+        left: auto;
+        transform: rotate(0deg); } }
+    .left-navigation .dropdwon-arrow::after {
+      content: "";
+      font-family: 'FontAwesome';
+      font-size: 14px; }
+      @media screen and (min-width: 0) {
+        .left-navigation .dropdwon-arrow::after {
+          font-size: 14px; } }
+      @media screen and (min-width: 768px) {
+        .left-navigation .dropdwon-arrow::after {
+          font-size: 14px; } }
+      @media screen and (min-width: 992px) {
+        .left-navigation .dropdwon-arrow::after {
+          font-size: 14px; } }
+  .left-navigation .expand .dropdwon-arrow {
+    transform: rotate(90deg); }
+  .left-navigation .leftnav-menu {
+    padding: 0 15px; }
+    @media only screen and (min-width: 768px) {
+      .left-navigation .leftnav-menu {
+        padding: 0; } }
+    .left-navigation .leftnav-menu h3 {
+      color: #D9171D;
+      font-size: 22px; }
+      @media screen and (min-width: 0) {
+        .left-navigation .leftnav-menu h3 {
+          font-size: 22px; } }
+      @media screen and (min-width: 768px) {
+        .left-navigation .leftnav-menu h3 {
+          font-size: 24px; } }
+      @media screen and (min-width: 992px) {
+        .left-navigation .leftnav-menu h3 {
+          font-size: 24px; } }
+    .left-navigation .leftnav-menu .leftmenu > li:first-child {
+      border-top: 0; }
+    @media (max-width: 767px) {
+      .left-navigation .leftnav-menu .leftmenu > li > span {
+        flex-direction: row-reverse;
+        justify-content: space-between; }
+        .left-navigation .leftnav-menu .leftmenu > li > span .dropdwon-arrow {
+          transform: rotate(90deg); } }
+    .left-navigation .leftnav-menu .leftmenu > li > span a {
+      padding-left: 2px; }
+    .left-navigation .leftnav-menu ul {
+      display: block;
+      list-style-type: none;
+      padding: 0;
+      margin: 0px; }
+      @media (max-width: 767px) {
+        .left-navigation .leftnav-menu ul li {
+          border-top: 1px solid #BEBEBE;
+          padding: 0px 0px; } }
+      .left-navigation .leftnav-menu ul li.open .dropdwon-arrow {
+        transform: rotate(90deg);
+        font-family: 'HelveticaNeue-Bold'; }
+      .left-navigation .leftnav-menu ul li.open .active {
+        font-family: 'HelveticaNeue-Bold'; }
+      .left-navigation .leftnav-menu ul li ul li {
+        padding: 10px 15px 10px 25px; }
+        .left-navigation .leftnav-menu ul li ul li a {
+          padding: 0px; }
+      .left-navigation .leftnav-menu ul li a {
+        display: block;
+        font-size: 14px;
+        position: relative;
+        padding: 10px 0;
+        color: #000; }
+        @media screen and (min-width: 0) {
+          .left-navigation .leftnav-menu ul li a {
+            font-size: 14px; } }
+        @media screen and (min-width: 768px) {
+          .left-navigation .leftnav-menu ul li a {
+            font-size: 14px; } }
+        @media screen and (min-width: 992px) {
+          .left-navigation .leftnav-menu ul li a {
+            font-size: 14px; } }
+        @media only screen and (min-width: 768px) {
+          .left-navigation .leftnav-menu ul li a {
+            padding: 8px 8px 8px 0px; } }
+      .left-navigation .leftnav-menu ul li ul {
+        display: none;
+        padding: 0; }
+    @media (max-width: 767px) {
+      .left-navigation .leftnav-menu {
+        position: absolute;
+        z-index: 1;
+        background-color: #fff;
+        transition: .5s;
+        transform: translateX(-110%); } }
+  .left-navigation .MenuOpen {
+    transform: translateX(0%); }
+
+.left-Menu-btn {
+  width: fit-content; }
+  .left-Menu-btn::after {
+    content: " \276F";
+    font-size: 17px; }

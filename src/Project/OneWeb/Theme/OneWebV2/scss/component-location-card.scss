@@ -1,0 +1,91 @@
+@import 'base/base-index.scss';
+
+.ow-locations{
+    .locations-wrapper{
+        @include border-radius(8px);
+        .ow-card-content{
+            h3{
+                border-bottom: 2px solid $lightblack;
+                font-family: $franklinMd !important;
+                padding-top: 20px;
+            }
+            .locations{
+                .locations-detail{
+                    border-bottom: 2px solid $lightblack;
+                    h4{
+                        font-family: $franklinMd !important;
+                    }
+                }
+                .locations-info{
+                    * {
+                        font-family: $franklinMd !important;
+                    }
+                    a{
+                        color: $brandblack2 !important;
+                        &.web-link{
+                            border-radius: 0px;
+                            color: $brand !important;
+                            border-bottom: 1px solid $brand !important;
+                        }
+                        i{
+                            font-family: "Font Awesome 5 Free" !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.locations-wrapper{
+    &.white-gray-background{
+        background-color: $base-light-gray;
+    }
+}
+
+.light-theme-page{
+    .locations-wrapper{
+        &.white-gray-background{
+            background-color: $cta-gray;
+        }
+    }
+}
+
+.dark-theme,.dark-theme-page{
+    .ow-locations{
+        .ow-card-content{
+            h3{
+                border-bottom: 2px solid $white-gray-light;
+            }
+            .locations{
+                *{
+                    color: $base-light-gray !important;
+                }
+                .locations-detail{
+                    border-bottom: 2px solid $white-gray-light;
+                    div{
+                        p{
+                            color: $light-gray !important;
+                        }
+                    }
+                }
+                
+                .locations-info{
+                    a{
+                        color: $base-light-gray !important;
+                        &.web-link{
+                            color: $light-blue !important;
+                            border-bottom: 1px solid $light-blue !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .locations-wrapper{
+        &.white-gray-background{
+            background-color: $brandblack;
+        }
+    }
+}

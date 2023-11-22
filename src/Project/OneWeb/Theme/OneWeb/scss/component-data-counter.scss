@@ -1,0 +1,105 @@
+@import 'base/base-index.scss';
+
+
+.ow-data-container {
+    .data-item-list {
+        width: 100%;
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+
+        @include lg {
+            display: block;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        &::after {
+            content: '';
+            color: $dark-gray;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 100%;
+            position: absolute;
+            line-height: 0;
+            background-image: url(../images/plus.svg);
+            width: 90px;
+            height: 90px;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            @include lg {
+                position: absolute;
+                transform: translate(50%, -50%);
+                top: 50%;
+                left: unset;
+                right: 15px;
+            }
+        }
+
+        &:last-of-type {
+            &::after {
+                display: none;
+            }
+        }
+
+        .item {
+            width: 50%;
+            float: left;
+            padding: 30px 15px;
+            text-align: center;
+            @include md {
+                padding: 15px 30px;
+                width: 100%;
+                margin: 0 auto;
+                flex: 1 1 auto;
+                max-width: 250px;
+                float: none;
+                
+            }
+
+            @include lg {
+                padding: 15px 30px;
+                text-align: left;
+                min-height: 210px;
+            }
+
+            h3 {
+                @include font-size($xxxl-font); 
+                span{
+                    width: auto;
+                }
+            }
+
+            p {
+                padding: 0;
+                margin-bottom: 0px;
+                color: $dark-gray;
+                span{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            a {
+                @include font-size($sm-font); 
+                color: $primary;
+                width: 100%;
+
+                &::after {
+                    position: relative;
+                    content: ' ›';
+                    font-size: 25px;
+                    top: 3px;
+                    line-height: 15px;
+                }
+            }
+            .rte_content{
+                span{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

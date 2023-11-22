@@ -1,0 +1,66 @@
+﻿---
+ID: "d0f73af2-e1ae-4490-aebf-2b6312a999e1"
+Parent: "95d6efc4-abbe-4911-9009-96a6d2b51237"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Resource/News Detail without Date custom heading/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if i_item.title !=""-}}
+    <div class = "page-heading">
+    <h1>{{-i_item.title-}}</h1>
+    </div>
+    {{-end-}}
+    <br>
+    {{-if i_item.image != ""-}}
+    <img data-src="{{ i_item.image.media_url }}" class="img-fluid ow-lazy w-100" alt="{{-i_item.image.alt-}}"
+        title="{{-i_item.image.title-}}">
+    {{-end-}}
+    {{-if i_item.content !=""-}}
+    {{-i_item.content-}}
+    {{-end-}}
+    {{-business_model = i_item.Brands.target-}}
+    {{-if business_model | string.size>0-}}
+    <hr>
+    {{if business_model && (business_model.title | string.size > 0) && (business_model.content | string.size > 0)}}
+    <h3>{{sc_translate 'OneWeb-PressRelease-About'}} {{business_model.title-}}</h3>
+    {{-if business_model.content-}}
+    {{-business_model.content-}}
+    {{-end-}}
+    {{-end-}}
+    {{-end-}}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2A918814-9A5B-46A5-A3DA-209B36A15D2F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T191808Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221019T034829Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\yashu.altudo
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221019T034829Z

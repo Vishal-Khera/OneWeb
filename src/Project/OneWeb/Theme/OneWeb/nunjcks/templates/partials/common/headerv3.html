@@ -1,0 +1,49 @@
+<header class="decoupled-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-1 d-flex d-lg-none">
+                <div class="handburger">
+                    <span> </span>
+                    <span> </span>
+                    <span> </span>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <img src="images/logo3.png" />
+            </div>
+            <div class="col-lg-9 search-mobile">
+                <div class="row">
+
+                    <div class="col-md-4 col-lg-12 order-0 order-lg-1">
+                        <div class="global-search">
+                            <input type="text" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-10 mobile-menu mt-lg-4">
+                {% include "../../components/main-nav.html" %}
+            </div>
+
+            <div class="col-5 col-lg-2 mt-lg-4 m-right">
+                <div class="language float-right ">
+                    <i class="fas fa-globe"></i>
+                    <select class="js-language">
+                        <option value="http://oneweb.ow.local.ametekweb.com/"> EN </option>
+                        <option value="http://oneweb.ow.local.ametekweb1.com/"> SP </option>
+                        <option value="http://oneweb.ow.local.ametekweb2.com/"> DE </option>
+                        <option value="http://oneweb.ow.local.ametekweb3.com/"> IT </option>
+                    </select>
+                </div>
+
+                <div class="d-block d-lg-none mobile-search float-right">
+                    <img src="images/search-icon-red.svg" alt="search-icon" />
+                </div>
+                <div class="link d-none d-lg-block">
+                    <a href="#"> Contact Us </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

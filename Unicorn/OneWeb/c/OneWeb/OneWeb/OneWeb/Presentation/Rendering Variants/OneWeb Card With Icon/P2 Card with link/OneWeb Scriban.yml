@@ -1,0 +1,44 @@
+﻿---
+ID: "33de9798-8a70-4335-88ff-712a6d340ea9"
+Parent: "e7697b73-41e2-46c5-a677-7223124995a8"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card With Icon/P2 Card with link/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if i_item}}
+    {{link_classes = ow_get_linkClass i_item 'PrimaryLink' "card-item"}}
+    {{card_link = ow_link_model i_item 'PrimaryLink'
+    	if(card_link.url|string.size < 0)
+    		card_link.url= "javascript:void(0)"
+    	end}}
+    <a href="{{card_link.url}}" class='{{link_classes}}' target='{{card_link.target}}' anchor='{{card_link.anchor}}'>
+    				 <div class="tile-slide">
+    			{{-if i_item.Image != ""-}}
+    		{{media_model = ow_media_model i_item "Image"}}
+    {{end}}
+    {{ if (i_item.Image != "")}}	
+        <div class="tile-bg-image">
+            <img class="ow-lazy"  data-src = "{{media_model.url}}" alt="{{media_model.alt}}" title="{{media_model.title}}">
+        </div>
+    {{end}}
+    {{if i_item.title | string.size > 0}}
+        <div class="card-title-content">
+            <h4>{{i_item.title}} </h4>
+        </div>
+    {{end}}
+    </div>
+    </a>
+    {{end}}
+    {{end}}
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T134636Z

@@ -1,0 +1,20 @@
+﻿---
+ID: "5dec6e51-f3ef-4ac3-bc73-e5130d27e81c"
+Parent: "e9ef3ed7-de96-43a3-ae03-bf59850fc3ae"
+Template: "a6f3bdd3-42d3-4554-b6cd-0fd3aa18ebeb"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/Export User/Registration Date
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220523T123315Z
+    - ID: "ae8f86a8-7f56-43ac-9c17-4db87e2f5347"
+      Hint: Name
+      Value: Registration Date
+    - ID: "c75c833a-9a9a-4e82-977b-a85ed9405b7b"
+      Hint: Property
+      Value: Date

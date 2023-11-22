@@ -1,0 +1,25 @@
+﻿---
+ID: "6379d413-5751-4567-96e0-9cad9c1a05bc"
+Parent: "ac8d90a0-77b5-4d58-b4c3-bcaee7a937b1"
+Template: "aca5c9a3-cda0-49b6-893f-1d4a7cb595b0"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Link List/Image Link List/Section
+DB: master
+SharedFields:
+- ID: "4a997ffd-136b-409e-8dc9-fde53ac545a3"
+  Hint: IsLink
+  Value: 2
+- ID: "a4d004e6-2a4b-4c53-a4f3-9c481df71cdc"
+  Hint: Tag
+  Value: "{E8E2C26D-2F96-4A9C-9C17-D095E6CE46CC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211125T172642Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

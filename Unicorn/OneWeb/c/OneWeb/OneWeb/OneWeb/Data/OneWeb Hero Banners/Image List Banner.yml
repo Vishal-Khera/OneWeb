@@ -1,0 +1,32 @@
+﻿---
+ID: "4201b2d4-1f7e-4894-8c2d-f139ccdcfb6b"
+Parent: "d977a6d2-6b9f-4304-9f88-2bcf5f4c04ba"
+Template: "3f2dc1dc-7587-4510-a5f2-f97d7b0ad768"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Hero Banners/Image List Banner
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b8496b9-c8f6-4ad4-889a-8a62e7e94bc7"
+      Hint: AutoPlay
+      Type: Checkbox
+      Value: 0
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T122855Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Image List Banner
+    - ID: "2ae4fcd6-ee76-4e23-b532-6ffa5cbe5855"
+      Hint: Image List
+      Type: TreelistEx
+      Value: 
+    - ID: "d10f2aa4-5254-4d9e-863f-6605e9b079f7"
+      Hint: Loop
+      Type: Checkbox
+      Value: 0
+    - ID: "f66e9231-de31-4e54-98d3-a32556b8a710"
+      Hint: Interval
+      Value: 

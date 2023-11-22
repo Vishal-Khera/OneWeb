@@ -1,0 +1,17 @@
+﻿---
+ID: "432c584a-c20c-4a96-8ed0-3898013483ec"
+Parent: "0008dbed-03b1-464c-abfe-d27358506387"
+Template: "552c7c41-fcf3-45a9-a813-3d75a4d5c654"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Header Contents/Product Landing Page/Portable 3D Scanners
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T155226Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Portable 3D Scanners

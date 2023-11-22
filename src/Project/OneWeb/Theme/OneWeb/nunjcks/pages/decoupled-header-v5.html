@@ -1,0 +1,148 @@
+{% extends "layout/layoutv5.html" %} {% block maincontent %}
+<main>
+
+    {% include "../templates/components/modal-popup.html" %}
+
+
+        <div class="container-fluid white-gray-background mb-5">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+
+                                {% include "../templates/components/2-column-text-and-image.html" %}
+
+                            </div>
+
+                            <div class="col-md-6 border-seprator">
+
+                                    {% include "../templates/components/single-column-text-V1.html" %}
+    
+                                </div>
+
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
+            <!--singal column text-->
+
+            <div class="container-fluid white-gray-background mb-5">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row">
+
+                                                  
+                                <div class="col-md-4">
+        
+                                        {% include "../templates/components/single-column-text-v3.html" %}
+        
+                                    </div>
+        
+                                    <div class="col-md-8">
+
+                                            {% include "../templates/components/data-values-container-component.html" %}                                            
+            
+                                        </div>       
+                        
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+                     <!--singal column text-->
+
+            <div class="container-fluid mb-5">
+                    <div class="row"> 
+                        <div class="container">
+                            <div class="row">                                                  
+                                <div class="col-md-4">
+        
+                                        {% include "../templates/components/single-column-text-v4.html" %}
+        
+                                    </div>
+        
+                                    <div class="col-md-8">
+
+                                            <!-- {% include "../templates/components/data-values-container-component.html" %}                                             -->
+            
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                        
+                        </div>
+                    </div>
+
+                    <!--2 Column Featured Business content cards V1-->
+
+                    <div class="container-fluid mb-5">
+                            <div class="row"> 
+                                <div class="container">
+                                    <div class="row">                                                  
+                                        <div class="col-md-12 col-lg-6">
+                
+                                                {% include "../templates/components/2-column-featured-business-content-cards-V1.html" %}
+                
+                                            </div>
+                
+                                            <div class="col-md-12 col-lg-6 mt-5 mt-lg-0">
+        
+                                                {% include "../templates/components/2-column-featured-business-content-cards-V2.html" %}
+                    
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                
+                                </div>
+                            </div>
+                
+        <!--full width Featured Business content cards V1-->
+
+        <div class="container-fluid mb-5">
+            <div class="row"> 
+                <div class="container">
+                    <div class="row">                                                  
+                        <div class="col-md-12">
+
+                                {% include "../templates/components/full-width-featured-business.html" %}
+
+                            </div>
+
+                           
+                                
+                            </div>
+                        </div>
+                
+                </div>
+            </div>
+
+
+            <!--tile conatiner-->
+            
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-md-12">
+
+                            {% include "../templates/components/3-4-column-roll-over-and-linked-content-tiles-v1.html" %}
+                       
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mb-5">
+                    <div class="row">
+                        <div class="col-md-12">
+    
+                                {% include "../templates/components/data-values-container-component-v2.html" %} 
+                           
+                        </div>
+                    </div>
+                </div>
+                
+            
+</main>
+{% endblock %}

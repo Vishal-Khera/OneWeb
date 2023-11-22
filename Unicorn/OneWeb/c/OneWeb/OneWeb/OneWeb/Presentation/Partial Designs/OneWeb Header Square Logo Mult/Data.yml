@@ -1,0 +1,14 @@
+﻿---
+ID: "7798915e-f2da-4de5-a802-750c241f856d"
+Parent: "75eede24-20ca-443f-a82c-bbdf7c46b392"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Partial Designs/OneWeb Header Square Logo Multi Brand/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211220T061737Z

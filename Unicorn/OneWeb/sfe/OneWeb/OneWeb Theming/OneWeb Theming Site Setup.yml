@@ -1,0 +1,21 @@
+﻿---
+ID: "83e1fad0-6bbe-4390-b707-96cad35404b4"
+Parent: "96fe0701-f411-4f22-abd8-27ad1af3fefb"
+Template: "292ccfcd-7790-4692-856b-76014b8038e7"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Theming/OneWeb Theming Site Setup
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211125T105721Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: OneWeb Theming

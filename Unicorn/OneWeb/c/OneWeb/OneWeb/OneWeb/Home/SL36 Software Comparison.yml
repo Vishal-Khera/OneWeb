@@ -1,0 +1,129 @@
+﻿---
+ID: "2e803b17-ccaa-4ce7-9688-be793754c27b"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/SL36 Software Comparison
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{42E7F7C4-FDFF-4091-AD02-03B11EABB095}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{728B0B28-C677-4BC8-958F-C8A9051F288E}"
+          p:before="*"
+          s:ds="{1D3355C5-FD4C-4A2D-889A-289C54908FD9}"
+          s:id="{B21D2D5F-8E69-4977-A038-57973EC482F7}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Grid Count&amp;Autoplay&amp;Autoplay Speed&amp;Show Arrows&amp;Show Dots&amp;Slides To Show&amp;Slides To Show Mobile=1.2&amp;Slides To Show Tab=2.2&amp;Custom Slider Class&amp;Carousel Desktop Disable&amp;Infinite Loop&amp;FieldNames=%7B7FD0199D-6EF7-4842-ACCD-7083CD7172F7%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-text-placeholder*/ow-row-5/ow-column-12" />
+        <r
+          uid="{DE8DB5D8-B663-484F-A9E1-532039725AE4}"
+          p:after="r[@uid='{728B0B28-C677-4BC8-958F-C8A9051F288E}']"
+          s:ds="{AE7778F0-EAE4-481F-83C0-1CEEE3EBA873}"
+          s:id="{B21D2D5F-8E69-4977-A038-57973EC482F7}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Grid Count&amp;Autoplay&amp;Autoplay Speed&amp;Show Arrows&amp;Show Dots&amp;Slides To Show&amp;Slides To Show Mobile=1.2&amp;Slides To Show Tab=2.2&amp;Custom Slider Class&amp;Carousel Desktop Disable&amp;Infinite Loop&amp;FieldNames=%7B7FD0199D-6EF7-4842-ACCD-7083CD7172F7%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-text-placeholder*/ow-row-5/ow-column-10" />
+        <r
+          uid="{B8F76FF2-9D42-4F3E-BC6E-C4FD7FB89C44}"
+          p:after="r[@uid='{DE8DB5D8-B663-484F-A9E1-532039725AE4}']"
+          s:ds="{49E1D0E4-B199-4BE8-B17F-364916811A0B}"
+          s:id="{B21D2D5F-8E69-4977-A038-57973EC482F7}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Grid Count&amp;Autoplay&amp;Autoplay Speed&amp;Show Arrows&amp;Show Dots&amp;Slides To Show&amp;Slides To Show Mobile=1.2&amp;Slides To Show Tab=2.2&amp;Custom Slider Class&amp;Carousel Desktop Disable&amp;Infinite Loop&amp;FieldNames=%7B7FD0199D-6EF7-4842-ACCD-7083CD7172F7%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-text-placeholder*/ow-row-5/ow-column-8" />
+        <r
+          uid="{8F42FF96-3D4C-43E4-AF3E-C2714DA39C8F}"
+          p:after="r[@uid='{B8F76FF2-9D42-4F3E-BC6E-C4FD7FB89C44}']"
+          s:ds="{9411E751-494D-40B1-9354-039664D8B596}"
+          s:id="{B21D2D5F-8E69-4977-A038-57973EC482F7}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Grid Count&amp;Autoplay&amp;Autoplay Speed&amp;Show Arrows&amp;Show Dots&amp;Slides To Show&amp;Slides To Show Mobile=1.2&amp;Slides To Show Tab=2.2&amp;Custom Slider Class&amp;Carousel Desktop Disable&amp;Infinite Loop&amp;FieldNames=%7B7FD0199D-6EF7-4842-ACCD-7083CD7172F7%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-text-placeholder*/ow-row-5/ow-column-6" />
+        <r
+          uid="{FB23617A-3259-4D5C-899E-2FFED4336AF3}"
+          p:after="r[@uid='{8F42FF96-3D4C-43E4-AF3E-C2714DA39C8F}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7BC11DF379-757F-4085-8B55-5C9D589389B9%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-text-placeholder*/ow-row-5" />
+        <r
+          uid="{62605BE5-9E83-4FEA-9AE8-62EFC07EC0BC}"
+          p:after="r[@uid='{FB23617A-3259-4D5C-899E-2FFED4336AF3}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7BC11DF379-757F-4085-8B55-5C9D589389B9%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-text-placeholder*/ow-row-5" />
+        <r
+          uid="{D28ABB2F-5118-456E-ADC9-3952A5162D54}"
+          p:after="r[@uid='{62605BE5-9E83-4FEA-9AE8-62EFC07EC0BC}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7BC11DF379-757F-4085-8B55-5C9D589389B9%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-text-placeholder*/ow-row-5" />
+        <r
+          uid="{CC26C2AC-7A75-495F-874D-C54093E4B643}"
+          p:after="r[@uid='{D28ABB2F-5118-456E-ADC9-3952A5162D54}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7BC11DF379-757F-4085-8B55-5C9D589389B9%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-text-placeholder*/ow-row-5" />
+        <r
+          uid="{E582989C-9ED7-4844-A7AF-A0CC551CC49D}"
+          p:after="r[@uid='{CC26C2AC-7A75-495F-874D-C54093E4B643}']"
+          s:ds=""
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-text-placeholder*" />
+        <r
+          uid="{29F4F012-119C-40D9-AB31-DAB4CA931678}"
+          p:after="r[@uid='{E582989C-9ED7-4844-A7AF-A0CC551CC49D}']"
+          s:ds="{F62700C2-D63A-4A6B-940C-4BE28A4462A2}"
+          s:id="{2CB89FED-7E2A-4525-81FB-5F5DA79516EF}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B396C50AF-5399-4C9E-8BFD-1D4E38649CF9%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3" />
+        <r
+          uid="{91C4B08A-8C58-4D01-AA43-4C738709A595}"
+          p:after="r[@uid='{29F4F012-119C-40D9-AB31-DAB4CA931678}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-1/ow-row-2" />
+        <r
+          uid="{60C7EE14-6152-468C-8016-2ED338BE4F08}"
+          p:after="r[@uid='{91C4B08A-8C58-4D01-AA43-4C738709A595}']"
+          s:ds=""
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-1" />
+        <r
+          uid="{AF395978-32C0-4B73-B808-1D5542B0E6D2}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T180823Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: SL36 Software Comparison
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: SL36 Software Comparison

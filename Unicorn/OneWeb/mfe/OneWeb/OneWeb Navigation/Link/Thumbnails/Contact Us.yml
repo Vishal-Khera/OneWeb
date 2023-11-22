@@ -1,0 +1,47 @@
+﻿---
+ID: "5f6f719c-2913-4fc6-9278-92ab95d45a2d"
+Parent: "ae770ebe-620c-4a82-a082-639846c9c712"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Navigation/Link/Thumbnails/Contact Us
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/5F6F719C29134FC6927892AB95D45A2D.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 65
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "9df124f0-3d0e-4e7e-a963-c4ae5e6ff85f"
+  Value: iVBORw0KGgoAAAANSUhEUgAAAEEAAAAWCAYAAACffPEKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKnSURBVFhH7ZUviCpRFIdfM2zYICgYDAZhBQWDQdAgGAzCGjYsKGgzGATDBoPBIBgMBkHBBcOGDRuEDRs2GARtBoPBIBgMGwwG833zHbjLzHszyuad8OPeOXPO/fOdc2b+nM9n9dvlQjDkQjDkQjDkQjDkQjDkQjB0EcJoNFKxWEyFw2GVTqfV+/u7rd81vby82NqvyS5uNpuper1usXW7XZHZ9hM5QphMJiqbzaqvry953m63KhQKyfiv7zUFg0Fb+zXZxX18fKhSqWSxNZtNkdn2EzlCSCaTaj6fW2yfn59qs9kImEKhoOLxuEokEmo6ncr7h4cH9fT0JLHYd7udqtVqyuPxSCXhw2FTqZSKRqPii221Wsl71gM8oFmLOEa9P7oEYb/fS3wmk5H1WNfs5yRHCLe3t7Z2RDm2Wi2ZA4WMHY9H2ZgKwk55djodmeuMAq9cLsv8dDqpQCAgcw6tQb69valer2eJM+sSBPbW65PA5+dni5+THCFQ+ofDwWJj4fV6LZdl1HaeeccIFGx8TzgYc/NluCQHJcM3Nzdi83q93+/N+gmEdrst583n81JR1WrVcsZLcoRQLBa/M6JFmdMSuVxORm2PRCJSwtcgEEPWqRqe/X6/jD6f7xs4B+/3+5Y4s4BNK5lttCYf0eVyKfGsT1UAw+znJEcIuszpWy5E5nR/ko27uzs1GAxUpVIRYNidIPB3oTW4AMB4R6ZoOQ5OFgGLHdD6L0SFsAdzs/imPD4+in+j0ZA1uTiQ+RZp+/39/X+xdnKEgMjOeDyW/tc9q8VHh80ob/obGz76b0JGuCBzwOjfHQcljnjm2gew2BeLhTwjfFhfP2ux3+vrq0AeDoeWtiWeddhPV9w1XYTwW+RCMORCMORCMORCMORCMORCOJ/VX9EDcY10rQkmAAAAAElFTkSuQmCC
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 786
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: PNG
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 65 x 22
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 22
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T072036Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Contact Us

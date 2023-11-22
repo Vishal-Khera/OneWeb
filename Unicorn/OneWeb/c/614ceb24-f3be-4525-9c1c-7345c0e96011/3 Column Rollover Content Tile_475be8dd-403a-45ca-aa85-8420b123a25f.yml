@@ -1,0 +1,28 @@
+﻿---
+ID: "475be8dd-403a-45ca-aa85-8420b123a25f"
+Parent: "614ceb24-f3be-4525-9c1c-7345c0e96011"
+Template: "0d4f3a61-243a-42a9-a33c-9f054e02449b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards/OneWeb Card Folder/3 Column Rollover Content Tile 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{4EDCF373-E50B-4C5D-B0DA-63AE8932F04B}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211203T095819Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Operations
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="VIEW RESULTS" anchor="" linktype="internal" class="" title=""  querystring="" id="{CC065443-BDCA-4077-B978-3DFDC2AB358D}" />

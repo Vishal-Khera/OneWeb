@@ -1,0 +1,21 @@
+﻿---
+ID: "6f70e2d3-c0e3-4af3-8e8a-1a50a69c06e6"
+Parent: "ef6d3fb5-e9ce-4e5b-8490-c6c5fd634af1"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Datasource/OneWeb Search Filter/Buttons/Show Less Text
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220812T003011Z

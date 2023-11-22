@@ -1,0 +1,25 @@
+﻿---
+ID: "8ec9cdc2-46ab-4679-8c39-e063a57286e0"
+Parent: "2776be06-c9f7-4736-9437-b20357350893"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Link/P2 Simple Button/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{linkModel = ow_link_model i_item 'Link'}}
+    {{if linkModel.url && linkModel.text}} 
+    <a href="{{linkModel.url}}" target="{{linkModel.target}}" class="{{linkModel.class }} button btn-simple">{{linkModel.text}}</a>
+    {{-end-}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221012T221451Z

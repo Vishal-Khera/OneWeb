@@ -1,0 +1,27 @@
+@import "base/base-index.scss";
+
+.ow-navigation-bar {
+  text-align: unset;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      display: inline-flex;
+      margin: 8px 0;
+      border-right: 1px solid $white;
+
+      a {
+        color: $white !important;
+        font-family: "Helvetica Neue";
+        line-height: normal;
+        @include font-size($md-font);
+        padding: 15px 20px;
+      }
+      &:last-child {
+        border-right: unset;
+      }
+    }
+  }
+}

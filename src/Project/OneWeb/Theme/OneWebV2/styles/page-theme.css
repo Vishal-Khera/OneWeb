@@ -1,0 +1,139 @@
+body.light-theme-page header {
+  background-color: #F7F7F7; }
+
+@media (max-width: 991px) {
+  body.light-theme-page .ow-primary-header .link {
+    background-color: #EDEDED; } }
+
+@media (max-width: 991px) {
+  body.light-theme-page .ow-primary-header .mobile-logo {
+    display: block !important; } }
+
+@media (max-width: 991px) {
+  body.light-theme-page .ow-primary-header .mobile-logo-white {
+    display: none !important; } }
+
+body.light-theme-page .ow-primary-header.sticky-header .mobile-logo {
+  display: block !important; }
+  @media only screen and (min-width: 992px) {
+    body.light-theme-page .ow-primary-header.sticky-header .mobile-logo {
+      display: none !important; } }
+
+body.light-theme-page .ow-primary-header.sticky-header .mobile-logo-white {
+  display: none !important; }
+  @media only screen and (min-width: 992px) {
+    body.light-theme-page .ow-primary-header.sticky-header .mobile-logo-white {
+      display: block !important; } }
+
+@media (max-width: 991px) {
+  body.light-theme-page .ow-primary-header {
+    background-color: #EDEDED; }
+    body.light-theme-page .ow-primary-header .link {
+      background-color: #F7F7F7; } }
+
+body.light-theme-page.light-theme-overlay #header > .container-fluid > .component-content > .row > .container-fluid:nth-child(2) {
+  background-color: #EDEDED; }
+  @media (max-width: 991px) {
+    body.light-theme-page.light-theme-overlay #header > .container-fluid > .component-content > .row > .container-fluid:nth-child(2) .ow-primary-header {
+      background-color: #EDEDED; }
+      body.light-theme-page.light-theme-overlay #header > .container-fluid > .component-content > .row > .container-fluid:nth-child(2) .ow-primary-header .link {
+        background-color: #F7F7F7; } }
+  @media only screen and (min-width: 992px) {
+    body.light-theme-page.light-theme-overlay #header > .container-fluid > .component-content > .row > .container-fluid:nth-child(2) .ow-primary-header.sticky-header > .container > .component-content {
+      background-color: #1A1918; } }
+
+@media only screen and (min-width: 992px) {
+  body.light-theme-page.light-theme-overlay .talk-cta a {
+    background-color: #F7F7F7; } }
+
+@media (max-width: 991px) {
+  body.light-theme-page .light-theme .primary-nav-wrapper {
+    background-color: transparent; }
+    body.light-theme-page .light-theme .primary-nav-wrapper .talk-cta a {
+      background-color: #F7F7F7; } }
+
+@media (max-width: 1199px) {
+  body.light-theme-page .light-theme .ow-primary-header.sticky-header {
+    background-color: #EDEDED; } }
+
+@media (max-width: 991px) {
+  body.light-theme-page.dark-theme-overlay .ow-primary-header {
+    background-color: #1A1918 !important; }
+    body.light-theme-page.dark-theme-overlay .ow-primary-header.sticky-header .mobile-logo {
+      display: none !important; }
+    body.light-theme-page.dark-theme-overlay .ow-primary-header.sticky-header .mobile-logo-white {
+      display: block !important; }
+  body.light-theme-page.dark-theme-overlay .hamburger-mobile span {
+    background-color: #fff; }
+  body.light-theme-page.dark-theme-overlay .link {
+    background-color: #2C2A29; }
+  body.light-theme-page.dark-theme-overlay .mobile-logo {
+    display: none !important; }
+  body.light-theme-page.dark-theme-overlay .mobile-logo-white {
+    display: block !important; } }
+
+@media (max-width: 991px) {
+  body.light-theme-page.blue-theme-overlay .ow-primary-header {
+    background-color: #236192 !important; }
+    body.light-theme-page.blue-theme-overlay .ow-primary-header.sticky-header .mobile-logo {
+      display: none !important; }
+    body.light-theme-page.blue-theme-overlay .ow-primary-header.sticky-header .mobile-logo-white {
+      display: block !important; }
+  body.light-theme-page.blue-theme-overlay .hamburger-mobile span {
+    background-color: #fff; }
+  body.light-theme-page.blue-theme-overlay .link {
+    background-color: #1A1918; }
+  body.light-theme-page.blue-theme-overlay .mobile-logo {
+    display: none !important; }
+  body.light-theme-page.blue-theme-overlay .mobile-logo-white {
+    display: block !important; } }
+
+body.dark-theme-page header {
+  background-color: #2C2A29; }
+
+@media (max-width: 991px) {
+  body.dark-theme-page .ow-primary-header.sticky-header {
+    background-color: #1A1918; } }
+
+body.dark-theme-page .light-theme .text-wrapper .light-gray-text {
+  color: rgba(44, 42, 41, 0.6) !important; }
+
+body.dark-theme-page .ow-secondary-header,
+body.dark-theme-page .primary-nav-wrapper {
+  color: #fff; }
+  body.dark-theme-page .ow-secondary-header *,
+  body.dark-theme-page .primary-nav-wrapper * {
+    color: inherit !important; }
+
+@media (max-width: 991px) {
+  body.dark-theme-page.blue-theme-overlay .ow-primary-header.sticky-header > .container {
+    background: #236192 !important; } }
+
+@media (max-width: 991px) {
+  body.dark-theme-page.blue-theme-overlay .ow-primary-header.sticky-header > .container > .component-content {
+    background: #236192; } }
+
+@media only screen and (min-width: 992px) {
+  body.dark-theme-page.light-theme-overlay .primary-nav-wrapper .nav-link, body.dark-theme-page.light-theme-overlay .primary-nav-wrapper .contact-us {
+    color: #1A1918 !important; }
+    body.dark-theme-page.light-theme-overlay .primary-nav-wrapper .nav-link *, body.dark-theme-page.light-theme-overlay .primary-nav-wrapper .contact-us * {
+      color: inherit !important; } }
+
+body.dark-theme-page.light-theme-overlay .primary-nav-wrapper .link .contact-us {
+  color: #1A1918 !important; }
+
+@media only screen and (min-width: 992px) {
+  body.dark-theme-page.light-theme-overlay .ow-primary-header.sticky-header .primary-nav-wrapper .nav-link, body.dark-theme-page.light-theme-overlay .ow-primary-header.sticky-header .primary-nav-wrapper .contact-us {
+    color: #fff !important; }
+    body.dark-theme-page.light-theme-overlay .ow-primary-header.sticky-header .primary-nav-wrapper .nav-link *, body.dark-theme-page.light-theme-overlay .ow-primary-header.sticky-header .primary-nav-wrapper .contact-us * {
+      color: inherit !important; } }
+
+@media only screen and (min-width: 992px) {
+  body.dark-theme-page.light-theme-overlay .ow-primary-header.sticky-header .primary-nav-wrapper .link .contact-us {
+    color: #fff !important; } }
+
+body.dark-theme-page .hamburger-mobile span {
+  background-color: #fff; }
+
+body.dark-theme .text-wrapper .light-gray-text, body.dark-theme-overlay .text-wrapper .light-gray-text, body.dark-theme-page .text-wrapper .light-gray-text, body.blue-theme .text-wrapper .light-gray-text, body.blue-theme-overlay .text-wrapper .light-gray-text, body.blue-theme-page .text-wrapper .light-gray-text {
+  color: rgba(240, 240, 240, 0.7) !important; }

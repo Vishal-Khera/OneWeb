@@ -1,0 +1,35 @@
+﻿---
+ID: "e78e99ff-4b06-410e-a552-67091cd0f840"
+Parent: "d800c068-9717-49a0-961e-f913d7c0053c"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWeb/Scripts/3-slidebar-nav"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/E78E99FF4B06410EA55267091CD0F840.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "4f4bb227-953e-4441-867c-2a5b807f48b9"
+  Value: Ly8gc3ViIG1lbnUgbGluayBhY3RpdmUgDQokKGRvY3VtZW50KS5vbignY2xpY2snLCcuZHJvcGR3b24tYXJyb3cnLCBmdW5jdGlvbiAoKSB7DQoJaWYoJCh0aGlzKS5wYXJlbnQoKS5oYXNDbGFzcygnw6l4cGFuZCcpKXsNCgkJJCh0aGlzKS5wYXJlbnRzKCcubGVmdG1lbnUnKS5maW5kKCd1bCcpLnJlbW92ZUNsYXNzKCdzaG93Jykuc2xpZGVVcCgpOw0KCQkkKHRoaXMpLnBhcmVudHMoJy5sZWZ0bWVudScpLmZpbmQoJy5kcm9wZHdvbi1hcnJvdycpLnBhcmVudCgpLnJlbW92ZUNsYXNzKCdleHBhbmQnKQ0KCX0NCgllbHNlew0KCQkkKHRoaXMpLmNsb3Nlc3QoJ2xpJykuc2libGluZ3MoKS5maW5kKCd1bCcpLnJlbW92ZUNsYXNzKCdzaG93Jykuc2xpZGVVcCgpOw0KCQkkKHRoaXMpLmNsb3Nlc3QoJ2xpJykuc2libGluZ3MoKS5maW5kKCcuZHJvcGR3b24tYXJyb3cnKS5wYXJlbnQoKS5yZW1vdmVDbGFzcygnZXhwYW5kJykNCgkJJCh0aGlzKS5wYXJlbnQoKS50b2dnbGVDbGFzcygnZXhwYW5kJykubmV4dCgpLmFkZENsYXNzKCdzaG93Jykuc2xpZGVUb2dnbGUoKTsNCgl9DQp9KQ0KDQovLyBsZWZ0IG1lbnUgb3BlbiBjbG9zZSBidXR0b24NCiQoJy5sZWZ0LU1lbnUtYnRuJykuY2xpY2soZnVuY3Rpb24gKGUpIHsNCgkkKCcubGVmdG5hdi1tZW51JykudG9nZ2xlQ2xhc3MoJ01lbnVPcGVuJykNCn0p
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 681
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: "application/x-javascript"
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: js
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220715T094233Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

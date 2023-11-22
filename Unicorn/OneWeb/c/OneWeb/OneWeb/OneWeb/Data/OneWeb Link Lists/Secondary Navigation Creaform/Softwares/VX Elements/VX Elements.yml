@@ -1,0 +1,22 @@
+﻿---
+ID: "08d15cac-5fcf-4721-8316-4b761998f0f7"
+Parent: "d2af5751-c8a3-4d20-a15e-7c0a81332932"
+Template: "fca1aaee-864c-4658-8fdb-75cdb4ca89be"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Link Lists/Secondary Navigation Creaform/Softwares/VX Elements/VX Elements
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T161749Z
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: |
+        <link id="{67CE7364-5D3F-4618-B088-B1B884F8C09F}" querystring="" text="VXelements" anchor="" title="" class="" url="/OneWeb/OneWeb/OneWeb/Home/SL01 Product Navigation" linktype="internal" />

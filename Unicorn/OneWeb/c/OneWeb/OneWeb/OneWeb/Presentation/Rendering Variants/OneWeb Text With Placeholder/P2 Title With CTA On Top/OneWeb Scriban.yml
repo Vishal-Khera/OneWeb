@@ -1,0 +1,60 @@
+﻿---
+ID: "75fdc6fa-38f9-4345-b848-f4056ea1fc1a"
+Parent: "6187d1cb-a528-46f0-970d-e9a9b279300b"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Text With Placeholder/P2 Title With CTA On Top/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class ="container">
+    <div class ="row">
+    <div class="col-md-3 card-desktop-item text-center text-md-left">
+      <div class="component text-wrapper">
+       {{if i_item.title !=""}}
+          <h2>{{i_item.title}}</h2>
+       {{end}}
+    {{if i_item.subtext !=""}}
+    <h2 class="light-gray-text">{{i_item.subtext}}</h2>
+    {{ end }}
+        {{primary_link_classes = "button btn-simple "}}
+            {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+                  if( primary_filtered_classes)
+                    if(primary_filtered_classes.class | string.size) > 0
+                      primary_link_classes = primary_link_classes + primary_filtered_classes.class
+                    end
+                  end}}
+    			  {{link_model = ow_link_model i_item 'PrimaryLink'}}
+              {{ if(link_model.url != "") }}
+                      <a href="{{link_model.url}}" class="{{primary_link_classes}}" title="{{link_model.title}}" target="{{link_model.target}}"><span>{{link_model.text}}</span></a>
+               {{ end }}
+     </div>
+    </div>
+    {{sc_dynamic_placeholder 'ow-text-placeholder'}}
+        <div class="col-md-3 d-md-none card-mobile-item text-center text-md-left">
+          <div class="component text-wrapper">
+          {{if i_item.title !=""}}
+          <h2>{{i_item.title}}</h2>
+       {{end}}
+       {{ if(link_model.url != "") }}
+                      <a href="{{link_model.url}}" class="{{primary_link_classes}}" title="{{link_model.title}}" target="{{link_model.target}}"><span>{{link_model.text}}</span></a>
+               {{ end }}
+       </div>
+     </div>
+     </div>
+     </div>
+    								
+    								
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220718T154045Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

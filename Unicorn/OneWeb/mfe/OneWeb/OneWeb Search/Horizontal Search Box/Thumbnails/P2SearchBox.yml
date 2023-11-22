@@ -1,0 +1,49 @@
+﻿---
+ID: "c9e01960-a7aa-42b8-a764-6da4a62a5771"
+Parent: "2909848e-8c2d-47c1-96be-320ba1e567bc"
+Template: "c97ba923-8009-4858-bdd5-d8be5fccecf7"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Search/Horizontal Search Box/Thumbnails/P2SearchBox
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/c9e01960a7aa42b8a7646da4a62a5771.ashx?h=16&la=en&thn=1&w=16&thm=1"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2A918814-9A5B-46A5-A3DA-209B36A15D2F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221018T143045Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "3eb149f8-de14-4220-a8f4-9e723cfae5d9"
+      Hint: Extension
+      Value: png
+    - ID: "5be6c122-84c9-4661-a0c9-3718909c8dad"
+      Hint: Size
+      Value: 1561
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\kritika.kaur
+    - ID: "611ba5dd-8d26-4c9b-a95d-900ac94cb32a"
+      Hint: Height
+      Value: 54
+    - ID: "6405cc9e-9ca1-44a1-adf8-0decf05071ce"
+      Hint: Dimensions
+      Value: 938 x 54
+    - ID: "a50b93fd-c413-4065-aec7-5ea8ce107200"
+      Hint: File Path
+      Value: feature/oneweb/oneweb search/horizontal search box/thumbnails/p2searchbox_en_1.png
+    - ID: "aba5ce58-6d8f-43a4-b4fa-b181651347dd"
+      Hint: Mime Type
+      Value: image/png
+    - ID: "d8e619c3-2d16-47f4-ad3b-c68103df86c2"
+      Hint: Width
+      Value: 938

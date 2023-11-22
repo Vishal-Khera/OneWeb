@@ -1,0 +1,17 @@
+﻿---
+ID: "36f44537-16d9-4e82-9db8-e9057b708e6f"
+Parent: "8cdb02ae-4106-4fc3-9627-8a8e6d01de5d"
+Template: "1ecc9a7b-c433-4f5f-826e-c79311e724f3"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Language Switcher
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211119T064236Z
+    - ID: "b48eab01-8d4e-4f0d-88a6-3b0c5119afde"
+      Hint: Icon
+      Value: "fa-globe"

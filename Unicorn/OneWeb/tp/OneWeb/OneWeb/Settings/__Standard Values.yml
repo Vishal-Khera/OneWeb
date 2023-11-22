@@ -1,0 +1,22 @@
+﻿---
+ID: "2b4af800-1034-426b-bfae-e390d78242f9"
+Parent: "e84e0893-0809-46c8-bfa5-1233e978908b"
+Template: "e84e0893-0809-46c8-bfa5-1233e978908b"
+Path: /sitecore/templates/Project/OneWeb/OneWeb/Settings/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T073818Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "d6d04d54-c77e-4851-b270-182be7018911"
+      Hint: Default Hero Banner Image
+      Value: |
+        <image mediaid="{2DD57236-9432-43A1-9648-03A95F0174EB}" />

@@ -1,0 +1,18 @@
+﻿---
+ID: "a8f71c3d-a3a3-4f50-99db-add583db006f"
+Parent: "97be0e02-43a3-4a8b-85c1-4d6a916bae6d"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Styles/Padding/Extra Small Padding
+DB: master
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "extra-small-padding"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T090947Z

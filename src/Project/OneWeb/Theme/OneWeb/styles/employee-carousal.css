@@ -1,0 +1,4 @@
+@media only screen and (min-width: 992px) {
+  .employee-carousal .ow-card .ow-card-image {
+    min-width: 25%;
+    margin-right: 40px; } }

@@ -1,0 +1,18 @@
+﻿---
+ID: "6a920a34-4763-49ba-8d88-0ee51806ab5d"
+Parent: "bb706452-ca03-44ca-a907-71fe1a80a21b"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Page Content/OneWeb Testimonial Card/Thumbnails
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220206T125842Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,14 @@
+﻿---
+ID: "f27d84b1-f7b8-435a-a133-125fc2d33612"
+Parent: "fb69310f-5293-4d0a-8c46-c0afc43beb5d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Datasource/OneWeb Advanced Search Filter/Advanced Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T233421Z

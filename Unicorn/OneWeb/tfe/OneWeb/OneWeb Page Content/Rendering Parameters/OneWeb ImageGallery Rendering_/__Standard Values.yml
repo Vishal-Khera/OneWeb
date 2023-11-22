@@ -1,0 +1,18 @@
+﻿---
+ID: "5db90a04-0ebf-4190-b2e0-eef8df4baf91"
+Parent: "8e5ca6c9-bad7-4ab4-9f7c-ead8f8ccf36e"
+Template: "8e5ca6c9-bad7-4ab4-9f7c-ead8f8ccf36e"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb ImageGallery Rendering Parameters/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130319T100900Z

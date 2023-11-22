@@ -1,0 +1,14 @@
+﻿---
+ID: "7d7c5120-151d-4d24-8b63-005fe71b1cb4"
+Parent: "6cc51919-de68-4610-a680-f16fd0bb574b"
+Template: "6cc51919-de68-4610-a680-f16fd0bb574b"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Login/Datasource/OneWeb Users Table/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T112128Z

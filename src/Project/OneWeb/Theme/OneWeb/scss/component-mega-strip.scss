@@ -1,0 +1,62 @@
+
+@import 'base/base-index.scss';
+
+.ow-header-strip{
+    margin: auto;
+    color: $black;
+    position: relative;
+    width: 100%;
+    padding: 5px 10px;
+    .stripclosebtn{
+        width: 10px;
+        height: 10px;
+        position:absolute;
+        right: 15px;
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        cursor: pointer;
+        &::before,
+    &::after{
+        position: absolute;
+        left: 10px;
+        content: ' ';
+        height: 10px;
+        width: 1px;
+        background-color: $black;
+        top:0px;
+    }
+    &::before {
+        transform: rotate(45deg);
+      }
+    &::after {
+        transform: rotate(-45deg);
+      }
+      span{
+          color:$black;
+      }
+
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+.ow-strip-fixed{
+    z-index: 99;
+    position: sticky;
+    top:0;
+}
+
+.primary-background,
+.dark-gray-background,
+.mod-gray-background{
+    .ow-header-strip{
+        color: $white;
+        .stripclosebtn{
+            &::after,
+            &::before{
+                background-color: $white;
+            }
+        }
+    }
+}

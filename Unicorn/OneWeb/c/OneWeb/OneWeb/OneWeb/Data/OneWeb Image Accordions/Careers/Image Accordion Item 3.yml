@@ -1,0 +1,29 @@
+﻿---
+ID: "ca0a2d75-82da-4871-8509-785b2d30f059"
+Parent: "67b53de4-593a-437f-8c06-6087c34f70b5"
+Template: "1c0ee710-b440-4f8d-80ae-ca464571204b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Image Accordions/Careers/Image Accordion Item 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220112T190057Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: |
+        Advancing Cutting-Edge Research & Development
+        
+    - ID: "5457a43c-834a-46a9-b57d-eca5a856f48b"
+      Hint: Image List
+      Value: "{6BE919BB-DB7A-4675-B953-99FE43742247}|{C38B479E-7F2A-4003-A779-8E085E3E1CFD}|{5403CB60-080E-4716-BD29-9E14457EF7E2}|{F126A79F-AA0A-4B2A-A071-33CC228CC637}|{329E197B-3631-43EC-91AF-5EC89DB1141C}|{01556501-904E-455F-9B3D-F4A9155B5806}|{8D2C66D3-121E-4A8E-855A-BA99EB6C15BD}|{9139C223-AF6B-425B-ADCE-6008B5C5E898}|{92D026F5-432A-4B6B-9BED-6656DCFB6EED}"
+    - ID: "c1ef176f-8343-4bbc-aa16-684ef202abf0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F503A2E1-1769-47A0-8FF2-6DD206CF5C9C}" />
+    - ID: "da373cd7-f723-416e-a552-1ade06c7f708"
+      Hint: Structure
+      Value: "{A89A9349-7CBD-48D1-8F9A-25B6D9E5A7BA}"

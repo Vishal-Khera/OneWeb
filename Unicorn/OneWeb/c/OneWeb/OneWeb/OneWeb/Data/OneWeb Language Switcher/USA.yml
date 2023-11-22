@@ -1,0 +1,28 @@
+﻿---
+ID: "f5e6723b-97be-4674-b992-a614cfb230f0"
+Parent: "36f44537-16d9-4e82-9db8-e9057b708e6f"
+Template: "4746a995-6894-4791-8d6d-ed9cff0b8451"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Language Switcher/USA
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d3f688b-4a13-4ba6-9735-f6a2070b80c0"
+      Hint: Title
+      Value: US
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211119T064303Z
+    - ID: "386dabe4-4ca8-429f-bae5-330e95d78ccb"
+      Hint: Link
+      Value: "{D3C4C240-FAB9-4EEE-8C94-0C5FDCFC113D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

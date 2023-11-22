@@ -1,0 +1,18 @@
+﻿---
+ID: "5c1708d6-80d6-4300-a030-c56c0e8f7462"
+Parent: "abe52f87-8cca-4cb6-8158-b6b74d54d092"
+Template: "501263be-cb23-4092-8968-1c0f0e29b842"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Link Lists/Secondary Navigation Creaform/Softwares
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220816T134304Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

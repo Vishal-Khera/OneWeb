@@ -1,0 +1,22 @@
+﻿---
+ID: "381b4c5d-379a-4843-8496-f6766838d50c"
+Parent: "08ae69b3-b5cc-4d37-b26e-b94f8eab4bd1"
+Template: "e24e0789-a058-48bf-abb6-c69c0e60b6b7"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Links/Header/Ask an Expert
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220722T091710Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "dd05144a-bd66-4ea3-956a-4b7104daaba3"
+      Hint: Link
+      Value: |
+        <link text="Ask an Expert" anchor="" linktype="internal" class="button btn-default orange-theme" title=""  querystring="" id="{CC5A230B-888F-4F46-9AFD-F1D44A8E34B5}" />

@@ -1,0 +1,14 @@
+﻿---
+ID: "78e368f6-96c1-4c92-85bb-9ba6785d8078"
+Parent: "05e65731-cf4b-4b09-af89-21c5679229c3"
+Template: "501263be-cb23-4092-8968-1c0f0e29b842"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Link Lists/Footer Crea
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T084009Z

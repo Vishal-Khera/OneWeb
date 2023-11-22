@@ -1,0 +1,25 @@
+﻿---
+ID: "4051abd9-79b7-489b-aa29-c0460c779910"
+Parent: "afd03679-d0b1-4e60-860b-db6c9d9284a7"
+Template: "afd03679-d0b1-4e60-860b-db6c9d9284a7"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Image Accordion Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {CE00AF4F-A371-4142-AC38-C238F4D3E2DA}
+    {AFD03679-D0B1-4E60-860B-DB6C9D9284A7}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120625T094410Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,17 @@
+@import 'base/base-index.scss';
+.grid-tabs{
+    &.uk-subnav-pill{
+        .uk-active{
+            a{
+                background-color: $primary;
+                color:$white;
+            }
+        }
+        *{
+            a{
+                color:$black;
+            }
+        }
+    }
+    
+}

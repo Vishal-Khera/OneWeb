@@ -1,0 +1,35 @@
+﻿---
+ID: "efcbca92-f2d2-4cdc-9d2b-864a43cba51b"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/Businesses
+DB: master
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Type: Checklist
+  Value: |
+    {61BD64D6-809E-40AE-9297-2724A19329B3}
+    {500AE4C0-FA7B-463F-8149-EFFF7F044101}
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{367D2B7A-CDCE-49F1-9EB4-F7388E9B0EDB}"
+- ID: "e40bdb84-8c4c-44ea-8fe6-005ee4708672"
+  Hint: Tags
+  Value: "{6A6FBDA9-3C2F-4C4B-85EE-04482A064A6F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211127T191132Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: |
+        Businesses
+        
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Businesses

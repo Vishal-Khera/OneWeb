@@ -1,0 +1,32 @@
+﻿---
+ID: "17f348a3-c238-48af-8c3d-6a6e23a3083e"
+Parent: "f4abf27a-bed2-451c-92ee-cec6a3c8aac2"
+Template: "1a08b4cb-c273-4f3a-a001-b2878151081e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/OneWeb Search Configurations/Search/Product Support
+DB: master
+SharedFields:
+- ID: "b855a7dd-0ba9-4e69-a57b-af06b5d16090"
+  Hint: Show Results By Default
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T112331Z
+    - ID: "8825881f-e960-4550-9c67-b36a8d516301"
+      Hint: Scope
+      Value: "{FE545B87-1705-43F4-AED5-F6BA90FDC23B}"
+    - ID: "b7eebf88-5bec-4a0d-bf71-f404b319bc7a"
+      Hint: Query
+      Value: "sxa:OneWebFieldBoost|ow_title|10;+template:{92d1da5d-4ad7-44ce-8f19-d55b2e12b042};sxa:OneWebFieldBoost|ow_aggregatedcontent|1;sxa:OneWebFieldBoost|ow_producttypes|1;+custom:support groups|*"
+    - ID: "e8eb4055-e1a0-49b2-8684-61852090e045"
+      Hint: Filters
+      Type: TreelistEx
+      Value: "{53306818-9DC2-43A4-9035-193139C4D153}"

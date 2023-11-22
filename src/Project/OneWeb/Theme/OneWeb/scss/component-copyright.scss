@@ -1,0 +1,13 @@
+@import 'base/base-index.scss';
+//copy write 
+
+.highlighted-text{
+    margin: 0;  
+    padding-bottom: 6px;
+    padding-top: 6px;  
+    .component-content{
+        margin-bottom: 0px;
+        color: $mid-light-gray;
+        font-size: 12px;   
+    } 
+}

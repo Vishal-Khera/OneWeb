@@ -1,0 +1,23 @@
+﻿---
+ID: "ae62a431-0ecc-4cf2-9ecb-d7960d4f73c3"
+Parent: "2203dd70-47a6-4265-991e-d8a5271f38f4"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/Product Support Results/Template
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    [[#each Results]][[#if (isdefined this.Business)]][[#jsonBlock this.Business]]<div class="product-business mt-5 mb-4"> [[#if (isdefined @Logo)]] <div class="business-logo mb-3"> [[#if (isdefined @Link.Url)]] <a href="[[@Link.Url]]" anchor="[[@Link.Anchor]]" class="[[@Link.Class]]" title="[[@Link.Title]]">[[else]] <a href="javascript:void(0)">[[/if]] <img class="ow-lazy" data-src="[[@Logo.Url]]" alt="[[@Logo.Alt]]" title="[[@Logo.Title]]"/> </a> </div>[[/if]] [[#if (isdefined @SupportGroups)]] <div class="business-support-query light-gray-background"> <div class="business-support-contact"> [[#each @SupportGroups.List]] [[#if (equals @index 0)]] <ul class="active" data-country="[[this.Identifier]]"> [[else]] <ul data-country="[[this.Identifier]]"> [[/if]] [[#each this.Links]][[#if (isdefined this.Title)]] <li><a href="[[this.Link.Url]]" target="[[this.Link.Target]]" anchor="[[this.Link.Anchor]]" title="[[this.Link.Title]]"><i class="[[this.IconClass]]" aria-hidden="true"></i>[[[this.Title]]]</a></li>[[/if]] [[/each]] </ul> [[/each]] </div><div class="business-support-dropdown"> <p>[[[@SupportGroups.Title]]]</p><div class="dropdown"> <select> [[#each @SupportGroups.List]] <option value="[[this.Identifier]]">[[[this.Title]]]</option> [[/each]] </select> </div></div></div>[[/if]]</div>[[/jsonBlock]][[/if]][[/each]]
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211223T225806Z

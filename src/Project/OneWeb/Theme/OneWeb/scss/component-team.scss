@@ -1,0 +1,102 @@
+@import "base/base-index.scss";
+.ow-card-team-bg {
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-bottom: 0 !important;
+  padding: 0;
+ 
+  .banner-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+    margin: 0px;
+  }
+  
+}
+
+.ow-meet-team { 
+ margin-bottom: 0px;
+
+ @include lg{
+  margin-top: -156px;
+ }
+
+  .component-content{
+    .ow-card-tiles { 
+      .card-item{
+        margin-bottom: 30px;
+      }
+      h4{
+        color: $white; 
+      }
+
+    h5{
+        font-family: "HelveticaNeue-Light";
+        @include font-size($mxl-font);
+        color: $white;
+    }
+
+    .slick-dots {
+      padding-left: 0;
+      bottom: -15px !important;
+      display: block;
+      margin-left: 15px;
+      padding-top: 0;
+      left: 0;
+      justify-content: unset;
+      align-items: unset;
+      top: unset;
+
+      @include md {
+        padding-top: unset;
+      }
+
+      li {
+        background: $dark-gray !important;
+
+        &.slick-active {
+          background: $white !important;
+          border: 1px solid $dark-gray !important;
+        }
+      }
+    }
+
+    }
+  }
+
+}
+
+
+.text-block {
+  position: relative;
+  top: 0px; 
+  width: 100%;
+  padding: 30px 0;
+  margin-bottom: 0 !important;
+
+  @include lg{
+    background: $primary;
+  }
+
+  h3 {
+    color: $black;
+    @include font-size($xxl-font);
+    font-family: "Helvetica Neue";
+
+    @include lg{
+      color: $white;
+    }
+  }
+  p { 
+    display: none;   
+
+    @include lg{
+      color: $white;
+      font-family: "Helvetica Neue";
+      display: block;   
+    }
+  }
+}

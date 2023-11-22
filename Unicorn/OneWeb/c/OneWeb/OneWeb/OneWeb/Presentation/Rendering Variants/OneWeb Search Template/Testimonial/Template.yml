@@ -1,0 +1,50 @@
+﻿---
+ID: "1d08fccd-3640-4b8c-8195-7e99cbd41428"
+Parent: "bfffab75-d1b8-4a9d-9e7e-c5133de95fc1"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/Testimonial/Template
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="component row">
+    [[#each Results]]
+    <div class=" component testimonial-card col-md-6">
+    <div class=" component-content">
+    <div class="cards">
+       <div class="card">
+    	  <div class="card-header">	 
+    		 <div class="card-image">
+    			 <img src="[[ this.Image.Url]]" class="ow-lazy" title="[[ this.Image.Title]]" alt="[[ this.Image.Alt]]">
+    		 </div>
+    		 <div class="card-heading">			 
+    			<h2 class="name">[[Title]]</h2>
+    			<h3 class="designation">[[Designation]]</h3>
+    			<div class="card-quote">[[Caption]]</div>
+    		 </div>
+    	  </div>
+    	  <div class="card-body">		 
+    		 <div class="card-paragraph">
+    [[[Content]]]			
+    		 </div>		  
+    	  </div>
+       </div>
+    </div>
+    </div>
+    </div>
+     [[/each]]
+     </div>
+     
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220601T071350Z

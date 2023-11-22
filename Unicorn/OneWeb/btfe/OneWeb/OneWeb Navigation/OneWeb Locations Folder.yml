@@ -1,0 +1,18 @@
+﻿---
+ID: "c172308e-3742-4318-b622-c91bc1480174"
+Parent: "efd86373-7b6d-452f-8349-46c5d3ccd87d"
+Template: "85adbf5b-e836-4932-a333-fe0f9fa1ed1e"
+Path: /sitecore/templates/Branches/Feature/OneWeb/OneWeb Navigation/OneWeb Locations Folder
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211214T135646Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

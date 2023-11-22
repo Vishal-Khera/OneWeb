@@ -1,0 +1,49 @@
+@import "base/base-index.scss";
+
+.ow-full-text {
+  width: 100%;
+  padding: 40px 0;
+
+  .ow-card-content {
+    width: 100%;
+
+    
+    h3 {
+      font-family: "Helvetica Neue";
+      @include font-size($xxl-font);
+      margin-bottom: 20px;
+    }
+
+    .list-item {
+      padding-left: 25px;
+      margin: 0;
+      li {
+        list-style-type: square;
+        @include font-size($lg-font);
+        margin-bottom: 20px;       
+
+        @include lg {
+          @include font-size($sxl-font);
+          line-height: 40px;
+        }
+
+        .highlight-text {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px;
+
+    @include lg {
+      align-items: unset;
+      justify-content: unset;
+      margin-top: unset;
+    }
+  }
+}

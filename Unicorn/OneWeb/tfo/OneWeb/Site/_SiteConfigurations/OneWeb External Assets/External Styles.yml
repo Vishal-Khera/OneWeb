@@ -1,0 +1,21 @@
+﻿---
+ID: "f3dc8dff-ac25-41c4-b819-aff8fa3563fb"
+Parent: "77b38e26-b56c-41a1-910d-705e8a06c5c0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Foundation/OneWeb/Site/_SiteConfigurations/OneWeb External Assets/External Styles
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Multi-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211127T220255Z

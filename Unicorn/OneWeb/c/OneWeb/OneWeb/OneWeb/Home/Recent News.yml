@@ -1,0 +1,67 @@
+﻿---
+ID: "75c7a1ec-372e-4bf9-af2d-4746a221bc46"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "6ef46bc6-1f7f-438f-a981-177b67adfa17"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/Recent News
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0F2EF461-2E0D-4B48-85FE-E56AD4BAB2A1}"
+          p:before="*"
+          s:ds=""
+          s:id="{DB161118-5694-4A81-81FF-67073D3833EB}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Page Size=5&amp;Pages To Skip=0&amp;Autoplay&amp;Autoplay Speed&amp;Show Arrows&amp;Show Dots&amp;Slides To Show&amp;Slides To Show Mobile=1.2&amp;Slides To Show Tab=2.2&amp;Custom Slider Class&amp;FieldNames=%7BC582916E-5FC3-4DFF-96AD-D596780DB941%7D&amp;Styles&amp;Tag&amp;Press Releases&amp;Reset Caching Options&amp;RenderingIdentifier&amp;Show Separator=1&amp;Show Button=1&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-4" />
+        <r
+          uid="{478CF892-2DF7-479C-B4C4-F6B531DB8DF5}"
+          p:after="r[@uid='{0F2EF461-2E0D-4B48-85FE-E56AD4BAB2A1}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7B9A42AD88-86A0-4974-BA9A-1F11462FDBFD%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-1/ow-row-2" />
+        <r
+          uid="{9255AD42-7BCD-4183-9E2F-001E0D9167B9}"
+          p:after="r[@uid='{478CF892-2DF7-479C-B4C4-F6B531DB8DF5}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7BC11DF379-757F-4085-8B55-5C9D589389B9%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/ow-container-1/ow-row-2" />
+        <r
+          uid="{E3C46253-9DE8-4B6A-9AFC-BD3457826B2F}"
+          p:after="r[@uid='{9255AD42-7BCD-4183-9E2F-001E0D9167B9}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-1" />
+        <r
+          uid="{33726548-FF03-4DA6-B2B6-82E77F251718}"
+          p:after="*[1=2]"
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220523T132109Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: News Test
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: News Test

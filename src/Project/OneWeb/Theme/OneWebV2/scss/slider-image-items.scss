@@ -1,0 +1,226 @@
+@import 'base/base-index.scss';
+
+.component-text-with-carousal {
+    .slick-slider {
+        img {
+            border-radius: 8px;
+            width: 100%;
+            max-height: 600px;
+        }
+
+        .slick-arrow {
+            padding: 20px 20px;
+            border-radius: 5px;
+            background-color: $black;
+            top: unset;
+            bottom: 30px;
+            transition: .2s all;
+            opacity: .7;
+
+            @include md {
+                top: 50%;
+                bottom: unset;
+                padding: 34px 20px;
+                background-color: $mediumblack;
+            }
+
+            &:hover {
+                @include md {
+                    padding: 34px 24px;
+                    background-color: $brandblack2;
+                    opacity: 1;
+                }
+            }
+
+            &.slick-next {
+                &:not(.slick-disabled){
+                &:hover{
+                    @include md {
+                        right: 7px;
+                    }
+                }
+            }
+                &::after {
+                    padding: 5px;
+                    border-width: 0 2px 2px 0;
+                    right: 18px;
+                    top: 15px;
+                    border-color: $white;
+                    left: auto;
+
+                    @include md {
+                        right: 17px;
+                        top: 27px;
+                    }
+                }
+
+                &.slick-disabled {
+                    padding: 20px 20px;
+                    background: $mediumblack;
+
+                    @include md {
+                        padding: 34px 20px;
+                    }
+                }
+            }
+
+            &.slick-prev {
+                &:not(.slick-disabled){
+                    &:hover{
+                        @include md {
+                            left: 7px;
+                        }
+                    }
+                }
+                
+                &::after {
+                    padding: 5px;
+                    border-width: 0 2px 2px 0;
+                    left: 15px;
+                    top: 15px;
+                    border-color: $white;
+
+                    @include md {
+                        left: 17px;
+                        top: 29px;
+                    }
+                }
+
+                &.slick-disabled {
+                    padding: 20px 20px;
+                    background: $mediumblack;
+                    opacity: .7 !important;
+                    @include md {
+                        padding: 34px 20px;
+                    }
+                }
+            }
+        }
+
+        .slick-dots {
+            padding-top: 20px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+
+            @include md {
+                padding-top: 12px;
+            }
+
+            li {
+                transition: .2s;
+                height: 6px;
+                width: 6px;
+                margin: 0px 10px 0 0;
+                background-color: $lightblack;
+                border: 0;
+
+                &.slick-active {
+                    width: 16px;
+                    border-radius: 5px;
+                    background-color: $mediumblack;
+
+                }
+            }
+        }
+    }
+
+    &.ow-multipleimage-card {
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    .text-wrapper {
+        padding-top: 30px;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        p, .paragraph-wrapper {
+
+            font-family: $franklinMd !important;
+            .content-row{
+                &:first-child{
+                    margin-top: 10px;
+                    @include md{
+                        margin-top: 15px;
+                    }
+                }
+                h5{
+                    @include font-size($smslg-font);
+                }
+                @include font-size($smslg-font);
+                display: block;
+                padding: 20px 0px;
+                @include xl{
+                    width: 60%;
+                }
+            }
+
+        }
+
+        @include md {
+            padding-top: 0;
+        }
+
+        .paragraph-wrapper {
+            margin-top: 10px;
+            margin-bottom: 30px;
+            color: $paragraph-text;
+
+
+            @include md {
+                margin-top: 15px;
+            }
+            .separator-top{
+                &:first-of-type{
+                    margin-top: 20px;
+                }
+            }
+
+            h5{
+                color: $brandblack;
+                @include font-size($smslg-font);
+                margin-bottom: 0;
+            }
+
+            p {
+                margin-bottom: 15px;
+
+                @include md {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .text-black{
+            font-family: $franklinMd !important;
+        }
+    }
+}
+
+.ow-multipleimage-card{
+    width:100%;
+    .paragraph-wrapper{
+        &.lg-paragraph{
+            @include font-size($smslg-font);
+        }
+    }
+}
+
+.dark-theme{
+    .component-text-with-carousal {
+        .slick-slider {
+            .slick-dots {
+                li{
+                    background-color: $smoke-white;
+                    &.active{
+                        background-color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@import 'base/base-index.scss';
+.ow-video-banner{
+    width: 100%;
+    position: relative;
+    .video-container{
+        position: relative;
+        padding-top: 56.25%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        @include lg{
+            padding-top: 42.9%;
+        }
+        iframe,
+        video{
+            width: 100%;
+            position: absolute;
+            top:50%;
+            object-fit: cover;
+            height: 102%;
+            transform: translateY(-50%);
+            @include lg{
+                height: 132%;
+            }
+        }
+        iframe{
+            object-fit: contain !important;
+        }
+    }
+}
+.ow-bg-overlay{
+    .video-container{
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: transparent linear-gradient(270deg, #00000000 0%, #00000070 0%, #000000 100%) 0% 0% no-repeat padding-box;
+        }
+    }
+}

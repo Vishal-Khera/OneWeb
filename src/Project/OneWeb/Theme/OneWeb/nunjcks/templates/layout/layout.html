@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Ametek</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.12.2/dist/css/uikit.min.css" />
+	
+	<link rel="stylesheet" href="styles/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-accordion.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-alphabetic-filter.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-banner.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-banner-data-value.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-banner-video.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-block-image.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-breadcrumb.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-business.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-business-list.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-business-support.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-button.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-card-business.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-card-tile.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-client-industry.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-column.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-contactus.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-copyright.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-custom-modal.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-data-counter.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-decoupled.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-email-signup.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-filter-facet.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-filter-search.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-footer.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-form.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-global.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-global-search.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-grid-list-view.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-header.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-language.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-location-card.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-mega-nav.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-news.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-news-item.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-phone-number.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-search-result.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-sidebar.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-sitemap.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-skip-content.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-social-icon.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-unsubscribe-form.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-video.css" type="text/css" />
+	<link rel="stylesheet" href="styles/content-tabs.css" type="text/css" />
+	<link rel="stylesheet" href="styles/grid-list-view.css" type="text/css" />
+	<link rel="stylesheet" href="styles/image-carousal.css" type="text/css" />
+	<link rel="stylesheet" href="styles/slick.css" type="text/css" />
+	<link rel="stylesheet" href="styles/slick-theme.css" type="text/css" />
+	<link rel="stylesheet" href="styles/sliderbar-nav.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-mega-strip.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-main-navigation.css" type="text/css" />
+	<link rel="stylesheet" href="styles/map-popover.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" type="text/css" />
+	<link rel="stylesheet" href="styles/related-products.css" type="text/css" />
+	<link rel="stylesheet" href="styles/banner-with-search.css" type="text/css" />
+	<link rel="stylesheet" href="styles/header-toolbar.css" type="text/css" />
+	<link rel="stylesheet" href="styles/image-gallery.css" type="text/css" />
+	<link rel="stylesheet" href="styles/teams-card.css" type="text/css" />
+	<link rel="stylesheet" href="styles/grid-tabs.css" type="text/css" />
+	<link rel="stylesheet" href="styles/employee-carousal.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-countdown.css" type="text/css" />
+	
+	
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!--header-->
+	{% include "partials/common/headerv6.html" %}
+	<!--header-->	
+
+	<!-- body starts -->
+			{% block maincontent %} {% endblock %}
+	<!-- Body ends -->
+	<!--footer-->
+	{% include "partials/common/footer.html" %}
+	<!--footer-->
+
+
+	
+	<script src="https://kit.fontawesome.com/2356e544d0.js" crossorigin="anonymous"></script>
+	<script src="scripts/1-jquery.js" type="text/javascript"></script>
+	<script src="scripts/2-bootstrap.js" type="text/javascript"></script>
+	<script src="scripts/2-slick.js" type="text/javascript"></script>
+	<script src="scripts/3-mega-nav.js" type="text/javascript"></script>
+	<script src="scripts/3-utility.js" type="text/javascript"></script>
+	<script src="scripts/3-select-box.js" type="text/javascript"></script>
+	<script src="scripts/3-component-carousel.js" type="text/javascript"></script>
+	<script src="scripts/3-card-tile.js" type="text/javascript"></script>
+	<script src="scripts/32-component-video.js" type="text/javascript"></script>
+	<script src="scripts/3-slidebar-nav.js" type="text/javascript"></script>
+	<script src="scripts/41-business-card.js" type="text/javascript"></script>
+	<script src="scripts/4-business-support-toggle.js" type="text/javascript"></script>
+	<script src="scripts/4-client-logo-toggle.js" type="text/javascript"></script>
+	<script src="scripts/4-component-global-search.js" type="text/javascript"></script>
+	<script src="scripts/42-component-search.js" type="text/javascript"></script>
+
+	<script src="scripts/31-component-lazyload.js" type="text/javascript"></script>
+	<script src="scripts/2-map.js" type="text/javascript"></script>
+	<script src="scripts/4-custom-map.js" type="text/javascript"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" type="text/javascript"></script>
+	<script src="scripts/3-image-gallery.js" type="text/javascript"></script>
+	<script src="scripts/4-component-countdown.js" type="text/javascript"></script>
+	
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.12.2/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.12.2/dist/js/uikit-icons.min.js"></script>
+	
+	
+	
+</body>
+
+</html>

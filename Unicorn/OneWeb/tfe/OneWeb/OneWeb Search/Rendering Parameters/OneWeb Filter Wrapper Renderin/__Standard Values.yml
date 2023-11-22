@@ -1,0 +1,21 @@
+﻿---
+ID: "538c1497-0b4f-4c16-a1ec-1fc45672879e"
+Parent: "f2984909-64df-41bd-a055-f70f0b4ee7bb"
+Template: "f2984909-64df-41bd-a055-f70f0b4ee7bb"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Rendering Parameters/OneWeb Filter Wrapper Rendering Parameters/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 201
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211123T162027Z

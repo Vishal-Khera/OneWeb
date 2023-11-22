@@ -1,0 +1,32 @@
+﻿---
+ID: "560b1df3-4fc1-469f-8a44-274914eb35db"
+Parent: "9690c594-df09-436e-9447-645a65f6eb26"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Link List/P2 Social Links/Sociallinks
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{primary_link_classes = ""}}						
+    {{ primary_filtered_classes = ow_link_model i_item 'Link'
+    							if primary_filtered_classes 
+    								if (primary_filtered_classes.class | string.size) > 0
+    									primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    								end
+    							end}}
+    							
+    						{{primary_link = (sc_field i_item 'PrimaryLink'[['text', (i_item.PrimaryLink.text)], ['class', (primary_link_classes)]])}}
+    						
+    						{{-if primary_link-}}
+    						<a href="{{primary_filtered_classes.url}}"><i class="{{primary_link_classes}}"></i>{{primary_filtered_classes.text}}</a>
+    						{{-end-}}
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220629T084341Z

@@ -1,0 +1,28 @@
+﻿---
+ID: "98711663-c084-460f-a7e8-681175648319"
+Parent: "6921c632-aa0f-4bf3-bdff-f0509efbf14e"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card/Expandable Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{expand_content= (sc_parameter 'Expand Content')}}
+    {{if expand_content != "1"}}
+    	{{sc_execute i_item "Static Card Scriban"}}
+    {{else}}
+    	{{sc_execute i_item "Expandable Card Scriban"}}
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220510T072012Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,47 @@
+@import 'base/base-index.scss';
+
+.ow-news{
+    .date{
+        margin-bottom: 15px;
+        font-family: 'HelveticaNeue-Light';
+        @include font-size($sm-font);
+        a{
+            color: $dark-mid-gray;
+            text-decoration:unset;
+        }
+    }
+    img{
+        margin-right: 15px;
+        float: left;
+        margin-bottom: 15px;
+        
+    }
+
+    p{
+        line-height: 24px;
+        text-align: left;
+        @include font-size($md-font);
+        a{
+            color: $primary;
+        }
+    }
+
+    hr{
+        margin-bottom: 40px;
+        margin-top: 40px;
+        border-top:unset;
+
+        @include lg{
+            border-top:1px solid $border-light-gray;
+        }
+    }
+
+    h3{
+        border-bottom:2px solid $border-light-gray;
+        padding-bottom: 15px;
+
+        @include lg{
+            border-bottom:unset;
+        }
+    }
+}

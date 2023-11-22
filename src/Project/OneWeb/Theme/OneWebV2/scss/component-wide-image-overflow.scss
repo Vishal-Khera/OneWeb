@@ -1,0 +1,156 @@
+@import 'base/base-index.scss';
+
+@import 'base/base-index.scss';
+
+
+
+.wide-image-promo-card {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    flex-direction: column;
+
+    @include lg {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .wide-overflow-image-content {
+        width: 100%;
+        padding-top: 40px;
+        order: 1;
+
+        @include lg {
+            width: 50%;
+            padding-top: unset;
+            order: 0;
+        }
+
+        .text-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            color: $paragraph-text;
+
+            @include lg {
+                width: 75%;
+            }
+
+            h2 {
+                font-family: $franklinMd !important;
+                color: $paragraph-text;
+            }
+
+            .product-name {
+                h2 {
+                    color: $brandblack;
+                }
+            }
+
+            .paragraph-wrapper {
+                @include font-size($slg-font);
+                margin-top: 20px;
+                color: $card-text;
+                font-family: $franklinMd !important;
+
+                p {
+                    font-family: $franklinMd !important;
+                }
+            }
+        }
+    }
+
+    .wide-overflow-image {
+        width: 100%;
+        position: relative;
+        order: 0;
+        @include lg {
+            width: 50%;
+            height: 421px;
+            order: 1;
+        }
+
+        @media (max-width:992px){
+            &::after{
+                content: "";
+                height: 1px;
+                position: absolute;
+                left: -15px;
+                width: calc(100% + 30px);
+                background-color: $lightblack;
+            }
+        }
+
+        img {
+            max-width: inherit;
+            max-width: 115%;
+
+            @include lg {
+                max-width: inherit;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                overflow: visible;
+            }
+        }
+    }
+
+
+    .image-overflow-left {
+        width: 100%;
+        img {
+            right: 50px !important;
+            left: unset !important;
+            height: 100%;
+            float:right;
+        }
+    }
+   
+}
+
+
+
+
+
+
+.dark-theme {
+    .wide-image-promo-card {
+        .product-name {
+            h2 {
+                color: $white !important;
+            }
+        }
+
+        h2 {
+            color: $smoke-whitesade !important;
+        }
+
+        .paragraph-wrapper {
+            color: $mid-light-gray !important;
+        }
+
+        .button.btn-default {
+            background: $brand !important;
+            color: $white !important;
+            border: none;
+
+            &:hover {
+                outline: 3px solid transparent;
+                background: $brand !important;
+                color: $white !important;
+                border: none;
+            }
+
+            &:focus {
+                outline: 3px solid $btn-light-border !important;
+                background: $brand !important;
+                color: $white !important;
+                border: none;
+            }
+        }
+    }
+}

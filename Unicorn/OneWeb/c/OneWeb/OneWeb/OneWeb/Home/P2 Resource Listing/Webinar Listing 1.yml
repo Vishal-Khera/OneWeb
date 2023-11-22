@@ -1,0 +1,66 @@
+﻿---
+ID: "3388b7f7-25a7-49dd-8f71-3736cc51a338"
+Parent: "58eb51a7-cad9-4631-9a26-bfd08728fe4b"
+Template: "b794d898-4dca-4f59-9674-6b9994b63b59"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/P2 Resource Listing/Webinar Listing 1
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{0EAD9378-8208-498C-8AD2-9C3A7AAA55BC}"
+- ID: "a0c7d8e5-d7a7-491f-b9a5-e97d89671455"
+  Hint: Taxonomy Tag
+  Value: "{6A6FBDA9-3C2F-4C4B-85EE-04482A064A6F}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2A918814-9A5B-46A5-A3DA-209B36A15D2F}"
+- ID: "e40bdb84-8c4c-44ea-8fe6-005ee4708672"
+  Hint: Tags
+  Value: "{6A6FBDA9-3C2F-4C4B-85EE-04482A064A6F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{A1AF2B61-77F6-40A3-8F6E-0C11BA2ACEE8}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211207T074439Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value:  <strong>Forza Integrated Production Services Achieve Practical Yields for Back Side Illumination Sensors</strong>
+    - ID: "2b1035b2-079b-4c94-8744-e65376ca9aef"
+      Hint: Page Type
+      Value: Webinar
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        Forza Silicon — a business of AMETEK and leader of advanced image sensor and mixed-signal integrated circuit designs for imaging applications — recently used its Integrated Production Services (IPS) to enable the production of high-speed image sensors that employ back side illumination (BSI) technology.
+                                    <br /><br />While BSI sensors have been available for more than 10 years in many cellphones and standard digital cameras, the manufacturing process is inherently more difficult than comparable front side illumination (FSI) sensors as it requires additional manufacturing steps. The realities of semiconductor economics have also made it difficult to transfer the technology from the high production volumes of standard cameras to the lower volumes of high-speed imaging sensors.
+                                    <br /><br />Overcoming these issues, Forza leveraged its IPS capabilities to optimize the manufacturing process for BSI sensors and achieve practical yields.
+                                     <br /><br />“These in-house services include prototype and wafer probe development, qualification services, yield optimization, and production test and delivery,” says Loc Duc Truong, Vice President of Engineering, Forza Silicon. “Together, these capabilities have enabled us to overcome the manufacturing challenges associated with BSI sensors.”
+                                    <br /><br />The high-speed BSI sensor design is the result of a collaboration between Forza Silicon and Vision Research, a leading manufacturer of digital high-speed imaging systems. By designing the photoactive surface above the circuitry, the sensor increases the pixel surface area that can capture photons in light-starved conditions, bringing two significant advantages to high-speed applications: improved fill factor and improved processing speed.
+        <p><strong>To learn more, please visit:<a href="#"> www.forzasilicon.com</a></strong></p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "44f377f0-3a04-48fe-bdac-e29079a9eafb"
+      Hint: Image Position
+      Value: Top Left
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Webinar Listing 1
+    - ID: "6a30b727-97b0-48ff-94d8-0656a5973182"
+      Hint: Navigation Url
+      Value: |
+        <link linktype="external" url="https://ametek.com" anchor="" target="" />
+    - ID: "c3a4c8c3-e295-4e69-b325-e7f302b04518"
+      Hint: Brands
+      Type: Treelist
+      Value: "{26D071E0-F24F-4F84-BDA4-1116E2EC93A4}"
+    - ID: "e7b7335e-4e55-4e46-8ad2-1fe7e0d8cf17"
+      Hint: Date
+      Value: 20211206T081800Z

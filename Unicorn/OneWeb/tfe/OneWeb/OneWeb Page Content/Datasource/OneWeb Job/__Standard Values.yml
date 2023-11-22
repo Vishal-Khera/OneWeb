@@ -1,0 +1,14 @@
+﻿---
+ID: "3a5cb53c-81c6-4c74-b136-5ec31ff18696"
+Parent: "39c1b4e5-0e7e-48af-bd74-f44c09bc2b7c"
+Template: "39c1b4e5-0e7e-48af-bd74-f44c09bc2b7c"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Job/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T112128Z

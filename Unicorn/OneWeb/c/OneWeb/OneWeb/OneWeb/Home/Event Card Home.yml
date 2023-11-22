@@ -1,0 +1,73 @@
+﻿---
+ID: "393399dc-dc19-4c28-bf0b-c27b3b1853fc"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "3f392054-7fc1-4720-bac7-b8954eafe180"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/Event Card Home
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: 
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FD2AE510-C98B-4925-A112-7D7B5F02A098}" />
+- ID: "e40bdb84-8c4c-44ea-8fe6-005ee4708672"
+  Hint: Tags
+  Value: "{CBC345C7-5757-4EB2-81A3-A4F23AEAD5BD}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{39585166-248F-4A71-B09E-8E35A8EFA251}">
+        <r
+          ds="page:"
+          id="{8413694F-0DBF-4720-8810-71E034176FF7}"
+          par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Expand Content&amp;FieldNames&amp;Styles&amp;Word Limit&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          ph="main"
+          uid="{28AD02BE-7B59-431F-BE7D-468965E537BC}" />
+      </d>
+      <d
+        id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}"
+        l="{72C595AD-68BB-44BC-B5CD-2A857039515F}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{0CDF9637-9DCC-4024-AD9B-EDFA5EA17B9A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220706T174138Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: <b>Event Card Home</b>
+    - ID: "2b1035b2-079b-4c94-8744-e65376ca9aef"
+      Hint: Page Type
+      Value: Events
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Event Card Home
+    - ID: "60266db3-ba2e-4a92-aafe-ee3a7a16831e"
+      Hint: State
+      Value: USA
+    - ID: "6a30b727-97b0-48ff-94d8-0656a5973182"
+      Hint: Navigation Url
+      Value: 
+    - ID: "b7bb883d-973f-4fb4-ba6c-656221470a7c"
+      Hint: EndDateTime
+      Value: 20220722T183000Z
+    - ID: "bafbf54f-6268-400e-a500-1c0501401f18"
+      Hint: StartDateTime
+      Value: 20220601T183000Z
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  target="_blank" querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

@@ -1,0 +1,28 @@
+﻿---
+ID: "c483f048-7603-43e4-b5bd-d7f5921d70e1"
+Parent: "418b3266-d2c1-4bf8-a2a3-2747bb084775"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWebV2/styles/component-column"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/C483F048760343E4B5BDD7F5921D70E1.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "d896ba8c-e4b1-49de-a377-1054de41ef01"
+  Value: Lm93LWNhcmQtaWNvbjpmaXJzdC1jaGlsZCAuc2ltcGxlLWxpc3QgewogIGJvcmRlci1yYWRpdXM6IDhweCA4cHggMCAwOwogIC13ZWJraXQtYm9yZGVyLXJhZGl1czogOHB4IDhweCAwIDA7CiAgLW1vei1ib3JkZXItcmFkaXVzOiA4cHggOHB4IDAgMDsgfQoKLm93LWNhcmQtaWNvbjpsYXN0LWNoaWxkIC5zaW1wbGUtbGlzdCB7CiAgYm9yZGVyLXJhZGl1czogMCAwIDhweCA4cHg7CiAgLXdlYmtpdC1ib3JkZXItcmFkaXVzOiAwIDAgOHB4IDhweDsKICAtbW96LWJvcmRlci1yYWRpdXM6IDAgMCA4cHggOHB4OyB9Cg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 292
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: "application/octet-stream"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20221009T175537:638009349370633446Z"

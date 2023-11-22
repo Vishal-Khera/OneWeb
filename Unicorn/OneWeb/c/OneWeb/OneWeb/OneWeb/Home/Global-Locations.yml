@@ -1,0 +1,120 @@
+﻿---
+ID: "b2767592-4d10-4140-961f-77dfbd1f7f1b"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Home/Global-Locations"
+DB: master
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Type: Checklist
+  Value: |
+    {61BD64D6-809E-40AE-9297-2724A19329B3}
+    {D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}
+    {A0E7FF57-6994-4B09-AA21-104239628D5A}
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{367D2B7A-CDCE-49F1-9EB4-F7388E9B0EDB}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0D9AC55D-224A-4388-9AF3-D6DC745CDCAE}"
+          p:before="*"
+          s:ds=""
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=15&amp;OwClass=col-12%20space-0"
+          s:ph="/main/ow-container-13" />
+        <r
+          uid="{55DE34DC-3A32-4101-BE3A-C46A3F4E4D06}"
+          p:after="r[@uid='{0D9AC55D-224A-4388-9AF3-D6DC745CDCAE}']"
+          s:ds=""
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles=%7BF58F2FE6-0713-4E17-AF94-876886D7B5DC%7D&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="banner" />
+        <r
+          uid="{CB68B688-B00D-4837-B029-F6747BC0F090}"
+          p:after="r[@uid='{55DE34DC-3A32-4101-BE3A-C46A3F4E4D06}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="RenderingIdentifier&amp;Styles&amp;DynamicPlaceholderId=2&amp;BackgroundImage&amp;BackgroundColor&amp;Reset Caching Options"
+          s:ph="/banner/ow-container-fluid-1" />
+        <r
+          uid="{071EAB2D-3EA9-4B6D-B384-65E02620C2CE}"
+          p:after="r[@uid='{CB68B688-B00D-4837-B029-F6747BC0F090}']"
+          s:ds="{78C68E43-C1A7-4320-BEFC-8C1740B23191}"
+          s:id="{04370F62-63D8-4AB4-A238-60EE1A3C60A6}"
+          s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b462BD5BF-1A2E-438B-89DC-96C7CC5FE855%7d&amp;DynamicPlaceholderId=4&amp;Reset Caching Options"
+          s:ph="/banner/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{2AA33509-98EF-4CE3-92BD-8845373D41D2}"
+          p:after="r[@uid='{071EAB2D-3EA9-4B6D-B384-65E02620C2CE}']"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles=%7BF58F2FE6-0713-4E17-AF94-876886D7B5DC%7D&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="main" />
+        <r
+          uid="{0B1F40D0-F082-474A-888E-E313DB40AC95}"
+          p:after="r[@uid='{2AA33509-98EF-4CE3-92BD-8845373D41D2}']"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main" />
+        <r
+          uid="{167B2F69-EE87-43C3-9F3D-ED8F8BF80180}"
+          p:after="r[@uid='{0B1F40D0-F082-474A-888E-E313DB40AC95}']"
+          s:ds=""
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/ow-container-9" />
+        <r
+          uid="{166C7218-31F5-4C2E-99E6-4E7026F438F4}"
+          p:after="r[@uid='{167B2F69-EE87-43C3-9F3D-ED8F8BF80180}']"
+          s:ds="{8209811F-8B59-4AD0-83DC-15FA00662245}"
+          s:id="{56AC16AF-8373-429A-847A-89D7BB67B0BE}"
+          s:par="GridParameters=%7B7997F0A0-7A5C-4A45-BB07-8E7150B735BA%7D&amp;FieldNames=%7B52659B03-E017-4855-85AB-B851A7983A90%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/ow-container-9/ow-row-10" />
+        <r
+          uid="{18679844-FDB6-42CC-A8BF-5EBACF85CB30}"
+          p:after="r[@uid='{166C7218-31F5-4C2E-99E6-4E7026F438F4}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/ow-container-9" />
+        <r
+          uid="{FE59A25B-1145-4C51-96B0-ACE750652D62}"
+          p:after="r[@uid='{18679844-FDB6-42CC-A8BF-5EBACF85CB30}']"
+          s:ds="{13CD1E87-A36D-4BA5-9C00-2897E0145CF5}"
+          s:id="{56AC16AF-8373-429A-847A-89D7BB67B0BE}"
+          s:par="GridParameters=%7B7997F0A0-7A5C-4A45-BB07-8E7150B735BA%7D&amp;FieldNames=%7B52659B03-E017-4855-85AB-B851A7983A90%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/ow-container-9/ow-row-11" />
+        <r
+          uid="{26B4ED30-6A21-4EE0-A9E5-F2A3B42113EE}"
+          p:after="*[1=2]"
+          s:ds="{AEC95033-C7A1-4C8E-9E66-006D4489257D}"
+          s:id="{9B2EE9CB-28D6-4DA4-9CDA-F335ECFE3E64}"
+          s:par="GridParameters&amp;Page Size=10&amp;Pages To Skip=0&amp;FieldNames=%7BFDD86CD8-201E-46EA-8D4B-620B0B6935F1%7D&amp;HeaderStyle=%7B8ACACA22-0D21-4A68-9137-6C484AA81DA6%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/ow-container-13/ow-row-15" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211214T134641Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: "Global-Locations"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Global-Locations"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

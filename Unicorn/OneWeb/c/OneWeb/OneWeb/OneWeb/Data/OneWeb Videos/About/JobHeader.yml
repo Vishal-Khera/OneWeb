@@ -1,0 +1,21 @@
+﻿---
+ID: "04e96698-4eaa-49af-8e4f-b03702d366a5"
+Parent: "ad1d72b7-4416-4995-a7a8-fc83131400e8"
+Template: "105e1ae4-0a89-449a-a4bf-69e7fb23c0ca"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Videos/About/JobHeader
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15344fb8-6901-4745-a50d-359d20556eee"
+      Hint: Placeholder Image
+      Value: |
+        <image mediaid="{254DD748-34C0-484C-ACD6-D9EBC7436005}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220818T112002Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: JobHeader

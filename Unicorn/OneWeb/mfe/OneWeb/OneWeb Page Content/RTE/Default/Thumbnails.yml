@@ -1,0 +1,14 @@
+﻿---
+ID: "e3eb4cfc-0705-465f-bcc8-867bbae09639"
+Parent: "c0871699-0b54-4d0d-b345-f4a4306e392b"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Page Content/RTE/Default/Thumbnails
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220103T163501Z

@@ -1,0 +1,17 @@
+﻿---
+ID: "eb624d11-3569-4b31-9f18-e32811c829cc"
+Parent: "13cd1e87-a36d-4ba5-9c00-2897e0145cf5"
+Template: "8a157750-d8f9-433a-94fe-c875b5580d80"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/Business Supports/China/China 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211224T221104Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: China 3

@@ -1,0 +1,26 @@
+@import 'base/base-index.scss';
+
+.brand-bg{
+    background-color: $brand !important;
+    .header-bar{
+        color: $white;
+        padding: 12px 0px;
+        @include md{
+            display: flex;
+            padding: 15px 0px;
+        }
+        .gray-text{
+            color: $smoke-whitesade !important;
+        }
+        a{
+            color: $white;
+            text-decoration: underline;
+            @include md{
+                padding-left: 15px;
+            }
+            &:hover{
+                color: $white;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+﻿---
+ID: "f82513bc-10d7-4e82-84f0-2f16a0be5f5c"
+Parent: "8cdb02ae-4106-4fc3-9627-8a8e6d01de5d"
+Template: "2fb317e5-509a-4be9-b348-bf79168665c9"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Link Lists
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T074244Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

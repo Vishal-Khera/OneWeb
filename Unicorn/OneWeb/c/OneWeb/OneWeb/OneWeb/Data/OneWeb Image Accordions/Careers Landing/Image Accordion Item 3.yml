@@ -1,0 +1,37 @@
+﻿---
+ID: "c27a8b3b-5405-4844-871d-7062f07983bb"
+Parent: "1097afe9-ceda-471a-8f67-33250aeca631"
+Template: "1c0ee710-b440-4f8d-80ae-ca464571204b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Image Accordions/Careers Landing/Image Accordion Item 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220112T190057Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: <h3>Determination</h3>
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+         <p>
+                                    High-resolution, versatile, easy-to-use, and quick 3D scanning tools and software are the solutions to fulfill your goals and overcome your challenges.
+                                </p>
+    - ID: "5457a43c-834a-46a9-b57d-eca5a856f48b"
+      Hint: Image List
+      Value: "{597B15AF-9E66-45B9-9F2A-7D7864ABE17C}"
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{CC5A230B-888F-4F46-9AFD-F1D44A8E34B5}" />
+    - ID: "c1ef176f-8343-4bbc-aa16-684ef202abf0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F503A2E1-1769-47A0-8FF2-6DD206CF5C9C}" />
+    - ID: "da373cd7-f723-416e-a552-1ade06c7f708"
+      Hint: Structure
+      Value: "{A89A9349-7CBD-48D1-8F9A-25B6D9E5A7BA}"

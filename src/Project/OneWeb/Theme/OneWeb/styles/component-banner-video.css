@@ -1,0 +1,36 @@
+.ow-video-banner {
+  width: 100%;
+  position: relative; }
+  .ow-video-banner .video-container {
+    position: relative;
+    padding-top: 56.25%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden; }
+    @media only screen and (min-width: 992px) {
+      .ow-video-banner .video-container {
+        padding-top: 42.9%; } }
+    .ow-video-banner .video-container iframe,
+    .ow-video-banner .video-container video {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      object-fit: cover;
+      height: 102%;
+      transform: translateY(-50%); }
+      @media only screen and (min-width: 992px) {
+        .ow-video-banner .video-container iframe,
+        .ow-video-banner .video-container video {
+          height: 132%; } }
+    .ow-video-banner .video-container iframe {
+      object-fit: contain !important; }
+
+.ow-bg-overlay .video-container:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent linear-gradient(270deg, #00000000 0%, #00000070 0%, #000000 100%) 0% 0% no-repeat padding-box; }

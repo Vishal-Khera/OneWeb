@@ -1,0 +1,22 @@
+﻿---
+ID: "4272d963-47b7-4c0f-9685-a91e011c7b6c"
+Parent: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/templates/Foundation/OneWeb/Rendering Variants/OneWeb Scriban/__Standard Values
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: "{18C8C889-C723-452A-970C-7CE4D41EE371}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150911T092244Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

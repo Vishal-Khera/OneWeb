@@ -1,0 +1,109 @@
+﻿---
+ID: "6b468c8d-6211-4a8e-acda-353b64973f54"
+Parent: "7449c49b-f4d9-44e3-8416-073e4471543c"
+Template: "5fb09cb1-caf4-43f1-b10d-5daca960b3ca"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Partial Designs/OneWeb Business Directory
+DB: master
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "oneweb-business-directory"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0CEDAEB6-FA8C-47D0-A322-34E0521A526B}"
+          p:before="*"
+          s:ds="query:$site/Settings/OneWeb Search Filters/Business Directory/Alphabet"
+          s:id="{8FCBC59C-90EB-45A3-9DD2-8E1300BA189A}"
+          s:par="GridParameters&amp;Configuration=query%3A%24site%2FSettings%2FOneWeb%20Search%20Configurations%2FSearch%2FBusiness%20Directory&amp;FieldNames=%7B10FAAD8E-EDBD-4A26-A6BB-AC4790EBA7AB%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-search-filter-wrapper" />
+        <r
+          uid="{6729BE6D-EE2D-4402-ABEF-F8F337C71ABC}"
+          p:after="r[@uid='{0CEDAEB6-FA8C-47D0-A322-34E0521A526B}']"
+          s:ds="{A68E3AD0-1664-483A-A0AC-77DC2CADF472}"
+          s:id="{8FCBC59C-90EB-45A3-9DD2-8E1300BA189A}"
+          s:par="GridParameters&amp;Configuration=%7B935FBC4E-DD59-471B-B6C7-F8D482B0F562%7D&amp;FieldNames=%7BB6442FF2-9173-4837-A566-7B177D4A5B4A%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-search-filter-wrapper-main" />
+        <r
+          uid="{711D5770-0611-4B63-A448-53B9CAAC319A}"
+          p:after="r[@uid='{6729BE6D-EE2D-4402-ABEF-F8F337C71ABC}']"
+          s:ds="{FF27F388-31CC-4F7A-980B-775FB32F568E}"
+          s:id="{8FCBC59C-90EB-45A3-9DD2-8E1300BA189A}"
+          s:par="GridParameters&amp;Configuration=query%3A%24site%2FSettings%2FOneWeb%20Search%20Configurations%2FSearch%2FBusiness%20Directory&amp;FieldNames=%7B37E052B9-CF83-4BC5-A0F1-F63E5C9931F2%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3/ow-search-filter-wrapper" />
+        <r
+          uid="{6B165B38-DA47-437B-81CD-B27250B11B29}"
+          p:after="r[@uid='{711D5770-0611-4B63-A448-53B9CAAC319A}']"
+          s:ds=""
+          s:id="{E97323A4-2C43-45D6-811E-8B4DDE6F4EFA}"
+          s:par=""
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-3" />
+        <r
+          uid="{8A622205-CF9B-4C21-B383-76F831AF0722}"
+          p:after="r[@uid='{6B165B38-DA47-437B-81CD-B27250B11B29}']"
+          s:ds="query:$site/Data/OneWeb Search Boxes/Business Directory"
+          s:id="{A518A432-35D8-4945-B8A6-52874CBA07A7}"
+          s:par="GridParameters=%7B7997F0A0-7A5C-4A45-BB07-8E7150B735BA%7D&amp;FieldNames=%7B31889B83-EC38-418C-88BE-30FD7E3197E0%7D&amp;Styles&amp;Reset Caching Options&amp;SearchTextBoxVisible=1&amp;RenderingIdentifier"
+          s:ph="/main/ow-container-1/ow-row-2" />
+        <r
+          uid="{2CE2F1A8-3DC7-4F75-9541-798B7B561901}"
+          p:after="r[@uid='{8A622205-CF9B-4C21-B383-76F831AF0722}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7BB815A5D7-F00B-4989-88E0-9A3E1B0921A4%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-1/ow-row-2" />
+        <r
+          uid="{6CBF9282-DC54-49BD-AB1A-550FB9712619}"
+          p:after="r[@uid='{2CE2F1A8-3DC7-4F75-9541-798B7B561901}']"
+          s:ds="query:$site/Settings/OneWeb Search Configurations/Search/Business Directory"
+          s:id="{8FCBC59C-90EB-45A3-9DD2-8E1300BA189A}"
+          s:par="GridParameters=%7BAC26BD3C-04DD-4A82-A235-028A027218E4%7D&amp;Configuration=query%3A%24site%2FSettings%2FOneWeb%20Search%20Configurations%2FSearch%2FBusiness%20Directory&amp;FieldNames=%7B1FAA3822-68A4-41A8-903D-1485E773D974%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier"
+          s:ph="/main/ow-container-1/ow-row-2" />
+        <r
+          uid="{9DD5DBF2-A116-4B07-9098-10D557E03924}"
+          p:after="r[@uid='{6CBF9282-DC54-49BD-AB1A-550FB9712619}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-1" />
+        <r
+          uid="{737979E6-7BDE-4A9D-8C8F-A8F87EF3A63B}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1&amp;OwClass=search-half-overflow"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211225T023741Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211214T195039Z
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

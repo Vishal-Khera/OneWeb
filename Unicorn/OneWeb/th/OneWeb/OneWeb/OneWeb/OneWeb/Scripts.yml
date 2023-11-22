@@ -1,0 +1,18 @@
+﻿---
+ID: "d800c068-9717-49a0-961e-f913d7c0053c"
+Parent: "2214fc29-d2ed-4689-b1fe-d1d56aa3ea99"
+Template: "536ef8ae-e6df-4aed-bd84-1f18de8cebf7"
+Path: /sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWeb/Scripts
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/1A88B3E5485042FDA3BD1B86C2B365A9.ashx?h=16&thn=1&w=16"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180306T125740Z

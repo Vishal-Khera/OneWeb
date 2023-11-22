@@ -1,0 +1,89 @@
+.teams-card figure {
+  margin-bottom: 0; }
+
+.teams-card .uk-panel-content {
+  padding: 15px 15px 85px;
+  position: relative;
+  transition: 0.3s;
+  transition-timing-function: ease-out;
+  cursor: default;
+  background-color: transparent; }
+  @media only screen and (min-width: 1200px) {
+    .teams-card .uk-panel-content {
+      padding: 15px 15px 85px 15px; } }
+  .teams-card .uk-panel-content h3 {
+    font-size: 20px; }
+    @media screen and (min-width: 0) {
+      .teams-card .uk-panel-content h3 {
+        font-size: 20px; } }
+    @media screen and (min-width: 768px) {
+      .teams-card .uk-panel-content h3 {
+        font-size: 20px; } }
+    @media screen and (min-width: 992px) {
+      .teams-card .uk-panel-content h3 {
+        font-size: 28px; } }
+  .teams-card .uk-panel-content h4 {
+    font-size: 20px;
+    color: #D9171D; }
+    @media screen and (min-width: 0) {
+      .teams-card .uk-panel-content h4 {
+        font-size: 20px; } }
+    @media screen and (min-width: 768px) {
+      .teams-card .uk-panel-content h4 {
+        font-size: 20px; } }
+    @media screen and (min-width: 992px) {
+      .teams-card .uk-panel-content h4 {
+        font-size: 20px; } }
+  .teams-card .uk-panel-content .btn {
+    position: absolute;
+    bottom: 15px;
+    left: 15px; }
+
+.teams-card-hover:hover .uk-panel-content {
+  background-color: #F1F1F1; }
+
+.teams-card-hover .uk-panel-content {
+  padding-left: 0;
+  padding-right: 0; }
+  @media only screen and (min-width: 1200px) {
+    .teams-card-hover .uk-panel-content {
+      padding-left: 15px;
+      padding-right: 15px; } }
+  .teams-card-hover .uk-panel-content .btn {
+    left: 0; }
+    @media only screen and (min-width: 1200px) {
+      .teams-card-hover .uk-panel-content .btn {
+        left: 15px; } }
+
+.uk-overlay {
+  padding: 0;
+  position: relative;
+  overflow: hidden; }
+  .uk-overlay * {
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-property: opacity, transform, filter; }
+  .uk-overlay img {
+    transform: scale(1); }
+  .uk-overlay .uk-position-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  .uk-overlay .uk-overlay-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    color: #fff;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5); }
+
+.uk-overlay-hover:hover img {
+  transform: scale(1.1); }
+
+.uk-overlay-hover:hover .uk-overlay-background {
+  opacity: 0.7; }

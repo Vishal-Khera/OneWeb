@@ -1,0 +1,25 @@
+﻿---
+ID: "edacba37-0ee4-464a-8b4d-732ec1fe0c88"
+Parent: "1376124d-c4c4-4f03-bff2-9fc9b2a76d5d"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Texts/Footer/Address
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211123T113647Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        AMETEK,Inc <!-- br-->
+        Corporate Headquarters<!-- br-->
+        1100 Cassatt Road<!-- br-->
+        Berwyn, PA 19312

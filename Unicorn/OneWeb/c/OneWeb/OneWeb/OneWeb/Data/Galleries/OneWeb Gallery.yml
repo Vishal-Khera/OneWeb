@@ -1,0 +1,18 @@
+﻿---
+ID: "655b681b-9604-464a-b3a8-eea0aa62357d"
+Parent: "02f7837e-b2f3-4025-b9ac-dce61d284023"
+Template: "57bcf1ce-35cb-4752-b23b-2d4522af6292"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Galleries/OneWeb Gallery
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T100721Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

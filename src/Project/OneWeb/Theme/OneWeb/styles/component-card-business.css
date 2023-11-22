@@ -1,0 +1,253 @@
+.ow-card-business {
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  display: block; }
+  .ow-card-business.ow-card-full-width {
+    background-position: top;
+    width: 100%;
+    padding-top: 0px; }
+    @media only screen and (min-width: 768px) {
+      .ow-card-business.ow-card-full-width {
+        background-position: center;
+        float: left;
+        overflow: hidden; } }
+    .ow-card-business.ow-card-full-width .ow-card-background-image {
+      background-position: top;
+      background-size: contain; }
+      @media only screen and (min-width: 768px) {
+        .ow-card-business.ow-card-full-width .ow-card-background-image {
+          margin: 0;
+          background-position: right;
+          padding-top: 0px; } }
+      @media only screen and (min-width: 992px) {
+        .ow-card-business.ow-card-full-width .ow-card-background-image .ow-card-business-content {
+          height: 270px; } }
+      @media only screen and (min-width: 992px) {
+        .ow-card-business.ow-card-full-width .ow-card-background-image .ow-card-business-content::after {
+          transform: skew(358deg) rotate(11deg);
+          right: -80px; } }
+    @media only screen and (min-width: 768px) {
+      .ow-card-business.ow-card-full-width .ow-card-image-bg {
+        background-size: auto 370px;
+        height: 370px; } }
+    @media only screen and (min-width: 992px) {
+      .ow-card-business.ow-card-full-width .ow-card-image-bg {
+        background-size: auto 270px;
+        height: 270px; } }
+  .ow-card-business .ow-card-background-image {
+    display: flex;
+    flex-wrap: wrap; }
+  .ow-card-business .ow-card-business-content {
+    order: 1; }
+    @media only screen and (min-width: 768px) {
+      .ow-card-business .ow-card-business-content {
+        order: 0; } }
+  .ow-card-business .ow-card-image-bg {
+    order: 0;
+    height: 200px;
+    width: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat; }
+    @media only screen and (min-width: 768px) {
+      .ow-card-business .ow-card-image-bg {
+        order: 1;
+        width: 37%;
+        float: left;
+        height: 100%;
+        background-size: auto 370px;
+        background-repeat: no-repeat;
+        height: 370px; } }
+
+.col-h-1 .component-content {
+  height: 100%;
+  min-height: 250px; }
+  .col-h-1 .component-content .ow-card {
+    height: 100%; }
+
+.ow-card-business,
+.ow-card-background-image {
+  background-position: top;
+  overflow: hidden;
+  width: 100%;
+  background-size: 100%; }
+  @media only screen and (min-width: 768px) {
+    .ow-card-business,
+    .ow-card-background-image {
+      margin: 0;
+      background-position: center;
+      overflow: hidden;
+      width: 100%;
+      padding-top: 0px;
+      background-size: auto; } }
+  .ow-card-business .ow-card-business-content,
+  .ow-card-background-image .ow-card-business-content {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 30px 20px; }
+    .ow-card-business .ow-card-business-content::before,
+    .ow-card-background-image .ow-card-business-content::before {
+      content: '';
+      background: #F1F1F1;
+      height: 60px;
+      width: 110%;
+      position: absolute;
+      right: -3px;
+      z-index: 1;
+      top: -1rem;
+      transform: skew(352deg, 3deg); }
+      @media only screen and (min-width: 768px) {
+        .ow-card-business .ow-card-business-content::before,
+        .ow-card-background-image .ow-card-business-content::before {
+          content: '';
+          background: #F1F1F1;
+          height: 110%;
+          width: 53px;
+          position: absolute;
+          right: -24px;
+          z-index: 1;
+          top: -5%;
+          transform: skew(352deg, 5deg);
+          left: auto; } }
+    .ow-card-business .ow-card-business-content::after,
+    .ow-card-background-image .ow-card-business-content::after {
+      overflow: hidden;
+      transform: skew(308deg) rotate(6deg);
+      overflow: hidden;
+      content: '';
+      background: rgba(237, 28, 36, 0.68);
+      height: 35px;
+      position: absolute;
+      right: auto;
+      top: -4.9rem;
+      width: 200%;
+      left: -57%;
+      transform-origin: 0 0; }
+      @media (min-width: 410px) {
+        .ow-card-business .ow-card-business-content::after,
+        .ow-card-background-image .ow-card-business-content::after {
+          top: -5.4rem; } }
+      @media (min-width: 460px) {
+        .ow-card-business .ow-card-business-content::after,
+        .ow-card-background-image .ow-card-business-content::after {
+          top: -5.9rem; } }
+      @media (min-width: 500px) {
+        .ow-card-business .ow-card-business-content::after,
+        .ow-card-background-image .ow-card-business-content::after {
+          top: -6.3rem; } }
+      @media (min-width: 550px) {
+        .ow-card-business .ow-card-business-content::after,
+        .ow-card-background-image .ow-card-business-content::after {
+          top: -6.9rem; } }
+      @media (min-width: 600px) {
+        .ow-card-business .ow-card-business-content::after,
+        .ow-card-background-image .ow-card-business-content::after {
+          top: -7.7rem;
+          height: 45px; } }
+      @media (min-width: 660px) {
+        .ow-card-business .ow-card-business-content::after,
+        .ow-card-background-image .ow-card-business-content::after {
+          top: -8rem; } }
+      @media (min-width: 700px) {
+        .ow-card-business .ow-card-business-content::after,
+        .ow-card-background-image .ow-card-business-content::after {
+          top: -8.9rem;
+          height: 57px; } }
+      @media only screen and (min-width: 768px) {
+        .ow-card-business .ow-card-business-content::after,
+        .ow-card-background-image .ow-card-business-content::after {
+          transform: skew(358deg) rotate(9deg);
+          content: '';
+          height: 110%;
+          right: -82px;
+          top: -5%;
+          width: 62px;
+          left: auto; } }
+    @media only screen and (min-width: 768px) {
+      .ow-card-business .ow-card-business-content,
+      .ow-card-background-image .ow-card-business-content {
+        width: 63%;
+        margin-top: 0;
+        height: 370px; } }
+    .ow-card-business .ow-card-business-content.white-gray-background .label,
+    .ow-card-background-image .ow-card-business-content.white-gray-background .label {
+      color: #fff; }
+    .ow-card-business .ow-card-business-content .ow-card-text,
+    .ow-card-background-image .ow-card-business-content .ow-card-text {
+      position: relative;
+      z-index: 1; }
+      .ow-card-business .ow-card-business-content .ow-card-text h3,
+      .ow-card-background-image .ow-card-business-content .ow-card-text h3 {
+        font-size: 22px;
+        font-family: 'HelveticaNeue-Bold'; }
+        @media screen and (min-width: 0) {
+          .ow-card-business .ow-card-business-content .ow-card-text h3,
+          .ow-card-background-image .ow-card-business-content .ow-card-text h3 {
+            font-size: 22px; } }
+        @media screen and (min-width: 768px) {
+          .ow-card-business .ow-card-business-content .ow-card-text h3,
+          .ow-card-background-image .ow-card-business-content .ow-card-text h3 {
+            font-size: 24px; } }
+        @media screen and (min-width: 992px) {
+          .ow-card-business .ow-card-business-content .ow-card-text h3,
+          .ow-card-background-image .ow-card-business-content .ow-card-text h3 {
+            font-size: 24px; } }
+  .ow-card-business .ow-card-image-bg,
+  .ow-card-background-image .ow-card-image-bg {
+    background-position: center; }
+
+.top-left .ow-card-image-bg {
+  background-position: top left !important; }
+
+.top-center .ow-card-image-bg {
+  background-position: top center !important; }
+
+.top-right .ow-card-image-bg {
+  background-position: top right !important; }
+
+.bottom-left .ow-card-image-bg {
+  background-position: bottom left !important; }
+
+.bottom-center .ow-card-image-bg {
+  background-position: bottom center !important; }
+
+.bottom-right .ow-card-image-bg {
+  background-position: bottom right !important; }
+
+.middle-left .ow-card-image-bg {
+  background-position: center left !important; }
+
+.middle-right .ow-card-image-bg {
+  background-position: center right !important; }
+
+@media (max-width: 767px) {
+  .reverse-strip .ow-card-business-content::before {
+    transform: skew(352deg, -3deg); }
+  .reverse-strip .ow-card-business-content::after {
+    transform: skew(308deg) rotate(-9deg);
+    top: 10px;
+    height: 58px; } }
+  @media (max-width: 767px) and (min-width: 410px) {
+    .reverse-strip .ow-card-business-content::after {
+      top: 16px; } }
+  @media (max-width: 767px) and (min-width: 460px) {
+    .reverse-strip .ow-card-business-content::after {
+      top: 20px; } }
+  @media (max-width: 767px) and (min-width: 500px) {
+    .reverse-strip .ow-card-business-content::after {
+      transform: skew(308deg) rotate(-8deg); } }
+  @media (max-width: 767px) and (min-width: 550px) {
+    .reverse-strip .ow-card-business-content::after {
+      height: 65px;
+      top: 26px; } }
+  @media (max-width: 767px) and (min-width: 600px) {
+    .reverse-strip .ow-card-business-content::after {
+      transform: skew(308deg) rotate(-7deg);
+      top: 31px; } }
+  @media (max-width: 767px) and (min-width: 660px) {
+    .reverse-strip .ow-card-business-content::after {
+      top: 31px; } }
+  @media (max-width: 767px) and (min-width: 700px) {
+    .reverse-strip .ow-card-business-content::after {
+      top: 33px; } }

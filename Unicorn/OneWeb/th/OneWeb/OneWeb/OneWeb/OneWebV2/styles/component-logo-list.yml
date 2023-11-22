@@ -1,0 +1,35 @@
+﻿---
+ID: "df961c92-d4f4-4740-9dda-ef65e28b43ee"
+Parent: "418b3266-d2c1-4bf8-a2a3-2747bb084775"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWebV2/styles/component-logo-list"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/DF961C92D4F447409DDAEF65E28B43EE.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "3515892f-2dbf-4f4d-bebf-a06f0d2e52aa"
+  Value: LmxvZ28tbGlzdC13cmFwcGVyIGgyIHsKICBwYWRkaW5nLXRvcDogMHB4OwogIHBhZGRpbmctYm90dG9tOiAwcHg7IH0KCi5sb2dvLWxpc3Qtd3JhcHBlciAubG9nby1ib3ggewogIHBhZGRpbmctbGVmdDogMTVweDsgfQogIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzY4cHgpIHsKICAgIC5sb2dvLWxpc3Qtd3JhcHBlciAubG9nby1ib3ggewogICAgICBwYWRkaW5nLWxlZnQ6IDM1cHg7IH0gfQo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 236
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220916T191710Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

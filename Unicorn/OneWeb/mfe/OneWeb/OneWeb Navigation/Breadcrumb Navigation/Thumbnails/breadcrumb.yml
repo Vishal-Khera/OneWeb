@@ -1,0 +1,40 @@
+﻿---
+ID: "7f71f0e9-2ebc-45d0-8913-397c0a9e19ed"
+Parent: "5757be1e-89b6-42d4-b009-e88d029de357"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Navigation/Breadcrumb Navigation/Thumbnails/breadcrumb
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/7F71F0E92EBC45D08913397C0A9E19ED.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 187
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "3f7f4cbf-67d3-4a27-9efa-c26d44eeafcf"
+  Value: iVBORw0KGgoAAAANSUhEUgAAALsAAAAsCAYAAAA988mRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOkSURBVHhe7ZkxaxsxFMf9QbIEnCFbp36DTu1kyDcINFPnzsYlZPNY6BawB0/p1q10Sbok3rp1MsTgEJOGQDoYXk96kk/SSeeL7cNX3v8HgjtZT7rh99492y0CQAiQHYgBsgMxQHYgBsgOxADZgRggOxADZAdigOxADJAdiAGyAzFAdiAGyA7EANmBGCA7EANkB2KA7EAM25P9dkTzvVN6MrdRrk/p/mREz+YWJJgMqNNqUcsbHRpMzOeN4pJ6jX02H8jeNK56Wu7elbm3mPnOcGommgJkjyNG9jGdf/5Ff81ddaY0OCoRWgvfy/RqEpA9TonszxfHdL93TI+3ZiKFPqe4juPLz3/qt1eu2Q5j+nTwit71xy8UXokTqepL0mJddlWrsyIRNno78LO1uuEJ/jNNh53sjGbKv3PZWdI2zS9m2d2MHk+UkL7MStL5xYgesnUcf5Nfqz1tvH6GbL5/YyIZlrxND9fqzonVn9bBHX398Jr2Dw7pzdlP+rMw0yvhyl4UKg1LbhPECHk0yHZyMJLbfVlIV3orrIl31i73tIkU7LWMHbqJFMQ0hN3KrkWNxATzLGtYzU1ihNKGlT+SYAq9Z5AUW2UxoW8f37Lw3R80qyq88+V0ZQVW4oViZ+gECGUMK60Xy2s6WaL5b5VUW8UylyZYMnZ3bFl2rqClYykey8oVvQhXc/4sJaa7Jkfta2XnM7iiB1RJzk1Z3NH3rhH+y28zWRFbQZ0REzHa8uiEMVXVvXbx5lnYgpj6GeLVWb8ddEK54vvka5rBDiu7aieKvbdFtzdG8LjUPF8U2ZW97Ax3XY1kFf78/SHtn43NxHrY1iOsxvHeWCVCSd+8fHv4sofCVpM1/RyQvaLseu1WZA/eLN6oWfZNKnsUtzVgQcPqn49cQNvXL4dKmEJlLwoL2VP8d5W9Ztbp2RM9uEsuUFoyj9SekH0DXix7WuKw115f9pIzau3Z1/w1RgtYLrCq0ra3dq89HJGTa7x+PCGslxA++b6QPU4gO8cUhdVVvUJSVJFdnxmp7iq2vl9j1v2dnSUq/VLoiqWFLYqm9zCS6ZhCZc8EzXr6VZVdofcK46skSgZkd2VXGOG9XjpYs5HsCi18cEZtoivW/QeVYalNf+2NiFRavGCdJxj3+f4aJaqdV9dpYRWcgO5w10qUHYCGA9mBGCA7EANkB2KA7EAMkB2IAbIDMUB2IAbIDsQA2YEYIDsQA2QHYoDsQAyQHQiB6B99YUH8RkPD3QAAAABJRU5ErkJggg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1039
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 187 x 44
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 44
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220103T074659Z

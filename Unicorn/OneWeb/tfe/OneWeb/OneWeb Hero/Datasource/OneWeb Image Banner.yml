@@ -1,0 +1,36 @@
+﻿---
+ID: "2cf8a428-d0c2-4d52-b598-ff72ee265123"
+Parent: "82057cd9-06e7-4a60-b7de-113720cd84e3"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Hero/Datasource/OneWeb Image Banner
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Multimedia/32x32/image.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {E6070FB1-BB64-47B2-B792-FEED1E5D3351}
+    {FCCE0824-4CE9-4D46-B19F-45B60F9AB77E}
+    {45B4E38D-7BE2-43BB-A133-220AD50C2A15}
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{E79976CD-E773-432D-BB88-BF932D3B85E2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111213T133000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,30 @@
+﻿---
+ID: "bb7a668b-c199-4ba6-b2ee-f398fb627119"
+Parent: "d716cb0a-1b6f-4a7b-9b0a-598a9e6eba10"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/P2 Tab Results/Container
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="ow-container slider-widget row"
+                                data-slides-to-show="4" data-slides-to-show-tab="2" data-slides-to-show-mob="1.2"
+                                data-arrow="true" data-dots="true" data-autoplaySpeed="3000000" data-autoplay="true"
+                                data-infinite="false" data-row-mobile="1" data-row-tab="1" data-row-desktop="1">
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T182542Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

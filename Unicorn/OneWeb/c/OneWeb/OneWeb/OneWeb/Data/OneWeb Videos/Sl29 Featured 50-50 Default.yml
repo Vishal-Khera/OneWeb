@@ -1,0 +1,18 @@
+﻿---
+ID: "67df7dba-7ced-4d72-8cbf-87e693865f84"
+Parent: "c64db581-72f2-4417-842d-fde4dfbe7ac7"
+Template: "30aad99c-7f21-4f5b-8f19-6231587915fc"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Videos/Sl29 Featured 50-50 Default"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220809T153139Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

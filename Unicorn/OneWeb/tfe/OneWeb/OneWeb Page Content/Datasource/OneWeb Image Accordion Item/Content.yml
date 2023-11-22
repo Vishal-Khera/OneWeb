@@ -1,0 +1,14 @@
+﻿---
+ID: "f32210dd-928b-45a1-90e7-eaa4cc6f5942"
+Parent: "1c0ee710-b440-4f8d-80ae-ca464571204b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Image Accordion Item/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211215T101901Z

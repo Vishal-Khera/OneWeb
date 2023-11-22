@@ -1,0 +1,21 @@
+﻿---
+ID: "9bebfd39-5282-4769-b785-ea13e246217e"
+Parent: "8fac35fd-1bf6-42e4-9353-b2375f689162"
+Template: "0d4f3a61-243a-42a9-a33c-9f054e02449b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards/OneWeb Card
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T013134Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: OneWeb Card

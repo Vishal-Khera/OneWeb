@@ -1,0 +1,18 @@
+﻿---
+ID: "96f33977-674b-4292-9b32-27dc3f0cfb9e"
+Parent: "6526777c-85bc-4ae9-a3d9-19ce39c4db7a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Event Timer/Location
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220705T125243Z

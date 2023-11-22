@@ -1,0 +1,64 @@
+﻿---
+ID: "eaea16b8-8fee-4ff8-a66b-63b587422178"
+Parent: "82403949-1bb8-4704-ae21-90e3423d6542"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Sales Tab/Default/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "8dc83063-c8df-4d9f-a9d2-b205a49adfa4"
+  Hint: CssClass
+  Value:  
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="col-12" uk-filter="target: .js-filter">
+         <div class="row">
+                <ul class="uk-subnav uk-subnav-pill col-12 mb-3 grid-tabs">
+                    <li class="uk-active" uk-filter-control><a href="#">All</a></li>
+        {{ for data in o_model.sales_tab_tag}}
+                    <li uk-filter-control="[data-sales*='{{data.tag_title}}']"><a href="#">{{data.tag_title}}</a></li>           
+        {{end}}
+                </ul>
+            </div>
+         <div class="row js-filter uk-grid-width-1-1 uk-grid-width-small-1-2 uk-grid-width-medium-1-2 uk-grid-width-large-1-4 uk-grid-width-xlarge-1-4 " uk-grid>
+            {{ for data in o_model.sales_tab}}
+            <div class="col-sm-6 col-lg-4 col-xl-3" data-sales="{{data.combined}}">
+                <div class="teams-card teams-card-hover uk-panel uk-panel-hover uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-scale-up">
+        			<div class="uk-panel-teaser">
+        		<figure class="uk-overlay uk-overlay-hover "> 	
+        {{if data.sales_image	 }}
+        				 			<img data-src="{{data.sales_image.url}}" class="img-fluid ow-lazy" alt="{{data.sales_image.alt-}}"
+        			title="{{data.sales_image.title}}">	
+        			 {{end}}
+        				<div class="uk-overlay-panel uk-overlay-background uk-overlay-fade"></div> 
+        				<a class="uk-position-cover" href="/contact-us/sales-team/{{data.title}}"></a> 
+        			</figure>
+        		</div>
+        	<div class="uk-panel-content">
+            {{if data.title !=""}}
+            <h3>{{data.title}}</h3>
+            {{ end }}
+            {{if data.designation !=""}}
+            <h4>{{data.designation}}</h4>
+            {{ end }}
+            {{if data.content !=""}}
+           <div class="description-complete"> {{data.content}}</div><br/>
+           {{if data.url !=""}}
+        <a class="uk-button uk-button-primary" href="/contact-us/sales-team/{{data.title}}">View details</a>
+        {{end}}
+            {{ end }}
+        	</div>
+        	</div>
+        	</div>
+        	{{end}}.
+        </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.15.1/js/uikit.min.js"></script>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220502T075026Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "2cb3701f-2583-40cf-a4f9-f2681a7c8d2b"
+Parent: "aa12eeae-d925-4569-bc39-6092c745fc05"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/earth.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211120T185425Z

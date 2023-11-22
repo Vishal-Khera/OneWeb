@@ -1,0 +1,25 @@
+﻿---
+ID: "3f392054-7fc1-4720-bac7-b8954eafe180"
+Parent: "0b5aec76-e247-40d7-9005-3451fcb625f8"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/OneWeb/OneWeb/OneWeb Event Card
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/edit.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {6526777C-85BC-4AE9-A3D9-19CE39C4DB7A}
+    {97167EAA-FBDE-43AC-AACE-F453D151CD87}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220706T094542Z

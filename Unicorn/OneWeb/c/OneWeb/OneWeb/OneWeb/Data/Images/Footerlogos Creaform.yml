@@ -1,0 +1,14 @@
+﻿---
+ID: "faf82e2f-9031-4420-8597-69840cfb8e19"
+Parent: "59c57b29-1492-451c-8904-f80dc032ff9b"
+Template: "861d0715-e397-4114-870a-7fbb1fe8c9d6"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/Footerlogos Creaform
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T100521Z

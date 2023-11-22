@@ -1,0 +1,121 @@
+@import 'base/base-index.scss';
+
+.sitecore-form {
+    @include font-size($md-font);
+
+    * {
+        font-family: $franklinMd !important;
+    }
+
+    .form-control {
+        padding: 15px;
+        background: transparent;
+        color: $mediumblack;
+        border: 2px solid $lightblack;
+        @include border-radius(4px);
+        outline: 4px solid transparent;
+        transition: .35s;
+        box-shadow: unset;
+
+        &:hover {
+            border-color: $darkblack;
+        }
+
+        &:focus-within {
+            border-color: $darkblack;
+            outline: 4px solid $cobalt-blue;
+            color: $brandblack;
+            &::placeholder {
+                color: $brandblack;
+            }
+        }
+
+        &:active {
+            border-color: $brandblack2;
+            color: $brandblack;
+            outline: 4px solid transparent;
+            &::placeholder {
+                color: $brandblack;
+            }
+        }
+    }
+
+    .field-validation-error {
+        color: $bright-red;
+        @include font-size($ssm-font);
+    }
+
+
+    .form-button {
+        margin-top: 30px;
+        input[type="submit"] {
+            margin: 0px;
+            margin: 0px;
+            padding: 0px;
+            border: none !important;
+            background: none !important;
+        }
+    }
+
+    input,
+    textarea {
+        &.input-validation-error {
+            color: $bright-red !important;
+            border-color:$bright-red !important;
+            &::placeholder{
+                color: $bright-red !important;
+            }
+        }
+    }
+
+    span{
+        &.field-validation-error {
+            padding-left: 20px;
+            color: $bright-red !important;
+            position: relative;
+            display: block;
+            margin-top:10px;
+            @include font-size($md-font);
+            &::after{
+                font-family: 'icomoon' !important;
+                content: "\e915";
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+.dark-theme {
+    .sitecore-form {
+        .form-control {
+            color: $mediumblack;
+            border: 2px solid $white-light-border;
+
+            &:hover {
+                border-color: $btn-inverted-border;
+            }
+
+            &:active {
+                border-color: $white;
+                color: $dark-gray;
+                outline: 4px solid transparent;
+                &::placeholder {
+                    color: $dark-gray;
+                }
+            }
+
+            &:focus-within  {
+                border-color: $btn-inverted-border;
+                outline: 4px solid $smoke-white;
+                color: $dark-gray;
+                &::placeholder {
+                    color: $dark-gray;
+                }
+
+            }
+        }
+    }
+}

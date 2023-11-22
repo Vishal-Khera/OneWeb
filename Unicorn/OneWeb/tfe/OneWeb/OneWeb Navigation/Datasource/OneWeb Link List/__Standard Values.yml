@@ -1,0 +1,19 @@
+﻿---
+ID: "0bcb922d-f4bf-4aa8-b767-c9f7f8ba427a"
+Parent: "c40a151f-d739-4716-bc7b-4ea210d65e6a"
+Template: "c40a151f-d739-4716-bc7b-4ea210d65e6a"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Navigation/Datasource/OneWeb Link List/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{FCA1AAEE-864C-4658-8FDB-75CDB4CA89BE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111206T112520

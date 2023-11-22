@@ -1,0 +1,47 @@
+﻿---
+ID: "10dde618-6b2a-44c8-a408-bf92f2430ba7"
+Parent: "849168dd-6969-46af-b60b-1cd211c69076"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Media Download Card/White Paper/White Paper
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    	{{if i_item.Media}}
+    		{{	media_link = ow_media_model i_item "Media"}}
+    	   <a href = '{{media_link.url}}' target="_blank" >
+    		<div class="card-thumbnail justfiy-img">
+    		{{if i_item.Image != ""}}		
+    		{{sc_field i_item 'Image'}}
+    		{{else}}
+    			{{default_background_image = ow_default_media_model_by_field "Default White Paper Background Image"}}
+    			{{if default_background_image != ""}}
+    			<img src='{{default_background_image.url}}' alt = '{{default_background_image.alt}}'/>
+    			{{end}}
+    		{{end}}
+    		 </div>
+    		  <div class="card-title-group white-bg">
+    			{{if i_item.Title | string.size > 0}}
+    			 <h4 class="title text-blue">{{i_item.Title}}</h4>
+    			 {{end}}
+    			 {{default_icon = ow_default_media_model_by_field "Default White Paper Icon"}}
+    			 {{if default_icon != ""}}
+    			 <div class="dowload-file">
+    				<img src='{{default_icon.url}}' alt = '{{default_icon.alt}}'/>
+    			 </div>
+    			 {{end}}	
+    		  </div>
+    	   </a>
+    	   {{end}}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220104T153327Z

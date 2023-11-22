@@ -1,0 +1,27 @@
+﻿---
+ID: "4d9c4eb7-3187-4243-b5d2-e7b3606755e7"
+Parent: "e98b4b3d-b602-42df-9221-0aeee07e1fe5"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Promo/Contact Us/Header
+DB: master
+SharedFields:
+- ID: "8dc83063-c8df-4d9f-a9d2-b205a49adfa4"
+  Hint: CssClass
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="link ow-header-contact-us">    
+    {{linkModel = ow_link_model i_datasource 'PromoLink'}}
+    {{if linkModel && linkModel.url && linkModel.text}}
+        <span><a href= {{linkModel.url}} class= '{{linkModel.class}}' title = '{{linkModel.title}}' target = '{{linkModel.target}}'>{{sc_field i_datasource "PromoIcon"}} {{linkModel.text}}</a></span>
+    {{end}}    
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211223T184438Z

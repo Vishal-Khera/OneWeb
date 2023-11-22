@@ -1,0 +1,31 @@
+.list-grid-view i {
+  margin-left: 5px;
+  font-size: 20px; }
+  @media screen and (min-width: 0) {
+    .list-grid-view i {
+      font-size: 20px; } }
+  @media screen and (min-width: 768px) {
+    .list-grid-view i {
+      font-size: 20px; } }
+  @media screen and (min-width: 992px) {
+    .list-grid-view i {
+      font-size: 20px; } }
+
+.list-grid-view span {
+  margin-right: 10px; }
+  .list-grid-view span:last-of-type, .list-grid-view span:first-child {
+    margin-right: 0; }
+
+.list-grid-view .card-view,
+.list-grid-view .list-view {
+  opacity: .3;
+  cursor: pointer;
+  display: inline-block;
+  color: #000;
+  margin-right: 10px; }
+  .list-grid-view .card-view.active,
+  .list-grid-view .list-view.active {
+    opacity: 1; }
+
+.list-grid-view .list-view {
+  margin-right: 0; }

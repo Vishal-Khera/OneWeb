@@ -1,0 +1,14 @@
+﻿---
+ID: "8d00659f-bba7-44f1-a7e4-09571b886e6d"
+Parent: "1ecc9a7b-c433-4f5f-826e-c79311e724f3"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Navigation/Datasource/OneWeb Language Switcher/Language Switcher
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211119T063745Z

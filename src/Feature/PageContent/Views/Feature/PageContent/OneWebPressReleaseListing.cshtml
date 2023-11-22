@@ -1,0 +1,17 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+
+@model OneWeb.Feature.PageContent.Models.PressReleaseListingRenderingModel
+
+@if (Model != null || Html.Sxa().IsEdit)
+{
+    <div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "ow-card-tags", Model.Attributes)>
+        <div class="component-content">
+            @foreach (var variantField in Model.VariantFields)
+            {
+                @Html.RenderingVariants().RenderVariant(variantField, Model.Item, Model.RenderingWebEditingParams, Model)
+            }
+        </div>
+    </div>
+}

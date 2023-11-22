@@ -1,0 +1,37 @@
+@import 'base/base-index.scss';
+.toolbar-wrapper{
+    padding: 5px 0px;
+    @media(max-width:767px){
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .toolbar-social-icons{
+        @media(max-width:767px){
+            width: 100%;
+        }
+        ul{
+            @media(max-width:767px){
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+            a{
+                color: $white;
+                padding: 5px 10px;
+                &:hover{
+                    color: $primary;
+                }
+            }
+        }
+    }
+    .toolbar-buttons{
+        padding: 0px;
+        a{
+            @media(max-width:767px){
+                width: 100%;
+                margin: 5px 0px;
+            }
+        }
+    }
+}

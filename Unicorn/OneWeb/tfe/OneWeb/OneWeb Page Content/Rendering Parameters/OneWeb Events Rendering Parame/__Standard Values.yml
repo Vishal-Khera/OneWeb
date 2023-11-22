@@ -1,0 +1,18 @@
+﻿---
+ID: "fc8aaec3-9766-4f97-bc9d-c88cae1c77c7"
+Parent: "f550d6b1-a3ac-406b-9a2a-063f503e2db9"
+Template: "f550d6b1-a3ac-406b-9a2a-063f503e2db9"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Events Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220124T080355Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

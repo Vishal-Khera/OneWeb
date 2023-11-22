@@ -1,0 +1,14 @@
+﻿---
+ID: "1af37cbb-1e99-4379-8670-ccad5390349a"
+Parent: "8d19a541-9707-4001-bf7f-4b7728809ebc"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb ImageGallery/Images
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220518T034410Z

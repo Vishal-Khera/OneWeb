@@ -1,0 +1,268 @@
+.button {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  width: max-content !important;
+  padding: 13px 50px 13px 20px;
+  color: #236192;
+  display: flex;
+  font-size: 16px;
+  transition: all .2s;
+  outline: 3px solid transparent;
+  position: relative;
+  overflow: hidden; }
+  @media screen and (min-width: 0) {
+    .button {
+      font-size: 16px; } }
+  @media screen and (min-width: 768px) {
+    .button {
+      font-size: 16px; } }
+  @media screen and (min-width: 992px) {
+    .button {
+      font-size: 16px; } }
+  .button i {
+    display: none !important; }
+  .button::after, .button::before {
+    font-family: 'icomoon' !important;
+    content: "\e900";
+    position: absolute;
+    transition: .35s;
+    opacity: 1;
+    font-size: 11px;
+    top: 50%;
+    transition: .35s;
+    transform: translate(-50%, -50%); }
+  .button::after {
+    right: 15px;
+    transition-delay: .13s; }
+  .button::before {
+    left: -20px;
+    opacity: 0; }
+  .button:hover, .button:focus {
+    padding: 13px 20px 13px 50px; }
+    .button:hover::after, .button:focus::after {
+      right: -15px;
+      opacity: 0;
+      transition-delay: 0s; }
+    .button:hover::before, .button:focus::before {
+      left: 25px;
+      transition-delay: .16s;
+      opacity: 1; }
+  .button.btn-default {
+    background: #236192;
+    color: #fff;
+    border: none; }
+    .button.btn-default:hover, .button.btn-default:active {
+      background: #236192;
+      color: #fff;
+      border: none;
+      outline: none;
+      text-decoration: none; }
+    .button.btn-default:focus {
+      box-shadow: none;
+      border: none;
+      outline: 3px solid rgba(35, 97, 146, 0.7); }
+    .button.btn-default.orange-theme {
+      background-color: #EA7F3C !important;
+      color: #2C2A29; }
+      .button.btn-default.orange-theme:hover, .button.btn-default.orange-theme:active {
+        background-color: #EA7F3C;
+        color: #2C2A29; }
+      .button.btn-default.orange-theme:focus {
+        box-shadow: none;
+        border: none;
+        outline: 3px solid #EA7F3C; }
+    .button.btn-default.btn-download::after, .button.btn-default.btn-download::before {
+      content: "\e905";
+      right: 15px;
+      left: unset; }
+    .button.btn-default.btn-download::before {
+      top: -20px; }
+    .button.btn-default.btn-download:hover, .button.btn-default.btn-download:focus {
+      padding: 13px 50px 13px 20px; }
+      .button.btn-default.btn-download:hover::after, .button.btn-default.btn-download:focus::after {
+        top: 90px;
+        opacity: 0; }
+      .button.btn-default.btn-download:hover::before, .button.btn-default.btn-download:focus::before {
+        top: 24px; }
+  .button.btn-standard {
+    background: rgba(35, 97, 146, 0.15);
+    color: #236192;
+    border: none; }
+    .button.btn-standard:hover, .button.btn-standard:active {
+      background: rgba(35, 97, 146, 0.15);
+      color: #236192;
+      border: none;
+      outline: 3px solid transparent;
+      text-decoration: none; }
+    .button.btn-standard:focus {
+      background: rgba(35, 97, 146, 0.15);
+      border: none;
+      color: #236192;
+      box-shadow: none;
+      outline: 3px solid rgba(35, 97, 146, 0.7); }
+  .button.btn-simple {
+    transition: ease-in-out 0.2s all;
+    padding: 9px 50px 9px 0px;
+    background: transparent;
+    color: #236192;
+    border: none;
+    outline: none; }
+    .button.btn-simple:hover, .button.btn-simple:active {
+      background: transparent;
+      color: #236192;
+      border: none;
+      outline: none;
+      text-decoration: none;
+      padding: 9px 25px 9px 30px; }
+      .button.btn-simple:hover::before, .button.btn-simple:active::before {
+        left: 10px;
+        transition-delay: .12s;
+        opacity: 1; }
+    .button.btn-simple:focus {
+      background: transparent;
+      border: none;
+      color: #236192;
+      box-shadow: none;
+      outline: 3px solid rgba(35, 97, 146, 0.7);
+      padding: 9px 20px 9px 35px; }
+      .button.btn-simple:focus::before {
+        left: 15px;
+        transition-delay: .12s;
+        opacity: 1; }
+    .button.btn-simple.btn-download::after {
+      content: "\e905"; }
+    .button.btn-simple.btn-download:before {
+      display: none; }
+    .button.btn-simple.btn-download:hover, .button.btn-simple.btn-download:focus {
+      padding-left: 0px !important;
+      padding-right: 50px !important; }
+      .button.btn-simple.btn-download:hover::after, .button.btn-simple.btn-download:focus::after {
+        right: 20px !important;
+        opacity: 1; }
+  .button .icon-right-arrow {
+    margin-left: 12px; }
+    @media only screen and (min-width: 768px) {
+      .button .icon-right-arrow {
+        margin-left: 15px; } }
+    .button .icon-right-arrow::before {
+      font-size: 12px; }
+      @media screen and (min-width: 0) {
+        .button .icon-right-arrow::before {
+          font-size: 12px; } }
+      @media screen and (min-width: 768px) {
+        .button .icon-right-arrow::before {
+          font-size: 12px; } }
+      @media screen and (min-width: 992px) {
+        .button .icon-right-arrow::before {
+          font-size: 12px; } }
+  .button.disbaled-hover {
+    pointer-events: none !important; }
+
+.video-play-btn {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  outline: none !important;
+  border: none !important; }
+  .video-play-btn:hover .video-play-icon {
+    background-color: #236192; }
+    .video-play-btn:hover .video-play-icon::before {
+      color: #fff;
+      transition: outline .50s; }
+  .video-play-btn:focus .video-play-icon {
+    background-color: #236192;
+    transition: outline .50s;
+    outline: 3px solid rgba(35, 97, 146, 0.7); }
+    .video-play-btn:focus .video-play-icon::before {
+      color: #fff; }
+  .video-play-btn .video-play-icon {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    background-color: #fff;
+    position: relative;
+    outline: 3px solid transparent;
+    transition: .35s;
+    outline-offset: 1px;
+    min-width: 48px; }
+    .video-play-btn .video-play-icon::before {
+      font-family: 'icomoon' !important;
+      content: "\e901";
+      color: #2C2A29;
+      top: 52%;
+      left: 55%;
+      position: absolute;
+      transform: translateY(-50%) translatex(-50%); }
+
+.dark-theme .button, .blue-theme .button {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  width: max-content;
+  color: #236192; }
+  .dark-theme .button.btn-default, .blue-theme .button.btn-default {
+    background: #fff;
+    color: #236192 !important;
+    border: none; }
+    .dark-theme .button.btn-default:hover, .dark-theme .button.btn-default:active, .blue-theme .button.btn-default:hover, .blue-theme .button.btn-default:active {
+      background: #fff;
+      color: #236192;
+      border: none;
+      outline: none;
+      text-decoration: none; }
+    .dark-theme .button.btn-default:focus, .blue-theme .button.btn-default:focus {
+      background: #fff;
+      border: none;
+      color: #236192;
+      box-shadow: none;
+      outline: 2px solid rgba(255, 255, 255, 0.7); }
+  .dark-theme .button.default-btn-color, .blue-theme .button.default-btn-color {
+    background: #236192 !important;
+    color: #fff !important;
+    border: none; }
+  .dark-theme .button.orange-theme, .blue-theme .button.orange-theme {
+    background-color: #EA7F3C !important;
+    color: #2C2A29 !important; }
+    .dark-theme .button.orange-theme:hover, .dark-theme .button.orange-theme:active, .blue-theme .button.orange-theme:hover, .blue-theme .button.orange-theme:active {
+      background-color: #EA7F3C;
+      color: #2C2A29 !important; }
+    .dark-theme .button.orange-theme:focus, .blue-theme .button.orange-theme:focus {
+      box-shadow: none;
+      border: none;
+      outline: 3px solid #EA7F3C; }
+  .dark-theme .button.btn-standard, .blue-theme .button.btn-standard {
+    background: rgba(240, 240, 240, 0.15);
+    color: #fff !important;
+    border: none; }
+    .dark-theme .button.btn-standard:hover, .dark-theme .button.btn-standard:active, .blue-theme .button.btn-standard:hover, .blue-theme .button.btn-standard:active {
+      background: rgba(240, 240, 240, 0.15);
+      color: #fff;
+      border: none;
+      outline: none;
+      text-decoration: none; }
+    .dark-theme .button.btn-standard:focus, .blue-theme .button.btn-standard:focus {
+      background: rgba(240, 240, 240, 0.15);
+      border: none;
+      color: #fff;
+      box-shadow: none;
+      outline: 3px solid rgba(255, 255, 255, 0.7); }
+  .dark-theme .button.btn-simple, .blue-theme .button.btn-simple {
+    background: transparent;
+    color: #fff !important;
+    border: none;
+    outline: none; }
+    .dark-theme .button.btn-simple:hover, .dark-theme .button.btn-simple:active, .blue-theme .button.btn-simple:hover, .blue-theme .button.btn-simple:active {
+      background: transparent;
+      color: #fff;
+      border: none;
+      outline: none;
+      text-decoration: none; }
+    .dark-theme .button.btn-simple:focus, .blue-theme .button.btn-simple:focus {
+      background: transparent;
+      border: none;
+      color: #fff;
+      box-shadow: none;
+      outline: 3px solid rgba(255, 255, 255, 0.7); }
+  .dark-theme .button.btn-download *, .blue-theme .button.btn-download * {
+    color: #fff !important; }

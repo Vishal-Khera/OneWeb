@@ -1,0 +1,187 @@
+.filter-search-wrapper .filter-search input.search-wrapper__input {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px; }
+  .filter-search-wrapper .filter-search input.search-wrapper__input:hover, .filter-search-wrapper .filter-search input.search-wrapper__input:focus {
+    border: 1px solid rgba(35, 97, 146, 0.15) !important; }
+
+.filter-search-wrapper .filter-facets .search-for .search-value {
+  color: #2C2A29;
+  font-family: "FranklinGothicLTPro-Md" !important; }
+
+.search-wrapper {
+  position: relative; }
+  .search-wrapper:before {
+    content: '\e914';
+    font-family: 'icomoon' !important;
+    position: absolute;
+    left: 15px;
+    font-size: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 0;
+    color: #236192; }
+    @media screen and (min-width: 0) {
+      .search-wrapper:before {
+        font-size: 14px; } }
+    @media screen and (min-width: 768px) {
+      .search-wrapper:before {
+        font-size: 14px; } }
+    @media screen and (min-width: 992px) {
+      .search-wrapper:before {
+        font-size: 14px; } }
+  .search-wrapper__input {
+    width: 100%;
+    border: 1px solid rgba(35, 97, 146, 0.15) !important;
+    border-radius: 4px;
+    background: #F7F7F7;
+    height: 40px;
+    padding-left: 40px; }
+
+.header-search {
+  padding: 0;
+  position: fixed;
+  top: 5px;
+  width: 100%;
+  display: flex;
+  display: none;
+  z-index: 99999;
+  padding-left: 15px;
+  padding-right: 15px;
+  top: auto;
+  margin-top: -30px;
+  left: 50%;
+  transform: translateX(-50%); }
+  @media only screen and (min-width: 768px) {
+    .header-search {
+      width: 100%;
+      max-width: 1280px;
+      left: 50%; } }
+  @media only screen and (min-width: 1200px) {
+    .header-search {
+      width: calc(100% - 30px); } }
+  .header-search .global-header {
+    width: 100%;
+    display: flex;
+    align-items: start; }
+    .header-search .global-header .global-search.focusIn {
+      height: auto; }
+    .header-search .global-header .global-search::before {
+      content: "\e914";
+      font-family: 'icomoon' !important;
+      position: absolute;
+      top: 11px;
+      left: 15px; }
+    .header-search .global-header .global-search input {
+      color: #2C2A29; }
+    .header-search .global-header .search-box-input {
+      border: 0;
+      background: transparent;
+      border-radius: 0;
+      border-bottom: 1px solid rgba(26, 25, 24, 0.15);
+      position: relative; }
+    .header-search .global-header .ow-container {
+      position: relative;
+      top: auto; }
+      .header-search .global-header .ow-container .result-item-wrapper {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px; }
+  .header-search .close-search {
+    border-radius: 39px;
+    margin-left: 10px;
+    background-color: #fff;
+    padding: 11px 17px;
+    color: #2C2A29 !important;
+    max-height: 43px;
+    font-family: "FranklinGothicLTPro-Md" !important;
+    font-size: 16px; }
+    @media screen and (min-width: 0) {
+      .header-search .close-search {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .header-search .close-search {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .header-search .close-search {
+        font-size: 16px; } }
+    @media only screen and (min-width: 768px) {
+      .header-search .close-search {
+        padding: 11px 21px;
+        margin-left: 15px; } }
+    .header-search .close-search:hover, .header-search .close-search:focus {
+      color: #2C2A29; }
+
+.search-overlay {
+  position: fixed;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0; }
+
+.ow-search-box {
+  max-width: 100%;
+  height: auto;
+  position: relative; }
+  .ow-search-box .ow-container .result-item-wrapper {
+    background-color: transparent;
+    color: #1A1918;
+    box-shadow: none;
+    max-height: 390px;
+    padding: 5px 0; }
+    .ow-search-box .ow-container .result-item-wrapper .result-item {
+      border-bottom: 1px solid rgba(26, 25, 24, 0.15);
+      padding-bottom: 10px;
+      margin-top: 15px; }
+      .ow-search-box .ow-container .result-item-wrapper .result-item:last-child {
+        padding-bottom: 0;
+        border-bottom: 0; }
+      .ow-search-box .ow-container .result-item-wrapper .result-item h4 {
+        padding-left: 45px;
+        color: rgba(26, 25, 24, 0.5); }
+      .ow-search-box .ow-container .result-item-wrapper .result-item li {
+        padding: 0 5px; }
+        .ow-search-box .ow-container .result-item-wrapper .result-item li a {
+          display: flex;
+          align-items: center;
+          padding: 10px 0;
+          background-color: transparent;
+          border-radius: 4px;
+          transition: .2s all;
+          padding-left: 10px;
+          padding-right: 10px; }
+          .ow-search-box .ow-container .result-item-wrapper .result-item li a::before {
+            font-family: 'icomoon' !important;
+            margin-right: 15px;
+            color: #908F8F; }
+          .ow-search-box .ow-container .result-item-wrapper .result-item li a:hover, .ow-search-box .ow-container .result-item-wrapper .result-item li a:focus {
+            background-color: #EDEDED;
+            color: inherit; }
+          .ow-search-box .ow-container .result-item-wrapper .result-item li a span {
+            color: rgba(26, 25, 24, 0.5) !important; }
+        .ow-search-box .ow-container .result-item-wrapper .result-item li.view-all {
+          color: #236192; }
+      .ow-search-box .ow-container .result-item-wrapper .result-item.suggested-search li a::before {
+        content: "\e914"; }
+      .ow-search-box .ow-container .result-item-wrapper .result-item.suggested-result li a::before {
+        content: "\e900"; }
+  .ow-search-box .clear-text {
+    transform: none;
+    top: 10px;
+    height: 25px;
+    width: 25px;
+    background-color: rgba(26, 25, 24, 0.15); }
+    .ow-search-box .clear-text::before, .ow-search-box .clear-text::after {
+      left: 11px;
+      height: 13px;
+      width: 2px;
+      background-color: #2C2A29;
+      top: 6px; }
+
+.global-search {
+  background-color: #fff;
+  border-radius: 8px; }
+
+.search-value {
+  color: #236192; }

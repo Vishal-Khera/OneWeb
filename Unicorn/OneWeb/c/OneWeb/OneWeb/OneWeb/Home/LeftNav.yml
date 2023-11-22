@@ -1,0 +1,63 @@
+﻿---
+ID: "b30a09ff-ef11-4172-94aa-0a2caf639ac1"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/LeftNav
+DB: master
+SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Type: Checklist
+  Value: |
+    {61BD64D6-809E-40AE-9297-2724A19329B3}
+    {D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}
+    {A0E7FF57-6994-4B09-AA21-104239628D5A}
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{367D2B7A-CDCE-49F1-9EB4-F7388E9B0EDB}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2416538B-B22D-42D4-B53E-71570641B7D4}"
+          p:before="*"
+          s:ds=""
+          s:id="{DCC728B2-99DA-4390-B015-761ADCA32BA0}"
+          s:par="GridParameters=%7BB815A5D7-F00B-4989-88E0-9A3E1B0921A4%7D&amp;FieldNames=%7B757B9F35-E7C0-45A1-9595-49C89E04C5F2%7D&amp;Styles&amp;NavigationRoot=%7BB30A09FF-EF11-4172-94AA-0A2CAF639AC1%7D&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7B3905B33E-C8F9-4B91-91D4-1E5EDA7CE4ED%7D&amp;Filter=%7B500AE4C0-FA7B-463F-8149-EFFF7F044101%7D&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-1/ow-row-2" />
+        <r
+          uid="{E6A1D43A-BB1B-48D0-B4EF-9A1098C90FD2}"
+          p:after="r[@uid='{2416538B-B22D-42D4-B53E-71570641B7D4}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-1" />
+        <r
+          uid="{6FA074EF-0A55-4E1B-93F1-D978AF5F2259}"
+          p:after="*[1=2]"
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211127T191132Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Left nav Parent
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Left Nav Parent
+    - ID: "6a30b727-97b0-48ff-94d8-0656a5973182"
+      Hint: Navigation Url
+      Value: 

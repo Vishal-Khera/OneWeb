@@ -1,0 +1,28 @@
+﻿---
+ID: "5ca30c69-550b-4161-bf72-276fd1647938"
+Parent: "fa212259-aedc-406b-a58c-4ef77a0cebc4"
+Template: "de4ce863-9911-457a-9a47-7e98a634bad6"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Product Card Folder/Application Solution Detail/GoSCAN 3D
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{168AE445-1CF3-40A2-88B1-E3E1CF4CA81C}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220825T200353Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: GoSCAN 3D
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: The easiest 3D scanning experience, generating fast and reliable measurements
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

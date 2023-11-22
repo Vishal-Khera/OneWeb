@@ -1,0 +1,63 @@
+﻿---
+ID: "b59075db-a592-424d-b69c-2f86ab75d244"
+Parent: "abad00e2-84cc-4256-86ef-496d283237e1"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card Grid/Featured Card List/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if i_page}}
+    
+        <div class="ow-card-tiles ow-product-feature row slider-wrapper row  ow-disable-carousal-desktop  slick-dott" data-slides-to-show="4" data-slides-to-show-tab="2.2" data-slides-to-show-mob="1.2"
+              data-arrow="false" data-dots="true" data-autoplaySpeed="30000" data-autoplay="false" data-infinite="false">
+              {{-for feature_card in (sc_followmany i_page "Card List")-}}						
+                {{-if feature_card -}}
+                  <div class="card-item col-lg-3">      
+    			<div class="tile-slide">
+    			<div class="tile-bg-img">
+    		   {{image = sc_field feature_card 'Image' }}
+    			{{if image != ""}}
+    			{{sc_field feature_card 'Image' [['class', "ow-lazy"]]}}
+    			{{else}}			
+    			{{default_background_image = ow_default_media_model_by_field "Default Feature Card Background Image"}}
+    			{{if default_background_image != ""}}
+    			<img src='{{default_background_image.url}}' alt = '{{default_background_image.alt}}' class = "ow-lazy"/>
+    			{{end}}
+    		{{end}}
+    		</div>
+    		<div class="card-overlay">
+    			<div class="card-overlay-text">
+    			{{if (feature_card.icon !="")}}
+    		    <div class="tile-icon">
+    			{{ sc_field feature_card 'icon' }}
+    		   </div>
+    		   {{end}}
+    		   {{if (feature_card.title | string.size > 0)}}
+    		   <h4>{{feature_card.title}}</h4>
+    		   {{end}}
+    		   {{if(feature_card.content | string.size > 0)}}
+    		   <div class="list-item">
+    		   {{feature_card.content}}
+    			</div>
+    			{{end}}
+    			</div>  
+    		</div>	 
+    	</div>
+    </div>
+              {{end}}
+              {{end}}
+            </div>
+    
+    {{end}}
+       
+      
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T060458Z

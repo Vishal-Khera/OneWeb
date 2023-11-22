@@ -1,0 +1,36 @@
+﻿---
+ID: "aa3cc67a-9cef-47c2-8cb3-b23e3861903f"
+Parent: "8fac35fd-1bf6-42e4-9353-b2375f689162"
+Template: "0d4f3a61-243a-42a9-a33c-9f054e02449b"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards/Single Column Text V4-3"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: 
+    - ID: "1666f2e1-fec0-4c0d-8013-f4e9a5e00a32"
+      Hint: SecondaryLink
+      Value: |
+        <link text="THE 2021 SUSTAINABILITY REPORT" anchor="" linktype="internal" class="" title=""  querystring="" id="{45B50F61-7E66-4582-AA94-C5A33DEBCBF2}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T185429Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: <strong>Sustainability</strong>
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        <p>At AMETEK, we believe in building sustainable future for our shareholders, colleagues, customers and suppliers, and the communities we operate.</p>
+        <p>For us, sustainability is a commitment to do the right thing in all the facets of our company, while delivering strong, consistent and profitable growth. We believe the story of sustainability at AMETEK is a growth story and encourage you to review our most recent sustainability report to learn how AMETEK is making the world a better place.</p>
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: 

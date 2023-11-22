@@ -1,0 +1,22 @@
+﻿---
+ID: "76811c64-49f7-4f53-84ff-de5bfdcb1b09"
+Parent: "f1f1a902-c6c8-40f8-9283-33196d944a22"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Promo/RedirectNavigation Link/Container/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="row-data">
+               <div class="list">	{{sc_field i_item 'PromoText'}}</div>
+               <div  class="list">	{{sc_field i_item 'PromoLink'}}</div>
+            </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T130629Z

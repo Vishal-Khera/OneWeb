@@ -1,0 +1,23 @@
+﻿---
+ID: "f18cece6-94ec-4c77-927c-b975370a4a9d"
+Parent: "ac797624-9013-424a-9fa9-df013c738284"
+Template: "91b814dc-e540-44af-9594-8e7008e6ebd5"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Businesses/Products/Mobile Metal Analyzers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211222T035656Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Mobile Metal Analyzers
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: 
+    - ID: "fd179cdb-d212-4a5c-a323-95f22d93c14d"
+      Hint: Product Type
+      Value: "{ED2A1021-CF22-48AB-A8A0-0E9FD38A284E}"

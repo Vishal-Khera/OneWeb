@@ -1,0 +1,26 @@
+﻿---
+ID: "2a7820e5-9656-445d-b3a1-1edf9c844b40"
+Parent: "4ebe17c2-6bec-4ca6-a43f-f28fbf27f117"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Breadcrumb/External Link Nav/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+                               <div class="navigation-title field-navigationtitle">
+                                <a title="{{i_item.Title}}" href="{{i_item.Subtext}}">{{i_item.Title}}</a></div>
+    
+      
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T012916Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

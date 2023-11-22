@@ -1,0 +1,63 @@
+@import "base/base-index.scss";
+
+.ow-card-tag {
+  width: 100%;
+  .slider-wrapper {
+    .news-card {
+      display: flex !important;
+      .tile-slide {
+        background: $border-light-gray;
+        padding: 30px 20px;
+        margin-bottom: 30px;
+        .card-title-content {
+          .date {
+            color: $mid-gray;
+            text-decoration: unset;
+            @include font-size($ssm-font);
+            padding-bottom: 10px;
+          }
+          .title {
+            font-family: "Helvetica Neue";
+            @include font-size($sxl-font);
+            color: $primary;
+            margin-bottom: 15px;
+            display: block;
+            line-height: 24px;
+            cursor: pointer;
+
+            &:hover {
+              color: $primary;
+              text-decoration: underline;
+            }
+          }
+
+          .description {
+            @include font-size($md-font);
+            line-height: 22px;
+            color: $dark-gray;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+
+  .view-all {
+    text-align: left;
+    @include lg {
+      text-align: right;
+    }
+    a {
+      color: $primary;
+      @include font-size($sm-font);
+
+      &:after {
+        content: "\276F";
+        padding-left: 5px;
+      }
+    }
+  }
+}

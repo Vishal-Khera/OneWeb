@@ -1,0 +1,31 @@
+.ow-card-content h1 {
+  color: #D9171D;
+  font-size: 32px;
+  font-family: "Helvetica Neue";
+  margin-bottom: 15px; }
+  @media screen and (min-width: 0) {
+    .ow-card-content h1 {
+      font-size: 32px; } }
+  @media screen and (min-width: 768px) {
+    .ow-card-content h1 {
+      font-size: 32px; } }
+  @media screen and (min-width: 992px) {
+    .ow-card-content h1 {
+      font-size: 36px; } }
+
+.ow-card-content .description {
+  font-size: 20px; }
+  @media screen and (min-width: 0) {
+    .ow-card-content .description {
+      font-size: 20px; } }
+  @media screen and (min-width: 768px) {
+    .ow-card-content .description {
+      font-size: 20px; } }
+  @media screen and (min-width: 992px) {
+    .ow-card-content .description {
+      font-size: 20px; } }
+
+.ow-card-content .card-img {
+  width: 100%; }
+  .ow-card-content .card-img img {
+    width: fit-content; }

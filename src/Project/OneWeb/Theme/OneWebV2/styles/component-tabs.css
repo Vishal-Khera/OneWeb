@@ -1,0 +1,72 @@
+.ow-news-tabs .filter-mobile {
+  display: none !important; }
+
+.ow-news-tabs .filter-wrapper {
+  display: block !important; }
+
+.ow-news-tabs .filter-tab {
+  display: none !important; }
+
+.tab-wrapper {
+  padding: unset;
+  box-shadow: unset; }
+  .tab-wrapper ul {
+    margin: 0;
+    padding: 0;
+    display: inline-table;
+    flex-wrap: wrap;
+    width: 100%; }
+    .tab-wrapper ul li {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border: none;
+      display: inline-flex;
+      float: left;
+      margin-top: 0px;
+      padding-right: 0px;
+      padding-left: 0px; }
+      .tab-wrapper ul li:last-child {
+        margin-right: 0; }
+      .tab-wrapper ul li a {
+        padding: 11px 20px 11px;
+        border: 2px solid rgba(35, 97, 146, 0.2);
+        color: #2C2A29;
+        border-radius: 80px;
+        cursor: pointer;
+        transition: .2s all;
+        font-size: 18px;
+        font-family: "FranklinGothicLTPro-Md"; }
+        @media screen and (min-width: 0) {
+          .tab-wrapper ul li a {
+            font-size: 18px; } }
+        @media screen and (min-width: 768px) {
+          .tab-wrapper ul li a {
+            font-size: 18px; } }
+        @media screen and (min-width: 992px) {
+          .tab-wrapper ul li a {
+            font-size: 21px; } }
+        .tab-wrapper ul li a:hover {
+          background: transparent;
+          color: #236192;
+          border: 2px solid #236192; }
+        .tab-wrapper ul li a.active, .tab-wrapper ul li a.isActive {
+          padding: 13px 22px 13px;
+          border: 0;
+          background: rgba(35, 97, 146, 0.1);
+          color: #236192; }
+    .tab-wrapper ul .ow-container {
+      display: block;
+      flex-wrap: wrap; }
+
+.dark-theme .tab-wrapper ul li a {
+  color: rgba(240, 240, 240, 0.7) !important;
+  border: 2px solid rgba(240, 240, 240, 0.15); }
+  .dark-theme .tab-wrapper ul li a:hover {
+    background: transparent;
+    color: #F7F7F7 !important;
+    border: 2px solid #F7F7F7; }
+
+.dark-theme .tab-wrapper ul li.active a, .dark-theme .tab-wrapper ul li.isActive a {
+  border: 0;
+  background: rgba(240, 240, 240, 0.15);
+  color: #F7F7F7 !important; }

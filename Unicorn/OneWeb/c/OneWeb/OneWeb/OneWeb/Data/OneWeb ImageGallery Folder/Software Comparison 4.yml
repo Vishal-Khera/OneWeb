@@ -1,0 +1,31 @@
+﻿---
+ID: "1d3355c5-fd4c-4a2d-889a-289c54908fd9"
+Parent: "b2c85aeb-b584-48b8-a171-839e8b7b467a"
+Template: "8d19a541-9707-4001-bf7f-4b7728809ebc"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb ImageGallery Folder/Software Comparison 4
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T132005Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: VXtrack<sup>TM</sup>
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Dynamic tracking measurement software module
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ef14bad-809e-4c37-b48a-1b73420b077c"
+      Hint: Images
+      Value: "{C45B1557-6E17-465E-893A-3A5F0AE60FB5}|{44DBEAD0-2062-42B4-8A13-D869A628A328}|{A9D456DB-0E83-4B9D-B1E3-493A4EF09A76}"
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{CC5A230B-888F-4F46-9AFD-F1D44A8E34B5}" />

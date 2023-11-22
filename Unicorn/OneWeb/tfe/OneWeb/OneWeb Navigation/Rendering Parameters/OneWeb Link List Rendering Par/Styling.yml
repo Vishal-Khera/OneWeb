@@ -1,0 +1,22 @@
+﻿---
+ID: "6acbfd03-0caa-4b8a-be1d-ed16c168a10b"
+Parent: "92431d1a-d1d4-4160-b5f0-f4d77984ac43"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Navigation/Rendering Parameters/OneWeb Link List Rendering Parameters/Styling
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/text_rich_colored.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111202T090900Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

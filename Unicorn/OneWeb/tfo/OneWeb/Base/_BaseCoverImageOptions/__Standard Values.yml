@@ -1,0 +1,22 @@
+﻿---
+ID: "dde58d8f-4aaa-49e5-9a73-3a180b4987f3"
+Parent: "146c6d97-ff79-47bc-bbc0-ebfa902c7f26"
+Template: "146c6d97-ff79-47bc-bbc0-ebfa902c7f26"
+Path: /sitecore/templates/Foundation/OneWeb/Base/_BaseCoverImageOptions/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220610T081415Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "a9e0e9a2-5496-43fa-b58d-1ef5b232ae1a"
+      Hint: Invert Shade In Mobile
+      Type: Checkbox
+      Value: 1

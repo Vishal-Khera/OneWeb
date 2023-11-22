@@ -1,0 +1,35 @@
+﻿---
+ID: "bfbda5ca-186f-4c5f-a98a-39bf6653bd4d"
+Parent: "21b32af1-e31f-4908-863b-b184f206e1a8"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Tags/P2 Tags/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if o_model.tags}}
+    <div class="tag-wrapper" data-tag="{{o_model.display_tag_count}}">
+    {{for tag in o_model.tags}}
+                <a href="{{tag.url}}" class="tag">{{tag.title}}</a>
+    {{end}}
+    {{if (o_model.tags | array.size) > o_model.display_tag_count}}
+            <a href="javascript:void(0)" class="seeMore">...</a>
+    {{end}}
+    </div>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T185907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

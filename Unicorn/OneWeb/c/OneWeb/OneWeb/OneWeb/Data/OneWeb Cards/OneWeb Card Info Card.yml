@@ -1,0 +1,14 @@
+﻿---
+ID: "2dc4929b-664f-45a5-9c51-f4ba5cbe03ba"
+Parent: "8fac35fd-1bf6-42e4-9353-b2375f689162"
+Template: "3ff47763-b0a6-4b2f-a3d1-afdbddf46495"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards/OneWeb Card Info Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220712T094345Z

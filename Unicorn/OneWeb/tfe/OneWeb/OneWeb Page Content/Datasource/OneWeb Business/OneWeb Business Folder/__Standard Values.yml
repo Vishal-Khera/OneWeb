@@ -1,0 +1,25 @@
+﻿---
+ID: "d443e46f-ea27-4cf6-a622-5d09a1fa3d16"
+Parent: "428a1e0a-ce84-4113-90f0-b0352a0fb335"
+Template: "428a1e0a-ce84-4113-90f0-b0352a0fb335"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Business/OneWeb Business Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {92D1DA5D-4AD7-44CE-8F19-D55B2E12B042}
+    {428A1E0A-CE84-4113-90F0-B0352A0FB335}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,14 @@
+﻿---
+ID: "9d21e0ff-9d05-4f64-8538-90f70b295746"
+Parent: "f1b4aab5-3d96-4872-8750-f2d362a90e06"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/OneWeb/OneWeb/shared
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T073819Z

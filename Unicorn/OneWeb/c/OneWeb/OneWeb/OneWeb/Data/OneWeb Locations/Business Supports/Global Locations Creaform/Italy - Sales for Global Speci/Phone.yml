@@ -1,0 +1,20 @@
+﻿---
+ID: "1090073b-5392-4eb9-be8b-8f82c1988f08"
+Parent: "33e5d29f-c24d-4d42-87a7-c3caa0bd0f07"
+Template: "f229fc5b-2172-404c-90dd-e1f0fe047cc7"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/Business Supports/Global Locations Creaform/Italy - Sales for Global Speciality Motors/Phone"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17500a11-fa62-46bd-a98f-b95f142766a9"
+      Hint: Title
+      Value: "+39 02-946931"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211224T221120Z
+    - ID: "e5b8aa11-a7d2-4340-a85a-b4443bb2cc72"
+      Hint: Link
+      Value: 

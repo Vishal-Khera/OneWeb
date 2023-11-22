@@ -1,0 +1,31 @@
+﻿---
+ID: "95643a32-350c-474c-b436-e59ad9dbca85"
+Parent: "41672eb4-47cf-404a-ba59-31aeffd22035"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Texts/ContactAddres Creaformengineering/Contact Address
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220701T170931Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <div class="component footer-links-container ">
+        <h4><a>Customer Care</a></h4>
+        <p>Open Monday to Friday,
+        8:30 AM to 4:30 PM (EST)</p>
+        </div>
+        <div class="component footer-links-container footer-contact-us">
+        <p>Contact Us
+        </p>
+        <p><a href="tel:+1 877-959-3098">+1 877-959-3098</a></p>
+        </div>

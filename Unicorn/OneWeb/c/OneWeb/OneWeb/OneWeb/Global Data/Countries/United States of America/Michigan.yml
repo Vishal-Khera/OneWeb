@@ -1,0 +1,78 @@
+﻿---
+ID: "6be46c9a-cd99-41e4-aff1-e02880b2efe9"
+Parent: "874398da-1687-468a-b658-ab8aeb6c3eb3"
+Template: "851511fa-16f0-4200-9650-33c8af27bf94"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Global Data/Countries/United States of America/Michigan
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2A918814-9A5B-46A5-A3DA-209B36A15D2F}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200728T070006Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rohitg
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: Michigan
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200728T070006Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{4785714C-2C4A-4784-955B-D638CB42E994}"
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: Michigan
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200728T070006Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rohitg
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: Michigan
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200728T070006Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rohitg
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: Michigan

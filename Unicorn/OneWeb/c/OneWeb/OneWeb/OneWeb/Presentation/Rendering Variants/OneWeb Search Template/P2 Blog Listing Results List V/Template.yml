@@ -1,0 +1,66 @@
+﻿---
+ID: "d8fd2ff7-f2f3-4b9a-9d2f-b6514a5ba399"
+Parent: "be4ad33c-25e3-488f-b17a-48b5286b74fd"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/P2 Blog Listing Results List View/Template
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    [[#each Results]]
+    <div class="news-wrapper">
+        [[#if (isdefined this.Image)]]
+            [[#jsonBlock this.Image]]
+            <div class="news-wrapper__image">
+                <img data-src="[[@Url]]" class="ow-lazy" title="[[@Title]]" alt="[[@Alt]]">
+            </div>
+    
+            [[/jsonBlock]]
+        [[else]]
+            [[#if (isdefined this.DefaultImage)]]
+                [[#jsonBlock this.DefaultImage]]
+                <div class="news-wrapper__image">
+                    <img data-src="[[@Url]]" class="ow-lazy" title="[[@Title]]" alt="[[@Alt]]">
+                </div>
+                [[/jsonBlock]]
+            [[/if]]
+        [[/if]]
+        <div class="news-wrapper__content">        
+            <a href="[[this.Url]]"><h3>[[[Title]]]</h3></a>
+            [[#if (isdefined Content)]] 
+            <div class="paragraph-wrapper">[[[Content]]]</div>
+            [[/if]]
+    
+            [[#if (isdefined Date)]] 
+            <div class="date">
+                [[Date]]
+            </div>
+            [[/if]]
+            
+            [[#if (isdefined this.Taxonomy)]] 
+                [[#jsonBlock this.Taxonomy]] 
+                <div class="tag-wrapper" data-tag="5">
+                    [[#each @Tags]] 
+                        [[#if (isdefined this.Title)]]
+                        <label href="javascript:void(0)" class="tag suggestion-label" tag-id="[[this.Identifier]]">[[[this.Title]]]</label>
+                        [[/if]] 
+                    [[/each]] 
+                </div>
+                [[/jsonBlock]]
+            [[/if]]
+        </div>
+    </div>
+    [[/each]]
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T145420Z

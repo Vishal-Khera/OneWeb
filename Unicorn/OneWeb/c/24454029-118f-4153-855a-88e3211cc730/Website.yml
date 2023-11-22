@@ -1,0 +1,32 @@
+﻿---
+ID: "cbc91e46-85fd-4415-b319-b1bffb23fe2c"
+Parent: "24454029-118f-4153-855a-88e3211cc730"
+Template: "f229fc5b-2172-404c-90dd-e1f0fe047cc7"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/Business Supports/Global Locations Creaform/Italy - Sales for Global Floorcare Motors/Website"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 325
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17500a11-fa62-46bd-a98f-b95f142766a9"
+      Hint: Title
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211227T120620Z
+    - ID: "523cc883-8778-4897-92a1-e13c4c905d6a"
+      Hint: SupportType
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "e5b8aa11-a7d2-4340-a85a-b4443bb2cc72"
+      Hint: Link
+      Value: |
+        <link text="www.creaform3d.com" linktype="external" url="https://www.creaform3d.com/en" anchor="" target="_blank" />

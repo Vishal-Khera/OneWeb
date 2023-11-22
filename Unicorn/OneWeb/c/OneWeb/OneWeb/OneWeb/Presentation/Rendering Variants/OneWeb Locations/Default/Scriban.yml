@@ -1,0 +1,79 @@
+﻿---
+ID: "c055bc8c-1bbc-4aa4-b9cd-23542ad0a345"
+Parent: "52659b03-e017-4855-85ab-b851a7983a90"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Locations/Default/Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if i_datasource}}
+            <div class="ow-card locations-wrapper white-gray-background">
+                <div class="ow-card-content">
+            			{{if (i_datasource.title|string.size > 0)}}
+                            <div class="col-12">
+                                <h3>{{i_datasource.title}}</h3>
+                            </div>
+            			{{end}}
+            			{{for level_one_child in i_datasource.children
+            				if level_one_child}}					
+                            <div class="col-lg-4 col-md-6 locations">
+                                <div class="locations-detail">
+            						{{if (level_one_child.title|string.size > 0 )}}
+            							<h4>{{level_one_child.title}}</h4>
+            						{{end}}
+            						{{if (level_one_child.content|string.size > 0 )}}
+            							<div>{{level_one_child.content}}</div>
+            						{{end}}
+                                </div>
+            					{{if level_one_child.children}}
+            						<div class="locations-info">
+            						{{for level_two_child in level_one_child.children
+            							if level_two_child}}							
+            								{{icon_model = level_two_child.SupportType.target					
+            								link_model = ow_link_model level_two_child 'Link'
+            								if (link_model.url|string.size > 0 )}}
+            									<a class="web-link" href="{{link_model.url}}"><span class="sr-only">link</span>
+            										{{link_model.text}}
+            									</a>
+            								{{else if (level_two_child.title|string.size > 0)}}        									
+            										{{if icon_model}}
+    												    {{if(icon_model.LinkPrefix|string.size > 0 )}}
+    													   <a href="{{icon_model.LinkPrefix.raw}}{{level_two_child.Title.raw}}"><span class="sr-only">link</span>
+    													{{else}}
+    													   <a href="{{level_two_child.Title.raw}}"><span class="sr-only">link</span>
+    													{{end}}
+            											{{if(icon_model.Value|string.size > 0 )}}
+            												<i class="{{icon_model.Value.raw}}" aria-hidden="true"></i>
+            											{{end}}
+    													
+            										{{end}}
+            										&nbsp;{{icon_model.TextPrefix}}{{level_two_child.Title}}
+            									</a>
+            								{{end}}
+            							{{end}}
+            						{{end}}
+            						</div>
+            					{{end}}
+                            </div>
+            				{{end}}
+            			{{end}}
+                </div>
+            </div>
+            {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211225T030055Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

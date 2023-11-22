@@ -1,0 +1,22 @@
+﻿---
+ID: "3dc80221-c3b5-4e2f-a445-7022745b4f47"
+Parent: "d7ac1e00-a91c-4a38-af83-13e37f76b8ae"
+Template: "bb8a85ab-1f6d-4518-8772-1c9f4f8dac18"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/Image Accordion Logos/Nautilair
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220117T094909Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ebe4fdef-16d5-4d19-833c-24a241628a3a"
+      Hint: Image
+      Value: |
+        <image mediaid="{4CD560AD-299B-4FBA-88BB-8E2DE27C7E68}" />

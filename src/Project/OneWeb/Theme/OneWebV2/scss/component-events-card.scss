@@ -1,0 +1,323 @@
+@import 'base/base-index.scss';
+
+.ow-event-card {
+    // padding: 30px 10px 0px 10px !important;
+
+    .component-content {
+        height: 100%;
+
+        >.component {
+            height: 100%;
+        }
+    }
+
+    width: 100%;
+
+    a:first-of-type {
+        height: 100%;
+        width: 100%;
+
+        &:hover {
+            .card {
+                transform: translateY(-5px);
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            }
+        }
+
+        &:focus {
+            .card {
+                outline: 4px solid $sea-blue;
+                transform: translateY(+5px);
+            }
+        }
+
+        &:focus-visible {
+            outline: none;
+
+        }
+    }
+
+
+    .card {
+        transition: 0.36s ease-in-out;
+        border: none;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        border-radius: 3%;
+        background-color: $card-base;
+        outline: 3px solid transparent;
+        flex-direction: column;
+
+
+        .card-image {
+            aspect-ratio: 5 / 3;
+            object-fit: cover;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        }
+
+        .card-body {
+            color: $brand;
+
+            * {
+                font-family: $franklinMd !important;
+            }
+
+            .card-title {
+                margin-bottom: 8px;
+            }
+
+            .card-location {
+                position: relative;
+                margin-left: -3px;
+                color: $coral-blue;
+                padding-top: 3px;
+
+                i {
+                    color: $brand;
+                    font-family: 'icomoon' !important;
+                }
+            }
+
+            .card-subtitle {
+                color: $brandblack;
+            }
+        }
+
+        .card-footer {
+            background: none;
+            border: none;
+            padding-bottom: 5px;
+            padding-top: 15px;
+
+            .time-format {
+                @include font-size($mxl-font);
+                display: flex;
+                align-items: center;
+                color: $brand;
+
+                .start-date {
+                    display: flex;
+                    align-items: center;
+                    padding-right: 9px;
+
+                    i {
+                        color: $coral-blue;
+                        font-size: 78%;
+                        padding-left: 7px;
+                        margin-top: -8px;
+                    }
+                }
+
+                .close-date {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 1px;
+                }
+
+                .month-year {
+                    padding-left: 1px;
+                    color: $coral-blue;
+                    color: $btn-light-border;
+                    @include font-size($sssm-font);
+                    word-break: break-all;
+
+                    .month {
+                        line-height: 9px;
+                    }
+                }
+
+                .date {
+                    @include font-size($mxl-font);
+                    padding-right: 3px;
+                    color: $brand;
+                }
+            }
+        }
+    }
+
+
+
+    .slick-slider {
+        .slick-dots {
+            padding: 0px;
+            margin-top: 10px;
+            justify-content: space-between;
+
+            li {
+                width: 100%;
+                height: 1px;
+                border-radius: 0%;
+                -webkit-border-radius: 0%;
+                margin: 10px 0px;
+            }
+        }
+    }
+}
+
+.dark-theme-base {
+    .ow-event-card {
+        a:first-of-type {
+            &:hover {
+                .card {
+                    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15) !important;
+                }
+            }
+
+            &:focus {
+                .card {
+                    outline: 4px solid $white-light-border !important;
+                }
+            }
+        }
+
+        .card {
+            background-color: $brandblack !important;
+
+            .card-body {
+                color: $mid-light-gray !important;
+
+                .card-title {
+                    color: $mid-light-gray !important;
+                }
+
+                .card-subtitle {
+                    color: $base-light-gray !important;
+                }
+
+                .card-location {
+                    color: $mid-light-gray !important;
+                }
+            }
+
+            .card-footer {
+                .time-format {
+                    color: $base-light-gray !important;
+
+                    .icon-Date-Arrow {
+                        &::before {
+                            color: $stone-gray !important;
+                        }
+                    }
+
+                    .date {
+                        color: $base-light-gray !important;
+                    }
+
+                    .month-year {
+                        color: $stone-gray !important;
+                    }
+
+                }
+            }
+        }
+
+        .slick-slider {
+            .slick-dots {
+
+                li {
+                    border-color: $brandblack;
+
+                    &.slick-active {
+                        border-color: $dark-gray;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.dark-theme-card {
+    &.ow-event-card {
+        .card {
+            background-color: $brandblack !important;
+
+            .card-body {
+                color: $mid-light-gray !important;
+
+                .card-title {
+                    color: $mid-light-gray !important;
+                }
+
+                .card-subtitle {
+                    color: $base-light-gray !important;
+                }
+
+                .card-location {
+                    color: $mid-light-gray !important;
+                }
+            }
+
+            .card-footer {
+                .time-format {
+                    color: $base-light-gray !important;
+
+                    .icon-Date-Arrow {
+                        &::before {
+                            color: $stone-gray !important;
+                        }
+                    }
+
+                    .date {
+                        color: $base-light-gray !important;
+                    }
+
+                    .month-year {
+                        color: $stone-gray !important;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+.event-navigation-card {
+    .card {
+        .sub-footer {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 5px;
+            padding-top: 10px;
+            position: relative;
+
+            .btn-simple {
+                padding-top: 20px !important;
+                padding-bottom: 0px !important;
+                line-height: 0px;
+                &:after{
+                    display:flex;
+                }
+            }
+
+            * {
+                color: $white !important;
+            }
+
+            &::after {
+                position: absolute;
+                content: '';
+                background-color: $white-light-border;
+                height: 1px;
+                width: calc(100% - 0px);
+                top: 0px;
+            }
+
+
+            .view-all-text {
+                padding: 9px 0px 6px 0px;
+                text-align: right;
+                color: $white;
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+
+@import 'base/base-index.scss';
+.subscribe-form-box {
+    padding: 20px 20px 30px 20px;
+   .email-subscribe{
+    margin-bottom: 0px;
+    input[type="email"]{
+        padding-right: 155px;
+    }
+   }
+    
+    .form-heading{
+        padding: 0px 0px 10px 0px;
+        border-bottom: 1px solid $border-gray-white;
+        @include font-size($mxl-font);
+        color: $dark-gray;
+        font-family: 'HelveticaNeue-Medium';
+    }
+    .form-title{
+        @include font-size($md-font);
+        color: $dark-gray;
+        font-family: 'HelveticaNeue-Medium';
+        padding-top: 20px;
+    }
+    
+    p{
+        padding-top: 10px;
+        position: relative;
+        margin: 0px;
+        padding-bottom: 0px;
+        color: $dark-gray;
+        @include font-size($md-font);
+    }
+    
+    
+}

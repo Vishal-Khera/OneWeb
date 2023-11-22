@@ -1,0 +1,46 @@
+﻿---
+ID: "c2c32e2d-d953-4959-9583-52410df5c818"
+Parent: "2d788b8a-6a75-4ab0-878b-64ed2ba9249c"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Gallery/photo grid/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-
+      if i_item.template_name == "Gallery Image"
+        sc_editframe i_item 'Gallery Image' -}}
+        <a class="field-image">
+          <a title="{{ i_item.ImageTitle.raw }}" href="{{ i_item.Image.media_url }}">
+          {{ i_item.Image }}
+          </a>
+        </a>{{
+        sc_endeditframe
+      end -}}
+    
+    {{-
+      if i_item.template_name == "Gallery Video"
+        sc_editframe i_item 'Gallery Video'
+        if (i_item.VideoID.raw ) == "" &&(i_item.VideoThumbnail.raw) == "" -}}
+          <span>[Edit Gallery Video here]</span>{{
+        else -}}
+          <a title="{{i_item.VideoTitle.raw }}" href="http://www.youtube.com/watch?v={{ i_item.VideoID.raw }}">
+          <img src="{{ o_model.thumbnail_url }}" alt="{{ i_item.VideoDescription.raw }}"
+                 data-title="{{ i_item.VideoTitle.raw }}" data-description="{{ i_item.VideoDescription.raw }}" ></img>
+          </a>{{
+        end
+        sc_endeditframe
+      end }}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220712T021127Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

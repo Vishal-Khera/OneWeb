@@ -1,0 +1,21 @@
+﻿---
+ID: "c5cd629e-0461-47bb-95c5-d9e104a4d164"
+Parent: "69896860-2849-4349-a992-a400733106bd"
+Template: "552c7c41-fcf3-45a9-a813-3d75a4d5c654"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Header Contents/Secondary Navigation/Coordinate Measuring Machines Creaform
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220816T135613Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Coordinate Measuring Machines

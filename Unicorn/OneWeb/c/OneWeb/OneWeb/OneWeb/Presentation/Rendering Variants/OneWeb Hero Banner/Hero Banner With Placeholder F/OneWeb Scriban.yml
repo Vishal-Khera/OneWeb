@@ -1,0 +1,88 @@
+﻿---
+ID: "a4a4132d-57f3-422e-9278-b43c8b06b37a"
+Parent: "c8a4dba8-e860-455c-8fdf-b9a1e82e9147"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Hero Banner/Hero Banner With Placeholder Full Width/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    
+                        <div class="slider-item">
+                           <div class="slider-image">
+                              <div class="slide ow-lazy" data-src="{{ i_item.Image.media_url }}">
+    						 </div>
+                           </div>
+                           <div class="slider-content content-with-image">
+                              <div class="container">
+                                 <div class="row">
+    
+                                    <div class="col-lg-8 m-auto">
+                                      
+                                       {{-taxonomy_model = (sc_followmany i_item "Tags")-}}
+    										{{if taxonomy_model && (taxonomy_model|array.size) > 0 }}
+    										{{tag = taxonomy_model|array.first}}
+    											{{-if (tag.Title | string.size) > 0 -}}
+    												<label>{{-tag.Title-}}</label>
+    											{{-end-}}
+    										{{end}}
+    
+    						{{-if i_item.title !=""-}}
+                            <h2>{{-i_item.title-}}</h2>
+    						{{-end-}}
+    						{{-if i_item.content !=""-}}
+                            <div class="banner-description"> {{-i_item.content-}}</div>
+    						{{-end-}}
+    						<div class="col-lg-12">
+                                      {{ sc_placeholder "ow-banner-content" }}
+                                    </div>
+    						
+    						{{primary_link_classes = "btn btn-tertiary "}}
+    						{{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    							if primary_filtered_classes 
+    								if (primary_filtered_classes.class | string.size) > 0
+    									primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    								end
+    							end}}
+    							
+    						{{primary_link = (sc_field i_item 'PrimaryLink'[['text', (i_item.PrimaryLink.text)], ['class', (primary_link_classes)]])}}
+    						{{-if primary_link-}}
+    							{{primary_link}}
+    						{{-end-}}
+    
+    						{{secondary_link_classes = "btn btn-tertiary "}}
+    						{{ secondary_filtered_classes = ow_link_model i_item 'SecondaryLink'
+    							if( secondary_filtered_classes)
+    								if(secondary_filtered_classes.class | string.size) > 0
+    									secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+    								end
+    							end}}
+    							
+    						{{secondary_link = (sc_field i_item 'SecondaryLink'[['text', (i_item.SecondaryLink.text)], ['class', (secondary_link_classes)]])}}
+    						{{-if secondary_link-}}
+    							{{secondary_link}}
+    						{{-end-}}
+                                       
+                                    </div>
+    
+                                
+    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                   
+               
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220411T125104Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

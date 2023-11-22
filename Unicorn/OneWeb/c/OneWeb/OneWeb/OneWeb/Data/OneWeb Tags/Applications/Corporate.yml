@@ -1,0 +1,24 @@
+﻿---
+ID: "6a6fbda9-3c2f-4c4b-85ee-04482a064a6f"
+Parent: "d2b57ee9-f518-4d0f-8569-7707e601fc51"
+Template: "203c7e2d-0b1e-452a-9131-0571054d9633"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Tags/Applications/Corporate
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T144718Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b8a6200e-1384-441a-be51-bf534bc99511"
+      Hint: Color
+      Value: Red
+    - ID: "e19779a0-5442-4bc9-a131-898a2a98d42f"
+      Hint: Title
+      Value: Corporate

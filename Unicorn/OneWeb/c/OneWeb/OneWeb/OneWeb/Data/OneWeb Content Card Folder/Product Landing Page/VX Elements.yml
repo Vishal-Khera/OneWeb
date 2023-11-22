@@ -1,0 +1,32 @@
+﻿---
+ID: "a1ffb071-c733-42c4-8db2-59a06bf436ef"
+Parent: "c9b8ada8-e7c1-4149-9b65-ad1fdb6ad176"
+Template: "2dab00c3-0548-4391-9113-5f8c2605231e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder/Product Landing Page/VX Elements
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{73AFC3C0-3524-4D75-B62D-978AB48C49EB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T185000Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: VX Elements<sup>TM</sup>
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: "Our experts will find the perfect 3D measurement solution for you!"
+    - ID: "d8102b5b-0ae4-4e50-9880-2d71b652465e"
+      Hint: MobileImage
+      Value: |
+        <image mediaid="{250C8113-9D4C-4984-83C1-89F3973772C4}" />
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="View all solutions" anchor="" linktype="internal" class="test-ow" title=""  querystring="" id="{DCD67529-7A63-4A7F-9C3E-DC2395A8F87B}" />

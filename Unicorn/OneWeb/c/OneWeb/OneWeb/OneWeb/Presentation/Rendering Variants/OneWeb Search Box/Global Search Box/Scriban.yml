@@ -1,0 +1,50 @@
+﻿---
+ID: "2e9f0505-49b9-4bee-9bb6-607ac367585b"
+Parent: "5274cf70-a833-4102-b15f-0f59029db55c"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Box/Global Search Box/Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if i_item}}
+    <div class="filter-search-wrapper mb-5">
+        <div class="filter-search">
+           <label class="sr-only" for="search-page">global-search</label>
+            <input type="text" autocomplete="off" id="search-page" class="search-box-input" placeholder="{{sc_raw i_item 'Placeholder Text'}}">
+    <a class="clear-text" href="javascript:void(0)"><span class="sr-only">cross-icon</span></a>
+            <button class="icon-search" type="submit"><span class="sr-only">button</span></button>
+        </div>
+        <div class="ow-container">
+    </div>
+        <div class="filter-facets mt-2">
+            <span class="search-for">{{sc_translate 'OneWeb-SearchBox-Showing'}} <strong><span
+                        class="search-current-count"></span></strong> {{sc_translate 'OneWeb-SearchBox-Of'}} <strong><span
+                        class="search-total-count"></span></strong>
+    <span class="d-none result-text">{{sc_translate 'OneWeb-SearchBox-Results-For'}}</span>
+                        <span class="d-none result-text no-keyword">{{sc_translate 'OneWeb-SearchBox-Results'}}</span>            
+                <strong><span class="search-value"></span></strong>
+            </span>
+        </div>
+    </div>
+    {{end}}
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T025234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

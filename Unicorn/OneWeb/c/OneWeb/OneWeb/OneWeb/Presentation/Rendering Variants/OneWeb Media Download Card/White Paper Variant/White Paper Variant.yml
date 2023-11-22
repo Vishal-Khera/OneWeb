@@ -1,0 +1,46 @@
+﻿---
+ID: "3ca761ba-fea6-4c54-9146-b760c5949e0b"
+Parent: "3c57259c-27c6-4ef8-a5b2-e8c7ec430124"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Media Download Card/White Paper Variant/White Paper Variant
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if i_item.Media}}
+    		{{	media_link = ow_media_model i_item "Media"}}
+    	   <a href = '{{media_link.url}}' class="row-item" target="_blank" >
+    		<div class="card-thumbnail">
+    		{{if i_item.Image != ""}}		
+    		{{sc_field i_item 'Image'}}
+    		{{else}}		 
+    			{{default_background_image = ow_default_media_model_by_field "Default White Paper Background Image"}}
+    			{{if default_background_image != ""}}
+    			<img src='{{default_background_image.url}}' alt = '{{default_background_image.alt}}'/>
+    			{{end}}
+    		{{end}}
+    		 </div>
+    		  <div class="card-title-group white-bg">
+    			{{if (i_item.Title | string.size > 0)}}
+    			 <h4 class="title text-blue">{{i_item.Title}}</h4>
+    			 {{end}}
+    			{{if (i_item.Content | string.size > 0) }}
+    			<div class="description">{{i_item.content}}</div>
+    			{{end}}
+    			{{if sc_translate 'OneWeb-Media-Download-Card-view'}}
+    			
+                    <button class="btn btn-primary">{{sc_translate 'OneWeb-Media-Download-Card-View'}}</button>
+               
+    			{{end}}
+    		  </div>
+    	   </a>
+    	   {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220104T153327Z

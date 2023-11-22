@@ -1,0 +1,207 @@
+.ow-businesscard-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+  .ow-businesscard-container p {
+    margin-top: 10px !important; }
+  .ow-businesscard-container .ow-contentcard-heading {
+    border-left: 1px solid #D9171D;
+    margin: 20px 0px;
+    padding-left: 20px; }
+    .ow-businesscard-container .ow-contentcard-heading * {
+      font-family: 'HelveticaNeue-Bold' !important;
+      padding-right: 10px;
+      margin-bottom: unset; }
+  .ow-businesscard-container.ow-expand-box {
+    height: unset;
+    display: table; }
+    .ow-businesscard-container.ow-expand-box .ow-card-heading {
+      background-color: #F1F1F1; }
+    .ow-businesscard-container.ow-expand-box .ow-business-content {
+      padding-bottom: 20px;
+      justify-content: flex-start;
+      background-color: #F1F1F1;
+      padding-bottom: 50px;
+      height: auto; }
+      .ow-businesscard-container.ow-expand-box .ow-business-content .read-more {
+        display: none; }
+      .ow-businesscard-container.ow-expand-box .ow-business-content .button-wrapper {
+        border-top: 2px solid #D9171D;
+        padding-top: 0px;
+        width: calc(100% - 40px);
+        position: absolute; }
+        .ow-businesscard-container.ow-expand-box .ow-business-content .button-wrapper a {
+          position: relative;
+          max-width: 100%;
+          margin-top: 0px;
+          display: block;
+          padding: 15px 0; }
+          .ow-businesscard-container.ow-expand-box .ow-business-content .button-wrapper a:after {
+            content: " \276F";
+            position: absolute;
+            right: 5px;
+            top: 0px;
+            transform: rotate(90deg);
+            z-index: 1;
+            bottom: 0px;
+            margin: auto;
+            font-size: 14px;
+            font-family: 'HelveticaNeue-Medium';
+            color: #000;
+            height: 23px; }
+    .ow-businesscard-container.ow-expand-box.expanded .Content-default {
+      display: none; }
+    .ow-businesscard-container.ow-expand-box.expanded .read-more {
+      display: inline; }
+    .ow-businesscard-container.ow-expand-box.expanded .button-wrapper {
+      border-top: 2px solid #D9171D; }
+      .ow-businesscard-container.ow-expand-box.expanded .button-wrapper a:after {
+        transform: rotate(-90deg);
+        height: 16px; }
+  .ow-businesscard-container .ow-business-image {
+    width: 100%; }
+    .ow-businesscard-container .ow-business-image img {
+      width: 100%; }
+  .ow-businesscard-container .ow-card-heading {
+    width: 100%;
+    position: relative; }
+    .ow-businesscard-container .ow-card-heading h4 {
+      position: inherit;
+      z-index: 2;
+      color: #fff;
+      font-size: 12px;
+      margin: 0;
+      padding: 7px 20px;
+      text-transform: uppercase;
+      font-family: 'HelveticaNeue-Bold'; }
+      @media screen and (min-width: 0) {
+        .ow-businesscard-container .ow-card-heading h4 {
+          font-size: 12px; } }
+      @media screen and (min-width: 768px) {
+        .ow-businesscard-container .ow-card-heading h4 {
+          font-size: 12px; } }
+      @media screen and (min-width: 992px) {
+        .ow-businesscard-container .ow-card-heading h4 {
+          font-size: 12px; } }
+      .ow-businesscard-container .ow-card-heading h4 label {
+        font-size: unset;
+        margin: unset;
+        padding: unset;
+        line-height: unset;
+        display: contents; }
+    .ow-businesscard-container .ow-card-heading::after {
+      height: 100%;
+      content: "";
+      background: #D9171D;
+      width: 100%;
+      position: absolute;
+      transform-origin: top;
+      transform: skewX(-25deg);
+      top: 0px; }
+  .ow-businesscard-container .ow-business-content {
+    padding: 20px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .ow-businesscard-container .ow-business-content h3 {
+      font-size: 20px;
+      font-family: 'HelveticaNeue-Bold';
+      line-height: 24px; }
+      @media screen and (min-width: 0) {
+        .ow-businesscard-container .ow-business-content h3 {
+          font-size: 20px; } }
+      @media screen and (min-width: 768px) {
+        .ow-businesscard-container .ow-business-content h3 {
+          font-size: 20px; } }
+      @media screen and (min-width: 992px) {
+        .ow-businesscard-container .ow-business-content h3 {
+          font-size: 20px; } }
+    .ow-businesscard-container .ow-business-content .ow-business-header-wrapper p:last-of-type {
+      margin-bottom: 0; }
+    .ow-businesscard-container .ow-business-content .button-wrapper {
+      position: relative;
+      left: unset;
+      bottom: 0;
+      text-transform: uppercase;
+      font-family: 'HelveticaNeue-Medium';
+      width: 100%;
+      margin-bottom: 0; }
+      .ow-businesscard-container .ow-business-content .button-wrapper a {
+        text-decoration: underline;
+        max-width: fit-content;
+        margin-top: 20px;
+        font-size: 14px; }
+        @media screen and (min-width: 0) {
+          .ow-businesscard-container .ow-business-content .button-wrapper a {
+            font-size: 14px; } }
+        @media screen and (min-width: 768px) {
+          .ow-businesscard-container .ow-business-content .button-wrapper a {
+            font-size: 14px; } }
+        @media screen and (min-width: 992px) {
+          .ow-businesscard-container .ow-business-content .button-wrapper a {
+            font-size: 14px; } }
+        .ow-businesscard-container .ow-business-content .button-wrapper a:hover {
+          color: #000; }
+  .ow-businesscard-container .ow-business-contentv2 {
+    padding: 0px 10px 60px 20px;
+    position: relative;
+    height: 100%; }
+    .ow-businesscard-container .ow-business-contentv2 a {
+      display: inline;
+      text-decoration: underline;
+      font-family: 'HelveticaNeue-Medium' !important; }
+      .ow-businesscard-container .ow-business-contentv2 a:hover {
+        color: #000; }
+    .ow-businesscard-container .ow-business-contentv2 p {
+      margin: unset !important; }
+      .ow-businesscard-container .ow-business-contentv2 p *:first-child {
+        font-size: 20px;
+        display: block;
+        margin-bottom: 20px; }
+        @media screen and (min-width: 0) {
+          .ow-businesscard-container .ow-business-contentv2 p *:first-child {
+            font-size: 20px; } }
+        @media screen and (min-width: 768px) {
+          .ow-businesscard-container .ow-business-contentv2 p *:first-child {
+            font-size: 20px; } }
+        @media screen and (min-width: 992px) {
+          .ow-businesscard-container .ow-business-contentv2 p *:first-child {
+            font-size: 20px; } }
+    .ow-businesscard-container .ow-business-contentv2 .button-wrapper {
+      bottom: 10px;
+      position: absolute;
+      left: 20px;
+      width: calc(100% - 40px);
+      margin-bottom: 0; }
+
+.ow-card-clip {
+  background-clip: content-box !important;
+  background: #F1F1F1;
+  display: unset; }
+
+.ow-disable-carousal-desktop .slick-track {
+  display: flex;
+  flex-wrap: wrap; }
+  .ow-disable-carousal-desktop .slick-track .slick-slide {
+    height: auto; }
+    .ow-disable-carousal-desktop .slick-track .slick-slide > div {
+      height: 100%; }
+      .ow-disable-carousal-desktop .slick-track .slick-slide > div .ow-card {
+        height: 100%; }
+        .ow-disable-carousal-desktop .slick-track .slick-slide > div .ow-card > .component-content {
+          height: 100%; }
+        .ow-disable-carousal-desktop .slick-track .slick-slide > div .ow-card .ow-businesscard-container {
+          height: 100%; }
+
+@media (max-width: 991px) {
+  .expandable-box-wrapper.ow-disable-carousal-desktop .slick-track .slick-slide {
+    height: auto; }
+    .expandable-box-wrapper.ow-disable-carousal-desktop .slick-track .slick-slide > div {
+      height: auto; }
+      .expandable-box-wrapper.ow-disable-carousal-desktop .slick-track .slick-slide > div .ow-card, .expandable-box-wrapper.ow-disable-carousal-desktop .slick-track .slick-slide > div .ow-businesscard-container {
+        height: auto; }
+        .expandable-box-wrapper.ow-disable-carousal-desktop .slick-track .slick-slide > div .ow-card > .component-content, .expandable-box-wrapper.ow-disable-carousal-desktop .slick-track .slick-slide > div .ow-businesscard-container > .component-content {
+          height: auto; } }

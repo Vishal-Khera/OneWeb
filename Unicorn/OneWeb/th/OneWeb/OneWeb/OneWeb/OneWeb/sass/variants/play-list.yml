@@ -1,0 +1,18 @@
+﻿---
+ID: "f15b17d3-c50d-4c9b-8dda-37f8f4e558cb"
+Parent: "f4c88f7b-4b37-489b-9333-2000fd14ad7d"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWeb/sass/variants/play-list"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180103T095716Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,32 @@
+﻿---
+ID: "0149904f-0bf2-47c4-83c9-f6febcf99264"
+Parent: "9eae8ecc-7718-476a-a81d-c8a9ad7c57d6"
+Template: "8bbddf0b-4426-4936-bc91-a3dfcc7db5e7"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards With Icon/Operations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{72839946-06FD-43E3-A8DE-0F1C02761198}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211227T170142Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Operations
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Operational excellence is foundational as we focus on efficiency and sustainability across the supply chain.
+    - ID: "d3785837-b11d-4a77-8e4b-c610b8e5579c"
+      Hint: Icon
+      Value: |
+        <image mediaid="{226E2AAF-D5A6-49B8-B077-1585C1D948EB}" />
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="view details" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

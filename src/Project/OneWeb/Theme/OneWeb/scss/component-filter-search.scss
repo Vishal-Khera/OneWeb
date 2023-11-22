@@ -1,0 +1,115 @@
+@import 'base/base-index.scss';
+.filter-search-wrapper {
+    position: relative;
+    
+    .filter-search {
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        box-shadow: 0px 3px 6px #00000029;
+        input {
+            width: 100%;
+            border-right: 0;
+            border-radius: 0;
+            &:focus-visible, &:focus{
+                border: 1px solid $primary !important;
+                outline: none;
+            }
+            &:hover,&:focus{
+                @media (max-width:1365px){
+                    border: 1px solid $primary !important;
+                }
+                @media not all and (min-resolution:.001dpcm) { 
+                    @supports (-webkit-appearance:none) {
+                        border: 1px solid $primary !important;
+                    }
+               }
+            }
+        }
+        button {
+            width: 43px;
+            background-color: $primary;
+            appearance: none;
+            -webkit-appearance: none;
+            border: 0;
+            outline: 0;
+            color: $white;
+            font-size: 30px;
+            background-image: url('../images/search-white.svg');
+            background-repeat: no-repeat;
+            background-size: 16px;
+            background-position: center;
+            cursor: pointer;
+            &:focus-visible{
+                outline: 2px solid $white;
+            }
+        }
+    }
+    .filter-facets {
+        .search-value {
+            color: $primary;
+        }
+    }
+    .search-for{
+        margin-bottom: 15px;
+        float: left;
+        margin-right: 10px;
+        @include md{
+            margin-bottom: 0;
+        }
+    }
+    .suggestion-label{
+        float: left;
+        a{
+            margin-left: 5px;
+            color:$black;
+        }
+    }
+}
+.filter-result {
+    &.gridView {
+        .ow-container{
+            @include md {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+        @include md {
+            display: flex;
+            flex-wrap: wrap;
+
+            .ow-card-news {
+                width: calc(100%/3);
+                padding: 40px 15px 20px;
+                background-color: $white-gray;
+                border-bottom: 0;
+                position: relative;
+                border-left: 8px solid $white;
+                border-right: 8px solid $white;
+
+                label {
+                    &:not(.suggestion-label) {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                    }
+                }
+                h3{
+                    -webkit-line-clamp: 5;
+                }
+            }
+        }
+    }
+    .ow-container{
+        width: 100%;
+    }
+    .ow-load-more{
+        width: 100%;
+    }
+    p{
+        float: left;
+    }
+}
+.search-half-overflow{
+    margin-top: -22px;
+}

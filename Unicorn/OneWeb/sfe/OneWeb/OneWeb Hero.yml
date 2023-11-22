@@ -1,0 +1,14 @@
+﻿---
+ID: "bf38f6a8-d7d2-4aa4-abbe-48e5f83cedb6"
+Parent: "ffe3a588-89f9-4560-aae7-b022e81e57e5"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Hero
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T111948Z

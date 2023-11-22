@@ -1,0 +1,46 @@
+﻿---
+ID: "dd068c7f-8f6c-4e84-976a-df82b9e0f241"
+Parent: "7849314b-cf20-4e0e-8fe5-cfe9ce1e0d2f"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card With Icon/Phase 2 Solution Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{link_classes = "solution-card-wrapper"}}
+    {{card_link = ow_link_model i_item 'PrimaryLink'
+    	if(card_link.url|string.size < 0)
+    		card_link.url= "#"
+    	end}}
+    <a href="{{card_link.url}}" class='{{link_classes}}' target='{{card_link.target}}' anchor='{{card_link.anchor}}'>
+    <div class="card">
+    {{-if i_item.Icon != ""-}}
+    		{{media_model = ow_media_model i_item "Icon"}}
+    {{end}}
+    {{ if (i_item.Icon != "")}}		
+    <div class="card-image">				
+    		<img class="ow-lazy"  data-src = "{{media_model.url}}" alt="{{media_model.alt}}" title="{{media_model.title}}" />		
+    </div>				
+    {{end}}
+    {{if i_item.title | string.size > 0}}
+     <div class="card-body">
+        <div class="card-text">
+    			{{i_item.title}} 
+    	</div>
+    </div>		
+    {{end}}
+      </div>
+    </a>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T153317Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

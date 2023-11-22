@@ -1,0 +1,19 @@
+﻿---
+ID: "f1b4aab5-3d96-4872-8750-f2d362a90e06"
+Parent: "d981541e-f5de-4819-b543-461f7c4c36a1"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/OneWeb/OneWeb
+DB: master
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\AmetekCorpOwNonEnglish|pe|+item:read|ar|sitecore\owuser|pe|+item:read|pd|-item:read|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T073447Z

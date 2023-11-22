@@ -1,0 +1,53 @@
+﻿---
+ID: "f4aeb2ba-f304-4f63-b4c2-3daa75af3b67"
+Parent: "7960f201-9273-4448-815e-7f6c31e9ea2b"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb ImageGallery/P2 Marquee/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{		
+    	data_autoplay_speed = sc_parameter 'Autoplay Speed'					
+    				
+    	data_slides_to_show = sc_parameter 'Slides To Show'		
+    				
+    	data_slides_to_show_mob = sc_parameter 'Slides To Show Mobile'
+    								
+    	data_slides_to_show_tab = sc_parameter 'Slides To Show Tab'				
+    				
+    }}
+    
+    <div class="marquee">
+    {{logo_list =(sc_followmany i_item "Images")}}
+    {{if (logo_list | array.size) > 0	}}
+    <ul class="marquee-content" data-autoplaySpeed="{{-data_autoplay_speed-}}" data-slides-to-show-tab="{{-data_slides_to_show_tab-}}" data-slides-to-show-mob="{{-data_slides_to_show_mob-}}" data-slides-to-show="{{-data_slides_to_show-}}">
+    {{for logo in logo_list}} 
+    {{media = ow_media_model logo 'Image'}}
+    {{if media}}
+    {{if (media.url|string.size > 0 )}}
+    <li>
+    <img class="ow-lazy"  alt="{{media.title}}" title="{{media.title}}" data-src="{{media.url}}">
+    </li>
+    {{end}}
+    {{end}}
+    {{end}}
+    </ul>
+    {{end}}
+    </div> 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220701T114933Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

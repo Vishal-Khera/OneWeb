@@ -1,0 +1,14 @@
+﻿---
+ID: "0f56876c-12fe-4f11-825d-04be03a61394"
+Parent: "988e50b5-5e34-4c90-a3a1-9b00230d93ae"
+Template: "988e50b5-5e34-4c90-a3a1-9b00230d93ae"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Event Card Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T195935Z

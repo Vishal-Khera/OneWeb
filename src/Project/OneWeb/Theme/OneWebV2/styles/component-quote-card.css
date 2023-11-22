@@ -1,0 +1,107 @@
+.quote-card-wrapper {
+  background-color: #236192;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  color: #fff;
+  padding: 15px 0px; }
+  @media only screen and (min-width: 768px) {
+    .quote-card-wrapper {
+      padding: 40px 0px; } }
+  .quote-card-wrapper .quote-card-content {
+    padding: 0px 15px; }
+    @media only screen and (min-width: 768px) {
+      .quote-card-wrapper .quote-card-content {
+        padding: 0px 40px; } }
+    .quote-card-wrapper .quote-card-content .quote-card-head {
+      padding-bottom: 30px; }
+      .quote-card-wrapper .quote-card-content .quote-card-head h2 {
+        font-size: 24px; }
+        @media screen and (min-width: 0) {
+          .quote-card-wrapper .quote-card-content .quote-card-head h2 {
+            font-size: 24px; } }
+        @media screen and (min-width: 768px) {
+          .quote-card-wrapper .quote-card-content .quote-card-head h2 {
+            font-size: 24px; } }
+        @media screen and (min-width: 992px) {
+          .quote-card-wrapper .quote-card-content .quote-card-head h2 {
+            font-size: 32px; } }
+      @media only screen and (min-width: 768px) {
+        .quote-card-wrapper .quote-card-content .quote-card-head {
+          padding-bottom: 40px; } }
+    .quote-card-wrapper .quote-card-content .quote-card-description {
+      padding-bottom: 10px;
+      font-size: 24px; }
+      @media screen and (min-width: 0) {
+        .quote-card-wrapper .quote-card-content .quote-card-description {
+          font-size: 24px; } }
+      @media screen and (min-width: 768px) {
+        .quote-card-wrapper .quote-card-content .quote-card-description {
+          font-size: 24px; } }
+      @media screen and (min-width: 992px) {
+        .quote-card-wrapper .quote-card-content .quote-card-description {
+          font-size: 32px; } }
+      @media only screen and (min-width: 768px) {
+        .quote-card-wrapper .quote-card-content .quote-card-description {
+          padding-bottom: 20px;
+          max-width: 62.5%; } }
+    .quote-card-wrapper .quote-card-content .quote-card-details {
+      padding-bottom: 30px;
+      display: flex;
+      align-items: center; }
+      .quote-card-wrapper .quote-card-content .quote-card-details .quote-card-logo {
+        position: relative;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        background-color: rgba(240, 240, 240, 0.15); }
+        @media only screen and (min-width: 768px) {
+          .quote-card-wrapper .quote-card-content .quote-card-details .quote-card-logo {
+            width: 60px;
+            height: 60px; } }
+        .quote-card-wrapper .quote-card-content .quote-card-details .quote-card-logo:before {
+          position: absolute;
+          content: "\201C";
+          color: #F7F7F7;
+          font-size: 75px;
+          height: 100%;
+          bottom: 12px;
+          left: 8px; }
+          @media only screen and (min-width: 768px) {
+            .quote-card-wrapper .quote-card-content .quote-card-details .quote-card-logo:before {
+              font-size: 100px;
+              bottom: 15px;
+              left: 10px; } }
+      .quote-card-wrapper .quote-card-content .quote-card-details .quote-card-info {
+        color: #F7F7F7;
+        margin-left: 12px; }
+        @media only screen and (min-width: 768px) {
+          .quote-card-wrapper .quote-card-content .quote-card-details .quote-card-info {
+            margin-left: 15px; } }
+        .quote-card-wrapper .quote-card-content .quote-card-details .quote-card-info .stone-gray {
+          color: rgba(240, 240, 240, 0.6); }
+          @media only screen and (min-width: 768px) {
+            .quote-card-wrapper .quote-card-content .quote-card-details .quote-card-info .stone-gray {
+              color: #F7F7F7; } }
+  .quote-card-wrapper .btn-container .btn-simple {
+    color: #fff !important; }
+    .quote-card-wrapper .btn-container .btn-simple:hover, .quote-card-wrapper .btn-container .btn-simple:active {
+      color: #fff; }
+    .quote-card-wrapper .btn-container .btn-simple:focus {
+      color: #fff;
+      outline: 3px solid rgba(255, 255, 255, 0.7); }
+  .quote-card-wrapper .quote-card-border {
+    padding: 0px 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-spacing: 10px; }
+    @media only screen and (min-width: 768px) {
+      .quote-card-wrapper .quote-card-border {
+        border: none;
+        padding: 0px 40px; } }
+    .quote-card-wrapper .quote-card-border .btn-simple {
+      margin-top: 12px; }
+      @media only screen and (min-width: 768px) {
+        .quote-card-wrapper .quote-card-border .btn-simple {
+          margin-top: 0; } }

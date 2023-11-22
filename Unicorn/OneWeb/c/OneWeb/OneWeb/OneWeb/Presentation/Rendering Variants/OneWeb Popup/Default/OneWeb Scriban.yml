@@ -1,0 +1,85 @@
+﻿---
+ID: "6a9103e7-0368-432a-aa9d-68bfe4495345"
+Parent: "1415daf9-f958-4c2f-9f3e-1596473d5cae"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Popup/Default/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div id="ow-popup" class="ekko-lightbox modal" tabindex="-1" role="dialog">
+    
+        <div class="modal-dialog" role="document">
+    
+            <div class="modal-content">
+    
+                <div class="modal-header">
+    
+                    <h4 class="modal-title">&nbsp;</h4><button type="button" class="close" data-dismiss="modal"
+    
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+    
+                </div>
+    
+                <div class="modal-body">
+    
+                    <div class="ekko-lightbox-container">
+    
+                        <div class="ekko-lightbox-item"></div>
+    
+                        <div class="ekko-lightbox-item text-center">
+    
+                              	{{ if(i_item.title != "") }}
+    		                    <h3>{{ i_item.title }}</h3>
+    	                        {{ end }}
+    	                        {{ if(i_item.content != "") }}
+    		                     <p>{{ i_item.content }}</p>
+    	                        {{ end }}  
+    						{{primary_link_classes = "btn btn-primary "}}
+    						{{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    							if primary_filtered_classes 
+    								if (primary_filtered_classes.class | string.size) > 0
+    									primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    								end
+    							end}}
+    							
+    						{{primary_link = (sc_field i_item 'PrimaryLink'[['text', (i_item.PrimaryLink.text)], ['class', (primary_link_classes)]])}}
+    						{{-if primary_link-}}
+    							{{primary_link}}
+    						{{-end-}}
+    
+    						{{secondary_link_classes = "btn btn-primary "}}
+    						{{ secondary_filtered_classes = ow_link_model i_item 'SecondaryLink'
+    							if( secondary_filtered_classes)
+    								if(secondary_filtered_classes.class | string.size) > 0
+    									secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+    								end
+    							end}}
+                         </div>
+    
+                        <div class="ekko-lightbox-nav-overlay"><a href="#"><span>❮</span></a><a
+    
+                                href="#"><span>❯</span></a></div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220706T083146Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

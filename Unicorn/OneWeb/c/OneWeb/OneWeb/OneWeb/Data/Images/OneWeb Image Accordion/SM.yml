@@ -1,0 +1,22 @@
+﻿---
+ID: "cf4641d5-39ac-4496-9cd4-87e0b2ac7a32"
+Parent: "92116c19-ac7a-4455-a4d7-a7f39464fc33"
+Template: "bb8a85ab-1f6d-4518-8772-1c9f4f8dac18"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/OneWeb Image Accordion/SM
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220119T112938Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ebe4fdef-16d5-4d19-833c-24a241628a3a"
+      Hint: Image
+      Value: |
+        <image mediaid="{25637214-178B-427F-BC3C-0910FC0DD037}" />

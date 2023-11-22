@@ -1,0 +1,25 @@
+﻿---
+ID: "7b64e624-3a09-4a1e-b6da-bb0b7f86e3e8"
+Parent: "9665c4fa-b98d-40cc-a38e-5efaf7f3d995"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Feature/OneWeb/OneWeb Search/ow-search-filter-wrapper"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "ow-search-filter-wrapper"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: "{8FCBC59C-90EB-45A3-9DD2-8E1300BA189A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080110T042900Z

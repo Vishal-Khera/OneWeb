@@ -1,0 +1,22 @@
+﻿---
+ID: "5139f7ca-4cd9-4af5-86aa-b7eba95ed39d"
+Parent: "b2c85aeb-b584-48b8-a171-839e8b7b467a"
+Template: "8d19a541-9707-4001-bf7f-4b7728809ebc"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb ImageGallery Folder/Photo Gallery Crea
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220727T124612Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: |
+        Photo Gallery
+        
+    - ID: "8ef14bad-809e-4c37-b48a-1b73420b077c"
+      Hint: Images
+      Value: "{F508C633-24C6-4BDB-B074-E9B5E0769A5D}|{41651CBF-6BEE-4197-B3D3-9B947C68D14D}|{305DC605-B68A-40DC-A9C5-0151A659615B}|{6B3CC14C-8509-4E76-ACB5-4E5E07BC5177}|{B442C54B-D6EA-4A9D-ADDF-ADA36BB55C22}|{F13E8D2B-652F-4E10-9AD9-F36219C225F9}|{6139ED7B-525B-433F-A5B3-557548326D9A}|{E420AB02-4700-4918-B4E3-CD67A59568AC}|{090CB0BE-0653-4519-AECA-A6FA94924D0E}|{46588D52-E201-497C-B550-1B6FECB97268}"

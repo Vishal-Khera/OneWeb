@@ -1,0 +1,21 @@
+﻿---
+ID: "7a1fb9ee-0fea-4eb5-b575-1a29781df1e8"
+Parent: "bf38f6a8-d7d2-4aa4-abbe-48e5f83cedb6"
+Template: "141df88e-7156-4d2e-a004-c8c1a7c51e9d"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Hero/OneWeb Hero Tenant Setup
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T111948Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: OneWeb Hero

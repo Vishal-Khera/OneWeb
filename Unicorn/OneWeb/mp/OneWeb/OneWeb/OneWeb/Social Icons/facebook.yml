@@ -1,0 +1,43 @@
+﻿---
+ID: "d6750e82-0f2b-4644-8d43-2996e4e96cf0"
+Parent: "0d707081-07f6-4932-9296-5dedf76e341f"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Social Icons/facebook
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/D6750E820F2B46448D432996E4E96CF0.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 36
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "e7efa14d-bab7-4141-a6f8-82859ddabf01"
+  Value: PHN2ZyBpZD0iR3JvdXBfMjM5OCIgZGF0YS1uYW1lPSJHcm91cCAyMzk4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2Ij4NCiAgPGNpcmNsZSBpZD0iRWxsaXBzZV85IiBkYXRhLW5hbWU9IkVsbGlwc2UgOSIgY3g9IjE4IiBjeT0iMTgiIHI9IjE4IiBmaWxsPSIjZWQxYzI0Ii8+DQogIDxwYXRoIGlkPSJmYWNlYm9vayIgZD0iTTE0Ljg0MiwzLjUxNmgxLjkzM1YuMTQ5QTI0Ljk2MSwyNC45NjEsMCwwLDAsMTMuOTU5LDBjLTIuNzg3LDAtNC43LDEuNzUzLTQuNyw0Ljk3NVY3Ljk0MUg2LjE4N1YxMS43SDkuMjYzdjkuNDdoMy43NzFWMTEuNzA1aDIuOTUxbC40NjgtMy43NjRIMTMuMDMzVjUuMzQ4YzAtMS4wODguMjk0LTEuODMyLDEuODEtMS44MzJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2LjgzIDcuNjU3KSIgZmlsbD0iI2ZmZiIvPg0KPC9zdmc+DQo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 479
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 36
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211127T081316Z
+    - ID: "3f4b20e9-36e6-4d45-a423-c86567373f82"
+      Hint: Title
+      Value: Facebook
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Facebook logo

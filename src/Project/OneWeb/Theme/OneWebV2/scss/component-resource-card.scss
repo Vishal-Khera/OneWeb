@@ -1,0 +1,205 @@
+@import 'base/base-index.scss';
+
+.resource-card-wide {
+    a {
+        width: 100%;
+
+        &:hover {
+            .card {
+                background-color: $fade-blue;
+
+                .card-title {
+                    color: $brand !important;
+                }
+
+                .paragraph-wrapper {
+                    color: $brand !important;
+                }
+            }
+        }
+
+        &:focus,
+        &:active {
+            .card {
+                border: none !important;
+                outline: 5px solid $btn-light-border;
+                outline-offset: -1px;
+                z-index: 1;
+                background-color: $fade-blue;
+                border-radius: 8px !important;
+                border: none;
+
+                .card-title {
+                    color: $brand !important;
+                }
+
+                .paragraph-wrapper {
+                    color: $brand !important;
+                }
+            }
+        }
+
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        border: none;
+        border-radius: 0px !important;
+        border-bottom: 1px solid $lightblack !important;
+        outline: 5px solid transparent;
+        background-color: $card-base;
+        padding: 20px !important;
+        height: unset !important;
+        display: flex !important;
+        transition: .25s;
+        margin-bottom: unset !important;
+        outline-offset: -1px;
+
+        * {
+            font-family: $franklinMd !important;
+        }
+
+        .card-body {
+            padding: unset;
+            width: 100%;
+            padding-right: unset !important;
+            padding: unset !important;
+            height: unset !important;
+
+            @include md {
+                padding-right: 30px !important;
+            }
+
+            @include font-size($slg-font);
+
+
+            .card-title {
+                margin-bottom: 0px;
+                @include font-size($smlg-font);
+                color: $brand !important;
+                font-family: "FranklinGothicLTPro-Md" !important;
+
+            }
+
+            .paragraph-wrapper {
+                color: $card-text;
+
+                p {
+                    margin: 0px;
+                    font-family: "FranklinGothicLTPro-Md" !important;
+                }
+            }
+        }
+
+        .card-image {
+            position: relative;
+            display: none;
+            aspect-ratio: unset !important;
+
+            &::after {
+                display: none;
+            }
+
+            @include md {
+                display: flex;
+            }
+
+            .card-image-holder {
+                aspect-ratio: 5/3;
+                border-radius: 8px;
+                overflow: hidden;
+                max-height: 72px;
+                min-width: 120px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 0px !important;
+                }
+            }
+
+
+        }
+    }
+
+    &:first-of-type {
+        .card {
+            border-top-left-radius: 8px !important;
+            border-top-right-radius: 8px !important;
+        }
+    }
+
+    &:last-of-type {
+        .card {
+            border-bottom-left-radius: 8px !important;
+            border-bottom-right-radius: 8px !important;
+            border: none !important;
+        }
+    }
+
+}
+
+
+.dark-theme {
+    .resource-card-wide {
+        a {
+            &:hover {
+                .card {
+                    background-color: $white-gray-light !important;
+
+                    .card-title {
+                        color: $mid-light-gray !important;
+                    }
+
+                    .paragraph-wrapper {
+                        color: $base-light-gray !important;
+                    }
+                }
+            }
+
+            &:focus,
+            &:active {
+                .card {
+                    border: none !important;
+                    outline: 5px solid $ash-gray;
+                    background-color: $white-gray-light !important;
+
+                    .card-title {
+                        color: $mid-light-gray !important;
+                    }
+
+                    .paragraph-wrapper {
+                        color: $base-light-gray !important;
+                    }
+                }
+            }
+
+        }
+
+        .card {
+            background-color: $brandblack !important;
+            border-color: $white-gray-light !important;
+
+            .card-title {
+                color: $mid-light-gray !important;
+            }
+
+            .paragraph-wrapper {
+                color: $base-light-gray !important;
+            }
+        }
+
+
+    }
+}
+
+.column-align-start {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .row {
+        justify-content: start !important;
+    }
+}

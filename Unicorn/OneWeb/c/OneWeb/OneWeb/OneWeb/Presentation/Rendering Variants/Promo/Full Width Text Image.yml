@@ -1,0 +1,19 @@
+﻿---
+ID: "b25b7277-2a83-4710-afa5-ef07cd36131e"
+Parent: "ff9b8ecb-2b24-4691-aff8-faf4b0065da5"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Promo/Full Width Text Image
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B8219A87-0950-4F43-9A09-E2DF4220EC2B}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T125535Z

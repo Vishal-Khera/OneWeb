@@ -1,0 +1,59 @@
+﻿---
+ID: "8c10a410-17f4-4549-ac19-fc215e18a7a4"
+Parent: "6d55bbf5-b459-4c27-a7a8-1c9f113042e1"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Event Timer/Default/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: "{18C8C889-C723-452A-970C-7CE4D41EE371}"
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+            <div>
+    	     {{ if(i_item.title != "") }}
+    	      <h4 style="text-align: center;"><em class="fas fa-history" aria-hidden="true"></em> {{ i_item.title }}</h4>
+    	      {{ end }}
+                  <hr>
+      	     {{ if(i_item.content != "") }}
+    	      <p style="text-align: center;">{{ i_item.content }}</p>
+    	      {{ end }}           
+      	     {{ if(i_item.StartDateTime != "") }}
+    	     <p style="text-align: center; color: #FFFFFF">{{ i_item.StartDateTime }}</p>
+    	      {{ end }}           
+           </div>
+    <div id="timer" time="{{ i_item.StartDateTime }}" basecolor="#D9171D" animatedcolor="#17b0d9" class="timercountdown circle col-12 justify-content-around ">
+          <span class="countdown_daycount" id="clockDayJS1"> 
+          <div id="timeDay" class="">
+             <div class="days" timer="days"></div><input type="hidden" value="{{ i_item.Subtext }}" id="event-text">
+          </div>
+              </span><br/>
+          <div class="d-flex" style="justify-content: center;">
+          <div id="timeHr" class="">
+             <div class="Hrs" timer="Hrs"></div>
+          </div>
+          <div id="timeMin" class="">
+             <div class="minutes" timer="minutes"></div>
+          </div>
+          <div id="timeseconds" class="">
+             <div class="Seconds" timer="Seconds"></div>
+          </div>
+         </div>
+       </div><br/>
+      	     {{ if(i_item.EventLink != "") }}
+    	     <p style="text-align: center">{{ i_item.EventLink }}</p>
+    	      {{ end }} 
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220518T074731Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,26 @@
+.ow-navigation-bar {
+  text-align: unset; }
+  .ow-navigation-bar ul {
+    display: flex;
+    flex-wrap: wrap; }
+    .ow-navigation-bar ul li {
+      display: inline-flex;
+      margin: 8px 0;
+      border-right: 1px solid #fff; }
+      .ow-navigation-bar ul li a {
+        color: #fff !important;
+        font-family: "Helvetica Neue";
+        line-height: normal;
+        font-size: 16px;
+        padding: 15px 20px; }
+        @media screen and (min-width: 0) {
+          .ow-navigation-bar ul li a {
+            font-size: 16px; } }
+        @media screen and (min-width: 768px) {
+          .ow-navigation-bar ul li a {
+            font-size: 16px; } }
+        @media screen and (min-width: 992px) {
+          .ow-navigation-bar ul li a {
+            font-size: 16px; } }
+      .ow-navigation-bar ul li:last-child {
+        border-right: unset; }

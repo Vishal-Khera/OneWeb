@@ -1,0 +1,21 @@
+﻿---
+ID: "eb6d3a67-0534-4ea3-a384-25803d6af3c5"
+Parent: "6acbfd03-0caa-4b8a-be1d-ed16c168a10b"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Navigation/Rendering Parameters/OneWeb Link List Rendering Parameters/Styling/DisplayLink
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220804T113038Z

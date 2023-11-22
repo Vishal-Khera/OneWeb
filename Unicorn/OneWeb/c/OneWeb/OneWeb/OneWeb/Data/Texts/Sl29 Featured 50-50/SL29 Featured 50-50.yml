@@ -1,0 +1,29 @@
+﻿---
+ID: "2a7c491e-bbf7-4c95-8d2d-770e06116018"
+Parent: "d11e4e2b-7131-4f50-8c1e-fb57561e6a57"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/Texts/Sl29 Featured 50-50/SL29 Featured 50-50"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220809T162442Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <div class="product-spec pt-4 pt-md-5">
+                                            <div class="product-spec__text"><span>1 Year <br />warranty</span></div>
+                                            <div class="product-spec__text"><span>1 Year <br />warranty</span></div>
+                                            <div class="product-spec__text"><span>1 Year <br />warranty</span></div>
+                                            <div class="product-spec__text"><span>1 Year <br />warranty</span></div>
+                                            <div class="product-spec__text"><span>1 Year <br />warranty</span></div>
+        
+                                        </div>

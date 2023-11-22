@@ -1,0 +1,22 @@
+﻿---
+ID: "7633d56c-e1b3-4534-9f35-ed818e0395c6"
+Parent: "f2993245-21b5-4578-b350-79addf69a966"
+Template: "fca1aaee-864c-4658-8fdb-75cdb4ca89be"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Partial Designs/OneWeb Press Release/Data/Socialmedia/Parent/Child 2
+DB: master
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{1F8784F1-FA6A-4DDB-882D-A8CD6DF12B1A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220513T122615Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

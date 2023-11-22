@@ -1,0 +1,40 @@
+﻿---
+ID: "85b9ee06-e303-45f6-9707-620c58d36df7"
+Parent: "b6781aa0-f144-41f4-8073-86d3ba2c4d23"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Product Card/Single Column/default/Product Detail Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     {{if i_item }}
+        {{ link_classes = ow_get_linkClass i_item 'Navigation Url' "" }}
+    	{{product_url = ow_link_model i_item 'Navigation Url'}}
+    	{{if product_url.url != ""}}
+    		<a href= '{{product_url.url}}'class= '{{link_classes}}' target='{{product_url.target}}' anchor='{{product_url.anchor}}' >
+    	{{else}}
+    	<a href = '{{i_item.url}}' target = "_self" >
+    	{{end}}
+    	  <div class="product-thumbnail">
+    		 <img data-src="{{i_item.Image.url}}" alt="{{i_item.Image.alt.raw}}" title="{{i_item.Image.title.raw}}" class="ow-lazy">
+    	  </div>
+    	  <div class="product-details">       
+    		{{-if i_item.Category != "" }}          
+    		<span class="product-category">{{-i_item.Category-}}</span>            
+    	  {{end}}
+    	  {{end}}
+    	  {{if i_item.Title}}
+    	  <h4>{{ sc_field i_item 'Title' }}</h4>
+    	  {{end}}
+    	  </div>
+    	  </a>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T115642Z

@@ -1,0 +1,57 @@
+﻿---
+ID: "463ff68e-01c3-46a2-9482-e4c90942450a"
+Parent: "58eb51a7-cad9-4631-9a26-bfd08728fe4b"
+Template: "b794d898-4dca-4f59-9674-6b9994b63b59"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/P2 Resource Listing/Press Release 2
+DB: master
+SharedFields:
+- ID: "a0c7d8e5-d7a7-491f-b9a5-e97d89671455"
+  Hint: Taxonomy Tag
+  Value: "{854BB38D-2B6F-4895-8247-BFAC80F3FE24}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2A918814-9A5B-46A5-A3DA-209B36A15D2F}"
+- ID: "e40bdb84-8c4c-44ea-8fe6-005ee4708672"
+  Hint: Tags
+  Value: "{CBC345C7-5757-4EB2-81A3-A4F23AEAD5BD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{008C5E14-ED5F-4C7A-9E4B-A7807799652D}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211207T074439Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: 2. Sheldon Thorpe elected Vice President of Human Resources
+    - ID: "2b1035b2-079b-4c94-8744-e65376ca9aef"
+      Hint: Page Type
+      Value: Events
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Lorem lpsum is simply dummy text of the printing and typesetting industry, Lorem lpsim has been the industy's standard
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "44f377f0-3a04-48fe-bdac-e29079a9eafb"
+      Hint: Image Position
+      Value: Top Right
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Press Release 1
+    - ID: "6a30b727-97b0-48ff-94d8-0656a5973182"
+      Hint: Navigation Url
+      Value: |
+        <link linktype="external" url="http://google.com" anchor="" target="" />
+    - ID: "c3a4c8c3-e295-4e69-b325-e7f302b04518"
+      Hint: Brands
+      Type: Treelist
+      Value: "{91765918-3EBF-4424-AE80-FD309D0B64C4}"
+    - ID: "e7b7335e-4e55-4e46-8ad2-1fe7e0d8cf17"
+      Hint: Date
+      Value: 20201207T092600Z

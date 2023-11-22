@@ -1,0 +1,28 @@
+﻿---
+ID: "af480bdf-de45-4820-aac2-953e0a32a6c4"
+Parent: "a9299fe8-872c-4132-a34c-27f8eabe511d"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Icons/services
+DB: master
+SharedFields:
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 40
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "da5dd6c6-9d5b-4258-9e4f-4af7a47cbbd6"
+  Value: iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAArtJREFUWEftlkFoE1EQhmd20zRtAlpsCx4UoXhQ7EGwoqAnL4YkFg+pxSbNQVGoBKV0s3rLydREiwhK8SJk0xwasFqSiAfxIqjUixQVKSiKgiBCtFpbzL7xJbUokcLu28UGyTvu7rz59p9/3jyEOl9Y53zQALRaoYaCDQWtKmA1/r/3IIZT+dOa4r9cq1R/YmqL0+HamFa8D62oaEnBcLIwBUg7OODWWggOfgwIxxEhklZ8WVFIYcBAPNu+3r3uNgB1rgoIEALARU3xef85YCVhOFV4xgGdqwPiNWIskVED8TUBDMYnPa7W1qdazN9VCxBKTZ9Ewm4tFojyd7QmgFUVk4UxPtH7gejTbwiUuTddwPQ+Te19IgpXiRP24EpSb7TY3LGJzX6fWdiWy/XpleehC/lRkOFVZsR/3QqcLYDLXsyfQcAeIni7vCkNgoN2p4cD7+sE8G4n0I/nvCGGAKVTKOMjbcSnWoWzTcFqWZP5/UgwhBIeLLHy5mm1d76uAL1XuBeX2AduwuiE4s/YAWergpXNBpOF1+Bg++zw3soPCnVx8Op9T/P817/OPknCol3NIQzID2dni9s9S0QPeOey2lKWqDxsl/+ESnz4/M0NnibnLWJ0SZIkQxOCMSJeqjlN9b8w602hEvOOPcHV22s0GfKZxxH3fKZyj1l1hQAjyWIXQ2o3CsiYjoiOGANdzcYCc0bjhEocPDfZ4Wpzv+Sa3EOQykaT8ekyw++FY0a/F26SgdFCtyzBjSXAI7JEhgGzj7+9g1+z2gykUIkHLha9kg7bDSdCXeaePf5xobTrTjz0xXBcda6bXfG4FGrZeQBlrqPBRVUPNqmLejmSO3uoeqEwukwDHk3k22QHKvzXTMUynb2ZUAPjRsGEPWg2gdXvTalgNZlIfANQRLU/YxoKNhS0qoDV+Lr34E9cvOUp1l4vdAAAAABJRU5ErkJggg==
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 40 x 40
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 40
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20220729T114000:637946916001524007Z"

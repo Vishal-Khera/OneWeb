@@ -1,0 +1,48 @@
+﻿---
+ID: "6da4d8b6-c8a2-4d16-874d-050fcc15ad44"
+Parent: "f4133ac9-e6de-4c6c-ac0d-1a5f95311ef2"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Job List/P2 Job List/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="card-list-wrapper">
+    	{{job_list =(sc_followmany i_item "Job List")}}
+    	{{if (job_list | array.size) > 0}}
+    		{{for job in job_list}}
+    			<a href="{{job.url}}" class="card">
+    				{{if (job.Title|string.size > 0 )}}
+    					<div class="card-title">{{job.Title}} </div>
+    				{{end}}
+    				 <div class="card-info">
+    					{{if (job.Department|string.size > 0 )}}
+    						<div class="profile"><i class="icon-job"></i>{{job.Department}}</div>
+    					{{end}}
+    					{{if (job.Type|string.size > 0 )}}
+    						<div class="hours"><i class="icon-clock"></i>{{job.Type}}</div>
+    					{{end}}
+    					{{if (job.Location|string.size > 0 )}}
+    						<div class="location"><i class="icon-location"></i>{{job.Location}} </div>
+    					{{end}}
+    				</div>
+    			</a>
+    		{{end}}
+    	{{end}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220727T084747Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

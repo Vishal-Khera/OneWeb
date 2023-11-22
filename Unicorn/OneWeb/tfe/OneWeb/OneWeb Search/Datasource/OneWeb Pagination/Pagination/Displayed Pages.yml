@@ -1,0 +1,21 @@
+﻿---
+ID: "bc203e7d-5e05-4b33-80cf-4f21c2835fb1"
+Parent: "9561d74e-ff95-482d-bf13-804d428e786f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Datasource/OneWeb Pagination/Pagination/Displayed Pages
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Integer
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220804T192426Z

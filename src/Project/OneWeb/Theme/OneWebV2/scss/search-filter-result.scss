@@ -1,0 +1,109 @@
+@import 'base/base-index.scss';
+.ow-search-box{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    @include lg{
+        margin-bottom: 17px;
+    }
+    > .component-content{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .search-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        .filter-search-wrapper {
+            width: 100%;
+            .filter-facets {
+                .search-value{
+                    color: $brand;
+                }
+            }
+        }
+    }
+    .search-wrapper, .search-container__search{
+        width: 100%;
+        box-shadow: none;
+    }
+    .list-grid-view-wrap{
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+        margin-left:20px;
+        border:1px solid $btn-standard-light;
+        max-height: 40px;
+        a{
+            font-size: 18px;
+            padding: 10px 10px 5px;
+            color:$brand;
+            border-radius: 0;
+            &:hover{
+                background: $btn-standard-light;
+            }
+            &.active{
+                background: $btn-standard-light;
+            }
+            &.list-view{
+                padding: 10px 8px 5px;
+            }
+        }
+    }
+    .search-container__search{
+        display: flex;
+        flex-wrap: wrap;
+        .filter-search-wrapper{
+            width:100%;
+        }
+        .clear-text{
+            right: 10px;
+            top: 8px;
+            z-index: 98;
+        }
+        .suggestion-label{
+            padding: 5px;
+            margin-top: 10px;
+        }
+        .filter-facets{
+            float: left;
+            width: 100%;
+        }
+        .ow-container{
+            position: absolute;
+            z-index: 5;
+            width:100%;
+            background-color: $base-light-gray;
+            top:40px;
+        }
+    }
+}
+
+.search-container__result{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    .ow-container{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        > .row{
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    .card-list-wrapper{
+        background: transparent;
+        border-bottom: 1px solid $lightblack;
+        .card{
+            background: transparent;
+        }
+        &:last-of-type{
+            margin-bottom: 30px;
+            @include lg{
+                margin-bottom: 60px;
+            }
+        }
+    }
+}
+

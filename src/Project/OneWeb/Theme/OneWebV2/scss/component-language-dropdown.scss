@@ -1,0 +1,32 @@
+@import 'base/base-index.scss';
+
+.ow-language-selector{
+    @include lg{
+        margin-top: 2px;
+    }
+    .language{
+        border:0;
+        padding-left:0;
+        z-index: 999;
+        .select-box {
+            .selector-options {
+                padding: 10px 0;
+                li{
+                    border-bottom: 0;
+                    padding: 5px 0px;
+                    &:first-child{
+                        padding-top:0;
+                    }
+                    &:last-child{
+                        padding-bottom: 0;
+                    }
+                }
+            }
+        }
+        &.language-active{
+            &:after{
+                transform: rotate(-90deg);
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+﻿---
+ID: "f569ceec-4b4c-42bb-805e-3492e3ae2888"
+Parent: "67b53de4-593a-437f-8c06-6087c34f70b5"
+Template: "1c0ee710-b440-4f8d-80ae-ca464571204b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Image Accordions/Careers/Image Accordion Item 4
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220112T190057Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: "Supporting Next-Generation Aerospace & Defense Platforms"
+    - ID: "5457a43c-834a-46a9-b57d-eca5a856f48b"
+      Hint: Image List
+      Value: "{134C2C69-3AAF-46DB-A5C0-6AE70FCE5321}|{14E6B088-0F7F-4EAB-951F-4072F6E3360E}|{A89BC518-2CFB-4689-9944-C5E6577F4000}|{71F5362A-0A00-4A1F-8ACD-75E3672BEE07}|{73C1C8EB-D55D-4347-A675-D4B837E127C8}|{D5A172D7-53BB-45AD-A940-237158D23F66}|{ACE93769-71A6-4231-97D1-8E2D4ECCABFA}|{3F1144C7-2CD9-4DCD-A9E1-8B2BD0639E4E}|{21B2B285-E79B-448E-A4C3-35F139DE8D9B}"
+    - ID: "c1ef176f-8343-4bbc-aa16-684ef202abf0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F503A2E1-1769-47A0-8FF2-6DD206CF5C9C}" />
+    - ID: "da373cd7-f723-416e-a552-1ade06c7f708"
+      Hint: Structure
+      Value: "{A89A9349-7CBD-48D1-8F9A-25B6D9E5A7BA}"

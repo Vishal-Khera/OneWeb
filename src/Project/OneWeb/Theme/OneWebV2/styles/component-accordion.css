@@ -1,0 +1,152 @@
+.component-placeholder-wrapper {
+  padding-bottom: 30px;
+  max-width: 1280px; }
+  @media only screen and (min-width: 1200px) {
+    .component-placeholder-wrapper {
+      width: 100%; } }
+  .component-placeholder-wrapper .accordion-btn-wrapper {
+    display: none !important; }
+  .component-placeholder-wrapper .ow-accordion {
+    margin-top: 20px; }
+    .component-placeholder-wrapper .ow-accordion .items {
+      padding: 0px; }
+      .component-placeholder-wrapper .ow-accordion .items .item {
+        box-shadow: none;
+        background: none;
+        padding: 0px;
+        margin-bottom: 0px; }
+        .component-placeholder-wrapper .ow-accordion .items .item .toggle-header {
+          padding: 15px 0px 15px 0px;
+          background: none;
+          position: relative;
+          transition: 0.35s ease-in;
+          border-top: 1px solid rgba(26, 25, 24, 0.15); }
+          .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:after {
+            width: calc(100% + 14px);
+            content: '';
+            background-color: transparent;
+            height: 100%;
+            left: -7px;
+            margin: 0px auto;
+            position: absolute;
+            top: 0px;
+            z-index: -1;
+            border-radius: 4px;
+            transition: 0.35s ease-in; }
+          .component-placeholder-wrapper .ow-accordion .items .item .toggle-header .field-heading {
+            font-weight: 700;
+            padding: 0px;
+            padding-right: 40px;
+            font-size: 18px; }
+            @media screen and (min-width: 0) {
+              .component-placeholder-wrapper .ow-accordion .items .item .toggle-header .field-heading {
+                font-size: 18px; } }
+            @media screen and (min-width: 768px) {
+              .component-placeholder-wrapper .ow-accordion .items .item .toggle-header .field-heading {
+                font-size: 18px; } }
+            @media screen and (min-width: 992px) {
+              .component-placeholder-wrapper .ow-accordion .items .item .toggle-header .field-heading {
+                font-size: 21px; } }
+            .component-placeholder-wrapper .ow-accordion .items .item .toggle-header .field-heading:before {
+              transition: 0.35s ease-in;
+              font-weight: normal;
+              content: '\2212' !important;
+              color: #2C2A29;
+              font-size: 26px;
+              position: absolute;
+              z-index: 89;
+              transform: rotate(90deg);
+              right: 5px;
+              left: auto;
+              top: -3px;
+              display: none; }
+            .component-placeholder-wrapper .ow-accordion .items .item .toggle-header .field-heading:after {
+              transition: 0;
+              font-weight: normal;
+              content: '\e91a';
+              color: #2C2A29 !important;
+              float: right;
+              margin-left: 0px;
+              font-size: 14px;
+              transform: unset;
+              text-align: center;
+              height: 30px;
+              width: 30px;
+              background-color: #EDEDED;
+              border-radius: 100%;
+              top: 0px;
+              line-height: 32px;
+              right: 0px;
+              top: 0px;
+              font-family: 'icomoon' !important; }
+            .component-placeholder-wrapper .ow-accordion .items .item .toggle-header .field-heading a {
+              color: #2C2A29;
+              font-weight: normal;
+              font-family: "FranklinGothicLTPro-Md" !important; }
+              .component-placeholder-wrapper .ow-accordion .items .item .toggle-header .field-heading a:hover a {
+                color: #2C2A29; }
+          .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:hover {
+            border-color: #2C2A29; }
+            .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:hover .field-heading::after {
+              background-color: #1A1918;
+              color: #fff !important; }
+            .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:hover .field-heading::before {
+              color: #fff !important; }
+          .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:focus-visible, .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:focus {
+            outline: none !important;
+            border-color: #2C2A29; }
+            .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:focus-visible:after, .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:focus:after {
+              background-color: #EDEDED; }
+            .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:focus-visible .field-heading::after, .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:focus .field-heading::after {
+              background-color: #1A1918;
+              color: #fff !important; }
+            .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:focus-visible .field-heading::before, .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:focus .field-heading::before {
+              color: #fff !important; }
+        .component-placeholder-wrapper .ow-accordion .items .item .toggle-content {
+          padding: 10px 0px 10px 0px; }
+          .component-placeholder-wrapper .ow-accordion .items .item .toggle-content .description {
+            font-size: 18px;
+            width: 100%;
+            line-height: inherit;
+            padding: 0px 0px 0px 0px; }
+            @media screen and (min-width: 0) {
+              .component-placeholder-wrapper .ow-accordion .items .item .toggle-content .description {
+                font-size: 18px; } }
+            @media screen and (min-width: 768px) {
+              .component-placeholder-wrapper .ow-accordion .items .item .toggle-content .description {
+                font-size: 18px; } }
+            @media screen and (min-width: 992px) {
+              .component-placeholder-wrapper .ow-accordion .items .item .toggle-content .description {
+                font-size: 21px; } }
+            @media only screen and (min-width: 768px) {
+              .component-placeholder-wrapper .ow-accordion .items .item .toggle-content .description {
+                width: 66%; } }
+          .component-placeholder-wrapper .ow-accordion .items .item .toggle-content .accordion-btn-wrapper {
+            width: 100%; }
+        .component-placeholder-wrapper .ow-accordion .items .item.active {
+          background: transparent !important; }
+          .component-placeholder-wrapper .ow-accordion .items .item.active .toggle-header::after {
+            display: none; }
+          .component-placeholder-wrapper .ow-accordion .items .item.active .toggle-content {
+            padding: 20px 0px 10px 0px; }
+          .component-placeholder-wrapper .ow-accordion .items .item.active .field-heading {
+            border: none; }
+            .component-placeholder-wrapper .ow-accordion .items .item.active .field-heading::after {
+              color: #2C2A29 !important;
+              right: 0px !important;
+              font-size: 26px;
+              line-height: 27px;
+              font-weight: bold;
+              content: '\2212' !important; }
+              @supports (-webkit-touch-callout: none) {
+                .component-placeholder-wrapper .ow-accordion .items .item.active .field-heading::after {
+                  line-height: 20px; } }
+          .component-placeholder-wrapper .ow-accordion .items .item.active .toggle-header {
+            border-bottom: none; }
+            .component-placeholder-wrapper .ow-accordion .items .item.active .toggle-header .field-heading {
+              border: none; }
+        .component-placeholder-wrapper .ow-accordion .items .item:last-child {
+          border-bottom: 1px solid rgba(26, 25, 24, 0.15); }
+
+.dark-theme .component-placeholder-wrapper .ow-accordion .items .item .toggle-header:hover .field-heading::after {
+  background-color: rgba(240, 240, 240, 0.15); }

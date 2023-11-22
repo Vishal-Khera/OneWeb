@@ -1,0 +1,20 @@
+﻿---
+ID: "a9ed4c48-9640-4d9c-9a75-2ae893ff0a1b"
+Parent: "0a5486cf-1947-43d2-8357-6372e49bbc01"
+Template: "f229fc5b-2172-404c-90dd-e1f0fe047cc7"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/Business Supports/Italy/Italy - Sales for Global Floorcare Motors/Fax"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17500a11-fa62-46bd-a98f-b95f142766a9"
+      Hint: Title
+      Value: "+39 0373-268200"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211224T221120Z
+    - ID: "523cc883-8778-4897-92a1-e13c4c905d6a"
+      Hint: SupportType
+      Value: "{4FF0B1D0-96B8-4754-97CF-5004C01086F3}"

@@ -1,0 +1,20 @@
+﻿---
+ID: "15169846-5585-4163-8990-425fafdd3437"
+Parent: "51d76a82-1775-40c5-bf6a-ba9dcc55d170"
+Template: "2dab00c3-0548-4391-9113-5f8c2605231e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder/Creaform Software V1/Software Solutions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T084929Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Software Solutions
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Lorem Ipsum is simply dummy text of the printing and typesetting industry

@@ -1,0 +1,47 @@
+@import 'base/base-index.scss';
+
+.inline-card-wrapper{
+    padding-left: 0px;
+    padding-right: 0px;
+    .component-content{
+        .ow-product-card{
+            margin-bottom: 5px;
+            @include md{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.card{
+    &.featured-card{
+        background-color: $cta-gray;
+        @include border-radius(4px);
+        height: 100px;
+        @include md{
+            display: flex;
+            height: 160px;
+        }
+        .card-body{
+            padding: 10px;
+            height: unset;
+            @include md{
+                padding: 15px;
+            }
+            .card-title{
+                @include font-size($ssmlg-font);
+            }
+            .card-subtitle{
+                @include font-size($smd-font);
+            }
+        }
+        .card-image{
+            aspect-ratio: 1/1;
+            img{
+                border-top-right-radius: 4px;
+                border-bottom-right-radius: 4px;
+                height: 100%;
+            }
+        }
+    }
+}

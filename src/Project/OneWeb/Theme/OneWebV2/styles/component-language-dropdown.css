@@ -1,0 +1,19 @@
+@media only screen and (min-width: 992px) {
+  .ow-language-selector {
+    margin-top: 2px; } }
+
+.ow-language-selector .language {
+  border: 0;
+  padding-left: 0;
+  z-index: 999; }
+  .ow-language-selector .language .select-box .selector-options {
+    padding: 10px 0; }
+    .ow-language-selector .language .select-box .selector-options li {
+      border-bottom: 0;
+      padding: 5px 0px; }
+      .ow-language-selector .language .select-box .selector-options li:first-child {
+        padding-top: 0; }
+      .ow-language-selector .language .select-box .selector-options li:last-child {
+        padding-bottom: 0; }
+  .ow-language-selector .language.language-active:after {
+    transform: rotate(-90deg); }

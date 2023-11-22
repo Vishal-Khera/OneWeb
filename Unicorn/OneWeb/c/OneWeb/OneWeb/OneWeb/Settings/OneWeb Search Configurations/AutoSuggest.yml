@@ -1,0 +1,22 @@
+﻿---
+ID: "4267893e-dbe6-4a1f-95d4-93628100e045"
+Parent: "da4eec67-fc70-44b0-b819-8038c71529d0"
+Template: "55d811b7-081e-42fd-bdd8-803e8ad31840"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/OneWeb Search Configurations/AutoSuggest
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211230T224404Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

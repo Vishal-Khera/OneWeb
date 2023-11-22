@@ -1,0 +1,206 @@
+@import 'base/base-index.scss';
+
+.component-placeholder-wrapper {
+    padding-bottom: 30px;
+    max-width: 1280px;
+    @include xl{
+        width:100%;
+    }
+    .accordion-btn-wrapper{
+        display: none !important;
+    }
+    .ow-accordion{
+        margin-top: 20px;
+        .items{
+            padding:0px;
+            .item{
+                box-shadow: none;
+                background: none;
+                padding:0px;
+                margin-bottom:0px;
+                .toggle-header{
+                    padding: 15px 0px 15px 0px;
+                    background: none;
+                    position: relative;
+                    transition: $anchor-transition;
+                    border-top: 1px solid $lightblack;
+                    &:after{
+                        width: calc(100% + 14px);
+                        content: '';
+                        background-color:transparent;
+                        height: 100%;
+                        left: -7px;
+                        margin: 0px auto;
+                        position: absolute;
+                        top: 0px;
+                        z-index: -1;
+                        border-radius: 4px;
+                        transition: $anchor-transition;
+                    }
+                   
+                    .field-heading{
+                        font-weight: 700;
+                        padding: 0px;
+                        padding-right: 40px;
+                        @include font-size($smlg-font);
+                        &:before{
+                            transition: $anchor-transition;
+                            font-weight: normal;
+                            content: '\2212' !important;
+                            color:$brandblack;
+                            font-size: 26px;
+                            position: absolute; 
+                            z-index: 89;
+                            transform: rotate(90deg);
+                            right: 5px;
+                            left:auto;
+                            top: -3px;
+                            display: none;
+                        }
+                        &:after {
+                                transition: 0;
+                                font-weight: normal;
+                                content: '\e91a';
+                                color: $brandblack !important;
+                                float: right;
+                                margin-left: 0px;
+                                font-size: 14px;
+                                transform: unset;
+                                text-align: center;
+                                height: 30px;
+                                width: 30px;
+                                background-color: $cta-gray;
+                                border-radius: 100%;
+                                top: 0px;
+                                line-height: 32px;
+                                right: 0px;
+                                top: 0px;
+                                font-family: 'icomoon' !important;
+                            }
+                            a{
+                                color:$brandblack;
+                                font-weight: normal;
+                                font-family: $franklinMd !important;
+                                &:hover{
+                                    a{
+                                        color:$brandblack
+                                    }
+                                }
+                            }
+                    }
+                    &:hover{
+                        border-color: $brandblack;
+                        .field-heading{
+                            &::after{  
+                                background-color: $brandblack2;
+                                color: $white !important;
+                            }
+                            &::before{
+                                color: $white !important;
+                            }
+                        } 
+                    }
+
+                    
+                    &:focus-visible, &:focus{
+                        outline: none !important;
+                        border-color: $brandblack;
+                        &:after{
+                            background-color: $cta-gray;
+                        }
+                        .field-heading{
+                            &::after{  
+                                background-color: $brandblack2;
+                                color: $white !important;
+                            }
+                            &::before{
+                                color: $white !important;
+                            }
+                        } 
+                    }
+                }
+                .toggle-content{
+                    padding: 10px 0px 10px 0px;
+                    .description{
+                        @include font-size($smlg-font);
+                        width:100%;
+                        line-height: inherit;
+                        padding: 0px 0px 0px 0px;
+                        @include md{
+                            width:66%;
+                        }
+                    }
+                    .accordion-btn-wrapper{
+                        width: 100%;
+                    }
+                    
+                }
+
+                &.active{
+                    background: transparent !important;
+                    .toggle-header{
+                        &::after{
+                            display: none;
+                        }
+                    }
+                    .toggle-content{
+                        padding: 20px 0px 10px 0px;
+                    }
+                    
+                    .field-heading{
+                        border: none;
+                        &::after{
+                            color: $brandblack !important;
+                            right: 0px !important;
+                            font-size: 26px;
+                            line-height: 27px;
+                            font-weight: bold;
+                            content: '\2212' !important;
+                            @supports (-webkit-touch-callout: none) {
+                                line-height: 20px;
+                              }
+                        }
+                        
+                    }
+
+                    .toggle-header{
+                        border-bottom: none;
+                        .field-heading{
+                            border: none;
+                        }
+                    }
+                }
+               
+            &:last-child{
+                
+                    border-bottom: 1px solid $lightblack;
+               
+            }
+            
+            
+            }
+            
+        }
+    }
+
+}
+
+.dark-theme{
+    .component-placeholder-wrapper{
+        .ow-accordion{
+            .items{
+                .item{
+                    .toggle-header{
+                        &:hover{
+                            .field-heading{
+                                &::after{
+                                    background-color: $white-gray-light;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+@import "base/base-index.scss";
+
+.ow-card-tiles, .ow-card {
+  &.ow-product-feature {
+    .card-item {     
+      margin-bottom: 30px;
+      cursor:default;
+     
+      .tile-slide {
+
+        .card-title-content {
+          img {
+            margin-bottom: 12px;
+          }
+        }
+      }
+
+      .card-overlay {
+        top:0px;
+        background-color: unset;
+        img {
+          margin-bottom: 10px;
+        }
+        .card-overlay-text {
+          color: $white;
+          @include font-size($md-font);
+
+         
+
+          h4 {
+            color: $primary;
+            @include font-size($sxl-font);
+            font-family: "Helvetica Neue";
+          }
+
+          .list-item {
+            padding-left:20px;
+            margin: 0;
+
+            ul{
+
+              padding-left: 0;
+
+            li {
+              list-style-type: square;
+              @include font-size($mxl-font);
+              margin-bottom: 5px;
+         
+              color: $dark-gray;
+            }
+          }
+          }
+        }
+
+       
+      }
+    }
+
+    .slick-dots {
+      bottom: -15px !important;      
+      display: block;
+      margin-left: 0px;
+      padding-top:unset;
+      left: 0px;
+      top: unset;
+
+      li {
+        background: $dark-gray !important;
+
+        &.slick-active {
+          background: $white !important;
+          border: 1px solid $dark-gray !important;
+        }
+      }
+    }
+  }
+}

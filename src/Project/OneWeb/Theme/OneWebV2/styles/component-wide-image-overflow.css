@@ -1,0 +1,108 @@
+.wide-image-promo-card {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  flex-direction: column; }
+  @media only screen and (min-width: 992px) {
+    .wide-image-promo-card {
+      display: flex;
+      flex-direction: row; } }
+  .wide-image-promo-card .wide-overflow-image-content {
+    width: 100%;
+    padding-top: 40px;
+    order: 1; }
+    @media only screen and (min-width: 992px) {
+      .wide-image-promo-card .wide-overflow-image-content {
+        width: 50%;
+        padding-top: unset;
+        order: 0; } }
+    .wide-image-promo-card .wide-overflow-image-content .text-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      color: rgba(44, 42, 41, 0.6); }
+      @media only screen and (min-width: 992px) {
+        .wide-image-promo-card .wide-overflow-image-content .text-wrapper {
+          width: 75%; } }
+      .wide-image-promo-card .wide-overflow-image-content .text-wrapper h2 {
+        font-family: "FranklinGothicLTPro-Md" !important;
+        color: rgba(44, 42, 41, 0.6); }
+      .wide-image-promo-card .wide-overflow-image-content .text-wrapper .product-name h2 {
+        color: #2C2A29; }
+      .wide-image-promo-card .wide-overflow-image-content .text-wrapper .paragraph-wrapper {
+        font-size: 18px;
+        margin-top: 20px;
+        color: rgba(44, 42, 41, 0.7);
+        font-family: "FranklinGothicLTPro-Md" !important; }
+        @media screen and (min-width: 0) {
+          .wide-image-promo-card .wide-overflow-image-content .text-wrapper .paragraph-wrapper {
+            font-size: 18px; } }
+        @media screen and (min-width: 768px) {
+          .wide-image-promo-card .wide-overflow-image-content .text-wrapper .paragraph-wrapper {
+            font-size: 18px; } }
+        @media screen and (min-width: 992px) {
+          .wide-image-promo-card .wide-overflow-image-content .text-wrapper .paragraph-wrapper {
+            font-size: 18px; } }
+        .wide-image-promo-card .wide-overflow-image-content .text-wrapper .paragraph-wrapper p {
+          font-family: "FranklinGothicLTPro-Md" !important; }
+  .wide-image-promo-card .wide-overflow-image {
+    width: 100%;
+    position: relative;
+    order: 0; }
+    @media only screen and (min-width: 992px) {
+      .wide-image-promo-card .wide-overflow-image {
+        width: 50%;
+        height: 421px;
+        order: 1; } }
+    @media (max-width: 992px) {
+      .wide-image-promo-card .wide-overflow-image::after {
+        content: "";
+        height: 1px;
+        position: absolute;
+        left: -15px;
+        width: calc(100% + 30px);
+        background-color: rgba(26, 25, 24, 0.15); } }
+    .wide-image-promo-card .wide-overflow-image img {
+      max-width: inherit;
+      max-width: 115%; }
+      @media only screen and (min-width: 992px) {
+        .wide-image-promo-card .wide-overflow-image img {
+          max-width: inherit;
+          position: absolute;
+          top: 50%;
+          left: 0;
+          transform: translateY(-50%);
+          overflow: visible; } }
+  .wide-image-promo-card .image-overflow-left {
+    width: 100%; }
+    .wide-image-promo-card .image-overflow-left img {
+      right: 50px !important;
+      left: unset !important;
+      height: 100%;
+      float: right; }
+
+.dark-theme .wide-image-promo-card .product-name h2 {
+  color: #fff !important; }
+
+.dark-theme .wide-image-promo-card h2 {
+  color: rgba(255, 255, 255, 0.6) !important; }
+
+.dark-theme .wide-image-promo-card .paragraph-wrapper {
+  color: rgba(240, 240, 240, 0.7) !important; }
+
+.dark-theme .wide-image-promo-card .button.btn-default {
+  background: #236192 !important;
+  color: #fff !important;
+  border: none; }
+  .dark-theme .wide-image-promo-card .button.btn-default:hover {
+    outline: 3px solid transparent;
+    background: #236192 !important;
+    color: #fff !important;
+    border: none; }
+  .dark-theme .wide-image-promo-card .button.btn-default:focus {
+    outline: 3px solid rgba(35, 97, 146, 0.7) !important;
+    background: #236192 !important;
+    color: #fff !important;
+    border: none; }

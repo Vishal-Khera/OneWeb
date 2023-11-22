@@ -1,0 +1,18 @@
+﻿---
+ID: "bd0468ef-0101-41fc-8f93-e86ea1969326"
+Parent: "21bf8ff4-43b7-414d-88f5-d9f8a2664f0b"
+Template: "9967a2dd-8448-4296-b0bb-aeae6bc01402"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards With Icon/Static icon Text/Contact Us
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T062045Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,26 @@
+﻿---
+ID: "54c69b5f-8eff-44d2-a06b-6f7cb74a178f"
+Parent: "2b5ad215-66b1-4ca2-9199-a98254de50a0"
+Template: "2b5ad215-66b1-4ca2-9199-a98254de50a0"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Datasource/OneWeb Search Filter Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {1DA424D9-D256-4CFE-8BA9-23EDE9519E1C}
+    {FB69310F-5293-4D0A-8C46-C0AFC43BEB5D}
+    {2B5AD215-66B1-4CA2-9199-A98254DE50A0}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,14 @@
+﻿---
+ID: "6c526d5f-19ee-4ba8-8e41-585f8a2a779a"
+Parent: "9b924afd-1740-402f-92dd-0763f16c66b3"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Global Data/OneWeb Page Category
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220809T193844Z

@@ -1,0 +1,21 @@
+﻿---
+ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+Parent: "63b28ac8-19a7-4e0d-9e1f-a4027e535492"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Media/Datasource/OneWeb Video Provider/Provider/EmbedTemplate
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Multi-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T114516Z

@@ -1,0 +1,19 @@
+﻿---
+ID: "9ee12b6a-0a61-4448-9291-9de1e261b769"
+Parent: "88462aa0-89a3-4c2d-b606-40e323232ff0"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Events/Default
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5A818FE7-3610-4E21-B6BB-EFAB7250A7FF}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220115T170401Z

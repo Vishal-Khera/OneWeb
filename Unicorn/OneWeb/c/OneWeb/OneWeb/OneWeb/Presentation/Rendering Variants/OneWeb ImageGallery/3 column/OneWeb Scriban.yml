@@ -1,0 +1,71 @@
+﻿---
+ID: "de787777-730a-456d-a13a-c0a4bc6e195b"
+Parent: "2a858e5b-3fa3-4049-8997-cbbfe0b2641e"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb ImageGallery/3 column/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     <div class="lightbox-wrapper">
+           <div class="lightbox-text">
+    	     {{ if(i_item.title != "") }}
+    	      <h2><strong>{{ i_item.title }}</strong></h2>
+    	      {{ end }}
+           </div>
+    {{logo_list_model =(sc_followmany i_item "Images")
+    if (logo_list_model | array.size) > 0
+    	
+    	item_per_row = 3
+    	logo_per_slide = 9
+    	displayed_logos=0
+    	row_item_count = 0
+    	all_logo_count = (logo_list_model | array.size)}}
+        <div class="lightbox-gallery"> 
+    		{{for logo_model in logo_list_model}}
+    				
+    					{{row_item_count = row_item_count + logo_per_slide}}
+    					{{for row_model in (logo_list_model | array.limit logo_per_slide)}}
+    						<div class = "row">
+    						{{for column in ((logo_list_model | array.offset displayed_logos) | array.limit item_per_row)}}
+    							<div class = "col-sm-4 pt-3 col-lg-4">
+    								<div>
+    										{{media_model = ow_media_model column 'Image'}}
+    										{{if media_model}}
+    											{{if (media_model.url|string.size > 0 )}}
+    					<a href="{{media_model.url}}" data-toggle="lightbox" data-gallery="example-gallery" data-footer="{{media_model.title}}">
+                                                            <img data-src="{{media_model.url}}" class="image-fluid ow-lazy">
+                                                                                               </a>
+                                                                                <h4>{{media_model.title}}</h4>
+    											{{end}}
+    										{{end}}
+    								</div>
+    							</div>
+    						{{end}}
+    						</div>
+    						{{displayed_logos = displayed_logos + item_per_row}}
+    						{{if row_item_count <= displayed_logos || all_logo_count <= displayed_logos}}
+    							{{break}}
+    						{{end}}
+    					{{end}}
+    			{{if all_logo_count <= displayed_logos}}
+    				{{break}}
+    			{{end}}
+    		{{end}}
+    	</div>
+    {{end}}
+     </div>
+                   
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220518T041636Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

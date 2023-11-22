@@ -1,0 +1,18 @@
+﻿@model List<OneWeb.Feature.PageContent.Models.GalleryModel>
+@if (Model != null)
+{
+    foreach(var abc in @Model)
+    {
+      <h3>@abc.Date</h3>
+                    
+        foreach (var Gallery in abc.Images)
+        {
+            <div class="row speaker-rows">
+                @if (Gallery.image != null)
+                {
+                    <div class=" col-3"><img src="@Url.Content(Gallery.image)" /></div>
+                }
+            </div>
+        }
+    }
+}

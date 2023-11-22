@@ -1,0 +1,32 @@
+﻿---
+ID: "063b369b-058a-4591-ba4c-a37f8bf996f1"
+Parent: "af0661b2-49cb-4592-a5b9-c0ef48715bb8"
+Template: "7c097c41-1982-4f91-8ec5-48bbd1c8621a"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Card/Card
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/star_blue.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15949cef-7f3d-4f72-80fc-c6e08feca2e0"
+      Hint: Title
+      Value: Card Title
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230512T085729Z
+    - ID: "3fdbc2d7-f1a6-4644-9639-d388e9b47c25"
+      Hint: Image
+      Value: |
+        <image mediaid="{DCAC5833-297A-41CC-AE34-568BDA25F412}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7c4721c1-0369-48ed-ac21-1bcd3a899ed8"
+      Hint: Description
+      Value: Card Description

@@ -1,0 +1,65 @@
+﻿---
+ID: "0ee7b2f3-9044-4a0e-a805-75765bbcce41"
+Parent: "0bfdd068-6dcd-4660-a02a-9c726cbb1ba0"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Content Card/P2 Simple Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{primary_link_classes = "product-card-wrapper "}}
+     {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+         if( primary_filtered_classes)
+    	  if(primary_filtered_classes.class | string.size) > 0
+    		 primary_link_classes = primary_link_classes  + primary_filtered_classes.class
+    	  end
+         end}} 
+        {{link_model = ow_link_model i_item 'PrimaryLink'}}
+    	{{ if(link_model.url && link_model.url != "") }}
+          <a href="{{link_model.url}}"  class="{{primary_link_classes}}" title="{{link_model.title}}" target="{{link_model.target}}">
+    	{{end}}
+              <div class="card small-card simple-card">
+             <div class="card-body">
+             {{if i_item.Title | string.size >0}}
+             <div class="card-title">{{ sc_field i_item 'Title' }}</div>
+             {{end}}
+    		 {{if i_item.Content | string.size >0}}
+             <div class="card-text">{{ sc_field i_item 'Content' | string.truncatewords 15 }}</div>
+             {{end}}
+             </div>
+    		{{ if(i_item.Image != "") }}
+    	    {{media_model = ow_media_model i_item "Image"}}
+    	    {{else}}
+    		{{media_model = ow_default_media_model_by_field "Default Content Card Image"}}
+            {{ end }} 
+    	    {{ if(i_item.MobileImage != "") }}
+    	    {{mob_media_model = ow_media_model i_item "MobileImage"}}
+    	    {{else}}
+    	    {{mob_media_model = ow_default_media_model_by_field "Default Content Card Mobile Image"}}
+            {{ end }} 
+    	   {{ if ((media_model.url | string.size >0) || (mob_media_model.url | string.size >0)) }}
+    	   <div class="card-image">	
+           <img class="ow-lazy" data-src = "{{ media_model.url }}" data-mob-src = "{{ mob_media_model.url }}"  alt="{{media_model.alt}}" title="{{ media_model.title}}" />
+    	   <i class="icon-right-arrow"></i>
+    	   </div>
+    	   {{end}}
+           </div>
+    	 {{ if(link_model.url != "") }}
+           </a>
+    	 {{end}}
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T195830Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

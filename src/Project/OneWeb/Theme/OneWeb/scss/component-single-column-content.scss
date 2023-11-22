@@ -1,0 +1,65 @@
+@import "base/base-index.scss";
+.column-content {
+  margin-bottom: 15px;
+  display: flex;
+  @include lg {
+    margin-bottom: unset;
+  }
+  .ow-card-content {
+    border-left-style: solid;
+    border-left-width: 6px;
+    .title {
+      color: $white;
+      padding: 15px 25px;
+      @include font-size($sxl-font);
+      width: 90%;
+      font-family: "Helvetica Neue";
+      margin-left: -1px;
+      word-break: break-word;
+
+      @include lg {
+        width: 70%;
+      }
+
+      &:after {
+        transform: skew(-10deg);
+        content: "";
+        background: $light-gray;
+        width: 41px;
+        height: 80px;
+        position: absolute;
+        right: 7%;
+        top: 0px;
+
+        @include lg {
+          right: 29%;
+          height: 65px;
+        }
+      }
+
+      &.blue-bg {
+        background: $primary;
+      }
+
+      &.orange-bg {
+        background: $primary;
+      }
+    }
+
+    .description {
+      padding: 10px 25px;
+      font-family: "HelveticaNeue-Light";
+      color: $black;
+      @include font-size($mxl-font);
+      line-height: 24px;
+    }
+
+    &.border-blue {
+      border-left: 6px solid $primary;
+    }
+
+    &.border-orange {
+      border-left: 6px solid $primary;
+    }
+  }
+}

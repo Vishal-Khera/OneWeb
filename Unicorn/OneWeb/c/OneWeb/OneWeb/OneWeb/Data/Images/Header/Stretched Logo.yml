@@ -1,0 +1,22 @@
+﻿---
+ID: "65055527-2bbe-4711-8a37-83d5a94ed045"
+Parent: "6996d6a8-6577-4e26-b6f9-85a106ed2fa0"
+Template: "bb8a85ab-1f6d-4518-8772-1c9f4f8dac18"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/Header/Stretched Logo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211126T145320Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ebe4fdef-16d5-4d19-833c-24a241628a3a"
+      Hint: Image
+      Value: |
+        <image mediaid="{A592ED90-750A-4363-B287-FE2597F075DC}" ></image>

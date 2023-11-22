@@ -1,0 +1,53 @@
+.slider-wrapper.product-card-item {
+  position: relative; }
+  .slider-wrapper.product-card-item .card-item {
+    margin-bottom: 30px; }
+    .slider-wrapper.product-card-item .card-item h4 {
+      color: #fff;
+      font-size: 22px;
+      font-family: "HelveticaNeue-Bold"; }
+      @media screen and (min-width: 0) {
+        .slider-wrapper.product-card-item .card-item h4 {
+          font-size: 22px; } }
+      @media screen and (min-width: 768px) {
+        .slider-wrapper.product-card-item .card-item h4 {
+          font-size: 24px; } }
+      @media screen and (min-width: 992px) {
+        .slider-wrapper.product-card-item .card-item h4 {
+          font-size: 24px; } }
+    .slider-wrapper.product-card-item .card-item .card-overlay img {
+      margin-bottom: 10px; }
+    .slider-wrapper.product-card-item .card-item .card-overlay .card-overlay-text {
+      color: #fff;
+      font-size: 16px; }
+      @media screen and (min-width: 0) {
+        .slider-wrapper.product-card-item .card-item .card-overlay .card-overlay-text {
+          font-size: 16px; } }
+      @media screen and (min-width: 768px) {
+        .slider-wrapper.product-card-item .card-item .card-overlay .card-overlay-text {
+          font-size: 16px; } }
+      @media screen and (min-width: 992px) {
+        .slider-wrapper.product-card-item .card-item .card-overlay .card-overlay-text {
+          font-size: 16px; } }
+      .slider-wrapper.product-card-item .card-item .card-overlay .card-overlay-text .description {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        color: #fff; }
+      .slider-wrapper.product-card-item .card-item .card-overlay .card-overlay-text .btn {
+        position: absolute;
+        bottom: 0;
+        width: auto; }
+  .slider-wrapper.product-card-item .slick-dots {
+    bottom: -15px !important;
+    display: block;
+    margin-left: 0px;
+    padding-top: unset;
+    left: 0px;
+    top: unset; }
+    .slider-wrapper.product-card-item .slick-dots li {
+      background: #2B2B2B !important; }
+      .slider-wrapper.product-card-item .slick-dots li.slick-active {
+        background: #fff !important;
+        border: 1px solid #2B2B2B !important; }

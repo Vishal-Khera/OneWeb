@@ -1,0 +1,28 @@
+﻿---
+ID: "6dc6ae35-cb00-4b42-a21c-b9ad98451893"
+Parent: "8fac35fd-1bf6-42e4-9353-b2375f689162"
+Template: "0d4f3a61-243a-42a9-a33c-9f054e02449b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards/RTE Diversity Component
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211213T104155Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: AMETEK Foundation
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: We have increased our focus on social responsibility by expanding both volunteer efforts and contributions through Ametek, in support of communities where we operate.&nbsp;
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="Results" anchor="" linktype="internal" class="" title=""  querystring="" id="{CC065443-BDCA-4077-B978-3DFDC2AB358D}" />

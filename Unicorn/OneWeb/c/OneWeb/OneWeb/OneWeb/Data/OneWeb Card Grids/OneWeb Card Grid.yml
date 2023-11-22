@@ -1,0 +1,14 @@
+﻿---
+ID: "37e768db-4b7b-4284-ae8b-b532fe5ca5b3"
+Parent: "0e20d56e-4b79-4469-a210-d8ae38ed9cb1"
+Template: "72e57dc4-4c05-4067-a749-c74e9b20beb0"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Card Grids/OneWeb Card Grid
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T013040Z

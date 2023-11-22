@@ -1,0 +1,17 @@
+﻿---
+ID: "2aa20c69-bb7c-46cf-8f89-e3951d9c4302"
+Parent: "6111fc3e-0142-4561-a11a-d22153335fa1"
+Template: "e0b30a4b-f072-43bc-a741-8c6b9a3ccd3f"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Businesses/Industries/Main Industry 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T231551Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Main Industry 1

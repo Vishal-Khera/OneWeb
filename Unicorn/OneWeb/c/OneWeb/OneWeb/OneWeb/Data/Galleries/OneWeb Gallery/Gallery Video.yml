@@ -1,0 +1,21 @@
+﻿---
+ID: "49581211-3b9a-42ef-815a-e2bdb73e4526"
+Parent: "655b681b-9604-464a-b3a8-eea0aa62357d"
+Template: "4af51f4d-8ac4-4394-b6a5-11b52cfaf613"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Galleries/OneWeb Gallery/Gallery Video
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T100739Z
+    - ID: "5a592c96-87e5-486f-a699-555ddca06ceb"
+      Hint: VideoProvider
+      Value: "{9D072721-207D-4722-AB27-BC6B3588E12F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

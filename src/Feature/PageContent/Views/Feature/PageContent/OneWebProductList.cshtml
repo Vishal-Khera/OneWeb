@@ -1,0 +1,22 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Fields
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields
+@model OneWeb.Feature.PageContent.Models.ProductListRenderingModel
+@{
+    if (Model.ProductList.Any())
+    {
+        var sliderSettings = Model.SlideWrapperSettings;
+        <div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "", Model.Attributes)>
+            <div class="component-content">
+                <div class="slider-wrapper row text-center" data-slides-to-show="@sliderSettings.SlidesToShowDesktop" data-slides-to-show-tab="@sliderSettings.SlidesToShowTab" data-slides-to-show-mob="@sliderSettings.SlidesToShowMobile" data-arrow="@sliderSettings.ShowArrows" data-dots="@sliderSettings.ShowDots" data-autoplaySpeed="@sliderSettings.AutoplaySpeed" data-autoplay="@sliderSettings.Autoplay">
+                    @foreach (BaseVariantField variantField in Model.VariantFields)
+                    {
+                        @Html.RenderingVariants().RenderVariant(variantField, Model.Item, Model.RenderingWebEditingParams, Model)
+                    }
+                </div>
+            </div>
+        </div>
+    }
+}

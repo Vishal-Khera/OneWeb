@@ -1,0 +1,32 @@
+﻿---
+ID: "fb504c61-85b2-4a33-8e90-d4452969aa7c"
+Parent: "d758f883-131a-4c16-8483-90228ca0e332"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Job/P2 Date Only/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-date_model = (ow_default_date i_item "PostingDate" "Default Date Format")-}}
+    <div class="job-detail">
+    {{if i_item.JobID | string.size >0}}
+     {{i_item.JobID}} 
+    {{end}}
+    {{if date_model}}
+    {{ sc_translate 'OneWeb-PostingDate' }}	{{-date_model-}}	
+    {{end}}
+    </div>
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220807T102042Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

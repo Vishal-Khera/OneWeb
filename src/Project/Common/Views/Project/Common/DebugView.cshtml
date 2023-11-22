@@ -1,0 +1,65 @@
+﻿@using OneWeb.Foundation.SitecoreExtensions.Extensions
+@{
+	var isDebugMode = HttpContext.Current.Request.QueryString["debug_mode"] == "1";
+	if (!isDebugMode)
+	{
+		return;
+	}
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12">Site Info</div>
+		</div>
+		<div class="row">
+			<div class="col-6">Site Name</div>
+			<div class="col-6">@ContextExtensions.GetContextSiteName()</div>
+		</div>
+		<div class="row">
+			<div class="col-6">Site Database</div>
+			<div class="col-6">@ContextExtensions.GetContextSiteDatabaseName()</div>
+		</div>
+		<div class="row">
+			<div class="col-6">Site Root Path</div>
+			<div class="col-6">@ContextExtensions.GetContextSiteRootPath()</div>
+		</div>
+		<div class="row">
+			<div class="col-6">Site Start Path</div>
+			<div class="col-6">@ContextExtensions.GetContextSiteStartPath()</div>
+		</div>
+		<div class="row">
+			<div class="col-12">Item Info</div>
+		</div>
+		@{
+			var contextItem = Sitecore.Context.Item;
+			if (contextItem != null)
+			{
+				<div class="row">
+					<div class="col-6">Item Name</div>
+					<div class="col-6">@contextItem.Name</div>
+				</div>
+				<div class="row">
+					<div class="col-6">Item ID</div>
+					<div class="col-6">@contextItem.ID.ToString()</div>
+				</div>
+				<div class="row">
+					<div class="col-6">Item Database</div>
+					<div class="col-6">@contextItem.Database</div>
+				</div>
+				<div class="row">
+					<div class="col-6">Item Path</div>
+					<div class="col-6">@contextItem.Paths.FullPath</div>
+				</div>
+				<div class="row">
+					<div class="col-6">Item Template</div>
+					<div class="col-6">@contextItem.TemplateName</div>
+				</div>
+			}
+			else
+			{
+				<div class="row">
+					<div class="col-12">Context Item is Null</div>
+				</div>
+			}
+		}
+	</div>
+}

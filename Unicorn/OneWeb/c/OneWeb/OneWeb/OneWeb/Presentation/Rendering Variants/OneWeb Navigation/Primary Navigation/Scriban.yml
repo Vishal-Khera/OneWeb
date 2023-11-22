@@ -1,0 +1,128 @@
+﻿---
+ID: "488758b4-0bd6-44e9-abdd-5e7836112bcb"
+Parent: "14f0c870-60c0-4cf9-909c-d8705ab0ea88"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Navigation/Primary Navigation/Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if o_model && o_model.children.size>0-}}
+    <nav>    
+        <ul class="mega-nav">
+            {{-for menu_item in o_model.children-}}
+                {{if (menu_item.is_active)}}
+                {{activeClass = 'active'}}
+                {{else}}
+                {{activeClass = ''}} 
+                {{end}}
+                {{-if menu_item.has_children-}}
+                    <li class="has-menu">
+                        <a href="javascript:void(0)" class="{{activeClass}}">{{-menu_item.title-}}</a>
+                        <div class="mega-nav-level1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="block-image">
+                                            <h2>{{-menu_item.title-}}</h2>
+                                            <p>{{-menu_item.description-}}</p>
+                                            {{-if menu_item.image-}}
+                                                <img class="ow-lazy" data-src="{{-menu_item.image.url-}}" alt="{{-menu_item.image.alt-}}" title="{{-menu_item.image.title-}}" />
+                                            {{-end-}}
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9">
+                                    <ul class="mega-nav-level2">
+                                        <li> 
+                                            <a href="{{-menu_item.link.url-}}" class="{{-menu_item.css_class-}}" target="{{-menu_item.link.target-}}" anchor="{{-menu_item.link.anchor-}}"> {{-sc_translate 'OneWebNavigation-Overview'-}} </a>
+                                        </li>
+                                        {{-for menu_item_level1 in menu_item.children-}}
+                                            {{if (menu_item_level1.is_active)}}
+                                                {{activeClass = 'active'}}
+                                                {{else}}
+                                                {{activeClass = ''}}
+                                                {{end}}
+                                            {{-if menu_item_level1.has_children-}}                                        
+                                                <li class="has-child"> 
+                                                    <a href="javascript:void(0)" class="{{activeClass}}">{{-menu_item_level1.title-}}</a>
+                                                    <ul class="mega-nav-level3">
+                                                        <div class="menu-back">
+                                                            <div class="back-to-menu">{{-sc_translate 'OneWebNavigation-Back'-}}</div>
+                                                            <h4>{{-menu_item_level1.title-}}</h4>
+                                                        </div>
+                                                        <li> 
+                                                            <a href="{{-menu_item_level1.link.url-}}" class="{{-menu_item_level1.css_class-}}" target="{{-menu_item_level1.link.target-}}" anchor="{{-menu_item_level1.link.anchor-}}">{{-sc_translate 'OneWebNavigation-Overview'-}}</a>
+                                                        </li>
+                                                        {{-for menu_item_level2 in menu_item_level1.children-}}
+                                                            {{if (menu_item_level2.is_active)}}
+                                                                {{activeClass = 'active'}}
+                                                                {{else}}
+                                                                {{activeClass = ''}}
+                                                                {{end}}
+                                                            {{-if menu_item_level2.has_children-}}                                                        
+                                                                <li class="has-child"> 
+                                                                    <a href="javascript:void(0)" anchor="{{-menu_item_level2.link.anchor-}}" class="{{activeClass}}">{{-menu_item_level2.title-}}</a>
+                                                                    <ul class="mega-nav-level4">
+                                                                        <div class="menu-back">
+                                                                            <div class="back-to-menu">{{-sc_translate 'OneWebNavigation-Back'-}}</div>
+                                                                            <h4>{{-menu_item_level2.title-}}</h4>
+                                                                        </div>
+                                                                        <li> 
+                                                                            <a href="{{-menu_item_level2.link.url-}}" class="{{-menu_item_level2.css_class-}}" target="{{-menu_item_level2.link.target-}}" anchor="{{-menu_item_level2.link.anchor-}}"> {{-sc_translate 'OneWebNavigation-Overview'-}} </a>
+                                                                        </li>
+                                                                        {{-for menu_item_level3 in menu_item_level2.children-}}
+                                                                        {{if (menu_item_level3.is_active)}}
+                                                                        {{activeClass = 'active'}}
+                                                                        {{else}}
+                                                                        {{activeClass = ''}}
+                                                                        {{end}}
+                                                                            <li> 
+                                                                                <a href="{{-menu_item_level3.link.url-}}" class="{{-menu_item_level3.css_class-}} {{activeClass}}" target="{{-menu_item_level3.link.target-}}" anchor="{{-menu_item_level3.link.anchor-}}">{{-menu_item_level3.title-}}</a>
+                                                                            </li>
+                                                                        {{-end-}}
+                                                                    </ul>
+                                                                </li>    
+                                                            {{-else-}}
+                                                            <li> 
+                                                                <a href="{{-menu_item_level2.link.url-}}" class="{{-menu_item_level2.css_class-}} {{activeClass}}" target="{{-menu_item_level2.link.target-}}" anchor="{{-menu_item_level2.link.anchor-}}">{{-menu_item_level2.title-}}</a>
+                                                            </li>
+                                                            {{-end-}}
+                                                        {{-end-}}
+                                                    </ul>
+                                                </li>
+                                            {{-else-}}
+                                                <li> 
+                                                    <a href="{{-menu_item_level1.link.url-}}" class="{{-menu_item_level1.css_class-}} {{activeClass}}" target="{{-menu_item_level1.link.target-}}" anchor="{{-menu_item_level1.link.anchor-}}">{{-menu_item_level1.title-}}</a>
+                                                </li>
+                                            {{-end-}}
+                                        {{-end-}}        
+                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                {{-else-}}
+                    <li><a href="{{-menu_item.link.url-}}" class="{{-menu_item.css_class-}} {{activeClass}}" target="{{-menu_item.link.target-}}" anchor="{{-menu_item.link.anchor-}}">{{-menu_item.title-}}</a></li>
+                {{-end-}}
+            {{-end-}}
+        </ul>
+    </nav>
+    {{-end-}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211127T153344Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

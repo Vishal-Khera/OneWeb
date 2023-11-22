@@ -1,0 +1,14 @@
+﻿---
+ID: "8d967269-97f3-4e86-9eb5-1379c4fb0669"
+Parent: "d94ec62c-82fc-4223-a344-ac1f4cd302b1"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Partial Designs/OneWeb Header Multi Brand/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211220T055815Z

@@ -1,0 +1,49 @@
+@import 'base/base-index.scss';
+
+.info-header {
+    .row {
+        align-items: inherit
+    }
+
+    .text-wrapper {
+        h2 {
+            @include font-size($xl-font);
+        }
+    }
+
+    .paragraph-wrapper {
+        p {
+            @include font-size($smslg-font);
+        }
+    }
+
+    .button-row {
+        margin-top: 20px;
+    }
+
+    .text-heading {
+        h2 {
+            @include font-size($smlg-font);
+            font-family: $franklinMd  !important;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+
+.info-header {
+    .blue-theme{
+        .text-heading{
+            color: $base-light-gray;
+        }
+        .paragraph-wrapper {
+            color: $mid-light-gray;
+        }
+        .text-wrapper {
+            h2 {
+                color: $base-light-gray;
+            }
+        }
+    }
+}

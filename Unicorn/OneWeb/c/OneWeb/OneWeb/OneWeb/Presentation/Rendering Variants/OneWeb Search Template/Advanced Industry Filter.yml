@@ -1,0 +1,22 @@
+﻿---
+ID: "37e052b9-cf83-4bc5-a0f1-f63e5c9931f2"
+Parent: "65d97de6-1804-4b22-8c66-f8aef7a4b0b6"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/Advanced Industry Filter
+DB: master
+SharedFields:
+- ID: "6e87db8e-58a6-4613-823b-e99e244f07a0"
+  Hint: ItemCssClassField
+  Value: "ow-video"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T192007Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

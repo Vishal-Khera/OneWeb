@@ -1,0 +1,78 @@
+﻿---
+ID: "6f87503b-bb9e-46fb-a8ca-c202a297bfbb"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/C02 card list blue
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{FD2C7E55-12EB-4B43-9831-78319043AABD}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{916D5EC5-8FC8-4B7E-8859-836C550451E9}"
+          p:before="*"
+          s:ds="{88588715-6F45-4039-A74E-E2D71789D477}"
+          s:id="{9B2EE9CB-28D6-4DA4-9CDA-F335ECFE3E64}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Page Size=10&amp;Pages To Skip=0&amp;FieldNames&amp;HeaderStyle=%7B8ACACA22-0D21-4A68-9137-6C484AA81DA6%7D&amp;Styles&amp;SubTitleHeaderStyle&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4" />
+        <r
+          uid="{F6747E9F-EBD1-4105-8C20-BC0EF539C15A}"
+          p:after="r[@uid='{916D5EC5-8FC8-4B7E-8859-836C550451E9}']"
+          s:ds="{A4C83B0B-F07C-44C9-959A-39EEBBDAAD57}"
+          s:id="{5B5E8C99-082F-4567-A226-DB39824725E2}"
+          s:par="GridParameters=%7B67B5C879-BCEF-466C-A740-F637E0F4647C%7D&amp;Expand Content&amp;FieldNames&amp;Styles&amp;Word Limit&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4" />
+        <r
+          uid="{7D5F8525-5CDB-420F-A1B0-AA82A475F4C6}"
+          p:after="r[@uid='{F6747E9F-EBD1-4105-8C20-BC0EF539C15A}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3" />
+        <r
+          uid="{6E0C1FF5-801A-4828-8C19-F4B3DF8094A5}"
+          p:after="r[@uid='{7D5F8525-5CDB-420F-A1B0-AA82A475F4C6}']"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{8D33E17A-8C48-4314-BF55-5A41C74C6FB3}"
+          p:after="r[@uid='{6E0C1FF5-801A-4828-8C19-F4B3DF8094A5}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-fluid-1" />
+        <r
+          uid="{78D8C1A7-DBA9-45BD-9706-024C1B465577}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles=%7B17C25B80-C2DF-4203-8562-43A3142A9EE4%7D%7C%7BDE24EED0-2077-4896-8479-3FBD346BD486%7D&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220727T095539Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: C02 card list
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: C02 card list

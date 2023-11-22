@@ -1,0 +1,18 @@
+﻿---
+ID: "8b9ae5a8-ef5f-4234-80bd-d0493d52f997"
+Parent: "972e736a-d6ba-4d37-8bb7-bde4bea1a52e"
+Template: "972e736a-d6ba-4d37-8bb7-bde4bea1a52e"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Hero/Rendering Parameters/OneWeb Hero Banner Rendering Parameters/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T011721Z

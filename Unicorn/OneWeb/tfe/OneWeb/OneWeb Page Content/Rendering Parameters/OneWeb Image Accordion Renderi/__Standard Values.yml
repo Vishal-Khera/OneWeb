@@ -1,0 +1,21 @@
+﻿---
+ID: "7d2d828e-5f15-4fc6-8320-75af0b31a207"
+Parent: "891ddd9d-b7bf-4ae4-9ef3-a0ee9ea2036c"
+Template: "891ddd9d-b7bf-4ae4-9ef3-a0ee9ea2036c"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Image Accordion Rendering Parameters/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130319T100900Z
+    - ID: "f0b1e712-30be-4c30-b2d7-973b954079ac"
+      Hint: AccordionItemCount
+      Value: 10

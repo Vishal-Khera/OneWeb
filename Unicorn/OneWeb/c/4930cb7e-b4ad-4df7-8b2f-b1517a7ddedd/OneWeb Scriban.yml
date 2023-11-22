@@ -1,0 +1,48 @@
+﻿---
+ID: "a379f527-fd8f-4bf8-b688-d9302f3de623"
+Parent: "4930cb7e-b4ad-4df7-8b2f-b1517a7ddedd"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Text With Placeholder/P2 Title With Subtext and Description On Bottom/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     <div class="col-12">
+     <div class="page-heading">
+     {{if i_item.title !=""}}
+        <div class="heading-title">  
+          <h2>{{i_item.title}}</h2>
+        </div>
+    	  {{end}}
+    	{{if i_item.subtext !=""}}
+    	 <div class="light-gray-text">
+            <div class="paragraph-wrapper">
+                {{i_item.subtext}}
+            </div>
+        </div>
+            {{end}}
+    </div>
+    </div>
+    {{sc_dynamic_placeholder 'ow-text-placeholder'}}
+       <div class="col-md-8 pt-3">
+       {{if i_item.content !=""}}
+          <div class="component-content">
+            <div class="page-description-text description-small bullet-point">
+      {{i_item.content}}
+    </div>
+       </div>
+        {{end}}
+         </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220718T154045Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

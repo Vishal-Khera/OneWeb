@@ -1,0 +1,240 @@
+@import 'base/base-index.scss';
+
+.filter-search-wrapper {
+    .filter-search {
+        input{
+            &.search-wrapper__input{
+                @include border-radius(4px);
+                &:hover,&:focus{
+                    border: 1px solid $btn-standard-light !important;
+                }
+            }
+            
+        }
+    }
+    .filter-facets{
+        .search-for{
+            .search-value{
+                color: $brandblack;
+                font-family: $franklinMd !important;
+            }
+        }
+    }
+}
+
+.search-wrapper{
+    position: relative;
+    &:before{
+        content: '\e914';
+        font-family: 'icomoon' !important;
+        position: absolute;
+        left: 15px;
+        @include font-size($sm-font);
+        top: 50%;
+        transform: translateY(-50%);
+        line-height: 0;
+        color:$brand;
+    }
+    &__input{
+        width: 100%;
+        border: 1px solid $btn-standard-light !important;
+        border-radius:4px;
+        background:$base-light-gray;
+        height: 40px;
+        padding-left: 40px;
+        
+    }
+}
+
+.header-search{
+    padding:0;
+    position: fixed;
+    top:5px;
+    width: 100%;
+    display: flex;
+    display:none;
+    z-index: 99999;
+    padding-left: 15px;
+    padding-right: 15px;
+    top: auto;
+    margin-top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    @include md{
+        width: 100%;
+        max-width: 1280px;
+        left: 50%;
+    }
+    @include xl{
+        width: calc(100% - 30px);
+    }
+    .global-header{
+        width:100%;
+        display: flex;
+        align-items: start;
+        .global-search{
+            // border-bottom-left-radius: 0;
+            // border-bottom-right-radius: 0;
+            &.focusIn{
+                height: auto;
+            }
+            &::before{
+                content: "\e914";
+                font-family: 'icomoon' !important;
+                position: absolute;
+                top: 11px;
+                left: 15px;
+            }
+            input{
+                color:$brandblack;
+            }
+            
+        }
+        .search-box-input{
+            border:0;
+            background: transparent;
+            border-radius: 0;
+            border-bottom:1px solid $lightblack;
+            position: relative;
+            
+        }
+        .ow-container{
+            position: relative;
+            top:auto;
+            .result-item-wrapper{
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+             
+            }
+        }
+        
+    }
+    .close-search{
+        border-radius: 39px;
+        margin-left: 10px;
+        background-color: $white;
+        padding: 11px 17px;
+        color:$brandblack !important;
+        max-height: 43px;
+        font-family: $franklinMd !important;
+        @include font-size($md-font);
+        @include md{
+            padding: 11px 21px;
+            margin-left: 15px;
+        }
+        &:hover, &:focus{
+            color:$brandblack;
+        }
+    }
+}
+
+
+.search-overlay{
+    position: fixed;
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0, 0.5);
+    top: 0;
+    left: 0;
+}
+
+.ow-search-box{
+    max-width: 100%;
+    height:auto;
+    position:relative;
+    .ow-container{
+        .result-item-wrapper{
+            background-color: transparent;
+            color: $brandblack2;
+            box-shadow: none;
+            max-height: 390px;
+            padding: 5px 0;
+            .result-item{
+                border-bottom:1px solid $lightblack;
+                padding-bottom: 10px;
+                margin-top:15px;
+                &:last-child{
+                    padding-bottom: 0;
+                    border-bottom: 0;
+                }
+                h4{
+                    padding-left: 45px;
+                    color:$mediumblack;
+                }
+                li{
+                    padding:0 5px;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        padding:10px 0;
+                        background-color: transparent;
+                        border-radius: 4px;
+                        transition:.2s all;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        &::before{
+                            font-family: 'icomoon' !important;
+                            margin-right:15px;
+                            color: $border-grey;
+                        }
+                        &:hover,&:focus{
+                            background-color: $cta-gray;
+                            color:inherit;
+                        }
+                        span{
+                            color:$mediumblack!important;
+                        }
+                    }
+                    &.view-all{
+                        color:$brand;
+                    }
+                }
+                &.suggested-search{
+                    li{
+                        a{
+                            &::before{
+                                content: "\e914";
+                            }
+                        }
+                    }
+                }
+                &.suggested-result{
+                    li{
+                        a{
+                            &::before{
+                                content: "\e900";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .clear-text{
+        transform: none;
+        top: 10px;
+        height: 25px;
+        width: 25px;
+        background-color: $lightblack;
+        &::before,&::after{
+            left: 11px;
+            height: 13px;
+            width: 2px;
+            background-color: $brandblack;
+            top: 6px;
+           
+        }
+    }
+}
+
+.global-search{
+    background-color: $white;
+    border-radius: 8px;
+}
+
+.search-value{
+    color:$brand;
+}
+
+

@@ -1,0 +1,30 @@
+﻿---
+ID: "d9594985-f4e8-4070-a7ac-04f295661468"
+Parent: "3c9d2d93-7bd2-4c45-83ca-887d2dd3e93b"
+Template: "3139fad4-8e19-4ad1-90f6-c3e870f87dd8"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Testimonial Card Folder/Quote Cards Without Case Studies/Quote Card - Logo"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220705T094603Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: |
+        <img alt="" src="-/media/01613D3119AB49ED8D173FC4C6662358.ashx" />
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    - ID: "9f1229e5-182a-4e60-a721-4b04fe328b8b"
+      Hint: Caption
+      Value: |
+        John Smith<br />
+        Engineer, Koenigsegg
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="Read the whole story" anchor="" linktype="internal" class="" title=""  querystring="" id="{C64DB581-72F2-4417-842D-FDE4DFBE7AC7}" />

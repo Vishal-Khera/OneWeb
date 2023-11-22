@@ -1,0 +1,118 @@
+.language {
+  width: auto;
+  display: inline-block;
+  float: right;
+  padding-left: 8px;
+  position: relative;
+  z-index: 99; }
+  @media only screen and (min-width: 992px) {
+    .language {
+      border-left: 1px solid #000;
+      margin-left: 5px;
+      padding-left: 5px; } }
+  @media only screen and (min-width: 1200px) {
+    .language {
+      margin-left: 15px;
+      padding-left: 15px; } }
+  @media only screen and (min-width: 1200px) {
+    .language::after {
+      content: " \276F";
+      position: absolute;
+      right: 5px;
+      top: 0px;
+      transform: rotate(90deg);
+      z-index: -1;
+      font-weight: 100;
+      bottom: 0px;
+      margin: auto;
+      font-size: 14px; } }
+  @media only screen and (min-width: 1200px) and (min-width: 0) {
+    .language::after {
+      font-size: 14px; } }
+  @media only screen and (min-width: 1200px) and (min-width: 768px) {
+    .language::after {
+      font-size: 14px; } }
+  @media only screen and (min-width: 1200px) and (min-width: 992px) {
+    .language::after {
+      font-size: 14px; } }
+  .language .inactivestate {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    z-index: 2; }
+  .language .select-box {
+    position: relative;
+    display: inline-block;
+    font-size: 14px; }
+    @media screen and (min-width: 0) {
+      .language .select-box {
+        font-size: 14px; } }
+    @media screen and (min-width: 768px) {
+      .language .select-box {
+        font-size: 14px; } }
+    @media screen and (min-width: 992px) {
+      .language .select-box {
+        font-size: 14px; } }
+    .language .select-box .selector-options {
+      list-style: none;
+      padding: 0px 0;
+      margin: 0;
+      background: #fff;
+      z-index: 1;
+      width: 100%;
+      display: none;
+      position: absolute;
+      top: 23px;
+      min-width: 35px;
+      border-top: 1px #D9171D solid;
+      box-shadow: 0px 1px 4px #00000029; }
+      .language .select-box .selector-options li {
+        color: #000;
+        display: flex;
+        align-items: center;
+        margin: 0 5px;
+        padding: 10px 0px;
+        cursor: pointer;
+        background: #fff;
+        border-bottom: 1px solid #BEBEBE; }
+        .language .select-box .selector-options li:last-child {
+          border-bottom: none; }
+        .language .select-box .selector-options li:hover {
+          background-color: transparent; }
+      .language .select-box .selector-options .selected {
+        color: #D9171D !important; }
+  .language select {
+    width: auto;
+    border: 0;
+    background: transparent;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    color: #000;
+    font-family: 'HelveticaNeue-Medium'; }
+    @media only screen and (min-width: 1200px) {
+      .language select {
+        padding-right: 15px; } }
+    .language select:focus-visible {
+      outline: 2px solid #D9171D; }
+
+.without-after-element select {
+  padding-right: 0px;
+  font-family: unset; }
+
+.without-after-element::after {
+  display: none; }
+
+.language-active::after {
+  color: #D9171D;
+  transform: rotate(-90deg);
+  right: -2px; }
+
+.language-active .select-box ul {
+  display: block !important; }
+
+.language-active select option {
+  color: #000; }

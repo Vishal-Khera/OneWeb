@@ -1,0 +1,72 @@
+﻿---
+ID: "4a786fe1-c981-40f4-8781-deacb788fe39"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/SL08 Multiple Image Card
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{FD2C7E55-12EB-4B43-9831-78319043AABD}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{147C93E9-2BAF-4DC0-80DD-057772ABC1E2}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B9E0EAD1-5BAB-47A3-9682-1B077FDC5C2C}"
+          p:before="*"
+          s:ds="{60A92FF7-55B0-4B33-BAC1-88195F3EDA82}"
+          s:id="{6C9D7103-635B-4401-B924-5BD21F578191}"
+          s:par="GridParameters=%7BAE58AC63-220B-4C8D-A491-D5E8D025078E%7D&amp;Autoplay&amp;Autoplay Speed&amp;Show Arrows=1&amp;Show Dots=1&amp;Slides To Show=1&amp;Slides To Show Mobile=1&amp;Slides To Show Tab=1&amp;Custom Slider Class&amp;Carousel Desktop Disable&amp;Infinite Loop&amp;FieldNames=%7B0ADF3CBE-979E-41F6-BC5C-07D742B128C7%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4" />
+        <r
+          uid="{142F2E9B-275D-42AE-A133-64246BF7FE4B}"
+          p:after="r[@uid='{B9E0EAD1-5BAB-47A3-9682-1B077FDC5C2C}']"
+          s:ds=""
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3" />
+        <r
+          uid="{54AF0C9C-7BB4-4008-A512-A77DEB96E5D2}"
+          p:after="r[@uid='{142F2E9B-275D-42AE-A133-64246BF7FE4B}']"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3&amp;OwClass=component-text-with-carousal"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{31C5D248-3B0D-49AB-8F3B-09E937634B3B}"
+          p:after="r[@uid='{54AF0C9C-7BB4-4008-A512-A77DEB96E5D2}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-fluid-1" />
+        <r
+          uid="{7AD6DAA9-6A7D-41B5-BA9A-3DCEEA0642B5}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220629T120828Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Multiple Image Card
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Multiple Image card

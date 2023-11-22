@@ -1,0 +1,22 @@
+﻿---
+ID: "b435a61d-317a-4fbe-8636-27341e6e56b0"
+Parent: "80fc12b1-0bd3-4bd2-89eb-16e4f83b3a38"
+Template: "bb8a85ab-1f6d-4518-8772-1c9f4f8dac18"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/Creaform Client Logo List/Logo 9
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220711T101125Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ebe4fdef-16d5-4d19-833c-24a241628a3a"
+      Hint: Image
+      Value: |
+        <image mediaid="{718DE2E7-8866-4D98-895C-4C0891619932}" />

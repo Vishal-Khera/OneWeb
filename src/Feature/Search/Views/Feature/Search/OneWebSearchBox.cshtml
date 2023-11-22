@@ -1,0 +1,36 @@
+﻿@model OneWeb.Feature.Search.Models.SearchBoxRenderingModel
+@using OneWeb.Foundation.Serialization
+@using OneWeb.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields
+
+@{
+    var configId = string.Empty;
+    if (!string.IsNullOrWhiteSpace(Model.ConfigurationId))
+    {
+        configId = "ow-config-id=" + Model.ConfigurationId + "";
+    }
+    var autoSuggestId = string.Empty;
+    if (!string.IsNullOrWhiteSpace(Model.AutoSuggestConfigurationId))
+    {
+        autoSuggestId = "ow-as-config-id=" + Model.AutoSuggestConfigurationId + "";
+    }
+}
+
+	<div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "ow-search-box", Model.Attributes) @configId @autoSuggestId ow-as-count="@Model.AutoSuggestTriggerCount" ow-as-result-page="@Model.SearchResultPageUrl" ow-empty-text-message="@Model.EmptyTextMessage" ow-results-by-default="@Model.ShowResultsByDefault" ow-language="@Sitecore.Context.Language.CultureInfo.Name">
+	<div class="component-content">
+		@if (Model.DataSourceItem == null)
+		{
+			@Model.MessageIsEmpty
+		}
+		else
+		{
+			foreach (BaseVariantField variantField in Model.VariantFields)
+			{
+				@Html.RenderingVariants().RenderVariant(variantField, Model.Item, Model.RenderingWebEditingParams, Model)
+			}
+		}
+	</div>
+</div>

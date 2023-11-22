@@ -1,0 +1,14 @@
+﻿---
+ID: "e8f95b87-c589-40eb-aa01-e1f18f94a4af"
+Parent: "f35efc68-8b44-4261-8dae-3ed647631762"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Structure/Rendering Parameters/OneWeb Section Rendering Parameters/Page Navigation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220509T105044Z

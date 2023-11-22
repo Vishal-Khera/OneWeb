@@ -1,0 +1,49 @@
+﻿@using Sitecore.XA.Foundation.DynamicPlaceholders.Models
+@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@using Sitecore.XA.Foundation.Presentation.Services
+@using System.Globalization;
+
+
+
+@model OneWeb.Feature.PageStructure.Models.SlideWrapperRenderingModel
+
+
+
+@{
+    string carouselchk = String.Empty;
+    const string placeholderKeyPrefix = "ow-slide-wrapper";
+    var key = string.Format("{0}-{1}", placeholderKeyPrefix, Model.Id);
+    var style = string.Empty;
+    if (!string.IsNullOrWhiteSpace(Model.BackgroundColor))
+    {
+        style = string.Format("style='background-color: {0}'", Model.BackgroundColor);
+    }
+}
+
+
+
+@{
+    if (@Model.CarouselDesktopDisable == true)
+    {
+        carouselchk = "ow-disable-carousal-desktop";
+    }
+
+
+
+    var sliderClass = Model.SliderClass ?? "slider-wrapper";
+    if (Sitecore.Context.PageMode.IsExperienceEditorEditing || Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        sliderClass = string.Empty;
+    }
+}
+
+
+
+<div @Html.Sxa().Component(sliderClass + " " + carouselchk, Model.Attributes) @Html.Raw(style)
+     data-slides-to-show="@Model.SlidesToShowDesktop.ToString(CultureInfo.InvariantCulture)" data-slides-to-show-tab="@Model.SlidesToShowTab.ToString(CultureInfo.InvariantCulture)" data-slides-to-show-mob="@Model.SlidesToShowMobile.ToString(CultureInfo.InvariantCulture)"
+     data-arrow="@Model.ShowArrows" data-dots="@Model.ShowDots" data-autoplaySpeed="@Model.AutoplaySpeed" data-infinite="@Model.InfiniteLoop" data-autoplay="@Model.Autoplay">
+    @using (PlaceholderDatasourceContext.EnterContext(Model.Rendering.Item))
+    {@Html.Sitecore().Placeholder(key)}
+</div>

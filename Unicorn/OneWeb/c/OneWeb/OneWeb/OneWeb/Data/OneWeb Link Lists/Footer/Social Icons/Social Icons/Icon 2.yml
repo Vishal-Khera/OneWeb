@@ -1,0 +1,22 @@
+﻿---
+ID: "ed3cc82e-2661-4231-804f-3c1f6fd833ea"
+Parent: "4b9c5e2f-0004-4eca-bad1-16edaad22d14"
+Template: "fca1aaee-864c-4658-8fdb-75cdb4ca89be"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Link Lists/Footer/Social Icons/Social Icons/Icon 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211123T112314Z
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.linkedin.com/" anchor="" target="_blank" />
+    - ID: "c1ef176f-8343-4bbc-aa16-684ef202abf0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{985A48B9-6378-4C4D-811A-460EA80BE6B0}" ></image>

@@ -1,0 +1,32 @@
+﻿---
+ID: "bd7c89e2-ab7d-4cdb-96a0-e9ed5516d2fa"
+Parent: "7f22d586-b2ff-467f-a718-a2df53c9eafc"
+Template: "886adec1-abf8-40e1-9926-d9189c4e8e1b"
+Path: "/sitecore/Forms/OneWeb/OneWeb/OneWeb/RMA/Page/Section-Email/Email"
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: FF5DAAE543D04AECB67C3D5F997FFF2B
+- ID: "9f7da002-7b86-436b-8dda-7efe5837b88e"
+  Hint: Min Length
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "ecd17630-5f51-45db-b52f-b3dfaec4fa1b"
+  Hint: Store Binding Value
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20211202T123251:637740451715773818Z"

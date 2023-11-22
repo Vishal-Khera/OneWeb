@@ -1,0 +1,44 @@
+﻿---
+ID: "0e8fafcc-a20f-4b92-89c2-2c18f3d6d17e"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Home/OneWeb-Tabs"
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{7BFF9ACE-15D3-4F5F-90EF-AF311CAEFD4F}"
+          p:before="*"
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="/main" />
+        <r
+          uid="{B753490A-AB71-4B51-9785-FF3450E334FE}"
+          p:after="r[@uid='{7BFF9ACE-15D3-4F5F-90EF-AF311CAEFD4F}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-1" />
+        <r
+          uid="{2AEB9810-D275-47C2-AE36-687A2A090F9B}"
+          p:after="*[1=2]"
+          s:ds="{484AEB6E-77E6-4FF7-8C8C-8B91C2AB7CFC}"
+          s:id="{886B8CCC-816E-4D3A-BF05-4876B6C23686}"
+          s:par="GridParameters&amp;Styles&amp;TabControlBelowContent&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-1/ow-row-2" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20220124T141152:637786303127650141Z"

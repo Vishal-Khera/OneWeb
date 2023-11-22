@@ -1,0 +1,28 @@
+﻿---
+ID: "5ba38996-4f8c-450c-ab14-e0e2876ee156"
+Parent: "9eae8ecc-7718-476a-a81d-c8a9ad7c57d6"
+Template: "8bbddf0b-4426-4936-bc91-a3dfcc7db5e7"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards With Icon/Diversity and Inclusion
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{E6140BD7-3B3D-40C9-9A69-4AADA08BBC56}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220112T191245Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Diversity & Inclusion
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: We believe a diverse workforce and inclusive environment are critical to AMETEK’s success.
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="VIEW DETAILS" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

@@ -1,0 +1,17 @@
+﻿---
+ID: "bba071d5-abbe-4ef7-a2e8-31d94ac29014"
+Parent: "97cacbf3-bf5a-4fef-937b-833fd46fd833"
+Template: "f229fc5b-2172-404c-90dd-e1f0fe047cc7"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/OneWeb Support/Phone
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17500a11-fa62-46bd-a98f-b95f142766a9"
+      Hint: Title
+      Value: Phone
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211224T220754Z

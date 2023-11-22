@@ -1,0 +1,124 @@
+@import 'base/base-index.scss';
+
+.ow-accordion {
+    .items {
+        margin: 0px;
+        padding: 5px;
+        list-style-type: none;
+
+        .item {
+            background-color: $white;
+            margin-bottom: 15px;
+            box-shadow: 0px 3px 6px #00000029;
+
+            .toggle-header {
+                padding: 5px 15px;
+                background: $white;
+                border-bottom: unset;
+                &:focus-visible{
+                    outline: 2px solid $primary
+                }
+
+                .field-heading {
+                    @include font-size($mxl-font);
+                    font-family: 'HelveticaNeue-Bold';
+                    padding: 5px 20px 5px 0px;
+
+                    cursor: pointer;
+                    position: relative;
+                    color: $black;
+                    a{
+                        color:inherit;
+                    }
+                    @include lg {
+                        @include font-size($lg-font);
+                    }
+
+                    &::before {
+                        content: '' !important;
+                    }
+
+                    &::after {
+                        content: "\276F";
+                        right: 15px;
+                        position: absolute;
+                        transform: rotate(90deg) translateY(-50%);
+                        top: 5px;
+                    }
+                }
+            }
+
+            &.active {
+                background: $white-gray;
+                box-shadow: unset;
+
+                .toggle-header {
+                    background: unset;
+                    box-shadow: unset;
+                    border-bottom: unset;
+                    border-bottom-color: unset;
+                    border-bottom-width: unset;
+
+                    .field-heading {
+                        background: unset;
+                        box-shadow: unset;
+                        border-bottom: 1px solid $border-gray-white;
+
+                        &::after {
+                            right: -10px;
+                            transform: rotate(270deg) translateY(-50%);
+                            color: $primary;
+                        }
+                    }
+                }
+
+                .toggle-content {
+                    padding-top: 0px;
+                }
+            }
+
+            .toggle-content {
+                padding: 22px;
+
+                .description {
+                    @include font-size($md-font);
+                    font-family: 'HelveticaNeue-Light';
+                    line-height: 22px;
+                    margin-bottom: 15px;
+                }
+
+                .accordion-btn-wrapper {
+                    margin-top: 10px;
+
+                    .primary-link,
+                    .secondary-link {
+                        float: none;
+                        width: 100%;
+
+                        .btn-accordion {
+                            background: $dark-gray;
+                            font-family: 'HelveticaNeue-Medium';
+                            color: $white;
+                            padding: 10px 20px;
+                            text-transform: uppercase;
+                            @include border-radius(0%);
+                            transition: .3s all;
+                            margin-right: 15px;
+                            margin-bottom: 10px;
+                            float: none;
+
+                            &:hover {
+                                background: $dark-gray;
+                                color: $white;
+                            }
+                        }
+
+                        &:last-child {
+                            margin-bottom: unset;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

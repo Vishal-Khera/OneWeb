@@ -1,0 +1,18 @@
+﻿---
+ID: "d6804a01-075d-4810-a19a-23ec94b9f981"
+Parent: "bbd1c60d-ff18-4e95-8b34-427999b82527"
+Template: "bbd1c60d-ff18-4e95-8b34-427999b82527"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Sales Tab Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220525T101118Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,68 @@
+﻿---
+ID: "292e6874-aa3f-41fe-8c0d-d7b4dcf88d86"
+Parent: "a3eade10-4862-474f-a754-aeb5aeac7b56"
+Template: "1bb3f432-c3b2-44b4-ba39-1a38e5fd2a80"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Accordions/Test Accordion/Accordion Item 1
+DB: master
+BranchID: "1682bf57-eaec-4570-b782-f0622f3450e6"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}" />
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{9CFEF8DB-6AF1-491E-B435-5B39B2D47D43}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D13828BA-0672-460E-89A2-FCBB5B18F1FA}"
+              p:before="*"
+              s:ds="/sitecore/content/OneWeb/OneWeb/OneWeb/Data/Accordions/Test Accordion/Accordion Item 1"
+              s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+              s:par="FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+              s:ph="section-title" />
+            <r
+              uid="{6936C088-A83C-4E65-ACCA-EB14E81D4559}"
+              p:after="*[1=2]"
+              s:ds="/sitecore/content/OneWeb/OneWeb/OneWeb/Data/Accordions/Test Accordion/Accordion Item 1"
+              s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+              s:par="FieldNames=%7BEDC5AC02-A10C-4179-B036-4B08F68A5322%7D&amp;Styles&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D"
+              s:ph="section-content" />
+          </d>
+        </r>
+    - ID: "1666f2e1-fec0-4c0d-8013-f4e9a5e00a32"
+      Hint: SecondaryLink
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T074445Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Tuition Reimbursement
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: AMETEK offers tuition reimbursement up to a specified value per semester for employees pursuing an advanced degree or certification that will enhance their performance their role at the organization. Employees' reimbursement is directly correlated to performance in the designated classes or certification programs.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: 

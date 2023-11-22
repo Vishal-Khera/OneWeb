@@ -1,0 +1,55 @@
+﻿---
+ID: "7c42aa4d-5b71-4f65-9f3b-a68055422a2b"
+Parent: "4f3b1d55-8c5e-422a-b99c-f0fa7986da4e"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card With Icon/Simple Card/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if i_item}}
+    {{link_classes = ow_get_linkClass i_item 'PrimaryLink' "card-item"}}
+    {{card_link = ow_link_model i_item 'PrimaryLink'
+    	if(card_link.url|string.size < 0)
+    		card_link.url= "#"
+    	end}}
+    <a href="{{card_link.url}}" class='{{link_classes}}' target='{{card_link.target}}' anchor='{{card_link.anchor}}'>
+      <div class="tile-slide">
+      
+    	 <div class="tile-bg-img">
+    	 {{if i_item.Image != ""}}
+    		{{sc_field i_item "Image" [["class", "d-lg-block d-none"]]}}
+    	{{end}}
+    	{{if i_item.MobileImage != ""}}
+    	{{sc_field i_item "MobileImage" [["class", "d-lg-none"]]}}
+    	{{end}}
+    	 </div>
+    	 
+      </div>
+     <div class="card-overlay">
+    	<div class="card-overlay-text">
+    	{{if i_item.Icon != ""}}
+    	   <div class="tile-icon">{{sc_field i_item "Icon"}}</div>
+    	   {{end}}
+    	   {{if i_item.title | string.size > 0}}
+    	   <h4>{{sc_field i_item "Title"}}</h4>
+    	   {{end}}
+    	   {{if i_item.content | string.size > 0}}
+    	   <div class="description">{{sc_field i_item "Content"}}</div>
+    	   {{end}}
+    	   {{if card_link.text | string.size > 0}}
+    	   <div class="btn btn-primary">{{card_link.text}}</div>
+    	   {{end}}
+    	</div>
+      </div>
+    </a>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220211T161302Z

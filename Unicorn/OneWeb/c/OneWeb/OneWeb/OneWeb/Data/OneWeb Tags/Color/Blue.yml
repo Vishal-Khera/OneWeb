@@ -1,0 +1,17 @@
+﻿---
+ID: "9074e4f1-be8a-4481-8289-ee2ec02734db"
+Parent: "e3366f7b-53a8-4942-830f-6bef1c1a84f1"
+Template: "203c7e2d-0b1e-452a-9131-0571054d9633"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Tags/Color/Blue
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T125358Z
+    - ID: "b8a6200e-1384-441a-be51-bf534bc99511"
+      Hint: Color
+      Value: #004494

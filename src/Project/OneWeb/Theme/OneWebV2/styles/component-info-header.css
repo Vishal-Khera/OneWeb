@@ -1,0 +1,52 @@
+.info-header .row {
+  align-items: inherit; }
+
+.info-header .text-wrapper h2 {
+  font-size: 26px; }
+  @media screen and (min-width: 0) {
+    .info-header .text-wrapper h2 {
+      font-size: 26px; } }
+  @media screen and (min-width: 768px) {
+    .info-header .text-wrapper h2 {
+      font-size: 40px; } }
+  @media screen and (min-width: 992px) {
+    .info-header .text-wrapper h2 {
+      font-size: 40px; } }
+
+.info-header .paragraph-wrapper p {
+  font-size: 16px; }
+  @media screen and (min-width: 0) {
+    .info-header .paragraph-wrapper p {
+      font-size: 16px; } }
+  @media screen and (min-width: 768px) {
+    .info-header .paragraph-wrapper p {
+      font-size: 16px; } }
+  @media screen and (min-width: 992px) {
+    .info-header .paragraph-wrapper p {
+      font-size: 18px; } }
+
+.info-header .button-row {
+  margin-top: 20px; }
+
+.info-header .text-heading h2 {
+  font-size: 18px;
+  font-family: "FranklinGothicLTPro-Md" !important;
+  margin-bottom: 20px; }
+  @media screen and (min-width: 0) {
+    .info-header .text-heading h2 {
+      font-size: 18px; } }
+  @media screen and (min-width: 768px) {
+    .info-header .text-heading h2 {
+      font-size: 18px; } }
+  @media screen and (min-width: 992px) {
+    .info-header .text-heading h2 {
+      font-size: 21px; } }
+
+.info-header .blue-theme .text-heading {
+  color: #F7F7F7; }
+
+.info-header .blue-theme .paragraph-wrapper {
+  color: rgba(240, 240, 240, 0.7); }
+
+.info-header .blue-theme .text-wrapper h2 {
+  color: #F7F7F7; }

@@ -1,0 +1,36 @@
+@import "base/base-index.scss";
+.ow-card-grid {
+    width: 100%;  
+    .static-feature-promo {
+      margin-bottom: 30px;
+      .feature-icon {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 150px;
+          height: 150px;
+          
+
+        }
+      }
+
+      .feature-info-wrap {
+        margin-top: 22px;
+        .description {
+          font-family: "HelveticaNeue-Light";
+          @include font-size($md-font);
+          line-height: 24px;
+          text-align: center;
+          color: $dark-gray;
+
+          @include lg {
+            @include font-size($mxl-font);
+          }
+        }
+      }
+    }
+  }
+

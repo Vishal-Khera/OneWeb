@@ -1,0 +1,68 @@
+﻿---
+ID: "49753311-f4c3-4fd8-912c-96e8c7464b1a"
+Parent: "37e052b9-cf83-4bc5-a0f1-f63e5c9931f2"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/Advanced Industry Filter/Template
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="filter-facet-head" ow-key="[[PrimaryFacet.Key]]" ow-secondary-key="[[SecondaryFacet.Key]]">
+    [[PrimaryFacet.Name]]
+    </div>
+    <div class="filter-facet-items"> 
+        [[#each Values]] 
+        <div class="filter-item" style="display:block"> [[#if (isdefined this.Primary.Value)]] 
+            <input id="[[this.Primary.Value]]" type="checkbox" /> 
+            [[#if (notEquals this.Primary.Count 0)]] 
+            <label for="[[this.Primary.Value]]">
+                [[this.Primary.Name]] ([[this.Primary.Count]]) 
+            </label> 
+            [[else]] 
+            <label for="[[this.Primary.Value]]"> [[this.Primary.Name]]</label> 
+            [[/if]]
+            [[else]] 
+            <input id="[[this.Primary.Name]]" type="checkbox" /> 
+            [[#if (notEquals this.Primary.Count 0)]] <label
+                for="[[this.Primary.Name]]"> [[this.Primary.Name]] ([[this.Primary.Count]]) </label> [[else]] <label for="[[this.Primary.Name]]">
+                [[this.Primary.Name]] ([[this.Primary.Count]]) </label> [[/if]] [[/if]] 
+    
+            [[#if (notEquals this.Secondary.length 0)]]
+            <div class="filter-facet-items filter-facet-items-secondary pl-5"> 
+                [[#each this.Secondary]] 
+                <div class="filter-item"> [[#if (isdefined this.Value)]] 
+                    <input id="[[this.Value]]" type="checkbox" class="sub-item" /> 
+                    [[#if (notEquals this.Count 0)]] 
+                    <label for="[[this.Value]]">
+                        [[this.Name]] ([[this.Count]]) 
+                    </label> 
+                    [[else]] 
+                    <label for="[[this.Value]]"> [[this.Name]]</label> 
+                    [[/if]]
+                    [[else]] 
+                    <input id="[[this.Name]]" type="checkbox" class="sub-item"/> 
+                    [[#if (notEquals this.Count 0)]] <label
+                        for="[[this.Name]]"> [[this.Name]] ([[this.Count]]) </label> [[else]] <label for="[[this.Name]]">
+                        [[this.Name]] ([[this.Count]]) </label> [[/if]] [[/if]] </div>[[/each]]</div>
+            [[/if]]
+            </div>[[/each]]</div>
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T182542Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

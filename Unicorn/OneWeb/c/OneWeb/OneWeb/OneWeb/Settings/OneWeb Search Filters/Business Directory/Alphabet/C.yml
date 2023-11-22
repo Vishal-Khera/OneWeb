@@ -1,0 +1,20 @@
+﻿---
+ID: "1830d23c-0dd1-48f3-8332-b7b64bd59606"
+Parent: "53306818-9dc2-43a4-9035-193139c4d153"
+Template: "28568722-df29-4804-aa5f-113516696fda"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/OneWeb Search Filters/Business Directory/Alphabet/C
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211209T203243Z
+    - ID: "a538c868-28b8-4dee-a664-e56ca2594f8a"
+      Hint: Name
+      Value: C
+    - ID: "c3479ced-0a97-4180-b6f3-a95501084747"
+      Hint: Value
+      Value: C

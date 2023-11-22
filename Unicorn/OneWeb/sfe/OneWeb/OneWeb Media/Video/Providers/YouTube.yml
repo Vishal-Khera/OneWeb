@@ -1,0 +1,264 @@
+﻿---
+ID: "d5e064af-d3b1-4a2a-af12-225a29f22731"
+Parent: "348a715c-3509-4455-be2d-5f019b4582ca"
+Template: "beef29e6-1876-4917-bbc0-35533f716f0b"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Media/Video/Providers/YouTube
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2A918814-9A5B-46A5-A3DA-209B36A15D2F}"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T074738Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: YouTube
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}='https://www.youtube.com/embed/{{id}}?mute={{muted}}&autoplay={{autoplay}}&playlist={{id}}&loop={{loop}}' {{attributes}}></iframe>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T114605Z
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: YouTube
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}='https://www.youtube.com/embed/{{id}}?mute={{muted}}&autoplay={{autoplay}}&playlist={{id}}&loop={{loop}}' {{attributes}}></iframe>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: "en-GB"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T074832Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: YouTube
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}='https://www.youtube.com/embed/{{id}}?mute={{muted}}&autoplay={{autoplay}}&playlist={{id}}&loop={{loop}}' {{attributes}}></iframe>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+- Language: "en-IN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T074647Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: YouTube
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}='https://www.youtube.com/embed/{{id}}?mute={{muted}}&autoplay={{autoplay}}&playlist={{id}}&loop={{loop}}' {{attributes}}></iframe>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T074931Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: YouTube
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}='https://www.youtube.com/embed/{{id}}?mute={{muted}}&autoplay={{autoplay}}&playlist={{id}}&loop={{loop}}' {{attributes}}></iframe>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+- Language: "it-IT"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T074848Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: YouTube
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}='https://www.youtube.com/embed/{{id}}?mute={{muted}}&autoplay={{autoplay}}&playlist={{id}}&loop={{loop}}' {{attributes}}></iframe>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T074814Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: YouTube
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}='https://www.youtube.com/embed/{{id}}?mute={{muted}}&autoplay={{autoplay}}&playlist={{id}}&loop={{loop}}' {{attributes}}></iframe>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+- Language: "ko-KR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T074720Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: YouTube
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}='https://www.youtube.com/embed/{{id}}?mute={{muted}}&autoplay={{autoplay}}&playlist={{id}}&loop={{loop}}' {{attributes}}></iframe>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+- Language: "pt-BR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T074757Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{4785714C-2C4A-4784-955B-D638CB42E994}"
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: YouTube
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}='https://www.youtube.com/embed/{{id}}?mute={{muted}}&autoplay={{autoplay}}&playlist={{id}}&loop={{loop}}' {{attributes}}></iframe>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+- Language: "th-TH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T074704Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{4785714C-2C4A-4784-955B-D638CB42E994}"
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: YouTube
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}='https://www.youtube.com/embed/{{id}}?mute={{muted}}&autoplay={{autoplay}}&playlist={{id}}&loop={{loop}}' {{attributes}}></iframe>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T074908Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: YouTube
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}='https://www.youtube.com/embed/{{id}}?mute={{muted}}&autoplay={{autoplay}}&playlist={{id}}&loop={{loop}}' {{attributes}}></iframe>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal
+- Language: "zh-TW"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T074952Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: YouTube
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}='https://www.youtube.com/embed/{{id}}?mute={{muted}}&autoplay={{autoplay}}&playlist={{id}}&loop={{loop}}' {{attributes}}></iframe>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\subham.agrawal

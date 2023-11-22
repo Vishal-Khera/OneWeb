@@ -1,0 +1,46 @@
+﻿---
+ID: "b6d20f57-797f-4050-845e-70f021a8cd8d"
+Parent: "6f68d191-a305-44f1-96b0-47c4c43dd684"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Users Table/Pagination/Template
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <li class="page-item">
+    	<a class="page-link" onClick="paginationSearch([[BackPage]])" href="javascript:void(0)" aria-label="Previous">
+    	  <span aria-hidden="true"><</span>
+    	  <span class="sr-only">Previous</span>
+    	</a>	
+    	</li>
+    	[[#each Pages]]
+    	[[#if (equals this ../CurrentPage)]]
+    	<li class="page-item active"><a class="page-link" onClick="paginationSearch([[this]])" href="javascript:void(0)">[[this]]</a></li>
+    	[[else]]
+    	<li class="page-item"><a class="page-link" onClick="paginationSearch([[this]])" href="javascript:void(0)">[[this]]</a></li>
+    	[[/if]]
+    	[[/each]]
+    	[[#if (equals TotalPageCount CurrentPage)]]
+    	<li class="page-item active"><a class="page-link"   onClick="paginationSearch([[TotalPageCount]])"  href="javascript:void(0)">[[TotalPageCount]]</a></li>
+    	[[else]]
+    	<li class="page-item "><a class="page-link"   onClick="paginationSearch([[TotalPageCount]])"  href="javascript:void(0)">[[TotalPageCount]]</a></li>
+    	[[/if]]
+      <li class="page-item">
+    	<a class="page-link" onClick="paginationSearch([[NextPage]])" href="javascript:void(0)"  aria-label="Next">
+    	  <span aria-hidden="true">></span>
+    	  <span class="sr-only">Next</span>
+    	</a>
+      </li>
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220316T145258Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "905e8f7d-9e27-408f-a922-1c199606d548"
+Parent: "8cdb02ae-4106-4fc3-9627-8a8e6d01de5d"
+Template: "46dddc28-552f-4906-a7af-bcdb525a51f4"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Comparison Cards
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220805T183228Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

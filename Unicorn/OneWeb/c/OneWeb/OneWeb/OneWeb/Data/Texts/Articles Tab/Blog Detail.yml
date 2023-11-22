@@ -1,0 +1,21 @@
+﻿---
+ID: "70366c04-8dd7-45f2-a08c-ef09f7960649"
+Parent: "25ac709d-87e5-4eab-9673-46a3126655ef"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Texts/Articles Tab/Blog Detail
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220826T112528Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: <br />Article written by Creaform <br /> Published September 27,2021

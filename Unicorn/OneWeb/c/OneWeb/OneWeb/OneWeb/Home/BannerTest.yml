@@ -1,0 +1,81 @@
+﻿---
+ID: "1b4a33b6-b0cb-492e-a615-bded7d4caddb"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/BannerTest
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{367D2B7A-CDCE-49F1-9EB4-F7388E9B0EDB}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{776D0CCD-3852-4370-A700-C353831B3119}"
+          p:before="*"
+          s:ds="{5C629EC9-E7F7-4C00-91D9-762BE706E722}"
+          s:id="{04370F62-63D8-4AB4-A238-60EE1A3C60A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Video Banner Variant&amp;FieldNames=%7BC8A4DBA8-E860-455C-8FDF-B9A1E82E9147%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-fluid-1/ow-slide-wrapper-2" />
+        <r
+          uid="{8EE1C06E-0720-4E06-A1D6-503417E63534}"
+          p:after="r[@uid='{776D0CCD-3852-4370-A700-C353831B3119}']"
+          s:ds=""
+          s:id="{FABD6B1B-311F-4A98-BBE3-58C84DCE4EC1}"
+          s:par="Autoplay&amp;Autoplay Speed&amp;Show Arrows&amp;Show Dots&amp;Slides To Show&amp;Slides To Show Mobile=1.2&amp;Slides To Show Tab=2.2&amp;Custom Slider Class&amp;Carousel Desktop Disable&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-fluid-1" />
+        <r
+          uid="{2BA63DF4-FB0C-46E7-9042-955223CF026C}"
+          p:after="r[@uid='{8EE1C06E-0720-4E06-A1D6-503417E63534}']"
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+        <r
+          uid="{87F1FD5E-BA99-48B5-A3D0-3D734372E380}"
+          p:after="r[@uid='{2BA63DF4-FB0C-46E7-9042-955223CF026C}']"
+          s:ds="{5C629EC9-E7F7-4C00-91D9-762BE706E722}"
+          s:id="{04370F62-63D8-4AB4-A238-60EE1A3C60A6}"
+          s:par="GridParameters&amp;Video Banner Variant&amp;FieldNames=%7BC8A4DBA8-E860-455C-8FDF-B9A1E82E9147%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/ow-container-fluid-1/ow-slide-wrapper-2" />
+        <r
+          uid="{FF22DEC1-BE9F-4757-82A8-A5812040C118}"
+          p:after="r[@uid='{87F1FD5E-BA99-48B5-A3D0-3D734372E380}']"
+          s:ds="{5C629EC9-E7F7-4C00-91D9-762BE706E722}"
+          s:id="{04370F62-63D8-4AB4-A238-60EE1A3C60A6}"
+          s:par="GridParameters&amp;Video Banner Variant&amp;FieldNames=%7BC8A4DBA8-E860-455C-8FDF-B9A1E82E9147%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-fluid-1/ow-slide-wrapper-2" />
+        <r
+          uid="{8F9D8E0C-94B5-4407-96DE-96D492205BFA}"
+          p:after="r[@uid='{FF22DEC1-BE9F-4757-82A8-A5812040C118}']"
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="main" />
+        <r
+          uid="{B785DE6F-6448-47D1-A61B-0099B06B9ABE}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{85171655-A148-4E54-B3A9-187EAD9576CD}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/ow-container-fluid-1/ow-slide-wrapper-2/ow-banner/ow-banner-content" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T073738Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: BannerTest
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: BannerTest

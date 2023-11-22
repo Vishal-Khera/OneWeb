@@ -1,0 +1,35 @@
+﻿---
+ID: "3881ee2c-1d93-4333-aacc-2246342d02cb"
+Parent: "418b3266-d2c1-4bf8-a2a3-2747bb084775"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWebV2/styles/component-marquee"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/3881EE2C1D934333AACC2246342D02CB.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "e217526b-5bb2-4478-92f8-ecbdc119d571"
+  Value: Lm93LWltYWdlLWdhbGxlcnkgewogIHdpZHRoOiAxMDAlOyB9CgoubWFycXVlZSB7CiAgaGVpZ2h0OiBhdXRvOwogIG1heC1oZWlnaHQ6IDgwcHg7CiAgb3ZlcmZsb3c6IGhpZGRlbjsKICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgd2lkdGg6IDEwMCU7IH0KICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDEyMDBweCkgewogICAgLm1hcnF1ZWUgewogICAgICBtYXgtd2lkdGg6IGNhbGMoMTAwdncgLSAyMXB4KTsgfSB9CiAgLm1hcnF1ZWUgLm1hcnF1ZWUtY29udGVudCB7CiAgICBsaXN0LXN0eWxlOiBub25lOwogICAgaGVpZ2h0OiAxMDAlOwogICAgZGlzcGxheTogZmxleDsgfQogICAgLm1hcnF1ZWUgLm1hcnF1ZWUtY29udGVudCBsaSB7CiAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwogICAgICBhbGlnbi1pdGVtczogY2VudGVyOwogICAgICBmbGV4LXNocmluazogMDsKICAgICAgbWF4LWhlaWdodDogNjBweDsKICAgICAgd2hpdGUtc3BhY2U6IG5vd3JhcDsKICAgICAgcGFkZGluZzogMCA0MHB4OwogICAgICBtYXJnaW4tdG9wOiAyMHB4OwogICAgICBtYXJnaW4tYm90dG9tOiAyMHB4OyB9CiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNTc2cHgpIHsKICAgICAgICAubWFycXVlZSAubWFycXVlZS1jb250ZW50IGxpIHsKICAgICAgICAgIHBhZGRpbmc6IDAgNjBweDsgfSB9CiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzY4cHgpIHsKICAgICAgICAubWFycXVlZSAubWFycXVlZS1jb250ZW50IGxpIHsKICAgICAgICAgIHBhZGRpbmc6IDAgMzBweDsgfSB9CiAgICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTkycHgpIHsKICAgICAgICAubWFycXVlZSAubWFycXVlZS1jb250ZW50IGxpIHsKICAgICAgICAgIHBhZGRpbmc6IDAgMjBweDsgfSB9CiAgICAgIC5tYXJxdWVlIC5tYXJxdWVlLWNvbnRlbnQgbGkgaW1nIHsKICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICBtYXgtaGVpZ2h0OiA2MHB4OyB9Cg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1051
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220916T191710Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

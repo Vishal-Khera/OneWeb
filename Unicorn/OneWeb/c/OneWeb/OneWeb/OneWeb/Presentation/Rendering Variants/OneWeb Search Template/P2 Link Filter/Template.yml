@@ -1,0 +1,36 @@
+﻿---
+ID: "67f401ea-2744-4e9d-8452-41b4a78d7d80"
+Parent: "9ffe037a-1bce-4c31-aeb2-861cc3897eb8"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/P2 Link Filter/Template
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <ul class="filter-facet-items">
+        [[#each Values]]
+        <li class="filter-item">
+            <a href="javascript:void(0);" id="[[this.Name]]" > [[this.Name]] <span> [[this.Count]]</span> </a>
+        </li>
+        [[/each]]
+    </ul>
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T182542Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,25 @@
+﻿---
+ID: "662652f6-0e82-47ef-8bf7-d3117ef6a898"
+Parent: "8cdb02ae-4106-4fc3-9627-8a8e6d01de5d"
+Template: "5fde0448-750e-46e4-8131-6ece094f3ddb"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Events Folder
+DB: master
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220115T170935Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220115T170935Z

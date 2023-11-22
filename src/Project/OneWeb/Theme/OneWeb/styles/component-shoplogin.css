@@ -1,0 +1,46 @@
+.ow-user-login .promo {
+  display: inherit;
+  padding: 0px; }
+  .ow-user-login .promo .btn {
+    padding: 3px 8px;
+    font-size: 10px;
+    font-family: "Helvetica Neue";
+    text-decoration: unset; }
+    @media screen and (min-width: 0) {
+      .ow-user-login .promo .btn {
+        font-size: 10px; } }
+    @media screen and (min-width: 768px) {
+      .ow-user-login .promo .btn {
+        font-size: 10px; } }
+    @media screen and (min-width: 992px) {
+      .ow-user-login .promo .btn {
+        font-size: 10px; } }
+    @media only screen and (min-width: 992px) {
+      .ow-user-login .promo .btn {
+        font-size: 14px;
+        padding: 5px 10px;
+        width: 100%;
+        height: 36px; } }
+  @media only screen and (min-width: 992px) and (min-width: 0) {
+    .ow-user-login .promo .btn {
+      font-size: 14px; } }
+  @media only screen and (min-width: 992px) and (min-width: 768px) {
+    .ow-user-login .promo .btn {
+      font-size: 14px; } }
+  @media only screen and (min-width: 992px) and (min-width: 992px) {
+    .ow-user-login .promo .btn {
+      font-size: 14px; } }
+    .ow-user-login .promo .btn img {
+      padding-right: 5px;
+      position: relative;
+      top: -4px;
+      width: 15px;
+      height: 15px; }
+      @media only screen and (min-width: 992px) {
+        .ow-user-login .promo .btn img {
+          width: 19px;
+          height: 15px; } }
+  .ow-user-login .promo .btn-primary:hover {
+    background: #D9171D !important;
+    color: #fff;
+    border: 2px solid #D9171D !important; }

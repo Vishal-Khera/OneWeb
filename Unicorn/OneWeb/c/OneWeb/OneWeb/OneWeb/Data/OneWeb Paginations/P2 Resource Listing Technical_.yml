@@ -1,0 +1,30 @@
+﻿---
+ID: "1f70f84a-3675-4f52-a7c5-53b970984f4e"
+Parent: "1c36e828-1561-4030-8169-55d34bb5816c"
+Template: "c27a0481-ae52-4f81-bdd7-542533ecd27f"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Paginations/P2 Resource Listing Technical Document Cards
+DB: master
+SharedFields:
+- ID: "8d27e02e-6a04-49e6-bda2-cbe522167a75"
+  Hint: Configuration
+  Value: "{775A8377-51F6-4CD2-AAC7-D0EA47E9FD90}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220811T225228Z
+    - ID: "931e1d7d-808f-4f73-b642-959d05dc1c3e"
+      Hint: Previous Text
+      Value: Previous
+    - ID: "bc203e7d-5e05-4b33-80cf-4f21c2835fb1"
+      Hint: Displayed Pages
+      Value: 3
+    - ID: "de92d5ed-3b81-4ef3-8d23-141f674bee08"
+      Hint: Next Text
+      Value: Next
+    - ID: "f403138d-041e-41e1-ad91-427a152d934d"
+      Hint: Visible Edges
+      Value: 2

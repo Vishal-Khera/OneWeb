@@ -1,0 +1,71 @@
+﻿---
+ID: "1d639517-cf35-4410-8351-6094fb9e3e1a"
+Parent: "d8179882-f7f5-47f6-92ea-5f1a54afa214"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card/Horizontal Content Card/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+        <div class="ow-businesscard-container">
+    
+     
+        {{if(i_item.image != "") }}
+    	 <div class="ow-business-image">
+        <img class="ow-lazy" data-src = "{{ i_item.Image.media_url }}"  alt="{{i_item.Image.alt.raw}}" title="{{ i_item.Image.title.raw}}" />
+    	</div>
+    	{{end}}
+      
+      
+         {{-if i_item.title !=""-}}
+    	 <div class="ow-contentcard-heading">
+            <h4>{{-i_item.title-}}</h4>
+    	</div>	
+    	{{-end-}}
+      
+      
+         {{-if i_item.content !=""-}}
+      <div class="ow-business-contentv2">
+         {{-i_item.content-}}
+    	 {{-end-}} 
+    	 
+    	 
+    	   <div class="button-wrapper">
+            {{primary_link_classes = " "}}
+    {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    if( primary_filtered_classes)
+    	if(primary_filtered_classes.class | string.size) > 0
+    		primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    	end
+    end}}
+    
+    {{secondary_link_classes = " "}}
+    {{ secondary_filtered_classes = ow_link_model i_item 'SecondaryLink'
+    if( secondary_filtered_classes)
+    	if(secondary_filtered_classes.class | string.size) > 0
+    		secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+    	end
+    end}}
+    	{{sc_field i_item 'PrimaryLink'[['text', (i_item.PrimaryLink.text)], ['class', (primary_link_classes)]]}}
+    	{{sc_field i_item 'SecondaryLink'[['text', (i_item.SecondaryLink.text)], ['class', (secondary_link_classes)]]}}   
+          </div>
+    	</div> 
+     
+      </div>
+    
+    
+    
+        
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220511T133313Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

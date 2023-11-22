@@ -1,0 +1,25 @@
+﻿---
+ID: "92d79c1d-9469-4d0b-97ff-5db087f016ef"
+Parent: "2cdbc089-17d4-4ba4-85e1-855a8a7a3ccb"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Users Table/Bottom Pagination/Template
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     <li ><a class="page-link" href="javascript:void(0)">[[StartData]]</a></li>{{sc_translate "OneWeb-user-To"}}
+            <li ><a class="page-link" href="javascript:void(0)">[[EndData]]</a></li>  {{sc_translate "OneWeb-user-Of"}}
+        <li ><a class="page-link" href="javascript:void(0)">[[TotalResult]]</a></li>
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220530T091016Z

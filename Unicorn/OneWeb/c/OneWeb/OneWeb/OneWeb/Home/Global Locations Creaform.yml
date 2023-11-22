@@ -1,0 +1,81 @@
+﻿---
+ID: "31c88bd8-cad8-42d1-acde-d5a726da92bf"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/Global Locations Creaform
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{42E7F7C4-FDFF-4091-AD02-03B11EABB095}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{0B1F40D0-F082-474A-888E-E313DB40AC95}"
+          p:before="*"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/ow-container-fluid-13/ow-row-14" />
+        <r
+          uid="{88146B3B-89C6-4346-A306-CFC60DBE1C77}"
+          p:after="r[@uid='{0B1F40D0-F082-474A-888E-E313DB40AC95}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/ow-container-fluid-13" />
+        <r
+          uid="{4ED115B5-9071-4A66-869F-C81AB53DCDA6}"
+          p:after="r[@uid='{88146B3B-89C6-4346-A306-CFC60DBE1C77}']"
+          s:ds=""
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles=%7B664BA34C-4CA1-4F5C-929D-A4B73F619080%7D&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="main" />
+        <r
+          uid="{167B2F69-EE87-43C3-9F3D-ED8F8BF80180}"
+          p:after="r[@uid='{4ED115B5-9071-4A66-869F-C81AB53DCDA6}']"
+          s:ds=""
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/ow-container-fluid-13/ow-row-14/ow-container-9" />
+        <r
+          uid="{166C7218-31F5-4C2E-99E6-4E7026F438F4}"
+          p:after="r[@uid='{167B2F69-EE87-43C3-9F3D-ED8F8BF80180}']"
+          s:ds="{C54AF517-E2CB-4524-A153-08E889935849}"
+          s:id="{56AC16AF-8373-429A-847A-89D7BB67B0BE}"
+          s:par="GridParameters=%7B7997F0A0-7A5C-4A45-BB07-8E7150B735BA%7D&amp;FieldNames=%7B52659B03-E017-4855-85AB-B851A7983A90%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/ow-container-fluid-13/ow-row-14/ow-container-9/ow-row-10" />
+        <r
+          uid="{18679844-FDB6-42CC-A8BF-5EBACF85CB30}"
+          p:after="r[@uid='{166C7218-31F5-4C2E-99E6-4E7026F438F4}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/ow-container-fluid-13/ow-row-14/ow-container-9" />
+        <r
+          uid="{FE59A25B-1145-4C51-96B0-ACE750652D62}"
+          p:after="*[1=2]"
+          s:ds="{C54AF517-E2CB-4524-A153-08E889935849}"
+          s:id="{56AC16AF-8373-429A-847A-89D7BB67B0BE}"
+          s:par="GridParameters=%7B7997F0A0-7A5C-4A45-BB07-8E7150B735BA%7D&amp;FieldNames=%7B52659B03-E017-4855-85AB-B851A7983A90%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/ow-container-fluid-13/ow-row-14/ow-container-9/ow-row-11" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220803T090445Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Global Locations Creaform
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Global Locations Creaform

@@ -1,0 +1,14 @@
+﻿---
+ID: "026cdd07-d191-4bdb-87c0-b2ca881d1fe5"
+Parent: "176fe8b6-9a73-477b-bde9-2304f3c50f3d"
+Template: "176fe8b6-9a73-477b-bde9-2304f3c50f3d"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Comparison Table Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220808T070505Z

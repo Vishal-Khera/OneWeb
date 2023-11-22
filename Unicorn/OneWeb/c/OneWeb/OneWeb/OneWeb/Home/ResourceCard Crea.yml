@@ -1,0 +1,20 @@
+﻿---
+ID: "b19b1985-9c1d-4cdf-ab2b-dcab92262f96"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "6ef46bc6-1f7f-438f-a981-177b67adfa17"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/ResourceCard Crea
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220713T133357Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: New Press Release Listing
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: New Press Release Listing

@@ -1,0 +1,76 @@
+﻿---
+ID: "4c8ecbc4-9c5d-4036-8def-541339553af5"
+Parent: "9a7467f5-e169-43de-b000-049d6e71ac86"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Customizable Card/Column Tile Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    
+    {{if i_item.image !=""}}
+    {{coverImageClass = ow_cover_image_class i_item}}
+    {{ end }}
+    {{card_link = ow_link_model i_item 'PrimaryLink'}}
+    	{{if card_link.url != ""}}
+    	
+    <div class="component ow-two-card ow-card ow-card-icon card-item">
+    <div class="tile-slide">
+    {{if i_item.image.media_url}}
+    <div class="tile-bg-image image-full">
+    <img src = "{{ i_item.image.media_url }}" alt="{{ i_item.image.alt.Raw }}" title="{{ i_item.image.title.Raw }}" />
+    </div>
+    {{end}}
+    <div class="lower-content">
+    <a href="{{card_link.url}}" class="{{card_link.class}}" target="{{card_link.target}}" anchor="{{card_link.anchor}}" >
+    <div class="inner">
+    {{if i_item.Title !=""}}
+    			<h3 aria-label="head">{{i_item.Title}}</h3>
+    			{{ end }}
+    			{{if i_item.Content !=""}}
+    			<p aria-label="content">{{i_item.Content}}</p>
+    			{{ end }}
+    
+    </div>
+    </a>
+    </div>
+    </div>
+    </div>
+    {{else}}
+    <div class="component ow-two-card ow-card ow-card-icon card-item">
+    <div class="tile-slide">
+    {{if i_item.image.media_url}}
+    <div class="tile-bg-image image-full">
+    <img src = "{{ i_item.image.media_url }}" alt="{{ i_item.image.alt.Raw }}" title="{{ i_item.image.title.Raw }}" />
+    </div>
+    {{end}}
+    <div class="lower-content">
+    <div class="inner">
+    {{if i_item.Title !=""}}
+    			<h3 aria-label="head">{{i_item.Title}}</h3>
+    			{{ end }}
+    			{{if i_item.Content !=""}}
+    			<p aria-label="content">{{i_item.Content}}</p>
+    			{{ end }}
+    
+    </div>
+    </div>
+    </div>
+    </div>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220414T055331Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

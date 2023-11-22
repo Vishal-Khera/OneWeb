@@ -1,0 +1,27 @@
+﻿---
+ID: "4be16d6c-a33e-48f1-a02b-9f211bfd9f94"
+Parent: "3f6431ee-4f74-4884-853e-bff9866bc659"
+Template: "81b6bc15-a405-44bd-8caf-236e785ba28c"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Hero Banners/Creaform Education Detail/Application software for researchers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "12781f1c-36f3-4169-a634-45b4ccf2837d"
+      Hint: Video
+      Value: "{FBFC70E4-A53F-428C-A44D-8FC35113DC41}"
+    - ID: "1666f2e1-fec0-4c0d-8013-f4e9a5e00a32"
+      Hint: SecondaryLink
+      Value: |
+        <link text="View Results" anchor="" linktype="internal" class="video-play-btn " title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T181241Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Application software for researchers
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Insensitive to shop floor vibrations, part movement, and environmental instability, the Metrascan 3D significantly increases the efficiency and versatility of measurement process

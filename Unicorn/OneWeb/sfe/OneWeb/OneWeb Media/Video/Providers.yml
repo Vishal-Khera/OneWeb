@@ -1,0 +1,21 @@
+﻿---
+ID: "348a715c-3509-4455-be2d-5f019b4582ca"
+Parent: "e5f7245e-73ee-44b5-a4a8-b18e990cc954"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Media/Video/Providers
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {BEEF29E6-1876-4917-BBC0-35533F716F0B}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T114023Z

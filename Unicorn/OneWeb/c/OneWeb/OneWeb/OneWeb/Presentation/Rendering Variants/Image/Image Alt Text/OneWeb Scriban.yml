@@ -1,0 +1,35 @@
+﻿---
+ID: "71368194-f428-4641-93af-a03be45977f7"
+Parent: "04b78dac-b50c-489c-b2bb-b17a80898936"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Image/Image Alt Text/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if (i_item.Image.url|string.size > 0 )}}
+    <div>
+    {{link_model = (ow_link_model i_item'TargetUrl')}}
+    {{if (link_model.url|string.size > 0)}}
+    <a href="{{link_model.url}}" target="{{link_model.target}}" title= "{{i_item.image.alt.raw}} ">
+    {{end}}
+    <img src="{{i_item.Image.url}}" alt="{{i_item.image.Alt.raw}}" width="{{i_item.image.Width.raw}}" title="{{i_item.image.Alt.raw}}" target="{link_model.target}}">
+    {{if (link_model.url|string.size > 0)}}
+    </a>
+    {{end}}
+    </div>
+    {{end}}
+                     
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220520T092745Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

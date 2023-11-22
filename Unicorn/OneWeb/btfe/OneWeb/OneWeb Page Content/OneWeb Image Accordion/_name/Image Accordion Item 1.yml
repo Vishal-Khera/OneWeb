@@ -1,0 +1,18 @@
+﻿---
+ID: "f3e9648c-3a53-4f00-b29f-3706c4fb051a"
+Parent: "e5385a14-6d5c-4d31-821b-310f6ed06265"
+Template: "1c0ee710-b440-4f8d-80ae-ca464571204b"
+Path: /sitecore/templates/Branches/Feature/OneWeb/OneWeb Page Content/OneWeb Image Accordion/$name/Image Accordion Item 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170724T113539Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

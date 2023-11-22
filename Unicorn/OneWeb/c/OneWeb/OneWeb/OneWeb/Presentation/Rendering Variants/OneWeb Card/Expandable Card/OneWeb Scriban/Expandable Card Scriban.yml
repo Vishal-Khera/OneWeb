@@ -1,0 +1,76 @@
+﻿---
+ID: "b573c0b8-3a6a-40c6-afb2-d7ff94c57965"
+Parent: "98711663-c084-460f-a7e8-681175648319"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card/Expandable Card/OneWeb Scriban/Expandable Card Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="ow-businesscard-container ow-expand-box">
+    <div class="ow-business-image">
+        {{if(i_item.image != "") }}
+        <img class="ow-lazy" data-src = "{{ i_item.Image.media_url }}"  alt="{{i_item.Image.alt.raw}}" title="{{ i_item.Image.title.raw}}" />
+    	{{end}}
+    </div>
+    <div class="ow-card-heading">
+         <h4>
+    	{{-for taxonomy_model in (sc_followmany i_item "Tags")-}}						
+    						{{-if taxonomy_model && (taxonomy_model.Title | string.size) > 0 -}}
+                            <label>{{-taxonomy_model.Title-}}</label>
+    						{{-end-}}
+    						{{-end-}}
+    	</h4>
+    </div>
+    <div class="ow-business-content">
+        {{-if i_item.title !=""-}}
+                            <h3>{{-i_item.title-}}</h3>
+    						{{-end-}}
+    <div class="Content-default">
+          <p>
+            {{if i_item.content !=""}}
+    		{{word_limit= (sc_parameter 'Word Limit')}}
+    
+    {{content_num = ( i_item.content | string.split " " | array.size )}}
+    
+    {{if content_num > word_limit}}
+    
+    {{content_show = ( i_item.content | string.truncatewords word_limit)}}
+    {{content_show}}
+    
+    {{else}}
+    {{i_item.content}}
+    {{end}}
+    {{end}}	
+          </p>
+    </div>
+    <div class="read-more">
+          {{if i_item.content !=""}}
+    		<p>{{i_item.content}}</p>
+    	{{end}}
+    </div>
+    <div class="button-wrapper">
+           {{link_model = ow_link_model i_item 'PrimaryLink'}}
+            
+            	<a href="javascript:void(0)">
+            		{{link_model.text}}
+                </a>
+    
+    </div>
+    
+    
+      </div>
+    </div>  
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220510T072046Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

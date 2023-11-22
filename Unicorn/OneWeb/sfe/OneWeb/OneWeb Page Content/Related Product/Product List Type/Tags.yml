@@ -1,0 +1,17 @@
+﻿---
+ID: "4f74050e-c693-43d7-af17-1d9a7dc9a53e"
+Parent: "48863926-dffe-408d-85b6-a95c413da788"
+Template: "851511fa-16f0-4200-9650-33c8af27bf94"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Page Content/Related Product/Product List Type/Tags
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220401T184758Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Tags

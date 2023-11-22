@@ -1,0 +1,14 @@
+﻿---
+ID: "d2170260-5fc7-4046-9939-a5184f07a16a"
+Parent: "eff398af-1129-4a03-afbe-d81cc6d25ebb"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Page Content/OneWeb Hero Banner/Small Banner/Thumbnails
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220103T163234Z

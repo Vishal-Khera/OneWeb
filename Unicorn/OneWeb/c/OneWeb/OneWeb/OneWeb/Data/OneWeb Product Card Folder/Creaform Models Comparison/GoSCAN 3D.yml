@@ -1,0 +1,45 @@
+﻿---
+ID: "325acbd2-117d-4f66-8e5c-5f05790c371c"
+Parent: "3ac2d7c2-c737-4a7f-90e2-6249b8277f9b"
+Template: "de4ce863-9911-457a-9a47-7e98a634bad6"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Product Card Folder/Creaform Models Comparison/GoSCAN 3D
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{96554823-D856-48AB-8013-72109B848A95}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T100320Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: "Go!SCAN 3D"
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        Accuracy up to 0.050mm<br />
+        White Light <span class="light-gray"> (99 Stripes)</span><br />
+        Color acquisition<br />
+    - ID: "59de0dd6-79df-4fd5-a7b9-44b75095adba"
+      Hint: Category
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "d8102b5b-0ae4-4e50-9880-2d71b652465e"
+      Hint: MobileImage
+      Value: |
+        <image mediaid="{96554823-D856-48AB-8013-72109B848A95}" />
+    - ID: "eb53270e-6095-4d95-a1d4-2421086f95eb"
+      Hint: Price
+      Value: 2
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="View all specs" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

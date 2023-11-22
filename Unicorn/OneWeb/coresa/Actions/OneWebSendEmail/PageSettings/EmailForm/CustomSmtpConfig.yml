@@ -1,0 +1,27 @@
+﻿---
+ID: "2a29d079-e378-4096-a74c-7a89323a11c1"
+Parent: "f901e922-9ccc-4c5e-a246-dca04983f81b"
+Template: "04ee4321-b2db-44f1-9e75-886cf3ce86ed"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/OneWebSendEmail/PageSettings/EmailForm/CustomSmtpConfig
+DB: core
+SharedFields:
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: customSmtpConfig=Value
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180409T200350Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: Custom SMTP
+    - ID: "e1edd55a-7d13-4a9d-aea7-7e049c5937dc"
+      Hint: Watermark
+      Value: "Enter custom SMTP config. If not specified, it will use the default MailServer settings in Sitecore. Use WFFM format fields: <Host></Host><Port></Port><EnableSsl></EnableSsl><Login></Login><Password></Password>"

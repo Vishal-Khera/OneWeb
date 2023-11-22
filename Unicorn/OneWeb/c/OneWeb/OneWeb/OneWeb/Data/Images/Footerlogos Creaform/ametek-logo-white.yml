@@ -1,0 +1,26 @@
+﻿---
+ID: "8a71ea35-26d4-4619-b5b4-9c9fb521765c"
+Parent: "faf82e2f-9031-4420-8597-69840cfb8e19"
+Template: "bb8a85ab-1f6d-4518-8772-1c9f4f8dac18"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/Footerlogos Creaform/ametek-logo-white"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T120304Z
+    - ID: "54cab1ba-53d3-4ce4-ab7e-f8c17596aa47"
+      Hint: TargetUrl
+      Value: |
+        <link linktype="external" url="http://www.ametek.com" anchor="" target="_blank" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ebe4fdef-16d5-4d19-833c-24a241628a3a"
+      Hint: Image
+      Value: |
+        <image mediaid="{D0D97AD2-C0D2-4290-9688-2512A5D41824}" />

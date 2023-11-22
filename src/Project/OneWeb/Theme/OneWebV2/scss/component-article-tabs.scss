@@ -1,0 +1,77 @@
+@import 'base/base-index.scss';
+
+.article-tabs-wrapper {
+    position:relative;
+    .text-wrapper {
+        // * {
+        //     font-family: $franklinMd  !important;
+        // }
+        h2 {
+            @include font-size($xl-font);
+        }
+        .paragraph-wrapper{
+            @include font-size($smslg-font);
+            width: 90%;
+            @include lg{
+                width: 70%;
+            }
+            p{
+                font-size: inherit;
+            }
+        }
+    }
+    .image-wrapper-article{
+        position: absolute;
+        width:100%;
+        padding-top:56.25%;
+        height:0;
+        img{
+            border-radius: 8px;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width:100%;
+        }
+    }
+}
+
+.article-right-section{
+    .simple-list{
+        color: $brand;
+    }
+    .sticky-top{
+        top:80px;
+    }
+    .ow-card-icon {
+        :first-child {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            border-bottom: 1px solid $lightblack;
+
+            .simple-list {
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+            }
+        }
+
+        :last-child {
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            border-bottom: none;
+
+            .simple-list {
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+            }
+        }
+    }
+    .social-links-wrapper{
+        @media (min-width:450px) and (max-width:1200px) {
+            float: left;
+        }
+    }
+}
+
+

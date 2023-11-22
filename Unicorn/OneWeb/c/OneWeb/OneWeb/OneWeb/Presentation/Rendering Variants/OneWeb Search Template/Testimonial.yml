@@ -1,0 +1,14 @@
+﻿---
+ID: "bfffab75-d1b8-4a9d-9e7e-c5133de95fc1"
+Parent: "65d97de6-1804-4b22-8c66-f8aef7a4b0b6"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/Testimonial
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220601T064333Z

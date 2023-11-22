@@ -1,0 +1,22 @@
+﻿---
+ID: "5ae19e27-dfb2-430c-89d4-82baae34d829"
+Parent: "9b4be237-a127-423c-a70a-8376ab03e0f4"
+Template: "9b4be237-a127-423c-a70a-8376ab03e0f4"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Card With Icon Rendering Parameters/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a90638a-eaf3-4b49-a8de-d4bc8a670d56"
+      Hint: Rollover Effect
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T081731Z

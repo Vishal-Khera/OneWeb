@@ -1,0 +1,169 @@
+@import 'base/base-index.scss';
+
+.footer-cards-items{
+    justify-content: start !important;
+    border-top: 0;
+        padding-top: 0px;
+    &:not(.ow-content-card){
+        
+    border-top: 1px solid  $border-color-footer;
+    padding-top: 40px;
+    @include md{
+        border-top: 0;
+    }
+    }
+    @include md{
+        border: none;
+    }
+    .redirect-card-icon{
+        transition:$anchor-transition;
+    }
+    .component {
+        >.component-content{
+            height: 100%;
+            .ow-content-card{
+                height: 100%;
+            }
+        }
+    }
+    a{
+        &:focus-within, &:focus{
+            text-decoration: none !important;
+        }
+    }
+.redirect-card-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: $mid-dark-gray;
+    @include border-radius(8px);
+    padding: 20px 15px 10px;
+    color: $white;
+    
+   
+    &:hover{
+        .redirect-card-content{
+            .redirect-card-subtitle{
+                .redirect-card-icon{
+                    background-color: $base-light-gray;
+                    i{
+                        color: $brandblack2;
+                    }
+                }
+            }
+        }
+    }
+    &:focus{
+        outline: 4px solid $ash-gray ;
+        outline-offset: -1px;
+        .redirect-card-content{
+            .redirect-card-subtitle{
+                .redirect-card-icon{
+                    background-color: $base-light-gray;
+                    i{
+                        color: $brandblack2;
+                    }
+                }
+            }
+        }
+    }
+
+    .redirect-card-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        .redirect-card-title{
+            color: $white;
+            @include font-size($smlg-font);
+            padding-bottom: 40px;
+            @include md{
+                padding-bottom: 70px;
+            }
+        }
+        .redirect-card-logo{
+            padding-bottom: 40px;
+            @include md{
+                padding-bottom: 70px;
+            }
+            img{
+                max-height: 22px;
+                width: auto;
+            }
+        }
+        .redirect-card-subtitle{
+            color: $white;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            .redirect-card-text{
+                max-width: 185px;
+                @include font-size($md-font);
+                @include md{
+                    padding-right: 10px;
+                    max-width: unset;
+                }
+                .link-career{
+                    @include font-size($sm-font);
+                    @include border-radius(4px);
+                    background-color: $ash-gray;
+                    color: $white;
+                    padding: 0px 4px;
+                    margin-right: 0px;
+                }
+            }
+            .redirect-card-icon{
+                min-width: 28px;
+                height: 28px;
+                @include border-radius(50%);
+                background-color: $brandblack2;
+                i{
+                    position: absolute;
+                    padding: 6px;
+                    &.icon-download{
+                        padding: 8px;
+                        @include font-size($sssm-font);
+                    }
+                }
+            }
+        }
+    }
+}
+}
+footer{
+    &.in-view{
+        .footer-card-wrapper{
+            .redirect-card-content{
+                .redirect-card-title{
+                    @include font-size($md-font);
+                }
+            }
+        }
+    }
+}
+
+.dark-theme{
+    .redirect-card-wrapper{
+        &:hover{
+            .redirect-card-content{
+                .redirect-card-subtitle{
+                    .redirect-card-icon{
+                        i{
+                            color: $brandblack2 !important;
+                        }
+                    }
+                }
+            }
+        }
+        &:focus{
+            .redirect-card-content{
+                .redirect-card-subtitle{
+                    .redirect-card-icon{
+                        i{
+                            color: $brandblack2 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

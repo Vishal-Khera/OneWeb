@@ -1,0 +1,25 @@
+﻿---
+ID: "74161a7a-f634-4646-b367-426d80cdb4ea"
+Parent: "ab8d6690-3a74-4f79-9269-bec64f228c55"
+Template: "dbdf5dfd-f79b-4766-99b9-e29775d97328"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Theming/OneWeb Bootstrap 4/OneWeb Bootstrap 4 Grid Setup
+DB: master
+SharedFields:
+- ID: "c1489cff-fc13-4cf7-9457-4e5870d647e2"
+  Hint: Grid Definition
+  Value: "{9992045A-61ED-4624-8DD5-33E61E11A6DA}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170315T104208Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: OneWeb Bootstrap 4

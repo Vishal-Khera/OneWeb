@@ -1,0 +1,43 @@
+﻿---
+ID: "904a0b86-c04e-4734-a5d4-62064898dd82"
+Parent: "8f85ef98-a2fc-43f3-897d-1954ea00ac48"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/Events Table With Dates and City/Container
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="table-responsive">
+    <table class="table table-striped table-data">
+    	<thead>
+    	<tr>
+    		{{if sc_translate "OneWeb-Events-Table-Title" | string.size > 0}}
+            <th scope="col">{{sc_translate "OneWeb-Events-Table-Title"}}</th>
+           {{end}}
+    	   {{if sc_translate "OneWeb-Events-Start-Date" | string.size > 0 }}
+            <th scope="col">{{sc_translate 'OneWeb-Events-Start-Date'}}</th>
+           {{end}}
+    	   {{if sc_translate "OneWeb-Events-Table-End-Date" | string.size > 0 }}
+            <th scope="col">End</th>
+           {{end}}
+    	   {{if sc_translate "OneWeb-Events-Table-City" | string.size > 0}}
+            <th scope="col">{{sc_translate "OneWeb-Events-Table-City"}}</th>
+           {{end}}
+    	 </tr>
+    	</thead>
+    	<tbody class="ow-container">	</tbody>
+      </table>
+      <div class="ow-load-more d-none text-center">
+                <a href="javascript:void(0)" class="btn btn-primary">{{sc_translate 'OneWeb-Search-LoadMore'}}</a>
+            </div>
+    </div>
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220216T113613Z

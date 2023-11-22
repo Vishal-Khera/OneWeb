@@ -1,0 +1,114 @@
+﻿---
+ID: "099e61ad-2a0a-428d-bf0b-90ab8d7c3668"
+Parent: "cd3acf7e-21c6-4ff1-968a-e6dca1a1863b"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Hero Banner/Default/Hero Banner/Carousel Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if i_item  && i_item.template_name== "OneWeb Banner Carousel"-}}
+    	{{
+    	show_arrows= sc_field i_item "Show Arrows"
+    	if show_arrows  && show_arrows == 1
+    		show_arrows = "true"
+    	else
+    		show_arrows= "false"		
+    	end 
+    	
+    	show_dots = sc_field i_item "Show Dots"
+    	if show_dots  && show_dots == 1
+    		show_dots = "true"
+    	else
+    		show_dots= "false"		
+    	end 
+    	
+    	auto_play = sc_field i_item "AutoPlay"
+    	if auto_play  && auto_play == 1
+    		auto_play = "true"
+    	else
+    		auto_play= "false"		
+    	end 
+    	
+    	data_loop = sc_field i_item "Loop"
+    	if data_loop  && data_loop == 1
+    		data_loop = "true"
+    	else
+    		data_loop= "false"		
+    	end 
+    	}}
+    	
+    {{if o_pagemode.is_experience_editor_editing}}
+    <div class="slider-wrapper">
+    {{else}}
+    <div class="slider-wrapper" data-slides-to-show="1" data-slides-to-show-tab="1"
+        data-slides-to-show-mob="1" data-arrow="{{-show_arrows-}}" data-dots="{{-show_dots-}}" data-autoplaySpeed="{{-i_item.interval-}}" data-autoplay="{{-auto_play-}}" data-infinite="{{-data_loop-}}">
+    {{end}}
+    	{{-for banner_slide in (sc_followmany i_item "Banner List")-}}
+        <div class="slider-item">
+    	{{media_model = ow_default_media banner_slide.Image.media_url}}
+    	{{-if media_model-}}
+            <div class="slider-image">
+                <div class="slide ow-lazy" data-src="{{ media_model.url }}"></div>
+    			</div>
+    	{{-end-}}
+    	
+            <div class="slider-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+    						{{-for taxonomy_model in (sc_followmany banner_slide "Tags")-}}						
+    						{{-if taxonomy_model && (taxonomy_model.Title | string.size) > 0-}}
+                            <label>{{-taxonomy_model.Title-}}</label>
+    						{{-end-}}
+    						{{-end-}}
+    						{{-if banner_slide.title !=""-}}
+                            <h2>{{-banner_slide.title-}}</h2>
+    						{{-end-}}
+    						{{-if banner_slide.content !=""-}}
+    						<div class="banner-description"> {{-banner_slide.content-}}</div>
+    						{{-end-}}
+    						
+    						{{primary_link_classes = "btn btn-tertiary "}}
+    						{{ primary_filtered_classes = ow_link_model banner_slide 'PrimaryLink'
+    							if primary_filtered_classes 
+    								if (primary_filtered_classes.class | string.size) > 0
+    									primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    								end
+    							end}}
+    							
+    						{{primary_link = (sc_field banner_slide 'PrimaryLink'[['text', (banner_slide.PrimaryLink.text)], ['class', (primary_link_classes)]])}}
+    						{{-if primary_link-}}
+    							{{primary_link}}
+    						{{-end-}}
+    
+    						{{secondary_link_classes = "btn btn-tertiary "}}
+    						{{ secondary_filtered_classes = ow_link_model banner_slide 'SecondaryLink'
+    							if( secondary_filtered_classes)
+    								if(secondary_filtered_classes.class | string.size) > 0
+    									secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+    								end
+    							end}}
+    							
+    						{{secondary_link = (sc_field banner_slide 'SecondaryLink'[['text', (banner_slide.SecondaryLink.text)], ['class', (secondary_link_classes)]])}}
+    						{{-if secondary_link-}}
+    							{{secondary_link}}
+    						{{-end-}}						
+    						
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	{{-end-}}
+    </div>
+    {{-end-}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211207T180207Z

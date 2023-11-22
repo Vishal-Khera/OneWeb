@@ -1,0 +1,14 @@
+﻿---
+ID: "dc886841-c688-4ab4-8e0e-7493d447d7b1"
+Parent: "02b72c12-65fe-433f-9dc9-9578817a0ea8"
+Template: "8055506f-46b4-42fa-b3e1-6d6a3b3c7f58"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Tags/Taxonomy
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T051734Z

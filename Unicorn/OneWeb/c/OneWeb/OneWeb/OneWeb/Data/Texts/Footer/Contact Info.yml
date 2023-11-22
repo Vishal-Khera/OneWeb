@@ -1,0 +1,27 @@
+﻿---
+ID: "3eb10af4-5cf2-44d5-ad21-f85d4d5013b3"
+Parent: "1376124d-c4c4-4f03-bff2-9fc9b2a76d5d"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Texts/Footer/Contact Info
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211126T130955Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <div class="shared-global">
+            <ul>
+            <li class="phone-number"><a href="tel:610-647-2121"><i class="fa fa-phone-alt fa-w-16" aria-hidden="true"></i> Tel:610-647-2121</a></li>
+            <li class="mailto"><a href="mailto:info.corp@ametek.com"><i class="fa fa-envelope fa-w-16" aria-hidden="true"></i> Email: info.corp@ametek.com</a> </li>
+            </ul>
+            </div>

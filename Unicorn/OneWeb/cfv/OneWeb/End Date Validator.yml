@@ -1,0 +1,37 @@
+﻿---
+ID: "26cbd8cd-de90-48cf-aa63-3ffa25b767e9"
+Parent: "a100f086-a6f8-40b1-b211-0bc559feca06"
+Template: "8f8e2549-c77f-4860-b83b-54fa31e2befa"
+Path: /sitecore/system/Settings/Validation Rules/Field Rules/OneWeb/End Date Validator
+DB: master
+SharedFields:
+- ID: "43a829d1-43da-465c-b772-ebaa0d515e3e"
+  Hint: Type
+  Value: OneWeb.Foundation.SitecoreExtensions.Fields.Validators.EndDateValidator,OneWeb.Foundation.SitecoreExtensions
+- ID: "8f9d8603-2e34-4c5f-b0bb-f0d91eb956ca"
+  Hint: Parameters
+  Value: |
+     Result =FatalError
+    
+Languages:
+- Language: en
+  Fields:
+  - ID: "5dcf6ff3-41c5-466c-ad5e-991cfcd55716"
+    Hint: Text
+    Value: End Date can not be less than Start Date. Please choose a valid Date
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220205T084400Z
+    - ID: "58014183-26fe-4568-b19f-c26745824c32"
+      Hint: Description
+      Value: End Date can not be less than Start Date. Please choose a valid Date
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "da43c533-cbae-43d0-9019-65b1e346f984"
+      Hint: Title
+      Value: End Date can not be less than Start Date. Please choose a valid Date

@@ -1,0 +1,61 @@
+@import 'base/base-index.scss';
+.decoupled-menu{  
+    .ow-promo{
+      .promo{
+        width: auto;
+        float: right;
+        padding: 0px;
+        background: unset;
+        position: relative;
+         top: 12px;
+        .component-content{
+          border-width: unset;
+          border-style: unset;
+          border-color: unset;
+          width: auto;
+          .ow-header-contact-us {
+            display: inline-flex !important;
+            text-align: right;
+            padding: 0px;
+            a {
+              font-family: "Helvetica Neue";
+              @include font-size($md-font);
+              text-decoration: unset;
+
+              &:hover{
+                color: $primary;
+              }
+            }
+            span {
+              a {
+                font-family: "Helvetica Neue";
+                @include font-size($md-font);
+                padding-right: 8px;
+                text-decoration: unset;
+
+                &:hover{
+                  color: $primary;
+                }                 
+
+                img {
+                  margin-right: 3px;
+                  margin-top: -6px;
+                  width: 12px;
+                  height: 12px;
+                }
+              }
+            }
+        
+            .highlighted {
+                color: $primary !important;
+              }
+          }
+          
+        }
+      }
+    }
+  }
+
+
+  
+ 

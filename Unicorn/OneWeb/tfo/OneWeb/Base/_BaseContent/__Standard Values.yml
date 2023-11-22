@@ -1,0 +1,21 @@
+﻿---
+ID: "002a6b18-f482-43cd-99c1-39b7b6ea3c98"
+Parent: "3112f3cf-f144-4fb0-a29c-e326ee1fba1d"
+Template: "3112f3cf-f144-4fb0-a29c-e326ee1fba1d"
+Path: /sitecore/templates/Foundation/OneWeb/Base/_BaseContent/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T075543Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

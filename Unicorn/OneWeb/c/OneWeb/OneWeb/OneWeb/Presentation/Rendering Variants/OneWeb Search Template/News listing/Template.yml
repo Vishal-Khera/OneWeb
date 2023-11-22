@@ -1,0 +1,24 @@
+﻿---
+ID: "e4f6385a-8a6c-4592-a223-78c48e80f810"
+Parent: "63e169c7-5ca4-4371-9d31-e63437b26a9f"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/News listing/Template
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    [[#each Results]]<div class="ow-card-news newslist"><div class="thumbnail">[[#if (isdefined this.Image)]][[#jsonBlock this.Image]]<img src="[[@Url]]" class="ow-lazy" title="[[@Title]]" alt="[[@Alt]]">[[/jsonBlock]][[else]][[#if (isdefined this.DefaultImage)]][[#jsonBlock this.DefaultImage]]<img src="[[@Url]]" class="ow-lazy" title="[[@Title]]" alt="[[@Alt]]">[[/jsonBlock]][[/if]][[/if]]</div>[[#if (isdefined this.Taxonomy)]] [[#jsonBlock this.Taxonomy]] <label style="background-color: [[@TaxonomyTag.Color]];">[[@TaxonomyTag.Title]]</label> [[/jsonBlock]] [[/if]][[#if (isdefined this.Title)]] <a href="[[this.Url]]"> <h3>[[[Title]]]</h3></a>[[/if]][[#if (isdefined Date)]] <div class="date">[[Date]]</div>[[/if]] [[#if (isdefined Content)]] <div class="description">[[[Content]]]</div><a href="[[this.Url]]" class="read-more">{{sc_translate 'OneWeb-News-Read-More'}}</a> [[/if]] </div>[[/each]]
+    
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211223T225806Z

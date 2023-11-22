@@ -1,0 +1,29 @@
+﻿---
+ID: "67b53de4-593a-437f-8c06-6087c34f70b5"
+Parent: "d174ef3f-8f81-4690-bfd3-ba586a316752"
+Template: "9025dcb8-3ff4-46d5-884d-83325274e7e8"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Image Accordions/Careers
+DB: master
+BranchID: "ce00af4f-a371-4142-ac38-c238f4d3e2da"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/postage_stamp.png
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E5385A14-6D5C-4D31-821B-310F6ED06265}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211215T101501Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Careers
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

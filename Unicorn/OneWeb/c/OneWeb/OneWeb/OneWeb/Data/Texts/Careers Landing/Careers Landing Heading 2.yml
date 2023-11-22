@@ -1,0 +1,23 @@
+﻿---
+ID: "7cf085f5-709f-40a5-a055-01ff69ae4904"
+Parent: "36814ba7-72a5-4762-a62b-998152307bcd"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Texts/Careers Landing/Careers Landing Heading 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T190700Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <h2>Life, perks and work</h2>
+        <h2> environment unlike any other</h2>

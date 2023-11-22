@@ -1,0 +1,35 @@
+﻿---
+ID: "a76f5ac5-0474-479e-9c04-fc7266a1b048"
+Parent: "5cbdc86b-b808-40d9-acd7-eedc4386fe71"
+Template: "ba8640ab-9b2d-48da-8431-e412f8f4bdb8"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Comparison Table/Product Detail Page/Model Comparison Variation 1
+DB: master
+SharedFields:
+- ID: "042d6b00-ccf6-436c-a50a-419cafa2ffe4"
+  Hint: PropertyList
+  Type: Multilist
+  Value: 
+- ID: "97464823-b56f-4229-88ce-b813cdccf2f8"
+  Hint: CardList
+  Type: Multilist
+  Value: |
+    {D74E6DAA-E722-4336-ACA6-34236FD40553}
+    {1904B7ED-3AE7-40CB-991D-FA465B78E153}
+    {7A025F51-91B1-46DE-A0D3-E20603C17B0D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220805T074745Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: 
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: 

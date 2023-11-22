@@ -1,0 +1,26 @@
+@import 'base/base-index.scss';
+
+.sitemap-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    .sitemap-tile{
+        padding: 10px;
+        h3{
+            a{
+                @include font-size($md-font);
+                font-family: 'HelveticaNeue-Medium';
+                margin: 10px 0px;
+                color: $black !important;
+            }
+        }
+        ul>li{
+            @include font-size($sm-font);
+            font-family: 'HelveticaNeue-Light';
+            margin-bottom: 5px;
+            a{
+                color: $black !important;
+                font-size: 13px;
+            }
+        }
+    }
+}

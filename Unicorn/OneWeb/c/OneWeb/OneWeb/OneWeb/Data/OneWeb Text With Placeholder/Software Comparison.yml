@@ -1,0 +1,36 @@
+﻿---
+ID: "f62700c2-d63a-4a6b-940c-4be28a4462a2"
+Parent: "b327e41f-ccd9-4aae-a95b-83f8d11dde02"
+Template: "7501c76d-ca5a-4436-b9d6-1330d295f3fa"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Text With Placeholder/Software Comparison
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1666f2e1-fec0-4c0d-8013-f4e9a5e00a32"
+      Hint: SecondaryLink
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220629T113957Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: VXelements application suite
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        <p>All modules are available in different licensing options:</p>
+        <p>node-lock licence, hardware dongle licence, and network licence.</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "983a37b2-16e7-4dba-a96d-c0d5530f7699"
+      Hint: Subtext
+      Value: lorem ipsum
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="Lorem Ipsum" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

@@ -1,0 +1,14 @@
+﻿---
+ID: "bac6ff2d-bc5f-43b2-a645-f79cfe6ef526"
+Parent: "fd3b7307-85ed-49ae-aed4-8de69021ecfd"
+Template: "f07cbe89-73ae-4de6-9217-2570260cac6e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Promos/Product Detail
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T135911Z

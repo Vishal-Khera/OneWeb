@@ -1,0 +1,36 @@
+﻿---
+ID: "4702687d-7e09-4a08-b0fa-8f4b6e77f41a"
+Parent: "63e169c7-5ca4-4371-9d31-e63437b26a9f"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/News listing/Container
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="row">
+        {{if ((sc_field i_item "Show Card List Switcher") == "1") }}
+        <div class="col-12 d-none d-lg-block mb-4">
+            <div class="float-right list-grid-view">
+                <span>{{sc_translate 'OneWeb-Search-ViewAs'}}</span>
+                <a href="javascript:void(0)" class="card-view">{{sc_translate 'OneWeb-Search-Card'}}<i class="fas fa-th" aria-hidden="true"></i></a>
+                <a href="javascript:void(0)" class="list-view active">{{sc_translate 'OneWeb-Search-List'}}<i class="fas fa-list" aria-hidden="true"></i></a>
+    
+            </div>
+        </div>
+        {{end}}
+        <div class="col-12 filter-result">
+            <div class="ow-container"></div>
+            <div class="ow-load-more d-none text-center">
+                <a href="javascript:void(0)" class="btn btn-secondary">{{sc_translate 'OneWeb-Search-LoadMore'}}</a>
+            </div>
+        </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211223T225806Z

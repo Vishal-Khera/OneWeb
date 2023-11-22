@@ -1,0 +1,14 @@
+﻿---
+ID: "fe7e3a95-cd6b-4e23-8c95-0d04bc81d60e"
+Parent: "fd674934-e1b4-4d33-a7bc-7f560ed0d113"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/OneWeb/Rendering Parameters/_BaseDarkThemeRenderingParameters/Theme
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220719T104816Z

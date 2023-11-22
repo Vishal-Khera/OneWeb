@@ -1,0 +1,37 @@
+﻿---
+ID: "480751d8-9f31-46a6-96a8-88f6d7cbd972"
+Parent: "073d46f1-838f-4482-9892-10d2be02a517"
+Template: "27686f73-aa5c-4e0e-ac6b-e3000d129e4f"
+Path: /sitecore/Forms/OneWeb/OneWeb/OneWeb/RMA/Page/Section/File Upload
+DB: master
+SharedFields:
+- ID: "10e5829a-1943-4597-b9ee-406ce3d13e13"
+  Hint: Validations
+  Type: Treelist
+  Value: 
+- ID: "3cd88ccb-4798-41bc-9b5a-ce177a0de8a0"
+  Hint: Allowed Content Types
+  Value: 
+- ID: "8a43af61-0812-4b37-a343-96cde3f12bb1"
+  Hint: Required
+  Type: Checkbox
+  Value: 0
+- ID: "90c4f94c-ec2c-4ee4-b4c8-f3e29cbe630e"
+  Hint: Allow Save
+  Type: Checkbox
+  Value: 1
+- ID: "d99833ea-238a-4505-90ef-c69bf3eba946"
+  Hint: Is Tracking Enabled
+  Type: Checkbox
+  Value: 1
+- ID: "eeb21e25-1e4a-4f52-94f1-0f9a13a28a9d"
+  Hint: Max File Size
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20211206T124550:637743915501713016Z"

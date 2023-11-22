@@ -1,0 +1,14 @@
+﻿---
+ID: "edc37aa9-42d2-4348-aefa-19ed0b361b7d"
+Parent: "5953d431-cf7f-47a3-853e-24d240914476"
+Template: "5953d431-cf7f-47a3-853e-24d240914476"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Popup/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T112128Z

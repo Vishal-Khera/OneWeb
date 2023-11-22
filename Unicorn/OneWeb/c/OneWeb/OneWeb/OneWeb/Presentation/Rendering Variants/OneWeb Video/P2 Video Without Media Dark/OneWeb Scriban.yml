@@ -1,0 +1,84 @@
+﻿---
+ID: "4223d3a4-dfab-41b4-9ae1-40e2d939a5a1"
+Parent: "cec2e342-8cfd-4ca5-ab98-66fda35d52e3"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Video/P2 Video Without Media Dark/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="promo-card dark-theme">
+    <div class="promo-card_content">
+    <div class="component text-wrapper">
+    <div class="text-wraper-body">
+    <div class="product-name">
+    {{if o_model.video_info.title != ''}}
+    <h2>{{o_model.video_info.title}}</h2>
+    {{end}}
+    </div>
+    {{if i_item.subtext != ''}}
+    <h2>{{i_item.subtext}}</h2>
+    {{end}}
+    {{if o_model.video_info.content != ''}}
+    <div class="paragraph-wrapper">
+    {{o_model.video_info.content}}
+    </div>
+    {{end}}
+    </div>
+    {{primary_link_classes = "button btn-default"}}
+    {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    if( primary_filtered_classes)
+    if(primary_filtered_classes.class | string.size) > 0
+    primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    end
+    end}}
+    {{link_model = ow_link_model i_item 'PrimaryLink'}}
+    {{ if(link_model.url != "") }}
+    <div class="text-wraper-footer">
+    <a href="{{link_model.url}}" class="{{primary_link_classes}}" title="{{link_model.title}}" target="{{link_model.target}}">{{link_model.text}}<i class="icon-right-arrow ml-2"></i></a>
+    </div>
+    {{end}}
+    </div>
+    </div>
+    {{if (o_model.video_info && o_model.video_info.sitecore_video && (o_model.video_info.sitecore_video.url |string.size > 0))}}
+    {{
+    auto_play = o_model.video_info.autoplay
+    if auto_play  && auto_play == 1
+    auto_play = "true"
+    else
+    auto_play= "false"        
+    end 
+    show_muted = o_model.video_info.muted
+    if show_muted  && show_muted == 1
+    show_muted = "true"
+    else
+    show_muted= "false"        
+    end 
+    data_loop = o_model.video_info.loop
+    if data_loop  && data_loop == 1
+    data_loop = "true"
+    else
+    data_loop= "false"        
+    end 
+    data_attributes = o_model.video_info.attributes
+    }}
+    <div class="promo-card_image">
+    <video class="slide-video slide-media" data-attribute ="{{-data_attributes-}}" loop="{{-data_loop-}}" muted="{{-show_muted-}}" autoplay="{{-auto_play-}}" preload="metadata" >
+    <source src="{{o_model.video_info.sitecore_video.url}}" type="video/mp4">
+    </video>
+    </div>
+    {{else if (o_model.video_info.placeholder_image.url | string.size>0)}}
+    <div class="promo-card_image">
+    <img class="ow-lazy" data-src='{{o_model.video_info.placeholder_image.url}}' data-mob-src="{{o_model.video_info.placeholder_image.url}}">
+    </div>
+    {{end}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220720T085939Z

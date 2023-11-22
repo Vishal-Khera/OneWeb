@@ -1,0 +1,239 @@
+.Page-navigation {
+  top: 0px;
+  width: 100%;
+  z-index: 998;
+  position: unset;
+  border-bottom: 1px solid rgba(26, 25, 24, 0.15); }
+  .Page-navigation .orange-theme {
+    font-size: 13px;
+    padding: 8px 35px 8px 13px; }
+    @media screen and (min-width: 0) {
+      .Page-navigation .orange-theme {
+        font-size: 13px; } }
+    @media screen and (min-width: 768px) {
+      .Page-navigation .orange-theme {
+        font-size: 13px; } }
+    @media screen and (min-width: 992px) {
+      .Page-navigation .orange-theme {
+        font-size: 13px; } }
+    .Page-navigation .orange-theme::after, .Page-navigation .orange-theme::before {
+      top: 50%; }
+    .Page-navigation .orange-theme::after {
+      right: 10px; }
+    .Page-navigation .orange-theme::before {
+      left: -10px; }
+    .Page-navigation .orange-theme:hover, .Page-navigation .orange-theme:focus {
+      padding: 8px 13px 8px 35px; }
+      .Page-navigation .orange-theme:hover::after, .Page-navigation .orange-theme:focus::after {
+        right: -20px; }
+      .Page-navigation .orange-theme:hover::before, .Page-navigation .orange-theme:focus::before {
+        left: 20px; }
+  .Page-navigation .page-nav-btn {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    float: right;
+    padding-top: 6px; }
+    .Page-navigation .page-nav-btn .button {
+      outline-offset: 1px !important;
+      font-size: 14px; }
+      @media screen and (min-width: 0) {
+        .Page-navigation .page-nav-btn .button {
+          font-size: 14px; } }
+      @media screen and (min-width: 768px) {
+        .Page-navigation .page-nav-btn .button {
+          font-size: 14px; } }
+      @media screen and (min-width: 992px) {
+        .Page-navigation .page-nav-btn .button {
+          font-size: 14px; } }
+    @media only screen and (min-width: 992px) {
+      .Page-navigation .page-nav-btn {
+        padding-top: 8px; } }
+  .Page-navigation .navbar {
+    padding: 9px 0px 8px 0px;
+    position: relative; }
+    .Page-navigation .navbar * {
+      font-family: "FranklinGothicLTPro-Md" !important; }
+    .Page-navigation .navbar .navbar-brand {
+      color: #2C2A29 !important;
+      font-size: 14px; }
+      @media screen and (min-width: 0) {
+        .Page-navigation .navbar .navbar-brand {
+          font-size: 14px; } }
+      @media screen and (min-width: 768px) {
+        .Page-navigation .navbar .navbar-brand {
+          font-size: 14px; } }
+      @media screen and (min-width: 992px) {
+        .Page-navigation .navbar .navbar-brand {
+          font-size: 14px; } }
+      .Page-navigation .navbar .navbar-brand:hover {
+        color: #2C2A29 !important; }
+    .Page-navigation .navbar .dropdown-arrow-btn {
+      display: flex;
+      justify-content: end;
+      position: absolute;
+      right: 0px;
+      top: 20px; }
+      @media only screen and (min-width: 768px) {
+        .Page-navigation .navbar .dropdown-arrow-btn {
+          width: unset; } }
+      .Page-navigation .navbar .dropdown-arrow-btn > .component-content {
+        width: fit-content !important; }
+    .Page-navigation .navbar .navbar-collapse,
+    .Page-navigation .navbar .navbar-collapsing {
+      justify-content: end; }
+      @media only screen and (min-width: 992px) {
+        .Page-navigation .navbar .navbar-collapse,
+        .Page-navigation .navbar .navbar-collapsing {
+          height: 100%; } }
+      .Page-navigation .navbar .navbar-collapse a,
+      .Page-navigation .navbar .navbar-collapsing a {
+        color: #2C2A29;
+        font-size: 14px; }
+        @media screen and (min-width: 0) {
+          .Page-navigation .navbar .navbar-collapse a,
+          .Page-navigation .navbar .navbar-collapsing a {
+            font-size: 14px; } }
+        @media screen and (min-width: 768px) {
+          .Page-navigation .navbar .navbar-collapse a,
+          .Page-navigation .navbar .navbar-collapsing a {
+            font-size: 14px; } }
+        @media screen and (min-width: 992px) {
+          .Page-navigation .navbar .navbar-collapse a,
+          .Page-navigation .navbar .navbar-collapsing a {
+            font-size: 14px; } }
+        .Page-navigation .navbar .navbar-collapse a:hover,
+        .Page-navigation .navbar .navbar-collapsing a:hover {
+          color: #2C2A29; }
+      .Page-navigation .navbar .navbar-collapse ul,
+      .Page-navigation .navbar .navbar-collapsing ul {
+        display: flex;
+        justify-content: end; }
+        .Page-navigation .navbar .navbar-collapse ul li,
+        .Page-navigation .navbar .navbar-collapsing ul li {
+          padding: 0px; }
+          @media only screen and (min-width: 992px) {
+            .Page-navigation .navbar .navbar-collapse ul li,
+            .Page-navigation .navbar .navbar-collapsing ul li {
+              padding: 0px 6px; } }
+          .Page-navigation .navbar .navbar-collapse ul li:last-child,
+          .Page-navigation .navbar .navbar-collapsing ul li:last-child {
+            padding-right: 50px;
+            display: flex !important; }
+          .Page-navigation .navbar .navbar-collapse ul li a,
+          .Page-navigation .navbar .navbar-collapsing ul li a {
+            display: flex;
+            padding: 12px 0px;
+            align-items: center;
+            position: relative;
+            color: #2C2A29; }
+            @media only screen and (min-width: 992px) {
+              .Page-navigation .navbar .navbar-collapse ul li a,
+              .Page-navigation .navbar .navbar-collapsing ul li a {
+                padding: 8px 10px; } }
+            .Page-navigation .navbar .navbar-collapse ul li a:after,
+            .Page-navigation .navbar .navbar-collapsing ul li a:after {
+              display: none; }
+              @media only screen and (min-width: 992px) {
+                .Page-navigation .navbar .navbar-collapse ul li a:after,
+                .Page-navigation .navbar .navbar-collapsing ul li a:after {
+                  content: '';
+                  position: absolute;
+                  bottom: -9px;
+                  height: 2px;
+                  left: 50%;
+                  transition: .2s all ease-out;
+                  width: 0px;
+                  background-color: #2C2A29;
+                  display: inline-block;
+                  right: auto;
+                  transform: rotate(0deg) translateY(0%); } }
+            .Page-navigation .navbar .navbar-collapse ul li a:hover,
+            .Page-navigation .navbar .navbar-collapsing ul li a:hover {
+              color: #2C2A29; }
+              .Page-navigation .navbar .navbar-collapse ul li a:hover:after,
+              .Page-navigation .navbar .navbar-collapsing ul li a:hover:after {
+                left: 0px;
+                width: 100%;
+                transition: .2s all ease-in; }
+            .Page-navigation .navbar .navbar-collapse ul li a.active-link,
+            .Page-navigation .navbar .navbar-collapsing ul li a.active-link {
+              pointer-events: none; }
+              @media only screen and (min-width: 992px) {
+                .Page-navigation .navbar .navbar-collapse ul li a.active-link:after,
+                .Page-navigation .navbar .navbar-collapsing ul li a.active-link:after {
+                  left: 0px;
+                  width: 100%;
+                  transition: .2s all ease-in; } }
+    .Page-navigation .navbar .navbar-toggler {
+      margin-right: 16px;
+      outline: none !important; }
+      .Page-navigation .navbar .navbar-toggler .navbar-toggler-icons {
+        width: 100%;
+        position: relative;
+        display: block;
+        transform: scale(0.7) rotate(45deg);
+        top: -12px;
+        transition: 0.4s ease; }
+        .Page-navigation .navbar .navbar-toggler .navbar-toggler-icons::after, .Page-navigation .navbar .navbar-toggler .navbar-toggler-icons::before {
+          content: "";
+          position: absolute;
+          content: "";
+          display: inline-block;
+          width: 12px;
+          height: 1px;
+          background-color: rgba(26, 25, 24, 0.5);
+          transition: 0.4s ease;
+          transform: translate(12px, 0); }
+        .Page-navigation .navbar .navbar-toggler .navbar-toggler-icons::after {
+          position: absolute;
+          transform: rotate(90deg) translate(12px, 0);
+          top: -6px;
+          left: 6px; }
+      .Page-navigation .navbar .navbar-toggler.collapsed .navbar-toggler-icons {
+        top: -5px; }
+        .Page-navigation .navbar .navbar-toggler.collapsed .navbar-toggler-icons::before {
+          transform: translate(0px, 0); }
+        .Page-navigation .navbar .navbar-toggler.collapsed .navbar-toggler-icons::after {
+          transform: rotate(90deg) !important; }
+  .Page-navigation.sticky-navigation {
+    position: fixed;
+    top: auto;
+    border-bottom: none !important;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px; }
+    .Page-navigation.sticky-navigation.dark-theme > .component-content {
+      border-bottom: none; }
+    .Page-navigation.sticky-navigation.dark-theme .container > .component-content {
+      background-color: #1A1918; }
+    @media only screen and (min-width: 1200px) {
+      .Page-navigation.sticky-navigation.light-theme .container > .component-content {
+        background-color: #E8E8E8; } }
+    @media only screen and (min-width: 992px) {
+      .Page-navigation.sticky-navigation .container > .component-content {
+        border-radius: 4px;
+        padding: 0px 15px;
+        border-bottom: 1px solid rgba(26, 25, 24, 0.15); } }
+  .Page-navigation.dark-theme {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
+    .Page-navigation.dark-theme .navbar .navbar-brand {
+      color: #fff !important; }
+    .Page-navigation.dark-theme .navbar ul li a:after {
+      background-color: #fff !important; }
+    .Page-navigation.dark-theme .navbar .navbar-toggler .navbar-toggler-icons::after, .Page-navigation.dark-theme .navbar .navbar-toggler .navbar-toggler-icons::before {
+      background-color: #fff !important; }
+  .Page-navigation .container > .component-content > .row {
+    align-items: start; }
+  .Page-navigation.sticky-navigation {
+    position: fixed !important; }
+
+@media only screen and (min-width: 1200px) {
+  .dark-theme-overlay .Page-navigation {
+    max-width: calc(1280px - 30px) !important; } }
+
+body.sticky-page .Page-navigation {
+  opacity: 1 !important;
+  transform: translateY(0px) !important;
+  z-index: 99 !important;
+  height: auto !important;
+  overflow: visible !important; }

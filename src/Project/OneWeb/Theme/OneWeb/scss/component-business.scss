@@ -1,0 +1,414 @@
+@import 'base/base-index.scss';
+.ow-business {
+    width: 100%;
+    .business-info {
+        overflow: hidden;
+        z-index: 1;
+        position: relative;
+        &::before {
+            content: '';
+            width: 28px;
+            height: 100%;
+            transform: skew(-9deg, 0deg);
+            z-index: 1;
+            background-color: $primary;
+            left: -32px;
+            position: absolute;
+            @media (max-width:767px) {
+                width: 100%;
+                height: 30px;
+                transform: skew(-12deg, 9deg);
+                left: 15px;
+                top: -36px;
+                @media(min-width:550px){
+                    transform: skew(-12deg, 6deg);
+                }
+            }
+        }
+        @include md {
+            display: flex;
+            height: 276px;
+        }
+        .business-content {
+            width: 100%;
+            padding: 20px 15px 50px;
+            height: 100%;
+            position: relative;
+            z-index: 1;
+            @include md {
+                width: 55%;
+                padding: 20px 10px 20px 20px;
+            }
+            @include xl {
+                width: 65%;
+                padding: 20px 0 20px 40px;
+                
+            }
+            * {
+                position: relative;
+                z-index: 2;
+                float: inherit;
+            }
+            .discription-paragraph {
+                clear: both;
+                @media(min-width:991px) and (max-width:1199px){
+                    @include font-size($sm-font);
+                }
+            }
+            &:after {
+                content: '';
+                background-color: $primary;
+                position: absolute;
+                transform: skew(-15deg, -3deg);
+                @media (max-width:767px) {
+                    transform: skew(-4deg, 6deg);
+                    width: 110%;
+                    height: 70px;
+                    left: -5%;
+                    bottom: -35px;
+                    @media (min-width:460px) {
+                        bottom: -39px;
+                    }
+                    @media (min-width:600px) {
+                        height: 61px;
+                    }
+                }
+                @include md {
+                    right: -42px;
+                    top: -5px;
+                    width: 50px;
+                    height: 105%;
+                }
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                background-color: $white-gray;
+                transform: skew(-10deg, -3deg);
+                z-index: 1;
+                @media (max-width:767px) {
+                    width: 110%;
+                    bottom: -14px;
+                    height: 70px;
+                    left: -5%;
+                    transform: skew(-8deg, 10deg);
+                    @media (min-width:460px) {
+                        bottom: -10px;
+                    }
+                    @media (min-width:600px) {
+                        bottom: -4px;
+                    }
+                }
+                @include md {
+                    top: -5px;
+                    width: 50px;
+                    height: 105%;
+                    right: -18px;
+                }
+            }
+            h3 {
+                margin-bottom: 0;
+                @include font-size($sxl-font);
+                font-family: 'HelveticaNeue-Bold';
+            }
+            .business-link {
+                margin-bottom: 10px;
+                a {
+                    color: $black;
+                    @include font-size($sm-font);
+                    display: inline-block;
+                }
+            }
+            label {
+                position: relative;
+                top: 0;
+            }
+            .suggestion-label {
+                margin-bottom: 10px;
+                float: left;
+            }
+        }
+        .business-img {
+            background-color: $modal-gray-bg;
+            width: 100%;
+            color: $white;
+            z-index: 0;
+            position: relative;
+            background-position: 500% 500%;
+            background-repeat: no-repeat;
+            height: 190px;
+            padding: 70px 15px 20px;
+            @include md {
+                width: 45%;
+                height: auto;
+                padding: 0;
+            }
+            @include xl {
+                width: 35%;
+            }
+            .business-cta {
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                width: max-content;
+                @include md {
+                    align-items: center;
+                    position: absolute;
+                    bottom: 30px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: auto;
+                }
+                @include lg{
+                    width: max-content;
+                }
+                a {
+                    color: $white;
+                }
+                .business-detail-cta {
+                    border-bottom: 1px solid $white;
+                    @include font-size($sm-font);
+                    padding: 5px 10px 5px 0;
+                    margin-bottom: 5px;
+                    position: relative;
+                    &:after {
+                        content: '\276F';
+                        position: absolute;
+                        right: -10px;
+                    }
+                }
+                .business-support {
+                    @include font-size($ssm-font);
+                    width: -webkit-fill-available;
+                    ul {
+                        padding: 0;
+                        list-style-type: none;
+                        margin-bottom: 0;
+                        li {
+                            padding: 5px 0;
+                            a{
+                                @include md{
+                                    display: flex;
+                                }
+                                i{
+                                    margin-right: 7px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .business-detail-toggle {
+                width: 45px;
+                height: 45px;
+                border: 0;
+                position: absolute;
+                right: 20px;
+                top: 70px;
+                cursor: pointer;
+                @include md {
+                    top: 20px;
+                }
+                span {
+                    position: absolute;
+                    transition: 300ms;
+                    background: $primary;
+                    border-radius: 2px;
+                    &:first-child {
+                        top: 25%;
+                        bottom: 25%;
+                        width: 10%;
+                        left: 45%;
+                    }
+                    &:last-child {
+                        left: 25%;
+                        right: 25%;
+                        height: 10%;
+                        top: 45%;
+                    }
+                }
+            }
+        }
+    }
+    &.expend {
+        box-shadow: 0px 3px 6px #00000029;
+        .business-detail-toggle {
+            span {
+                transform: rotate(90deg) !important;
+
+                &:last-child {
+                    left: 50% !important;
+                    right: 50% !important;
+                }
+            }
+        }
+        .business-info {
+            background-color: $dark-gray;
+            color: $white;
+
+        }
+        .business-img {
+            background-position: center;
+            background-size: cover;
+            @include md{
+                background-size: auto 276px;
+            }
+        }
+        .business-cta {
+            display: none !important;
+        }
+        .business-link {
+            a {
+                color: $white !important;
+            }
+        }
+        .business-info {
+            .business-content {
+                &::before {
+                    background-color: $dark-gray;
+                }
+            }
+        }
+    }
+    &:not(.expend){
+        .business-img{
+            background-image: none !important;
+        }
+    }
+}
+.business-details {
+    display: none;
+}
+
+.top-left{
+    .business-img {
+        background-position: top left !important;
+    }
+}
+.top-center{
+    .business-img {
+        background-position: top center !important;
+    }
+}
+.top-right{
+    .business-img {
+        background-position: top right !important;
+    }
+}
+.bottom-left{
+    .business-img {
+        background-position: bottom left !important;
+    }
+}
+.bottom-center{
+    .business-img{
+        background-position: bottom center !important;
+    }
+}
+.bottom-right{
+    .business-img {
+        background-position: bottom right !important;
+    }
+}
+.middle-left{
+    .business-img {
+        background-position: center left !important;
+    }
+}
+.middle-right{
+    .business-img {
+        background-position: center right !important;
+    }
+}
+
+.reverse-strip{
+    @media (max-width:767px) {
+        .business-info {
+            .business-content{
+                &::before {
+                    transform: skew(-8deg, -13deg) !important;
+                    @media(min-width:550px){
+                        transform: skew(-8deg, -9deg) !important;
+                    }
+                }
+            
+                &::after {
+                    transform: skew(-4deg, -9deg) !important;
+                    @media(min-width:550px){
+                        transform: skew(-4deg, -5deg) !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ow-business-collapse {
+    .business-info{
+       .business-content{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           @include md{
+               padding: 20px 10px 20px 30px;
+           }
+           @include xl{
+               padding: 20px 10px 20px 40px;
+           }
+   
+           .suggestion-label{
+               background-color: unset;
+               padding-left: unset;
+               margin-top:10px;
+               color:$white !important
+               
+           }
+           &.content-expand{
+               display: none;
+           }
+   
+           .business-logo{
+               margin-bottom: 20px;
+               width: 100%;
+               a{
+                   width: 100%;
+                   img{
+                       max-width: 400px;
+                       max-height: 60px;
+                       width: auto;
+                   }
+               }
+           }
+       } 
+    }
+    
+    &.expend{
+       .business-content{
+           display: none;
+           &.content-expand{
+               display: flex;
+               justify-content: start;
+           }
+       }
+    }
+       
+   }
+   .ow-disable-carousal-desktop{
+       .ow-card{
+           margin-top: 30px !important;
+           .card-overlay-text{
+               a{
+                   color: $white;
+                   &:hover{
+                       color: $white;
+                   }
+               }
+           }
+       }
+       .slick-slide{
+           .ow-card{
+               margin-top: 0px !important;
+       }
+   }
+   }
+   

@@ -1,0 +1,14 @@
+﻿---
+ID: "8359858d-1f96-4641-a5f5-c0872146ed32"
+Parent: "082554a8-7f4a-4953-bbfc-c90ff5b80d1a"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWebV2/sass/base/fonts
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170614T063653Z

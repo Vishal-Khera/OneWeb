@@ -1,0 +1,21 @@
+﻿---
+ID: "27adf044-5d30-4bb5-ba7a-0d03b1b374c0"
+Parent: "bfffab75-d1b8-4a9d-9e7e-c5133de95fc1"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/Testimonial/Container
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="ow-container">	</div>
+      <div class="ow-load-more d-none text-center">
+                <a href="javascript:void(0)" class="btn btn-secondary">{{sc_translate 'OneWeb-Search-LoadMore'}}</a>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220601T064345Z

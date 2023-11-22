@@ -1,0 +1,195 @@
+@import 'base/base-index.scss';
+
+.ow-video-player {
+    .overlay-text{
+    color: $brandblack;
+        @include md{
+            color: $white;
+        }
+    }
+}
+
+.dark-theme{
+    .ow-video-player {
+        .overlay-text{
+            color: $base-light-gray;
+            @include md{
+                color: $white;
+            }
+        }
+    }
+}
+
+.ow-video-player {
+    position: relative;
+    margin: 0px 0px;
+    overflow: hidden;
+    width: 100%;
+    @include border-radius(8px);
+    @include md{
+        margin: 0px 0px;
+    }
+    a{
+        &:hover {
+            &+.media-wrapper {
+                .ow-play-button {
+                    background-color: $brand;
+    
+                    .icon-play-btn::before {
+                        color: $base-light-gray;
+                    }
+                }
+            }
+        }
+    
+        &:focus {
+            &+.media-wrapper {
+                .ow-play-button {
+                    background-color: $brand;
+                    outline: 3px solid $play-btn-focus;
+                    outline-offset: 3px;
+    
+                    .icon-play-btn::before {
+                        color: $base-light-gray;
+                    }
+                }
+            }
+        }
+    }
+    &.video-played {
+        a{
+            display: none !important;
+        }
+        .ow-overlay-thumbnail,
+        .media-wrapper .ow-play-button {
+            display: none !important;
+        }
+        @include md{
+            .ow-overlay-thumbnail,
+            .media-wrapper .ow-play-button,
+            .overlay-text{
+                display: none !important;
+            }
+        }
+    }
+
+    &.ow-iframe-play{
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+        @include border-radius(8px);
+    }
+
+    .media-wrapper{
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        padding-top: 56.25%;
+        @include border-radius(8px);
+        video, iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            @include border-radius(8px);
+        }
+        .ow-play-button {
+            position: absolute;
+            left: 13px;
+            bottom: 10px;
+            right: 0;
+            width: 48px;
+            height: 48px;
+            z-index: 2;
+            @include border-radius(50%);
+            background-color: $base-light-gray;
+            transition: ease-in-out 0.2s all;
+
+            @include md {
+                top: 46px;
+                left: 43px;
+                bottom: 0px;
+                right: 0;
+                min-width: 72px;
+                height: 72px;
+                width: 72px;
+            }
+
+            .icon-play-btn {
+                &::before {
+                    position: relative;
+                    left: 17px;
+                    top: 13px;
+                    color: $brandblack;
+                    @include font-size($mlg-font);
+
+                    @include md {
+                        left: 27px;
+                        top: 22px;
+                    }
+                }
+            }
+        }
+    }
+
+    a {
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 56.25%;
+    }
+
+    .ow-overlay-thumbnail {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 56.25%;
+        &::after {
+            content: "";
+            background: $thumbnail-black;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            @include border-radius(8px);
+        }
+
+        img {
+            position: absolute;
+            top: 0;
+            object-fit: cover;
+            @include border-radius(8px);
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .overlay-text {
+        max-width: 600px;
+        margin-top: 15px;
+        @include md {
+            position: absolute;
+            top: 56px;
+            left: 148px;
+            z-index: 2;
+            padding-right: 30px;
+            margin-top: 0px;
+        }
+        @include lg{
+            padding-right: 0px;
+        }
+        h2{
+            color: inherit;
+        }
+    }
+}

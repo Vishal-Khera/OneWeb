@@ -1,0 +1,171 @@
+﻿---
+ID: "57db8270-1e7f-471f-b129-036e1762d749"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "b794d898-4dca-4f59-9674-6b9994b63b59"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/News Detail Page
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{7397188C-1183-4DAB-BD16-F43600B5C16D}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2A918814-9A5B-46A5-A3DA-209B36A15D2F}"
+- ID: "e40bdb84-8c4c-44ea-8fe6-005ee4708672"
+  Hint: Tags
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        s:l="{39585166-248F-4A71-B09E-8E35A8EFA251}">
+        <r
+          uid="{AA1EBCDA-E5F3-47D8-A844-57B14A34A96C}"
+          p:before="*"
+          s:ds="{BD617694-A280-4CB8-8DD7-F9115F9AF7B0}"
+          s:id="{A2F42D2A-2034-46D8-A312-A7F23413AF2E}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BAC8D90A0-77B5-4D58-B4C3-BCAEE7A937B1%7D&amp;Styles&amp;TitleHeadingLevel&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9&amp;OwClass=ow-social-icons"
+          s:ph="/main/ow-container-6/ow-row-7/ow-column-8" />
+        <r
+          uid="{CB403222-5B80-4400-9515-3C76D8783742}"
+          p:after="r[@uid='{AA1EBCDA-E5F3-47D8-A844-57B14A34A96C}']"
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/ow-container-6/ow-row-7" />
+        <r
+          uid="{F0F69CB8-FF62-4F46-BEE6-53FB47631B3D}"
+          p:after="r[@uid='{CB403222-5B80-4400-9515-3C76D8783742}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/ow-container-6" />
+        <r
+          uid="{0CCFC051-5A7A-4E16-9602-6A1AA63FABAA}"
+          p:after="r[@uid='{F0F69CB8-FF62-4F46-BEE6-53FB47631B3D}']"
+          s:ds=""
+          s:id="{21C650A6-1BA6-41DB-969B-7C5E6E3F8871}"
+          s:par="GridParameters&amp;Page Size=10&amp;Pages To Skip=0&amp;FieldNames=%7BBFD0600D-0080-4D75-A085-164C39472FC2%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4/ow-column-10" />
+        <r
+          uid="{8E1DFA72-ADEE-4E60-BF61-9CA532633FBD}"
+          p:after="r[@uid='{0CCFC051-5A7A-4E16-9602-6A1AA63FABAA}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7BAC26BD3C-04DD-4A82-A235-028A027218E4%7D%7C%7BCD54A597-6132-4FE6-A38D-EB656E1E9EE3%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4" />
+        <r
+          uid="{29FA71D4-6598-4C1D-84BD-474419DFCFCE}"
+          p:after="r[@uid='{8E1DFA72-ADEE-4E60-BF61-9CA532633FBD}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7BB815A5D7-F00B-4989-88E0-9A3E1B0921A4%7D%7C%7B730F4379-126B-49DD-95D9-1F64B40A6B70%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11&amp;OwClass=mt-4%20mt-md-0"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4" />
+        <r
+          uid="{CE12A323-4BF0-409C-9143-08741D1030B4}"
+          p:after="r[@uid='{29FA71D4-6598-4C1D-84BD-474419DFCFCE}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3" />
+        <r
+          uid="{5B1AD9E6-FB66-4695-B3FE-E61119BDBA64}"
+          p:after="r[@uid='{CE12A323-4BF0-409C-9143-08741D1030B4}']"
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{65C96743-5D99-4D7D-8FF0-DBC23F34DE12}"
+          p:after="r[@uid='{5B1AD9E6-FB66-4695-B3FE-E61119BDBA64}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-fluid-1" />
+        <r
+          uid="{FA1D0DC8-1706-4D14-B089-1E2845491864}"
+          p:after="r[@uid='{65C96743-5D99-4D7D-8FF0-DBC23F34DE12}']"
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+        <r
+          uid="{0C5DB0B8-2909-4E2B-8583-CB939A6BD8D7}"
+          p:after="*[1=2]"
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CB403222-5B80-4400-9515-3C76D8783742}"
+              s:ds=""
+              s:par="GridParameters=%7BAC26BD3C-04DD-4A82-A235-028A027218E4%7D%7C%7BCD54A597-6132-4FE6-A38D-EB656E1E9EE3%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8" />
+            <r
+              uid="{FA1D0DC8-1706-4D14-B089-1E2845491864}"
+              s:ds=""
+              s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles=%7BB8B8E672-81A7-46D4-BF41-3EA79BA94276%7D&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1" />
+            <r
+              uid="{0C5DB0B8-2909-4E2B-8583-CB939A6BD8D7}"
+              s:ds=""
+              s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6&amp;OwClass=pb-5" />
+          </d>
+        </r>
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{E0B978C2-D6B4-4929-A005-DB31F8F69FCC}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211207T074439Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: <h1>CREAFORM NAMES NEW DIRECTOR OF ITS ENGINEERING DIVISION</h1>
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        <h3><strong>Philippe Cusson to lead Creaform Engineering’s business development and strategic operational planning.</strong></h3>
+        <br />
+        <br />
+        <p><span><strong>Lévis</strong></span><span><strong>, Québec, June 11, 2020</strong>&nbsp;</span>—&nbsp;<a href="https://cf3d.io/uEEj" style="color: #4f8abe;">Creaform Engineering</a>, division of&nbsp;<a>Creaform</a>&nbsp;and Québec leaders in end-to-end engineering services, is proud to appoint Philippe Cusson as its Business Leader. Given his extensive expertise in many industries, Mr. Cusson will ensure the promotion and stimulation of business development, all while increasing the focus on customer experience.</p>
+        <p>Philippe Cusson’s previous experience as Vice President at WAJAX brought him to implement business plans for the power systems market segment. It will be a game changer for Creaform Engineering with his acute knowledge of the industrial, automotive, power generation, marine and mining sectors—to name a few. Mr. Cusson’s strategic vendor management and development of engineered solutions have proven successful with major OEMs such as Rolls Royce Power Systems / MTU, Allison Transmission, Daimler Trucks, Kubota Engines and Volvo Penta.</p>
+        <p>Before WAJAX, Philippe Cusson formerly managed the advanced engineering and design team for the industrial division of IPL Inc., a leader in injection-molded plastic products. During that assignment, he developed innovative solutions for various industries such as automotive, transportation, food and beverage and telecommunications.</p>
+        <p>His position being instrumental in creating value for customers, Philippe Cusson will strengthen the measures put in place to ensure the satisfaction of Creaform Engineering’s clients and employees. This means focusing on maintaining and attracting talented experts in order to deliver unrivaled engineering capabilities.</p>
+        <blockquote style="color: #363636; background: #f6f6f6; margin-top: 2em; margin-bottom: 2em; padding: 15px; border-left: 4px solid #4f8abe; border-top-color: #4f8abe; border-right-color: #4f8abe; border-bottom-color: #4f8abe; letter-spacing: 0.5px;">
+        <p>Mr. Cusson puts it quite simply: “I make it a personal goal to foster team synergy, to reduce time-to-market and to make sure the team members commit to the achievement of our customers’ objectives. In regard to customer experience as a whole, the improvement of the product design, quality, reliability and cost will be the very foundation, all in alignment with Creaform’s core values of innovation, passion and determination.”</p>
+        </blockquote>
+        <p>Philippe Cusson holds a Mechanical Engineering degree from Université Laval and an MBA from UQAM. He also took part in an engineering exchange program at the University of Rhode Island. Much to his credit, he also initiated a fundraising activity and summited Kilimanjaro in favor of the Canadian Multiple Sclerosis Society.</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "44f377f0-3a04-48fe-bdac-e29079a9eafb"
+      Hint: Image Position
+      Value: Top Left
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: News Detail Page
+    - ID: "6a30b727-97b0-48ff-94d8-0656a5973182"
+      Hint: Navigation Url
+      Value: 
+    - ID: "c3a4c8c3-e295-4e69-b325-e7f302b04518"
+      Hint: Brands
+      Type: Treelist
+      Value: 
+    - ID: "e7b7335e-4e55-4e46-8ad2-1fe7e0d8cf17"
+      Hint: Date
+      Value: 

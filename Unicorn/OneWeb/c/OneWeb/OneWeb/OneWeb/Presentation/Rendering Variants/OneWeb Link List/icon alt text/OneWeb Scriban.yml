@@ -1,0 +1,27 @@
+﻿---
+ID: "aee51f1d-c387-41c7-b16e-5098b31763dd"
+Parent: "1545c91b-a894-437c-be84-e340682fb86e"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Link List/icon alt text/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+          <div class="component-content">
+         {{link_model = (ow_link_model i_item 'Link')}}
+        {{i_item .Icon.Image}}
+        <img  src="{{i_item .Icon.media_url }}" alt="{{i_item .Icon.Alt.raw}}" target="{{link_model.url}}" title="{{i_item .Icon.Alt.raw}}" >
+         </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220627T235922Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

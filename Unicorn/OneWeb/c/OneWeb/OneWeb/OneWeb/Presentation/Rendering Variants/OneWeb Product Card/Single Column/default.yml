@@ -1,0 +1,26 @@
+﻿---
+ID: "b6781aa0-f144-41f4-8073-86d3ba2c4d23"
+Parent: "9ca78019-95ad-40f0-ae38-23a4fee538fe"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Product Card/Single Column/default
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if i_item
+    	case i_item.template_name
+    		when "Product Detail"
+    			sc_execute i_datasource "Product Detail Scriban"
+    		else 
+    			sc_execute  i_datasource "Card Scriban"
+    	end
+    end-}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211224T182051Z

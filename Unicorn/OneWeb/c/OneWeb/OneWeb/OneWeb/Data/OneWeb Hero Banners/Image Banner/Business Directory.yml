@@ -1,0 +1,43 @@
+﻿---
+ID: "03519f4f-1cb2-45ff-a00c-be06ddce370d"
+Parent: "0f2f2516-be1a-4734-bf25-de45c050ef41"
+Template: "2cf8a428-d0c2-4d52-b598-ff72ee265123"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Hero Banners/Image Banner/Business Directory
+DB: master
+SharedFields:
+- ID: "e40bdb84-8c4c-44ea-8fe6-005ee4708672"
+  Hint: Tags
+  Value: "{69B2F86F-6347-4985-AFF0-B3165E33AA54}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{2DD57236-9432-43A1-9648-03A95F0174EB}" />
+    - ID: "1666f2e1-fec0-4c0d-8013-f4e9a5e00a32"
+      Hint: SecondaryLink
+      Value: |
+        <link linktype="internal" text="Get a Quote" title="get-a-quote" class="test-class" anchor="test" querystring="" target="_blank" id="{CC065443-BDCA-4077-B978-3DFDC2AB358D}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211202T132806Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Ultimate smallness.
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: <p> A story about how one of AMETEK businesses is pushing a boundary in their vertical and competency. Home page real estate that businesses should compete for</p>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "983a37b2-16e7-4dba-a96d-c0d5530f7699"
+      Hint: Subtext
+      Value: Lorem ipsum Lorem ipsum
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="See the results" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

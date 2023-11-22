@@ -1,0 +1,14 @@
+﻿---
+ID: "e132f002-9ae8-4dbd-9054-879c03ed680e"
+Parent: "c32c99fc-5c1e-44b2-9371-eba32e73882c"
+Template: "85adbf5b-e836-4932-a333-fe0f9fa1ed1e"
+Path: /sitecore/templates/Branches/Feature/OneWeb/OneWeb Search
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211120T185424Z

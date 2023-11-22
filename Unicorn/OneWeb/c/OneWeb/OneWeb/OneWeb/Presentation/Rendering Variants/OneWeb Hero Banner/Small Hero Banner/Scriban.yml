@@ -1,0 +1,66 @@
+﻿---
+ID: "5423b4d9-efc3-4624-88de-2b154b40fe13"
+Parent: "462bd5bf-1a2e-438b-89dc-96c7cc5fe855"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Hero Banner/Small Hero Banner/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if o_model && o_model.datasource_item
+    banner_model = o_model.datasource_item
+    banner_image = banner_model.Image
+    	case o_model.template_name
+    		when "OneWeb Banner Carousel"
+    			banner_model = ((sc_followmany i_item "Banner List") | array.first)
+    			if banner_model
+    				banner_image = banner_model.Image
+    			end
+    		when "OneWeb Image List Banner"
+    			banner_image = ((sc_followmany i_item "Image List") | array.first)
+    		when "OneWeb Video Banner"
+    			banner_model = null;
+    		else 
+    			banner_model = banner_model
+    	end
+    
+    if banner_model}}
+    <div class="slider-wrapper banner-small banner-text-mobile">
+        <div class="slider-item">
+    	{{-if banner_image}}
+    	{{media_model = ow_default_media banner_image.media_url}}
+    		{{-if media_model-}}
+    			<div class="slider-image">
+    				<div class="slide ow-lazy" data-src="{{ media_model.url }}"></div>
+    				</div>
+    		{{-end-}}
+    	{{-end-}}
+    	{{-if banner_model.title != '' || banner_model.content != ''-}}
+            <div class="slider-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 banner-md-font">
+    					{{-if banner_model.title != ''-}}
+                        <h2>{{-banner_model.title-}}</h2>
+    					{{-end-}}
+    					{{-if banner_model.content != ''-}}
+                        <div class="banner-description">{{-banner_model.content-}}</div>
+    					{{-end-}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+    		{{-end-}}
+        </div>
+    </div>
+    {{-end-}}
+    {{-end-}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211205T175004Z

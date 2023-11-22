@@ -1,0 +1,25 @@
+﻿---
+ID: "3b243dbe-3065-4239-a0cc-7d44dfac1bd9"
+Parent: "36f44537-16d9-4e82-9db8-e9057b708e6f"
+Template: "b9d24d6e-b838-4ec3-8d53-8a1853ab3639"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Language Switcher/French Language
+DB: master
+SharedFields:
+- ID: "0912d62f-3a89-4c04-9903-a24e9431d66d"
+  Hint: Language
+  Value: fr
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211227T175624Z
+    - ID: "58208083-7abc-48cc-af8c-489c94f5d2fc"
+      Hint: Title
+      Value: FR
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,18 @@
+﻿---
+ID: "51202c49-709d-4a48-93bd-7e55351b5986"
+Parent: "40ba3e3e-3603-4f69-a8f3-5085c8884763"
+Template: "18d0bd79-7da4-4c2a-a924-b93a2b99d669"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/Shared Sites Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T074208Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

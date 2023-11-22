@@ -1,0 +1,293 @@
+@import 'base/base-index.scss';
+
+.slider-wrapper {
+    width: 100%;
+
+    .slick-slide {
+        >div {
+            display: flex;
+            width: 100%;
+        }
+    }
+}
+
+.ow-bg-overlay {
+    .slider-image {
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: transparent linear-gradient(270deg, #00000000 0%, #00000070 0%, #000000 100%) 0% 0% no-repeat padding-box;
+        }
+    }
+}
+
+.slider-item {
+    position: relative;
+
+    .slider-image {
+        .slide {
+            padding-top: 66.4%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            @include md {
+                padding-top: 56.25%;
+            }
+
+            @include lg {
+                padding-top: 42.9%;
+            }
+        }
+    }
+
+    .btn-secondary {
+        @include lg {
+            color: $white !important;
+            border: 3px solid $white !important;
+
+            &:focus,
+            &:active {
+                border: 3px solid $primary !important;
+                outline: none;
+            }
+        }
+
+    }
+}
+
+.slider-content {
+    color: $white;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @include lg {
+        padding-top: 0px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-bottom: 0px;
+        padding-left: 45px;
+    }
+
+    @include xl {
+        padding-left: 0;
+    }
+
+    label {
+        color: $light-mid-gray;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        @include font-size($lg-font);
+        margin-bottom: 15px;
+        filter: drop-shadow(.0001em .0001em $black);
+        mix-blend-mode: difference;
+    }
+
+    h2 {
+        @include font-size($xxxl-font);
+        margin-bottom: 10px;
+        color: $primary;
+
+        @include lg {
+            color: $white;
+            margin-bottom: 30px;
+            filter: drop-shadow(.0001em .0001em $black);
+            mix-blend-mode: difference;
+        }
+    }
+
+    p {
+        margin-bottom: 30px;
+        @include font-size($lg-font);
+        color: $black;
+
+        @include lg {
+            color: $white;
+            margin-bottom: 50px;
+        }
+    }
+
+    .btn {
+        margin-right: 20px;
+        margin-bottom: 20px;
+
+        &:last-of-type {
+            margin-right: 0;
+            margin-bottom: 0px;
+        }
+
+        @include md {
+            margin-bottom: 0;
+        }
+
+
+        &.btn-primary,
+        &.btn-tertiary {
+            border-color: $black !important;
+            color: $black !important;
+            background-color: transparent !important;
+            vertical-align: baseline;
+            filter: drop-shadow(.0001em .0001em $black);
+           
+            &:focus,
+            &:active {
+                border-color: $primary !important;
+                background-color: $primary !important;
+                color: $white !important;
+                outline: none;
+            }
+
+            @include lg {
+                border-color: $white !important;
+                color: $white !important;
+                background: transparent !important;
+                &:focus,
+                &:active {
+                    border-color: $primary !important;
+                    background-color: $primary !important;
+                    color: $white !important;
+                    outline: none;
+                }
+            }
+        }
+
+    }
+}
+
+.slick-slider {
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 9;
+        color: $white;
+        font-size: 100px;
+        background: transparent;
+        border: 0;
+        text-indent: -99999px;
+        cursor: pointer;
+        opacity: .6;
+        height: 25px;
+
+        @include lg {
+            opacity: 1;
+            height: 25px;
+        }
+
+        &:after {
+            border-color: $primary;
+            border-width: 0 4px 4px 0;
+            display: inline-block;
+            padding: 8px;
+            content: '';
+            position: absolute;
+            border-style: solid;
+
+            @include lg {
+                border-color: $white;
+                padding: 15px;
+            }
+        }
+
+        &:focus,
+        &:active {
+            outline: 0;
+            border: 0;
+            box-shadow: none;
+        }
+    }
+
+    .slick-prev {
+        left: 10px;
+        @include lg {
+            left: 15px;
+        }
+
+        &:after {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+            left: 0px;
+
+            @include lg {
+                left: 10px;
+            }
+        }
+    }
+
+    .slick-next {
+        right: 10px;
+        @include lg {
+            right: 15px;
+        }
+
+        &:after {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            left: 0px;
+
+            @include lg {
+                left: -40px;
+            }
+        }
+    }
+
+    .slick-dots {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+
+        @include lg {
+            max-width: 1280px;
+        }
+
+        li {
+            &::marker {
+                display: none;
+                content: '';
+            }
+
+            button {
+                display: none;
+            }
+
+            height: 8px;
+            width: 8px;
+            border:1px solid $carousal-border;
+            @include border-radius(50%);
+            float: left;
+            margin: 10px 10px 10px 0;
+
+            @include md {
+                height: 15px;
+                width: 15px;
+                margin: 0px 20px 10px 0;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &.slick-active {
+                background-color: $dark-gray;
+                border-color: $dark-gray;
+            }
+        }
+    }
+}
+
+.dot-center {
+    .slick-dots {
+        justify-content: center;
+    }
+}

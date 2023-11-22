@@ -1,0 +1,41 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields
+@model OneWeb.Feature.Login.Models.DownloadFormModel
+
+
+<div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "ow-download-form", Model.Attributes)  ow-verify-user-identity="@Model.VerifyUserIdentity">
+    <div class="component-content">
+       
+        @if (Model.DataSourceItem == null)
+        {
+            @Model.MessageIsEmpty
+        }
+        else
+        {
+            <div id="donwloadformafterform">
+                <a   href=@Model.Media target="_blank">@Model.Title</a>
+            </div>
+            <div id="donwloadformbeforeform">
+                <a   href="#" data-toggle="modal" data-target="#form-model">@Model.Title</a>
+                <div class="modal fade" id="form-model" tabindex="-1" aria-labelledby="formModelLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="component container">
+                                <div clas="component-content">
+                                    @Html.Sitecore().Rendering("{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}", new { DataSource = Model.FormId })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

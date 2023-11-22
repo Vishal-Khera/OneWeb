@@ -1,0 +1,46 @@
+﻿---
+ID: "08a17c9c-2468-4963-af56-4da9b263985f"
+Parent: "5484b88d-bcfc-4d44-b603-c85937c6a4d8"
+Template: "886adec1-abf8-40e1-9926-d9189c4e8e1b"
+Path: /sitecore/Forms/OneWeb/OneWeb/OneWeb/OneWeb/SubscribeSucess/Section/SignupEmail
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: ABDC5B2AE75846D38DDAFE55915CD0D1
+- ID: "8a43af61-0812-4b37-a343-96cde3f12bb1"
+  Hint: Required
+  Type: Checkbox
+  Value: 1
+- ID: "9f7da002-7b86-436b-8dda-7efe5837b88e"
+  Hint: Min Length
+  Value: 0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "ecd17630-5f51-45db-b52f-b3dfaec4fa1b"
+  Hint: Store Binding Value
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T105449Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: 
+    - ID: "a6972f08-cbb5-4830-a8c9-8a0ae34650d1"
+      Hint: Placeholder Text
+      Value: Enter Email address

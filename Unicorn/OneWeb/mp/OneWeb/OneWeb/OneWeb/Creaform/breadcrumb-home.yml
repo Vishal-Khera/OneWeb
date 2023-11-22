@@ -1,0 +1,31 @@
+﻿---
+ID: "01b53a21-c3fe-4a30-97ee-a08c3d5348bf"
+Parent: "af53832f-bec5-4a19-8500-bfd37df4e025"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Creaform/breadcrumb-home"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/01B53A21C3FE4A3097EEA08C3D5348BF.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "a7186b3d-3f06-411a-89cb-07c92b7cff99"
+  Value: PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDExIDEzIj4NCiAgPHBhdGggaWQ9IlBhdGhfNDE4NSIgZGF0YS1uYW1lPSJQYXRoIDQxODUiIGQ9Ik0xMCw1LjQ0Miw1LjUsMS4zNTEsMSw1LjQ0MlYxMmg5Wk01LjUsMCwxMSw1djhIMFY1WiIgZmlsbD0iIzIzNjE5MiIgZmlsbC1ydWxlPSJldmVub2RkIi8+DQo8L3N2Zz4NCg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 232
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220704T124029Z

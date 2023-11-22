@@ -1,0 +1,18 @@
+﻿---
+ID: "f778a60a-1681-4b46-aa07-e47b4e9e6bee"
+Parent: "91b814dc-e540-44af-9594-8e7008e6ebd5"
+Template: "91b814dc-e540-44af-9594-8e7008e6ebd5"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Business/OneWeb Business Product/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T220939Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

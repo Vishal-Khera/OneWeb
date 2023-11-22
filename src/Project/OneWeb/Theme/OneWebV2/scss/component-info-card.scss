@@ -1,0 +1,70 @@
+@import 'base/base-index.scss';
+
+.card{
+    &.info-card {
+        display: block;
+        height: auto;
+        @include border-radius(12px);
+    
+        @include md {
+            @include border-radius(16px);
+        }
+    
+        .card-body {
+            height: 120px;
+            padding: 20px 15px 0px 15px;
+    
+            @include md {
+                padding: 30px 25px 0px 25px;
+                height: 180px;
+            }
+    
+            .card-title {
+                color: $black;
+                @include font-size($mlg-font);
+            }
+        }
+    
+        .card-image {
+            top: 0;
+            left: 0;
+            aspect-ratio: 13/10;
+    
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: $thumbnail-black;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                @include border-radius(0px 0px 12px 12px);
+    
+               @include md {
+                    @include border-radius(0px 0px 16px 16px);
+                }
+            }
+    
+            img {
+                @include border-radius(0px 0px 12px 12px);
+    
+                @include md {
+                    @include border-radius(0px 0px 16px 16px);
+                }
+            }
+        }
+    }
+}
+
+.dark-theme{
+    .light-theme-card {
+        .info-card {
+            .card-body {
+                .card-title {
+                    color: $black  !important;
+                }
+            }
+        }
+    }
+}

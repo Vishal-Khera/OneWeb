@@ -1,0 +1,21 @@
+﻿---
+ID: "dc2a5454-e5ca-44ce-ac12-c00bb9eb0e48"
+Parent: "5a332dc4-c7c1-4fba-8341-e41dab7e313d"
+Template: "203c7e2d-0b1e-452a-9131-0571054d9633"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Tags/OneWeb Expandable Card/Our Niche Market Focus
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220509T133715Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "e19779a0-5442-4bc9-a131-898a2a98d42f"
+      Hint: Title
+      Value: Our Niche Market Focus

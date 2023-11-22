@@ -1,0 +1,164 @@
+﻿---
+ID: "4f992433-1c10-4eb8-a07c-67878b29175b"
+Parent: "7449c49b-f4d9-44e3-8416-073e4471543c"
+Template: "5fb09cb1-caf4-43f1-b10d-5daca960b3ca"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Partial Designs/OneWeb Press Release Listing
+DB: master
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "oneweb-press-release-listing"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{A3F31D5E-6BA3-43BA-B964-E5B217B05FC9}"
+          p:before="*"
+          s:ds="{904BEC16-61DF-4E36-9B7B-E2FAC44A16E0}"
+          s:id="{8FCBC59C-90EB-45A3-9DD2-8E1300BA189A}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Configuration=query%3A%24site%2FSettings%2FOneWeb%20Search%20Configurations%2FSearch%2FPress%20Release&amp;FieldNames=%7BB6442FF2-9173-4837-A566-7B177D4A5B4A%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=15"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-11/ow-row-12/ow-column-13/ow-search-filter-wrapper" />
+        <r
+          uid="{B03C34B8-B333-4E0D-818F-21EA486D16DF}"
+          p:after="r[@uid='{A3F31D5E-6BA3-43BA-B964-E5B217B05FC9}']"
+          s:ds="query:$site/Settings/OneWeb Search Filters/Press Release/Timeline"
+          s:id="{8FCBC59C-90EB-45A3-9DD2-8E1300BA189A}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Configuration=query%3A%24site%2FSettings%2FOneWeb%20Search%20Configurations%2FSearch%2FPress%20Release&amp;FieldNames=%7BB6442FF2-9173-4837-A566-7B177D4A5B4A%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=16"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-11/ow-row-12/ow-column-13/ow-search-filter-wrapper" />
+        <r
+          uid="{0F2A32DE-3D4D-4B28-BE37-A048E483A8F7}"
+          p:after="r[@uid='{B03C34B8-B333-4E0D-818F-21EA486D16DF}']"
+          s:id="{E97323A4-2C43-45D6-811E-8B4DDE6F4EFA}"
+          s:par=""
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-11/ow-row-12/ow-column-13" />
+        <r
+          uid="{905AB81B-2B7D-41E7-9AC4-736EBFDF79B3}"
+          p:after="r[@uid='{0F2A32DE-3D4D-4B28-BE37-A048E483A8F7}']"
+          s:ds="query:$site/Data/OneWeb Search Boxes/Press Release"
+          s:id="{A518A432-35D8-4945-B8A6-52874CBA07A7}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B31889B83-EC38-418C-88BE-30FD7E3197E0%7D&amp;Styles&amp;Reset Caching Options&amp;SearchTextBoxVisible=1&amp;RenderingIdentifier&amp;DynamicPlaceholderId=17"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-11/ow-row-12/ow-column-14" />
+        <r
+          uid="{27B8759D-EC2C-471E-AEDE-5A6FC463F7ED}"
+          p:after="r[@uid='{905AB81B-2B7D-41E7-9AC4-736EBFDF79B3}']"
+          s:ds="query:$site/Settings/OneWeb Search Configurations/Search/Press Release"
+          s:id="{8FCBC59C-90EB-45A3-9DD2-8E1300BA189A}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Configuration=query%3A%24site%2FSettings%2FOneWeb%20Search%20Configurations%2FSearch%2FPress%20Release&amp;FieldNames=%7B1FAA3822-68A4-41A8-903D-1485E773D974%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=18"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-11/ow-row-12/ow-column-14" />
+        <r
+          uid="{E6FF48D0-F60B-4323-9E83-39E68E56DB25}"
+          p:after="r[@uid='{27B8759D-EC2C-471E-AEDE-5A6FC463F7ED}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7B287E897B-28E7-4D93-BA36-C780DDFCE01C%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=13"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-11/ow-row-12" />
+        <r
+          uid="{5B060278-C8A8-46B2-98F6-E7CB73D2A1A0}"
+          p:after="r[@uid='{E6FF48D0-F60B-4323-9E83-39E68E56DB25}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7B7F0C5511-0738-4742-A6B8-343E2438F908%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=14"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-11/ow-row-12" />
+        <r
+          uid="{C5DA4567-6FA0-4042-937A-94972FFD102D}"
+          p:after="r[@uid='{5B060278-C8A8-46B2-98F6-E7CB73D2A1A0}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-11" />
+        <r
+          uid="{EE77535A-EE4D-480C-A709-8D865B817720}"
+          p:after="r[@uid='{C5DA4567-6FA0-4042-937A-94972FFD102D}']"
+          s:ds=""
+          s:id="{9B2EE9CB-28D6-4DA4-9CDA-F335ECFE3E64}"
+          s:par="GridParameters=%7BAE58AC63-220B-4C8D-A491-D5E8D025078E%7D&amp;Page Size=10&amp;Pages To Skip=0&amp;FieldNames=%7BFDD86CD8-201E-46EA-8D4B-620B0B6935F1%7D&amp;HeaderStyle=%7B206DCD3D-85C5-453D-B361-8F6F115B484E%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-8/ow-row-9" />
+        <r
+          uid="{1CC12D11-E3B1-4653-8721-088846DBA6DC}"
+          p:after="r[@uid='{EE77535A-EE4D-480C-A709-8D865B817720}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-8" />
+        <r
+          uid="{9311C42E-6583-492D-9726-C239BCBE4FF8}"
+          p:after="r[@uid='{1CC12D11-E3B1-4653-8721-088846DBA6DC}']"
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{916AD43D-0085-4129-827D-2E7ED2DAF214}"
+          p:after="r[@uid='{9311C42E-6583-492D-9726-C239BCBE4FF8}']"
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{68910993-08EC-49E7-A718-FB6A75105EF9}"
+          p:after="r[@uid='{916AD43D-0085-4129-827D-2E7ED2DAF214}']"
+          s:ds=""
+          s:id="{DB161118-5694-4A81-81FF-67073D3833EB}"
+          s:par="GridParameters&amp;Press Releases&amp;Page Size=2&amp;Pages To Skip=0&amp;FieldNames=%7BC865F43F-0390-436D-9B18-30857A73071F%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3/ow-row-4" />
+        <r
+          uid="{CE12A323-4BF0-409C-9143-08741D1030B4}"
+          p:after="r[@uid='{68910993-08EC-49E7-A718-FB6A75105EF9}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3" />
+        <r
+          uid="{5B1AD9E6-FB66-4695-B3FE-E61119BDBA64}"
+          p:after="r[@uid='{CE12A323-4BF0-409C-9143-08741D1030B4}']"
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{5C359740-F5DC-4962-A247-E47095F3042E}"
+          p:after="r[@uid='{5B1AD9E6-FB66-4695-B3FE-E61119BDBA64}']"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{65C96743-5D99-4D7D-8FF0-DBC23F34DE12}"
+          p:after="r[@uid='{5C359740-F5DC-4962-A247-E47095F3042E}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-fluid-1" />
+        <r
+          uid="{FA1D0DC8-1706-4D14-B089-1E2845491864}"
+          p:after="*[1=2]"
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211225T023741Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211214T195039Z
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

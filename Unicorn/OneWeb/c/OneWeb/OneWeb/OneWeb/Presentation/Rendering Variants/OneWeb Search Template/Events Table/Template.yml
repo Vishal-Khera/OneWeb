@@ -1,0 +1,32 @@
+﻿---
+ID: "207fdc24-f273-49c9-8b16-78a75046a247"
+Parent: "add778a5-1bc5-42fc-9926-82e66dbe3be1"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/Events Table/Template
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    [[#each Results]]
+    <tr>
+    	<td><a href="[[this.Url]]">[[this.Title]]</a></td>
+    	<td>[[this.StartDate]]</td>
+    	<td>[[this.EndDate]]</td>
+    	<td>[[this.City]]</td>
+    	<td>[[this.Country]]</td>
+    	<td>[[this.BoothNo]]</td>
+    </tr>
+    [[/each]]
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220216T113624Z

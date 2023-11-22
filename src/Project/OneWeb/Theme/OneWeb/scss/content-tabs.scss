@@ -1,0 +1,227 @@
+@import 'base/base-index.scss';
+
+.tabs {
+    overflow: hidden;
+    position: relative;
+    background: none;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.tab-slider {
+    position: absolute;
+    background: $light-mid-gray;
+    cursor: pointer;
+    vertical-align: center;
+    width: 15px;
+    text-indent: -9999px;
+    z-index: 10;
+}
+
+.tabs-heading {
+    overflow: hidden;
+
+    li {
+        float: left;
+        display: block;
+        margin-left: 1px;
+        background: $light-mid-gray;
+        width: auto;
+        cursor: pointer;
+
+        >div {
+            padding: 3px 10px;
+            display: block;
+            text-decoration: none;
+            color: $black;
+
+            &:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            .field-heading {
+                font-size: 16px;
+            }
+
+            >.row {
+                display: block;
+            }
+        }
+
+        .component.content {
+            margin: 5px 0;
+        }
+
+        &.active {
+            background: $primary;
+            a {
+                color: $black;
+            }
+            .field-heading{
+                color:$white;
+            }
+        }
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+.tabs-container {
+    background: transparent;
+    margin-top: -1px;
+}
+
+.tab {
+    display: none;
+    padding: 10px 0;
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    &.active {
+        display: block;
+    }
+}
+
+/* breakpoints */
+
+.tabs {
+    &.tabs-bottom {
+        .tabs-container {
+            margin: 0;
+        }
+
+        .tabs-heading {
+            position: relative;
+            margin-top: -1px;
+
+            li {
+                margin-bottom: 0;
+                a {
+                    border: none;
+                }
+
+                &.active {
+                    a {
+                        border: none;
+                        position: relative;
+                    }
+                    .field-heading{
+                        color:$white;
+                    }
+                }
+            }
+        }
+
+        .tabs-container {
+            border-top: none;
+            background: transparent;
+            margin-bottom: 1px;
+        }
+    }
+
+    &.tabs-scrollable {
+        .tabs-heading {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            left: 0;
+        }
+
+        .tabs-container {
+            margin: 0;
+        }
+
+        .prev {
+            left: 0;
+            background: $primary url("../Images/arrow-left.png") center center no-repeat;
+        }
+
+        .next {
+            right: 0;
+            background: $primary url("../Images/arrow-right.png") center center no-repeat;
+        }
+
+        &.tabs-bottom {
+            .wrapper {
+                margin-top: 2px;
+                padding-bottom: 6px;
+            }
+
+            .next,
+            .prev {
+                top: 1px;
+            }
+
+            .tabs-heading {
+                margin-top: -4px;
+            }
+        }
+    }
+
+    &.tabs-vertical {
+        &.tabs-vertical-right {
+            .tabs-heading {
+                float: right;
+                margin-left: -1px;
+
+                li {
+                    &.active {
+                        a {
+                            border: none;
+                        }
+                        .field-heading{
+                            color:$white;
+                        }
+                    }
+                }
+            }
+
+            .tabs-container {
+                border-top: none;
+                margin-left: -1px;
+                border-left: none;
+            }
+        }
+
+        .tabs-heading {
+            width: 30%;
+            float: left;
+
+            li {
+                margin: 0 0 2px 0;
+                display: block;
+                width: 100%;
+                &.active {
+                    a {
+                        border: none;
+                    }
+                    .field-heading{
+                        color:$white;
+                    }
+                }
+
+                &:first-child {
+                    margin-top: 0;
+                }
+            }
+        }
+
+        .tabs-container {
+            margin: 0;
+            float: left;
+            width: 70%;
+            margin-left: -1px;
+            border-top: none;
+        }
+    }
+}

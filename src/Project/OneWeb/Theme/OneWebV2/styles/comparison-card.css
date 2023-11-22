@@ -1,0 +1,116 @@
+.comparison-card {
+  background: #EDEDED;
+  border-radius: 8px; }
+  .comparison-card__image-title {
+    padding: 15px 15px 0;
+    border-bottom: 1px solid rgba(26, 25, 24, 0.15); }
+    .comparison-card__image-title .title {
+      width: 100%;
+      height: 45px;
+      font-size: 16px;
+      float: left; }
+      @media screen and (min-width: 0) {
+        .comparison-card__image-title .title {
+          font-size: 16px; } }
+      @media screen and (min-width: 768px) {
+        .comparison-card__image-title .title {
+          font-size: 16px; } }
+      @media screen and (min-width: 992px) {
+        .comparison-card__image-title .title {
+          font-size: 18px; } }
+    .comparison-card__image-title .image-wrap {
+      aspect-ratio: 7/6; }
+      .comparison-card__image-title .image-wrap img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
+  .comparison-card__details {
+    padding: 15px; }
+    .comparison-card__details .list-item-detail {
+      margin-bottom: 8px; }
+      .comparison-card__details .list-item-detail label {
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 0;
+        color: rgba(26, 25, 24, 0.5); }
+        @media screen and (min-width: 0) {
+          .comparison-card__details .list-item-detail label {
+            font-size: 14px; } }
+        @media screen and (min-width: 768px) {
+          .comparison-card__details .list-item-detail label {
+            font-size: 14px; } }
+        @media screen and (min-width: 992px) {
+          .comparison-card__details .list-item-detail label {
+            font-size: 14px; } }
+      .comparison-card__details .list-item-detail .list-item {
+        font-size: 16px; }
+        @media screen and (min-width: 0) {
+          .comparison-card__details .list-item-detail .list-item {
+            font-size: 16px; } }
+        @media screen and (min-width: 768px) {
+          .comparison-card__details .list-item-detail .list-item {
+            font-size: 16px; } }
+        @media screen and (min-width: 992px) {
+          .comparison-card__details .list-item-detail .list-item {
+            font-size: 18px; } }
+
+.dark-theme-card .comparison-card {
+  background: rgba(44, 42, 41, 0.9); }
+  .dark-theme-card .comparison-card * {
+    color: #fff; }
+  .dark-theme-card .comparison-card .list-item-detail label {
+    color: rgba(255, 255, 255, 0.5); }
+
+.slider-wrapper .comparison-card {
+  margin: 0 15px; }
+
+.dark-theme-card .comparison-card *, .dark-theme-card.comparison-card * {
+  color: #fff; }
+
+.dark-theme-card .comparison-card__details .list-item-detail label, .dark-theme-card.comparison-card__details .list-item-detail label {
+  color: rgba(255, 255, 255, 0.5); }
+
+.dark-theme-card .comparison-card__image-title, .dark-theme-card.comparison-card__image-title {
+  border-color: rgba(255, 255, 255, 0.15); }
+
+.ow-background-wrapper {
+  padding-left: 0;
+  padding-right: 0; }
+  .ow-background-wrapper > .component-content {
+    padding-top: 150px;
+    padding-bottom: 220px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .ow-background-wrapper > .component-content:before {
+      content: '';
+      position: absolute;
+      background: rgba(0, 0, 0, 0.4);
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0; }
+  @media only screen and (min-width: 768px) {
+    .ow-background-wrapper .text-wrapper * {
+      color: #fff; } }
+  @media (max-width: 767px) {
+    .ow-background-wrapper {
+      background-image: none !important;
+      padding-top: 30px;
+      padding-bottom: 30px; }
+      .ow-background-wrapper:before {
+        background: none !important; } }
+  @media only screen and (max-width: 767px) and (min-width: 768px) {
+    .ow-background-wrapper .text-wrapper * {
+      color: #2C2A29; } }
+  @media (max-width: 767px) {
+      .ow-background-wrapper .comparison-card, .ow-background-wrapper.comparison-card {
+        background: #EDEDED; }
+        .ow-background-wrapper .comparison-card *, .ow-background-wrapper.comparison-card * {
+          color: #2C2A29 !important; }
+        .ow-background-wrapper .comparison-card__details .list-item-detail label, .ow-background-wrapper.comparison-card__details .list-item-detail label {
+          color: rgba(26, 25, 24, 0.5); }
+        .ow-background-wrapper .comparison-card__image-title, .ow-background-wrapper.comparison-card__image-title {
+          border-color: rgba(26, 25, 24, 0.15); } }

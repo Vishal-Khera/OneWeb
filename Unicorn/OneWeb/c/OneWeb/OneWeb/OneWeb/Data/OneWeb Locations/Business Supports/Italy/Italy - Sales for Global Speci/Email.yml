@@ -1,0 +1,20 @@
+﻿---
+ID: "8f3df971-06a9-4f6b-a205-064b3a2189e3"
+Parent: "7a3a4653-5934-4c01-a107-9a22d5494693"
+Template: "f229fc5b-2172-404c-90dd-e1f0fe047cc7"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/Business Supports/Italy/Italy - Sales for Global Speciality Motors/Email"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17500a11-fa62-46bd-a98f-b95f142766a9"
+      Hint: Title
+      Value: xx@gmail.com
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220615T082037Z
+    - ID: "523cc883-8778-4897-92a1-e13c4c905d6a"
+      Hint: SupportType
+      Value: "{40566E30-9698-4DED-AAB9-49D8778A4558}"

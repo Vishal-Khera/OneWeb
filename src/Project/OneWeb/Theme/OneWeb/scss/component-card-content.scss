@@ -1,0 +1,21 @@
+@import "base/base-index.scss";
+.ow-card-content {
+  h1 {
+    color: $primary;
+    @include font-size($smxxl-font);
+    font-family: "Helvetica Neue";
+    margin-bottom: 15px;
+  }
+
+  .description {
+    @include font-size($lg-font);
+  }
+
+  .card-img {
+    width: 100%;
+
+    img{
+        width: fit-content;
+    }
+  }
+}

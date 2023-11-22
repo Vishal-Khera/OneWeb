@@ -1,0 +1,69 @@
+﻿---
+ID: "acbc6bcb-ba5f-430e-a7d3-73ab7a23d702"
+Parent: "494541ea-46bc-4348-aa6c-b872bbfecbd7"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Video/Video Popup With Page design V1/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if o_model.video_info }} 
+    <a  href="javascript:void(0)" class=" play-video" data-toggle="modal"  data-target="#video-Modal_{{i_item.Id}}" >   
+        <div class="video-tutorial-wrapper  ">
+    	  <div class="video-thumbanial"> 		 
+                  {{if (o_model.video_info.placeholder_image.url | string.size>0)}}
+                  <img  src='{{o_model.video_info.placeholder_image.url}}'
+              alt='{{o_model.video_info.placeholder_image.alt}}'
+              title='{{o_model.video_info.placeholder_image.title}}' />
+                 {{end}}
+                   {{media_model = ow_default_play_icon i_item.Image.media_url}}
+                {{if media_model}}
+               <div class="play-icon">
+               <img src='{{ media_model.url }}' alt="video-player" title="play-icon" width="50" height="50">
+               </div>     
+              {{end}}
+          </div>        
+          <div class="video-title-group">     
+          {{if o_model.video_info.title != ''}}
+     <div class="title">
+                   <h4>{{o_model.video_info.title}}</h4>    
+      </div>        
+                {{end}}         
+          {{if (i_item.Duration |  string.size > 0)}}
+          <div class="watch-time"><span>{{i_item.Duration}}</span></div>
+          {{end}}
+         </div>
+         <div id="video-Modal_{{i_item.Id}}" class="modal fade" role="dialog">
+         <div class="modal-dialog">            
+          <div class="modal-content">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">×</span>
+             </button>
+             <div class="modal-wrapper">
+           <div class="videowraper videoplay-btn iframe-wrapper ow-video-banner">                                        
+                   <div class="video-comp">                                                                            
+                    {{o_model.video_info.iframe}}                
+                </div>                                   
+            </div>               
+                  {{if o_model.video_info.content != ''}}
+     <div class="text-wrapper">                
+                    <div class="description">{{o_model.video_info.content}}</div>
+     </div>
+              </div>
+                    {{end}}           
+          </div>
+           </div>                         
+             </div>    
+        </div>
+        </a>            
+    
+    {{end}} 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220214T121547Z

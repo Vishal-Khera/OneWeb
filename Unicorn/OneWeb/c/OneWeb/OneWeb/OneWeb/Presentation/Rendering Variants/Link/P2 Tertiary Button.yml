@@ -1,0 +1,14 @@
+﻿---
+ID: "0c89d721-da59-40f5-b4ac-ec91c3e3f2ce"
+Parent: "9a84b239-3366-44d4-8953-15df80800859"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Link/P2 Tertiary Button
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221012T221442Z

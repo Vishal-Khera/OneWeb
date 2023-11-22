@@ -1,0 +1,42 @@
+﻿---
+ID: "ca733b0e-2a18-4cd3-b747-111e4cb341d5"
+Parent: "d76ac750-a8fc-467d-821a-8a73faba8e41"
+Template: "2dab00c3-0548-4391-9113-5f8c2605231e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder/Promo Overflow Card
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{39D29928-8409-4062-B45F-AE724975E97F}" />
+    - ID: "1666f2e1-fec0-4c0d-8013-f4e9a5e00a32"
+      Hint: SecondaryLink
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T185429Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: "Looking for the ultimate portable metrology-grade 3D scanner for quality control or product development?"
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: "Our experts will find the perfect 3D measurement solution for you!"
+    - ID: "983a37b2-16e7-4dba-a96d-c0d5530f7699"
+      Hint: Subtext
+      Value: 
+    - ID: "d8102b5b-0ae4-4e50-9880-2d71b652465e"
+      Hint: MobileImage
+      Value: |
+        <image mediaid="{39D29928-8409-4062-B45F-AE724975E97F}" />
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="View all solutions" anchor="" linktype="internal" class="test-ow" title=""  querystring="" id="{CC065443-BDCA-4077-B978-3DFDC2AB358D}" />

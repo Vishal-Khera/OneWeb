@@ -1,0 +1,22 @@
+﻿---
+ID: "59f33467-6162-4e42-abb0-874a3d7e4bfb"
+Parent: "0a6b7b9e-cfb8-4d70-b257-2d8ee755e49f"
+Template: "4c66a917-60dd-42c7-9b74-a84264cacbb2"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Navigation Link List Folder/List One/The Ametek growth model
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211126T065151Z
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: |
+        <link text="The AMETEK growth model" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

@@ -1,0 +1,21 @@
+﻿---
+ID: "aa3e29f8-18e8-41ce-a251-377a151240e0"
+Parent: "341c0fad-531d-4192-968d-202bd11fe032"
+Template: "851511fa-16f0-4200-9650-33c8af27bf94"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Search/Filter Types/Checkbox
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211215T102300Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: checkbox

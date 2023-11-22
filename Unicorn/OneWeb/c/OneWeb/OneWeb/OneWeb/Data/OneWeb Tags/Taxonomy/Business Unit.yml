@@ -1,0 +1,20 @@
+﻿---
+ID: "98c14f7a-3974-498c-8b83-9f42cf63151e"
+Parent: "dc886841-c688-4ab4-8e0e-7493d447d7b1"
+Template: "203c7e2d-0b1e-452a-9131-0571054d9633"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Tags/Taxonomy/Business Unit
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T051740Z
+    - ID: "b8a6200e-1384-441a-be51-bf534bc99511"
+      Hint: Color
+      Value: grey
+    - ID: "e19779a0-5442-4bc9-a131-898a2a98d42f"
+      Hint: Title
+      Value: Business Unit

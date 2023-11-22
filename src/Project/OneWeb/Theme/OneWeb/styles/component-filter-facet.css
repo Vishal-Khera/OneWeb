@@ -1,0 +1,72 @@
+.filter-facet-wrapper {
+  padding: 20px;
+  box-shadow: 0px 3px 6px #00000029;
+  margin-bottom: 30px; }
+  .filter-facet-wrapper .filter-facet-head {
+    border-bottom: 1px solid #BEBEBE;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: 'HelveticaNeue-Bold'; }
+    @media screen and (min-width: 0) {
+      .filter-facet-wrapper .filter-facet-head {
+        font-size: 20px; } }
+    @media screen and (min-width: 768px) {
+      .filter-facet-wrapper .filter-facet-head {
+        font-size: 20px; } }
+    @media screen and (min-width: 992px) {
+      .filter-facet-wrapper .filter-facet-head {
+        font-size: 20px; } }
+  .filter-facet-wrapper .filter-facet-items .filter-item {
+    padding: 10px 0 0;
+    display: flex;
+    align-content: flex-start; }
+    .filter-facet-wrapper .filter-facet-items .filter-item label {
+      margin-bottom: 0;
+      cursor: pointer; }
+    .filter-facet-wrapper .filter-facet-items .filter-item input {
+      height: auto;
+      margin-right: 5px;
+      cursor: pointer;
+      margin-top: 3px;
+      min-width: 15px; }
+  .filter-facet-wrapper .filter-facet-clear {
+    border-top: 1px solid #BEBEBE;
+    padding-top: 10px;
+    margin-top: 10px; }
+    .filter-facet-wrapper .filter-facet-clear a {
+      color: #D9171D;
+      border-right: 1px solid #707070;
+      padding-right: 13px;
+      margin-right: 10px;
+      font-family: 'HelveticaNeue-Medium'; }
+      .filter-facet-wrapper .filter-facet-clear a:last-child {
+        border-right: 0;
+        padding-right: 0;
+        margin-right: 0; }
+
+.filter-mobile {
+  margin-bottom: 30px; }
+  .filter-mobile i {
+    margin-right: 5px; }
+  .filter-mobile .reset-text,
+  .filter-mobile .filter-text {
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    color: #fff; }
+  .filter-mobile .filter-text {
+    background: #2B2B2B;
+    color: #fff; }
+  .filter-mobile .reset-text {
+    display: none;
+    background: #D9171D; }
+  .filter-mobile.active .filter-text {
+    display: none; }
+  .filter-mobile.active .reset-text {
+    display: block; }
+
+.filter-wrapper {
+  display: none; }
+  @media only screen and (min-width: 768px) {
+    .filter-wrapper {
+      display: block; } }

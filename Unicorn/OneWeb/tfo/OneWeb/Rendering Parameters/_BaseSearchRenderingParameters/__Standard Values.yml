@@ -1,0 +1,24 @@
+﻿---
+ID: "a503e9eb-09b3-4ff4-9971-3e2a697e638e"
+Parent: "fcd6cda8-6761-47af-b120-e762fe3435db"
+Template: "fcd6cda8-6761-47af-b120-e762fe3435db"
+Path: /sitecore/templates/Foundation/OneWeb/Rendering Parameters/_BaseSearchRenderingParameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0e5f330a-9ca2-43e1-8caa-7b001492a510"
+      Hint: Page Size
+      Value: 10
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211209T092127Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c5b22f7b-1aa7-45e7-859d-b6f8e52be60a"
+      Hint: Pages To Skip
+      Value: 0

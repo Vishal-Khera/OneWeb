@@ -1,0 +1,37 @@
+﻿---
+ID: "50ce930d-6a03-4ace-a3a8-3ada38f61eb4"
+Parent: "ea81f126-aa9a-4f61-b805-93f6c890e759"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card/Contact Detail Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="ow-contact-side-details">
+        <div class="component-content">
+    	{{ if(i_item.title != "") }}
+    		<div class="right-contact-title white-gray-background">
+                <span>{{ i_item.title }}</span>
+            </div>
+    	{{ end }}
+    		{{ if(i_item.content != "") }}
+    		{{ i_item.content }}
+    		{{ end }}
+        </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T040633Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

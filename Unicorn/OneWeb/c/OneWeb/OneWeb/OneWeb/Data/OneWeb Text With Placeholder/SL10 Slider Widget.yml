@@ -1,0 +1,27 @@
+﻿---
+ID: "be17e421-b989-4c54-97c0-3e3294a70288"
+Parent: "b327e41f-ccd9-4aae-a95b-83f8d11dde02"
+Template: "7501c76d-ca5a-4436-b9d6-1330d295f3fa"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Text With Placeholder/SL10 Slider Widget
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220721T124930Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Our Products
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: 
+    - ID: "983a37b2-16e7-4dba-a96d-c0d5530f7699"
+      Hint: Subtext
+      Value: Cutting edge 3D Measurement and analysis technology
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="View all our 3D scanners" anchor="" linktype="internal" class="default-btn-color" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

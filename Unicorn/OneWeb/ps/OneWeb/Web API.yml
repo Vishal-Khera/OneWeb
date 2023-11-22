@@ -1,0 +1,18 @@
+﻿---
+ID: "801f03a7-97b9-47fa-83e1-ced6c2bdeaf6"
+Parent: "ab5da6cb-5860-41c4-8a3c-2a58960768ec"
+Template: "ab154d3d-1126-4ab4-ac21-8b86e6bd70ea"
+Path: /sitecore/system/Modules/PowerShell/Script Library/SXA/OneWeb/Web API
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170420T124436Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

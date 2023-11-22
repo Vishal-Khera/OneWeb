@@ -1,0 +1,49 @@
+﻿---
+ID: "97358395-cdc4-4cd7-b448-ec55d2f69456"
+Parent: "d76ac750-a8fc-467d-821a-8a73faba8e41"
+Template: "2dab00c3-0548-4391-9113-5f8c2605231e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder/Creaform Job Header Text
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2A918814-9A5B-46A5-A3DA-209B36A15D2F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220803T170725Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: 
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        <h2>Our Customer Services Department is looking for a Mechanical <br />engineer-robots specialization. Main mission: to provide technical <br /> support to the various Creaform actors involved in the field of <br /> automated quality control (A-QC), so that projects are carried out in <br /> a timely and quality manner, in order to ensure customer <br /> satisfaction. If you wish to take up new challenges and associate<br /> your talent with a passionate and determined team, choose Creaform, we will have fun together.</h2><br /><br /><h2>You'll be responsible for</h2><br /><h3><ul>
+        <li>Delivering the A-QC service offering by creating or optimizing robot trajectories<br /> for our customers quailty control, off-line simulation or assistance in the <br /> mechanical design of jigs adapted to digitization and integration.</li><br /><li>Integrating Creaform systems during the installation of robotic solutions on<br /> customers sites by acting as a coordinator as needed, of the various participants;</li><br /><li>integrating Creaform systems during the installation of robotics solution on customer sites on<br /> customers sites by acting as a coordinator as needed, of the various participants;</li><br /></ul></h3>
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221017T154354Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: 
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        <h2>Our Customer Services Department is looking for a Mechanical <br />engineer-robots specialization. Main mission: to provide technical <br /> support to the various Creaform actors involved in the field of <br /> automated quality control (A-QC), so that projects are carried out in <br /> a timely and quality manner, in order to ensure customer <br /> satisfaction. If you wish to take up new challenges and associate<br /> your talent with a passionate and determined team, choose Creaform, we will have fun together.</h2><br /><br /><h2>You'll be responsible for</h2><br /><h3><ul>
+        <li>Delivering the A-QC service offering by creating or optimizing robot trajectories<br /> for our customers quailty control, off-line simulation or assistance in the <br /> mechanical design of jigs adapted to digitization and integration.</li><br /><li>Integrating Creaform systems during the installation of robotic solutions on<br /> customers sites by acting as a coordinator as needed, of the various participants;</li><br /><li>integrating Creaform systems during the installation of robotics solution on customer sites on<br /> customers sites by acting as a coordinator as needed, of the various participants;</li><br /></ul></h3>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\yashu.altudo
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221017T154354Z

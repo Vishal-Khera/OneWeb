@@ -1,0 +1,104 @@
+.ow-video {
+  display: flex; }
+  .ow-video .modal-wrapper {
+    width: 100%; }
+  .ow-video .component-content {
+    display: flex; }
+    .ow-video .component-content a {
+      display: flex;
+      width: 100%; }
+      .ow-video .component-content a .video-tutorial-wrapper {
+        box-shadow: 0 3px 12px #7F7F7F;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        box-sizing: border-box;
+        margin-left: 0px;
+        height: auto;
+        margin-bottom: 20px;
+        cursor: pointer;
+        width: 100%; }
+        .ow-video .component-content a .video-tutorial-wrapper .video-thumbanial {
+          position: relative;
+          height: 250px; }
+          .ow-video .component-content a .video-tutorial-wrapper .video-thumbanial img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover; }
+          .ow-video .component-content a .video-tutorial-wrapper .video-thumbanial .play-icon {
+            position: absolute;
+            z-index: 2;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); }
+            .ow-video .component-content a .video-tutorial-wrapper .video-thumbanial .play-icon img {
+              height: 106px; }
+              @media only screen and (min-width: 992px) {
+                .ow-video .component-content a .video-tutorial-wrapper .video-thumbanial .play-icon img {
+                  height: 112px; } }
+        .ow-video .component-content a .video-tutorial-wrapper .video-title-group {
+          width: 100%;
+          padding: 10px 20px;
+          height: auto;
+          background: #fff;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between; }
+          .ow-video .component-content a .video-tutorial-wrapper .video-title-group .title {
+            width: 75%;
+            text-align: left; }
+            .ow-video .component-content a .video-tutorial-wrapper .video-title-group .title h4 {
+              font-size: 20px;
+              color: #D9171D;
+              font-family: "Helvetica Neue";
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden; }
+              @media screen and (min-width: 0) {
+                .ow-video .component-content a .video-tutorial-wrapper .video-title-group .title h4 {
+                  font-size: 20px; } }
+              @media screen and (min-width: 768px) {
+                .ow-video .component-content a .video-tutorial-wrapper .video-title-group .title h4 {
+                  font-size: 20px; } }
+              @media screen and (min-width: 992px) {
+                .ow-video .component-content a .video-tutorial-wrapper .video-title-group .title h4 {
+                  font-size: 20px; } }
+            .ow-video .component-content a .video-tutorial-wrapper .video-title-group .title .description {
+              font-size: 16px;
+              color: #2B2B2B;
+              font-family: "Helvetica Neue";
+              display: -webkit-box;
+              -webkit-line-clamp: 1;
+              -webkit-box-orient: vertical;
+              overflow: hidden; }
+              @media screen and (min-width: 0) {
+                .ow-video .component-content a .video-tutorial-wrapper .video-title-group .title .description {
+                  font-size: 16px; } }
+              @media screen and (min-width: 768px) {
+                .ow-video .component-content a .video-tutorial-wrapper .video-title-group .title .description {
+                  font-size: 16px; } }
+              @media screen and (min-width: 992px) {
+                .ow-video .component-content a .video-tutorial-wrapper .video-title-group .title .description {
+                  font-size: 16px; } }
+          .ow-video .component-content a .video-tutorial-wrapper .video-title-group .watch-time {
+            width: 25%;
+            text-align: right; }
+            .ow-video .component-content a .video-tutorial-wrapper .video-title-group .watch-time::before {
+              background: url(../images/time-svgrepo-com-black.svg);
+              content: "";
+              color: #000;
+              background-repeat: no-repeat;
+              padding-right: 15px;
+              position: relative;
+              top: 5px; }
+    .ow-video .component-content .video-notice {
+      background-color: rgba(255, 255, 255, 0.9);
+      text-align: center;
+      padding: 3rem;
+      width: 100%;
+      display: block;
+      position: absolute;
+      left: 0;
+      z-index: 10;
+      height: 100%; }

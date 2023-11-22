@@ -1,0 +1,19 @@
+﻿---
+ID: "192efd74-ba0e-42b6-9500-7b7f1fd6bc34"
+Parent: "ff9b8ecb-2b24-4691-aff8-faf4b0065da5"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Promo/Full Width Text Image reverse
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{881259D9-6609-42F6-A6B0-86ED14A6E081}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T125557Z

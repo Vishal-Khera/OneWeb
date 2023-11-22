@@ -1,0 +1,47 @@
+﻿---
+ID: "97eb4fb6-3b75-4d3c-bfd9-b676d542cbc4"
+Parent: "a9299fe8-872c-4132-a34c-27f8eabe511d"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Icons/product-idea"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/97EB4FB63B754D3CBFD9B676D542CBC4.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 40
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "9f84d754-9157-4145-80a1-f28c29ce397e"
+  Value: iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABHNCSVQICAgIfAhkiAAAArtJREFUWEftlkFoE1EQhmd20zRtAlpsCx4UoXhQ7EGwoqAnL4YkFg+pxSbNQVGoBKV0s3rLydREiwhK8SJk0xwasFqSiAfxIqjUixQVKSiKgiBCtFpbzL7xJbUokcLu28UGyTvu7rz59p9/3jyEOl9Y53zQALRaoYaCDQWtKmA1/r/3IIZT+dOa4r9cq1R/YmqL0+HamFa8D62oaEnBcLIwBUg7OODWWggOfgwIxxEhklZ8WVFIYcBAPNu+3r3uNgB1rgoIEALARU3xef85YCVhOFV4xgGdqwPiNWIskVED8TUBDMYnPa7W1qdazN9VCxBKTZ9Ewm4tFojyd7QmgFUVk4UxPtH7gejTbwiUuTddwPQ+Te19IgpXiRP24EpSb7TY3LGJzX6fWdiWy/XpleehC/lRkOFVZsR/3QqcLYDLXsyfQcAeIni7vCkNgoN2p4cD7+sE8G4n0I/nvCGGAKVTKOMjbcSnWoWzTcFqWZP5/UgwhBIeLLHy5mm1d76uAL1XuBeX2AduwuiE4s/YAWergpXNBpOF1+Bg++zw3soPCnVx8Op9T/P817/OPknCol3NIQzID2dni9s9S0QPeOey2lKWqDxsl/+ESnz4/M0NnibnLWJ0SZIkQxOCMSJeqjlN9b8w602hEvOOPcHV22s0GfKZxxH3fKZyj1l1hQAjyWIXQ2o3CsiYjoiOGANdzcYCc0bjhEocPDfZ4Wpzv+Sa3EOQykaT8ekyw++FY0a/F26SgdFCtyzBjSXAI7JEhgGzj7+9g1+z2gykUIkHLha9kg7bDSdCXeaePf5xobTrTjz0xXBcda6bXfG4FGrZeQBlrqPBRVUPNqmLejmSO3uoeqEwukwDHk3k22QHKvzXTMUynb2ZUAPjRsGEPWg2gdXvTalgNZlIfANQRLU/YxoKNhS0qoDV+Lr34E9cvOUp1l4vdAAAAABJRU5ErkJggg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 772
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 40 x 40
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 40
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220202T124617Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: product idea

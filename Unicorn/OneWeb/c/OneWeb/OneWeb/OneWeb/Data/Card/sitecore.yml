@@ -1,0 +1,27 @@
+﻿---
+ID: "65d866e3-3721-4768-aebd-4a289d55c89f"
+Parent: "af0661b2-49cb-4592-a5b9-c0ef48715bb8"
+Template: "2e2ac43c-1e19-4705-ba41-99a3810466e3"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Card/sitecore
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c566446-c4c0-40d2-9875-36d2e99b6784"
+      Hint: Param1
+      Value: sitecore1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230721T094923Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "686a7cb5-b779-4bb7-8f06-ecc15667bd82"
+      Hint: Param2
+      Value: sitecore2
+    - ID: "6e6c85ae-cc26-4028-ba60-dc2f73f4f09a"
+      Hint: Title
+      Value: sitecore

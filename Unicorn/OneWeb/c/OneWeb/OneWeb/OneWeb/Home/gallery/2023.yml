@@ -1,0 +1,33 @@
+﻿---
+ID: "75b36637-606d-4035-b57b-37aaf39bc871"
+Parent: "18ae1bda-8421-48f0-809d-68953d32baad"
+Template: "4c96dce5-a442-488b-ad49-cc2659c246bd"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/gallery/2023
+DB: master
+SharedFields:
+- ID: "39c4902e-9960-4469-aeef-e878e9c8218f"
+  Hint: __Hidden
+  Type: Checkbox
+  Value: 0
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Type: TreelistEx
+  Value: |
+    {59F53BBB-D1F5-4E38-8EBA-0D73109BB59B}
+    {A0C460F4-DBAE-4A5A-8F3A-C4ADFCDACEEA}
+- ID: "d312103c-b36c-4ca5-864a-c85f9abda503"
+  Hint: __Is Bucket
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230407T050709Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

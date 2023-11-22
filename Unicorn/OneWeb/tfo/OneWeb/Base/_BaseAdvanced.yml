@@ -1,0 +1,23 @@
+﻿---
+ID: "2d600bc7-85f1-4191-a081-2fe0c61f4819"
+Parent: "5adefd4d-4d49-452f-919e-72f560678079"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/OneWeb/Base/_BaseAdvanced
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {3112F3CF-F144-4FB0-A29C-E326EE1FBA1D}
+    {901C5F21-89E3-4074-876C-56268E26D181}
+    {E69A6F9B-91C6-4D1E-9576-41B41D134E60}
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T072815Z

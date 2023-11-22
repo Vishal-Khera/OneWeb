@@ -1,0 +1,31 @@
+﻿---
+ID: "b93272da-0882-4e30-b63a-6d85a75d6382"
+Parent: "d977a6d2-6b9f-4304-9f88-2bcf5f4c04ba"
+Template: "81b6bc15-a405-44bd-8caf-236e785ba28c"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Hero Banners/Video Banner
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "12781f1c-36f3-4169-a634-45b4ccf2837d"
+      Hint: Video
+      Value: "{F69EB5BD-6718-4544-8F7B-A890BD49E7B4}"
+    - ID: "1666f2e1-fec0-4c0d-8013-f4e9a5e00a32"
+      Hint: SecondaryLink
+      Value: |
+        <link text="Get a Quote" anchor="" linktype="internal" class="" title="get-a-quote"  querystring="" id="{CC065443-BDCA-4077-B978-3DFDC2AB358D}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T121951Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Video Banner
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Content
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="View Result" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

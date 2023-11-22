@@ -1,0 +1,14 @@
+﻿---
+ID: "3297f458-b824-4424-8ec1-5f9773d61c4d"
+Parent: "cf3b6e8f-fe22-459f-a4f6-a07562c11fd7"
+Template: "cf3b6e8f-fe22-459f-a4f6-a07562c11fd7"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Navigation/Rendering Parameters/OneWeb Navigation Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211127T113030Z

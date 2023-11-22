@@ -1,0 +1,23 @@
+﻿---
+ID: "31ae78ac-e64a-470a-afe3-293d0a59b604"
+Parent: "a33c4232-958e-4029-b6d7-bf15cda93533"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Link List/Default
+DB: master
+BranchID: "f7d3a1d7-d427-477c-b68b-3e3591501f6b"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{CBE464A4-612D-4198-8CC6-F200B48852C0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T214736Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

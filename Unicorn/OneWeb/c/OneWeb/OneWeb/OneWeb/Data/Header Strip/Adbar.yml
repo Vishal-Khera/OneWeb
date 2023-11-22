@@ -1,0 +1,25 @@
+﻿---
+ID: "1d179e69-0478-45b9-a652-694885b52c6b"
+Parent: "846870d6-6223-41fb-8f20-7d621b34268c"
+Template: "7d4c4208-af1e-4876-904d-3baa749b31df"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Header Strip/Adbar
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220719T074432Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Adbar
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        <span class="gray-text">Webinar</span> How 3d scan to 3D Print can save time, processes and resources <span class="gray-text">Feb 10, 2022 at 2pm&nbsp;<a href="~/link.aspx?_id=E0ED3B59440044648B0580D9D39BA6B7&amp;_z=z" class="bar-btn">Register</a></span>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

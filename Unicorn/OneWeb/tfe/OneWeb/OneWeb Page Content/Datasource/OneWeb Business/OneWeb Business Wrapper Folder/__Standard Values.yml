@@ -1,0 +1,28 @@
+﻿---
+ID: "092e3bd1-5113-4936-80ec-b4b945cb10d4"
+Parent: "65d889c5-362e-4506-b58c-39ac5ae02eba"
+Template: "65d889c5-362e-4506-b58c-39ac5ae02eba"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Business/OneWeb Business Wrapper Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {308369CA-8DC7-4C26-BF8F-825E649D0D5F}
+    {428A1E0A-CE84-4113-90F0-B0352A0FB335}
+    {6465692A-811E-4C81-B768-DDD4CCE1F5B9}
+    {DC507C79-68E8-4EBC-A397-854394B121F8}
+    {513082DB-88C2-4959-9161-F5C617608801}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

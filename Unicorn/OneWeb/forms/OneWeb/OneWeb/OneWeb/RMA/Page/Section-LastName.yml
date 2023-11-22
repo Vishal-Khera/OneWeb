@@ -1,0 +1,25 @@
+﻿---
+ID: "fbd346a9-bd8e-41ba-a6ea-0265eda7c943"
+Parent: "933fe55c-39d5-4c99-aad9-928d8cab6ba5"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: "/sitecore/Forms/OneWeb/OneWeb/OneWeb/RMA/Page/Section-LastName"
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 08C5ED8401994151AB902719BEA57F0F
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211202T102223Z

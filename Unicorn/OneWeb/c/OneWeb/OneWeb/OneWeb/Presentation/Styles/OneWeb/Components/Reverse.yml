@@ -1,0 +1,25 @@
+﻿---
+ID: "0cf60c59-60f1-4df0-8ec6-021c760fcea7"
+Parent: "f3989d3c-a7c4-4308-84d1-b508b0c6b484"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Styles/OneWeb/Components/Reverse
+DB: master
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "reverse-column"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Type: TreelistEx
+  Value: |
+    {6C9D7103-635B-4401-B924-5BD21F578191}
+    {8C11581E-CDF1-4477-8180-6FBE083B4979}
+    {88DC582F-61D7-4BF2-9A9D-74D7929F9B4A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221013T133719Z

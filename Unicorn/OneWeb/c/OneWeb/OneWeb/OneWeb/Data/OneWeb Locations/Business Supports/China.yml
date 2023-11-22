@@ -1,0 +1,21 @@
+﻿---
+ID: "13cd1e87-a36d-4ba5-9c00-2897e0145cf5"
+Parent: "71fbd790-5025-4878-bb9b-89dbf9a17a03"
+Template: "96b7a1d9-6fc0-4ff5-8fa3-20f5b5ec5298"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/Business Supports/China
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211224T221059Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: China
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

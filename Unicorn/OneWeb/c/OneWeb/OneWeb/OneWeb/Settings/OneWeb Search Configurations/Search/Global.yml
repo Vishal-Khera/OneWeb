@@ -1,0 +1,52 @@
+﻿---
+ID: "b348790a-e755-4da1-b35a-0b28d5e5ec14"
+Parent: "f4abf27a-bed2-451c-92ee-cec6a3c8aac2"
+Template: "ab283fad-7e7d-4d50-a128-771398a63614"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/OneWeb Search Configurations/Search/Global
+DB: master
+SharedFields:
+- ID: "0993ba46-a7aa-42df-ac61-ca584c99dfb9"
+  Hint: Show Card List Switcher
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1247450e-83fa-4299-9e7f-dc7855ed1065"
+      Hint: Query
+      Value: "ow_title_t:(*{{keyword}}*) OR ow_content_t:(*{{keyword}}*) OR ow_content_txm:(*{{keyword}}*)"
+    - ID: "14b682fd-4a07-4174-b883-381d88d8d48c"
+      Hint: EnabledTemplates
+      Type: TreelistEx
+      Value: |
+        {92D1DA5D-4AD7-44CE-8F19-D55B2E12B042}
+        {97167EAA-FBDE-43AC-AACE-F453D151CD87}
+        {B794D898-4DCA-4F59-9674-6B9994B63B59}
+        {105E1AE4-0A89-449A-A4BF-69E7FB23C0CA}
+        {16692733-9A61-45E6-B0D4-4C0C06F8DD3C}
+        {962B53C4-F93B-4DF9-9821-415C867B8903}
+        {0603F166-35B8-469F-8123-E8D87BEDC171}
+        {3DB3A3CA-A0A9-4228-994B-F70C8E99A1CE}
+        {CC80011D-8EAE-4BFC-84F1-67ECD0223E9E}
+        {1743421C-0D7F-4870-9F7B-70E6F0B63308}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211212T063241Z
+    - ID: "48823c0f-c3e8-4728-a7ea-317eedc54ab9"
+      Hint: Grouping
+      Value: 
+    - ID: "e8eb4055-e1a0-49b2-8684-61852090e045"
+      Hint: Filters
+      Type: TreelistEx
+      Value: |
+        {DDEB7EC3-82EE-43D6-8F50-9FE05C015325}
+        {BFFD6E5A-D2C1-431A-B9D6-103665E6EE15}
+        {3B94656E-CE24-4940-907A-49DBD80A97B1}
+    - ID: "f954909e-c3e0-4f07-89eb-aadf89a95b39"
+      Hint: OrderBy
+      Value: 

@@ -1,0 +1,76 @@
+@import 'base/base-index.scss';
+
+.simple-header {
+    .text-wrapper {
+        h2 {
+            @include font-size($xl-font);
+        }
+    }
+
+    .paragraph-wrapper {
+        p {
+            @include font-size($smslg-font);
+        }
+    }
+
+    .overflow-hide {
+        overflow: hidden;
+    }
+
+    .ow-content-card {
+        .text-wrapper {
+            h2 {
+                color: $brandblack;
+                @include font-size($mlg-font);
+            }
+        }
+    }
+
+    .text-wraper-body {
+        color: $brandblack;
+    }
+
+    .ow-video {
+        .component-content {
+            display: unset;
+        }
+    }
+
+    .promo-card {
+        padding: 0;
+
+        .promo-card_content {
+            display: flex;
+            align-items: center;
+
+            .text-wrapper {
+                display: unset;
+                width: 100%;
+                padding: 0;
+                height: auto
+            }
+        }
+
+        .promo-card_image {
+            @include border-radius(8px);
+
+            video,
+            img,
+            .product-image {
+                @include border-radius(8px);
+            }
+        }
+    }
+    .reverse-column{
+        .promo-card {
+            .promo-card_content{
+                .text-wrapper{
+                    padding: 40px 0px 20px 0px;
+                    @include lg{
+                        padding: 20px 0px 20px 20px;
+                    }
+                }
+            }
+        }
+    }
+}

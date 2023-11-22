@@ -1,0 +1,25 @@
+﻿---
+ID: "6b3cc14c-8509-4e76-acb5-4e5e07bc5177"
+Parent: "fed71f5f-0c63-4b46-bc0e-700f2badce8f"
+Template: "bb8a85ab-1f6d-4518-8772-1c9f4f8dac18"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/Photo gallery/mm wave testing
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220727T130855Z
+    - ID: "4f52b258-7b05-4d6c-8c96-2e2eac46dc1b"
+      Hint: ImageCaption
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ebe4fdef-16d5-4d19-833c-24a241628a3a"
+      Hint: Image
+      Value: |
+        <image mediaid="{84CDC935-3E74-4119-88D3-2809892A3A1E}" />

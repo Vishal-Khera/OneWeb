@@ -1,0 +1,14 @@
+﻿---
+ID: "b0dc2df2-f2c8-4aa2-9b25-af3f646ea718"
+Parent: "af53832f-bec5-4a19-8500-bfd37df4e025"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Creaform/Inline Featured Products
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T085710Z

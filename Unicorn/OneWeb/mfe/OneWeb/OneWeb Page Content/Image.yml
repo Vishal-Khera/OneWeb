@@ -1,0 +1,14 @@
+﻿---
+ID: "5b25e15f-3c20-4afc-a643-093614928516"
+Parent: "c12a6af2-8b57-4369-9ad2-62a25e9a563f"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Page Content/Image
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220103T160315Z

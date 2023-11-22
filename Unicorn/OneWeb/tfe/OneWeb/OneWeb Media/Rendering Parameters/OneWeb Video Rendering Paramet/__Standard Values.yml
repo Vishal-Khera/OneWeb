@@ -1,0 +1,14 @@
+﻿---
+ID: "04f4d131-5034-4784-8ca9-db73accbadc9"
+Parent: "89c2a450-eb12-4dba-9d0f-fa69a6f9ab80"
+Template: "89c2a450-eb12-4dba-9d0f-fa69a6f9ab80"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Media/Rendering Parameters/OneWeb Video Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T161314Z

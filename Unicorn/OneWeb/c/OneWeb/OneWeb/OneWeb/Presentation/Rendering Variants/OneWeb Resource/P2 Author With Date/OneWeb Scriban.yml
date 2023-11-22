@@ -1,0 +1,39 @@
+﻿---
+ID: "5b72bd2b-656b-4c75-bade-bbb48f877c6b"
+Parent: "5408189c-ca86-4204-9e59-50963e90c1c8"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Resource/P2 Author With Date/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if (i_item && (i_item.Author != '' || i_item.Date != ''))}}
+    {{-date_model = (ow_default_date i_item "Date" "Default Date Format")-}}
+    <div>
+    {{if i_item.Author != ''}}
+    {{sc_translate 'Resource-Article-Written-By'}} <strong>{{i_item.Author}}</strong>
+    {{end}}
+    {{if date_model && date_model != ''}}
+    <br/>
+    {{sc_translate 'Resource-Published'}} {{date_model }}
+    {{end}}
+    </div>
+    {{end}}
+    
+    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T191808Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

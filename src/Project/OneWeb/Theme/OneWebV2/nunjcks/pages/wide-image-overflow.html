@@ -1,0 +1,114 @@
+{% extends "layout/layout.html" %} {% block maincontent %}
+<main>
+    <div id="content">
+
+        <!-- event card -->
+
+        <div class="component container-fluid small-padding dark-theme-overlay pb-0">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <div class="component row">
+                                <div class="col-md-6 order-1 order-md-0">
+                                    <div class="overflow-media">
+                                        <img src="images/product-card-big-overflow.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 overflow-scroll-top">
+                                    {% include "../templates/components/component-text.html" %}
+                                    {% include "../templates/components/banner-with-scroll.html" %}
+                                    <div class="button-column pb-5">
+                                        <a href="#" rel="" class="button btn-default" target="_blank">
+                                            Ask for a live demo
+                                        </a>
+                                        <a href="#" rel="" class="button btn-default btn-download" target="_blank">
+                                            Ask for a live demo
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="component container-fluid small-padding dark-theme-overlay small-padding  overflow-visible mt-5">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <div class="component row">
+                                <div class="component col-md-6 wide-image-promo-card order-3 order-md-0">
+                                    <div class="component-content">
+                                        {% include "../templates/components/component-image-overflow-v2.html" %}
+                                    </div>
+                                </div>
+                                <div class="component col-md-6 pt-5 pt-md-0">
+                                    {% include "../templates/components/component-text.html" %}
+                                    <div class="button-column">
+                                        <a href="#" rel="" class="button btn-default" target="_blank">
+                                            Ask for a live demo
+                                        </a>
+                                        <a href="#" rel="" class="button btn-default btn-download" target="_blank">
+                                            Ask for a live demo
+                                                                                  </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 product-spec pt-5">
+                                    <div class="product-spec__text"><span>1 Year <br>warranty</span></div>
+                                    <div class="product-spec__text"><span>1 Year <br>warranty</span></div>
+                                    <div class="product-spec__text"><span>1 Year <br>warranty</span></div>
+                                    <div class="product-spec__text"><span>1 Year <br>warranty</span></div>
+                                    <div class="product-spec__text"><span>1 Year <br>warranty</span></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="component container-fluid extra-large-padding">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <div class="component row">
+                                <div class="component col-12">
+                                    <div class="component-content wide-image-promo-card">
+                                        {% include "../templates/components/component-wide-image-overflow.html" %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="component container-fluid small-padding">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <div class="component row">
+                                <div class="component col-4">
+                                    <div class="component-content wide-image-promo-card">
+                                        {% include "../templates/components/blog.html" %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</main>
+{% endblock %}

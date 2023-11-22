@@ -1,0 +1,36 @@
+﻿---
+ID: "a9658400-da32-42d1-812d-2ba58015a06e"
+Parent: "67b53de4-593a-437f-8c06-6087c34f70b5"
+Template: "1c0ee710-b440-4f8d-80ae-ca464571204b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Image Accordions/Careers/Image Accordion Item 2
+DB: master
+BranchID: "ce00af4f-a371-4142-ac38-c238f4d3e2da"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{638BCE78-708B-4DC7-8E2B-EC7A9DB78C71}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211215T101501Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Solution for <strong>Automation &amp; Manufacturing</strong>
+    - ID: "5457a43c-834a-46a9-b57d-eca5a856f48b"
+      Hint: Image List
+      Value: "{E874DCCE-626C-4EC8-8DD6-1878A61A10B3}|{C3803F85-AAFE-479D-A05F-03255A1F0CB2}|{2C15BE40-AB04-40AE-A035-F1AEF70E4D45}|{2EC5C76E-2CD5-4CA7-BFF0-5736DC00C61B}|{EE687494-E117-4B2E-AC36-AC923E814219}|{CED056FC-1555-4E92-BEAC-F8A31EB0C280}|{15F0306A-B8FB-43A5-A49D-BFB7DFA93906}|{E0918F5F-4635-495E-A5DC-7A05B722DBD5}|{BDEAB89E-84F6-4F06-AB0E-D88B38333F4F}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c1ef176f-8343-4bbc-aa16-684ef202abf0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{F503A2E1-1769-47A0-8FF2-6DD206CF5C9C}" />
+    - ID: "da373cd7-f723-416e-a552-1ade06c7f708"
+      Hint: Structure
+      Value: "{A89A9349-7CBD-48D1-8F9A-25B6D9E5A7BA}"

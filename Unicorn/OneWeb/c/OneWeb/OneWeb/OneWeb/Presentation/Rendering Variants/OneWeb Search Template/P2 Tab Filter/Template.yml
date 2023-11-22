@@ -1,0 +1,37 @@
+﻿---
+ID: "c838fb52-a833-40e8-bc82-e138946c335c"
+Parent: "bf4efa20-0f49-4afd-adbd-94709b358b1b"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/P2 Tab Filter/Template
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <li class="filter-item">
+                <a href="javascript:void(0);" class="uncheck-all isActive">{{sc_translate"Search_Filter_All"}}</a>
+            </li>
+    [[#each Values]]
+        <li class="filter-item">
+            <a href="javascript:void(0);" id="[[this.Name]]" value="[[this.Name]]"> [[this.Name]]</a>
+        </li>
+        [[/each]]
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T182542Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

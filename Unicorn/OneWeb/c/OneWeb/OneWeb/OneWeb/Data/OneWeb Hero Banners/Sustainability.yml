@@ -1,0 +1,17 @@
+﻿---
+ID: "bffa8b93-59f6-4b2f-b5b0-daf7c99b66b4"
+Parent: "d977a6d2-6b9f-4304-9f88-2bcf5f4c04ba"
+Template: "2cf8a428-d0c2-4d52-b598-ff72ee265123"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Hero Banners/Sustainability
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T085930Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Sustainability

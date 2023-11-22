@@ -1,0 +1,236 @@
+.component-text-with-carousal .slick-slider img {
+  border-radius: 8px;
+  width: 100%;
+  max-height: 600px; }
+
+.component-text-with-carousal .slick-slider .slick-arrow {
+  padding: 20px 20px;
+  border-radius: 5px;
+  background-color: #000;
+  top: unset;
+  bottom: 30px;
+  transition: .2s all;
+  opacity: .7; }
+  @media only screen and (min-width: 768px) {
+    .component-text-with-carousal .slick-slider .slick-arrow {
+      top: 50%;
+      bottom: unset;
+      padding: 34px 20px;
+      background-color: rgba(26, 25, 24, 0.5); } }
+  @media only screen and (min-width: 768px) {
+    .component-text-with-carousal .slick-slider .slick-arrow:hover {
+      padding: 34px 24px;
+      background-color: #1A1918;
+      opacity: 1; } }
+  @media only screen and (min-width: 768px) {
+    .component-text-with-carousal .slick-slider .slick-arrow.slick-next:not(.slick-disabled):hover {
+      right: 7px; } }
+  .component-text-with-carousal .slick-slider .slick-arrow.slick-next::after {
+    padding: 5px;
+    border-width: 0 2px 2px 0;
+    right: 18px;
+    top: 15px;
+    border-color: #fff;
+    left: auto; }
+    @media only screen and (min-width: 768px) {
+      .component-text-with-carousal .slick-slider .slick-arrow.slick-next::after {
+        right: 17px;
+        top: 27px; } }
+  .component-text-with-carousal .slick-slider .slick-arrow.slick-next.slick-disabled {
+    padding: 20px 20px;
+    background: rgba(26, 25, 24, 0.5); }
+    @media only screen and (min-width: 768px) {
+      .component-text-with-carousal .slick-slider .slick-arrow.slick-next.slick-disabled {
+        padding: 34px 20px; } }
+  @media only screen and (min-width: 768px) {
+    .component-text-with-carousal .slick-slider .slick-arrow.slick-prev:not(.slick-disabled):hover {
+      left: 7px; } }
+  .component-text-with-carousal .slick-slider .slick-arrow.slick-prev::after {
+    padding: 5px;
+    border-width: 0 2px 2px 0;
+    left: 15px;
+    top: 15px;
+    border-color: #fff; }
+    @media only screen and (min-width: 768px) {
+      .component-text-with-carousal .slick-slider .slick-arrow.slick-prev::after {
+        left: 17px;
+        top: 29px; } }
+  .component-text-with-carousal .slick-slider .slick-arrow.slick-prev.slick-disabled {
+    padding: 20px 20px;
+    background: rgba(26, 25, 24, 0.5);
+    opacity: .7 !important; }
+    @media only screen and (min-width: 768px) {
+      .component-text-with-carousal .slick-slider .slick-arrow.slick-prev.slick-disabled {
+        padding: 34px 20px; } }
+
+.component-text-with-carousal .slick-slider .slick-dots {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; }
+  @media only screen and (min-width: 768px) {
+    .component-text-with-carousal .slick-slider .slick-dots {
+      padding-top: 12px; } }
+  .component-text-with-carousal .slick-slider .slick-dots li {
+    transition: .2s;
+    height: 6px;
+    width: 6px;
+    margin: 0px 10px 0 0;
+    background-color: rgba(26, 25, 24, 0.15);
+    border: 0; }
+    .component-text-with-carousal .slick-slider .slick-dots li.slick-active {
+      width: 16px;
+      border-radius: 5px;
+      background-color: rgba(26, 25, 24, 0.5); }
+
+.component-text-with-carousal.ow-multipleimage-card {
+  padding: 0 15px;
+  width: 100%; }
+
+.component-text-with-carousal .text-wrapper {
+  padding-top: 30px; }
+  .component-text-with-carousal .text-wrapper h1,
+  .component-text-with-carousal .text-wrapper h2,
+  .component-text-with-carousal .text-wrapper h3,
+  .component-text-with-carousal .text-wrapper h4,
+  .component-text-with-carousal .text-wrapper h5,
+  .component-text-with-carousal .text-wrapper p, .component-text-with-carousal .text-wrapper .paragraph-wrapper {
+    font-family: "FranklinGothicLTPro-Md" !important; }
+    .component-text-with-carousal .text-wrapper h1 .content-row,
+    .component-text-with-carousal .text-wrapper h2 .content-row,
+    .component-text-with-carousal .text-wrapper h3 .content-row,
+    .component-text-with-carousal .text-wrapper h4 .content-row,
+    .component-text-with-carousal .text-wrapper h5 .content-row,
+    .component-text-with-carousal .text-wrapper p .content-row, .component-text-with-carousal .text-wrapper .paragraph-wrapper .content-row {
+      font-size: 16px;
+      display: block;
+      padding: 20px 0px; }
+      .component-text-with-carousal .text-wrapper h1 .content-row:first-child,
+      .component-text-with-carousal .text-wrapper h2 .content-row:first-child,
+      .component-text-with-carousal .text-wrapper h3 .content-row:first-child,
+      .component-text-with-carousal .text-wrapper h4 .content-row:first-child,
+      .component-text-with-carousal .text-wrapper h5 .content-row:first-child,
+      .component-text-with-carousal .text-wrapper p .content-row:first-child, .component-text-with-carousal .text-wrapper .paragraph-wrapper .content-row:first-child {
+        margin-top: 10px; }
+        @media only screen and (min-width: 768px) {
+          .component-text-with-carousal .text-wrapper h1 .content-row:first-child,
+          .component-text-with-carousal .text-wrapper h2 .content-row:first-child,
+          .component-text-with-carousal .text-wrapper h3 .content-row:first-child,
+          .component-text-with-carousal .text-wrapper h4 .content-row:first-child,
+          .component-text-with-carousal .text-wrapper h5 .content-row:first-child,
+          .component-text-with-carousal .text-wrapper p .content-row:first-child, .component-text-with-carousal .text-wrapper .paragraph-wrapper .content-row:first-child {
+            margin-top: 15px; } }
+      .component-text-with-carousal .text-wrapper h1 .content-row h5,
+      .component-text-with-carousal .text-wrapper h2 .content-row h5,
+      .component-text-with-carousal .text-wrapper h3 .content-row h5,
+      .component-text-with-carousal .text-wrapper h4 .content-row h5,
+      .component-text-with-carousal .text-wrapper h5 .content-row h5,
+      .component-text-with-carousal .text-wrapper p .content-row h5, .component-text-with-carousal .text-wrapper .paragraph-wrapper .content-row h5 {
+        font-size: 16px; }
+        @media screen and (min-width: 0) {
+          .component-text-with-carousal .text-wrapper h1 .content-row h5,
+          .component-text-with-carousal .text-wrapper h2 .content-row h5,
+          .component-text-with-carousal .text-wrapper h3 .content-row h5,
+          .component-text-with-carousal .text-wrapper h4 .content-row h5,
+          .component-text-with-carousal .text-wrapper h5 .content-row h5,
+          .component-text-with-carousal .text-wrapper p .content-row h5, .component-text-with-carousal .text-wrapper .paragraph-wrapper .content-row h5 {
+            font-size: 16px; } }
+        @media screen and (min-width: 768px) {
+          .component-text-with-carousal .text-wrapper h1 .content-row h5,
+          .component-text-with-carousal .text-wrapper h2 .content-row h5,
+          .component-text-with-carousal .text-wrapper h3 .content-row h5,
+          .component-text-with-carousal .text-wrapper h4 .content-row h5,
+          .component-text-with-carousal .text-wrapper h5 .content-row h5,
+          .component-text-with-carousal .text-wrapper p .content-row h5, .component-text-with-carousal .text-wrapper .paragraph-wrapper .content-row h5 {
+            font-size: 16px; } }
+        @media screen and (min-width: 992px) {
+          .component-text-with-carousal .text-wrapper h1 .content-row h5,
+          .component-text-with-carousal .text-wrapper h2 .content-row h5,
+          .component-text-with-carousal .text-wrapper h3 .content-row h5,
+          .component-text-with-carousal .text-wrapper h4 .content-row h5,
+          .component-text-with-carousal .text-wrapper h5 .content-row h5,
+          .component-text-with-carousal .text-wrapper p .content-row h5, .component-text-with-carousal .text-wrapper .paragraph-wrapper .content-row h5 {
+            font-size: 18px; } }
+      @media screen and (min-width: 0) {
+        .component-text-with-carousal .text-wrapper h1 .content-row,
+        .component-text-with-carousal .text-wrapper h2 .content-row,
+        .component-text-with-carousal .text-wrapper h3 .content-row,
+        .component-text-with-carousal .text-wrapper h4 .content-row,
+        .component-text-with-carousal .text-wrapper h5 .content-row,
+        .component-text-with-carousal .text-wrapper p .content-row, .component-text-with-carousal .text-wrapper .paragraph-wrapper .content-row {
+          font-size: 16px; } }
+      @media screen and (min-width: 768px) {
+        .component-text-with-carousal .text-wrapper h1 .content-row,
+        .component-text-with-carousal .text-wrapper h2 .content-row,
+        .component-text-with-carousal .text-wrapper h3 .content-row,
+        .component-text-with-carousal .text-wrapper h4 .content-row,
+        .component-text-with-carousal .text-wrapper h5 .content-row,
+        .component-text-with-carousal .text-wrapper p .content-row, .component-text-with-carousal .text-wrapper .paragraph-wrapper .content-row {
+          font-size: 16px; } }
+      @media screen and (min-width: 992px) {
+        .component-text-with-carousal .text-wrapper h1 .content-row,
+        .component-text-with-carousal .text-wrapper h2 .content-row,
+        .component-text-with-carousal .text-wrapper h3 .content-row,
+        .component-text-with-carousal .text-wrapper h4 .content-row,
+        .component-text-with-carousal .text-wrapper h5 .content-row,
+        .component-text-with-carousal .text-wrapper p .content-row, .component-text-with-carousal .text-wrapper .paragraph-wrapper .content-row {
+          font-size: 18px; } }
+      @media only screen and (min-width: 1200px) {
+        .component-text-with-carousal .text-wrapper h1 .content-row,
+        .component-text-with-carousal .text-wrapper h2 .content-row,
+        .component-text-with-carousal .text-wrapper h3 .content-row,
+        .component-text-with-carousal .text-wrapper h4 .content-row,
+        .component-text-with-carousal .text-wrapper h5 .content-row,
+        .component-text-with-carousal .text-wrapper p .content-row, .component-text-with-carousal .text-wrapper .paragraph-wrapper .content-row {
+          width: 60%; } }
+  @media only screen and (min-width: 768px) {
+    .component-text-with-carousal .text-wrapper {
+      padding-top: 0; } }
+  .component-text-with-carousal .text-wrapper .paragraph-wrapper {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgba(44, 42, 41, 0.6); }
+    @media only screen and (min-width: 768px) {
+      .component-text-with-carousal .text-wrapper .paragraph-wrapper {
+        margin-top: 15px; } }
+    .component-text-with-carousal .text-wrapper .paragraph-wrapper .separator-top:first-of-type {
+      margin-top: 20px; }
+    .component-text-with-carousal .text-wrapper .paragraph-wrapper h5 {
+      color: #2C2A29;
+      font-size: 16px;
+      margin-bottom: 0; }
+      @media screen and (min-width: 0) {
+        .component-text-with-carousal .text-wrapper .paragraph-wrapper h5 {
+          font-size: 16px; } }
+      @media screen and (min-width: 768px) {
+        .component-text-with-carousal .text-wrapper .paragraph-wrapper h5 {
+          font-size: 16px; } }
+      @media screen and (min-width: 992px) {
+        .component-text-with-carousal .text-wrapper .paragraph-wrapper h5 {
+          font-size: 18px; } }
+    .component-text-with-carousal .text-wrapper .paragraph-wrapper p {
+      margin-bottom: 15px; }
+      @media only screen and (min-width: 768px) {
+        .component-text-with-carousal .text-wrapper .paragraph-wrapper p {
+          margin-bottom: 20px; } }
+  .component-text-with-carousal .text-wrapper .text-black {
+    font-family: "FranklinGothicLTPro-Md" !important; }
+
+.ow-multipleimage-card {
+  width: 100%; }
+  .ow-multipleimage-card .paragraph-wrapper.lg-paragraph {
+    font-size: 16px; }
+    @media screen and (min-width: 0) {
+      .ow-multipleimage-card .paragraph-wrapper.lg-paragraph {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .ow-multipleimage-card .paragraph-wrapper.lg-paragraph {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .ow-multipleimage-card .paragraph-wrapper.lg-paragraph {
+        font-size: 18px; } }
+
+.dark-theme .component-text-with-carousal .slick-slider .slick-dots li {
+  background-color: rgba(255, 255, 255, 0.5); }
+  .dark-theme .component-text-with-carousal .slick-slider .slick-dots li.active {
+    background-color: #fff; }

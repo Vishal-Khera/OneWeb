@@ -1,0 +1,47 @@
+.ow-header-strip {
+  margin: auto;
+  color: #000;
+  position: relative;
+  width: 100%;
+  padding: 5px 10px; }
+  .ow-header-strip .stripclosebtn {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 15px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    cursor: pointer; }
+    .ow-header-strip .stripclosebtn::before, .ow-header-strip .stripclosebtn::after {
+      position: absolute;
+      left: 10px;
+      content: ' ';
+      height: 10px;
+      width: 1px;
+      background-color: #000;
+      top: 0px; }
+    .ow-header-strip .stripclosebtn::before {
+      transform: rotate(45deg); }
+    .ow-header-strip .stripclosebtn::after {
+      transform: rotate(-45deg); }
+    .ow-header-strip .stripclosebtn span {
+      color: #000; }
+  .ow-header-strip p {
+    margin-bottom: 0; }
+
+.ow-strip-fixed {
+  z-index: 99;
+  position: sticky;
+  top: 0; }
+
+.primary-background .ow-header-strip,
+.dark-gray-background .ow-header-strip,
+.mod-gray-background .ow-header-strip {
+  color: #fff; }
+  .primary-background .ow-header-strip .stripclosebtn::after, .primary-background .ow-header-strip .stripclosebtn::before,
+  .dark-gray-background .ow-header-strip .stripclosebtn::after,
+  .dark-gray-background .ow-header-strip .stripclosebtn::before,
+  .mod-gray-background .ow-header-strip .stripclosebtn::after,
+  .mod-gray-background .ow-header-strip .stripclosebtn::before {
+    background-color: #fff; }

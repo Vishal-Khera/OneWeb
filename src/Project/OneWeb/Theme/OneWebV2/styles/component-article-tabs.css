@@ -1,0 +1,69 @@
+.article-tabs-wrapper {
+  position: relative; }
+  .article-tabs-wrapper .text-wrapper h2 {
+    font-size: 26px; }
+    @media screen and (min-width: 0) {
+      .article-tabs-wrapper .text-wrapper h2 {
+        font-size: 26px; } }
+    @media screen and (min-width: 768px) {
+      .article-tabs-wrapper .text-wrapper h2 {
+        font-size: 40px; } }
+    @media screen and (min-width: 992px) {
+      .article-tabs-wrapper .text-wrapper h2 {
+        font-size: 40px; } }
+  .article-tabs-wrapper .text-wrapper .paragraph-wrapper {
+    font-size: 16px;
+    width: 90%; }
+    @media screen and (min-width: 0) {
+      .article-tabs-wrapper .text-wrapper .paragraph-wrapper {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .article-tabs-wrapper .text-wrapper .paragraph-wrapper {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .article-tabs-wrapper .text-wrapper .paragraph-wrapper {
+        font-size: 18px; } }
+    @media only screen and (min-width: 992px) {
+      .article-tabs-wrapper .text-wrapper .paragraph-wrapper {
+        width: 70%; } }
+    .article-tabs-wrapper .text-wrapper .paragraph-wrapper p {
+      font-size: inherit; }
+  .article-tabs-wrapper .image-wrapper-article {
+    position: absolute;
+    width: 100%;
+    padding-top: 56.25%;
+    height: 0; }
+    .article-tabs-wrapper .image-wrapper-article img {
+      border-radius: 8px;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%; }
+
+.article-right-section .simple-list {
+  color: #236192; }
+
+.article-right-section .sticky-top {
+  top: 80px; }
+
+.article-right-section .ow-card-icon :first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 1px solid rgba(26, 25, 24, 0.15); }
+  .article-right-section .ow-card-icon :first-child .simple-list {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px; }
+
+.article-right-section .ow-card-icon :last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom: none; }
+  .article-right-section .ow-card-icon :last-child .simple-list {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px; }
+
+@media (min-width: 450px) and (max-width: 1200px) {
+  .article-right-section .social-links-wrapper {
+    float: left; } }

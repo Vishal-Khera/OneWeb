@@ -1,0 +1,14 @@
+﻿---
+ID: "1ed8bf8a-d4a2-477b-891c-d7578266b2c6"
+Parent: "280e4824-a2b5-468c-a922-da188b686be1"
+Template: "280e4824-a2b5-468c-a922-da188b686be1"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Login/Datasource/OneWeb User Search Box/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T112128Z

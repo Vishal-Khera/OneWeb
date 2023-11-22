@@ -1,0 +1,21 @@
+﻿---
+ID: "160f2586-4df0-43e9-8cfd-8f2813bf7fae"
+Parent: "0e20d56e-4b79-4469-a210-d8ae38ed9cb1"
+Template: "72e57dc4-4c05-4067-a749-c74e9b20beb0"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Card Grids/Contact Us
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0102c8a0-b60f-4e19-86cb-74caa9eee49e"
+      Hint: Card List
+      Value: "{624D5091-3113-4B11-93F0-D68756F5B9AC}|{1527BD32-DB78-489E-84C4-88C1651B4E53}|{3F97821C-02EC-4BEC-B722-9280AEADFB00}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220308T112831Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

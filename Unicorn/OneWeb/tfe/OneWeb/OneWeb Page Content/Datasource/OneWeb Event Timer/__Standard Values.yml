@@ -1,0 +1,14 @@
+﻿---
+ID: "385ed133-0de9-4bfc-9c59-e7dd6d10a7dd"
+Parent: "6526777c-85bc-4ae9-a3d9-19ce39c4db7a"
+Template: "6526777c-85bc-4ae9-a3d9-19ce39c4db7a"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Event Timer/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220518T072439Z

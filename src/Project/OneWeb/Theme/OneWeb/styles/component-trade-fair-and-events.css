@@ -1,0 +1,175 @@
+.trade-fair-events-bg .component {
+  background-size: 100% 340px;
+  background-repeat: no-repeat; }
+  @media only screen and (min-width: 992px) {
+    .trade-fair-events-bg .component {
+      background-size: 100% auto; } }
+  .trade-fair-events-bg .component .ow-trade-events {
+    position: relative;
+    padding: 55px 0;
+    display: flex; }
+    @media only screen and (min-width: 992px) {
+      .trade-fair-events-bg .component .ow-trade-events {
+        padding: 200px 0; } }
+    .trade-fair-events-bg .component .ow-trade-events .trade-fair-item {
+      margin-bottom: 15px;
+      position: relative;
+      max-width: 100%; }
+      .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide {
+        background: rgba(255, 255, 255, 0.9);
+        position: relative;
+        height: 250px; }
+        .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content {
+          color: #000; }
+          .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content h4 {
+            font-family: "Helvetica Neue";
+            font-size: 20px;
+            padding: 20px 20px 0 20px;
+            color: #000;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden; }
+            @media screen and (min-width: 0) {
+              .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content h4 {
+                font-size: 20px; } }
+            @media screen and (min-width: 768px) {
+              .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content h4 {
+                font-size: 20px; } }
+            @media screen and (min-width: 992px) {
+              .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content h4 {
+                font-size: 20px; } }
+          .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .description {
+            font-family: "Helvetica Neue";
+            font-size: 16px;
+            line-height: 22px;
+            padding: 0px 20px 0px 20px;
+            color: #2B2B2B;
+            margin-bottom: 60px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden; }
+            @media screen and (min-width: 0) {
+              .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .description {
+                font-size: 16px; } }
+            @media screen and (min-width: 768px) {
+              .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .description {
+                font-size: 16px; } }
+            @media screen and (min-width: 992px) {
+              .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .description {
+                font-size: 16px; } }
+          .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .button-wrapper {
+            left: 20px;
+            bottom: 45px;
+            position: absolute; }
+            .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .button-wrapper .btn {
+              font-family: "Helvetica Neue";
+              font-size: 12px; }
+              @media screen and (min-width: 0) {
+                .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .button-wrapper .btn {
+                  font-size: 12px; } }
+              @media screen and (min-width: 768px) {
+                .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .button-wrapper .btn {
+                  font-size: 12px; } }
+              @media screen and (min-width: 992px) {
+                .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .button-wrapper .btn {
+                  font-size: 12px; } }
+            .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .button-wrapper .btn-tertiary {
+              border-color: #D9171D !important;
+              color: #D9171D !important;
+              border: 2px solid #D9171D !important; }
+              .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .button-wrapper .btn-tertiary:hover, .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .button-wrapper .btn-tertiary:focus, .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .tile-slide .card-title-content .button-wrapper .btn-tertiary:active {
+                background-color: unset !important;
+                color: #D9171D !important;
+                background-color: transparent !important; }
+      .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe {
+        position: absolute;
+        bottom: 0px;
+        background: #D9171D;
+        width: 100%;
+        padding: 8px 20px;
+        height: 48px;
+        display: flex;
+        align-items: center; }
+        .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .location {
+          float: left;
+          color: #fff;
+          width: 45%;
+          font-size: 12px; }
+          @media screen and (min-width: 0) {
+            .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .location {
+              font-size: 12px; } }
+          @media screen and (min-width: 768px) {
+            .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .location {
+              font-size: 12px; } }
+          @media screen and (min-width: 992px) {
+            .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .location {
+              font-size: 12px; } }
+          @media only screen and (min-width: 992px) {
+            .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .location {
+              font-size: 14px; } }
+  @media only screen and (min-width: 992px) and (min-width: 0) {
+    .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .location {
+      font-size: 14px; } }
+  @media only screen and (min-width: 992px) and (min-width: 768px) {
+    .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .location {
+      font-size: 14px; } }
+  @media only screen and (min-width: 992px) and (min-width: 992px) {
+    .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .location {
+      font-size: 14px; } }
+          .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .location:before {
+            background: url(../images/location-svgrepo-com.svg);
+            content: "";
+            padding-right: 11px;
+            background-repeat: no-repeat !important;
+            position: relative;
+            top: 2px;
+            margin-right: 5px; }
+        .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .watch {
+          float: right;
+          color: #fff;
+          width: 55%;
+          font-size: 12px;
+          text-align: right; }
+          @media screen and (min-width: 0) {
+            .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .watch {
+              font-size: 12px; } }
+          @media screen and (min-width: 768px) {
+            .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .watch {
+              font-size: 12px; } }
+          @media screen and (min-width: 992px) {
+            .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .watch {
+              font-size: 12px; } }
+          @media only screen and (min-width: 992px) {
+            .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .watch {
+              font-size: 14px; } }
+  @media only screen and (min-width: 992px) and (min-width: 0) {
+    .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .watch {
+      font-size: 14px; } }
+  @media only screen and (min-width: 992px) and (min-width: 768px) {
+    .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .watch {
+      font-size: 14px; } }
+  @media only screen and (min-width: 992px) and (min-width: 992px) {
+    .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .watch {
+      font-size: 14px; } }
+          .trade-fair-events-bg .component .ow-trade-events .trade-fair-item .stripe .watch:before {
+            background: url(../images/time-svgrepo-com.svg);
+            content: "";
+            padding-right: 15px;
+            background-repeat: no-repeat !important;
+            position: relative;
+            top: 2px;
+            margin-right: 5px;
+            background-size: 15px; }
+    .trade-fair-events-bg .component .ow-trade-events .slick-dots {
+      bottom: 40px !important;
+      left: 15px !important;
+      display: block;
+      padding-top: unset;
+      top: unset; }
+      .trade-fair-events-bg .component .ow-trade-events .slick-dots li {
+        border: 1px solid #fff !important; }
+        .trade-fair-events-bg .component .ow-trade-events .slick-dots li.slick-active {
+          background: #fff !important;
+          border: 1px solid #fff !important; }

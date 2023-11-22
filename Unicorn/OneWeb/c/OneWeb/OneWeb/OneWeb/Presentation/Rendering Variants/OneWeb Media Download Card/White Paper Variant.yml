@@ -1,0 +1,19 @@
+﻿---
+ID: "3c57259c-27c6-4ef8-a5b2-e8c7ec430124"
+Parent: "0d55844f-1c30-41dd-8c8a-b0bf4e7bd03d"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Media Download Card/White Paper Variant
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{EF66BF53-4552-4F2B-81E5-678E4AD915EB}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220124T071449Z

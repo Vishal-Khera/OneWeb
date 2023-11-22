@@ -1,0 +1,18 @@
+﻿---
+ID: "16790da1-da45-4f76-9bff-0ae3f701f5bf"
+Parent: "59c57b29-1492-451c-8904-f80dc032ff9b"
+Template: "861d0715-e397-4114-870a-7fbb1fe8c9d6"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/About Us-Values"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211215T082142Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

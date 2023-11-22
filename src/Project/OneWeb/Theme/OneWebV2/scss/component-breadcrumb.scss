@@ -1,0 +1,200 @@
+@import 'base/base-index.scss';
+
+body{
+    .breadcrumb {
+        margin-bottom: 0px;
+        list-style: none;
+        background: none;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right:0px;
+        padding-left:0px;
+        display: none;
+        @include lg {
+            display: block;
+            margin-top:-20px;
+        }
+    
+        ol {
+            margin-bottom: 0px;
+            padding-left: 0px;
+            li{
+                &:first-child{
+                    margin-left:unset;
+                }
+            }
+        }
+    
+        .breadcrumb-item {
+            position: relative;
+            text-decoration: none;
+            display: inline-flex;
+    
+            .separator {
+                padding-right: 0px;
+    
+                &::after {
+                    color: $mediumblack;
+                    content: ' \276F';
+                    font-size: 13px;
+                    line-height: 0px;
+                    position: absolute;
+                    top: 10px;
+                }
+            }
+    
+            &.last,
+            &:last-child {
+                .separator {
+                    display: none;
+                }
+            }
+    
+            .navigation-title {
+                display: inline-block;
+                vertical-align: middle;
+                a {
+                    @include font-size($sm-font);
+                    font-family: $franklinMd !important;
+                    color: $brand;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    &:before{
+                        display: none;
+                    }
+    
+                    img {
+                        width: 12px;
+                        height: 14px;
+                        margin-bottom: 4px;
+                    }
+                }
+            }
+    
+            &.home{
+                a{
+                    &::before {
+                        content: none;
+                    }
+                }
+            }
+
+            &:first-child {
+                a {
+                    padding-left: 0;
+                }
+            }
+    
+            &.last,
+            &:last-child {
+                .navigation-title {
+                    a {
+                        color: $black;
+                        cursor: default;
+                        pointer-events: none;
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .dark-theme, .dark-theme-page{
+        .breadcrumb {
+            .breadcrumb-item{
+                &.last,
+                &:last-child {
+                .navigation-title {
+                    a {
+                        color: $base-light-gray !important;
+                        }
+                    }
+                }
+                .navigation-title {
+                    a {
+                        color: $light-blue !important;
+                        }
+                }
+                .separator {    
+                    &::after {
+                        color: $smoke-white;
+                    }
+                }
+            }
+        }
+    }
+    .blue-theme, .blue-theme-page{
+        .breadcrumb {
+            .breadcrumb-item{
+                &.last,
+                &:last-child {
+                .navigation-title {
+                    a {
+                        color: $mid-light-gray !important;
+                        }
+                    }
+                }
+                .navigation-title {
+                    a {
+                        color: $white !important;
+                        }
+                }
+                .separator {    
+                    &::after {
+                        color: $smoke-white;
+                    }
+                }
+            }
+        }
+    }
+
+    .blue-theme{
+        .breadcrumb{
+            *{
+                color:$white;
+            }
+            .breadcrumb-item{
+                .navigation-title{
+                    a{
+                        color:$white;
+                    }
+                }
+                .separator{
+                    &::after{
+                        color:$mid-light-gray;
+                    }
+                }
+                &.last{
+                    .navigation-title {
+                        a{
+                            color:$mid-light-gray !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.breadcrump-overlay{
+.breadcrumb {
+    .breadcrumb-item {
+        .separator {
+            &::after {
+                color: $smoke-whitesade !important   
+            }
+        }
+
+        &.last,
+        &:last-child {
+            a{
+                color: $smoke-whitesade  !important 
+            }
+            .separator {
+                color: $smoke-whitesade  !important  
+            }
+        }
+    }
+}
+}

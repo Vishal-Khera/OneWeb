@@ -1,0 +1,184 @@
+@import 'base/base-index.scss';
+
+.ow-column-reverse {
+    .component-content {
+        flex-direction: row-reverse;
+        .ow-card-image {
+            margin-right: 0px;
+            margin-left: 0;
+            @include md{
+                margin-left: 15px; 
+            }
+        }
+    }
+}
+
+.clip-background {
+    background-clip: unset;
+    .ow-card-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    @media screen and (max-width: 991px) {
+        background-clip: content-box;
+        .ow-card-content {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}
+
+.ow-card {
+    display: flex;
+    position: relative;
+    &.image-contentwide-card{
+        .ow-card-image{
+            img{
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .ow-card-content{
+            padding: 15px;
+            @include lg{
+                padding: 30px;
+            }
+            .primary-highlightcolor:first-of-type{
+                padding: 0px;
+                padding-bottom: 10px;
+                display: block;
+                font-size: 100%;
+                position: revert;
+                font-family: 'HelveticaNeue-Bold';
+               
+            }
+        }
+    }
+    h3,
+    .description-paragraph {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        margin-bottom: 15px;
+        @include md{
+            margin-bottom: 0;
+        }
+        p,a, ul, li{
+            @media not all and (min-resolution:.001dpcm) { 
+                @supports (-webkit-appearance:none) {
+                    display: contents;
+                }
+           }
+           float: none;
+            
+        }
+    }
+
+    label {
+        position: absolute;
+        @include font-size($sssm-font);
+        text-transform: uppercase;
+        top: 7px;
+        padding: 2px 5px;
+        z-index: 5;
+    }
+
+    .btn {
+        margin-bottom: 15px;
+        width: fit-content;
+        display: block;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    .ow-card-bg {
+        z-index: 1;
+        position: relative;
+    }
+
+    .ow-card-background-image {
+        &.text-white {
+            background-image: none !important;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin: 0;
+
+            .stretched-bg {
+                position: absolute;
+                top: 0;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                right: -15px;
+                z-index: 0;
+                background-position: center;
+            }
+
+            h3,
+            p,
+            .discription-paragraph {
+                filter: drop-shadow(0.0001em 0.0001em #000);
+            }
+        }
+    }
+
+    .component-content {
+        display: flex;
+        .ow-card-background-image {
+            background-size: contain;
+            background-repeat: no-repeat;
+            @include md{
+                background-size: cover;
+            }
+        }
+    }
+
+    .ow-card-image {
+        min-width: 100%;
+        @include md{
+            min-width: 40%;
+            margin-right: 15px;
+        }
+        img {
+            width: 100%;
+        }
+      
+    }
+
+    .ow-card-content {
+        width: 100%;
+        h3 {
+            @include font-size($xxl-font);
+            margin-bottom: 15px;
+
+            strong {
+                font-family: 'HelveticaNeue-Bold';
+            }
+            p {
+                @include font-size($md-font);
+
+                &:last-of-type {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    
+}
+
+@media (max-width: 767px) {
+    .ow-cardimage {
+        .component-content {
+            flex-direction: column;
+
+            .ow-card-content {
+                padding-top: 15px;
+            }
+        }
+    }
+}

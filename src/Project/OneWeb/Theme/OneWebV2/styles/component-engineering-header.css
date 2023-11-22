@@ -1,0 +1,229 @@
+body .talk-cta a {
+  padding: 7px 10px;
+  background-color: #EDEDED;
+  color: #2C2A29;
+  transition: .2s all;
+  display: flex;
+  align-items: center;
+  text-decoration: none; }
+  body .talk-cta a i {
+    margin-right: 10px; }
+  body .talk-cta a span {
+    font-family: "FranklinGothicLTPro-Md" !important; }
+  body .talk-cta a:hover {
+    background-color: #236192;
+    color: #fff;
+    text-decoration: none; }
+
+.engineering-header .link-career {
+  background: rgba(26, 25, 24, 0.15);
+  color: rgba(26, 25, 24, 0.7); }
+
+@media (max-width: 991px) {
+  .engineering-header .primary-nav-wrapper {
+    padding: 8px 0; } }
+
+.engineering-header .file-type-icon-media-link > .component-content {
+  display: flex;
+  align-items: center; }
+
+.engineering-header .navigation-wrapper .main-navigation .dropdown-menu {
+  background: #1A1918; }
+  .engineering-header .navigation-wrapper .main-navigation .dropdown-menu .sub-item .ow-navigation-link-list h4 a:after {
+    border-right: 2px solid rgba(255, 255, 255, 0.5) !important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5) !important; }
+  .engineering-header .navigation-wrapper .main-navigation .dropdown-menu .sub-item .ow-navigation-link-list ul li a {
+    color: #F7F7F7; }
+
+@media only screen and (min-width: 992px) {
+  .engineering-header .navigation-wrapper .main-navigation .secondary-nav-items .back-to-previous {
+    display: none; } }
+
+@media (max-width: 991px) {
+  .engineering-header .navigation-wrapper .main-navigation .nav-item {
+    border-bottom: 1px solid #707070; }
+    .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.careers, .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.contact-us {
+      font-size: 16px;
+      font-family: "FranklinGothicLTPro-Bk" !important;
+      display: block !important; } }
+    @media screen and (max-width: 991px) and (min-width: 0) {
+      .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.careers, .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.contact-us {
+        font-size: 16px; } }
+    @media screen and (max-width: 991px) and (min-width: 768px) {
+      .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.careers, .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.contact-us {
+        font-size: 16px; } }
+    @media screen and (max-width: 991px) and (min-width: 992px) {
+      .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.careers, .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.contact-us {
+        font-size: 16px; } }
+    @media only screen and (max-width: 991px) and (min-width: 992px) {
+      .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.careers, .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.contact-us {
+        font-size: 16px;
+        font-family: "FranklinGothicLTPro-Bk" !important; } }
+  @media only screen and (max-width: 991px) and (min-width: 992px) and (min-width: 0) {
+    .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.careers, .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.contact-us {
+      font-size: 16px; } }
+  @media only screen and (max-width: 991px) and (min-width: 992px) and (min-width: 768px) {
+    .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.careers, .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.contact-us {
+      font-size: 16px; } }
+  @media only screen and (max-width: 991px) and (min-width: 992px) and (min-width: 992px) {
+    .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.careers, .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.contact-us {
+      font-size: 16px; } }
+
+@media (max-width: 991px) {
+    .engineering-header .navigation-wrapper .main-navigation .nav-item.border-0 a.careers {
+      padding-top: 5px; }
+    .engineering-header .navigation-wrapper .main-navigation .nav-item .nav-link {
+      font-size: 21px;
+      padding: 15px 15px 6px; } }
+    @media screen and (max-width: 991px) and (min-width: 0) {
+      .engineering-header .navigation-wrapper .main-navigation .nav-item .nav-link {
+        font-size: 21px; } }
+    @media screen and (max-width: 991px) and (min-width: 768px) {
+      .engineering-header .navigation-wrapper .main-navigation .nav-item .nav-link {
+        font-size: 21px; } }
+    @media screen and (max-width: 991px) and (min-width: 992px) {
+      .engineering-header .navigation-wrapper .main-navigation .nav-item .nav-link {
+        font-size: 28px; } }
+
+@media (max-width: 991px) {
+    .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu {
+      display: block !important;
+      background-color: transparent;
+      padding: 0; }
+      .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .multipal-col:before {
+        height: 0 !important; }
+      .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item {
+        padding: 0; }
+        .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item.active-menu .secondary-nav-items {
+          left: 0;
+          opacity: 1; }
+        .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item a {
+          padding: 10px 15px; }
+        .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item:last-child a {
+          padding-bottom: 15px; }
+        .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item h4 {
+          margin-bottom: 0; }
+          .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item h4 a {
+            font-size: 21px; } }
+          @media screen and (max-width: 991px) and (min-width: 0) {
+            .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item h4 a {
+              font-size: 21px; } }
+          @media screen and (max-width: 991px) and (min-width: 768px) {
+            .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item h4 a {
+              font-size: 21px; } }
+          @media screen and (max-width: 991px) and (min-width: 992px) {
+            .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item h4 a {
+              font-size: 28px; } }
+
+@media (max-width: 991px) {
+            .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item h4 a:after {
+              right: 20px;
+              top: calc(50% - 6px); }
+        .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items {
+          position: fixed;
+          left: -100%;
+          top: 0;
+          background-color: #1A1918;
+          transition: .3s all ease-in-out;
+          max-width: 375px;
+          width: 100%;
+          max-height: 100%;
+          overflow-y: auto;
+          height: calc(100% - 52px);
+          z-index: 2;
+          opacity: .3;
+          margin-top: 52px;
+          padding-top: 10px; } }
+        @media (max-width: 991px) and (max-width: 420px) {
+          .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items {
+            max-width: 100%; } }
+
+@media (max-width: 991px) {
+          .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items * {
+            font-size: 21px; } }
+          @media screen and (max-width: 991px) and (min-width: 0) {
+            .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items * {
+              font-size: 21px; } }
+          @media screen and (max-width: 991px) and (min-width: 768px) {
+            .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items * {
+              font-size: 21px; } }
+          @media screen and (max-width: 991px) and (min-width: 992px) {
+            .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items * {
+              font-size: 28px; } }
+
+@media (max-width: 991px) {
+          .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items .nav-item {
+            display: none; }
+          .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items .back-to-previous {
+            display: flex;
+            align-items: center;
+            color: rgba(240, 240, 240, 0.5) !important;
+            padding: 0px 15px 10px;
+            border-bottom: 1px solid #707070; } }
+          @media only screen and (max-width: 991px) and (min-width: 992px) {
+            .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items .back-to-previous {
+              display: none; } }
+
+@media (max-width: 991px) {
+            .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items .back-to-previous:before {
+              content: "";
+              border-right: 2px solid #fff;
+              border-bottom: 2px solid #fff;
+              padding: 4px;
+              display: inline-block;
+              transform: rotate(135deg);
+              margin-right: 10px;
+              margin-top: -6px; }
+          .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items ul li {
+            margin-bottom: 0; }
+            .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items ul li:first-child {
+              margin-top: 12px; }
+            .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items ul li a {
+              padding: 8px 15px;
+              float: left;
+              width: 100%;
+              display: block; }
+            .engineering-header .navigation-wrapper .main-navigation .nav-item .dropdown-menu .sub-item .secondary-nav-items ul li.d-lg-none a {
+              font-family: "FranklinGothicLTPro-Md" !important; } }
+
+.engineering-header .navigation-wrapper .main-navigation .single-col {
+  background: transparent !important; }
+  @media only screen and (min-width: 992px) {
+    .engineering-header .navigation-wrapper .main-navigation .single-col .container {
+      background: #1A1918 !important;
+      border-radius: 8px; } }
+
+@media (max-width: 991px) {
+  .engineering-header .navigation-wrapper .collapse {
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media only screen and (min-width: 992px) {
+  .engineering-header .ow-primary-header.menu-active {
+    background-color: #1A1918; } }
+
+@media only screen and (min-width: 992px) {
+  .engineering-header .ow-primary-header.menu-active .talk-cta a {
+    background-color: #2C2A29; } }
+
+.engineering-header .ow-primary-header.menu-active .navigation-wrapper .main-navigation .nav-item .nav-link:before {
+  background-color: #F7F7F7; }
+
+.engineering-header .ow-primary-header.sticky-header > .container > .component-content {
+  border: none !important; }
+
+.engineering-header .ow-primary-header.sticky-header .main-navigation .nav-item .nav-link {
+  opacity: 1; }
+
+@media only screen and (min-width: 992px) {
+  .engineering-header .ow-primary-header.sticky-header .talk-cta a {
+    background-color: #2C2A29; }
+    .engineering-header .ow-primary-header.sticky-header .talk-cta a:hover {
+      background-color: #236192; } }
+
+.engineering-header.dark-theme {
+  background-color: #1A1918; }
+  .engineering-header.dark-theme .talk-cta a {
+    background-color: #2C2A29; }
+    .engineering-header.dark-theme .talk-cta a:hover {
+      background-color: #236192; }

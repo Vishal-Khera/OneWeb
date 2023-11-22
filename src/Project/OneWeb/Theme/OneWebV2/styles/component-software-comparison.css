@@ -1,0 +1,90 @@
+.software-comparison-wrapper .component-content, .software-comparison-wrapper .ow-image-gallery {
+  height: 100%; }
+
+.software-comparison {
+  display: block;
+  height: 100%;
+  background-color: #EDEDED; }
+  .software-comparison .card-body {
+    padding: 10px;
+    height: auto; }
+    @media only screen and (min-width: 768px) {
+      .software-comparison .card-body {
+        padding: 15px 20px; } }
+    .software-comparison .card-body .card-title {
+      font-size: 16px; }
+      @media screen and (min-width: 0) {
+        .software-comparison .card-body .card-title {
+          font-size: 16px; } }
+      @media screen and (min-width: 768px) {
+        .software-comparison .card-body .card-title {
+          font-size: 21px; } }
+      @media screen and (min-width: 992px) {
+        .software-comparison .card-body .card-title {
+          font-size: 21px; } }
+      .software-comparison .card-body .card-title:hover, .software-comparison .card-body .card-title:focus {
+        color: #236192; }
+    .software-comparison .card-body .card-subtitle {
+      font-size: 14px;
+      color: rgba(26, 25, 24, 0.75); }
+      @media screen and (min-width: 0) {
+        .software-comparison .card-body .card-subtitle {
+          font-size: 13px; } }
+      @media screen and (min-width: 768px) {
+        .software-comparison .card-body .card-subtitle {
+          font-size: 14px; } }
+      @media screen and (min-width: 992px) {
+        .software-comparison .card-body .card-subtitle {
+          font-size: 14px; } }
+  .software-comparison .card-footer {
+    background-color: #EDEDED;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: 1px solid rgba(26, 25, 24, 0.15);
+    padding: 15px 10px;
+    font-size: 14px; }
+    .software-comparison .card-footer * {
+      font-family: "FranklinGothicLTPro-Md" !important; }
+    @media screen and (min-width: 0) {
+      .software-comparison .card-footer {
+        font-size: 13px; } }
+    @media screen and (min-width: 768px) {
+      .software-comparison .card-footer {
+        font-size: 14px; } }
+    @media screen and (min-width: 992px) {
+      .software-comparison .card-footer {
+        font-size: 14px; } }
+    @media only screen and (min-width: 768px) {
+      .software-comparison .card-footer {
+        padding: 20px 20px; } }
+    .software-comparison .card-footer li {
+      display: flex;
+      align-items: center;
+      word-break: break-word; }
+    .software-comparison .card-footer .image {
+      min-width: 24px;
+      max-width: 24px;
+      min-height: 24px;
+      margin-right: 5px;
+      margin-bottom: 5px; }
+      @media only screen and (min-width: 768px) {
+        .software-comparison .card-footer .image {
+          min-width: 40px;
+          max-width: 40px;
+          min-height: 40px;
+          margin-right: 10px;
+          margin-bottom: 8px;
+          display: flex;
+          align-items: center; } }
+      .software-comparison .card-footer .image img {
+        max-width: 100%;
+        max-height: 100%; }
+    .software-comparison .card-footer .info {
+      color: #2C2A29; }
+
+.dark-theme .software-comparison .card-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: #2C2A29; }

@@ -1,0 +1,26 @@
+﻿---
+ID: "5dcc0755-9c44-49a5-b9c7-4dc10a6f4ec9"
+Parent: "1bd44cf3-77f9-4b00-aa27-1cb589779005"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Box/vertical
+DB: master
+BranchID: "c114d9e8-d855-42b1-ae74-e9112e9712e6"
+SharedFields:
+- ID: "e1d5adba-8348-4127-9bb6-455936653839"
+  Hint: CssClass
+  Value: vertical
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{616A2C7C-5352-4570-937A-1D19187485A0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211123T050814Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

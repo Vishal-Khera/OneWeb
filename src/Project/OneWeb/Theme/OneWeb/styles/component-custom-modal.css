@@ -1,0 +1,138 @@
+@media only screen and (min-width: 992px) {
+  .modal {
+    padding: 50px 15px !important; } }
+
+.modal .modal-dialog {
+  max-width: 900px;
+  width: 100%;
+  padding: 50px 10px;
+  margin: 0 auto; }
+  @media (max-width: 991px) {
+    .modal .modal-dialog {
+      padding: 70px 10px 30px;
+      background: #353535;
+      min-height: 100vh;
+      display: flex;
+      align-items: center; } }
+  @media only screen and (min-width: 992px) {
+    .modal .modal-dialog {
+      padding: 3px;
+      min-height: 100%;
+      align-items: center;
+      display: flex; } }
+  .modal .modal-dialog .modal-content {
+    border: 0;
+    background-color: #fff; }
+    @media (max-width: 991px) {
+      .modal .modal-dialog .modal-content {
+        background: transparent;
+        color: #fff; } }
+    @media only screen and (min-width: 992px) {
+      .modal .modal-dialog .modal-content {
+        display: flex;
+        align-items: center; } }
+    .modal .modal-dialog .modal-content img,
+    .modal .modal-dialog .modal-content iframe {
+      width: 100%;
+      margin-bottom: 15px; }
+    .modal .modal-dialog .modal-content .modal-wrapper {
+      width: 100%; }
+    .modal .modal-dialog .modal-content .text-wrapper {
+      padding: 20px 15px; }
+      .modal .modal-dialog .modal-content .text-wrapper h4 {
+        margin-bottom: 10px;
+        font-size: 32px; }
+        @media screen and (min-width: 0) {
+          .modal .modal-dialog .modal-content .text-wrapper h4 {
+            font-size: 32px; } }
+        @media screen and (min-width: 768px) {
+          .modal .modal-dialog .modal-content .text-wrapper h4 {
+            font-size: 32px; } }
+        @media screen and (min-width: 992px) {
+          .modal .modal-dialog .modal-content .text-wrapper h4 {
+            font-size: 32px; } }
+        @media screen and (min-width: 1200px) {
+          .modal .modal-dialog .modal-content .text-wrapper h4 {
+            font-size: 40px; } }
+      .modal .modal-dialog .modal-content .text-wrapper p {
+        margin-bottom: 20px;
+        font-size: 20px; }
+        @media screen and (min-width: 0) {
+          .modal .modal-dialog .modal-content .text-wrapper p {
+            font-size: 20px; } }
+        @media screen and (min-width: 768px) {
+          .modal .modal-dialog .modal-content .text-wrapper p {
+            font-size: 20px; } }
+        @media screen and (min-width: 992px) {
+          .modal .modal-dialog .modal-content .text-wrapper p {
+            font-size: 20px; } }
+  .modal .modal-dialog .close {
+    right: 20px;
+    position: fixed;
+    border: 0;
+    outline: 0;
+    font-size: 45px;
+    color: #fff;
+    background: #D9171D;
+    opacity: 1;
+    border-radius: 50%;
+    line-height: 0;
+    font-weight: 100;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99; }
+    @media only screen and (min-width: 992px) {
+      .modal .modal-dialog .close {
+        position: absolute;
+        top: -23px;
+        right: -23px;
+        width: 45px;
+        height: 45px;
+        font-size: 45px; } }
+    .modal .modal-dialog .close span {
+      position: absolute; }
+      @media only screen and (min-width: 992px) {
+        .modal .modal-dialog .close span {
+          margin-bottom: 14px; } }
+
+.iframe-wrapper {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative; }
+  .iframe-wrapper iframe, .iframe-wrapper .video-comp {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+    border: 0; }
+  .iframe-wrapper .iframe-overlay {
+    position: absolute;
+    z-index: 9;
+    height: 100%;
+    width: calc(100% + 1px); }
+    .iframe-wrapper .iframe-overlay img {
+      object-fit: cover;
+      position: absolute;
+      height: 100%;
+      left: 0;
+      width: 100%; }
+    .iframe-wrapper .iframe-overlay .play-video img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 60px;
+      cursor: pointer;
+      width: 60px !important;
+      height: auto;
+      margin-bottom: 0;
+      object-fit: contain !important; }
+      .iframe-wrapper .iframe-overlay .play-video img:focus-visible {
+        outline: 2px solid #D9171D;
+        border-radius: 50%; }
+  .iframe-wrapper.video-played .iframe-overlay {
+    display: none !important; }

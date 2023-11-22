@@ -1,0 +1,14 @@
+﻿---
+ID: "1bd77d51-d119-4c08-b4c6-c25016b678bb"
+Parent: "231eacc5-2c69-48b8-91dc-f86edd32ba5e"
+Template: "231eacc5-2c69-48b8-91dc-f86edd32ba5e"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Card Grid Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211202T073644Z

@@ -1,0 +1,39 @@
+﻿---
+ID: "29f1e371-7005-4d29-9c7d-ca51514aad25"
+Parent: "5cfcb0e2-ed29-4e6d-9993-814ed733e955"
+Template: "28282f5e-e1a6-4541-9f40-1a0cfd72cc38"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/C04 Job Listing/Test 5 Job page
+DB: master
+SharedFields:
+- ID: "e40bdb84-8c4c-44ea-8fe6-005ee4708672"
+  Hint: Tags
+  Value: "{854BB38D-2B6F-4895-8247-BFAC80F3FE24}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "123541b8-aad4-4649-bf4f-bf7923f5ac4f"
+      Hint: JobID
+      Value: Role Number <b>114437</b><br />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220906T103836Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: "Electronic designer - R&D"
+    - ID: "7ea09a99-f215-4422-acd5-8b076b1b6317"
+      Hint: Department
+      Value: Research and development
+    - ID: "a40a8b9f-6126-4e40-bd24-d4ff20cda6a1"
+      Hint: PostingDate
+      Value: 20220310T183000Z
+    - ID: "a718ea39-9863-4af3-bc32-c5534be0f541"
+      Hint: Availability
+      Value: Available now
+    - ID: "bc2ec54e-677b-4ddf-b4ee-c4273bbaa414"
+      Hint: Location
+      Value: "HQ - Lévis, CA"
+    - ID: "e1a76ca6-4779-4562-9524-542c90ddc6c3"
+      Hint: Type
+      Value: Part Time

@@ -1,0 +1,14 @@
+﻿---
+ID: "9061bbbb-af98-490f-836f-f5c543189a85"
+Parent: "ec4161b2-782c-49e2-9c01-a3167259f773"
+Template: "ec4161b2-782c-49e2-9c01-a3167259f773"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Rendering Parameters/OneWeb Filter Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211211T190026Z

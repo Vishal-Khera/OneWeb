@@ -1,0 +1,28 @@
+﻿---
+ID: "fdd3a06f-0bb4-451d-a3bb-1c1fa9946bfe"
+Parent: "2a9c471b-3bef-4fdf-97e9-d64b40cbc3e8"
+Template: "37764d82-bdf8-4562-9566-5f6c1261d53d"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Customizable Card/Tile 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{C9A12C48-AE55-4F3D-9A4C-B1BC5E69BCEE}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220414T054800Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Application Headline
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: "We invest in, develop, and acquire differentiated technologies and enjoy an enviable reputation for technical innovation and next-generation product development."
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{CC065443-BDCA-4077-B978-3DFDC2AB358D}" />

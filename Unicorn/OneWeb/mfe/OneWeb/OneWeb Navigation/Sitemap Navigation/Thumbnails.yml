@@ -1,0 +1,14 @@
+﻿---
+ID: "56201c38-0c80-4232-a0f9-2681f3292048"
+Parent: "014f6526-2881-4f6b-b3f9-6c13dff626f4"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Navigation/Sitemap Navigation/Thumbnails
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220103T160915Z

@@ -1,0 +1,35 @@
+﻿---
+ID: "9ae6ef1f-18cb-4169-9b26-9274249de362"
+Parent: "d800c068-9717-49a0-961e-f913d7c0053c"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWeb/Scripts/component-expandbox"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/9AE6EF1F18CB41699B269274249DE362.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "704a26e6-3a15-4a25-83e3-86f67e4b5503"
+  Value: JChkb2N1bWVudCkucmVhZHkoZnVuY3Rpb24oKXsNCiAgICBnZXRNYXhIZWlnaHQoKTsNCn0pOw0KDQpmdW5jdGlvbiBnZXRNYXhIZWlnaHQoKXsNCiAgICAkKCcub3ctZGlzYWJsZS1jYXJvdXNhbC1kZXNrdG9wJykuZWFjaChmdW5jdGlvbigpeyANCiAgICAgICQodGhpcykuZmluZCgnLm93LWJ1c2luZXNzLWNvbnRlbnQnKS5yZW1vdmVBdHRyKCdzdHlsZScpOw0KICAgICAgICB2YXIgaGlnaGVzdEJveCA9IDA7DQogICAgICAgIGlmKCAkKHRoaXMpLmZpbmQoJy5vdy1leHBhbmQtYm94Jykpew0KICAgICAgICAgICQodGhpcykucGFyZW50cygnLm93LWRpc2FibGUtY2Fyb3VzYWwtZGVza3RvcCcpLmFkZENsYXNzKCdleHBhbmRhYmxlLWJveC13cmFwcGVyJykNCiAgICAgICAgfQ0KICAgICAgICAkKCcub3ctZXhwYW5kLWJveCAub3ctYnVzaW5lc3MtY29udGVudCcsIHRoaXMpLmVhY2goZnVuY3Rpb24oKXsNCiAgICAgICAgICBpZigkKHRoaXMpLmlubmVySGVpZ2h0KCkgPiBoaWdoZXN0Qm94KSB7DQogICAgICAgICAgICBoaWdoZXN0Qm94ID0gJCh0aGlzKS5yZW1vdmVBdHRyKCdzdHlsZScpLmlubmVySGVpZ2h0KCk7IA0KICAgICAgICAgIH0NCiAgICAgICAgfSk7ICANCiAgICAgICAgJCgnLm93LWV4cGFuZC1ib3ggLm93LWJ1c2luZXNzLWNvbnRlbnQnLHRoaXMpLmNzcygnbWluLWhlaWdodCcsIGhpZ2hlc3RCb3gpOw0KICAgICAgfSk7IA0KfQ0KDQokKHdpbmRvdykucmVzaXplKGZ1bmN0aW9uKCl7DQogIHNldFRpbWVvdXQoZnVuY3Rpb24oKXsNCiAgICBnZXRNYXhIZWlnaHQoKTsNCiAgfSw1MDApDQogIA0KfSkNCg0KJChkb2N1bWVudCkub24oJ2NsaWNrJywgJy5vdy1leHBhbmQtYm94IC5idXR0b24td3JhcHBlciBhJywgZnVuY3Rpb24oZSl7DQogIGUucHJldmVudERlZmF1bHQoKTsNCiAgaWYoJCh0aGlzKS5wYXJlbnRzKCcub3ctZXhwYW5kLWJveCcpLmhhc0NsYXNzKCdleHBhbmRlZCcpKXsNCiAgICBpZigkKHdpbmRvdykud2lkdGgoKSA+IDEyMDApew0KICAgICAgJCh0aGlzKS5wYXJlbnRzKCcub3ctY2FyZCcpLmZpbmQoJy5vdy1leHBhbmQtYm94JykucmVtb3ZlQ2xhc3MoJ2V4cGFuZGVkJyk7DQogICAgfQ0KICAgIGVsc2V7DQogICAgICAkKHRoaXMpLnBhcmVudHMoJy5zbGljay1zbGlkZScpLmZpbmQoJy5vdy1leHBhbmQtYm94JykucmVtb3ZlQ2xhc3MoJ2V4cGFuZGVkJyk7DQogICAgfQ0KICB9DQogIGVsc2V7DQogICAgaWYoJCh3aW5kb3cpLndpZHRoKCkgPiAxMjAwKXsNCiAgICAgICQodGhpcykucGFyZW50cygnLm93LWNhcmQnKS5maW5kKCcub3ctZXhwYW5kLWJveCcpLmFkZENsYXNzKCdleHBhbmRlZCcpOw0KICAgICAgJCh0aGlzKS5wYXJlbnRzKCcub3ctY2FyZCcpLnNpYmxpbmdzKCkuZmluZCgnLm93LWV4cGFuZC1ib3gnKS5yZW1vdmVDbGFzcygnZXhwYW5kZWQnKTsNCiAgICB9DQogICAgZWxzZXsNCiAgICAgICQodGhpcykucGFyZW50cygnLnNsaWNrLXNsaWRlJykuZmluZCgnLm93LWV4cGFuZC1ib3gnKS5hZGRDbGFzcygnZXhwYW5kZWQnKTsNCiAgICAgICQodGhpcykucGFyZW50cygnLnNsaWNrLXNsaWRlJykuc2libGluZ3MoKS5maW5kKCcub3ctZXhwYW5kLWJveCcpLnJlbW92ZUNsYXNzKCdleHBhbmRlZCcpOw0KICAgIH0NCg0KICB9DQp9KQ==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1639
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: "application/x-javascript"
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: js
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220715T094233Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

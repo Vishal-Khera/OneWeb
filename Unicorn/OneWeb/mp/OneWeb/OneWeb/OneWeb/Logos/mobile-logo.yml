@@ -1,0 +1,40 @@
+﻿---
+ID: "d5f3b334-a81b-44d7-9d34-4c12a3bebc7d"
+Parent: "1b7f82fb-5ea9-4aff-8c07-a6c595ff45a7"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Logos/mobile-logo"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/C611FE3B3B784E2EAF460D3F3325EDB4.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 31
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "c1d5dcef-18fb-47c6-913e-dfe3cb03af53"
+  Value: PHN2ZyBpZD0iR3JvdXBfMjciIGRhdGEtbmFtZT0iR3JvdXAgMjciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIzMS42ODQiIGhlaWdodD0iMjEuMjkxIiB2aWV3Qm94PSIwIDAgMzEuNjg0IDIxLjI5MSI+DQogIDxkZWZzPg0KICAgIDxjbGlwUGF0aCBpZD0iY2xpcC1wYXRoIj4NCiAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfNzIiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDcyIiB3aWR0aD0iMzEuNjg0IiBoZWlnaHQ9IjIxLjI5MSIgZmlsbD0ibm9uZSIvPg0KICAgIDwvY2xpcFBhdGg+DQogIDwvZGVmcz4NCiAgPHBhdGggaWQ9IlBhdGhfNDIiIGRhdGEtbmFtZT0iUGF0aCA0MiIgZD0iTTE5LjMzLjI1OWw0LjUxLDEwLjRoOS4xMzdMMjguNDY3LjI1OVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjI5NSAtMC4wMTcpIiBmaWxsPSIjM2I4M2I3Ii8+DQogIDxwYXRoIGlkPSJQYXRoXzQzIiBkYXRhLW5hbWU9IlBhdGggNDMiIGQ9Ik0yMy44NDEsMTEuNDA4LDE5LjMzLDIxLjgxaDkuMTM4bDQuNTEtMTAuNFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xLjI5NSAtMC43NjQpIiBmaWxsPSIjMjU1ZDg2Ii8+DQogIDxnIGlkPSJHcm91cF8yNiIgZGF0YS1uYW1lPSJHcm91cCAyNiI+DQogICAgPGcgaWQ9Ikdyb3VwXzI1IiBkYXRhLW5hbWU9Ikdyb3VwIDI1IiBjbGlwLXBhdGg9InVybCgjY2xpcC1wYXRoKSI+DQogICAgICA8cGF0aCBpZD0iUGF0aF80NCIgZGF0YS1uYW1lPSJQYXRoIDQ0IiBkPSJNMTUuMDMxLDEzLjM0N2E1LjE2Miw1LjE2MiwwLDEsMSwwLTUuNDA1bDIuMi01LjY0MmExMC42NCwxMC42NCwwLDEsMC02LjU4NiwxOC45OTEsMTAuNTY5LDEwLjU2OSwwLDAsMCw2LjU4OC0yLjNaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDApIiBmaWxsPSIjMmMyYTI5Ii8+DQogICAgPC9nPg0KICA8L2c+DQo8L3N2Zz4NCg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 979
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 21
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220630T101013Z
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: "mobile-logo"

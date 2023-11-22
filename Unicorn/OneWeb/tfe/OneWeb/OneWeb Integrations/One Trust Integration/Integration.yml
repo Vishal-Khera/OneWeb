@@ -1,0 +1,14 @@
+﻿---
+ID: "a8810b47-8371-4023-8ddf-7e91d6084c36"
+Parent: "f4438d7f-a8fb-4014-9271-82b00a3006ff"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Integrations/One Trust Integration/Integration
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211227T113322Z

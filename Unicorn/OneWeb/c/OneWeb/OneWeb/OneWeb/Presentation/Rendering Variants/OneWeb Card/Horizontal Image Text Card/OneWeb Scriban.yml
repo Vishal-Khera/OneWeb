@@ -1,0 +1,55 @@
+﻿---
+ID: "4d608356-d148-4513-ba32-631e59722d0a"
+Parent: "21059573-d8ad-407a-a5a7-8b43908891fd"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card/Horizontal Image Text Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{ if(i_item.image != "") }}
+    	<div class="ow-card-image">	
+    		<img class="ow-lazy" data-src = "{{ i_item.Image.media_url }}"  alt="{{i_item.Image.alt.raw}}" title="{{ i_item.Image.title.raw}}" />
+    	</div>
+    {{ end }}
+    <div class="ow-card-content">			
+    	{{ if(i_item.title != "") }}
+    		<h3>{{ i_item.title }}</h3>
+    	{{ end }}
+    	{{ if(i_item.content != "") }}
+    		<p>{{ i_item.content }}</p>
+    	{{ end }}
+    {{primary_link_classes = "btn btn-primary "}}
+    {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    if( primary_filtered_classes)
+    	if(primary_filtered_classes.class | string.size) > 0
+    		primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    	end
+    end}}
+    
+    {{secondary_link_classes = "btn btn-secondary "}}
+    {{ secondary_filtered_classes = ow_link_model i_item 'SecondaryLink'
+    if( secondary_filtered_classes)
+    	if(secondary_filtered_classes.class | string.size) > 0
+    		secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+    	end
+    end}}
+    	{{sc_field i_item 'PrimaryLink'[['text', (i_item.PrimaryLink.text)], ['class', (primary_link_classes)]]}}
+    	{{sc_field i_item 'SecondaryLink'[['text', (i_item.SecondaryLink.text)], ['class', (secondary_link_classes)]]}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T185907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

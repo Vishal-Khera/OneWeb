@@ -1,0 +1,57 @@
+﻿---
+ID: "92b2c01b-7290-45f7-b3a9-be36b4cff759"
+Parent: "272849ab-01c5-4057-ae12-d0292aca23e2"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card Grid/Default/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{ i_man = sc_followmany i_item "Card List" }}
+    {{ if(((i_man | array.size)|math.modulo 2) != 0) }}
+    	{{size = (i_man|array.size) - 1}}
+    {{else}}
+    	{{size = (i_man|array.size)}}
+    {{end}}
+    {{i_array= []}}
+    {{count = 0}}
+    {{col = 12/(size/2)}}
+    {{primary_link_classes = ""}}
+    {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    if( primary_filtered_classes)
+    	if(primary_filtered_classes.class | string.size) > 0
+    		primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    	end
+    end}}
+    <div class="ow-data-container row">
+    	{{for i_info in i_man limit:size}}
+    		{{i_array[count] = i_info}}
+    		{{count = count + 1}}
+    		{{if((i_array|array.size) == 2)}}
+    			<div class="data-item-list col-lg-{{col}}">
+    				{{ for i_data in i_array }}
+    					<div class="item">
+    						<h3>{{ i_data.Title}}</h3>
+    						<p>{{ i_data.Content }}</p>
+    						{{sc_field i_data 'PrimaryLink'[['text', (i_item.PrimaryLink.text)], ['class', (primary_link_classes)]]}}
+    					</div>
+    				{{ end }}
+    			</div>
+    			{{i_array=[]}}
+    			{{count=0}}
+    		{{end}}
+    	{{end}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T191808Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

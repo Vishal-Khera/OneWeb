@@ -1,0 +1,42 @@
+# Node.js with gulp
+# Build a Node.js project using the gulp task runner.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- preview
+
+pool:
+  name: Ametek Prod
+  
+steps:  
+- task: PowerShell@2
+  displayName: 'Update Unicorn Folder Path'
+  inputs:
+    targetType: 'inline'
+    script: |
+      $contentPath = '$(System.DefaultWorkingDirectory)\src\Foundation\Serialization\App_Config\Include\Foundation\Serialization\OneWeb.Foundation.Serialization.Rainbow.config'
+      ((Get-Content -path $contentPath -Raw) -replace 'C:\\Projects', 'D:\\home\\site\\wwwroot') | Set-Content -Path $contentPath
+
+- task: MSBuild@1
+  inputs:
+    solution: 'OneWeb.sln'
+    msbuildVersion: '16.0'
+    configuration: 'Release'
+    msbuildArguments: '-p:DeployOnBuild=true -p:DeployDefaultTarget=WebPublish -p:WebPublishMethod=FileSystem -p:DeleteExistingFiles=false -p:publishUrl="$(Build.StagingDirectory)"'
+    clean: true
+    restoreNugetPackages: true
+
+- task: CopyFiles@1
+  displayName: 'Copy Unicorn Configurations'
+  inputs:
+    SourceFolder: '$(System.DefaultWorkingDirectory)\ContentSync'
+    Contents: '**'
+    TargetFolder: '$(Build.StagingDirectory)\ContentSync'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Create Artifact'
+  inputs:
+    PathtoPublish: '$(Build.StagingDirectory)'
+    ArtifactName: 'OneWebBuild'
+    publishLocation: 'Container'

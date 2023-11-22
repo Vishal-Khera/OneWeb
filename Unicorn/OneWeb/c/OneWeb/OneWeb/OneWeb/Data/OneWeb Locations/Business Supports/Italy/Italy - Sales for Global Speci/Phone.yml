@@ -1,0 +1,20 @@
+﻿---
+ID: "6f08d0f3-2371-43f4-893b-71d9d2fe4dd8"
+Parent: "7a3a4653-5934-4c01-a107-9a22d5494693"
+Template: "f229fc5b-2172-404c-90dd-e1f0fe047cc7"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/Business Supports/Italy/Italy - Sales for Global Speciality Motors/Phone"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17500a11-fa62-46bd-a98f-b95f142766a9"
+      Hint: Title
+      Value: "+39 02-946931"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211224T221120Z
+    - ID: "e5b8aa11-a7d2-4340-a85a-b4443bb2cc72"
+      Hint: Link
+      Value: 

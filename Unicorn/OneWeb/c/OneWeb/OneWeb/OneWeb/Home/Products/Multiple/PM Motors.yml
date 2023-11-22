@@ -1,0 +1,71 @@
+﻿---
+ID: "76f38653-ad31-4b3e-8a22-012924335c19"
+Parent: "896fec10-ded9-4365-ac45-0647ab08ad6b"
+Template: "596bce13-1e1c-4e55-9c1a-8bf176b4e9d3"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/Products/Multiple/PM Motors
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{367D2B7A-CDCE-49F1-9EB4-F7388E9B0EDB}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1F62674E-1C3F-4C44-A988-961425FE87F2}"
+          p:before="*"
+          s:ds=""
+          s:id="{22FDD975-E198-42BC-BC36-F9B8319133DD}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Related Product List=Category&amp;Autoplay&amp;Autoplay Speed&amp;Show Arrows=1&amp;Show Dots=1&amp;Slides To Show=3&amp;Slides To Show Mobile=1.2&amp;Slides To Show Tab=2.2&amp;Custom Slider Class&amp;Carousel Desktop Disable&amp;FieldNames&amp;Styles=%7B26F0D14A-32FD-4D8B-95AA-C303B58F70DF%7D&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3" />
+        <r
+          uid="{60D3D511-8C05-4C31-B1F6-906879ED71CE}"
+          p:after="r[@uid='{1F62674E-1C3F-4C44-A988-961425FE87F2}']"
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{C1E2BB99-EC9D-4CA6-9547-13DB9699C260}"
+          p:after="r[@uid='{60D3D511-8C05-4C31-B1F6-906879ED71CE}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-fluid-1" />
+        <r
+          uid="{B2D2D789-B2F6-4529-93B0-4775EB66BE15}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles=%7B26F0D14A-32FD-4D8B-95AA-C303B58F70DF%7D%7C%7BDC3E505E-99C7-427B-8A25-29D9A6838161%7D&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{2012A234-F0AC-4BC8-953A-6E05C3061212}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220330T161401Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: PM Motors
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: PM Motors
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "657d540d-e855-44ce-a71b-c1fb4168a8ca"
+      Hint: Product List
+      Value: "{939DA2C4-AF16-4CCB-9A23-96895F735C48}"

@@ -1,0 +1,48 @@
+﻿---
+ID: "1ad5660f-3ee2-4556-b84b-e64bb9d77931"
+Parent: "bfd0600d-0080-4d75-a085-164c39472fc2"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Resource/News Detail without Date/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if i_item.title !=""-}}
+    <div class = "page-heading">
+    {{-i_item.title-}}
+    </div>
+    {{-end-}}
+    <br>
+    {{-if i_item.image != ""-}}
+    <img data-src="{{ i_item.image.media_url }}" class="img-fluid ow-lazy w-100" alt="{{-i_item.image.alt-}}"
+        title="{{-i_item.image.title-}}">
+    {{-end-}}
+    {{-if i_item.content !=""-}}
+    {{-i_item.content-}}
+    {{-end-}}
+    {{-business_model = i_item.Brands.target-}}
+    {{-if business_model | string.size>0-}}
+    <hr>
+    {{if business_model && (business_model.title | string.size > 0) && (business_model.content | string.size > 0)}}
+    <h3>{{sc_translate 'OneWeb-PressRelease-About'}} {{business_model.title-}}</h3>
+    {{-if business_model.content-}}
+    {{-business_model.content-}}
+    {{-end-}}
+    {{-end-}}
+    {{-end-}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T191808Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,144 @@
+.ow-card-dowload {
+  margin-bottom: 30px;
+  display: flex; }
+  .ow-card-dowload .component-content {
+    display: flex; }
+    .ow-card-dowload .component-content a {
+      position: relative;
+      text-decoration: unset;
+      width: 100%;
+      display: block;
+      box-shadow: 0 3px 6px 0 #c5c5c5;
+      background: #fff; }
+      .ow-card-dowload .component-content a .card-thumbnail {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover; }
+        .ow-card-dowload .component-content a .card-thumbnail img {
+          border: none;
+          max-width: 100%;
+          height: 250px; }
+      .ow-card-dowload .component-content a .card-title-group {
+        position: absolute;
+        bottom: 0px;
+        background: rgba(217, 23, 29, 0.8);
+        z-index: 1;
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+        display: flex; }
+        @media only screen and (min-width: 992px) {
+          .ow-card-dowload .component-content a .card-title-group {
+            padding: 15px; } }
+        .ow-card-dowload .component-content a .card-title-group .title {
+          font-family: "Helvetica Neue";
+          font-size: 16px;
+          color: #fff;
+          margin-bottom: 0px;
+          width: 65%;
+          line-height: 23px;
+          word-break: break-word;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden; }
+          @media screen and (min-width: 0) {
+            .ow-card-dowload .component-content a .card-title-group .title {
+              font-size: 16px; } }
+          @media screen and (min-width: 768px) {
+            .ow-card-dowload .component-content a .card-title-group .title {
+              font-size: 16px; } }
+          @media screen and (min-width: 992px) {
+            .ow-card-dowload .component-content a .card-title-group .title {
+              font-size: 16px; } }
+          @media only screen and (min-width: 992px) {
+            .ow-card-dowload .component-content a .card-title-group .title {
+              font-size: 20px; } }
+  @media only screen and (min-width: 992px) and (min-width: 0) {
+    .ow-card-dowload .component-content a .card-title-group .title {
+      font-size: 20px; } }
+  @media only screen and (min-width: 992px) and (min-width: 768px) {
+    .ow-card-dowload .component-content a .card-title-group .title {
+      font-size: 20px; } }
+  @media only screen and (min-width: 992px) and (min-width: 992px) {
+    .ow-card-dowload .component-content a .card-title-group .title {
+      font-size: 20px; } }
+        .ow-card-dowload .component-content a .card-title-group .text-blue {
+          color: #D9171D !important; }
+        .ow-card-dowload .component-content a .card-title-group .dowload-file {
+          width: 35%;
+          text-align: right; }
+          .ow-card-dowload .component-content a .card-title-group .dowload-file img {
+            width: auto; }
+      .ow-card-dowload .component-content a .white-bg {
+        background: rgba(255, 255, 255, 0.9) !important; }
+      .ow-card-dowload .component-content a .justfiy-img {
+        align-items: unset;
+        justify-content: unset; }
+        .ow-card-dowload .component-content a .justfiy-img img {
+          width: 100%; }
+    .ow-card-dowload .component-content .row-item {
+      flex-direction: unset;
+      display: block;
+      width: 100%;
+      height: unset; }
+      @media only screen and (min-width: 992px) {
+        .ow-card-dowload .component-content .row-item {
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          display: flex;
+          height: 250px; } }
+      .ow-card-dowload .component-content .row-item .card-thumbnail {
+        display: block;
+        height: 250px; }
+        @media only screen and (min-width: 992px) {
+          .ow-card-dowload .component-content .row-item .card-thumbnail {
+            width: 30%;
+            display: flex;
+            align-items: unset;
+            justify-content: unset; } }
+        .ow-card-dowload .component-content .row-item .card-thumbnail img {
+          width: 100%;
+          height: 250px; }
+          @media only screen and (min-width: 992px) {
+            .ow-card-dowload .component-content .row-item .card-thumbnail img {
+              width: auto; } }
+      .ow-card-dowload .component-content .row-item .card-title-group {
+        width: 100%;
+        position: relative;
+        display: flow-root;
+        align-items: unset;
+        padding: 30px 25px; }
+        @media only screen and (min-width: 992px) {
+          .ow-card-dowload .component-content .row-item .card-title-group {
+            width: 70%;
+            display: flow-root; } }
+        .ow-card-dowload .component-content .row-item .card-title-group .description {
+          color: #000;
+          line-height: 22px;
+          font-size: 16px;
+          padding-top: 10px;
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          margin-bottom: 15px; }
+          @media screen and (min-width: 0) {
+            .ow-card-dowload .component-content .row-item .card-title-group .description {
+              font-size: 16px; } }
+          @media screen and (min-width: 768px) {
+            .ow-card-dowload .component-content .row-item .card-title-group .description {
+              font-size: 16px; } }
+          @media screen and (min-width: 992px) {
+            .ow-card-dowload .component-content .row-item .card-title-group .description {
+              font-size: 16px; } }
+        .ow-card-dowload .component-content .row-item .card-title-group .btn {
+          position: relative;
+          left: unset; }
+          @media only screen and (min-width: 992px) {
+            .ow-card-dowload .component-content .row-item .card-title-group .btn {
+              bottom: 0px; } }

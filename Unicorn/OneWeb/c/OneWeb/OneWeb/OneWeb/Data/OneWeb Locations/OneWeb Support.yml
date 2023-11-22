@@ -1,0 +1,17 @@
+﻿---
+ID: "97cacbf3-bf5a-4fef-937b-833fd46fd833"
+Parent: "c125df30-efab-4b99-86fe-1d814353aa97"
+Template: "8a157750-d8f9-433a-94fe-c875b5580d80"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/OneWeb Support
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211224T220737Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: OneWeb Support

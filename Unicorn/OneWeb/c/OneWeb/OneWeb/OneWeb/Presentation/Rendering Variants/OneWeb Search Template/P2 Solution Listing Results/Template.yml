@@ -1,0 +1,73 @@
+﻿---
+ID: "7c4e8574-0534-46cf-a82b-462cdcf7cbfb"
+Parent: "e7e12793-d3fd-409e-9f58-a7ca8c9ee737"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/P2 Solution Listing Results/Template
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    
+        [[#each Results]]
+        <div class="news-wrapper">
+            [[#if (isdefined this.Image)]]
+            [[#jsonBlock this.Image]]
+            <div class="news-wrapper__image">
+                <img data-src="[[@Url]]" class="ow-lazy" title="[[@Title]]" alt="[[@Alt]]">
+            </div>
+            [[/jsonBlock]]
+            [[else]]
+            [[#if (isdefined this.DefaultImage)]]
+            [[#jsonBlock this.DefaultImage]]
+            <div class="news-wrapper__image">
+                <img data-src="[[@Url]]" class="ow-lazy" title="[[@Title]]" alt="[[@Alt]]">
+            </div>
+            [[/jsonBlock]]
+            [[/if]]
+            [[/if]]
+            <div class="news-wrapper__content">
+                <a href="[[this.Url]]">
+                    <h3>[[[Title]]]</h3>
+                </a>
+                [[#if (isdefined Content)]]
+                <div class="paragraph-wrapper">[[[Content]]]</div>
+                [[/if]]            
+                <div class="category-tag">
+                    [[#if (length this.Applications)]]
+                    <div class="category-tag__list">
+                        <span class="category-title">{{sc_translate 'Applications'}}:</span>
+                        [[#each this.Applications]]
+                        <span class="category-link">
+                            <a href="{{ow_default_page_url 'Applications Page'}}?filters=ow_taglist_sm:[[this.Id]]">[[this.Title]]</a>
+                        </span>
+                        [[/each]]
+                    </div>
+                    [[/if]]
+                    [[#if (length this.Industries)]]
+                    <div class="category-tag__list clearfix">
+                        <span class="category-title">{{sc_translate 'Industries'}}:</span>
+                        [[#each this.Industries]]
+                        <span class="category-link">
+                            <a href="{{ow_default_page_url 'Industries Page'}}?filters=ow_taglist_sm:[[this.Id]]">[[this.Title]]</a>
+                        </span>
+                        [[/each]]
+                    </div>
+                    [[/if]]
+                </div>
+            </div>
+        </div>
+        [[/each]]
+    
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T145420Z

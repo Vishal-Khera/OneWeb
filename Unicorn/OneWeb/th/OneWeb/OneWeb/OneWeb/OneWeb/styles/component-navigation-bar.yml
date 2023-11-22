@@ -1,0 +1,35 @@
+﻿---
+ID: "8f382438-495a-437f-999f-35694d471146"
+Parent: "2aa2366f-1418-4350-80c6-81f202505a50"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWeb/styles/component-navigation-bar"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/8F382438495A437F999F35694D471146.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "2e7e16ec-1846-4c8e-8ba5-d46d8bec974c"
+  Value: Lm93LW5hdmlnYXRpb24tYmFyIHsKICB0ZXh0LWFsaWduOiB1bnNldDsgfQogIC5vdy1uYXZpZ2F0aW9uLWJhciB1bCB7CiAgICBkaXNwbGF5OiBmbGV4OwogICAgZmxleC13cmFwOiB3cmFwOyB9CiAgICAub3ctbmF2aWdhdGlvbi1iYXIgdWwgbGkgewogICAgICBkaXNwbGF5OiBpbmxpbmUtZmxleDsKICAgICAgbWFyZ2luOiA4cHggMDsKICAgICAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgI2ZmZjsgfQogICAgICAub3ctbmF2aWdhdGlvbi1iYXIgdWwgbGkgYSB7CiAgICAgICAgY29sb3I6ICNmZmYgIWltcG9ydGFudDsKICAgICAgICBmb250LWZhbWlseTogIkhlbHZldGljYSBOZXVlIjsKICAgICAgICBsaW5lLWhlaWdodDogbm9ybWFsOwogICAgICAgIGZvbnQtc2l6ZTogMTZweDsKICAgICAgICBwYWRkaW5nOiAxNXB4IDIwcHg7IH0KICAgICAgICBAbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiAwKSB7CiAgICAgICAgICAub3ctbmF2aWdhdGlvbi1iYXIgdWwgbGkgYSB7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDsgfSB9CiAgICAgICAgQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzY4cHgpIHsKICAgICAgICAgIC5vdy1uYXZpZ2F0aW9uLWJhciB1bCBsaSBhIHsKICAgICAgICAgICAgZm9udC1zaXplOiAxNnB4OyB9IH0KICAgICAgICBAbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTJweCkgewogICAgICAgICAgLm93LW5hdmlnYXRpb24tYmFyIHVsIGxpIGEgewogICAgICAgICAgICBmb250LXNpemU6IDE2cHg7IH0gfQogICAgICAub3ctbmF2aWdhdGlvbi1iYXIgdWwgbGk6bGFzdC1jaGlsZCB7CiAgICAgICAgYm9yZGVyLXJpZ2h0OiB1bnNldDsgfQo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 848
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T123707Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

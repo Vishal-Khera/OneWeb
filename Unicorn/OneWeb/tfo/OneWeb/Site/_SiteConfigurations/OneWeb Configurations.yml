@@ -1,0 +1,18 @@
+﻿---
+ID: "8f65111b-6de3-4aee-82e6-8e00d618813b"
+Parent: "7cdb2446-63b8-49e9-b08a-f5b47eedc117"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/OneWeb/Site/_SiteConfigurations/OneWeb Configurations
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T082855Z

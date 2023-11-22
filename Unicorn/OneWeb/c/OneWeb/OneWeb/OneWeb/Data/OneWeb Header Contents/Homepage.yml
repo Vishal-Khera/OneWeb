@@ -1,0 +1,20 @@
+﻿---
+ID: "cf94883d-2332-405e-a382-3a4ac2edc06a"
+Parent: "3aab6472-670f-4713-a785-3afbf8c6cd57"
+Template: "552c7c41-fcf3-45a9-a813-3d75a4d5c654"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Header Contents/Homepage
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211229T102051Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Business making a difference
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: 

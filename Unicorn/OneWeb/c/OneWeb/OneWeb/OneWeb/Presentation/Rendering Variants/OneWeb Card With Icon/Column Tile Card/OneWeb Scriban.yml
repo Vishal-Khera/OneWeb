@@ -1,0 +1,105 @@
+﻿---
+ID: "038ceb1f-bcb7-4f1a-9e94-a25c272b2d93"
+Parent: "0ee06090-9c6f-4bb6-b4cc-8b72f99f7da7"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card With Icon/Column Tile Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if i_item-}}
+         <div class="slider-item">
+         {{media_model = ow_default_media i_item.Image.media_url}}
+        	{{-if media_model-}}
+                                <div class="slider-image">
+                                    <div class="slide" data-src="{{ media_model.url }}" style="background-image: url('{{ media_model.url }}');"></div>
+                                </div>
+        	{{-end-}}
+                                <div class="slider-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-7">
+        									
+        									
+        									{{-if i_item.title !=""-}}
+                                <h2>{{-i_item.title-}}</h2>
+        						{{-end-}}
+        						     
+                                              
+                                                   {{-if i_item.content !=""-}}
+                                <div>{{-i_item.content-}}</div>
+    
+        						{{-end-}}	
+                                           {{if i_item.image !=""}}
+    {{coverImageClass = ow_cover_image_class i_item}}
+    {{ end }}
+    {{card_link = ow_link_model i_item 'PrimaryLink'}}
+    	{{if card_link.url != ""}}
+    	
+    
+    <div class="tile-slide">
+    {{if i_item.image.media_url}}
+    <div class="tile-bg-image image-full">
+    <img src = "{{ i_item.image.media_url }}" alt="{{ i_item.image.alt.Raw }}" title="{{ i_item.image.title.Raw }}" />
+    </div>
+    {{end}}
+    <div class="lower-content">
+    <a href="{{card_link.url}}" class="{{card_link.class}}" target="{{card_link.target}}" anchor="{{card_link.anchor}}" >
+    <div class="{{xBackgroundColorTypeValue}}">
+    {{if i_item.Title !=""}}
+    			<h3 aria-label="head">{{i_item.Title}}</h3>
+    			{{ end }}
+    			{{if i_item.Content !=""}}
+    			<div aria-label="content">{{i_item.Content}}</div>
+    			{{ end }}
+    
+    </div>
+    </a>
+    </div>
+    </div>
+    
+    {{else}}
+    
+    <div class="tile-slide">
+    {{if i_item.image.media_url}}
+    <div class="tile-bg-image image-full">
+    <img src = "{{ i_item.image.media_url }}" alt="{{ i_item.image.alt.Raw }}" title="{{ i_item.image.title.Raw }}" />
+    </div>
+    {{end}}
+    <div class="lower-content">
+    <div class="{{xBackgroundColorTypeValue}}">
+    {{if i_item.Title !=""}}
+    			<h3 aria-label="head">{{i_item.Title}}</h3>
+    			{{ end }}
+    			{{if i_item.Content !=""}}
+    			<div aria-label="content">{{i_item.Content}}</div>
+    			{{ end }}
+    
+    </div>
+    </div>
+    </div>
+    
+    {{end}}
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        					{{-end-}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T144755Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

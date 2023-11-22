@@ -1,0 +1,55 @@
+<header class="decoupled-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-1 d-flex d-lg-none">
+                <div class="handburger">
+                    <span> </span>
+                    <span> </span>
+                    <span> </span>
+                </div>
+            </div>
+            <div class="col-6 col-lg-2">
+                <img src="images/logo2.png" />
+            </div>
+            <div class="col-lg-8 search-mobile">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="global-search">
+                            <input type="text" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-5 col-lg-2 d-none d-lg-block">
+                <div class="brand-logo float-right">
+                    <img src="images/logo.png" alt="search-icon" />
+                </div>
+            </div>
+
+
+            <div class="col-md-8 col-lg-10 order-1 mt-lg-3 order-lg-0 mobile-menu">
+                {% include "../../components/main-nav.html" %}
+            </div>
+
+            <div class="col-5 col-lg-2 mt-lg-4 m-right">
+                <div class="language float-right ">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <select class="js-language">
+                        <option value="http://oneweb.ow.local.ametekweb.com/"> EN </option>
+                        <option value="http://oneweb.ow.local.ametekweb1.com/"> SP </option>
+                        <option value="http://oneweb.ow.local.ametekweb2.com/"> DE </option>
+                        <option value="http://oneweb.ow.local.ametekweb3.com/"> IT </option>
+                    </select>
+                </div>
+                <div class="d-block d-lg-none mobile-search float-right">
+                    <img src="images/search-icon-red.svg" alt="search-icon" />
+                </div>
+
+                <div class="link d-none d-lg-block">
+                    <a href="#"> Contact Us </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,14 @@
+﻿---
+ID: "9d8e9faa-8dba-414f-9a94-7b9d40197f4d"
+Parent: "1ceda51b-5ec1-43ba-a051-bdabde418afa"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Page Content/Customizable Card/Thumbnails
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220418T072009Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "d689e5b5-e37d-46e4-905c-cc34040063e9"
+Parent: "abd2cfd1-9db8-4c66-9554-f22da93a1c29"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/OneWeb/Base/_BaseSearch/Search
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T001301Z

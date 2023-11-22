@@ -1,0 +1,31 @@
+﻿---
+ID: "6dcbab4c-b556-4808-a337-6f3b271b063c"
+Parent: "0f2f2516-be1a-4734-bf25-de45c050ef41"
+Template: "2cf8a428-d0c2-4d52-b598-ff72ee265123"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Hero Banners/Image Banner/Careers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{2DD57236-9432-43A1-9648-03A95F0174EB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220112T173443Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: |
+        Unleash Your Creativity.
+        Unleash Your Passion.
+        Make An Impact.
+    - ID: "d8102b5b-0ae4-4e50-9880-2d71b652465e"
+      Hint: MobileImage
+      Value: 
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="SEE THE RESULTS" anchor="" linktype="internal" class="btn btn-primary" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

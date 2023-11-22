@@ -1,0 +1,33 @@
+﻿---
+ID: "a3debc88-e36b-4a1c-82de-4be9a4b2bba8"
+Parent: "47690885-0270-4bba-8ed7-878ec2cf6120"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Users Table/Default/Container
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="table-responsive col-12">  
+    <table class="table table-striped user-manager">
+        <thead>
+          <tr>
+            <th scope="col">{{sc_translate 'OneWeb-User-Manager-First-Name'}}</th>
+            <th scope="col">{{sc_translate 'OneWeb-User-Manager-Last-Name'}}</th>
+            <th scope="col">{{sc_translate 'OneWeb-User-Manager-Email-Address'}}</th>
+            <th scope="col">{{sc_translate 'OneWeb-User-Manager-Country'}}</th>        
+            <th scope="col"> {{sc_translate 'OneWeb-User-Manager-Action'}}</th>
+          </tr>
+        </thead>
+        <tbody class="ow-container">
+        </tbody>
+      </table>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220316T142940Z

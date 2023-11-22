@@ -1,0 +1,36 @@
+@import 'base/base-index.scss';
+
+.card-item{
+    &.image-card{
+        min-width: 50% !important;
+        @include md{
+            min-width: 20% !important;
+        }
+        .card-item{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .tile-slide{
+        border-radius: 8px;
+        border-radius: 8px;
+        overflow: hidden;
+        .card-title-content{
+            h4,h3,h1{
+                @include font-size($smlg-font);
+                margin-bottom: 0px;
+            }
+        }
+    }
+    &.active{
+        .card-title-content{
+            opacity: 1;
+        }
+    }
+}
+.card-row-inline{
+    padding-left: 0px;
+    padding-right: 0px;
+}

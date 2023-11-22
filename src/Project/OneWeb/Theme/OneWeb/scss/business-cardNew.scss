@@ -1,0 +1,255 @@
+@import 'base/base-index.scss';
+
+    .ow-businesscard-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        p{
+            margin-top: 10px !important;
+        }
+        .ow-contentcard-heading{
+            border-left: 1px solid $primary;
+            margin: 20px 0px;
+            padding-left: 20px;
+            
+            *{
+                font-family: 'HelveticaNeue-Bold' !important;
+                padding-right: 10px;
+                margin-bottom: unset;
+            }
+        }
+        &.ow-expand-box {
+            height: unset;
+            display:table;
+            .ow-card-heading{
+                background-color: $white-gray;
+            }
+            .ow-business-content {
+                padding-bottom: 20px;
+                justify-content: flex-start;
+                background-color: $white-gray;
+                padding-bottom: 50px;
+                height: auto;
+                .read-more {
+                    display: none;
+                }
+                .button-wrapper {
+                    border-top: 2px solid $primary;
+                    padding-top: 0px;
+                    width:calc(100% - 40px);
+                    position: absolute;
+                    a {
+                        position: relative;
+                        max-width: 100%;
+                        margin-top:0px;
+                        display: block;
+                        padding: 15px 0;
+                        &:after {
+                            content: " \276F";
+                            position: absolute;
+                            right: 5px;
+                            top: 0px;
+                            transform: rotate(90deg);
+                            z-index: 1;
+                            bottom: 0px;
+                            margin: auto;
+                            font-size: 14px;
+                            font-family: 'HelveticaNeue-Medium';
+                            color: $black;
+                            height: 23px;
+                        }
+                    }
+                }
+            }
+            &.expanded{
+                .Content-default {
+                    display: none;
+                }
+                .read-more{
+                    display: inline;
+                }
+                .button-wrapper {
+                    border-top: 2px solid $primary;
+                    a {
+                        &:after {
+                            transform: rotate(-90deg);
+                            height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .ow-business-image {
+            width: 100%;
+            img{
+                width:100%;
+            }
+        }
+    
+        .ow-card-heading {
+            width: 100%;
+            position: relative;
+    
+            h4 {
+                position: inherit;
+                z-index: 2;
+                color: $white;
+                @include font-size($ssm-font);
+                margin: 0;
+                padding: 7px 20px;
+                text-transform: uppercase;
+                font-family: 'HelveticaNeue-Bold';
+                label{
+                    font-size: unset;
+                    margin: unset;
+                    padding: unset;
+                    line-height: unset;
+                    display: contents;
+                }
+            }
+    
+            &::after {
+                height: 100%;
+                content: "";
+                background: $primary;
+                width: 100%;
+                position: absolute;
+                transform-origin: top;
+                transform: skewX(-25deg);
+                top: 0px
+            }
+        }
+    
+        .ow-business-content {
+            padding: 20px;
+            position: relative;
+            height: 100%;
+            // padding-bottom: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    
+            h3 {
+                @include font-size($lg-font);
+                font-family: 'HelveticaNeue-Bold';
+                line-height: 24px;
+            }
+
+            .ow-business-header-wrapper{
+                p{
+                    &:last-of-type{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+    
+            .button-wrapper {
+                position: relative;
+                left: unset;
+                bottom: 0;
+                text-transform: uppercase;
+                font-family: 'HelveticaNeue-Medium';
+                width: 100%;
+                margin-bottom:0;
+                a {
+                    text-decoration: underline;
+                    max-width: fit-content;
+                    margin-top:20px;
+                    @include font-size($sm-font);
+                    &:hover {
+                        color: $black;
+                    }
+                }
+            }
+        }
+
+        .ow-business-contentv2 {
+            padding: 0px 10px 60px 20px;
+            position: relative;
+            height: 100%;
+            a{
+                display: inline;
+                text-decoration: underline;
+                font-family: 'HelveticaNeue-Medium' !important;
+                &:hover {
+                    color: $black;
+                }
+
+            }
+            p{
+                margin:unset !important;
+                *:first-child{
+                    
+                    @include font-size($lg-font);
+                    display:block;
+                    margin-bottom:20px
+                }
+            }
+            .button-wrapper{
+                bottom: 10px;
+                position: absolute;
+                left: 20px;
+                width: calc(100% - 40px);
+                margin-bottom: 0;
+            }
+            
+        }
+
+
+    }
+
+    .ow-card-clip{
+        background-clip: content-box !important;
+        background: $white-gray;
+        display: unset;
+
+}
+
+
+
+.ow-disable-carousal-desktop{
+    .slick-track{
+        display: flex;
+        flex-wrap: wrap;
+
+        .slick-slide{
+            height: auto;
+            > div{
+                height: 100%;
+                .ow-card{
+                    height: 100%;
+                    >.component-content{
+                        height: 100%;
+                    }
+                    .ow-businesscard-container{
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.expandable-box-wrapper{
+    &.ow-disable-carousal-desktop{
+        @media(max-width:991px){
+            .slick-track {
+                .slick-slide{
+                    height:auto;
+                    > div{
+                        height: auto;
+                        .ow-card, .ow-businesscard-container{
+                            height: auto;
+                            > .component-content{
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}

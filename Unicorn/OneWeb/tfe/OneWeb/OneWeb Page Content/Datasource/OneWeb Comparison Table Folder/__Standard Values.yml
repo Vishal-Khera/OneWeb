@@ -1,0 +1,25 @@
+﻿---
+ID: "99374fe4-edb6-4ee8-8670-25e6ecb62da5"
+Parent: "2ee3b01f-a027-4084-88df-e5725e481b5a"
+Template: "2ee3b01f-a027-4084-88df-e5725e481b5a"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Comparison Table Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {BA8640AB-9B2D-48DA-8431-E412F8F4BDB8}
+    {2EE3B01F-A027-4084-88DF-E5725E481B5A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T195129Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

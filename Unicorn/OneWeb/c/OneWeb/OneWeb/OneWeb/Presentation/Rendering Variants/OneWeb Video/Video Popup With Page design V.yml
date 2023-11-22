@@ -1,0 +1,14 @@
+﻿---
+ID: "494541ea-46bc-4348-aa6c-b872bbfecbd7"
+Parent: "486c948a-85ba-4e4f-a888-f7f8d4ce4f1c"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Video/Video Popup With Page design V1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220214T121540Z

@@ -1,0 +1,32 @@
+﻿---
+ID: "4abff544-7f13-4ab2-982c-39d8d8a71d87"
+Parent: "29d7d948-add4-44ed-a700-fbc209c1596c"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Related Listing/P2 Related List/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if o_model && (o_model.related_listing.size > 0)}}  
+    <div class="ow-card-icon mb-3">  	    
+        {{ for data in o_model.related_listing}}    	
+        			{{item = ow_item data.item_id}}    			
+        			 {{if (data.title | string.size >0)}}
+    				 <div class="card simple-list">
+                     <div class="card-info">
+                    <a class="title" href = '{{item.url}}' target="_self">{{data.title}}</a>
+    				    </div>
+                    </div>
+        			{{end}}               
+           {{end}}    
+     </div>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220211T144323Z

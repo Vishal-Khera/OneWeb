@@ -1,0 +1,21 @@
+﻿---
+ID: "a0e078de-b9fe-473d-a9eb-8706bc31d4c3"
+Parent: "a2e4a131-d3ac-447b-b260-485eda3b6b1b"
+Template: "62c2b7d0-1c34-4aa6-b3d3-5d612c0891bd"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Events/OneWeb Event List/Calendar Event
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fb9f55d-2c43-49c2-a61d-df8552c88c20"
+      Hint: EventName
+      Value: Calendar Event
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T091636Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

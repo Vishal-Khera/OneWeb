@@ -1,0 +1,71 @@
+﻿---
+ID: "89e14a75-b2d0-4869-ab7d-a66a754a232d"
+Parent: "8f4c33f6-9afa-4031-9a84-2cfc3953b5ad"
+Template: "92d1da5d-4ad7-44ce-8f19-d55b2e12b042"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Businesses/Businesses/Creaform
+DB: master
+SharedFields:
+- ID: "a0c7d8e5-d7a7-491f-b9a5-e97d89671455"
+  Hint: Taxonomy Tag
+  Value: "{98C14F7A-3974-498C-8B83-9F42CF63151E}"
+- ID: "e40bdb84-8c4c-44ea-8fe6-005ee4708672"
+  Hint: Tags
+  Value: "{178AC335-4CE2-4039-8F0A-B24C12C7F8FE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{234C49D1-DEE9-4EE2-B6B5-F895DE5A1820}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211222T035643Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Creaform
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                            and scrambled it to make a type specimen book. </p>
+    - ID: "40510a5e-3ee8-4124-b8c2-b776926dd5f1"
+      Hint: Logo
+      Value: |
+        <image mediaid="{77B83334-F461-480D-A250-5D1527B585B6}" />
+    - ID: "492d4291-3add-415a-981e-247d76cb6185"
+      Hint: Featured Support Group
+      Value: "{7A3A4653-5934-4C01-A107-9A22D5494693}"
+    - ID: "8f71537b-0bdd-4968-95d3-2ec9c57fb1b5"
+      Hint: Brands
+      Type: TreelistEx
+      Value: |
+        {26D071E0-F24F-4F84-BDA4-1116E2EC93A4}
+        {91765918-3EBF-4424-AE80-FD309D0B64C4}
+    - ID: "c1fb5481-5cbb-4d46-ade8-28ae1a87408b"
+      Hint: Products
+      Type: TreelistEx
+      Value: "{F5F6B711-0F4E-4A60-98DB-52C5FE20E922}"
+    - ID: "d118b624-58c9-48b1-b576-bf3835ab05ea"
+      Hint: Industries
+      Type: TreelistEx
+      Value: "{4F3D44CD-7722-4EB3-AE84-0AC2ACDB5973}"
+    - ID: "d2a4876c-f72c-4f9a-be84-1a75fb52bd47"
+      Hint: Support Groups
+      Value: "{7A3A4653-5934-4C01-A107-9A22D5494693}|{0A5486CF-1947-43D2-8357-6372E49BBC01}|{62BCCDFB-BE18-46E6-A8AC-52ED46B92BC6}"
+    - ID: "df1a4406-3c14-4411-82f0-6f1ef1f2a52b"
+      Hint: Support Groups Title
+      Value: "Where do you need USA support?"
+    - ID: "f13ce9a8-e57f-43b6-8b32-62fa64effbc7"
+      Hint: Link
+      Value: |
+        <link text="www.creaform.com" linktype="external" url="https://www.creaform.com" anchor="" target="_blank" />
+    - ID: "f911a3f4-9d39-4148-90fc-decf7dd59619"
+      Hint: Footer Note
+      Value: |
+        2300 Dulles Station Blvd.<br />
+        6th Floor<br />
+        Herndon, Virginia 20171

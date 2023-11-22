@@ -1,0 +1,123 @@
+@import 'base/base-index.scss';
+
+
+.grid-container{
+    @include lg{
+        display: flex;
+    }
+    &__heading{
+        @include lg{
+            width: 50%;
+        }
+    }
+
+    &__description{
+        margin-top:10px;
+        @include lg{
+            width: 50%;
+            margin-top:0;
+        }
+    }
+}
+
+.component-grid-wrapper{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    @include lg{
+        margin-top: 40px;
+        margin-bottom: 35px; 
+    }
+}
+
+.text-wrapper{
+    .dark-theme-card,.dark-theme-card{
+            margin: 10px 0 10px 0;
+            padding-left: 0px;
+            padding-right: 0px;
+        @include lg{
+            margin-top: 40px;
+            margin-bottom: 30px; 
+        }
+        .ow-content-card{
+            margin-bottom: 5px;
+            @include lg{
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .component-placeholder-wrapper{
+        margin-top:45px;
+        .dark-theme-card, .light-theme-card{
+            margin: 10px 0 0px 0;
+            padding-left: 0px;
+            padding-right: 0px;
+            @include lg{
+                margin-left: -15px;
+                margin-right: -15px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+        .ow-product-card{
+            margin-bottom: 15px;
+            @include md{
+                margin-bottom: 20px;   
+            }
+        }
+    }
+}
+
+
+.card-desktop-item{
+    @media(max-width:767px){
+        margin-bottom: 10px;
+        .button{
+            display: none;
+        }
+    }
+    @include md{
+        padding-top: 10px;
+    }
+}
+
+.card-mobile-item{
+    @media(max-width:767px){
+        margin-top:35px;
+        h2, .paragraph-wrapper{
+            display: none;
+        }
+        &.text-center{
+            .button{
+                margin:0 auto;
+            }
+        }
+    }
+}
+
+.component-button-wrapper{
+    .button{
+        display: inline-block;
+        padding-left:0;
+        padding-top:0;
+        padding-bottom:0;
+        &:hover{
+            padding-left: 30px;
+            padding-right: 20px;
+            &:before{
+                left:15px;
+            }
+        }
+    }
+}
+
+.ow-text-with-placeholder{
+    width:100%;
+    // .text-wrapper{
+    //     padding-left: 15px;
+    //     padding-right: 15px;
+    //     .component-placeholder-wrapper{
+    //         margin-left: -15px;
+    //         margin-right: -15px;
+    //     }
+    // }
+}

@@ -1,0 +1,105 @@
+﻿---
+ID: "38f7f6e1-4250-42c4-a089-de00a3aa7393"
+Parent: "6cf6337d-0125-41d3-b10f-c0d54ae44d3a"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Navigation/Combined Logo Primary Navigation/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if o_model && o_model.children.size>0-}}
+        {{if sc_parameter 'HoverEnabled'}}
+          {{hoverEnabledClass = 'hoverEnabled'}}
+        {{else}}
+          {{hoverEnabledClass = ''}}
+        {{end}}
+        <nav class="navbar navbar-expand-lg main-navigation {{hoverEnabledClass}}">
+          <div class="collapse navbar-collapse justify-content-end" id="main_nav">
+              <ul class="navbar-nav">
+                  {{-for menu_item in o_model.children-}}
+                      {{if (menu_item.is_active)}}
+                          {{activeClass = 'active'}}
+                      {{else}}
+                          {{activeClass = ''}} 
+                      {{end}}
+                      {{-if menu_item.has_children-}}
+                          <li class="nav-item dropdown has-dropdown {{activeClass}}">
+                              {{if hoverEnabledClass != ''}}
+                                {{levelZeroUrl = menu_item.link.url}}
+                              {{else}}
+                                {{levelZeroUrl = 'javascript:void(0)'}}
+                              {{end}}
+                              <a class="nav-link dropdown-toggle {{menu_item.css_class}}" href="{{levelZeroUrl}}" data-toggle="dropdown" target="{{-menu_item.link.target-}}" anchor="{{-menu_item.link.anchor-}}">{{-menu_item.title-}}</a>
+                                {{if (menu_item.has_sub_children)}}
+                                  {{widthClass = 'full-width'}}
+                                {{else}}
+                                  {{widthClass = 'single-col'}}
+                                {{end}}
+                              <div class="dropdown-menu {{widthClass}}">
+                                  <ul class="multipal-col">
+    							        {{if hoverEnabledClass == ''}}
+    							        <li class="items-1 d-flex align-items-center">							
+    									<a class="dropdown-item {{-menu_item.css_class-}}" href="{{-menu_item.link.url-}}" target="{{-menu_item.link.target-}}" anchor="{{-menu_item.link.anchor-}}"> {{-sc_translate 'OneWebNavigation-Overview'-}} </a>                                 
+    									</li>
+    									{{end}}
+                                      {{-for menu_item_level_1 in menu_item.children-}}
+                                          {{if (menu_item_level_1.is_active)}}
+                                              {{activeClass = 'active'}}
+                                          {{else}}
+                                              {{activeClass = ''}} 
+                                          {{end}}
+                                          {{-if menu_item_level_1.has_children-}}
+                                              <li class="items-1 {{activeClass}}">
+                                                  <div class="d-flex align-items-center">
+                                                      <a class="dropdown-item menulink-heading {{menu_item_level_1.css_class}}" href="{{-menu_item_level_1.link.url-}}" target="{{-menu_item_level_1.link.target-}}" anchor="{{-menu_item_level_1.link.anchor-}}"> {{-menu_item_level_1.title-}} </a>
+                                                      <span class="new-promotion">{{-sc_translate 'OneWebNavigation-New'-}}</span>
+                                                  </div>
+                                                  <ul>
+                                                      {{-for menu_item_level_2 in menu_item_level_1.children-}}
+                                                          {{if (menu_item_level_2.is_active)}}
+                                                              {{activeClass = 'active'}}
+                                                          {{else}}
+                                                              {{activeClass = ''}} 
+                                                          {{end}}
+                                                          <li> 
+                                                            <a class="dropdown-item {{activeClass}} {{menu_item_level_2.css_class}}" href="{{-menu_item_level_2.link.url-}}" target="{{-menu_item_level_2.link.target-}}" anchor="{{-menu_item_level_2.link.anchor-}}">{{-menu_item_level_2.title-}}</a>
+                                                            <span class="new-promotion">{{-sc_translate 'OneWebNavigation-New'-}}</span>
+                                                          </li>
+                                                      {{-end-}}
+                                                  </ul>
+                                              </li>
+                                          {{-else-}}
+                                              <li class="items-1 {{activeClass}}">
+                                                  <div class="d-flex align-items-center">
+                                                      <a class="dropdown-item menulink-heading {{menu_item_level_1.css_class}}" href="{{-menu_item_level_1.link.url-}}" target="{{-menu_item_level_1.link.target-}}" anchor="{{-menu_item_level_1.link.anchor-}}"> {{-menu_item_level_1.title-}} </a>
+                                                      <span class="new-promotion">{{-sc_translate 'OneWebNavigation-New'-}}</span>
+                                                  </div>
+                                              </li>
+                                          {{-end-}}
+                                      {{-end-}}
+                                  </ul>
+                              </div>
+                          </li>
+                      {{-else-}}
+                          <li class="nav-item {{activeClass}}">
+                            <a href="{{-menu_item.link.url-}}" class="nav-link {{menu_item.css_class}}" target="{{-menu_item.link.target-}}" anchor="{{-menu_item.link.anchor-}}">{{-menu_item.title-}}</a>
+                          </li>
+                      {{-end-}}
+                  {{-end-}}
+              </ul>
+          </div>
+        </nav>
+    {{-end-}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220328T063343Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

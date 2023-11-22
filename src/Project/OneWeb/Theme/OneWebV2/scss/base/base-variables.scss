@@ -1,0 +1,129 @@
+$breakpoints: ( 
+  xs: 0, 
+  sm: 576px, 
+  md: 768px, 
+  lg: 992px, 
+  xl: 1200px,
+  xxl: 1500px
+);
+
+// line height
+////////////////
+$font-sizes: (ssssm:11px, sssm:12px, ssm:13px, sm: 14px, md:16px, slg:18px, smlg:21px, mlg:24px, xlg:26px, lg:28px, mxl:32px, xl:40px,  xxl:48px);
+//////
+$xxl-font: ( null: map-get($font-sizes, mxl), xs: map-get($font-sizes, mxl), md: map-get($font-sizes, mxl), lg: map-get($font-sizes, xxl));
+$xl-font: ( null: map-get($font-sizes, xlg), xs: map-get($font-sizes, xlg), md: map-get($font-sizes, xl), lg: map-get($font-sizes, xl));
+$mxl-font: ( null: map-get($font-sizes, mlg), xs: map-get($font-sizes, mlg), md: map-get($font-sizes, mlg), lg: map-get($font-sizes, mxl));
+$sxl-font: ( null: map-get($font-sizes, slg), xs: map-get($font-sizes, slg), md: map-get($font-sizes, slg), lg: map-get($font-sizes, lg));
+$lg-font: ( null: map-get($font-sizes, smlg), xs: map-get($font-sizes, smlg), md: map-get($font-sizes, smlg), lg: map-get($font-sizes, lg));
+$mlg-font: ( null: map-get($font-sizes, smlg), xs: map-get($font-sizes, smlg), md: map-get($font-sizes, lg), lg: map-get($font-sizes, lg));
+$smlg-font: ( null: map-get($font-sizes, slg), xs: map-get($font-sizes, slg), md: map-get($font-sizes, slg), lg: map-get($font-sizes, smlg));
+$ssmlg-font: ( null: map-get($font-sizes, md), xs: map-get($font-sizes, md), md: map-get($font-sizes, smlg), lg: map-get($font-sizes, smlg));
+$slg-font: ( null: map-get($font-sizes, slg), xs: map-get($font-sizes, slg), md: map-get($font-sizes, slg), lg: map-get($font-sizes, slg));
+$sslg-font: ( null: map-get($font-sizes, slg), xs: map-get($font-sizes, ssm), md: map-get($font-sizes, slg), lg: map-get($font-sizes, slg));
+$md-font: ( null: map-get($font-sizes, md), xs: map-get($font-sizes, md), md: map-get($font-sizes, md), lg: map-get($font-sizes, md));
+$smd-font: ( null: map-get($font-sizes, md), xs: map-get($font-sizes, sm), md: map-get($font-sizes, md), lg: map-get($font-sizes, md));
+$ssmd-font: ( null: map-get($font-sizes, md), xs: map-get($font-sizes, ssm), md: map-get($font-sizes, md), lg: map-get($font-sizes, md));
+$sm-font: ( null: map-get($font-sizes, sm), xs: map-get($font-sizes, sm), md: map-get($font-sizes, sm), lg: map-get($font-sizes, sm));
+$sssmd-font: ( null: map-get($font-sizes, sm), xs: map-get($font-sizes, sssm), md: map-get($font-sizes, sm), lg: map-get($font-sizes, sm));
+$smmd-font: ( null: map-get($font-sizes, sm), xs: map-get($font-sizes, ssm), md: map-get($font-sizes, sm), lg: map-get($font-sizes, sm));
+$ssm-font: ( null: map-get($font-sizes, ssm), xs: map-get($font-sizes, ssm), md: map-get($font-sizes, ssm), lg: map-get($font-sizes, ssm));
+$sssm-font: ( null: map-get($font-sizes, sssm), xs: map-get($font-sizes, sssm), md: map-get($font-sizes, sssm), lg: map-get($font-sizes, sssm));
+$ssssm-font: ( null: map-get($font-sizes, ssssm), xs: map-get($font-sizes, ssssm), md: map-get($font-sizes, ssssm), lg: map-get($font-sizes, ssssm));
+$xlg-font: ( null: map-get($font-sizes, xlg), xs: map-get($font-sizes, xlg), md: map-get($font-sizes, xlg), lg: map-get($font-sizes, xlg));
+$mlgx-font: ( null: map-get($font-sizes, smlg), xs: map-get($font-sizes, smlg), md: map-get($font-sizes, smlg), lg: map-get($font-sizes, smlg));
+$smslg-font: ( null: map-get($font-sizes, md), xs: map-get($font-sizes, md), md: map-get($font-sizes, md), lg: map-get($font-sizes, slg));
+// line height
+////////////////
+// $line-height: ( md: 12px, lg:20px, xl:24px, mxxl:32px, xxl: 46px, xxxml: 36px, xxxl: 62px, xxxxml: 44px, xxxxl: 85px);
+// $xxxxl-line-height: ( null: map-get($line-height, xxxxml), xs: map-get($line-height, xxxxml), md: map-get($line-height, xxxxl), lg: map-get($line-height, xxxxl));
+// $xxxl-line-height: ( null: map-get($line-height, xxxml), xs: map-get($line-height, xxxml), md: map-get($line-height, xxxl), lg: map-get($line-height, xxxl));
+// $xxl-line-height: ( null: map-get($line-height, mxxl), xs: map-get($line-height, mxxl), md: map-get($line-height, xxl), lg: map-get($line-height, xxl));
+// $xl-line-height: ( null: map-get($line-height, xl), xs: map-get($line-height, xl), md: map-get($line-height, xl), lg: map-get($line-height, xl));
+// $lg-line-height: ( null: map-get($line-height, lg), xs: map-get($line-height, lg), md: map-get($line-height, lg), lg: map-get($line-height, lg));
+// $md-line-height: ( null: map-get($line-height, md), xs: map-get($line-height, md), md: map-get($line-height, md), lg: map-get($line-height, md));
+
+/////////////////
+// Colors
+////////////////
+
+
+$brand:#236192;
+$dark-blue:#114B79;
+$light-blue:#5E8AB4;
+
+$cobalt-blue:rgba(40, 98, 144, .7);
+
+$low-light-blue:rgba(35, 97, 126, .15);
+$mid-light-blue:rgba(35, 97, 126, .5);
+
+
+$fade-blue:rgba(35, 97, 146, .1);
+$btn-standard-light:rgba(35, 97, 146, .15);
+$cyan-blue:rgba(35, 97, 146, .2);
+$sea-blue:rgba(35, 97, 146, .5);
+$coral-blue:rgba(35, 97, 146, .6);
+$btn-light-border:rgba(35, 97, 146, .7);
+
+
+$border-light:rgba(44, 42, 41, .15);
+$lead-gray:rgba(44, 42, 41, .4);
+$paragraph-text:rgba(44, 42, 41, .6);
+$card-text:rgba(44, 42, 41, .7);
+$card-bg-dark:rgba(44, 42, 41, .9);
+
+$white-gray-light:rgba(240, 240, 240, .15);
+$light-gray:rgba(240, 240, 240, .5);
+$stone-gray:rgba(240, 240, 240, .6);
+$mid-light-gray:rgba(240, 240, 240, .7);
+
+
+$white-light-border:rgba(255, 255, 255, .15);
+$steel-gray: rgba(255, 255, 255, .2);
+$ash-gray: rgba(255, 255, 255, .3);
+$play-btn-focus:rgba(255, 255, 255, .4);
+$smoke-white: rgba(255, 255, 255, .5);
+$smoke-whitesade: rgba(255, 255, 255, .6);
+$btn-inverted-border:rgba(255, 255, 255, .7);
+
+
+$lightblack:rgba(26,25,24,.15);
+$mediumblack:rgba(26,25,24,.50);
+$darkblack:rgba(26,25,24,.7);
+$coalblack:rgba(26,25,24,.75);
+
+
+$thumbnail-black:rgba(0,0,0,.3);
+$modal-bg: rgba(0,0,0,.5);
+
+
+$white:#fff;
+$black: #000;
+$brandblack:#2C2A29;
+$brandblack2:#1A1918;
+$border-grey: #908F8F;
+$border-color-footer:#707070;
+$dark-gray:#F0F0F0;
+$off-gray:#E8E8E8;
+$cta-gray:#EDEDED;
+$base-light-gray:#F7F7F7;
+$mid-dark-gray: #262626;
+$card-base:#E7E7E7;
+$dark-theme-color:#222222;
+$bright-red: #FF0000;
+$red-light:rgba(250, 0, 0, .5);
+$orange:#EA7F3C;
+
+$anchor-transition:.35s ease-in;
+// font familys
+
+$franklinBook: "FranklinGothicLTPro-Bk";
+$franklinBookIt: "FranklinGothicLTPro-BkIt";
+$franklinMd: "FranklinGothicLTPro-Md";
+$franklinMdIt: "FranklinGothicLTPro-MdIt";
+
+$container-max-widths: ( 
+sm: 100%, 
+md: 100%, 
+lg: 100%, 
+xl: 1500px ) !default; 

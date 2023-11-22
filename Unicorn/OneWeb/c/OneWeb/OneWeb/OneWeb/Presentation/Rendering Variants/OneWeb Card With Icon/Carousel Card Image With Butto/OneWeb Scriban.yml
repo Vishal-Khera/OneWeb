@@ -1,0 +1,44 @@
+﻿---
+ID: "1a5dab5c-6e18-4765-b253-9dd6a1c11346"
+Parent: "9d14572e-64c5-4f9d-93ef-20adb53e970b"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card With Icon/Carousel Card Image With Button/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     {{item = ow_item i_item.id}}
+        {{default_URL= ow_default_gated_content item}}
+        
+        <div class="component ow-two-card col-12">
+                            <div class="product-brochure">
+        {{ if(i_item.image | string.size > 0)}}
+                                <div class="product-image image-full">
+                                   <img src = "{{ i_item.image.media_url }}" alt="{{ i_item.image.alt.Raw }}" title="{{ i_item.image.title.Raw }}" />
+                                </div>
+        						{{ end }}
+                                <div class="bottom-link">
+        						{{primary_link_classes = "btn btn-primary btn-pdf "}}
+        {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+        if( primary_filtered_classes)
+        	if(primary_filtered_classes.class | string.size) > 0
+        		primary_link_classes = primary_link_classes + primary_filtered_classes.class
+        	end
+        end}}
+        {{if(i_item.PrimaryLink !="")}}
+        <a href="{{default_URL}}" class="{{primary_link_classes}}">{{primary_filtered_classes.text}}</a>
+        
+        {{ end }}
+                                   
+                                </div>
+                            </div>
+                        </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20220413T111734:637854454546638730Z"

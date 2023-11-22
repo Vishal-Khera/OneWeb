@@ -1,0 +1,25 @@
+﻿---
+ID: "3bbcfee2-b375-40f1-8226-6cde8f51f32e"
+Parent: "5fde0448-750e-46e4-8131-6ece094f3ddb"
+Template: "5fde0448-750e-46e4-8131-6ece094f3ddb"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Events/OneWeb Events Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {3E9096C2-273C-45D0-86C2-8955F5E4B70E}
+    {5FDE0448-750E-46E4-8131-6ECE094F3DDB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

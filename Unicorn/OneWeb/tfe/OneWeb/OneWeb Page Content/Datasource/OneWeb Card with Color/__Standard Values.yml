@@ -1,0 +1,14 @@
+﻿---
+ID: "6d019b6d-f64f-4fb4-b28b-ac0197d3cf86"
+Parent: "79805dc1-05db-489f-9aa0-f06f284e3534"
+Template: "79805dc1-05db-489f-9aa0-f06f284e3534"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Card with Color/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T112128Z

@@ -1,0 +1,29 @@
+﻿---
+ID: "17a7c0b8-6631-415a-8191-f78e63f5b2be"
+Parent: "8fac35fd-1bf6-42e4-9353-b2375f689162"
+Template: "0d4f3a61-243a-42a9-a33c-9f054e02449b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards/RTE Diversity Component V2
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211214T091449Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: |
+        <div class="d-flex justify-content-between align-items-center">
+        <span class="text">African American Council</span>
+        <span class="symbol">+</span>
+        <span class="text">Women's Business Council</span>
+        </div>
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Our commitment to diversity and inclusion is strengthened through our African American Council and Women's Business Council.

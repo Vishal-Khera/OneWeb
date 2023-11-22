@@ -1,0 +1,22 @@
+﻿---
+ID: "2cc88338-c616-4351-87dc-3fb02ffd1e08"
+Parent: "91be1662-ad4b-4472-b0ee-1114f8528138"
+Template: "e24e0789-a058-48bf-abb6-c69c0e60b6b7"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Links/H04 Resource Header/Blog
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T092113Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "dd05144a-bd66-4ea3-956a-4b7104daaba3"
+      Hint: Link
+      Value: |
+        <link text="Blog" anchor="" linktype="internal" class="button btn-standard" title=""  querystring="" id="{CC065443-BDCA-4077-B978-3DFDC2AB358D}" />

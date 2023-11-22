@@ -1,0 +1,51 @@
+﻿---
+ID: "f5cd998e-b88a-4cc1-b393-8ff175f135a2"
+Parent: "e04c34ab-1402-4aa0-8018-2fd16b315fd5"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Content Card/P2 Content Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="component text-wrapper">
+             {{ if(i_item.title != "") }}
+                <h1>{{ i_item.title }}</h1>
+    	 {{ end }}
+    	 {{ if(i_item.subtext != "") }}
+    	    <h2 class="light-gray-text">{{ i_item.subtext }}</h2>
+    	  {{ end }}
+             {{ if(i_item.content != "") }}
+                <div class="paragraph-wrapper lg-paragraph">{{ i_item.content }}</div>
+    	 {{ end }}
+    	{{primary_link_classes = "button btn-default "}}
+            {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+                  if( primary_filtered_classes)
+    	            if(primary_filtered_classes.class | string.size) > 0
+    		          primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    	            end
+                  end}}
+            {{secondary_link_classes = "button btn-simple "}}
+            {{ secondary_filtered_classes = ow_link_model i_item 'SecondaryLink'
+                     if( secondary_filtered_classes)
+    	               if(secondary_filtered_classes.class | string.size) > 0
+    		              secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+    	               end
+                     end}}	   
+    		 {{link_model = ow_link_model i_item 'PrimaryLink'}}
+    		  {{ if(link_model.url && link_model.url != "") }}
+                      <a href="{{link_model.url}}" class="{{primary_link_classes}}" title="{{link_model.title}}" target="{{link_model.target}}">{{link_model.text}}</a>
+    		   {{ end }}
+    		{{link_model_sec = ow_link_model i_item 'SecondaryLink'}}
+    		{{ if(link_model_sec.url && link_model_sec.url != "") }}
+    		<a href="{{link_model_sec.url}}" class="{{secondary_link_classes}}" title="{{link_model_sec.title}}" target="{{link_model_sec.target}}">{{link_model_sec.text}}</a>
+                    {{ end }}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221013T162857Z

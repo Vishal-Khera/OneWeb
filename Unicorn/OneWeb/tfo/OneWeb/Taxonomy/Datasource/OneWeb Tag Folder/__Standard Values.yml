@@ -1,0 +1,26 @@
+﻿---
+ID: "e7726848-f530-4a93-af54-d98cf9bcdca7"
+Parent: "8055506f-46b4-42fa-b3e1-6d6a3b3c7f58"
+Template: "8055506f-46b4-42fa-b3e1-6d6a3b3c7f58"
+Path: /sitecore/templates/Foundation/OneWeb/Taxonomy/Datasource/OneWeb Tag Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {203C7E2D-0B1E-452A-9131-0571054D9633}
+    {BD83C41B-884D-4BC2-A871-E2D2D5E53CC9}
+    {8055506F-46B4-42FA-B3E1-6D6A3B3C7F58}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140806T080249Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,24 @@
+﻿---
+ID: "2588e684-1751-4ba4-9905-0c6ab3bb3792"
+Parent: "b2475166-9345-43f6-bfa8-ef498175789d"
+Template: "d348c5d6-348e-4df5-a6a6-bde5bd44f3ad"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Page Content/Locations/Support Media/Phone
+DB: master
+SharedFields:
+- ID: "8d214fed-f576-4d97-8fc9-34c590b996c4"
+  Hint: LinkPrefix
+  Value: "tel:"
+- ID: "96df8933-982b-4b82-a267-5cbf150622b8"
+  Hint: Value
+  Value: "fas fa-phone-alt fa-fw"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211222T093439Z
+    - ID: "afde8ae5-ef57-4af3-944e-5133f73d106c"
+      Hint: TextPrefix
+      Value: "Phone: "

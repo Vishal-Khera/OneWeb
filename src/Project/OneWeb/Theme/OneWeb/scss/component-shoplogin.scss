@@ -1,0 +1,40 @@
+@import "base/base-index.scss";
+.ow-user-login {
+  .promo {
+    display: inherit;
+    padding: 0px;
+
+    .btn {
+      padding: 3px 8px;
+      @include font-size($sssm-font);
+      font-family: "Helvetica Neue";
+      text-decoration: unset;
+      @include lg {
+        @include font-size($sm-font);
+        padding: 5px 10px;
+        width: 100%;
+        height: 36px;
+      }
+
+      img {
+        padding-right: 5px;
+        position: relative;
+        top: -4px;
+        width: 15px;
+        height: 15px;
+
+        @include lg {
+          width: 19px;
+          height: 15px;
+        }
+      }
+    }
+    .btn-primary {
+      &:hover {
+        background: $primary !important;
+        color: $white;
+        border: 2px solid $primary !important;
+      }
+    }
+  }
+}

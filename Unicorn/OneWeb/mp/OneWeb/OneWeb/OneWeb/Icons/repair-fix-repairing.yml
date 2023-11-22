@@ -1,0 +1,47 @@
+﻿---
+ID: "76da0753-3078-432c-adc5-b9531db59ea7"
+Parent: "a9299fe8-872c-4132-a34c-27f8eabe511d"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Icons/repair-fix-repairing"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/76DA07533078432CADC5B9531DB59EA7.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 40
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "d97e58ef-ddcf-4960-894a-3406fc8be1a4"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1583
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 40 x 40
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 40
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220202T124617Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: repair fix

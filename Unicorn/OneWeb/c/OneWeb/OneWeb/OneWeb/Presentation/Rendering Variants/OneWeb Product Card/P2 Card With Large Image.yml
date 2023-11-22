@@ -1,0 +1,19 @@
+﻿---
+ID: "51453dae-2491-48df-b029-15066ab16af1"
+Parent: "6005652e-88ab-4647-aa0e-9fb04dcba9ad"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Product Card/P2 Card With Large Image
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{34D44647-356C-4DD3-B8C5-F547197EA0B5}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220711T090238Z

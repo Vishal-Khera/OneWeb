@@ -1,0 +1,6 @@
+.grid-tabs.uk-subnav-pill .uk-active a {
+  background-color: #D9171D;
+  color: #fff; }
+
+.grid-tabs.uk-subnav-pill * a {
+  color: #000; }

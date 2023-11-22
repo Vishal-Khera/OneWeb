@@ -1,0 +1,14 @@
+﻿---
+ID: "87e8aafa-1973-40d3-84c8-d954431b1be8"
+Parent: "35847c8c-6983-4bd0-afbe-a74a88786944"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Card With Icon/Homepage
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220106T090523Z

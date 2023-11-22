@@ -1,0 +1,14 @@
+﻿---
+ID: "1af64f40-aead-4283-973e-74f44ae71f0e"
+Parent: "ba8640ab-9b2d-48da-8431-e412f8f4bdb8"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Comparison Table/Comparison Parameter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220805T073846Z

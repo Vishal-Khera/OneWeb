@@ -1,0 +1,22 @@
+﻿---
+ID: "f15b1611-16d2-44d6-b438-95c23da786cf"
+Parent: "8d967269-97f3-4e86-9eb5-1379c4fb0669"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Partial Designs/OneWeb Header Multi Brand/Data/Hamburger
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211220T055816Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        <div class="handburger"> <span> </span> <span> </span> <span> </span> </div>

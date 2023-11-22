@@ -1,0 +1,22 @@
+﻿---
+ID: "29785ad1-bb99-4e8b-b46d-d531059e0ec4"
+Parent: "9a84b239-3366-44d4-8953-15df80800859"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Link/Footer Contact Us
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5F6F719C-2913-4FC6-9278-92AB95D45A2D}" />
+- ID: "e1d5adba-8348-4127-9bb6-455936653839"
+  Hint: CssClass
+  Value: "footer-address"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211223T082422Z

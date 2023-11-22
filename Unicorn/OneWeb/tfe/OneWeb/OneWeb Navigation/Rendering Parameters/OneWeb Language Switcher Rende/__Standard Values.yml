@@ -1,0 +1,14 @@
+﻿---
+ID: "6eeb9c6b-e534-4c6e-bd5d-debbd5bb6d6e"
+Parent: "47bd0cec-c3c8-43b3-9912-c195f4de1927"
+Template: "47bd0cec-c3c8-43b3-9912-c195f4de1927"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Navigation/Rendering Parameters/OneWeb Language Switcher Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160808T065739Z

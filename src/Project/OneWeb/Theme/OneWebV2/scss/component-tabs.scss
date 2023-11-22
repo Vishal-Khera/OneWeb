@@ -1,0 +1,91 @@
+@import 'base/base-index.scss';
+.ow-news-tabs{
+    .filter-mobile{
+        display: none !important;
+    }
+    .filter-wrapper{
+        display:block !important
+    }
+
+    .filter-tab{
+        display: none !important;
+    }
+    
+}
+.tab-wrapper{
+    padding: unset;
+    box-shadow:unset;
+    ul{
+        margin: 0;
+        padding: 0;
+        display:inline-table;
+        flex-wrap: wrap;
+        width: 100%;
+        
+        li{
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border: none;
+            display: inline-flex;
+            float:left;
+            margin-top: 0px;
+            padding-right:0px;
+            padding-left: 0px;
+            
+            &:last-child{
+                margin-right: 0;
+            }
+            a{ 
+                padding: 11px 20px 11px;
+                border:2px solid $cyan-blue;
+                color: $brandblack;
+                border-radius:80px;
+                cursor: pointer;
+                transition: .2s all;
+                @include font-size($smlg-font);
+                font-family:$franklinMd;
+                &:hover{
+                    background:transparent;
+                    color: $brand; 
+                    border:2px solid $brand;
+                }
+                &.active, &.isActive{
+                    padding: 13px 22px 13px;
+                    border:0;
+                    background:$fade-blue;
+                    color: $brand;
+                }
+            }
+        }
+
+        .ow-container{
+            display:block;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+.dark-theme{
+    .tab-wrapper{
+        ul{
+            li{
+                a{
+                    color: $mid-light-gray !important;
+                    border: 2px solid $white-gray-light;
+                    &:hover{
+                        background:transparent;
+                        color: $base-light-gray !important; 
+                        border: 2px solid $base-light-gray;
+                    }
+                }
+                &.active, &.isActive{
+                    a{
+                        border: 0;
+                        background: $white-gray-light;
+                        color: $base-light-gray !important;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,104 @@
+@import 'base/base-index.scss';
+
+.quote-card-wrapper{
+    background-color: $brand;
+    @include border-radius(8px);
+    color: $white;
+    padding: 15px 0px;
+    @include md{
+        padding: 40px 0px;
+    }
+    .quote-card-content{
+        padding:0px 15px;
+        @include md{
+        padding:0px 40px;
+        }
+        .quote-card-head{
+            h2{
+                @include font-size($mxl-font);
+            }
+            padding-bottom: 30px;
+            @include md{
+                padding-bottom : 40px;
+            }
+        }
+        .quote-card-description{
+            padding-bottom: 10px;
+            @include font-size($mxl-font);
+            @include md{
+                padding-bottom : 20px;
+                max-width: 62.5%;
+            }
+        }
+        .quote-card-details{
+            padding-bottom: 30px;
+            display: flex;
+            align-items: center;
+            .quote-card-logo{
+                position: relative;
+                width: 48px;
+                height: 48px;
+                @include border-radius(50%);
+                background-color: $white-gray-light;
+                @include md{
+                    width: 60px;
+                    height: 60px;
+                }
+                &:before {
+                    position: absolute;
+                    content: "\201C";
+                    color: $base-light-gray;
+                    font-size: 75px;
+                    height: 100%;
+                    bottom: 12px;
+                    left: 8px;
+                    @include md{
+                        font-size: 100px;
+                        bottom: 15px;
+                        left: 10px;
+                    }
+                }
+            }
+            .quote-card-info{
+                color: $base-light-gray;
+                margin-left: 12px;
+                @include md{
+                    margin-left: 15px;
+                }
+                .stone-gray{
+                    color: $stone-gray;
+                    @include md{
+                        color: $base-light-gray;
+                    }
+                }
+            }
+        }
+    }
+    .btn-container{
+        .btn-simple {
+            color: $white !important;
+            &:hover,&:active{
+                color: $white ;
+            }
+            &:focus{
+                color: $white ;
+                outline:3px solid $btn-inverted-border ;
+            }  
+        }
+    }
+    .quote-card-border{
+        padding: 0px 15px;
+        border-top: 1px solid $steel-gray;
+        border-spacing: 10px;
+        @include md{
+            border: none;
+            padding: 0px 40px;
+        }
+        .btn-simple {
+            margin-top: 12px;
+            @include md{
+                margin-top: 0;
+            }
+        }
+    }
+}

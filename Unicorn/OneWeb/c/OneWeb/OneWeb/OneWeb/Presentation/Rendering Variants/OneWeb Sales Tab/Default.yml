@@ -1,0 +1,14 @@
+﻿---
+ID: "82403949-1bb8-4704-ae21-90e3423d6542"
+Parent: "a3935c32-0739-4ff6-824a-cff4f5fc802c"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Sales Tab/Default
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220502T075018Z

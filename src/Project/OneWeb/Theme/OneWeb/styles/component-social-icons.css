@@ -1,0 +1,40 @@
+.ow-social-icons {
+  display: flex;
+  align-items: center;
+  border: 1px solid #231F20;
+  border-radius: 5px;
+  padding: 20px; }
+  .ow-social-icons > .component-content {
+    display: flex;
+    align-items: center; }
+  .ow-social-icons h3 {
+    font-family: 'HelveticaNeue-Medium';
+    font-size: 20px;
+    margin-bottom: unset; }
+    @media screen and (min-width: 0) {
+      .ow-social-icons h3 {
+        font-size: 18px; } }
+    @media screen and (min-width: 768px) {
+      .ow-social-icons h3 {
+        font-size: 20px; } }
+    @media screen and (min-width: 992px) {
+      .ow-social-icons h3 {
+        font-size: 20px; } }
+    .ow-social-icons h3 a {
+      pointer-events: none; }
+  .ow-social-icons ul {
+    display: flex;
+    padding-left: 20px; }
+    .ow-social-icons ul li {
+      padding: 0px 5px; }
+      .ow-social-icons ul li a {
+        border-radius: 50%;
+        background-color: #D9171D;
+        height: 35px;
+        width: 35px;
+        font-size: 22px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff; }

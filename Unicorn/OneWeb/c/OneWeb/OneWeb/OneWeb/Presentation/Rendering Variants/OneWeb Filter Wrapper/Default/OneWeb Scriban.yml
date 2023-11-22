@@ -1,0 +1,38 @@
+﻿---
+ID: "8577c359-3cce-4730-b794-5f7ca9aeda75"
+Parent: "495fd51e-7d2b-41a7-be68-ff49e7f77009"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Filter Wrapper/Default/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="filter-mobile d-md-none">
+        <div class="filter-text">
+            <i class="fas fa-filter" aria-hidden="true"></i>
+    {{sc_translate "OneWeb-Search-Filters-Filter"}}
+        </div>
+        <div class="reset-text">
+            <i class="fas fa-filter" aria-hidden="true"></i>
+    {{sc_translate "OneWeb-Search-Filters-Reset"}}
+        </div>
+    </div>
+    <div class="filter-wrapper">
+    {{sc_placeholder "ow-search-filter-wrapper"}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T185907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,23 @@
+﻿---
+ID: "448c22a5-b0f4-4024-b84f-0767bbc15ff8"
+Parent: "8942309c-2a2f-4ecf-be71-9d9a9dd5ca1b"
+Template: "8942309c-2a2f-4ecf-be71-9d9a9dd5ca1b"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Login/Datasource/OneWeb Export User/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{A6F3BDD3-42D3-4554-B6CD-0FD3AA18EBEB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220309T155327Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

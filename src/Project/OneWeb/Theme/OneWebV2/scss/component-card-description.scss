@@ -1,0 +1,90 @@
+@import 'base/base-index.scss';
+
+body{
+    .ow-product-card{
+        .component-content{
+            .card-description{
+                a {
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+        }
+    }
+}
+
+.card-description {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    @include md {
+        width: 80%;
+    }
+
+    @include xl {
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        color: $coalblack;
+        font-family: $franklinMd  !important;
+        @include font-size($sm-font);
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+
+    a {
+        @include font-size($md-font);
+        font-family: $franklinMd  !important;
+        color: $brand;
+
+        &:hover {
+            -ms-transform: scale(1.0);
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            border: none;
+            transition: none;
+        }
+
+        .ow-play-button {
+            margin-right: 10px;
+            position: relative;
+            width: 20px;
+            height: 20px;
+            @include border-radius(50%);
+            background-color: $cyan-blue;
+            transition: ease-in-out 0.2s all;
+
+            i {
+                font-size: 8px;
+
+                &::before {
+                    position: absolute;
+                    top: 6px;
+                    left: 7px;
+                    color: $brand;
+
+                    @include md {
+                        left: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.dark-theme {
+    .card-description {
+        p {
+            color: $coalblack  !important;
+        }
+
+        a {
+            color: $brand  !important;
+        }
+    }    
+}

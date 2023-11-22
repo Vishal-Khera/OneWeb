@@ -1,0 +1,299 @@
+@import 'base/base-index.scss';
+
+
+//full column width css
+.ow-card-business {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+
+    &.ow-card-full-width {
+        background-position: top;
+        width: 100%;
+        padding-top: 0px;
+
+        @include md {
+            background-position: center;
+            float: left;
+            overflow: hidden;
+        }
+        .ow-card-background-image {
+            background-position: top;
+            background-size: contain;
+            @include md {
+                margin: 0;
+                background-position: right;
+                padding-top: 0px;
+            }
+            .ow-card-business-content{
+                @include lg{
+                    height: 270px;
+                }
+            }
+            .ow-card-business-content{
+                &::after{
+                    @include lg{
+                        transform: skew(358deg) rotate(11deg);
+                        right: -80px;
+                    }
+                }
+            }
+
+        }
+        .ow-card-image-bg{
+            @include md{
+                background-size: auto 370px;
+                height: 370px;
+            }
+            @include lg{
+                background-size: auto 270px;
+                height: 270px; 
+            }
+        }
+        
+    }
+    .ow-card-background-image{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .ow-card-business-content{
+        order: 1;
+        @include md{
+            order: 0;
+        }
+    }
+    .ow-card-image-bg{
+        order: 0;
+        height: 200px;
+        width: 100%;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        @include md{
+            order: 1;
+            width: 37%;
+            float: left;
+            height: 100%;
+            background-size: auto 370px;
+            background-repeat: no-repeat;
+            height: 370px;
+        }
+    }
+}
+
+.col-h-1{
+    .component-content{
+        height: 100%;
+        min-height: 250px;
+        .ow-card{
+        height: 100%;
+
+        }
+    }
+}
+.ow-card-business,
+.ow-card-background-image {
+    background-position: top;
+    overflow: hidden;
+    width: 100%;
+    background-size: 100%;
+
+    @include md {
+        margin: 0;
+        background-position: center;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 0px;
+        background-size: auto;
+
+    }
+
+    .ow-card-business-content {
+        width: 100%;
+        float: left;
+        position: relative;
+        padding: 30px 20px;
+
+        &::before {
+            content: '';
+            background: $white-gray;
+            height: 60px;
+            width: 110%;
+            position: absolute;
+            right: -3px;
+            z-index: 1;
+            top: -1rem;
+            transform: skew(352deg, 3deg);
+
+            @include md {
+                content: '';
+                background: $white-gray;
+                height: 110%;
+                width: 53px;
+                position: absolute;
+                right: -24px;
+                z-index: 1;
+                top: -5%;
+                transform: skew(352deg, 5deg);
+                left: auto;
+
+            }
+        }
+
+        &::after {
+            overflow: hidden;
+            transform: skew(308deg) rotate(6deg);
+            overflow: hidden;
+            content: '';
+            background: rgba(237, 28, 36, 0.68);
+            height: 35px;
+            position: absolute;
+            right: auto;
+            top: -4.9rem;
+            width: 200%;
+            left: -57%;
+            transform-origin: 0 0;
+            @media (min-width:410px){
+                top: -5.4rem;
+            }
+            @media (min-width:460px){
+                top: -5.9rem;
+            }
+            @media (min-width:500px){
+                top: -6.3rem;
+            }
+            @media (min-width:550px){
+                top: -6.9rem;
+            }
+            @media (min-width:600px){
+                top: -7.7rem;
+                height: 45px;
+            }
+            @media (min-width:660px){
+                top: -8rem;
+            }
+            @media (min-width:700px){
+                top: -8.9rem;
+                height: 57px;
+            }
+            
+            @include md {
+                transform: skew(358deg) rotate(9deg);
+                content: '';
+                height: 110%;
+                right: -82px;
+                top: -5%;
+                width: 62px;
+                left: auto;
+            }
+        }
+
+        @include md {
+            width: 63%;
+            margin-top: 0;
+            height: 370px;
+        }
+
+        &.white-gray-background{
+            .label{
+                color:$white;
+            }
+        }
+
+        .ow-card-text {
+            position: relative;
+            z-index: 1;
+            h3 {
+                @include font-size($sxl-font);
+                font-family: 'HelveticaNeue-Bold';
+            }
+
+           
+        }
+    }
+    .ow-card-image-bg{
+        background-position: center;
+    }
+}
+
+
+.top-left{
+    .ow-card-image-bg {
+        background-position: top left !important;
+    }
+}
+.top-center{
+    .ow-card-image-bg {
+        background-position: top center !important;
+    }
+}
+.top-right{
+    .ow-card-image-bg {
+        background-position: top right !important;
+    }
+}
+.bottom-left{
+    .ow-card-image-bg {
+        background-position: bottom left !important;
+    }
+}
+.bottom-center{
+    .ow-card-image-bg{
+        background-position: bottom center !important;
+    }
+}
+.bottom-right{
+    .ow-card-image-bg {
+        background-position: bottom right !important;
+    }
+}
+.middle-left{
+    .ow-card-image-bg {
+        background-position: center left !important;
+    }
+}
+.middle-right{
+    .ow-card-image-bg {
+        background-position: center right !important;
+    }
+}
+   
+.reverse-strip{
+    @media (max-width:767px) {
+        .ow-card-business-content{
+            &::before {
+                transform: skew(352deg, -3deg);
+            }
+        
+            &::after {
+                transform: skew(308deg) rotate(-9deg);
+                top: 10px;
+                height: 58px;
+                @media (min-width:410px){
+                    top: 16px;
+                }
+                @media (min-width:460px){
+                    top: 20px;
+                }
+                @media (min-width:500px){
+                    transform: skew(308deg) rotate(-8deg);
+                }
+                @media (min-width:550px){
+                    height: 65px;
+                    top: 26px;
+                }
+                @media (min-width:600px){
+                    transform: skew(308deg) rotate(-7deg);
+                    top: 31px;
+                }
+                @media (min-width:660px){
+                    top: 31px;
+                }
+                @media (min-width:700px){
+                    top: 33px;
+                }
+            }
+        }
+    }
+}

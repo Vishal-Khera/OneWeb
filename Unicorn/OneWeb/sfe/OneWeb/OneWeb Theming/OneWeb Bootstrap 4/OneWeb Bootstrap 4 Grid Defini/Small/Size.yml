@@ -1,0 +1,18 @@
+﻿---
+ID: "86350505-eb37-44ca-8c98-deb22eedb2fe"
+Parent: "cff6fd19-8c45-4a72-9216-e3df8d9187ee"
+Template: "5e32e75f-446a-412c-8ed8-922320ae9031"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Theming/OneWeb Bootstrap 4/OneWeb Bootstrap 4 Grid Definition/Small/Size
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 125
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161216T082214Z

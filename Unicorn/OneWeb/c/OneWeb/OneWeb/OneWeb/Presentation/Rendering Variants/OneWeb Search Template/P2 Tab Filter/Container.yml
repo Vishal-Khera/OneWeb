@@ -1,0 +1,32 @@
+﻿---
+ID: "764568d6-45ea-422f-b2ab-45b0d4ea0aea"
+Parent: "bf4efa20-0f49-4afd-adbd-94709b358b1b"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/P2 Tab Filter/Container
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="component-grid-wrapper filter-facet-wrapper tab-wrapper d-none mb-lg-5 filter-facet-head" ow-key="{{sc_raw i_item "FieldName"}}""> 
+                                        <div class="tab-wrapper">
+        <ul class="filter-facet-items">
+        <div class="ow-container" ></div>
+        </ul>
+    </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T182542Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

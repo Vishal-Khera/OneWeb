@@ -1,0 +1,56 @@
+﻿---
+ID: "ea1cb203-2e1e-4a00-acc0-37d8c25a877b"
+Parent: "c083b341-7446-487e-9174-0171f09afb28"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Hero Banner/Hero Banner With Title and Description/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if i_item-}}
+         <div class="slider-item">
+         {{media_model = ow_default_media i_item.Image.media_url}}
+        	{{-if media_model-}}
+                                <div class="slider-image">
+                                    <div class="slide" data-src="{{ media_model.url }}" style="background-image: url('{{ media_model.url }}');"></div>
+                                </div>
+        	{{-end-}}
+                                <div class="slider-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-7">
+        									
+        									
+        									{{-if i_item.title !=""-}}
+                                <h2>{{-i_item.title-}}</h2>
+        						{{-end-}}
+        						     
+                                              
+                                                   {{-if i_item.content !=""-}}
+                                <div>{{-i_item.content-}}</div>
+    
+        						{{-end-}}	
+                                           
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        					{{-end-}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220502T095638Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

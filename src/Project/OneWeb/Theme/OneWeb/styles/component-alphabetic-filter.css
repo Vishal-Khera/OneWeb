@@ -1,0 +1,23 @@
+.filter-facet-wrapper li {
+  border-right: 1px solid #BEBEBE;
+  padding-right: 12px;
+  padding-left: 7px;
+  margin-top: 20px;
+  display: inline-flex;
+  text-align: center; }
+  .filter-facet-wrapper li a {
+    color: #2B2B2B;
+    line-height: 100%;
+    text-transform: uppercase;
+    border-bottom: 1px #BEBEBE solid;
+    font-family: 'HelveticaNeue-Medium'; }
+  .filter-facet-wrapper li:last-child {
+    border-right: none; }
+
+.filter-facet-wrapper .disabled a {
+  pointer-events: none;
+  opacity: .5; }
+
+.filter-facet-wrapper .active a {
+  color: #D9171D;
+  border-bottom-color: #D9171D; }

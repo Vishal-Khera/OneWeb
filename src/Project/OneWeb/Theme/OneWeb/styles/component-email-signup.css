@@ -1,0 +1,47 @@
+.sitecore-form {
+  width: 100%; }
+
+.email-subscribe {
+  position: relative;
+  margin-bottom: 30px; }
+  @media only screen and (min-width: 992px) {
+    .email-subscribe {
+      margin-bottom: 0; } }
+  .email-subscribe label {
+    display: block;
+    color: #fff;
+    font-size: 20px; }
+    @media screen and (min-width: 0) {
+      .email-subscribe label {
+        font-size: 20px; } }
+    @media screen and (min-width: 768px) {
+      .email-subscribe label {
+        font-size: 20px; } }
+    @media screen and (min-width: 992px) {
+      .email-subscribe label {
+        font-size: 20px; } }
+  .email-subscribe p {
+    color: #fff;
+    position: absolute; }
+  .email-subscribe input[type="email"] {
+    height: 50px;
+    outline: none;
+    width: 100%;
+    padding-right: 105px; }
+  .email-subscribe .btn {
+    height: 50px;
+    outline: none;
+    border: none;
+    color: #fff;
+    position: absolute;
+    right: 0px !important;
+    cursor: pointer;
+    bottom: 0; }
+    @media only screen and (min-width: 768px) {
+      .email-subscribe .btn {
+        right: 0px; } }
+  .email-subscribe .field-validation-error {
+    color: #D9171D;
+    position: absolute;
+    bottom: -22px;
+    left: 0px; }

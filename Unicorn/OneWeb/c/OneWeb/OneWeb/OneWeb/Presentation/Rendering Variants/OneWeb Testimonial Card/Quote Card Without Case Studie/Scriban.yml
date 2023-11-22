@@ -1,0 +1,57 @@
+﻿---
+ID: "0f87df08-37ac-40e5-8ccd-64245c699ca9"
+Parent: "3e2bd89b-ab1b-4635-8246-ad223307889c"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Testimonial Card/Quote Card Without Case Studies/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="quote-card-wrapper">
+    <div class="quote-card-content">
+    {{if i_item.title !=""}}
+     <div class="quote-card-head">
+    <h2>{{i_item.title}}</h2>
+    </div>
+    {{end}}
+    {{if i_item.content !=""}}
+     <div class="quote-card-description">
+    {{i_item.content}}
+     </div>
+    {{end}}
+    {{if i_item.caption !=""}}
+    <div class="quote-card-details">
+    <div class="quote-card-logo"></div>
+    <div class="quote-card-info">
+    {{i_item.caption}}
+    </div>
+    {{end}}
+    </div>
+    </div>
+    <div class="btn-container quote-card-border">
+    {{primary_link_classes = "button btn-simple "}}
+            {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+                  if( primary_filtered_classes)
+    	            if(primary_filtered_classes.class | string.size) > 0
+    		          primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    	            end
+                  end}}
+    			   {{link_model = ow_link_model i_item 'PrimaryLink'}}
+    		  {{ if(link_model.url != "") }}
+                      <a href="{{link_model.url}}" class="{{primary_link_classes}}" title="{{link_model.title}}" target="{{link_model.target}}">{{link_model.text}}</a>
+    		   {{ end }}
+    </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220705T094223Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

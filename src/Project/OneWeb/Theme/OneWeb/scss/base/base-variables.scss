@@ -1,0 +1,73 @@
+$breakpoints: ( 
+  xs: 0, 
+  sm: 576px, 
+  md: 768px, 
+  lg: 992px, 
+  xl: 1200px,
+  xxl: 1500px
+);
+
+// line height
+////////////////
+$font-sizes: ( sssm:10px, ssm:12px, sm: 14px, md:16px, mlg:18px, slg:22px, lg:20px, sxl:24px, xl:28px,  sxxl:32px, smxxl:36px, xxl:40px, sxxxl:50px,  xxxl:76px);
+//////
+$xxxl-font: ( null: map-get($font-sizes, sxxxl), xs: map-get($font-sizes, xxl), md: map-get($font-sizes, xxl), lg: map-get($font-sizes, sxxxl), xl: map-get($font-sizes, xxxl));
+$sxxxl-font: ( null: map-get($font-sizes, sxxl), xs: map-get($font-sizes, sxxl), md: map-get($font-sizes, xxl), lg: map-get($font-sizes, sxxxl));
+$xxl-font: ( null: map-get($font-sizes, sxxl), xs: map-get($font-sizes, sxxl), md: map-get($font-sizes, sxxl), lg: map-get($font-sizes, sxxl), xl: map-get($font-sizes, xxl));
+$xl-font: ( null: map-get($font-sizes, lg), xs: map-get($font-sizes, lg), md: map-get($font-sizes, lg), lg: map-get($font-sizes, xl));
+$lg-font: ( null: map-get($font-sizes, lg), xs: map-get($font-sizes, lg), md: map-get($font-sizes, lg), lg: map-get($font-sizes, lg));
+$md-font: ( null: map-get($font-sizes, md), xs: map-get($font-sizes, md), md: map-get($font-sizes, md), lg: map-get($font-sizes, md));
+$sm-font: ( null: map-get($font-sizes, sm), xs: map-get($font-sizes, sm), md: map-get($font-sizes, sm), lg: map-get($font-sizes, sm));
+$ssm-font: ( null: map-get($font-sizes, ssm), xs: map-get($font-sizes, ssm), md: map-get($font-sizes, ssm), lg: map-get($font-sizes, ssm));
+$sssm-font: ( null: map-get($font-sizes, sssm), xs: map-get($font-sizes, sssm), md: map-get($font-sizes, sssm), lg: map-get($font-sizes, sssm));
+$sxl-font: ( null: map-get($font-sizes, slg), xs: map-get($font-sizes, slg), md: map-get($font-sizes, sxl), lg: map-get($font-sizes, sxl));
+$mxl-font: ( null: map-get($font-sizes, mlg), xs: map-get($font-sizes, mlg), md: map-get($font-sizes, mlg), lg: map-get($font-sizes, mlg));
+$sxxl-font: ( null: map-get($font-sizes, sxxl), xs: map-get($font-sizes, sxl), md: map-get($font-sizes, xl), lg: map-get($font-sizes, sxxl));
+$mlg-font: ( null: map-get($font-sizes, lg), xs: map-get($font-sizes, mlg), md: map-get($font-sizes, lg), lg: map-get($font-sizes, lg));
+$smxxl-font: ( null: map-get($font-sizes, sxxl), xs: map-get($font-sizes, sxxl), md: map-get($font-sizes, sxxl), lg: map-get($font-sizes, smxxl));
+// line height
+////////////////
+// $line-height: ( md: 12px, lg:20px, xl:24px, mxxl:32px, xxl: 46px, xxxml: 36px, xxxl: 62px, xxxxml: 44px, xxxxl: 85px);
+// $xxxxl-line-height: ( null: map-get($line-height, xxxxml), xs: map-get($line-height, xxxxml), md: map-get($line-height, xxxxl), lg: map-get($line-height, xxxxl));
+// $xxxl-line-height: ( null: map-get($line-height, xxxml), xs: map-get($line-height, xxxml), md: map-get($line-height, xxxl), lg: map-get($line-height, xxxl));
+// $xxl-line-height: ( null: map-get($line-height, mxxl), xs: map-get($line-height, mxxl), md: map-get($line-height, xxl), lg: map-get($line-height, xxl));
+// $xl-line-height: ( null: map-get($line-height, xl), xs: map-get($line-height, xl), md: map-get($line-height, xl), lg: map-get($line-height, xl));
+// $lg-line-height: ( null: map-get($line-height, lg), xs: map-get($line-height, lg), md: map-get($line-height, lg), lg: map-get($line-height, lg));
+// $md-line-height: ( null: map-get($line-height, md), xs: map-get($line-height, md), md: map-get($line-height, md), lg: map-get($line-height, md));
+
+/////////////////
+// Colors
+////////////////
+
+$primary: #D9171D;
+$white:#fff;
+$black: #000;
+$light-gray:#F9F9F9;
+$border-light-gray:#707070;
+$dark-gray:#2B2B2B;
+$light-mid-gray: #DFDFDF;
+$dark-mid-gray:#231F20;
+$mid-gray:#7F7F7F;
+$white-gray:#F1F1F1;
+$carousal-border:#949599;
+$modal-gray-bg:#353535;
+$border-gray-white:#BEBEBE;
+$mid-light-gray:#c7c7c7;
+$light-md-gray:#F7F7F7;
+
+////////////////////////
+// Bootstrap Overrides
+////////////////////////
+
+$body-bg: $white;
+$theme-colors: (
+  "primary": $primary,
+  // "secondary": $btncolor,
+  // "danger": $error-color,
+  // "success": $success-color
+);
+$container-max-widths: ( 
+sm: 100%, 
+md: 100%, 
+lg: 100%, 
+xl: 1500px ) !default; 

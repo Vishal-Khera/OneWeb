@@ -1,0 +1,81 @@
+﻿---
+ID: "ed8e69d6-574d-45a2-9d29-71e735ca43c7"
+Parent: "0551fb95-4dea-4f46-aa3d-f578430c9a54"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Comparison Table/Inline Comparison Table/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if o_model -}}
+       {{if sc_parameter 'Autoplay'}}
+          {{autoplayAttribute = true}}
+        {{else}}
+          {{autoplayAttribute = false}}
+        {{end}}
+      {{if sc_parameter 'Infinite Loop'}}
+          {{infiniteAttribute = true}}
+        {{else}}
+          {{infiniteAttribute = false}}
+        {{end}}	
+    	 {{if sc_parameter 'Show Dots'}}
+          {{dotsAttribute = true}}
+        {{else}}
+          {{dotsAttribute = false}}
+        {{end}}	
+    	 {{if sc_parameter 'Show Arrows'}}
+          {{arrowAttribute = true}}
+        {{else}}
+          {{arrowAttribute = false}}
+        {{end}}	
+    	{{autoplaySpeed = sc_parameter 'Autoplay Speed'}}
+    	{{slidesInMobile = sc_parameter 'Slides To Show Mobile'}}
+    	{{slidesInTabs = sc_parameter 'Slides To Show Tab'}}
+    	{{slidesInDesktop = sc_parameter 'Slides To Show'}}
+    <div class="slider-widget equal-card-height" data-slides-to-show="{{slidesInDesktop}}" data-slides-to-show-tab="{{slidesInTabs}}" data-slides-to-show-mob="{{slidesInMobile}}" data-arrow="{{arrowAttribute}}" data-dots="{{dotsAttribute}}" data-autoplaySpeed="{{autoplaySpeed}}" data-autoplay="{{autoplayAttribute}}" data-infinite="{{infiniteAttribute}}">
+    	 {{-for menu_carditem in o_model.card_list-}}
+    	 <div class="comparison-card">
+        <div class="comparison-card__image-title">
+    	{{ if (menu_carditem.card_title | string.size >0) }}
+            <label class="title"> {{-menu_carditem.card_title-}} </label>
+    	{{end}}
+    	{{ if (menu_carditem.card_image.url | string.size >0) }}
+            <div class="image-wrap w-100">
+                <img class="ow-lazy" data-src = "{{menu_carditem.card_image.url}}"  alt="{{menu_carditem.card_image.alt}}" title="{{menu_carditem.card_image.title}}" />
+            </div>
+    		{{end}}
+        </div>
+        <div class="comparison-card__details card-row-size">
+    	       {{index = -1}}
+    			{{ if (menu_carditem.custom_property_list | string.size >0) }}
+    			{{-for menu_valueitem in menu_carditem.custom_property_list-}}
+    			{{index = index + 1}}
+            <div class="list-item-detail card-row-{{index}}">
+    		{{ if ( menu_valueitem.key | string.size >0) }}
+    		{{-key= ow_item menu_valueitem.key-}}
+                <label>{{-sc_field key 'name'-}}</label>
+    			{{end}}
+    			{{ if ( menu_valueitem.value | string.size >0) }}
+                <div class="list-item">{{-menu_valueitem.value-}}</div>
+    			{{end}}
+            </div>
+    		{{end}}
+    		{{end}}
+        </div>
+    </div>
+     {{end}}
+     </div>
+     {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220805T080011Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

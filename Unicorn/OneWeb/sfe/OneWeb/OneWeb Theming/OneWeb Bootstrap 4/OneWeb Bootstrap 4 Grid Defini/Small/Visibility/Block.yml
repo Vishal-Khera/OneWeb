@@ -1,0 +1,29 @@
+﻿---
+ID: "e6f13ad6-7257-46e3-907e-288b27d11787"
+Parent: "e7327757-beaa-4321-85e2-1edeec66afec"
+Template: "cb3b3906-be80-4d9b-a2a4-038193da5422"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Theming/OneWeb Bootstrap 4/OneWeb Bootstrap 4 Grid Definition/Small/Visibility/Block
+DB: master
+SharedFields:
+- ID: "55c117ef-46c0-4cdc-a309-82419983fd42"
+  Hint: NonNumeric
+  Type: Checkbox
+  Value: 1
+- ID: "591c584f-08a7-4dc6-9d58-1de178c404a2"
+  Hint: Class
+  Value: "d-sm-block"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180604T114007Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

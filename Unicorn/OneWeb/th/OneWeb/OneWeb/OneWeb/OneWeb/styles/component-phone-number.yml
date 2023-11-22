@@ -1,0 +1,35 @@
+﻿---
+ID: "e915237c-d7b0-4e0e-99df-8258a439827d"
+Parent: "2aa2366f-1418-4350-80c6-81f202505a50"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWeb/styles/component-phone-number"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/E915237CD7B04E0E99DF8258A439827D.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "c68d2fae-36a8-4bff-8958-a02bedf6b861"
+  Value: LnNoYXJlZC1nbG9iYWwgewogIGZsb2F0OiByaWdodDsgfQogIC5zaGFyZWQtZ2xvYmFsIHVsIHsKICAgIGxpc3Qtc3R5bGU6IG5vbmU7CiAgICBtYXJnaW4tdG9wOiAzOXB4OwogICAgYm9yZGVyLWxlZnQ6IDFweCBzb2xpZCAjNzA3MDcwOwogICAgbWFyZ2luLWxlZnQ6IDBweDsKICAgIHBhZGRpbmc6IDA7CiAgICBtYXJnaW4tYm90dG9tOiAwOyB9CiAgICAuc2hhcmVkLWdsb2JhbCB1bCBsaSB7CiAgICAgIHBhZGRpbmc6IDAgMCAwIDE1cHg7CiAgICAgIG1hcmdpbjogMHB4OwogICAgICBsaW5lLWhlaWdodDogMjRweDsKICAgICAgbGlzdC1zdHlsZTogbm9uZTsKICAgICAgbGlzdC1zdHlsZS1wb3NpdGlvbjogdW5zZXQ7IH0KICAgICAgLnNoYXJlZC1nbG9iYWwgdWwgbGk6Om1hcmtlciB7CiAgICAgICAgZGlzcGxheTogbm9uZTsKICAgICAgICBjb250ZW50OiAnJzsgfQogICAgICAuc2hhcmVkLWdsb2JhbCB1bCBsaSBhIHsKICAgICAgICBmb250LXNpemU6IDEycHg7CiAgICAgICAgY29sb3I6ICNmZmY7CiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lOyB9CiAgICAgICAgLnNoYXJlZC1nbG9iYWwgdWwgbGkgYTpob3ZlciB7CiAgICAgICAgICBjb2xvcjogI2ZmZiAhaW1wb3J0YW50OyB9CiAgICAgICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA3NjhweCkgewogICAgICAgICAgLnNoYXJlZC1nbG9iYWwgdWwgbGkgYSB7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTJweDsgfSB9CiAgICAgICAgLnNoYXJlZC1nbG9iYWwgdWwgbGkgYSBpIHsKICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDVweDsgfQo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 812
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T123708Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,204 @@
+@import 'base/base-index.scss';
+
+body{
+    .testimonial-card{
+        position: unset;
+        @include border-radius(0px);
+        margin-bottom: 0;
+        .component-content{
+            display: unset;
+            flex-direction: unset;
+        }
+    }
+}
+
+.testimony-card {
+    display: block;
+    height: auto;
+    background-color: $cta-gray;
+
+    .card-image {
+        aspect-ratio: unset;
+
+        img {
+            width: 100%;
+            height: auto;
+            @include border-radius(8px 8px 0px 0px);
+        }
+
+        .ow-play-button {
+            position: absolute;
+            left: 12px;
+            bottom: 12px;
+            width: 40px;
+            height: 40px;
+            z-index: 2;
+            @include border-radius(50%);
+            background-color: $brand;
+            transition: ease-in-out 0.2s all;
+
+            @include md {
+                left: 25px;
+                bottom: 25px;
+                height: 48px;
+                width: 48px;
+            }
+
+            i {
+                display: unset;
+                opacity: 1;
+                position: unset;
+                background-color: transparent;
+                &::before {
+                    position: relative;
+                    left: 15px;
+                    top: 12px;
+                    color: $base-light-gray;
+                    @include font-size($md-font);
+
+                    @include md {
+                        left: 20px;
+                        top: 16px;
+                    }
+                }
+            }
+
+            &:hover{
+                background-color: $white;
+                i {
+                    &::before {
+                        color: $brand;
+                    }
+                }
+            }
+
+            &:active{
+                background-color: $white;
+                transform: translateY(5px);
+                i {
+                    &::before {
+                        color: $brand;
+                    }
+                }
+            }
+
+            &:focus{
+                background-color: $white;
+                outline: 6px solid $sea-blue;
+                outline-offset: -1px;
+                i {
+                    &::before {
+                        color: $brand;
+                    }
+                }
+            }
+        }
+    }
+
+    .card-body {
+        padding: 15px;
+        height: unset;
+
+        @include md {
+            padding: 20px;
+        }
+
+        .card-title {
+            @include font-size($ssmlg-font);
+            margin-bottom: 0px;
+            color: $brandblack2;
+
+            @include md {
+                width: 80%;
+            }
+        }
+
+        .card-subtitle {
+            padding-top: 50px;
+            margin-top: 0px;
+            color: $brandblack2;
+            @include font-size($md-font);
+        }
+
+        .card-text {
+            color: $coalblack;
+            @include font-size($sm-font);
+        }
+    }
+}
+
+.dark-theme {
+    .testimony-card {
+        .card-body{
+            .card-title, .card-subtitle {
+                color: $base-light-gray !important; 
+            }
+            .card-text{
+                color: $mid-light-gray !important;
+            }
+        }
+    }
+}
+.blue-theme {
+    .testimony-card {
+        background-color: $dark-blue;
+
+        .card-body{
+            .card-title, .card-subtitle {
+                color: $base-light-gray !important; 
+            }
+            .card-text{
+                color: $mid-light-gray !important;
+            }
+        }
+    }
+}
+
+
+// .card-body {
+//     padding: 15px;
+//     height: unset;
+
+//     @include md {
+//         padding: 20px;
+//     }
+
+//     .card-title {
+//         @include font-size($ssmlg-font);
+//         margin-bottom: 0px;
+//         color: $brandblack2;
+
+//         @include md {
+//             width: 100%;
+//             height: 190px;
+//         }
+//         @media(min-width:800px){
+//             height: 158px;
+//         }
+//         @include lg{
+//             height: 147px;
+//         }
+//         @media(min-width:1023px){
+//             height: 152px;
+//         }
+//         @media(min-width:1180px){
+//             height: 90px;
+//         }
+//         @include xl{
+//             width: 80%;
+            
+//         }
+//     }
+
+//     .card-subtitle {
+//         padding-top: 36px;
+//         margin-top: 0px;
+//         color: $brandblack2;
+//         @include font-size($md-font);
+//     }
+
+//     .card-text {
+//         color: $coalblack;
+//         @include font-size($sm-font);
+//     }
+// }

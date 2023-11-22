@@ -1,0 +1,34 @@
+﻿---
+ID: "055dd0cb-4c68-4dea-9d01-f7e68aab544e"
+Parent: "077adb8a-9062-4a61-9755-fe8cf885dfb9"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Available Renderings/OneWeb Page Structure
+DB: master
+BranchID: "10698c9c-484d-43cb-b946-abe9cf88ff6c"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Type: TreelistEx
+  Value: |
+    {B90B9CDC-71B1-4146-85E4-02AAC366F246}
+    {A6E7A90A-4B1A-4936-A512-2A918A04B3A6}
+    {4F1D055A-D52F-4581-944C-FE1E641BDA34}
+    {BFE4C09B-0469-4348-A5ED-08ED00E18853}
+    {FABD6B1B-311F-4A98-BBE3-58C84DCE4EC1}
+    {D7E6ECBA-52DA-471B-A473-6D4CC0E64F93}
+    {7E1BC643-D4C9-41AF-AF11-F32388B65BE2}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FD6FC191-5B7E-4235-98DF-2A39FDA1882C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T074248Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

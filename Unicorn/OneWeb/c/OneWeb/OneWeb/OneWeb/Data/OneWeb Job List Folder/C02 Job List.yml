@@ -1,0 +1,20 @@
+﻿---
+ID: "a4c83b0b-f07c-44c9-959a-39eebbdaad57"
+Parent: "fccc47ec-d224-4291-b061-78a88557b89f"
+Template: "e27f4069-06c7-47df-9b39-ac20fdb11d90"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Job List Folder/C02 Job List
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220727T084954Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: C02 Job List
+    - ID: "b9d3bb93-ebf2-45e7-b1f2-ac4b9155af4a"
+      Hint: Job List
+      Value: "{9F4B44EC-8C14-42EF-8BB9-26F935D04E86}|{3598A1D3-3090-4CA9-BD7B-C0FA6903D02F}|{2C36F2A7-B0E4-424D-84A3-D042B1CD4C90}"

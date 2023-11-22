@@ -1,0 +1,191 @@
+@import 'base/base-index.scss';
+.ow-image-accordion{
+    width: 100%;
+}
+.client-industry-wrapper{
+    width: 100%;
+    position: relative;
+    @include lg{
+        min-height: 310px;
+        height: 100%;
+    }
+    .client-industry-item{
+        width: 100%;
+        margin-bottom: 20px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        &.active{
+            .client-industry-logos{
+                display: block;
+                
+            }
+            .client-industry-name{
+                background-color: $dark-gray;
+                color:$white;
+                position: relative;
+                svg{
+                    *{
+                        fill: $white;
+                    }
+                }
+                    
+                &:after{
+                    content: '';
+                    @media (max-width:991px){
+                        border-top: 8px solid $white;
+                        transform: translateY(-50%) rotate(180deg);
+                    }
+                    @include lg{
+                        position: absolute;
+                        width: 25px;
+                        bottom: 0px;
+                        top: 0px;
+                        right: -25px;
+                        background-image: linear-gradient(to top right, $dark-gray 50%, transparent 51%), linear-gradient(to bottom right, $dark-gray 50%, transparent 51%);
+                        background-size: 100% 51% ;
+                        background-position: top left, bottom left;
+                        background-repeat: no-repeat;
+                        z-index: 2;
+                    }
+                }
+                .svg-wrapper{
+                    svg{
+                        *{
+                            stroke: $white;;
+                        }
+                    }
+                }
+            }
+        }
+        .client-industry-logos{
+            width: 100%;
+            background-color: $white-gray;
+            display: none;
+            @include lg{
+                width: 50%;
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100%;
+                .slider-wrapper, 
+                .slick-list, 
+                .slick-track{
+                    height: 100%;
+                    .slick-slide{
+                        > div{
+                            height: 100%;
+                            .slider-item{
+                                display: flex !important;
+                                flex-wrap: wrap;
+                                flex-direction: column;
+                                height: 100%;
+                                justify-content: space-evenly;
+                                padding: 0 4px;
+                                a {
+                                    &:focus-visible{
+                                        outline: none;
+                                        box-shadow: 0px 0px 0px 2px $primary inset;   
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .slick-dots{
+                        bottom: -15px;
+                    }
+                }
+            }
+        }
+        
+        .client-industry-name{
+            cursor: pointer;
+            width: 100%;
+            position: relative;
+            &:focus-visible{
+                outline: 2px solid $primary;
+            }
+            &:after{
+                @media (max-width:991px){
+                    content: '';
+                    width: 0; 
+                    height: 0; 
+                    border-left: 8px solid transparent;
+                    border-right: 8px solid transparent;
+                    border-top: 8px solid $dark-gray;
+                    position: absolute;
+                    top: 50%;
+                    right: 10px;
+                    transform: translateY(-50%);
+                }
+            }
+            b, strong{
+                display: block;
+                @include lg{
+                    display: inline;
+                }
+            }
+            @include lg{
+                width: 50%;
+            }
+        }
+    }
+}
+.client-industry-name{
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    width: 100%;
+    padding: 10px 30px 10px 15px;
+    align-items: center;
+    @include lg{
+        padding: 10px 15px;
+    }
+    .svg-wrapper{
+        margin-right: 10px;
+        svg{
+            max-width: 20px;
+            width: 20px;
+            *{
+                fill: $black;
+            }
+        }
+    }
+}
+.client-industry-logos{
+    padding: 20px;
+    .slider-item{
+        a{
+            width: 100%;
+            float: left;
+        }
+        img{
+            margin: 0 auto;
+            padding: 20px 0;
+            @include md{
+                padding: 30px 10px;
+            }
+            @include lg{
+                padding: 30px;
+            }
+        }
+    }
+
+    .slick-track{
+        display: flex;
+        .slick-slide{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .slick-dots{
+        justify-content: center;
+        @include lg{
+            margin-top: -15px;
+        }
+        li{
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+    }
+}

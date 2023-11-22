@@ -1,0 +1,32 @@
+
+<div class="searh-half-overflow">
+
+<div class="row">
+    {% include "./search-with-suggestion.html" %}
+    <div class="col-md-4">
+        <div class="filter-mobile d-md-none"> 
+            <div class="filter-text">
+                <i class="fas fa-filter"></i>
+                FILTER
+            </div>
+            <div class="reset-text">
+                <i class="fas fa-filter"></i>
+                RESET
+            </div>
+            
+        </div>
+        <div class="filter-wrapper">  
+        {% include "./alphabetic-facets.html" %}
+        {% include "./filter-facets.html" %}
+        {% include "./filter-facets.html" %}
+        
+        </div>
+        
+    </div>
+    <div class="col-md-8">
+        <div class="row">
+            {% include "./news-card.html" %}
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,14 @@
+﻿---
+ID: "2da2a48f-2093-4111-8a21-3f9b656d4036"
+Parent: "7ac67d41-17e8-444d-b6e4-275b6f441a94"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/layout/Placeholder Settings/Feature/OneWeb/OneWeb Page Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211120T185639Z

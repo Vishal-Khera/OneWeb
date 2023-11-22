@@ -1,0 +1,21 @@
+﻿---
+ID: "3a73cbb9-12ea-4e0a-bad4-93cac9993788"
+Parent: "0e20d56e-4b79-4469-a210-d8ae38ed9cb1"
+Template: "72e57dc4-4c05-4067-a749-c74e9b20beb0"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Card Grids/OneWeb About Us Banner Data Card Grid
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0102c8a0-b60f-4e19-86cb-74caa9eee49e"
+      Hint: Card List
+      Value: "{D8FF501B-87E9-4A94-B4E4-019D881BB994}|{A5E9BEED-23E8-4ECB-A34D-582647F8B634}|{E6DB3583-DB7E-440B-B8B0-BDA631544A31}|{A478493D-7897-497D-89C9-AF327463E4DC}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T191053Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

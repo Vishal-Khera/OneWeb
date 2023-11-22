@@ -1,0 +1,22 @@
+﻿---
+ID: "ae64c505-3020-493a-9c68-d2085c824e4b"
+Parent: "6996d6a8-6577-4e26-b6f9-85a106ed2fa0"
+Template: "bb8a85ab-1f6d-4518-8772-1c9f4f8dac18"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/Header/Square Logo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211126T145326Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ebe4fdef-16d5-4d19-833c-24a241628a3a"
+      Hint: Image
+      Value: |
+        <image mediaid="{B3F1CFFE-15D2-44CB-94B9-F4D05C8F5E63}" ></image>

@@ -1,0 +1,41 @@
+﻿---
+ID: "f69eb5bd-6718-4544-8f7b-a890bd49e7b4"
+Parent: "ad1d72b7-4416-4995-a7a8-fc83131400e8"
+Template: "105e1ae4-0a89-449a-a4bf-69e7fb23c0ca"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Videos/About/News Trades
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15344fb8-6901-4745-a50d-359d20556eee"
+      Hint: Placeholder Image
+      Value: |
+        <image mediaid="{234C49D1-DEE9-4EE2-B6B5-F895DE5A1820}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T115613Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Better Patient Care
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Safer, More Efficient Technologies
+    - ID: "72b1ed0f-917e-43b1-99af-855a84af8689"
+      Hint: Attributes
+      Value: allowfullscreen
+    - ID: "883ad9cc-d3be-485e-955e-2feb6dc0d74c"
+      Hint: Autoplay
+      Type: Checkbox
+      Value: 1
+    - ID: "8d4cb2dc-29ae-483d-a62f-afd8d23d4a08"
+      Hint: Id
+      Value: 375004590
+    - ID: "a908b235-b1cf-4d36-b08c-9563338aaf5a"
+      Hint: Muted
+      Type: Checkbox
+      Value: 0
+    - ID: "cc1be248-6ed6-4731-ba35-bf109542397b"
+      Hint: Provider
+      Value: "{DA4A478C-D173-4598-B15C-E5488CF7EE39}"

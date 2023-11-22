@@ -1,0 +1,18 @@
+﻿---
+ID: "2cdbc089-17d4-4ba4-85e1-855a8a7a3ccb"
+Parent: "1f44108b-8551-4ada-ae9d-70d6e0dcda06"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Users Table/Bottom Pagination
+DB: master
+SharedFields:
+- ID: "e1d5adba-8348-4127-9bb6-455936653839"
+  Hint: CssClass
+  Value: "ow-user-bottompagination"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220530T090717Z

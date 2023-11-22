@@ -1,0 +1,14 @@
+﻿---
+ID: "0145face-0490-4d98-a4f8-12c74e882204"
+Parent: "6ad475fa-174f-46a8-bc93-620ed904508e"
+Template: "6ad475fa-174f-46a8-bc93-620ed904508e"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Link With Text/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T112128Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "21cee9c8-c2dc-462d-be79-34092f583b64"
+Parent: "53f2a756-0f3d-47f0-a47c-b386507e17ac"
+Template: "53f2a756-0f3d-47f0-a47c-b386507e17ac"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Media/Datasource/OneWeb Media Download Card Template Folder/OneWeb Media Download Card/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 201
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160706T133344Z

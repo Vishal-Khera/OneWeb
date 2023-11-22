@@ -1,0 +1,24 @@
+﻿---
+ID: "8c6a35c2-ccdf-42f6-b229-a60caf9810db"
+Parent: "f229fc5b-2172-404c-90dd-e1f0fe047cc7"
+Template: "f229fc5b-2172-404c-90dd-e1f0fe047cc7"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Support Link/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17500a11-fa62-46bd-a98f-b95f142766a9"
+      Hint: Title
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T221014Z
+    - ID: "523cc883-8778-4897-92a1-e13c4c905d6a"
+      Hint: SupportType
+      Value: "{2588E684-1751-4BA4-9905-0C6AB3BB3792}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

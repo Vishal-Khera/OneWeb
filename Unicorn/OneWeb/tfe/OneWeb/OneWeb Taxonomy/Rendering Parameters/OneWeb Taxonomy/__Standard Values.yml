@@ -1,0 +1,14 @@
+﻿---
+ID: "b6b0307f-532b-444f-9580-0e8403500e96"
+Parent: "faca2f6d-89b2-4a07-9ec2-6bd8ada8c5b4"
+Template: "faca2f6d-89b2-4a07-9ec2-6bd8ada8c5b4"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Taxonomy/Rendering Parameters/OneWeb Taxonomy/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150903T140640Z

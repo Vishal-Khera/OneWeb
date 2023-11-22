@@ -1,0 +1,14 @@
+﻿---
+ID: "0023ba97-7cfb-4d38-b4ac-fce50e7d68e7"
+Parent: "7d4c4208-af1e-4876-904d-3baa749b31df"
+Template: "7d4c4208-af1e-4876-904d-3baa749b31df"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Header Strip/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T112128Z

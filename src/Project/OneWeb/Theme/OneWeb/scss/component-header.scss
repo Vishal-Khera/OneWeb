@@ -1,0 +1,149 @@
+@import 'base/base-index.scss';
+
+.on-page-editor{
+    header{
+        position: relative!important;
+        padding: 10px 0 !important;
+    }
+}
+
+
+header{
+    border-top:5px solid $black;
+    position:sticky;
+    top:0;
+    left: 0;
+    background: $white;
+    z-index: 101;
+    width: 100%;
+    padding: 0;
+    #header{
+        > .container{
+            transition: .3s all;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            @include lg{
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            .link{
+                .field-link{
+                    a{
+                        border-bottom: none;
+                        @include lg{
+                            float: right;
+                        }
+                        &:hover{
+                            color: $black;
+                        }
+                        &:focus{
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .focusIn{
+        height: 43px;
+        input{
+            position: absolute;
+            z-index: 100;
+        }
+    }
+
+    .row{
+        align-items: center;
+    }
+
+    .mobile-menu{
+        .row{
+            &.column-splitter{
+                margin: 0;
+            }
+        }
+    }
+    
+    .link{
+        text-align: right;
+        a{
+            border:none;
+            font-family: 'HelveticaNeue-Medium';
+        }
+        
+    }
+
+    .col-6{
+        .file-type-icon-media-link{
+            + .link{
+                position: absolute;
+            }
+        }
+    }
+    
+
+    .brand-logo{
+        width: 120px;
+        float: right;
+        @include lg{
+            width: auto;
+            margin-left: unset;
+        }
+    }
+
+    .col-5{
+        .brand-logo{
+            @media (min-width:500px) and (max-width:991px) {
+                margin-left: -9%;
+                @media (min-width:768px){
+                    margin-left: -11%;
+                }
+            }
+        }
+    }
+
+    .vertical-logo{
+        @media (min-width:500px) and (max-width:991px) {
+            margin-left: -3%;
+            @media (min-width:768px){
+                margin-left: -7%;
+            }
+        }
+    }
+    
+}
+body{
+    &.sticky{
+        header{
+            #header{
+                > .container{
+            @include lg{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+        }
+            nav {
+                .mega-nav {
+                    .menu-open {
+                        > a{
+                            &:after{
+                                bottom: -25px;
+                            }
+                        }
+                        .mega-nav-level1{
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+body.menu-overflow{
+    header{
+        position: fixed !important;
+    }
+
+}

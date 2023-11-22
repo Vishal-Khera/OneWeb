@@ -1,0 +1,130 @@
+@import 'base/base-index.scss';
+
+.language {
+    width: auto;
+    display: inline-block;
+    float: right;
+    padding-left: 8px;
+    position: relative;
+    z-index: 99;
+    @include lg {
+        border-left: 1px solid $black;
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+
+    @include xl {
+        margin-left: 15px;
+        padding-left: 15px;
+    }
+    &::after {
+        @include xl {
+            content: " \276F";
+            position: absolute;
+            right: 5px;       
+            top: 0px;
+            transform: rotate(90deg);
+            z-index: -1;
+            font-weight: 100;
+            bottom: 0px;
+            margin: auto;
+            @include font-size($sm-font);
+        }
+    }
+    .inactivestate {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: transparent;
+        z-index: 2;
+    }
+    .select-box {
+        position: relative;
+        display: inline-block;
+        @include font-size($sm-font);
+        .selector-options {
+            list-style: none;
+            padding: 0px 0;
+            margin: 0;
+            background: $white;
+            z-index: 1;
+            width: 100%;
+            display: none;
+            position: absolute;
+            top: 23px;
+            min-width: 35px;
+            border-top: 1px $primary solid;
+            box-shadow: 0px 1px 4px #00000029;
+            li {
+                color: $black;
+                display: flex;
+                align-items: center;
+                margin: 0 5px;
+                padding:  10px 0px ;
+                cursor: pointer;
+                background: $white;
+                border-bottom: 1px solid $border-gray-white;
+                &:last-child {
+                    border-bottom: none;
+                }
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+            .selected{
+                color: $primary !important;
+            }
+        }
+    }
+    select {
+        width: auto;
+        border: 0;
+        background: transparent;
+        outline: none;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+        color:$black;
+        font-family: 'HelveticaNeue-Medium';
+        @include xl {
+            padding-right: 15px;
+        }
+
+        &:focus-visible {
+            outline: 2px solid $primary;
+        }
+    }
+}
+
+.without-after-element{
+    select{
+        padding-right: 0px;
+        font-family: unset;
+    }
+    &::after {
+        display: none;
+    }
+}
+.language-active {
+    &::after {
+        color: $primary;
+        transform: rotate(-90deg);
+        right: -2px;
+
+    }
+    .select-box{
+        ul{
+            display: block !important;
+        }
+    }
+
+    select {
+        option {
+            color: $black;
+        }
+    }
+}
+
+
+

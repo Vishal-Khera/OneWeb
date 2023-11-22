@@ -1,0 +1,166 @@
+﻿---
+ID: "c72ce0a4-7422-4941-a713-5ac4a5d5d8ee"
+Parent: "662652f6-0e82-47ef-8bf7-d3117ef6a898"
+Template: "3e9096c2-273c-45d0-86c2-8955f5e4b70e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Events Folder/MDM West
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2A918814-9A5B-46A5-A3DA-209B36A15D2F}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220118T085532Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Agritechnica
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7002be35-ea29-4c81-b571-dfc14ec4194b"
+      Hint: Booth No
+      Value: 11026
+    - ID: "789d1621-02ff-4b0a-a658-84ca9e13dcbf"
+      Hint: End Date
+      Value: 20220301T000000Z
+    - ID: "8e120269-ed7c-4f54-a6cf-29cb6ab07339"
+      Hint: Country
+      Value: Virtual
+    - ID: "e0c95825-ace3-44ed-ba2f-127c799918e2"
+      Hint: Start Date
+      Value: 20220212T183000Z
+    - ID: "e3bb7455-da12-4e00-89df-f40ec421a8ef"
+      Hint: Location
+      Value: Virtual
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="go to trade show" anchor="" linktype="internal" class="" title=""  querystring="" id="{E874E009-6C17-49BC-ACB3-A097F9D84471}" />
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220329T085304Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: MD&amp;M West
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Dunkermotoren USA wird wieder Teil des German Pavilion sein und die neuesten Innovationen der Antriebstechnik f&uuml;r die Medizintechnik und Verpackungsindustrie pr&auml;sentieren.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{4785714C-2C4A-4784-955B-D638CB42E994}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Alexander.Krajniak
+    - ID: "7002be35-ea29-4c81-b571-dfc14ec4194b"
+      Hint: Booth No
+      Value: 
+    - ID: "789d1621-02ff-4b0a-a658-84ca9e13dcbf"
+      Hint: End Date
+      Value: 20230209T000000Z
+    - ID: "8e120269-ed7c-4f54-a6cf-29cb6ab07339"
+      Hint: Country
+      Value: USA
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220329T085304Z
+    - ID: "e0c95825-ace3-44ed-ba2f-127c799918e2"
+      Hint: Start Date
+      Value: 20230207T183000Z
+    - ID: "e3bb7455-da12-4e00-89df-f40ec421a8ef"
+      Hint: Location
+      Value: Anaheim
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="Zur Messe" linktype="external" url="https://www.mdmwest.com/en/home.html" anchor="" target="" />
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220118T085532Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Agritechnica
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7002be35-ea29-4c81-b571-dfc14ec4194b"
+      Hint: Booth No
+      Value: 11026
+    - ID: "789d1621-02ff-4b0a-a658-84ca9e13dcbf"
+      Hint: End Date
+      Value: 20220331T000000Z
+    - ID: "8e120269-ed7c-4f54-a6cf-29cb6ab07339"
+      Hint: Country
+      Value: Virtual
+    - ID: "e0c95825-ace3-44ed-ba2f-127c799918e2"
+      Hint: Start Date
+      Value: 20220326T183000Z
+    - ID: "e3bb7455-da12-4e00-89df-f40ec421a8ef"
+      Hint: Location
+      Value: Virtual
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="go to trade show" anchor="" linktype="internal" class="" title=""  querystring="" id="{E874E009-6C17-49BC-ACB3-A097F9D84471}" />
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220329T083223Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: MD&M West
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Dunkermotoren USA will be part of the German Pavilion showcasing its drive technology solutions for the medical technology and packaging industry.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{4785714C-2C4A-4784-955B-D638CB42E994}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Alexander.Krajniak
+    - ID: "7002be35-ea29-4c81-b571-dfc14ec4194b"
+      Hint: Booth No
+      Value: 
+    - ID: "789d1621-02ff-4b0a-a658-84ca9e13dcbf"
+      Hint: End Date
+      Value: 20230209T000000Z
+    - ID: "8e120269-ed7c-4f54-a6cf-29cb6ab07339"
+      Hint: Country
+      Value: USA
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220329T083223Z
+    - ID: "e0c95825-ace3-44ed-ba2f-127c799918e2"
+      Hint: Start Date
+      Value: 20230207T183000Z
+    - ID: "e3bb7455-da12-4e00-89df-f40ec421a8ef"
+      Hint: Location
+      Value: Anaheim
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="go to trade show" linktype="external" url="https://www.mdmwest.com/en/home.html" anchor="" target="_blank" />

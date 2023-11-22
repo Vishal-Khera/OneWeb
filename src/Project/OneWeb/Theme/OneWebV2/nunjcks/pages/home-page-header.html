@@ -1,0 +1,139 @@
+{% extends "layout/layout.html" %} {% block maincontent %}
+<main>
+    <div id="content">
+
+        {% include "../templates/components/modal-popup.html" %}
+
+        <!-- Banner-video -->
+        <div class="component container-fluid dark-theme ow-head-space">
+            <div class="component row">
+                <div class="component container-fluid dark-theme no-margin small-padding pt-0">
+                    <div class="component row">
+                        {% include "../templates/components/banner-video.html" %}
+                    </div>
+                </div>
+
+                <div class="container-fluid dark-theme small-padding no-margin">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    {% include "../templates/components/component-text-v1.html" %}
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="component container-fluid dark-theme  no-margin large-padding">
+                    <div class="component row ">
+                        {% include "../templates/components/marquee-logos.html" %}
+                    </div>
+                </div>
+
+                <div class="container-fluid dark-theme small-padding no-margin">
+                    <div class="row">
+                        <div class="container">
+                            <div class="row title-arrow">
+                                <div class="col-md-4">
+                                    {% include "../templates/components/component-text-v1.html" %}
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid dark-theme dark-theme-card">
+                    <div class="row">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="slider-widget" data-slides-to-show="2" data-slides-to-show-tab="2"
+                                    data-slides-to-show-mob="1" data-arrow="true" data-dots="true"
+                                    data-autoplaySpeed="3000000" data-autoplay="true" data-infinite="false"
+                                    data-row-mobile="2" data-row-tab="1" data-row-desktop="1">
+                                    <div class="slider-item">
+                                        <div class="ow-product-card">
+                                            <div class="component-content">
+                                                <a class="product-card-wrapper" href="javascript:void(0)">
+                                                    {% include "../templates/components/component-productcardv4.html" %}
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="slider-item">
+                                        <div class="ow-product-card">
+                                            <div class="component-content">
+                                                <a class="product-card-wrapper" href="javascript:void(0)">
+                                                    {% include "../templates/components/component-productcardv4.html" %}
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="slider-item">
+                                        <div class="ow-product-card">
+                                            <div class="component-content">
+                                                <a class="product-card-wrapper" href="javascript:void(0)">
+                                                    {% include "../templates/components/component-productcardv4.html" %}
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="slider-item">
+                                        <div class="ow-product-card">
+                                            <div class="component-content">
+                                                <a class="product-card-wrapper" href="javascript:void(0)">
+                                                    {% include "../templates/components/component-productcardv4.html" %}
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="slider-item">
+                                        <div class="ow-product-card">
+                                            <div class="component-content">
+                                                <a class="product-card-wrapper" href="javascript:void(0)">
+                                                    {% include "../templates/components/component-productcardv4.html" %}
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="slider-item">
+                                        <div class="ow-product-card">
+                                            <div class="component-content">
+                                                <a class="product-card-wrapper" href="javascript:void(0)">
+                                                    {% include "../templates/components/component-productcardv4.html" %}
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 small-padding default-btn-color">
+                                    <a href="#" rel="" class="button btn-default">
+                                        Read more
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

@@ -1,0 +1,79 @@
+.on-page-editor header {
+  position: relative !important;
+  padding: 10px 0 !important; }
+
+header {
+  border-top: 5px solid #000;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 101;
+  width: 100%;
+  padding: 0; }
+  header #header > .container {
+    transition: .3s all;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    @media only screen and (min-width: 992px) {
+      header #header > .container {
+        padding-top: 30px;
+        padding-bottom: 30px; } }
+    header #header > .container .link .field-link a {
+      border-bottom: none; }
+      @media only screen and (min-width: 992px) {
+        header #header > .container .link .field-link a {
+          float: right; } }
+      header #header > .container .link .field-link a:hover {
+        color: #000; }
+      header #header > .container .link .field-link a:focus {
+        color: #D9171D; }
+  header .focusIn {
+    height: 43px; }
+    header .focusIn input {
+      position: absolute;
+      z-index: 100; }
+  header .row {
+    align-items: center; }
+  header .mobile-menu .row.column-splitter {
+    margin: 0; }
+  header .link {
+    text-align: right; }
+    header .link a {
+      border: none;
+      font-family: 'HelveticaNeue-Medium'; }
+  header .col-6 .file-type-icon-media-link + .link {
+    position: absolute; }
+  header .brand-logo {
+    width: 120px;
+    float: right; }
+    @media only screen and (min-width: 992px) {
+      header .brand-logo {
+        width: auto;
+        margin-left: unset; } }
+  @media (min-width: 500px) and (max-width: 991px) {
+    header .col-5 .brand-logo {
+      margin-left: -9%; } }
+  @media (min-width: 500px) and (max-width: 991px) and (min-width: 768px) {
+    header .col-5 .brand-logo {
+      margin-left: -11%; } }
+  @media (min-width: 500px) and (max-width: 991px) {
+    header .vertical-logo {
+      margin-left: -3%; } }
+  @media (min-width: 500px) and (max-width: 991px) and (min-width: 768px) {
+    header .vertical-logo {
+      margin-left: -7%; } }
+
+@media only screen and (min-width: 992px) {
+  body.sticky header #header > .container {
+    padding-top: 10px;
+    padding-bottom: 10px; } }
+
+body.sticky header nav .mega-nav .menu-open > a:after {
+  bottom: -25px; }
+
+body.sticky header nav .mega-nav .menu-open .mega-nav-level1 {
+  margin-top: 20px; }
+
+body.menu-overflow header {
+  position: fixed !important; }

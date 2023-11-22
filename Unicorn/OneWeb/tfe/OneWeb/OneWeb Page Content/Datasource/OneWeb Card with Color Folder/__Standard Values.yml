@@ -1,0 +1,25 @@
+﻿---
+ID: "45e59d08-805e-4afa-9bef-f150415c6624"
+Parent: "6d81537a-274a-4e38-903d-92b1f9121958"
+Template: "6d81537a-274a-4e38-903d-92b1f9121958"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Card with Color Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {79805DC1-05DB-489F-9AA0-F06F284E3534}
+    {6D81537A-274A-4E38-903D-92B1F9121958}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

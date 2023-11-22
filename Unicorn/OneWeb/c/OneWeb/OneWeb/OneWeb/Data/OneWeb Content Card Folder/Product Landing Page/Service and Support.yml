@@ -1,0 +1,24 @@
+﻿---
+ID: "d03fc037-bc3f-41e3-8545-22fcc9059981"
+Parent: "c9b8ada8-e7c1-4149-9b65-ad1fdb6ad176"
+Template: "2dab00c3-0548-4391-9113-5f8c2605231e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder/Product Landing Page/Service and Support
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220823T193720Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Service and Support
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Creaform keeps supporting it's customers after purchase and installation of 3D measuring systems.
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="Learn More" anchor="" linktype="internal" class="btn button-standard" title=""  querystring="" id="{2F267E7B-0EB8-4696-9F49-9B7A877691B7}" />

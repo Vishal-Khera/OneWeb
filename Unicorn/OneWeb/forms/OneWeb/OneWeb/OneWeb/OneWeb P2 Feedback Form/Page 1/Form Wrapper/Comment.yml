@@ -1,0 +1,28 @@
+﻿---
+ID: "559d2c13-e875-4a1f-9602-6e16c95cd301"
+Parent: "277ee216-e15e-45a7-b69c-b3a1ae89eae8"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: /sitecore/Forms/OneWeb/OneWeb/OneWeb/OneWeb P2 Feedback Form/Page 1/Form Wrapper/Comment
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: "col-md-12 mb-4"
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 70433D71F7E2407F8298BDD258B3A3C5
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211205T165331Z

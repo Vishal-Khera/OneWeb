@@ -1,0 +1,18 @@
+﻿---
+ID: "c18bca79-6a89-441c-8454-a1cd792040fa"
+Parent: "bc8a0a6f-8635-46e6-b226-0c4665120565"
+Template: "f4fb6125-f113-4373-8aa2-4648c2c1960e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/Redirects/OneWeb Redirect Map
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T082211Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

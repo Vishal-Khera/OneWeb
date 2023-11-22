@@ -1,0 +1,14 @@
+﻿---
+ID: "7c7225cf-5481-4206-92d7-14853d8bd5f7"
+Parent: "8cdb02ae-4106-4fc3-9627-8a8e6d01de5d"
+Template: "fc29197d-6184-4946-ac48-acc347a79ab0"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Event Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220705T114546Z

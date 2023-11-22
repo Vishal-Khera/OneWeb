@@ -1,0 +1,42 @@
+﻿---
+ID: "06bba0a7-df90-4a4c-b141-e56145607f36"
+Parent: "5e90a537-2000-4c81-aedd-cc10307d3347"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/News Listing without image/Template
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     [[#each Results]]<div class="ow-card-news newslist"><div class="thumbnail">[[#if (isdefined this.Image)]][[#jsonBlock this.Image]]<img src="[[@Url]]" class="ow-lazy" title="[[@Title]]" alt="[[@Alt]]">[[/jsonBlock]][[else]][[#if (isdefined this.DefaultImage)]][[#jsonBlock this.DefaultImage]]<img src="[[@Url]]" class="ow-lazy" title="[[@Title]]" alt="[[@Alt]]">[[/jsonBlock]][[/if]][[/if]]</div>[[#if (isdefined this.Taxonomy)]] [[#jsonBlock this.Taxonomy]] <label style="background-color: [[@TaxonomyTag.Color]];">[[@TaxonomyTag.Title]]</label> [[/jsonBlock]] [[/if]][[#if (isdefined this.Title)]] <a href="[[this.Url]]" class="[[[Subtext]]]"><h3>[[[Title]]]</h3></a>[[/if]][[#if (isdefined Date)]] <div class="date-split">[[Date]]</div>[[/if]] [[#if (isdefined Content)]] <div class="description">[[[AllContent]]]</div><a href="[[this.Url]]" class="read-more [[[Subtext]]]">{{sc_translate 'OneWeb-News-Read-More'}}</a> [[/if]] </div>[[/each]]
+    <script>
+    $(document).ready(function(){
+        $('.date-split').each(function(){
+            var datevalue = $(this).text();
+            var yearValue = datevalue.slice(datevalue.length - 4);
+            $(this).text(yearValue);
+        });
+    $('.technical-paper-nsi').find('.description').each(function(){
+        var paperText = $(this).html();
+        var updatedText = paperText.replace(/xxx/g, '-');
+        $(this).html(updatedText);
+        });
+    });  
+    </script>
+    
+     
+     
+    
+     
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211223T225806Z

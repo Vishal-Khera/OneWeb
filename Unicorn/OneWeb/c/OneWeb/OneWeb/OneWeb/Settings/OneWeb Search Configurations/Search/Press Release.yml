@@ -1,0 +1,38 @@
+﻿---
+ID: "d30e2f94-1ce8-4b1d-971c-8b8c45ae86b4"
+Parent: "f4abf27a-bed2-451c-92ee-cec6a3c8aac2"
+Template: "1a08b4cb-c273-4f3a-a001-b2878151081e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/OneWeb Search Configurations/Search/Press Release
+DB: master
+SharedFields:
+- ID: "0993ba46-a7aa-42df-ac61-ca584c99dfb9"
+  Hint: Show Card List Switcher
+  Type: Checkbox
+  Value: 1
+- ID: "b855a7dd-0ba9-4e69-a57b-af06b5d16090"
+  Hint: Show Results By Default
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T112331Z
+    - ID: "8825881f-e960-4550-9c67-b36a8d516301"
+      Hint: Scope
+      Value: 
+    - ID: "b7eebf88-5bec-4a0d-bf71-f404b319bc7a"
+      Hint: Query
+      Value: "sxa:OneWebFieldBoost|ow_title|10;+template:{b794d898-4dca-4f59-9674-6b9994b63b59};sxa:OneWebFieldBoost|ow_aggregatedcontent|1;sxa:OneWebFieldBoost|ow_brands|1"
+    - ID: "e8eb4055-e1a0-49b2-8684-61852090e045"
+      Hint: Filters
+      Type: TreelistEx
+      Value: |
+        {904BEC16-61DF-4E36-9B7B-E2FAC44A16E0}
+        {3D3BB435-DC81-428C-86F2-F8FE7733C14E}

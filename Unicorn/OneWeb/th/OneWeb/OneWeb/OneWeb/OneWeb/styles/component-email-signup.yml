@@ -1,0 +1,35 @@
+﻿---
+ID: "3b1a82c1-2ccb-453a-95e9-3d7cd970269b"
+Parent: "2aa2366f-1418-4350-80c6-81f202505a50"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWeb/styles/component-email-signup"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/3B1A82C12CCB453A95E93D7CD970269B.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "47419e9b-d116-4047-a5de-f0e04dac6a61"
+  Value: LnNpdGVjb3JlLWZvcm0gewogIHdpZHRoOiAxMDAlOyB9CgouZW1haWwtc3Vic2NyaWJlIHsKICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgbWFyZ2luLWJvdHRvbTogMzBweDsgfQogIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogOTkycHgpIHsKICAgIC5lbWFpbC1zdWJzY3JpYmUgewogICAgICBtYXJnaW4tYm90dG9tOiAwOyB9IH0KICAuZW1haWwtc3Vic2NyaWJlIGxhYmVsIHsKICAgIGRpc3BsYXk6IGJsb2NrOwogICAgY29sb3I6ICNmZmY7CiAgICBmb250LXNpemU6IDIwcHg7IH0KICAgIEBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDApIHsKICAgICAgLmVtYWlsLXN1YnNjcmliZSBsYWJlbCB7CiAgICAgICAgZm9udC1zaXplOiAyMHB4OyB9IH0KICAgIEBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDc2OHB4KSB7CiAgICAgIC5lbWFpbC1zdWJzY3JpYmUgbGFiZWwgewogICAgICAgIGZvbnQtc2l6ZTogMjBweDsgfSB9CiAgICBAbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5OTJweCkgewogICAgICAuZW1haWwtc3Vic2NyaWJlIGxhYmVsIHsKICAgICAgICBmb250LXNpemU6IDIwcHg7IH0gfQogIC5lbWFpbC1zdWJzY3JpYmUgcCB7CiAgICBjb2xvcjogI2ZmZjsKICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsgfQogIC5lbWFpbC1zdWJzY3JpYmUgaW5wdXRbdHlwZT0iZW1haWwiXSB7CiAgICBoZWlnaHQ6IDUwcHg7CiAgICBvdXRsaW5lOiBub25lOwogICAgd2lkdGg6IDEwMCU7CiAgICBwYWRkaW5nLXJpZ2h0OiAxMDVweDsgfQogIC5lbWFpbC1zdWJzY3JpYmUgLmJ0biB7CiAgICBoZWlnaHQ6IDUwcHg7CiAgICBvdXRsaW5lOiBub25lOwogICAgYm9yZGVyOiBub25lOwogICAgY29sb3I6ICNmZmY7CiAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICByaWdodDogMHB4ICFpbXBvcnRhbnQ7CiAgICBjdXJzb3I6IHBvaW50ZXI7CiAgICBib3R0b206IDA7IH0KICAgIEBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1pbi13aWR0aDogNzY4cHgpIHsKICAgICAgLmVtYWlsLXN1YnNjcmliZSAuYnRuIHsKICAgICAgICByaWdodDogMHB4OyB9IH0KICAuZW1haWwtc3Vic2NyaWJlIC5maWVsZC12YWxpZGF0aW9uLWVycm9yIHsKICAgIGNvbG9yOiAjRDkxNzFEOwogICAgcG9zaXRpb246IGFic29sdXRlOwogICAgYm90dG9tOiAtMjJweDsKICAgIGxlZnQ6IDBweDsgfQo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1193
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: text/css
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: css
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T123706Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

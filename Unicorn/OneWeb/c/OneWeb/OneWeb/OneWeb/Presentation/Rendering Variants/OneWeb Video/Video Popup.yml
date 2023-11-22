@@ -1,0 +1,26 @@
+﻿---
+ID: "fa154955-9d47-44bc-843b-f933138126c1"
+Parent: "486c948a-85ba-4e4f-a888-f7f8d4ce4f1c"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Video/Video Popup
+DB: master
+SharedFields:
+- ID: "6e87db8e-58a6-4613-823b-e99e244f07a0"
+  Hint: ItemCssClassField
+  Value: "ow-video"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{50DE2929-2BB3-4D44-9667-04506E307228}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T192007Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

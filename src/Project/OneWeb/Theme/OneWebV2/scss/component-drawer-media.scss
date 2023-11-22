@@ -1,0 +1,351 @@
+@import 'base/base-index.scss';
+
+.drawer-wrapper{
+    &.text-wrapper{
+        padding: 0;
+        @include lg{
+            height: 617px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        > h2{
+            margin-bottom: 30px;
+            font-family: $franklinMd !important;
+            @include lg{
+                width: 50%;
+                padding-right: 10%;
+            }
+        }
+        .button{
+            &.btn-default{
+                margin-top: 30px;
+                margin-bottom: 0;
+                @include lg{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    
+}
+
+
+.drawer-slider{
+    &.slick-slider{
+    width:100%;
+    .slick-list{
+        @include lg{
+            overflow: visible;
+        }
+       
+    }
+    .slick-dots{
+        @media(max-width:991px){
+            justify-content: space-around;
+            padding: 0;
+            margin-top: 15px;
+            li{
+                height: 2px;
+                width: 100%;
+                margin: 0;
+                border: 0;
+                border-radius: 0;
+                background-color: $border-light;
+                &.slick-active{
+                    background-color: $brandblack; 
+                }
+            }
+        }
+        
+    }
+    .slick-track{
+        display: flex;
+        padding:0 15px;
+        @include lg{
+            padding: 0;
+            display:block;
+            width:100% !important;
+            transform: none !important;
+        }
+    }
+    .slick-slide{
+        &.slick-cloned{
+            + .slick-slide{
+                .drawer-card__description{
+                    display: block;
+                }
+            }
+            @include lg{
+                display: none !important;
+            }
+        }
+        @media (max-width:991px){
+            padding: 0 0 0 15px;
+            &:last-child{
+                margin-right: 0;
+            }
+            > div{
+                height: 100%;
+            }
+        }
+        @include lg{
+            margin-left: 0;
+            .drawer-card{
+                &__image{
+                    @include lg{
+                        opacity: 0;
+                    }
+                }
+            }
+            &.slick-active{
+                .drawer-card{
+                    &__content{
+                        @include lg {
+                            &::before{
+                                animation: slide .5s forwards;
+                            }
+                        }
+                    }
+                    &__image{
+                        @include lg{
+                            z-index: 9;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+.drawer-card{
+    height: 100%;
+    @media(max-width:991px){
+        border-radius: 8px;
+        background-color: $cta-gray;
+    }
+    @include lg{
+        margin-bottom: 20px;
+        height: auto;
+    }
+    &__image{
+        overflow: hidden;
+        @include lg{
+            position: absolute;
+            right:0;
+            width: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 616px;
+            border-radius: 8px;
+            padding-left: 15px;
+        }
+        @media(max-width:991px){
+            padding-top: 74.5%;
+            overflow: hidden;
+            position: relative;
+            border-top-right-radius: 8px;
+            img, video{
+                position: absolute;
+                left: 0;
+                top: 0;
+                object-fit: cover;
+                object-position: center;
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+                height: 100%;
+            }
+        }
+        img{
+            width:100%;
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+            overflow: hidden;
+            @include lg{
+                border-radius: 8px;
+               
+            }
+            
+        }
+        video{
+            overflow: hidden;
+            @include lg{
+                height: 100%;
+                position: absolute;
+                object-fit: cover;
+                border-radius: 8px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    &__content{
+        padding:15px;
+        @include lg{
+            padding: 0;
+        }
+        &.hovered{
+            @include lg{
+                border-left:2px solid $brandblack;
+            }
+        }
+        h2{
+            margin-bottom:0;
+            padding-top: 5px;
+            font-family: $franklinMd !important;
+            color:$brandblack;
+        }
+        @include lg {
+            width: 50%;
+            padding-left:20px;
+            border-left:2px solid $border-light;
+            position: relative;
+            padding-right: 10%;
+            &::before{
+                content: '';
+                width: 2px;
+                position: absolute;
+                height: auto;
+                animation:0.2s padding ease-out;
+                padding-top: 0;
+                left:-2px;
+                background-color: $brandblack;
+            }
+            > a{
+                position:relative;
+                &:before{
+                    content: '';
+                        background-color: transparent;
+                        height: calc(100% + 15px);
+                        width: calc(100% + 40px);
+                        position: absolute;
+                        z-index: -1;
+                        left: -30px;
+                        top: -7px;
+                        border-radius: 4px;
+                        transition: .3s all;
+                }
+                &:hover{
+                    &:before{
+                        background-color: $cta-gray;
+                    }
+                }
+            }
+        }
+    }
+
+    &__description{
+        color:$card-text;
+        margin-top: 10px;
+        @include lg{
+            display:none;
+        }
+        p{
+           
+            // color: $smoke-whitesade !important;
+            margin-bottom:0;
+        }
+    }
+
+    &__btn{
+        a{
+            &.button, &.button:focus{
+                margin-top: 10px;
+                font-family: $franklinMd !important;
+                margin-bottom:0;
+            }
+        }
+    }
+}
+
+
+@keyframes slide {
+    0%{
+        padding-top:0;
+    }
+    
+    100% {
+        padding-top:60px;
+    }
+  }
+  .light-theme{
+    @media (max-width:991px){
+        .drawer-card{
+            background-color: $cta-gray;
+        }
+    }
+  }
+  .dark-theme{
+    .drawer-card__content{
+        .drawer-card__description{
+            p{
+                color: $smoke-whitesade !important;
+            }
+            
+        }
+        &.hovered{
+            @include lg{
+                border-left:2px solid $white;
+            }
+        }
+        @include lg{
+            border-left:2px solid rgba(255, 255, 255, .2);
+            &::before{
+                background-color: $white;
+            }
+            > a{
+                &:hover{
+                    &::before{
+                        opacity: .2;
+                    }
+                }
+            }
+        }
+        h2{
+            color:$white !important;
+        }
+    }
+    .drawer-card__image{
+        img{
+            @include lg{
+                border-radius: 0;
+            }
+        }
+    }
+    @media(max-width:991px){
+        .drawer-card{
+            background-color: $brandblack;
+        }
+    
+
+        .drawer-slider{
+            .slick-dots{
+                li{
+                    background: $white-gray-light;
+                    &.slick-active{
+                        background: $light-gray;
+                    }
+                }
+            }
+        }
+    }
+  }
+
+  .inverted-drawer{
+    .drawer-card{
+        &__image{
+            @include lg{
+                left: 0;
+                right:auto;
+            }
+        }
+        &__content{
+            @include lg{
+                width: calc(50% - 50px);
+                float: right;
+            }
+        }
+    }
+  }

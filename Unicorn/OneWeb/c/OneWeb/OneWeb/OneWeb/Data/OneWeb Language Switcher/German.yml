@@ -1,0 +1,24 @@
+﻿---
+ID: "cae9b31d-73a1-41c9-946e-9552e41ac540"
+Parent: "36f44537-16d9-4e82-9db8-e9057b708e6f"
+Template: "4746a995-6894-4791-8d6d-ed9cff0b8451"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Language Switcher/German
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d3f688b-4a13-4ba6-9735-f6a2070b80c0"
+      Hint: Title
+      Value: DE
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211119T064336Z
+    - ID: "386dabe4-4ca8-429f-bae5-330e95d78ccb"
+      Hint: Link
+      Value: "{C628DCE9-BC15-4BF7-8704-2384E2DB23A4}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,14 @@
+﻿---
+ID: "b655f625-609f-4ec1-8fe0-8ada55bc6fd7"
+Parent: "9f22ab09-f301-40df-a91b-6a2231001c0c"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Navigation/Link List/Secondary Navigation Footer/Thumbnails
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220103T162936Z

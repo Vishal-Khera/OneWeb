@@ -1,0 +1,14 @@
+.pagination .page-item.active {
+  background-color: #D9171D; }
+  .pagination .page-item.active .page-link {
+    color: #fff !important;
+    background-color: unset; }
+
+.pagination .page-item .page-link {
+  border: unset;
+  outline: unset;
+  border: unset;
+  color: #D9171D;
+  font-family: 'Helvetica Neue'; }
+  .pagination .page-item .page-link:hover {
+    background-color: unset; }

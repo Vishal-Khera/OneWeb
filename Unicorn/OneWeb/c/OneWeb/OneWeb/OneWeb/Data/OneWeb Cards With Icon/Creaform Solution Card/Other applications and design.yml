@@ -1,0 +1,29 @@
+﻿---
+ID: "df10a3e5-22e7-4dab-88c8-e568e1075f20"
+Parent: "09cf765c-f7a1-4bbb-9b74-a24b6e809fc1"
+Template: "8bbddf0b-4426-4936-bc91-a3dfcc7db5e7"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards With Icon/Creaform Solution Card/Other applications and design
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220727T103654Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Other applications and design
+    - ID: "d3785837-b11d-4a77-8e4b-c610b8e5579c"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D5C2B201-AF7D-4F60-9FAB-3BE688A06899}" />
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

@@ -1,0 +1,20 @@
+﻿---
+ID: "367d3380-a112-4600-9a30-a1b1c7d677a2"
+Parent: "545f38f9-8ef0-479f-9b54-5472a0bfc99a"
+Template: "f229fc5b-2172-404c-90dd-e1f0fe047cc7"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/Business Supports/Global Locations Creaform/Italy - Sales for AMETEK Products/Email"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17500a11-fa62-46bd-a98f-b95f142766a9"
+      Hint: Title
+      Value: "info-it@ametek.com"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211224T221120Z
+    - ID: "523cc883-8778-4897-92a1-e13c4c905d6a"
+      Hint: SupportType
+      Value: "{40566E30-9698-4DED-AAB9-49D8778A4558}"

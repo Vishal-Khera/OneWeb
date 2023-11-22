@@ -1,0 +1,30 @@
+﻿---
+ID: "c582c1e8-5334-450b-8f94-0867d97c1438"
+Parent: "8f85ef98-a2fc-43f3-897d-1954ea00ac48"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/Events Table With Dates and City/Template
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    [[#each Results]]
+    <tr>
+    	<td><a href="[[this.Url]]">[[this.Title]]</a></td>
+    	<td>[[this.StartDate]]</td>
+    	<td>[[this.EndDate]]</td>
+    	<td>[[this.City]]</td>
+    </tr>
+    [[/each]]
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220216T113624Z

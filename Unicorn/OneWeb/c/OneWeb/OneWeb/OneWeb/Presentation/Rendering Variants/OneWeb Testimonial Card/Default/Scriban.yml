@@ -1,0 +1,47 @@
+﻿---
+ID: "f31fe4ae-aca1-4fe0-aed0-31bf8f91c177"
+Parent: "59c3f340-ec85-49ab-bd51-916f735fe66a"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Testimonial Card/Default/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="cards">
+       <div class="card">
+    	  <div class="card-header">
+    		{{if i_item.Image | string.size > 0}}
+    		 <div class="card-image">
+    			{{sc_field i_item "Image" [["class", "ow-lazy"]]}}
+    		 </div>
+    		 {{end}}
+    		 <div class="card-heading">
+    			{{if i_item.Title | string.size > 0}}
+    			<h2 class="name">{{i_item.Title}}</h2>
+    			{{end}}
+    			{{if sc_field i_item "JobTitle" | string.size > 0}}
+    			<h3 class="designation">{{sc_field i_item "JobTitle"}}</h3>
+    			{{end}}
+    			{{if i_item.Caption | string.size > 0}}
+    			<div class="card-quote">{{i_item.Caption}}</div>
+    			{{end}}
+    		 </div>
+    	  </div>
+    	  <div class="card-body">
+    		{{if i_item.Content| string.size > 0}}
+    		 <div class="card-paragraph">
+    			{{i_item.Content}}
+    		 </div>
+    		 {{end}}
+    	  </div>
+       </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220206T125608Z

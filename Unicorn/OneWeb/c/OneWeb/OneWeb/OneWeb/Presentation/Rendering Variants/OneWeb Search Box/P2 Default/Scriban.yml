@@ -1,0 +1,94 @@
+﻿---
+ID: "3b8a2a0b-998d-4da6-9bca-89a4f4b4a72c"
+Parent: "7cb94c7b-9df8-49d0-9924-ee59a409c576"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Box/P2 Default/Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if o_model && i_item}}
+    <div class="search-container__search filter-search-wrapper">
+        <div class="search-wrapper filter-search">
+            <input type="text" autocomplete="off" id="search-page" class="search-box-input search-wrapper__input"
+                placeholder="{{sc_raw i_item 'Placeholder Text'}}">
+            <a class="clear-text" href="javascript:void(0)"><span class="sr-only">cross-icon</span></a>
+        </div>
+            {{if o_model.popular_keywords && o_model.popular_keywords | string.size > 0}}
+            <div class="result-item-wrapper popular-keywords d-none">            
+                <div class="result-item suggested-search">
+                    <h4>{{sc_translate "Search-Box-Popular"}}</h4>
+                    <ul>
+                        {{for keyword in o_model.popular_keywords}}
+                        <li>
+                            <a href="{{keyword.link}}">{{keyword.text}}</a>
+                        </li>
+                        {{end}}
+                    </ul>
+                </div>
+            </div>
+            {{end}}
+        <div class="ow-container">
+        </div>
+        <div class="filter-facets mt-2">
+            <span class="search-for">{{sc_translate 'OneWeb-SearchBox-Showing'}} <strong><span
+                        class="search-current-count"></span></strong> {{sc_translate 'OneWeb-SearchBox-Of'}} <strong><span
+                        class="search-total-count"></span></strong>
+                <span class="result-text d-none">{{sc_translate 'OneWeb-SearchBox-Results-For'}}</span>
+                <span class="result-text no-keyword d-none">{{sc_translate 'OneWeb-SearchBox-Results'}}</span>
+                <strong><span class="wrap-double-quotes search-value d-none"></span></strong>
+            </span>
+        </div>
+    </div>
+    {{if (sc_follow i_item 'Configuration' | sc_raw "Show Card List Switcher") == "1"}}
+    <div class="list-grid-view-wrap">
+        <a href="javascript:void(0)" class="grid-view active">
+            <i class="icon-grid-view"> <span class="sr-only">{{sc_translate "Search_Box_GridView"}}</span></i>
+        </a>
+        <a href="javascript:void(0)" class="list-view">
+            <i class="icon-list-view"><span class="sr-only">{{sc_translate "Search_Box_ListView"}}</span></i>
+        </a>
+    </div>
+    {{end}}
+    {{end}}
+    
+    
+    
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2A918814-9A5B-46A5-A3DA-209B36A15D2F}"
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T025234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221001T072619Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\kirti.giri
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221001T072619Z

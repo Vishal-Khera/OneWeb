@@ -1,0 +1,25 @@
+﻿---
+ID: "7f833f85-2b18-480b-9b4e-395f0cf5542b"
+Parent: "0d3b7a51-8a52-49db-bb3e-a360c1ab622f"
+Template: "0d3b7a51-8a52-49db-bb3e-a360c1ab622f"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Media/Datasource/OneWeb Media Download Card Template Folder/OneWeb Media Download Card Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {53F2A756-0F3D-47F0-A47C-B386507E17AC}
+    {0D3B7A51-8A52-49DB-BB3E-A360C1AB622F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20121205T120000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

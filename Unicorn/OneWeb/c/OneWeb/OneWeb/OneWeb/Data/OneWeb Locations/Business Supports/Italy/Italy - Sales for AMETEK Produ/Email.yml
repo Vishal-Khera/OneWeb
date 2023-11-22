@@ -1,0 +1,20 @@
+﻿---
+ID: "f19fa93b-996a-47de-9bee-913cbaa7e66f"
+Parent: "62bccdfb-be18-46e6-a8ac-52ed46b92bc6"
+Template: "f229fc5b-2172-404c-90dd-e1f0fe047cc7"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/Business Supports/Italy/Italy - Sales for AMETEK Products/Email"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17500a11-fa62-46bd-a98f-b95f142766a9"
+      Hint: Title
+      Value: "info-it@ametek.com"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211224T221120Z
+    - ID: "523cc883-8778-4897-92a1-e13c4c905d6a"
+      Hint: SupportType
+      Value: "{40566E30-9698-4DED-AAB9-49D8778A4558}"

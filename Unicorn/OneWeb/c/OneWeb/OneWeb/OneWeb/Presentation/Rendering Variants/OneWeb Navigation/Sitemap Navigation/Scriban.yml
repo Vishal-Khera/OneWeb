@@ -1,0 +1,46 @@
+﻿---
+ID: "3aa2acbf-1be3-46d6-b985-453eaf7d9f51"
+Parent: "46b3d19d-419e-476a-9d2c-e384f3e0236a"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Navigation/Sitemap Navigation/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     <div class="sitemap-wrapper">
+    
+            {{-for menu_item in o_model.children-}}
+                {{-if menu_item-}}
+    			 <div class="col-6 col-lg-3 sitemap-tile">
+                    <h3>
+    					   			{{link_class = ow_get_linkClass menu_item "Link" ""}}
+    				<a href="{{-menu_item.link.url-}}" class="{{-link_class-}}" target="{{-menu_item.link.target-}}" anchor="{{-menu_item.link.anchor-}}" >{{menu_item.title}} </a>
+    				</h3>
+    {{if menu_item.children !=""-}}					 
+    <ul>
+    {{-for menu_item_level1 in menu_item.children-}}
+                                            {{-if menu_item_level1-}}
+                                                <li><a href="{{-menu_item_level1.link.url-}}" class="{{-menu_item_level1.css_class-}}" target="{{-menu_item_level1.link.target-}}" anchor="{{-menu_item_level1.link.anchor-}}"> {{-menu_item_level1.title-}} </a></li> 
+    {{end}}
+    {{end}}
+    </ul>
+    </div>
+    {{end}}
+    {{end}}
+    {{end}}
+     
+    
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211228T112924Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,18 @@
+﻿---
+ID: "fccc47ec-d224-4291-b061-78a88557b89f"
+Parent: "8cdb02ae-4106-4fc3-9627-8a8e6d01de5d"
+Template: "9a217c09-021b-4fbe-ba84-387783e85574"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Job List Folder
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220727T084851Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

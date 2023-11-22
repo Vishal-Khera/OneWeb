@@ -1,0 +1,58 @@
+﻿---
+ID: "f7911bf7-92a2-4542-9db0-5de53384a48b"
+Parent: "40ba3e3e-3603-4f69-a8f3-5085c8884763"
+Template: "4f251c3e-125d-4b02-863c-2e81ce6feca2"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/OneWeb User API Settings
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: apps/32x32/setting.png
+- ID: "07e564f4-fc24-4fbb-aebb-6f36d77be545"
+  Hint: Update User Status
+  Value: api/Auth/UpdateUserStatus
+- ID: "1a92188f-b26b-4822-ae61-4c043fbfc252"
+  Hint: Update User Profile
+  Value: api/Auth/UpdateUserDetails
+- ID: "306c8212-3df9-4be3-9251-fd8161897581"
+  Hint: Get User Profile
+  Value: api/Auth/GetUserProfile
+- ID: "4cd39d9c-b2ff-4b24-a917-6824803dc672"
+  Hint: Update Password
+  Value: api/Auth/UpdateUserPassword
+- ID: "5320ad75-0c5e-4f25-bb87-9c7acb426752"
+  Hint: User Login
+  Value: api/Auth/UserLogin
+- ID: "53d2bc45-1c99-435f-952a-18a2eaed3c3f"
+  Hint: Is Approved User
+  Value: api/Auth/IsApprovedUser
+- ID: "bbbd7a54-d040-4a78-ba86-9a0462b8241a"
+  Hint: Delete User
+  Value: api/Auth/DeleteUser
+- ID: "bd3bc941-3372-4d27-88fa-e9a87c9519c5"
+  Hint: Base Url
+  Value: "https://microservice-auth-prod.azurewebsites.net/"
+- ID: "bf0eae50-1a49-4703-a914-afd6d82f0729"
+  Hint: Update User Role
+  Value: api/Auth/UpdateUserRole
+- ID: "d25ea6a2-db58-4140-98ce-725113d66e1b"
+  Hint: Logout
+  Value: api/Auth/Logout
+- ID: "d4d19162-bdf0-46c1-97ab-bc63751fccca"
+  Hint: Get Users
+  Value: api/Auth/GetUsers
+- ID: "f1ea7361-4ca0-4998-8fca-22831f1af172"
+  Hint: Register User
+  Value: api/Auth/RegisterNewUser
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220324T073400Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

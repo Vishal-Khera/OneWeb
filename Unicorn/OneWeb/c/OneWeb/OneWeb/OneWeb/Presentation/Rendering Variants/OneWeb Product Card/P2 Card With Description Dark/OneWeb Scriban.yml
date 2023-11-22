@@ -1,0 +1,93 @@
+﻿---
+ID: "48119de5-d95d-40a6-b4b8-c9683d4d47b5"
+Parent: "9faca8fc-4346-47bc-b552-07c45be48d0a"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Product Card/P2 Card With Description Dark/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if i_item -}}
+    							        {{ if i_item.Image.url}}
+                {{primary_link_classes = "btn btn-primary"}}
+            {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+                  if( primary_filtered_classes)
+                    if(primary_filtered_classes.class | string.size) > 0
+                      primary_link_classes = primary_link_classes + primary_filtered_classes.class
+                    end
+                  end}}
+                  {{link_model = ow_link_model i_item 'PrimaryLink'}}
+    			  {{ if(link_model.url != "") }}
+    							<a class="product-card-wrapper dark-theme-card" href="{{link_model.url}}">
+    			
+    			 {{end}}
+                                    <div class="card big-card-light dark-arrow">
+                                        <div class="card-body">
+                                               {{if i_item.Title | string.size >0}}
+    											<div class="card-title">
+    											{{ sc_field i_item 'Title' }}
+    											</div>
+    											{{end}}
+    											{{if i_item.Category | string.size >0}}
+    											<div class="card-subtitle">
+                                                {{ sc_field i_item 'Category' }}
+    											</div>
+    											{{end}}
+    											{{if i_item.Subtext | string.size >0}}
+    											<div class="card-text">
+                                                {{ sc_field i_item 'Subtext' }}
+    											</div>
+    											{{end}}
+                                            
+                                        </div>
+    									{{ if(i_item.Image != "") }}
+    									{{media_model = ow_media_model i_item "Image"}}
+    									{{end}}
+    									{{ if(i_item.MobileImage != "") }}
+    									{{mob_media_model = ow_media_model i_item "MobileImage"}}
+    									{{end}}
+    									{{ if ((media_model.url | string.size >0) || (mob_media_model.url | string.size >0)) }}
+                                        <div class="card-image">
+                                            <img class="ow-lazy"  data-src = "{{media_model.url}}" data-mob-src = "{{mob_media_model.url}}"  alt="{{media_model.alt}}" title="{{media_model.title}}" /><i class="icon-right-arrow"></i>
+                                            
+                                        </div>
+    									{{end}}
+                                    </div>
+    								{{ if(link_model.url != "") }}
+                                </a>
+    							{{end}}
+    							{{end}}
+    							{{if i_item.Content | string.size >0}}
+                                <div class="card-description">
+                                    {{ sc_field i_item 'Content' }}
+    							{{end}}
+    							 {{secondary_link_classes = "video-modal"}}
+    							
+    {{ secondary_filtered_classes = ow_link_model i_item 'SecondaryLink'
+    if( secondary_filtered_classes)
+    	if(secondary_filtered_classes.class | string.size) > 0
+    		secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+    	end
+    end}}
+    {{video_model = ow_link_model i_item 'SecondaryLink'}}
+                                    <a href="{{video_model.url}}" class="video-modal">
+                                        <div class="ow-play-button">
+                                            <i class="icon-play-btn"></i>
+                                        </div>
+                                       {{if video_model.text| string.size >0}}
+    											{{video_model.text}}
+    											{{end}}
+                                    </a>
+    							{{end}}
+                                </div>
+    							
+    							{{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220719T090737Z

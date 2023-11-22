@@ -1,0 +1,30 @@
+﻿---
+ID: "d4488518-7837-4b3f-8ce6-e2edd28e940a"
+Parent: "d977a6d2-6b9f-4304-9f88-2bcf5f4c04ba"
+Template: "2cf8a428-d0c2-4d52-b598-ff72ee265123"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Hero Banners/Sample Banner
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{5CB9EE90-A74D-4FAB-8B79-0FC8DCC00099}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220721T105713Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: <h2>MetraSCAN 3D</h2>
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        The fastest and most accurate<br />
+        3D scanner and portable CMM<br />
+        for shop floor environments<br />
+    - ID: "983a37b2-16e7-4dba-a96d-c0d5530f7699"
+      Hint: Subtext
+      Value: The fastest and most accurate 3D scanner and portable CMM for shop floor environments

@@ -1,0 +1,14 @@
+﻿---
+ID: "98793994-a5ca-432c-8684-157fab662025"
+Parent: "637e9764-b3b0-4e41-9c32-a5b7db19ca70"
+Template: "637e9764-b3b0-4e41-9c32-a5b7db19ca70"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb 5050 Card/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T112128Z

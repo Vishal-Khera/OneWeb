@@ -1,0 +1,307 @@
+.promo-card {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  border-radius: 8px;
+  padding: 15px;
+  flex-direction: column;
+  min-height: unset; }
+  @media only screen and (min-width: 992px) {
+    .promo-card {
+      display: flex;
+      flex-direction: row;
+      min-height: 420px;
+      padding: 20px; } }
+  .promo-card video {
+    height: 100%; }
+  .promo-card .promo-card_content {
+    width: 100%;
+    z-index: 1;
+    order: 2; }
+    @media only screen and (min-width: 992px) {
+      .promo-card .promo-card_content {
+        width: 50%;
+        order: 0; } }
+    .promo-card .promo-card_content .text-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      padding: 32px 0px 00px 0px;
+      color: rgba(44, 42, 41, 0.6); }
+      .promo-card .promo-card_content .text-wrapper * {
+        font-family: "FranklinGothicLTPro-Md" !important; }
+      .promo-card .promo-card_content .text-wrapper .button {
+        margin-bottom: 0px;
+        font-family: "FranklinGothicLTPro-Bk" !important; }
+      @media only screen and (min-width: 992px) {
+        .promo-card .promo-card_content .text-wrapper {
+          width: 75%;
+          padding: 20px 0px 20px 20px; } }
+      .promo-card .promo-card_content .text-wrapper .product-name {
+        padding: 0px; }
+        .promo-card .promo-card_content .text-wrapper .product-name h2 {
+          color: #2C2A29; }
+      .promo-card .promo-card_content .text-wrapper .paragraph-wrapper {
+        font-size: 18px;
+        margin-top: 20px;
+        color: #2C2A29; }
+        @media screen and (min-width: 0) {
+          .promo-card .promo-card_content .text-wrapper .paragraph-wrapper {
+            font-size: 18px; } }
+        @media screen and (min-width: 768px) {
+          .promo-card .promo-card_content .text-wrapper .paragraph-wrapper {
+            font-size: 18px; } }
+        @media screen and (min-width: 992px) {
+          .promo-card .promo-card_content .text-wrapper .paragraph-wrapper {
+            font-size: 18px; } }
+      .promo-card .promo-card_content .text-wrapper .text-wraper-footer a {
+        width: fit-content; }
+  .promo-card .promo-card_image {
+    width: 100%;
+    position: relative;
+    margin-top: 20px; }
+    @media only screen and (min-width: 992px) {
+      .promo-card .promo-card_image {
+        width: 50%;
+        margin-top: 0px; } }
+    .promo-card .promo-card_image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .promo-card .promo-card_image video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .promo-card .promo-card_image .product-image {
+      bottom: unset;
+      margin: 0px auto;
+      left: 0px;
+      right: 0px;
+      width: 100%;
+      text-align: center; }
+      @media only screen and (min-width: 992px) {
+        .promo-card .promo-card_image .product-image {
+          position: absolute;
+          bottom: -15px;
+          top: unset; } }
+      .promo-card .promo-card_image .product-image img {
+        width: auto;
+        height: unset; }
+  .promo-card.overflow-top {
+    background: transparent;
+    padding: 15px 0px;
+    margin-top: unset; }
+    @media only screen and (min-width: 992px) {
+      .promo-card.overflow-top {
+        margin-top: 90px; } }
+    .promo-card.overflow-top .promo-card_image {
+      min-height: 312px;
+      overflow: hidden; }
+      @media only screen and (min-width: 992px) {
+        .promo-card.overflow-top .promo-card_image {
+          overflow: unset; } }
+      .promo-card.overflow-top .promo-card_image.order-2 {
+        margin-top: 25px; }
+        @media only screen and (min-width: 992px) {
+          .promo-card.overflow-top .promo-card_image.order-2 {
+            margin-top: 0; } }
+    .promo-card.overflow-top .promo-card_content {
+      background: #EDEDED;
+      border-radius: 8px;
+      padding: 0px 15px; }
+      @media (max-width: 991px) {
+        .promo-card.overflow-top .promo-card_content .text-wrapper {
+          padding-bottom: 30px; } }
+    .promo-card.overflow-top.dark-theme {
+      background: transparent !important; }
+      @media only screen and (min-width: 992px) {
+        .promo-card.overflow-top.dark-theme {
+          background: #2C2A29 !important; } }
+      .promo-card.overflow-top.dark-theme .promo-card_content {
+        background: #2C2A29; }
+        @media only screen and (min-width: 992px) {
+          .promo-card.overflow-top.dark-theme .promo-card_content {
+            background: transparent; } }
+      .promo-card.overflow-top.dark-theme .button.btn-default {
+        background: #236192 !important;
+        color: #fff !important;
+        border: none; }
+        .promo-card.overflow-top.dark-theme .button.btn-default:hover {
+          outline: 3px solid transparent;
+          background: #236192 !important;
+          color: #fff !important;
+          border: none; }
+        .promo-card.overflow-top.dark-theme .button.btn-default:focus {
+          outline: 3px solid rgba(35, 97, 146, 0.7) !important;
+          background: #236192 !important;
+          color: #fff !important;
+          border: none; }
+  .promo-card.no-overflow {
+    justify-content: space-between; }
+    @media only screen and (min-width: 768px) {
+      .promo-card.no-overflow .promo-card_image {
+        width: 40%; } }
+    .promo-card.no-overflow .promo-card_image .product-image {
+      position: unset;
+      bottom: 0;
+      top: 0;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px; }
+      @media only screen and (min-width: 992px) {
+        .promo-card.no-overflow .promo-card_image .product-image {
+          position: absolute; } }
+      .promo-card.no-overflow .promo-card_image .product-image img {
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        height: 100%; }
+  .promo-card.overflow-bottom {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: unset; }
+    @media only screen and (min-width: 992px) {
+      .promo-card.overflow-bottom {
+        margin-bottom: 0px; } }
+    @media only screen and (min-width: 1200px) {
+      .promo-card.overflow-bottom {
+        margin-bottom: 30px; } }
+    .promo-card.overflow-bottom .promo-card_image {
+      min-height: 312px; }
+      .promo-card.overflow-bottom .promo-card_image .product-image {
+        bottom: unset;
+        top: 0;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px; }
+        @media only screen and (min-width: 1200px) {
+          .promo-card.overflow-bottom .promo-card_image .product-image {
+            bottom: unset;
+            top: -15px; } }
+        @media only screen and (min-width: 992px) {
+          .promo-card.overflow-bottom .promo-card_image .product-image {
+            text-align: right; } }
+        .promo-card.overflow-bottom .promo-card_image .product-image img {
+          border-radius: 8px;
+          -webkit-border-radius: 8px;
+          -moz-border-radius: 8px; }
+      .promo-card.overflow-bottom .promo-card_image.order-2 {
+        margin-top: 25px; }
+        @media only screen and (min-width: 992px) {
+          .promo-card.overflow-bottom .promo-card_image.order-2 {
+            margin-top: 0; } }
+    .promo-card.overflow-bottom .promo-card_content {
+      border-radius: 8px; }
+    .promo-card.overflow-bottom.dark-theme {
+      background: transparent !important; }
+      @media only screen and (min-width: 992px) {
+        .promo-card.overflow-bottom.dark-theme {
+          background: #2C2A29 !important; } }
+      @media only screen and (min-width: 992px) {
+        .promo-card.overflow-bottom.dark-theme .promo-card_content {
+          background: transparent; } }
+      .promo-card.overflow-bottom.dark-theme .button.btn-default {
+        background: #236192 !important;
+        color: #fff !important;
+        border: none; }
+        .promo-card.overflow-bottom.dark-theme .button.btn-default:hover {
+          outline: 3px solid transparent;
+          background: #236192 !important;
+          color: #fff !important;
+          border: none; }
+        .promo-card.overflow-bottom.dark-theme .button.btn-default:focus {
+          outline: 3px solid rgba(35, 97, 146, 0.7) !important;
+          background: #236192 !important;
+          color: #fff !important;
+          border: none; }
+  .promo-card.dark-theme .product-name h2 {
+    color: #fff !important; }
+  .promo-card.dark-theme h2 {
+    color: rgba(255, 255, 255, 0.6) !important; }
+  .promo-card.dark-theme .paragraph-wrapper {
+    color: rgba(240, 240, 240, 0.7) !important; }
+  .promo-card.dark-theme .button.btn-default {
+    background: #236192 !important;
+    color: #fff !important;
+    border: none; }
+    .promo-card.dark-theme .button.btn-default:hover {
+      outline: 3px solid transparent;
+      background: #236192 !important;
+      color: #fff !important;
+      border: none; }
+    .promo-card.dark-theme .button.btn-default:focus {
+      outline: 3px solid rgba(35, 97, 146, 0.7) !important;
+      background: #236192 !important;
+      color: #fff !important;
+      border: none; }
+
+.reverse-column .promo-card {
+  flex-direction: column !important; }
+  @media only screen and (min-width: 992px) {
+    .reverse-column .promo-card {
+      flex-direction: row-reverse !important; } }
+  .reverse-column .promo-card .promo-card_content .text-wrapper {
+    padding: 40px 0px 20px 0px; }
+    @media only screen and (min-width: 992px) {
+      .reverse-column .promo-card .promo-card_content .text-wrapper {
+        padding: 20px 0px 20px 20px; } }
+
+.reverse-column .wide-image-promo-card {
+  flex-direction: column !important; }
+  @media only screen and (min-width: 992px) {
+    .reverse-column .wide-image-promo-card {
+      flex-direction: row-reverse !important; } }
+  .reverse-column .wide-image-promo-card .wide-overflow-image-content .text-wrapper {
+    float: right; }
+  .reverse-column .wide-image-promo-card .wide-overflow-image img {
+    right: 0px !important;
+    left: unset;
+    float: right; }
+
+.promo-card-no-media .promo-card {
+  min-height: auto !important;
+  max-height: auto !important;
+  height: auto !important; }
+  @media only screen and (min-width: 992px) {
+    .promo-card-no-media .promo-card .promo-card_content .text-wrapper {
+      width: 100%; } }
+
+.light-theme-overlay .ow-content-card.light-theme, .light-theme-overlay .ow-content-card .dark-theme {
+  border-radius: 8px; }
+  .light-theme-overlay .ow-content-card.light-theme .promo-card_content, .light-theme-overlay .ow-content-card .dark-theme .promo-card_content {
+    background-color: #E8E8E8 !important; }
+
+.ow-video.dark-theme {
+  background-color: #1A1918 !important; }
+  .ow-video.dark-theme .promo-card {
+    background-color: #1A1918 !important; }
+
+.ow-video.light-theme {
+  background-color: #E8E8E8 !important; }
+  .ow-video.light-theme .promo-card {
+    background-color: #E8E8E8 !important; }
+
+.light-theme.overflow-top.promo-card {
+  padding-top: 0px;
+  background-color: transparent !important; }
+  @media only screen and (min-width: 992px) {
+    .light-theme.overflow-top.promo-card {
+      background-color: #E8E8E8 !important;
+      padding-top: 15px; } }
+  .light-theme.overflow-top.promo-card .promo-card_image {
+    background-color: transparent !important; }
+    @media only screen and (min-width: 992px) {
+      .light-theme.overflow-top.promo-card .promo-card_image {
+        background-color: #E8E8E8 !important; } }
+  .light-theme.overflow-top.promo-card .promo-card_content {
+    background-color: #E8E8E8 !important; }
+
+@media only screen and (min-width: 768px) {
+  .margin-lg-bottom.simple-header .promo-card_image {
+    margin-bottom: 100px; } }
+
+@media only screen and (min-width: 992px) {
+  .margin-lg-bottom.simple-header .promo-card_image {
+    margin-bottom: 0px; } }

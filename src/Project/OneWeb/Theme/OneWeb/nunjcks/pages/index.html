@@ -1,0 +1,93 @@
+{% extends "layout/layout.html" %} {% block maincontent %}
+<main>
+<div id="content">
+
+
+{% include "../templates/components/modal-popup.html" %}
+<div class="component container-fluid no-margin-bottom">
+    <div class="component row">
+        {% include "../templates/components/image-carousal.html" %}
+    </div>
+</div>
+
+<div class="container-fluid white-gray-background">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    {% include "../templates/components/2-column-text-and-image.html" %}
+                </div>
+                <div class="col-md-6 border-seprator mt-md-4 mt-lg-0 pt-lg-0">
+                    {% include "../templates/components/single-column-text-V1.html" %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!--tile conatiner-->
+ <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            {% include "../templates/components/3-4-column-roll-over-and-linked-content-tiles-v1.html" %}
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container no-margin-bottom">
+    <div class="row">
+        <div class="ow-header-content text-heading col-12">
+            <h3> Businesses Making a Difference </h3>
+        </div>
+    </div>
+</div>
+
+
+    <!--2 Column Featured Business content cards V1-->
+
+    <div class="container-fluid mb-5">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6">
+
+                        {% include "../templates/components/2-column-featured-business-content-cards-V1.html" %}
+
+                    </div>
+
+                    <div class="col-md-12 col-lg-6 mt-5 mt-lg-0">
+
+                        {% include "../templates/components/2-column-featured-business-content-cards-V2.html" %}
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+  
+
+
+    <!--full width Featured Business content cards V1-->
+
+ <div class="container-fluid mb-5">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    {% include "../templates/components/full-width-featured-business.html" %}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</div>
+</main>
+{% endblock %}

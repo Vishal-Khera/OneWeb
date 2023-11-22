@@ -1,0 +1,21 @@
+﻿---
+ID: "51c93bb1-36fc-457b-9b98-24583a91023b"
+Parent: "778df151-8203-4995-bc89-bbfec2d232e4"
+Template: "38e28936-df40-4cd2-9e38-a0ac65ff9c36"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/OneWebRedirect/PageSettings/QueryStringParameters
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T211022Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "fcf411e9-1cdd-44be-8f01-9ccd4179e424"
+      Hint: Watermark
+      Value: Specify the query string to be appended in the url

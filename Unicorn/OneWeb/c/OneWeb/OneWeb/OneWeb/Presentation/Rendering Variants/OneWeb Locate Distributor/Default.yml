@@ -1,0 +1,14 @@
+﻿---
+ID: "1871c92b-2ec3-4035-8d65-10d3a708fc22"
+Parent: "2fec375c-2c5a-42c1-92c1-4fbce1a17cfb"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Locate Distributor/Default
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220218T061841Z

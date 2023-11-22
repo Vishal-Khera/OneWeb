@@ -1,0 +1,17 @@
+﻿---
+ID: "c609114f-0fac-4923-8155-8011fbe83868"
+Parent: "7bd7f8b8-3085-4acb-882d-71a7d79cb424"
+Template: "7501c76d-ca5a-4436-b9d6-1330d295f3fa"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Text With Placeholder/Creaform Inline Featured Products/Featured Products
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T130350Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Featured Products

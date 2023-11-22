@@ -1,0 +1,81 @@
+﻿---
+ID: "16d18b26-2502-468a-8d56-347bcfedc097"
+Parent: "3c43bb89-1f52-4edd-b3f9-47d9f94e392c"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Resource Listing/Latest News/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{ for data in o_model.resources}}
+    <div class="component ow-card ow-card-business  {{data.cover_image_class}}">
+        <div class="ow-card-background-image">
+            
+            <div class="ow-card-business-content white-gray-background">
+    		{{if (data.taxonomy | string.size > 0)}}
+                {{if (data.taxonomy.taxonomy_tag)}}
+                {{if (data.taxonomy.taxonomy_tag.title | string.size > 0)}}
+                <label class="label"
+                    style="background-color: {{data.taxonomy.taxonomy_tag.color}};">{{data.taxonomy.taxonomy_tag.title}}</label>
+                {{end}}
+                {{end}}
+    			{{end}}
+                <div class="ow-card-text">
+                    {{if data.title !=""}}
+                    <h3>{{data.title}}</h3>
+                    {{ end }}
+                    {{if data.content !=""}}
+                        <div class="description-paragraph content-strip">{{data.content}}</div>
+                  
+                    {{ end }}
+    				{{if sc_parameter 'Show Separator'}}
+    				<hr>
+    				{{end}}
+    				<div class="date">
+    				{{item = ow_item data.item_id}}
+    				{{ow_default_date item 'Date' 'News Date Format'}}  
+    				</div>
+                </div>
+                {{if sc_parameter 'Show Button'}}
+              <div class="button-wrapper">
+              {{if data.link }}
+           {{if data.link.text | string.size > 0}}
+            {{link_classes = data.link.class + "btn btn-primary"}}
+            <a class='{{link_classes}}' href="{{data.link.url}}" target="{{-data.link.target-}}" anchor="{{-data.link.anchor-}}">{{data.link.text}}</a>
+             {{end}}
+             {{else}}
+             <a class="btn btn-primary" href="{{data.url}}">{{sc_translate 'OneWeb-PressRelease-ViewResults'}}</a>
+            {{end}}
+        {{end}}
+    </div>
+    {{end}}
+            </div>
+     
+    		 {{if data.cover_image}}
+        <div class="ow-card-image-bg ow-lazy"
+            data-src="{{data.cover_image.url}}">
+        </div>
+        {{end}}
+     
+        </div>
+    </div>
+    {{end}}
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T075936Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\nidhi

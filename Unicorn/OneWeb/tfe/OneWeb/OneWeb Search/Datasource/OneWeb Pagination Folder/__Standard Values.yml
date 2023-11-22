@@ -1,0 +1,25 @@
+﻿---
+ID: "1e25e125-de20-48f8-945c-444a06a3c7b9"
+Parent: "ba1f5273-3d99-4683-aadb-e1510c2d571c"
+Template: "ba1f5273-3d99-4683-aadb-e1510c2d571c"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Datasource/OneWeb Pagination Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {C27A0481-AE52-4F81-BDD7-542533ECD27F}
+    {BA1F5273-3D99-4683-AADB-E1510C2D571C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160603T084355Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

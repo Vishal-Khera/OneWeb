@@ -1,0 +1,28 @@
+﻿---
+ID: "7f9959c2-18f9-4727-b3c1-8985fa962673"
+Parent: "0673d6eb-5bc8-4748-bc54-0ae13a0179f1"
+Template: "df8365ca-2d57-47ad-91fa-2d7f2ac87c03"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Integrations/Google Analytics
+DB: master
+SharedFields:
+- ID: "c80baf92-186d-412a-b706-c1ab45165f35"
+  Hint: OneTrust Category Id
+  Value: C0003
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211230T163045Z
+    - ID: "3be97d1a-5986-4017-a8d8-410e60b20c32"
+      Hint: Google Analytics Id
+      Value: abc
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "da03d833-d39d-4151-a04f-6603e04a4cd8"
+      Hint: Name
+      Value: Google Analytics

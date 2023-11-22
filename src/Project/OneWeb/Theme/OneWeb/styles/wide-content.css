@@ -1,0 +1,19 @@
+.ow-wide-content .ow-card-content {
+  padding: 30px 15px; }
+
+.ow-wide-content .btn-primary:hover {
+  background: transparent !important;
+  border: 3px solid #000 !important;
+  color: #000 !important; }
+
+.ow-wide-content .business-img {
+  width: 100%;
+  background-color: #2B2B2B;
+  height: 100%; }
+
+.ow-wide-content.ow-wide-content .set-order {
+  order: 1; }
+
+.ow-wide-content.ow-background-clipimage img {
+  height: 100%;
+  object-fit: cover; }

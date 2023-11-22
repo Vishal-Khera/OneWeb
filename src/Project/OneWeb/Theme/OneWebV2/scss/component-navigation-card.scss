@@ -1,0 +1,429 @@
+@import 'base/base-index.scss';
+
+
+.nav-card-wrapper {
+    display: none;
+    padding-bottom: 0px !important;
+
+    @include lg {
+        padding-bottom: 20px !important;
+        display: inline;
+    }
+
+    @include xl {
+        padding-bottom: 0px !important;
+    }
+    &:not(.link-list-card){
+        .link{
+            .field-link{
+                a{
+                    color: $mid-light-gray !important;
+                }
+            }
+        }
+    }
+
+
+    .link{
+        a{
+            @include font-size($md-font);
+        }
+        .field-link{
+            a{
+                color: $white !important;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    h4 {
+        &:first-of-type {
+            padding-top: 0px;
+        }
+
+        @include font-size($md-font);
+        padding-top: 16px;
+    }
+
+    .text-heading {
+        * {
+            color: $mid-light-gray !important;
+        }
+        h2{
+            @include font-size($md-font);
+        }
+    }
+
+    .btn-simple {
+        margin-top: 10px;
+        padding: 9px 50px 6px 0px !important;
+
+        &::after,
+        &::before {
+            padding-top: 0px !important;
+            display: block;
+        }
+
+        &:hover,
+        &:active {
+            padding: 9px 25px 6px 30px !important;
+        }
+
+        &:focus {
+            padding: 9px 20px 6px 35px !important;
+
+            &::before {
+                left: 15px;
+                transition-delay: .12s;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.nav-card {
+    margin-top: 2px;
+    width: 100%;
+
+    &:hover {
+        .card {
+            background-color: $brand !important;
+
+            .card-arrow {
+                background-color: $white !important;
+                color: $brand !important;
+            }
+
+            .card-body {
+                .card-title {
+                    span {
+                        &.new-text{
+                            background-color: $white !important;
+                            color: $brand !important;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row !important;
+        border: none;
+        border-bottom: 1px solid $lightblack !important;
+        outline: 5px solid transparent;
+        background-color: $card-base;
+        height: unset !important;
+        display: flex !important;
+        transition: .25s;
+        margin-bottom: unset !important;
+        outline-offset: -1px;
+        border-radius: 8px;
+        padding: 0px 12px;
+        background-color: $mid-dark-gray;
+        min-height: 115px;
+
+        * {
+            font-family: $franklinMd !important;
+        }
+
+        .card-body {
+            width: 100%;
+            height: unset;
+            padding: 8px 0px;
+            margin-bottom: 25px;
+
+            @include md {
+                padding-right: 30px !important;
+            }
+
+            @include font-size($slg-font);
+
+
+            .card-title {
+                margin-bottom: 0px;
+                @include font-size($slg-font);
+                color: $white;
+
+                font-family: "FranklinGothicLTPro-Md" !important;
+
+                span {
+                    &.new-text{
+                        background-color: $brand;
+                        color: $white !important;
+                        padding: 3px 3px 0px 3px;
+                        border-radius: 3px;
+                        display: inline-flex;
+                        font-family: $franklinBook !important;
+                        @include font-size($ssssm-font);
+                        margin-left: 4px;
+                        transition: .25s;
+                    }
+                }
+
+
+            }
+
+            .card-text {
+                @include font-size($ssm-font);
+                color: $smoke-whitesade !important;
+                display: flex;
+                white-space:normal;
+                @include lg{
+                    display: none;
+                }
+                @include xl{
+                    display: flex;
+                }
+            }
+        }
+
+        .card-image {
+            position: relative;
+            aspect-ratio: unset !important;
+
+            &::after {
+                display: none;
+            }
+
+            @include md {
+                display: flex;
+            }
+
+            .card-image-holder {
+                aspect-ratio: 5/3;
+                overflow: hidden;
+                min-width: 100px;
+                padding-top: 10px;
+
+                img {
+                    border-radius: 8px;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+
+
+        }
+
+        .card-arrow {
+            border-radius: 100%;
+            height: 20px;
+            width: 20px;
+            background-color: $black;
+            position: absolute;
+            bottom: 8px;
+            padding: 5px;
+            transition: .25s;
+            font-size: 9px;
+
+            i {
+                transition: .35s;
+                font-family: 'icomoon' !important;
+            }
+        }
+    }
+}
+
+
+.multipal-col {
+    .top-border-100 {
+        display: none !important;
+
+        @include lg {
+            display: block !important;
+        }
+
+        @include xl {
+            display: none !important;
+        }
+
+        &:after {
+            background-color: $white-gray-light !important;
+            overflow: unset !important;
+
+        }
+    }
+
+    .btn-simple {
+        margin-top: 10px;
+        padding: 9px 50px 6px 0px !important;
+
+        &::after,
+        &::before {
+            padding-top: 0px !important;
+            display: block;
+        }
+
+        &:hover,
+        &:active {
+            padding: 9px 25px 6px 30px !important;
+        }
+
+        &:focus {
+            padding: 9px 20px 6px 35px !important;
+
+            &::before {
+                left: 15px;
+                transition-delay: .12s;
+                opacity: 1;
+            }
+        }
+    }
+
+}
+
+.navigation-card-mobile {
+    display: block;
+
+    @include lg {
+        display: none !important;
+    }
+    max-width: 375px;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    .nav-card {
+        height: 100%;
+        width: 100%;
+
+        .card {
+            height: 100% !important;
+            padding: 0px;
+            flex-direction: column !important;
+
+            .card-body {
+                padding: 20px;
+                margin-bottom: 0px;
+            }
+
+            .card-image {
+                aspect-ratio: unset !important;
+
+                .card-image-holder {
+                    height: 190px;
+                    position: relative;
+                    aspect-ratio: unset !important;
+                    text-align: center;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        height: 100%;
+                        object-fit: cover;
+                        width: unset;
+                    }
+                }
+            }
+
+            .card-arrow {
+                border-radius: 100%;
+                height: 30px;
+                width: 30px;
+                background-color: $black;
+                position: absolute;
+                bottom: 10px;
+                padding: 8px;
+                transition: .25s;
+                font-size: 13px;
+                left: 20px;
+
+                i {
+                    transition: .35s;
+                    font-family: 'icomoon' !important;
+                }
+            }
+        }
+    }
+}
+
+.navigation-wrapper {
+    .main-navigation {
+        .dropdown-menu {
+            .sub-item {
+                &.nav-card-wrapper {
+                    &.link-list-card{
+                    .link{
+                        a{
+                            &:after{
+                                content: "";
+                                border-right: 1px solid $smoke-white;
+                                border-bottom: 1px solid $smoke-white;
+                                padding: 3px;
+                                margin-left: 4px;
+                                margin-bottom: 1px;
+                                display: inline-block;
+                                transform: rotate(-45deg);
+                            }
+                        }
+                    }
+                    .ow-link-list{
+                        padding-top: 0px;
+                    }
+                   .sidebar-nav-card{
+                    &.ow-link-list {
+                        margin-top: 0px;
+                        padding-top: 0px;
+                        
+                       
+                            * {
+                                font-family: $franklinMd !important;
+                            }
+                            .card-text{
+                                color: $smoke-whitesade !important;
+                            }
+
+                            margin-top: 0px;
+                            padding-top: 0px;
+                            margin-bottom:10px;
+
+                            ul {
+                                border-radius: 8px;
+                                background-color: $brandblack;
+
+                                li {
+                                    padding: 0px 15px !important;
+
+                                    &:first-child {
+                                        padding: 15px !important;
+                                        border-bottom: 1px solid $white-gray-light;
+                                    }
+
+                                    &:last-child {
+                                        padding-bottom: 14px !important;
+                                    }
+
+                                }
+                            }
+                        }
+                   }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.dark-theme{
+    .nav-card{
+        .card{
+            .card-body{
+                .card-text{
+
+                        color: $smoke-whitesade !important;
+                }
+            }
+        }
+    }
+
+    .link-list-card {
+        .card-text{
+            color: $smoke-whitesade !important;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+﻿---
+ID: "01537a4b-8be1-43f5-b9fd-a34385f4e0aa"
+Parent: "2cdbc089-17d4-4ba4-85e1-855a8a7a3ccb"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Users Table/Bottom Pagination/Container
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     <div class="col-12 mt-5">
+      <nav aria-label="Page navigation example">
+        <ul class=" ow-container">      
+        </ul>
+      </nav>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220530T090856Z

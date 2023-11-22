@@ -1,0 +1,35 @@
+﻿---
+ID: "6e2958e4-4cb5-4fb4-883b-d6afcf2388dd"
+Parent: "a8a78871-9c52-4692-8c67-c566fa1207cf"
+Template: "3139fad4-8e19-4ad1-90f6-c3e870f87dd8"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Testimonial Card Folder/Daniel Rosales
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{32BF42CE-E915-450B-A677-FB8D4962E1ED}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220330T071348Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Daniel Rosales
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "71603eb2-6d88-4f3f-838a-9ec902cb6da8"
+      Hint: JobTitle
+      Value: Sr Director Technical Service and Support
+    - ID: "9f1229e5-182a-4e60-a721-4b04fe328b8b"
+      Hint: Caption
+      Value: |
+        "Telguard has fostered an internal culture that encourages dialog and empowers every team member, regardless of job title, to contribute to the common goal of making Telguard successful. This emphasis on people empowerment spills over into the way we treat our customers, where everybody is important, whether they install 1 or 1000 Telguard devices a month."

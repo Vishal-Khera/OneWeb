@@ -1,0 +1,14 @@
+﻿---
+ID: "e07db7ee-05a0-410d-a38c-af385d619f84"
+Parent: "fba51963-be78-473c-a30b-4753feeb95e6"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/OneWeb/Rendering Variants
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211127T102451Z

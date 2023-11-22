@@ -1,0 +1,18 @@
+﻿---
+ID: "bab278bc-d7fe-4530-8517-abbfc60f4b57"
+Parent: "a1efc0b3-7345-46c2-b677-15b28b3255b3"
+Template: "2b5ad215-66b1-4ca2-9199-a98254de50a0"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/OneWeb Search Filters/Business Directory
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T115125Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

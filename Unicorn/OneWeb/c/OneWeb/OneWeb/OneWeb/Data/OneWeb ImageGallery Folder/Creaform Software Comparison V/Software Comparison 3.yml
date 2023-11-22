@@ -1,0 +1,31 @@
+﻿---
+ID: "37cd9e37-445d-48d5-98a9-c8b4d3253e8c"
+Parent: "15837fb5-d5f0-4d6e-b63a-6f55e0ec6220"
+Template: "8d19a541-9707-4001-bf7f-4b7728809ebc"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb ImageGallery Folder/Creaform Software Comparison V1/Software Comparison 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T132005Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: "VXscan-R<sup>TM</sup>"
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Digital twin environment software module
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8ef14bad-809e-4c37-b48a-1b73420b077c"
+      Hint: Images
+      Value: "{12C8E98D-40C6-4F75-8894-B9CB392368CF}|{4010C494-2AD4-4C56-B27C-2C8DDC51AE01}"
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{CC5A230B-888F-4F46-9AFD-F1D44A8E34B5}" />

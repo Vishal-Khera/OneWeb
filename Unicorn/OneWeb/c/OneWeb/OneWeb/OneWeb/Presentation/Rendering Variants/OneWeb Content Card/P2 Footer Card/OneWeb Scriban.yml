@@ -1,0 +1,54 @@
+﻿---
+ID: "25a841ff-6e45-410b-b324-7c70cb8d6485"
+Parent: "d86e6eff-257b-48fd-a4e1-f0b98eed981f"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Content Card/P2 Footer Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{primary_link_classes = "redirect-card-wrapper "}}
+            {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+                  if( primary_filtered_classes)
+    	            if(primary_filtered_classes.class | string.size) > 0
+    		          primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    	            end
+                  end}}
+     {{link_model = ow_link_model i_item 'PrimaryLink'}}
+    		  {{ if(link_model.url && link_model.url != "") }}
+                      <a href="{{link_model.url}}" class="{{primary_link_classes}}" title="{{link_model.title}}" target="{{link_model.target}}">
+       <div class="redirect-card-content">
+          {{ if(i_item.title != "") }}
+          <div class="redirect-card-title">
+             {{ i_item.title }}
+          </div>
+          {{ end }}            
+          <div class="redirect-card-subtitle">
+             {{ if(i_item.content != "") }}
+             <div class="redirect-card-text">
+                {{ i_item.content }}
+             </div>
+             {{ end }}					
+             <div class="redirect-card-icon">
+                <i class="icon-diag-arrow"></i>
+             </div>
+          </div>
+       </div>
+    </a>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T185907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

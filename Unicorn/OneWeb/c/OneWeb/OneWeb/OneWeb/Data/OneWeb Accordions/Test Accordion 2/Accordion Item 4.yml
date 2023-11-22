@@ -1,0 +1,44 @@
+﻿---
+ID: "d068d79d-4271-4507-85f3-409903895804"
+Parent: "9189fd11-a205-4b4d-ad0c-92405088bddb"
+Template: "1bb3f432-c3b2-44b4-ba39-1a38e5fd2a80"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Accordions/Test Accordion 2/Accordion Item 4
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{09BD444B-FABC-47EA-981D-2C8271655469}" />
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{C5FC9948-223C-4902-850B-98DFCAD3C38D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1666f2e1-fec0-4c0d-8013-f4e9a5e00a32"
+      Hint: SecondaryLink
+      Value: |
+        <link text="SEE DETAILS" anchor="" linktype="internal" class="" title=""  querystring="" id="{CC065443-BDCA-4077-B978-3DFDC2AB358D}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T074445Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Apprenticeship and Internship Programs
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: "AMETEK offers college-aged students and young professionals the opportunity to participate in paid apprenticeship and/or internship programs to gain hands-on experience and learn more about the company's culture and operations"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: 

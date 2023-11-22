@@ -1,0 +1,31 @@
+﻿---
+ID: "c292b8ec-d5ee-4d0d-8248-ce1d73486ad4"
+Parent: "1fdb9396-0365-4766-8dec-06a82b91f6fc"
+Template: "b8f5894c-b493-4016-bf78-4090b0a2fd16"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Texts/Contact Us/Side Contact Details
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211207T051538Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "b3635965-6786-457c-9dee-28de73c0a331"
+      Hint: Text
+      Value: |
+        AMETEK, Inc. <br />
+        Corporate Headquarters<br />
+        1100 Cassatt Road<br />
+        Berwyn, PA 19312<br /><hr />
+        <div>
+            <ul class="">
+            <li class="phone-number"><a href="tel:610-647-2121"><i class="fa fa-phone-alt fa-w-16"></i> Tel:610-647-2121</a></li>
+            <li class="mailto"><a href="mailto:info.corp@ametek.com"><i class="fa fa-envelope fa-w-16"></i> Email: info.corp@ametek.com</a> </li>
+            </ul>
+            </div>

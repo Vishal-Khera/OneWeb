@@ -1,0 +1,44 @@
+﻿---
+ID: "1dabcf4c-9c5e-443e-9672-8f29fd9c3f0f"
+Parent: "bb8f3e01-5a21-420f-8ba7-ec6bcefda145"
+Template: "9d4ba3e2-fc9e-410a-bd88-8b27c9add918"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "33d9005e-1f71-415f-b107-53b965c3b037"
+  Hint: SiteMediaLibrary
+  Value: "{FA58903C-FCA5-4ABF-9428-B0F7A95A319A}"
+- ID: "bd094adf-1e7f-4f1b-8300-8d8248ed4600"
+  Hint: FormsFolderLocation
+  Value: "{3F72C50C-83F0-4D63-B540-068CE8FBF3F6}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\AmetekCorpOwNonEnglish|pe|-item:read|pd|+item:read|ar|sitecore\owuser|pe|+item:read|pd|+item:read|
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{DAD74961-1A72-490F-A0E6-D501635F0A79}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T074155Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: "fi-FI"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231011T101644Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

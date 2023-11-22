@@ -1,0 +1,31 @@
+.block-image {
+  padding: 0px 0 0px; }
+  @media only screen and (min-width: 992px) {
+    .block-image {
+      padding: 55px 0 45px; } }
+  .block-image h2 {
+    font-size: 32px;
+    margin-bottom: 15px; }
+    @media screen and (min-width: 0) {
+      .block-image h2 {
+        font-size: 32px; } }
+    @media screen and (min-width: 768px) {
+      .block-image h2 {
+        font-size: 32px; } }
+    @media screen and (min-width: 992px) {
+      .block-image h2 {
+        font-size: 36px; } }
+  .block-image p {
+    font-size: 16px;
+    margin-bottom: 20px; }
+    @media screen and (min-width: 0) {
+      .block-image p {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .block-image p {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .block-image p {
+        font-size: 16px; } }
+  .block-image img {
+    width: 100%; }

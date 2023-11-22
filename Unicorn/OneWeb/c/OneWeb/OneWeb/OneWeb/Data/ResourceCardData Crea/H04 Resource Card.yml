@@ -1,0 +1,38 @@
+﻿---
+ID: "e9a33d35-2094-4f20-bd7e-fe57fec3df0f"
+Parent: "3de5a6b5-f79a-4f0f-b814-3913f5ef43d9"
+Template: "b794d898-4dca-4f59-9674-6b9994b63b59"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/ResourceCardData Crea/H04 Resource Card
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{367D2B7A-CDCE-49F1-9EB4-F7388E9B0EDB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{B9C4365D-95F0-4128-A7D6-5D2BD318CC59}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220707T154625Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: "Creaform Introduces Three New Solutions to the R-Series Suite of Automated Dimensional Quality Control Solutions"
+    - ID: "2b1035b2-079b-4c94-8744-e65376ca9aef"
+      Hint: Page Type
+      Value: News
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: DataResourceCard
+    - ID: "6a30b727-97b0-48ff-94d8-0656a5973182"
+      Hint: Navigation Url
+      Value: |
+        <link text="Lorem Ipsum" anchor="" linktype="internal" class="product-card-wrapper" title=""  querystring="" id="{CC065443-BDCA-4077-B978-3DFDC2AB358D}" />
+    - ID: "e7b7335e-4e55-4e46-8ad2-1fe7e0d8cf17"
+      Hint: Date
+      Value: 20210622T113000Z

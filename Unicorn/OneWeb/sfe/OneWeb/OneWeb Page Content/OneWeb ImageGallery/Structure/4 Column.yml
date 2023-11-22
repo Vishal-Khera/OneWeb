@@ -1,0 +1,20 @@
+﻿---
+ID: "99eebfdf-caf4-4e1e-890c-1dbdfc213678"
+Parent: "fd485715-839e-4d67-9f57-a6c419c29602"
+Template: "851511fa-16f0-4200-9650-33c8af27bf94"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Page Content/OneWeb ImageGallery/Structure/4 Column
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220513T034258Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: 3 Column
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: 4 Column

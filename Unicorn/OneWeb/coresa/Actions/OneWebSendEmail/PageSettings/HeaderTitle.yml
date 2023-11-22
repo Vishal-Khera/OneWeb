@@ -1,0 +1,17 @@
+﻿---
+ID: "86df20a2-a9cd-43ac-aa35-2e6fedb2646e"
+Parent: "f970e449-4d96-43ec-88aa-f277e600e42e"
+Template: "46efcf7f-6ebb-4059-b9bf-8ef47c4f5e20"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/OneWebSendEmail/PageSettings/HeaderTitle
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "240acdcd-c405-4e49-a96a-b3caab843920"
+      Hint: Text
+      Value: Map form fields to email message
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180405T172806Z

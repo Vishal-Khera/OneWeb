@@ -1,0 +1,24 @@
+﻿---
+ID: "f547c3d7-85f4-4fde-8e76-d1dfab17f68b"
+Parent: "e9ef3ed7-de96-43a3-ae03-bf59850fc3ae"
+Template: "a6f3bdd3-42d3-4554-b6cd-0fd3aa18ebeb"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/Export User/City
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220310T042554Z
+    - ID: "ae8f86a8-7f56-43ac-9c17-4db87e2f5347"
+      Hint: Name
+      Value: City
+    - ID: "c75c833a-9a9a-4e82-977b-a85ed9405b7b"
+      Hint: Property
+      Value: City

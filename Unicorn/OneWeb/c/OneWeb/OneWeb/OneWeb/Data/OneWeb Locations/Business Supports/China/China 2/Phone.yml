@@ -1,0 +1,17 @@
+﻿---
+ID: "2c82e5c7-7e66-49b9-bb40-d05aad8f9806"
+Parent: "91f7c1a1-d354-4e7e-ab53-9083e1716895"
+Template: "f229fc5b-2172-404c-90dd-e1f0fe047cc7"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Locations/Business Supports/China/China 2/Phone
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17500a11-fa62-46bd-a98f-b95f142766a9"
+      Hint: Title
+      Value: +00000000
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211224T221114Z

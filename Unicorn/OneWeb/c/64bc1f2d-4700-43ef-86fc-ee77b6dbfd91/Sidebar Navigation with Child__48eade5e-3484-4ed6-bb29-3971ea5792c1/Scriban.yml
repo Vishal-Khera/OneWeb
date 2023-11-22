@@ -1,0 +1,75 @@
+﻿---
+ID: "632783a3-4f7d-41ff-b678-417dc7da0c94"
+Parent: "48eade5e-3484-4ed6-bb29-3971ea5792c1"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Navigation/Sidebar Navigation with Child Indicator/Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="left-Menu-btn d-md-none"></div>
+    <div class="left-navigation product-nav">
+        <div class="leftnav-menu w-100">
+            <h3 class="left-menu-title">{{o_model.current}}</h3>
+            <ul class="leftmenu">
+                {{-for menu_item in o_model.children-}}
+                {{-if menu_item-}}
+                <li>
+                    <span class="d-flex align-items-center list-expandable">
+                        <span class="dropdwon-arrow"></span>
+                        {{link_class = ow_get_linkClass menu_item "Link" "slde-link"}}
+                        <a href="{{-menu_item.link.url-}}" class="{{-link_class-}}" target="{{-menu_item.link.target-}}"
+                            anchor="{{-menu_item.link.anchor-}}">{{menu_item.title}}</a>
+                    </span>
+                    {{if menu_item.children !=""-}}
+                    <ul class="sub-menu">
+                        {{-for menu_item_level1 in menu_item.children-}}
+                        {{-if menu_item_level1-}}
+                        <li>
+                            <span class="d-flex align-items-center list-expandable">
+                                
+                                <a href="{{-menu_item_level1.link.url-}}" class="{{-menu_item_level1.css_class-}}"
+                                target="{{-menu_item_level1.link.target-}}" anchor="{{-menu_item_level1.link.anchor-}}">
+                                {{-menu_item_level1.title-}}<span class="dropdwon-arrow"></span></a>
+                            </span>
+                            {{if menu_item_level1.children !=""-}}
+                            <ul class="sub-menu-1">
+                                {{-for menu_item_level2 in menu_item_level1.children-}}
+                                {{-if menu_item_level2-}}
+                                <li>
+                                    <a href="{{-menu_item_level2.link.url-}}" class="{{-menu_item_level2.css_class-}}"
+                                        target="{{-menu_item_level2.link.target-}}"
+                                        anchor="{{-menu_item_level2.link.anchor-}}">
+                                        {{-menu_item_level2.title-}} </a>
+                                </li>
+                                {{end}}
+                                {{end}}
+                            </ul>
+                            {{end}}
+                        </li>
+                        {{end}}
+                        {{end}}
+                    </ul>
+                    {{end}}
+                    {{end}}
+                    {{end}}
+                </li>
+            </ul>
+        </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211127T153344Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

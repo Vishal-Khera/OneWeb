@@ -1,0 +1,31 @@
+﻿---
+ID: "3a887769-8b06-4924-9832-464ac933c820"
+Parent: "fd7827f5-19f9-4c1d-9b11-5349bf84b44b"
+Template: "fd7827f5-19f9-4c1d-9b11-5349bf84b44b"
+Path: /sitecore/templates/Project/OneWeb/OneWeb/Page Design/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{39585166-248F-4A71-B09E-8E35A8EFA251}" />
+      <d
+        id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}"
+        l="{72C595AD-68BB-44BC-B5CD-2A857039515F}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T073818Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

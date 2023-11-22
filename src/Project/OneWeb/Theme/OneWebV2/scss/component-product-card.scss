@@ -1,0 +1,491 @@
+@import 'base/base-index.scss';
+
+body {
+    .ow-product-card {
+        margin-bottom: 0px;
+        display: block;
+
+        .component-content {
+            display: unset;
+
+            a {
+                background: none;
+                box-shadow: none;
+                display: block;
+                z-index: 1;
+                padding: 0;
+                width: 100%;
+                position: unset;
+
+            }
+        }
+    }
+}
+
+.card {
+    height: 90px;
+    @include border-radius(8px);
+    background-color: $card-base;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: ease-in-out 0.2s all;
+    border: none;
+
+    @include md {
+        height: auto;
+        display: block;
+        @include border-radius(8px);
+        margin-bottom: 0px;
+    }
+
+    &:focus-visible {
+        outline: none !important;
+    }
+
+    .card-body {
+        * {
+            font-family: $franklinMd  !important;
+        }
+
+        padding: 15px;
+        padding-right: 0px;
+
+        @include md {
+            height: 110px;
+            padding-right: 15px;
+            padding-bottom: 0;
+        }
+
+        .card-title {
+            color: $brand;
+            @include font-size($slg-font);
+            margin-bottom: 5px;
+
+        }
+
+        .card-subtitle {
+            color: $mediumblack;
+            @include font-size($sslg-font);
+        }
+
+        .card-text {
+            margin-bottom: 0x;
+            color: $brandblack;
+            @include font-size($ssm-font);
+
+            @include md {
+                @include font-size($sm-font);
+            }
+        }
+    }
+
+    .card-image {
+        aspect-ratio: 1/1;
+        position: relative;
+
+        @include md {
+            aspect-ratio: 7/6;
+        }
+
+        img {
+            width: 100%;
+            // height: 100%;
+        }
+
+        i {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 32px;
+            height: 32px;
+            @include border-radius(50%);
+            background-color: $base-light-gray;
+            position: absolute;
+            bottom: 15px;
+            left: 0px;
+            opacity: 0;
+            transition: ease-in-out 0.2s all;
+
+            &::before {
+                @include font-size($sssm-font);
+                color: $brandblack;
+            }
+        }
+    }
+}
+
+.small-card,
+.small-card-light {
+    .card-body{
+        padding-top: 5px;
+        sup {
+            top: -0.3em;
+        }
+        @include md{
+            padding-top: 20px;
+        }
+        
+
+    }
+    .card-image {
+        img {
+            @include border-radius(0px 8px 8px 0px);
+
+            @include md {
+                @include border-radius(0 0 8px 8px);
+            }
+        }
+    }
+}
+
+.big-card,
+.big-card-light {
+    background-color: $cta-gray;
+    display: block;
+    height: auto;
+    @include border-radius(8px);
+
+    @include md {
+        @include border-radius(16px);
+    }
+
+    .card-body {
+        height: 110px;
+        padding: 15px 15px 0px 15px;
+
+        @include md {
+            padding: 20px 25px 25px 25px;
+            height: 145px;
+        }
+
+        .card-title,
+        .card-subtitle {
+            @include font-size($sxl-font);
+        }
+
+        .card-subtitle {
+            color: $mediumblack;
+        }
+
+        .card-text {
+            @include font-size($smd-font);
+        }
+    }
+
+    .card-image {
+        @include md {
+            aspect-ratio: 13/11;
+        }
+
+        img {
+            @include border-radius(0px 0px 8px 8px);
+
+            @include md {
+                @include border-radius(0px 0px 16px 16px);
+            }
+        }
+
+        i {
+            left: 13px;
+            bottom: 18px;
+            opacity: 1;
+
+            @include xl {
+                opacity: 0;
+                width: 48px;
+                height: 48px;
+                left: 10px;
+                bottom: 30px;
+            }
+
+            &::before {
+                @include font-size($sssm-font);
+
+                @include xl {
+                    @include font-size($slg-font);
+                }
+            }
+        }
+    }
+}
+
+.big-card {
+    .card-image {
+        i {
+            background-color: $brandblack2;
+
+            &::before {
+                color: $white;
+            }
+        }
+    }
+}
+
+.dark-arrow {
+    .card-image {
+        i {
+            background-color: $brandblack2;
+
+            &::before {
+                color: $white;
+            }
+        }
+    }
+}
+
+.product-card-wrapper {
+    &:hover {
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        border: none;
+        transition: none;
+
+        .card {
+            @include xl {
+                i {
+                    left: 15px;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .big-card,
+        .big-card-light {
+            @include xl {
+                transform: translateY(-10px);
+                filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15));
+
+                i {
+                    left: 30px;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .small-card,
+        .small-card-light {
+            @include xl {
+                transform: translateY(-5px);
+                filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.1));
+            }
+        }
+    }
+
+    &:active {
+        .card {
+            @include xl {
+                i {
+                    left: 15px;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .big-card,
+        .big-card-light {
+            @include xl {
+                transform: translateY(10px);
+                filter: none;
+
+                i {
+                    left: 30px;
+                }
+            }
+        }
+
+        .small-card,
+        .small-card-light {
+            @include xl {
+                transform: translateY(5px);
+                filter: none;
+            }
+        }
+    }
+
+    &:focus,
+    &:focus-visible {
+        .card {
+            @include xl {
+                i {
+                    left: 15px;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .big-card,
+        .big-card-light {
+            @include xl {
+                transform: translateY(10px);
+                filter: none;
+                outline: 6px solid $sea-blue;
+                outline-offset: -1px;
+
+                i {
+                    left: 30px;
+                }
+            }
+        }
+
+        .small-card,
+        .small-card-light {
+            @include xl {
+                transform: translateY(5px);
+                filter: none;
+                outline: 6px solid $sea-blue;
+                outline-offset: -1px;
+            }
+        }
+    }
+
+    &.dark-theme-card{
+        .card {
+            background-color: $brandblack !important;
+    
+            &.small-card-light,
+            &.big-card-light {
+                .card-body {
+                    .card-title {
+                        color: $white  !important;
+                    }
+    
+                    .card-subtitle {
+                        color: $white  !important;
+                    }
+    
+                    .card-text {
+                        color: $white  !important;
+                    }
+                }
+            }
+        }
+        ~ .card-description{
+            p{
+                color:$white !important;
+            }
+            a{
+                color:$white !important;
+                .ow-play-button{
+                    background:$white-light-border;
+                    i{
+                        &:before{
+                            color:$white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.dark-theme {
+    .card {
+        background-color: $brandblack;
+
+        .card-body {
+            .card-title {
+                color: $base-light-gray  !important;
+            }
+
+            .card-subtitle {
+                color: $light-gray  !important;
+            }
+
+            .card-text {
+                color: $base-light-gray  !important;
+            }
+        }
+
+        &.small-card-light {
+            background-color: $card-base;
+        }
+
+        &.big-card-light {
+            background-color: $cta-gray;
+        }
+
+        &.small-card-light,
+        &.big-card-light {
+            .card-body {
+                .card-title {
+                    color: $brand  !important;
+                }
+
+                .card-subtitle {
+                    color: $mediumblack  !important;
+                }
+
+                .card-text {
+                    color: $brandblack  !important;
+                }
+            }
+        }
+    }
+
+    .light-theme-card {
+        .card {
+            background-color: $card-base;
+
+            .card-body {
+                .card-title {
+                    color: $brand  !important;
+                }
+
+                .card-subtitle {
+                    color: $mediumblack  !important;
+                }
+
+                .card-text {
+                    color: $brandblack  !important;
+                }
+            }
+        }
+    }
+}
+
+.dark-theme-card {
+    .card {
+        background-color: $brandblack;
+
+        .card-body {
+            .card-title {
+                color: $base-light-gray;
+            }
+
+            .card-subtitle {
+                color: $light-gray;
+            }
+
+            .card-text {
+                color: $base-light-gray;
+            }
+        }
+
+        &.small-card-light {
+            background-color: $card-base;
+        }
+
+        &.big-card-light {
+            background-color: $cta-gray;
+        }
+
+        &.small-card-light,
+        &.big-card-light {
+            .card-body {
+                .card-title {
+                    color: $brand  !important;
+                }
+
+                .card-subtitle {
+                    color: $mediumblack  !important;
+                }
+
+                .card-text {
+                    color: $brandblack  !important;
+                }
+            }
+        }
+    }
+}

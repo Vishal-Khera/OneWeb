@@ -1,0 +1,53 @@
+@import 'base/base-index.scss';
+
+.ow-related-post{
+    .ow-card-content{
+        *{
+            font-family: $franklinMd !important;
+        }
+        h2{
+            color: $brandblack;
+            margin-bottom: 0px;
+            @include font-size($smlg-font);
+        }
+       ul{
+        display: flex;
+        flex-direction: column;
+        color:$card-text;
+        li{
+            padding: 10px 0px;
+            a{
+                display: block;
+                color: $brand;
+                &:hover{
+                    color: $brand;
+                }
+            }
+        }
+       }
+    }
+
+}
+
+.dark-theme{
+    .ow-related-post{
+        .ow-card-content{
+            h2{
+                color:$smoke-whitesade !important;
+            }
+           ul{
+            color:$smoke-whitesade !important;
+            li{
+                a{
+                  
+                    color:$white !important;
+                    &:hover{
+                        color: $white;
+                    }
+                }
+            }
+           }
+        }
+    
+    }
+}

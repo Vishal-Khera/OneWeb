@@ -1,0 +1,52 @@
+@import 'base/base-index.scss';
+//email form
+.sitecore-form{
+    width: 100%;
+}
+.email-subscribe{
+    position: relative; 
+    margin-bottom: 30px;
+    @include lg{
+        margin-bottom: 0;
+    }
+
+   label{
+        display: block;
+        color:$white;
+        @include font-size($lg-font);
+    }
+
+    p{
+        color: $white;
+        position: absolute;
+    }
+    
+
+   input[type="email"]{
+        height: 50px;
+        outline: none;
+        width: 100%;
+        padding-right: 105px;
+    }      
+    
+    .btn{    
+        height: 50px;
+        outline: none;
+        border: none;
+        color:$white;
+        position: absolute;
+        right: 0px !important;        
+        cursor: pointer;           
+        bottom: 0;
+        @include md{
+            right: 0px; 
+        }
+    }
+
+    .field-validation-error{
+        color:$primary;
+        position: absolute;
+        bottom: -22px;
+        left: 0px;
+    }
+}

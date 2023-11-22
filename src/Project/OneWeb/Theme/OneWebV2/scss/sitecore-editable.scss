@@ -1,0 +1,67 @@
+@import 'base/base-index.scss';
+
+.on-page-editor{
+    .ow-primary-header{
+        &.sticky-header{
+            position:relative;
+            top:auto;
+        }
+        .navbar-expand-lg {
+            .navbar-nav{
+                flex-direction: column;
+            }
+        }
+        .dropdown-menu{
+            position: relative !important;
+            display:block !important;
+        }
+        .mobile-logo{
+            display:block !important;
+        }
+        
+    }
+    header{
+        z-index:0 !important;
+    }
+
+    .dark-theme{
+        .ow-primary-header{
+            .mobile-logo-white{
+                display:block !important;
+            }
+            .mobile-logo{
+                display:none !important;
+            }
+        }
+    }
+
+    .collapse{
+        width: 1152px;
+        .navbar-nav{
+            width:100%;
+        }
+    }
+    .primary-nav-wrapper {
+        .d-flex {
+            > .component-content{
+                align-items: unset !important;
+            }
+        }
+        .mobile-logo{
+            display: block;
+        }
+    }
+    .ow-accordion{
+        .toggle-content{
+            display: block !important;
+        }
+        .scLooseFrameZone{
+            overflow-y: visible !important;
+        }
+    }
+
+    footer{
+        width:100% !important;
+    }
+    
+}

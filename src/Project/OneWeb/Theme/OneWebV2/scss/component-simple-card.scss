@@ -1,0 +1,84 @@
+@import 'base/base-index.scss';
+
+body {
+    .ow-content-card {
+        a {
+            width: 100%;
+        }
+    }
+}
+
+.simple-card {
+    background-color: $cta-gray;
+    outline: 6px transparent;
+    outline-offset: -1px;
+
+    .card-body {
+        @include md {
+            height: 160px;
+        }
+
+        .card-title {
+            color: $brandblack;
+            @include font-size($smlg-font);
+        }
+
+        .card-text {
+            color: $card-text;
+            @include font-size($ssmd-font);
+        }
+    }
+
+    .card-image {
+        padding: 8px;
+        min-width: 90px;
+        max-width: 90px;
+        @include md {
+            aspect-ratio: 5/3;
+            padding: 0;
+            min-width: unset;
+            max-width: unset;
+        }
+
+        img {
+            @include border-radius(4px);
+
+            @include md {
+                @include border-radius(0 0 8px 8px);
+            }
+        }
+    }
+}
+
+.dark-theme-card{
+    .simple-card {
+        .card-body{
+            .card-text {
+                color: $mid-light-gray !important;
+            }
+        }
+    }
+}
+
+.dark-theme{
+    .simple-card {
+        .card-body{
+            .card-text {
+                color: $mid-light-gray !important;
+            }
+        }
+    }
+    .light-theme-card{
+        .simple-card {
+            background-color: $cta-gray;
+            .card-body {
+                .card-title{
+                    color: $brandblack !important;
+                }
+                .card-text {
+                    color: $card-text  !important;
+                }
+            }
+        }
+    }
+}

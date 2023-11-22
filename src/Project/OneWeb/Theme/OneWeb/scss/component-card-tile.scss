@@ -1,0 +1,131 @@
+@import 'base/base-index.scss';
+
+.card-item {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+
+    .tile-slide {
+        width: 100%;
+        position: relative;
+
+        .tile-bg-img {
+            width: 100%;
+        }
+
+        .card-title-content {
+            position: absolute;
+            bottom: 0px;
+            padding: 15px;
+            opacity: 1;
+            transition: .3s all;
+            z-index: 2;
+
+            img {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    h4 {
+        color: $white;
+        @include font-size($sxl-font);
+        font-family: 'HelveticaNeue-Bold';
+        filter: drop-shadow(.0001em .0001em $black);
+        // mix-blend-mode: difference
+    }
+
+    .card-overlay {
+        position: absolute;
+        left: 0;
+        background-color: rgba(0, 0, 0, .83);
+        overflow: hidden;
+        width: calc(100% - 30px);
+        transition: .5s all ease-in-out;
+        z-index: 3;
+        left: 15px;
+        padding: 20px;
+        top: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column;
+        height: 100%;
+        img{
+            margin-bottom: 10px;
+        }
+        .card-overlay-text {
+            color: $white;
+            @include font-size($md-font);
+            text-align: left;
+            position: relative;
+            height: 100%;
+            .btn{
+                position: absolute;
+                bottom: 0;
+            }
+        }
+
+        .button-wrapper {
+            margin-bottom: 0;
+        }
+    }
+
+    &.active {
+        .card-overlay {
+            top: 0;
+        }
+
+        .card-title-content {
+            opacity: 0;
+        }
+    }
+}
+
+.ow-disable-carousal-desktop{
+    display: flex;
+    flex-wrap: wrap;
+    @include lg{
+        margin-top: -30px;
+        .ow-card{
+            margin-top: 30px;
+        }
+    }
+    
+}
+
+.ow-small-heading-font{
+    .ow-card{
+        padding: 30px 0;
+        .ow-card-content{
+            h3{ 
+                @include font-size($sxl-font);
+                font-family: 'HelveticaNeue-Bold';
+                margin-bottom: 15px;
+                span{
+                    width: -webkit-fill-available;
+                    max-width: 230px;
+                }
+                .symbol{
+                    font-family: 'HelveticaNeue-Light';
+                    font-size: 66px;
+                    text-align: -webkit-center;
+                    max-width: 130px;
+                    @include md{
+                        max-width: 110px; 
+                    }
+                    @include lg{
+                        font-size: 50px;
+                        max-width: 100px;
+                    }
+                    @media(min-width:1022px){
+                        max-width: 85px;
+                    }
+                    @media(min-width:1360px){
+                        max-width: 160px;
+                    }
+                }
+            }
+        }
+    }
+}
+

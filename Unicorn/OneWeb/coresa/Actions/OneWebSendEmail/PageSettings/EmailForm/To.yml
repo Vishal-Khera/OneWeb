@@ -1,0 +1,31 @@
+﻿---
+ID: "9c07081b-7cce-4f70-81d8-50e88cd2761b"
+Parent: "f901e922-9ccc-4c5e-a246-dca04983f81b"
+Template: "dd74148e-e8fc-4774-8cba-bafdb76a4e47"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/OneWebSendEmail/PageSettings/EmailForm/To
+DB: core
+SharedFields:
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: to=Value
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+- ID: "e53dd72a-cc21-4771-a6b4-17762365e2b7"
+  Hint: IsRequired
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180405T200623Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: To
+    - ID: "fcf411e9-1cdd-44be-8f01-9ccd4179e424"
+      Hint: Watermark
+      Value: someone@example.com (multiple addresses separate with commas)

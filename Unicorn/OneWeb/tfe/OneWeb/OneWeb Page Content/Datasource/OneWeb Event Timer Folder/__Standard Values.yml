@@ -1,0 +1,25 @@
+﻿---
+ID: "4e935e9b-abaa-44ed-bd19-c4da380b6e04"
+Parent: "b12d6686-ecfa-4aaf-a2d0-751bbae776fa"
+Template: "b12d6686-ecfa-4aaf-a2d0-751bbae776fa"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Event Timer Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {6526777C-85BC-4AE9-A3D9-19CE39C4DB7A}
+    {B12D6686-ECFA-4AAF-A2D0-751BBAE776FA}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

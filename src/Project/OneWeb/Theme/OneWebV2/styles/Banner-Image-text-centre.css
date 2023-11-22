@@ -1,0 +1,239 @@
+.banner-image-text-center {
+  width: calc(100% - 30px);
+  margin: auto;
+  border-radius: 8px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .banner-image-text-center * {
+    font-family: "FranklinGothicLTPro-Md" !important; }
+  .banner-image-text-center .banner-content {
+    padding: 0px 15px; }
+    .banner-image-text-center .banner-content .banner-title {
+      color: #2C2A29;
+      padding-bottom: 0px; }
+    .banner-image-text-center .banner-content .banner-sub-title {
+      font-size: 26px;
+      line-height: 100%;
+      color: rgba(26, 25, 24, 0.5); }
+      @media screen and (min-width: 0) {
+        .banner-image-text-center .banner-content .banner-sub-title {
+          font-size: 26px; } }
+      @media screen and (min-width: 768px) {
+        .banner-image-text-center .banner-content .banner-sub-title {
+          font-size: 26px; } }
+      @media screen and (min-width: 992px) {
+        .banner-image-text-center .banner-content .banner-sub-title {
+          font-size: 26px; } }
+      @media only screen and (min-width: 768px) {
+        .banner-image-text-center .banner-content .banner-sub-title {
+          width: 700px;
+          margin: auto; } }
+      @media only screen and (min-width: 992px) {
+        .banner-image-text-center .banner-content .banner-sub-title {
+          font-size: 32px; } }
+  @media only screen and (min-width: 992px) and (min-width: 0) {
+    .banner-image-text-center .banner-content .banner-sub-title {
+      font-size: 32px; } }
+  @media only screen and (min-width: 992px) and (min-width: 768px) {
+    .banner-image-text-center .banner-content .banner-sub-title {
+      font-size: 32px; } }
+  @media only screen and (min-width: 992px) and (min-width: 992px) {
+    .banner-image-text-center .banner-content .banner-sub-title {
+      font-size: 48px; } }
+    .banner-image-text-center .banner-content .banner-link {
+      padding-top: 20px;
+      justify-content: center;
+      display: flex; }
+  .banner-image-text-center .banner-image {
+    padding-top: 40px; }
+
+.dark-theme .banner-image-text-center {
+  background: unset; }
+  .dark-theme .banner-image-text-center .banner-content .banner-title {
+    color: #fff !important; }
+    .dark-theme .banner-image-text-center .banner-content .banner-title h2 {
+      color: #fff !important; }
+  .dark-theme .banner-image-text-center .banner-content .banner-sub-title {
+    color: rgba(255, 255, 255, 0.5) !important; }
+
+.dark-theme .overflow-scroll-top .text-wrapper {
+  margin-top: 25px; }
+  @media only screen and (min-width: 768px) {
+    .dark-theme .overflow-scroll-top .text-wrapper {
+      margin-top: 0; } }
+  .dark-theme .overflow-scroll-top .text-wrapper .paragraph-wrapper {
+    margin-bottom: 0; }
+
+.dark-theme .overflow-scroll-top .button.btn-default {
+  background: #236192 !important;
+  color: #fff !important;
+  border: none; }
+
+.main-banner {
+  width: 100%;
+  position: relative;
+  padding: 0px;
+  min-height: 599px;
+  height: 599px; }
+  @media only screen and (min-width: 992px) {
+    .main-banner {
+      min-height: unset;
+      height: unset; } }
+  .main-banner * {
+    font-family: "FranklinGothicLTPro-Md" !important; }
+  .main-banner__media-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    height: 100%; }
+    .main-banner__media-wrapper video, .main-banner__media-wrapper img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      height: 100%;
+      object-fit: cover; }
+      @media only screen and (min-width: 992px) {
+        .main-banner__media-wrapper video, .main-banner__media-wrapper img {
+          border-radius: 8px; } }
+  .main-banner__content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: unset;
+    transform: translate(-50%, -50%); }
+    .main-banner__content-wrapper * {
+      color: #fff; }
+    .main-banner__content-wrapper.content-bottom {
+      top: unset;
+      transform: unset;
+      bottom: 50px;
+      left: unset; }
+      @media only screen and (min-width: 992px) {
+        .main-banner__content-wrapper.content-bottom {
+          top: 50%;
+          transform: translateY(-50%);
+          bottom: unset; } }
+    .main-banner__content-wrapper .banner-content {
+      max-width: 90%; }
+      @media only screen and (min-width: 992px) {
+        .main-banner__content-wrapper .banner-content {
+          max-width: 500px; } }
+      .main-banner__content-wrapper .banner-content .paragraph-wrapper {
+        padding-top: 10px; }
+      .main-banner__content-wrapper .banner-content .banner-link {
+        padding-top: 60px; }
+        .main-banner__content-wrapper .banner-content .banner-link .video-icon-text {
+          width: 200px;
+          line-height: 100%;
+          padding-left: 15px !important; }
+  .main-banner .container .main-banner__content-wrapper .banner-content {
+    padding-left: 0px; }
+
+.ow-video-banner-wrapper .main-banner__content-wrapper.content-bottom {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: unset; }
+
+@media only screen and (min-width: 992px) {
+  .ow-video-banner-wrapper .main-banner__content-wrapper .banner-content {
+    padding-left: unset;
+    max-width: 500px; } }
+
+.ow-video-banner-wrapper .main-banner__content-wrapper .banner-content .banner-link {
+  padding-top: 20px; }
+
+.dark-theme .main-banner .button.btn-default {
+  background: #236192 !important;
+  color: #fff !important;
+  border: none; }
+  .dark-theme .main-banner .button.btn-default:hover {
+    outline: 3px solid transparent;
+    background: #236192 !important;
+    color: #fff !important;
+    border: none; }
+  .dark-theme .main-banner .button.btn-default:focus {
+    outline: 3px solid rgba(35, 97, 146, 0.7) !important;
+    background: #236192 !important;
+    color: #fff !important;
+    border: none; }
+
+.banner-overlay .main-banner__media-wrapper:after {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #2C2A29;
+  opacity: .5;
+  content: '';
+  top: 0px;
+  left: 0px; }
+
+.full-width-hero .main-banner {
+  padding-right: 0px;
+  padding-left: 0px; }
+  .full-width-hero .main-banner__media-wrapper video, .full-width-hero .main-banner__media-wrapper .main-banner__media-wrapper, .full-width-hero .main-banner__media-wrapper img {
+    border-radius: 0px; }
+    .full-width-hero .main-banner__media-wrapper video img, .full-width-hero .main-banner__media-wrapper .main-banner__media-wrapper img, .full-width-hero .main-banner__media-wrapper img img {
+      border-radius: 0px; }
+
+.overflow-media {
+  max-height: 600px;
+  padding-right: 50px; }
+
+.overflow-scroll-top {
+  max-height: unset;
+  overflow-y: unset; }
+  .overflow-scroll-top .ow-content-card {
+    padding-bottom: 0px; }
+    @media only screen and (min-width: 768px) {
+      .overflow-scroll-top .ow-content-card {
+        padding-bottom: 20px; } }
+  @media only screen and (min-width: 768px) {
+    .overflow-scroll-top {
+      max-height: 600px;
+      overflow-y: auto;
+      padding-bottom: 20px; } }
+  .overflow-scroll-top::-webkit-scrollbar {
+    width: 0px;
+    background-color: #F5F5F5; }
+  .overflow-scroll-top .button.btn-default {
+    background: #236192 !important;
+    color: #fff !important;
+    border: none; }
+    .overflow-scroll-top .button.btn-default:hover {
+      outline: 3px solid transparent;
+      background: #236192 !important;
+      color: #fff !important;
+      border: none; }
+    .overflow-scroll-top .button.btn-default:focus {
+      outline: 3px solid rgba(35, 97, 146, 0.7) !important;
+      background: #236192 !important;
+      color: #fff !important;
+      border: none; }
+
+.overflow-scroll {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px; }
+  @media only screen and (min-width: 768px) {
+    .overflow-scroll {
+      padding-top: 50px; } }
+  .overflow-scroll__icon {
+    width: 50%;
+    padding-bottom: 40px;
+    text-align: left; }
+    @media only screen and (min-width: 768px) {
+      .overflow-scroll__icon {
+        padding-bottom: 50px; } }
+    .overflow-scroll__icon .icon-image {
+      padding: 20px;
+      border-radius: 8px;
+      background-color: #2C2A29;
+      width: fit-content; }
+    .overflow-scroll__icon .icon-text {
+      padding: 8px 0px;
+      font-family: "FranklinGothicLTPro-Md" !important; }

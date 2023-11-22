@@ -1,0 +1,21 @@
+﻿---
+ID: "c6002855-3929-4618-952a-9f20f75490fb"
+Parent: "3de68669-63e7-43eb-9033-f4ae15eaa899"
+Template: "3de68669-63e7-43eb-9033-f4ae15eaa899"
+Path: /sitecore/templates/Foundation/OneWeb/Base/_BaseCarousel/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T075543Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "f66e9231-de31-4e54-98d3-a32556b8a710"
+      Hint: Interval
+      Value: 6000

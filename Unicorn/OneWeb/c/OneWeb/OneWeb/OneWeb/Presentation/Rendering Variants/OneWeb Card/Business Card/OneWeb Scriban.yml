@@ -1,0 +1,37 @@
+﻿---
+ID: "3918b9f6-8a75-4804-8aad-a9fc67f5643c"
+Parent: "83e8b660-ebae-49d2-829b-98cd661a4b53"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card/Business Card/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="ow-contact-side-details">
+        <div class="component-content">
+    	{{ if(i_item.title != "") }}
+    		<div class="right-contact-title white-gray-background">
+                <span>{{ i_item.title }}</span>
+            </div>
+    	{{ end }}
+    		{{ if(i_item.content != "") }}
+    		{{ i_item.content }}
+    		{{ end }}
+        </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T105543Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

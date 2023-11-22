@@ -1,0 +1,31 @@
+@import 'base/base-index.scss';
+
+.list-grid-view{
+    i{
+        margin-left: 5px;
+        @include font-size($lg-font);
+    }
+    span{
+        margin-right: 10px;
+        &:last-of-type,
+        &:first-child{
+            margin-right: 0;
+        }
+        
+    }
+    .card-view,
+    .list-view{
+        opacity: .3;
+        cursor: pointer;
+        display: inline-block;
+        color:$black;
+        margin-right: 10px;
+        &.active{
+            opacity: 1;
+        }
+    }
+    .list-view{
+        margin-right: 0;
+    }
+    
+}

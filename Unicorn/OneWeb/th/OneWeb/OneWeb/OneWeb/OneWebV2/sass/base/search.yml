@@ -1,0 +1,18 @@
+﻿---
+ID: "13544b76-3fc6-48c2-b165-035a27ccfa63"
+Parent: "082554a8-7f4a-4953-bbfc-c90ff5b80d1a"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWebV2/sass/base/search
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/16x16/folder.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170614T063705Z

@@ -1,0 +1,136 @@
+@import "base/base-index.scss";
+
+.ow-card-column {
+  margin-bottom: 30px !important;
+  display: flex;
+  min-height: 120px;
+
+  @include md{
+    min-height: 100px;
+  }
+  .component-content {
+    padding: 20px 25px;    
+    background: $light-gray;
+    border-left: 2px solid $primary;
+    display: flex;
+    .column-icon {
+      margin-right: 15px;
+      width: 45px;
+
+      img{       
+        height: 40px;
+      }
+
+      .icon-hover {
+        display: none;
+      }
+    }
+
+    .column-details {
+      width: 90%;
+      min-height: 100px;
+      .description {        
+        @include font-size($sm-font);
+        line-height: 19px;
+        color: $dark-gray;
+        margin-bottom: 10px;       
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;        
+      }
+
+     
+       
+        .btn {
+          @include font-size($ssm-font);
+          text-transform: uppercase;
+          border: 1px solid $primary !important;
+          text-decoration: none;
+          padding: 5.5px 18px;
+          position:absolute;
+          bottom: 15px;
+          &:after {
+            content: "\276F";
+            padding-left: 5px;
+         
+        }
+
+       
+      }
+    }
+  }
+
+  &:hover {
+    .component-content {
+      background: rgba($primary, $alpha: 0.75);
+      .column-icon {
+        .icon-default {
+          display: none;
+        }
+
+        .icon-hover {
+          display: block;
+        }
+      }
+
+      .column-details {
+        .description {
+          color: $white;
+        }
+     
+          .btn {
+            @include font-size($ssm-font);
+            text-transform: uppercase;
+            border: 1px solid $white !important;
+            
+
+            &:after {
+              content: "\276F";
+              padding-left: 5px;
+            }
+         
+        }
+      }
+    }
+  }
+
+  .active-mobile {
+    background: rgba($primary, $alpha: 0.75);
+    @include lg {
+      background: $light-gray;
+    }
+    .column-icon {
+      .icon-default {
+        display: none;
+      }
+      .icon-hover {
+        display: block;
+      }
+    }
+
+    .column-details {
+      .description {
+        color: $white;
+        @include lg {
+          color: $black;
+        }
+      }
+
+     
+        .btn {
+          @include font-size($ssm-font);
+          text-transform: uppercase;
+          border: 1px solid $white !important;
+          position:absolute;
+            bottom: 15px;
+
+          &:after {
+            content: "\276F";
+            padding-left: 5px;
+         
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿---
+ID: "988e50b5-5e34-4c90-a3a1-9b00230d93ae"
+Parent: "d7a77b84-968e-49f1-83e3-87079f93faa2"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Event Card Rendering Parameters
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{2F01B189-6AFE-4BA7-887A-717EA46E698E}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{0F56876C-12FE-4F11-825D-04BE03A61394}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T195125Z

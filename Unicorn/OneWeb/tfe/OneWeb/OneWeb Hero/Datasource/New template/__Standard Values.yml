@@ -1,0 +1,21 @@
+﻿---
+ID: "a001a625-580d-46f3-a9a4-5809f1b90a54"
+Parent: "0406902f-4b72-41cd-adcb-276202b31b2c"
+Template: "0406902f-4b72-41cd-adcb-276202b31b2c"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Hero/Datasource/New template/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b860266-1c10-45e0-a288-71ee98896762"
+      Hint: title
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231011T101048Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

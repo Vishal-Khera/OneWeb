@@ -1,0 +1,46 @@
+﻿---
+ID: "f809a0a7-89ff-4307-9b82-42e6266aa034"
+Parent: "1b00f5ac-4d75-4a30-b7d4-4685b59fbcb9"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Product List/Default/default
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-for data in o_model.product_list-}} 
+    {{media_model = ow_default_media_model_by_field "Default One Web Product List Image"}}
+    <div class="ow-related-product-card col-12">
+    {{-if data.link.url!=""-}}
+    <a href={{data.link.url}}>
+    <div class="ow-related-product-card-image">
+    {{if data.image.url | string.size>0}}
+     <img data-src="{{data.image.url}}" alt="{{data.image.alt}}" title="{{data.image.title}}" class="ow-lazy">
+    {{else}}
+    <img data-src="{{media_model.url}}" alt="{{media_model.alt}}" title="{{media_model.title}}" class="ow-lazy">
+    {{ end }}
+    </div>
+    <div class="ow-related-product-card-text">
+    {{if data.title!=""}}
+    {{ data.title}}
+    {{end}}
+    </div>
+    </a>
+    {{end}}
+    </div>
+    {{ end }}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220330T105041Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,14 @@
+﻿---
+ID: "6420f787-d1c9-40c4-b636-b37eda76b917"
+Parent: "997eabf1-50e0-4748-be02-31c309f53a53"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: "/sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWebV2/sass/variants/field-editor"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170614T063823Z

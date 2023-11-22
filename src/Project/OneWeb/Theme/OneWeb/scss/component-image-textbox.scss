@@ -1,0 +1,166 @@
+@import 'base/base-index.scss';
+
+.image-textbox{
+    width: 100%;
+    height: 720px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    @include md{
+        padding-top: 74%;
+    }
+    @include lg{
+        height: 0;
+        padding-top: 42.71%;
+    }
+
+    > .container, .row, .col-12{
+        height: 100%;
+    }
+    .container{
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%, - 50%);
+    }
+    &.textbox-left{
+        justify-content: end;
+    }
+    .full-width-content{
+        display: flex;
+        height: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+
+    .file-type-icon-media-link{
+        img{
+            width: 100%;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            top: 50%;
+        }
+    }
+    .text-bg{
+        color: $white;
+        padding: 30px 15px;
+        margin-top: 20px;
+        float: left;
+        @include md{
+            margin-top: 40px;
+        }
+        @include xl{
+            padding: 40px;
+            margin-top: 60px;
+        }
+        background: rgba(0, 0, 0, 0.5);
+        
+        .text-red{
+            color: $primary;
+        }
+        .btn{
+            margin-top: 20px;
+            padding: 0;
+            background-color: transparent !important;
+            color:$white !important;
+            border:0 !important;
+            border-bottom:1px solid $white !important;
+            text-transform: none;
+            &:hover{
+                color:$white !important;
+                border:0 !important;
+                border-bottom:1px solid $white !important;
+            }
+        }
+        h2{
+            @include font-size($smxxl-font);
+            margin-bottom: 20px;
+            font-family: 'HelveticaNeue-Bold';
+        }
+        label{
+            font-family: 'HelveticaNeue-Bold';
+            @include font-size($sm-font);
+            text-transform:uppercase;
+            margin-bottom: 15px;
+        }
+        p{
+            margin-bottom: 20px;
+        }
+        // .btn-primary{
+        //     &:hover{
+        //         background: transparent !important;
+        //         border: 3px solid $white !important;
+        //     }
+        // }
+    }
+    &.textbox-right{
+        .wide-section-content{
+            order: 0;
+        }
+        .wide-content-img-placeholder{
+            order: 1;
+            display: none;
+        }
+        @include lg{
+            .wide-section-content{
+                order: 1;
+            }
+            .wide-content-img-placeholder{
+                order: 0;
+                display: flex;
+            }
+        }
+    }
+    &.textbox-left{
+        
+        .wide-content-img-placeholder{
+            order: 1;
+            display: none;
+        }
+        .wide-section-content{
+            order: 0;
+        }
+        
+        .wide-content-img-placeholder{
+            @include lg{
+                display: flex;
+
+            }
+            
+        }
+    }
+
+    .wide-section-content{
+        @media(max-width:991px){
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    .wide-content-img-placeholder{
+        @media(max-width:991px){
+            display: block !important;
+            flex: 0 0 100%;
+            max-width: 100%;
+            img{
+                left:50% !important;
+                top:0 !important;
+                transform: translate(-50%, -0%) !important;
+                position:relative;
+            }
+        }
+        img{
+            width:auto !important;
+            max-height:450px;
+            @include lg{
+                max-height:500px;
+            }
+            @include xl{
+                max-height:650px;
+            }
+            
+        }
+    }
+}

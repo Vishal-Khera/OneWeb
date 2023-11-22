@@ -1,0 +1,26 @@
+﻿---
+ID: "74bbd861-463d-4b8e-9e1e-37cda94da0bd"
+Parent: "faf82e2f-9031-4420-8597-69840cfb8e19"
+Template: "bb8a85ab-1f6d-4518-8772-1c9f4f8dac18"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Images/Footerlogos Creaform/ameteklogo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220701T145827Z
+    - ID: "54cab1ba-53d3-4ce4-ab7e-f8c17596aa47"
+      Hint: TargetUrl
+      Value: |
+        <link linktype="external" url="https://www.ametek.com/" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "ebe4fdef-16d5-4d19-833c-24a241628a3a"
+      Hint: Image
+      Value: |
+        <image mediaid="{D98A5142-455D-4985-9D11-F01391EEEA41}" />

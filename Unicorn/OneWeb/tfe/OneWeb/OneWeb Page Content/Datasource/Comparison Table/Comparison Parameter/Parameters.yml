@@ -1,0 +1,24 @@
+﻿---
+ID: "c2aa2949-a3f9-4255-9640-247bf22bc246"
+Parent: "4189ab30-c84a-4449-8ac7-b1bdaf475732"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/Comparison Table/Comparison Parameter/Parameters
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: /sitecore/content/OneWeb/OneWeb/OneWeb/Global Data/Comparison Table
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Name Lookup List
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T113058Z

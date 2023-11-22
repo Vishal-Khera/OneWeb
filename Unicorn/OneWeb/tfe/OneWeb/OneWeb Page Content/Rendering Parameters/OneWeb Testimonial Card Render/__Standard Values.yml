@@ -1,0 +1,18 @@
+﻿---
+ID: "43de19f7-2112-4eaa-9319-c24bd6097390"
+Parent: "00c096c0-7bd6-4308-9d70-b3c277193e6d"
+Template: "00c096c0-7bd6-4308-9d70-b3c277193e6d"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Testimonial Card Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220206T133416Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

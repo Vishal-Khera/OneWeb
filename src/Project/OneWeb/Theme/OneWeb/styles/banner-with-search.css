@@ -1,0 +1,46 @@
+.search-banner-content {
+  margin: auto; }
+  .search-banner-content .search-banner-text h2 {
+    font-size: 32px; }
+    @media screen and (min-width: 0) {
+      .search-banner-content .search-banner-text h2 {
+        font-size: 24px; } }
+    @media screen and (min-width: 768px) {
+      .search-banner-content .search-banner-text h2 {
+        font-size: 28px; } }
+    @media screen and (min-width: 992px) {
+      .search-banner-content .search-banner-text h2 {
+        font-size: 32px; } }
+  @media (min-width: 992px) and (max-width: 1198px) {
+    .search-banner-content .search-banner-text p {
+      margin-bottom: 15px; } }
+  .search-banner-content .search-banner-search {
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center; }
+    .search-banner-content .search-banner-search form {
+      width: 100%; }
+      .search-banner-content .search-banner-search form input {
+        background: #fff;
+        width: 100%; }
+        .search-banner-content .search-banner-search form input:focus-visible {
+          outline: none; }
+    .search-banner-content .search-banner-search input {
+      background: #D9171D;
+      padding: 10px 15px; }
+      .search-banner-content .search-banner-search input img {
+        width: 20px; }
+  .search-banner-content .search-banner-button {
+    padding-top: 30px; }
+    @media (min-width: 992px) and (max-width: 1198px) {
+      .search-banner-content .search-banner-button {
+        padding-top: 0px; } }
+    @media (min-width: 992px) and (max-width: 1198px) {
+      .search-banner-content .search-banner-button p {
+        margin-bottom: 15px; } }
+    .search-banner-content .search-banner-button a {
+      width: 100%; }
+      @media (min-width: 768px) {
+        .search-banner-content .search-banner-button a {
+          width: auto; } }

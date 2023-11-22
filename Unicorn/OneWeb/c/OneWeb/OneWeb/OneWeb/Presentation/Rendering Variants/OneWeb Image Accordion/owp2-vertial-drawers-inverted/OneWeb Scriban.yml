@@ -1,0 +1,163 @@
+﻿---
+ID: "21d4caca-fc43-47f2-bd84-faf3f15b5102"
+Parent: "12fcb29c-24e1-420d-aca1-ef9f00738f87"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: "/sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Image Accordion/owp2-vertial-drawers-inverted/OneWeb Scriban"
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{
+    				show_arrows= sc_parameter "Show Arrows"
+    				if show_arrows  && show_arrows == 1
+    					show_arrows = "true"
+    				else
+    					show_arrows= "false"		
+    				end 
+    				
+    				show_dots = sc_parameter "Show Dots"
+    				if show_dots  && show_dots == 1
+    					show_dots = "true"
+    				else
+    					show_dots= "false"		
+    				end 
+    				
+    				show_infinite = sc_parameter "Infinite Loop"
+    				if show_infinite  && show_infinite == 1
+    					show_infinite = "true"
+    				else
+    					show_infinite= "false"		
+    				end 
+    				
+    				auto_play = sc_parameter "Autoplay"
+    				if auto_play  && auto_play == 1
+    					auto_play = "true"
+    				else
+    					auto_play= "false"		
+    				end 
+    				
+    				data_autoplay_speed = sc_parameter 'Autoplay Speed'					
+    				
+    				data_slides_to_show = sc_parameter 'Slides To Show'		
+    				
+    				data_slides_to_show_mob = sc_parameter 'Slides To Show Mobile'
+    								
+    				data_slides_to_show_tab = sc_parameter 'Slides To Show Tab'				
+    				
+    }}
+    <div class=" text-wrapper drawer-wrapper">
+    
+            {{-if i_item.Title !=""-}}
+    	<h2>
+    		{{i_item.Title}}
+        </h2>
+    
+    	{{-end-}}
+        {{count=1}}
+        <div class="drawer-slider slider-for inverted-drawer" data-arrow="{{-show_arrows-}}" data-dots="{{-show_dots-}}" data-autoplaySpeed="{{-data_autoplay_speed-}}" data-autoplay="{{-auto_play-}}" data-infinite="{{-show_infinite-}}" data-slides-to-show-tab="{{-data_slides_to_show_tab-}}" 
+    		data-slides-to-show-mob="{{-data_slides_to_show_mob-}}" data-slides-to-show="{{-data_slides_to_show-}}">
+    		{{vertical_list =i_item.children}}
+    		{{for vertical_item in vertical_list}}
+    				<div class="slide-item drawer-card">
+    					{{image_list =(sc_followmany vertical_item "Image List")}}
+    					{{for listitem in image_list}}
+    						{{if listitem.template_id =="BB8A85AB1F6D451887721C9F4F8DAC18"}}
+    							{{media = ow_media_model listitem 'Image'}}
+    							{{if media}}
+    								{{if (media.url|string.size > 0 )}}
+    									<div class="drawer-card__image">
+    										<img  data-lazy="{{media.url}}" alt="{{media.alt}}" title="{{media.title}}" />
+    									</div>
+    								{{end}}
+    							{{end}}
+    						{{else if listitem.template_id =="105E1AE40A89449AA4BF69E7FB23C0CA"}}
+    							<div class="drawer-card__image">
+    								{{video_iframe = ow_video_model listitem }} 
+    									{{if video_iframe}}
+    										{{if (video_iframe.sitecore_video.url| string.size) > 0}}
+    											<video class="slide-video slide-media" loop muted preload="metadata" src="{{video_iframe.sitecore_video.url}}" type="video/mp4">
+                      							</video>
+    										{{end}}
+    									{{end}}									
+    							</div>
+    						{{end}}
+    					{{end}}
+    			
+    					<div class="drawer-card__content" >
+    						<a href="javascript:void(0)" class="drawer-title" data-slide="{{count}}">
+    							{{-if vertical_item.Title !=""-}}
+    								<h2> {{vertical_item.Title}}</h2>
+    							{{-end-}}
+    						</a>
+    						
+    						<div class="drawer-card__description">
+    							
+    							{{-if vertical_item.Content !=""-}} 
+                                                             <div class="paragraph">
+    								{{vertical_item.Content}}
+    							</div>
+    							{{-end-}}
+    
+    							
+    							{{link = (ow_link_model vertical_item 'Link')}}
+    							<div class="drawer-card__btn">
+    								{{if (link.url|string.size > 0)}} 
+    									<a  href="{{link.url}}" target="{{link.target}}" title=" {{link.text}}" class="button btn-simple"> {{link.text}}</a>
+    								{{end}}
+    							</div>
+    						</div>
+    					</div>  
+    						{{count=count +1 }}
+    				</div>
+    		{{end}}
+        </div>
+    	{{primary_link_classes = "button btn-default "}}
+            {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+                  if( primary_filtered_classes)
+    	            if(primary_filtered_classes.class | string.size) > 0
+    		          primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    	            end
+                  end}}
+    			   {{link_model = ow_link_model i_item 'PrimaryLink'}}
+    			  {{ if(link_model.url != "") }}
+                      <a href="{{link_model.url}}" class="{{primary_link_classes}}" title="{{link_model.title}}" target="{{link_model.target}}">{{link_model.text}}</a>
+    		   {{ end }}
+    	
+    	
+    	
+    </div>
+                
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{2A918814-9A5B-46A5-A3DA-209B36A15D2F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220704T144140Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221013T083106Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{5644FD40-205B-4192-B01D-542C525064C5}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\kirti.giri
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221013T083106Z

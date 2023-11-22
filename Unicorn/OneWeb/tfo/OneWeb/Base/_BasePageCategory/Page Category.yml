@@ -1,0 +1,14 @@
+﻿---
+ID: "815bd559-bb7e-49a9-83ef-3d608d271ae9"
+Parent: "7ccb481f-efd6-401c-a20f-4e243b3a230b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/OneWeb/Base/_BasePageCategory/Page Category
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220707T153247Z

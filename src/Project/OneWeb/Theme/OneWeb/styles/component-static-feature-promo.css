@@ -1,0 +1,41 @@
+.ow-card-grid {
+  width: 100%; }
+  .ow-card-grid .static-feature-promo {
+    margin-bottom: 30px; }
+    .ow-card-grid .static-feature-promo .feature-icon {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .ow-card-grid .static-feature-promo .feature-icon img {
+        width: 150px;
+        height: 150px; }
+    .ow-card-grid .static-feature-promo .feature-info-wrap {
+      margin-top: 22px; }
+      .ow-card-grid .static-feature-promo .feature-info-wrap .description {
+        font-family: "HelveticaNeue-Light";
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #2B2B2B; }
+        @media screen and (min-width: 0) {
+          .ow-card-grid .static-feature-promo .feature-info-wrap .description {
+            font-size: 16px; } }
+        @media screen and (min-width: 768px) {
+          .ow-card-grid .static-feature-promo .feature-info-wrap .description {
+            font-size: 16px; } }
+        @media screen and (min-width: 992px) {
+          .ow-card-grid .static-feature-promo .feature-info-wrap .description {
+            font-size: 16px; } }
+        @media only screen and (min-width: 992px) {
+          .ow-card-grid .static-feature-promo .feature-info-wrap .description {
+            font-size: 18px; } }
+  @media only screen and (min-width: 992px) and (min-width: 0) {
+    .ow-card-grid .static-feature-promo .feature-info-wrap .description {
+      font-size: 18px; } }
+  @media only screen and (min-width: 992px) and (min-width: 768px) {
+    .ow-card-grid .static-feature-promo .feature-info-wrap .description {
+      font-size: 18px; } }
+  @media only screen and (min-width: 992px) and (min-width: 992px) {
+    .ow-card-grid .static-feature-promo .feature-info-wrap .description {
+      font-size: 18px; } }

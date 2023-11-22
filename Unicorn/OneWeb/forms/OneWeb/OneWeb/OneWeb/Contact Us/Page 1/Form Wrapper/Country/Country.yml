@@ -1,0 +1,49 @@
+﻿---
+ID: "65b86909-1e2b-455d-951e-937f6cef3c59"
+Parent: "60935064-2a13-4034-86b4-6d735058494b"
+Template: "9121d435-48b8-4649-9d13-03d680474fad"
+Path: /sitecore/Forms/OneWeb/OneWeb/OneWeb/Contact Us/Page 1/Form Wrapper/Country/Country
+DB: master
+SharedFields:
+- ID: "467c22b4-b1a2-4620-b8bb-74c2d8b369fc"
+  Hint: Label Css Class
+  Value: required
+- ID: "54424e06-0e7a-47a7-8cb2-7383d700472f"
+  Hint: Is Dynamic
+  Type: Checkbox
+  Value: 1
+- ID: "5be76442-950f-4c1f-a797-bebd71101abb"
+  Hint: Datasource
+  Value: "{F78F417E-CA37-433C-B56C-40EA35B5B635}"
+- ID: "6bf5048d-fbbd-4839-9f18-4412d4e11834"
+  Hint: Show Empty Item
+  Type: Checkbox
+  Value: 0
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: "form-control"
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: BE01AE1E38F446FF83FA535AB004E461
+- ID: "8a43af61-0812-4b37-a343-96cde3f12bb1"
+  Hint: Required
+  Type: Checkbox
+  Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211205T165331Z
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: Country

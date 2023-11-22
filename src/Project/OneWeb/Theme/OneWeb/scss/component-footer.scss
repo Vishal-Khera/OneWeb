@@ -1,0 +1,157 @@
+@import 'base/base-index.scss';
+
+footer {
+    margin-top: auto;
+    padding: 50px 0 0;
+    background: $black;
+    clear: both;
+    color: $mid-light-gray;
+
+    @include md {
+        padding: 107px 0 0;
+    }
+
+    .divider {
+        hr {
+            margin-bottom: 0px !important;
+        }
+    }
+
+    .shared-global {
+        ul {
+            margin-top: 0px;
+        }
+    }
+
+    .column {
+        .rich-text {
+            .rte_content {
+                color: $mid-light-gray;
+            }
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-bottom: 25px;
+        font-family: 'HelveticaNeue-Medium';
+        a {
+            color: $white;
+        }
+    }
+
+    .primary-footer {
+        text-align: left;
+        margin-bottom: 0px;
+
+        @include md {
+            margin-bottom: 40px;
+        }
+
+        @media (max-width:767px) {
+            margin-bottom: 30px;
+        }
+        ul {
+            list-style: none;
+            padding: 0px;
+            li {
+                color: $white-gray;
+                margin: 5px 0;
+            }
+
+            a {
+                color: $light-mid-gray;
+            }
+        }
+    }
+}
+
+.question {
+    position: relative;
+    float: none;
+    width: 40%;
+    @include md {
+        float: none;
+        width: 50%;
+        float: right;
+    }
+    h4 {
+        color: $white;
+        font-size: 20px;
+    }  
+}
+
+.position-right {
+    .secondary-footer {
+        text-align: right;
+    }
+}
+
+.secondary-footer {
+    text-align: left;
+    line-height: normal;
+    padding: 5px;
+    &.ow-link-list{
+        width: auto;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    @include md {
+        padding: 15px;
+    }
+
+    ul {
+        margin-left: 0;
+        padding: 0px;
+        margin-bottom: 0px;
+
+        li {
+            color: $light-mid-gray;
+            font-size: 12px;
+            display: inline-flex;
+            border-right: 1px solid $border-light-gray;
+            margin-right: 5px;
+            @include md {
+                padding: 0px 0;
+                font-size: 16px;
+            }
+
+            &:last-child {
+                border-right: 0px;
+            }
+
+            a {
+                color: $white;
+                padding: 0 10px;
+                @include md {
+                    padding: 0px 10px;
+                }
+
+                &:first-child {
+                    padding-left: 0px;
+                }
+            }
+
+            span {
+                display: inline-flex;
+                margin-top: 15px;
+            }
+        }
+    }
+
+    .footer-title {
+        font-size: 16px;
+        font-weight: 700;
+        color: $white;
+        text-transform: uppercase;
+        margin-bottom: 27px;
+        display: block;
+    }
+
+}
+.right-align {
+    float: right;
+}

@@ -1,0 +1,22 @@
+﻿---
+ID: "21cb737f-2812-43c3-ad3b-97ab9ff34223"
+Parent: "e44740b7-60e7-4f0a-a4a4-4861ff108b3f"
+Template: "fcce0824-4ce9-4d46-b19f-45b60f9ab77e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/gallery/2023/04/07/Date/Image 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{B1E72EAF-19ED-429E-B528-1A2C106726DA}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230407T070644Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

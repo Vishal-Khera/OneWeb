@@ -1,0 +1,18 @@
+﻿---
+ID: "0b933346-e32b-49f3-990a-bf8093760ca7"
+Parent: "de4ce863-9911-457a-9a47-7e98a634bad6"
+Template: "de4ce863-9911-457a-9a47-7e98a634bad6"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Product Card/OneWeb Product Card/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211229T162913Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

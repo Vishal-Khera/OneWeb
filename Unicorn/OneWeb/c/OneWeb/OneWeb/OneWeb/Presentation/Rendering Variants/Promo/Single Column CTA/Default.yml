@@ -1,0 +1,39 @@
+﻿---
+ID: "aabf393d-7aae-4479-a66f-674a445c657e"
+Parent: "4e1b01d1-89bc-4b97-9882-26af55037152"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Promo/Single Column CTA/Default
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="container ">
+        	<div class="ow-card-full col-md-12">
+        	  <div class="card-content">
+        			<div class="column-icon">
+        				{{sc_field i_item 'PromoIcon' [['class', 'icon-default ow-lazy']]}}
+        			</div>
+        			<div class="column-details">
+        			{{if (i_item.PromoText | string.size >0)}}
+        			  <div class="description">{{i_item.PromoText}}</div>
+        			{{end}}
+        			</div>
+        			<div class="button-wrpper">
+        			  {{primary_link_classes = ow_get_linkClass  i_item "PromoLink" "btn btn-primary "}}
+        			  {{primary_link = (sc_field i_item 'PromoLink'[['text', (i_item.PrimaryLink.text)], ['class', (primary_link_classes)]])}}
+        			  {{-if primary_link-}}
+        				{{primary_link}}
+        			  {{-end-}}
+        			</div>
+        		</div>
+        	</div>
+        </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220106T090404Z

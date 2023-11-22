@@ -1,0 +1,17 @@
+﻿---
+ID: "305b47ce-0321-4ded-9da2-5242348a9b7f"
+Parent: "b327e41f-ccd9-4aae-a95b-83f8d11dde02"
+Template: "7501c76d-ca5a-4436-b9d6-1330d295f3fa"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Text With Placeholder/Creaform Blog Listing
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220830T100454Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Explore 3D Measurement solutions

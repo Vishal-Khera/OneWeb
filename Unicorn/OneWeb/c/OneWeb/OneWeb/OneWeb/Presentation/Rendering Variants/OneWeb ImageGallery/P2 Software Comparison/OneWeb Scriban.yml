@@ -1,0 +1,78 @@
+﻿---
+ID: "359ebf2a-aee6-47f2-802d-4f6dfb925b26"
+Parent: "7fd0199d-6ef7-4842-accd-7083cd7172f7"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb ImageGallery/P2 Software Comparison/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="card software-comparison">
+    {{primary_link_classes = "title-text "}}
+     {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+         if( primary_filtered_classes)
+    	  if(primary_filtered_classes.class | string.size) > 0
+    		 primary_link_classes = primary_link_classes  + primary_filtered_classes.class
+    	  end
+         end}} 
+        {{link_model = ow_link_model i_item 'PrimaryLink'}}
+    
+    								<div class="card-body">
+    								<div class="equal-height">
+    									{{if (i_item.Title|string.size > 0 )}}
+    									{{if link_model.url != "" && (i_item.Title|string.size >0)}}
+    										<a href="{{link_model.url}}" title="{{i_item.Title.raw}}" target="{{link_model.target}}">
+    									{{end}}
+                                            <div class="card-title">{{i_item.Title}}</div>
+    									{{if link_model.url != "" && (i_item.Title|string.size >0)}}
+    										</a>
+    									{{end}}
+    									{{end}}
+    									{{if (i_item.Content|string.size > 0 )}}
+                                        <div class="card-subtitle">
+                                            {{i_item.Content}}
+                                        </div>
+    									{{end}}
+    								</div>
+                                    </div>
+    	
+    	
+    							{{logo_list =(sc_followmany i_item "Images")}}
+    							{{if (logo_list | array.size) > 0 
+    							data=0
+    							}}
+    										
+    								<div class="card-footer">
+                                        <ul class="card-row-size">
+    									{{for logo in logo_list}}	
+    									{{media = ow_media_model logo 'Image'}}
+                                            <li class="card-row-{{data}}">
+    										{{ if (media.url|string.size > 0 ) }}
+                                                <div class="image">
+                                                    <img class="ow-lazy" alt="{{media.title}}" data-src="{{media.url}}">
+                                                </div>
+    										{{end}}
+    										{{ if (logo.imagecaption|string.size > 0) }}
+                                                 <div class="info">{{-logo.imagecaption-}}</div>
+    										{{end}}
+                                            </li>
+    										{{data= data + 1}}
+    									{{end}}
+                                 {{end}}          
+                                            
+                                        </ul>
+                                    </div>
+    	</div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T133340Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

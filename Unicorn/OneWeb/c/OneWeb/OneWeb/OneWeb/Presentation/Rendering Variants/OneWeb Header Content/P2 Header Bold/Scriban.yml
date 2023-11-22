@@ -1,0 +1,62 @@
+﻿---
+ID: "c587b0b0-08d8-40bf-af9b-937b5e153ce7"
+Parent: "de696212-9198-4cd1-b806-000eaa4ebd2b"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Header Content/P2 Header Bold/Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{header_tag = "div"}}
+    {{subheader_tag = "div"}}
+    {{heading_size= sc_parameter 'HeaderStyle'}}
+    {{if heading_size}}
+    {{header_item = ow_item heading_size}}
+    {{if header_item}}
+    {{header_tag = header_item.Value.raw}}
+    {{end}}
+    {{end}}
+    
+    {{subheading_size= sc_parameter 'SubTitleHeaderStyle'}}
+    {{if subheading_size}}
+    {{subheader_item = ow_item subheading_size}}
+    {{if subheader_item}}
+    {{subheader_tag = subheader_item.Value.raw}}
+    {{end}}
+    {{end}}
+    
+    <div class="text-wrapper">
+    	{{ if (i_item.Title |string.size > 0) }}
+    	<div class="heading-title">
+    	<{{header_tag}}>
+    <strong>{{i_item.Title}}</strong>
+    	</{{header_tag}}>
+    	</div>
+    	{{end}}
+    	
+        {{ if (i_item.Content |string.size > 0) }}
+    		<div class="light-gray-text">
+    		<div class="heading-subtitle">
+    			<{{subheader_tag}}>
+    			{{i_item.Content}}
+    			</{{subheader_tag}}>
+    			</div>
+    		</div>
+        {{end}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211229T110717Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

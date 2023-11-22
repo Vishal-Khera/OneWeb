@@ -1,0 +1,28 @@
+﻿---
+ID: "896fec10-ded9-4365-ac45-0647ab08ad6b"
+Parent: "88440ca0-e31b-40c9-ad8f-560f9b32a853"
+Template: "596bce13-1e1c-4e55-9c1a-8bf176b4e9d3"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/Products/Multiple
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{367D2B7A-CDCE-49F1-9EB4-F7388E9B0EDB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220401T143952Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Multiple
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Multiple
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

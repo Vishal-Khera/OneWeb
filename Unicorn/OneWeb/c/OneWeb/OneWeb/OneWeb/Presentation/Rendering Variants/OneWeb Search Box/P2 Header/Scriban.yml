@@ -1,0 +1,63 @@
+﻿---
+ID: "736e1340-ba1a-4dd1-bb74-305b43c8d26d"
+Parent: "7615f528-466d-4ef8-a5c9-7f57fd03a339"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Box/P2 Header/Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if i_item}}
+    <div class="component image file-type-icon-media-link global-search-header mr-3">
+        <div class="component-content">
+            <a title="Default Logo" href="javascript:void(0)">
+                <img src="/-/media/project/oneweb/oneweb/oneweb/logos/search-icon-new.svg" alt="search-logo"></a>
+            <div class="header-search">
+                <div class="global-header">
+                    <div class="global-search">
+                        <input type="text" autocomplete="off" id="search-page" class="search-box-input" placeholder="{{sc_raw i_item 'Placeholder Text'}}">
+                        <a class="clear-text" href="javascript:void(0)"><span class="sr-only">cross-icon</span></a>
+    {{if o_model.popular_keywords && o_model.popular_keywords | string.size > 0}}
+            <div class="result-item-wrapper popular-keywords d-none">            
+                <div class="result-item suggested-search">
+                    <h4>{{sc_translate "Search-Box-Popular"}}</h4>
+                    <ul>
+                        {{for keyword in o_model.popular_keywords}}
+                        <li>
+                            <a href="{{keyword.link}}">{{keyword.text}}</a>
+                        </li>
+                        {{end}}
+                    </ul>
+                </div>
+            </div>
+            {{end}}
+                        <div class="ow-container">
+                            
+                        </div>
+                    </div>
+                    <a href="javascript:void(0)" class="close-search">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{end}}
+- ID: "f175b503-cdd4-4bbe-9143-81b6f78cd956"
+  Hint: IsHandlebarTemplate
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T025234Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

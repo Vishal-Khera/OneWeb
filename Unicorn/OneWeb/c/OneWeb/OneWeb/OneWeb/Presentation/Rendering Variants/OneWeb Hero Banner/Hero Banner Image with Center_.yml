@@ -1,0 +1,14 @@
+﻿---
+ID: "414ba47a-83e0-4975-9c40-b4a68ec4324f"
+Parent: "1ddc00ba-6c96-47a8-a88e-114be246befa"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Hero Banner/Hero Banner Image with Center Text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220719T144252Z

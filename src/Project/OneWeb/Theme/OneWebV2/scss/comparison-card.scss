@@ -1,0 +1,144 @@
+@import 'base/base-index.scss';
+
+.comparison-card{
+    background: $cta-gray;
+    border-radius: 8px;
+    &__image-title{
+        padding:15px 15px 0;
+        border-bottom:1px solid $lightblack;
+        .title{
+            width:100%;
+            height:45px;
+            @include font-size($smslg-font);
+            float:left;
+        }
+        .image-wrap{
+            aspect-ratio: 7/6;
+            img{
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    &__details{
+        padding:15px;
+        .list-item-detail{
+            margin-bottom: 8px;
+            label{
+                width: 100%;
+                @include font-size($sm-font);
+                margin-bottom: 0;
+                color: $mediumblack;
+            }
+            .list-item{
+                @include font-size($smslg-font);
+            }
+        }
+    }
+}
+
+
+.dark-theme-card{
+    .comparison-card{
+        background: $card-bg-dark;
+        *{
+            color:$white;
+        }
+        .list-item-detail{
+            label{
+               color: $smoke-white;
+            }
+        }
+    }
+}
+
+.slider-wrapper{
+    .comparison-card{
+        margin: 0 15px;
+        
+    }
+}
+
+.dark-theme-card{
+    .comparison-card, &.comparison-card{
+        *{
+            color:$white;
+        }
+        &__details{
+            .list-item-detail {
+                label{
+                    color:$smoke-white;
+                }
+            }
+        }
+        &__image-title {
+            border-color: $white-light-border;
+        }
+    }
+}
+
+.ow-background-wrapper{
+    padding-left:0;
+    padding-right:0;
+    > .component-content{
+        padding-top:150px;
+        padding-bottom:220px;
+        position:relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left:15px;
+        padding-right:15px;
+        &:before{
+            content:'';
+            position: absolute;
+            background: rgba(0,0,0,.4);
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+        }
+    }
+    
+    .text-wrapper{
+        *{
+            @include md{
+                color:$white;
+            }
+            
+        }
+    }
+    @media(max-width:767px){
+        background-image: none !important;
+        padding-top:30px;
+        padding-bottom:30px;
+        &:before{
+            background: none !important;
+        }
+        .text-wrapper{
+            *{
+                @include md{
+                    color:$brandblack;
+                }
+                
+            }
+        }
+        .comparison-card, &.comparison-card{
+            background: $cta-gray;
+            *{
+                color:$brandblack !important;
+            }
+            &__details{
+                .list-item-detail {
+                    label{
+                        color: $mediumblack;
+                    }
+                }
+            }
+            &__image-title {
+                border-color: $lightblack;
+            }
+        }
+    }
+}
+

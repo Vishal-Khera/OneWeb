@@ -1,0 +1,89 @@
+.text-wrapper {
+  color: #2C2A29; }
+  .text-wrapper h2 {
+    margin: 0; }
+  .text-wrapper h3 {
+    margin: 0px; }
+  .text-wrapper .paragraph-wrapper {
+    margin-top: 10px;
+    margin-bottom: 35px; }
+    @media only screen and (min-width: 768px) {
+      .text-wrapper .paragraph-wrapper {
+        margin-top: 30px;
+        margin-bottom: 30px; } }
+    .text-wrapper .paragraph-wrapper p {
+      margin-bottom: 15px; }
+      .text-wrapper .paragraph-wrapper p:last-child {
+        margin-bottom: 0; }
+  .text-wrapper .button {
+    margin-bottom: 15px;
+    margin-top: 20px; }
+    @media only screen and (min-width: 768px) {
+      .text-wrapper .button {
+        margin-top: 30px; } }
+  .text-wrapper .product-name sup {
+    font-family: "FranklinGothicLTPro-Md" !important; }
+  .text-wrapper .light-gray-text {
+    color: rgba(44, 42, 41, 0.7) !important; }
+
+.title-arrow .heading-title {
+  position: relative;
+  display: block;
+  width: fit-content;
+  padding-right: 12px; }
+  .title-arrow .heading-title:after {
+    position: absolute;
+    content: ' \276F';
+    right: 0px;
+    top: 0px;
+    font-size: 14px; }
+    @media only screen and (min-width: 768px) {
+      .title-arrow .heading-title:after {
+        font-size: 20px; } }
+
+.text-wrapper-v2 .text-wrapper .component-placeholder-wrapper {
+  margin-top: 20px; }
+  @media only screen and (min-width: 768px) {
+    .text-wrapper-v2 .text-wrapper .component-placeholder-wrapper {
+      margin-top: 40px; } }
+
+.blue-theme .text-wrapper {
+  color: #F7F7F7; }
+
+.product-spec {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .product-spec * {
+    font-family: "FranklinGothicLTPro-Md"; }
+  .product-spec__text {
+    width: calc(100% / 2) !important;
+    margin-bottom: 20px;
+    display: flex; }
+    @media only screen and (min-width: 768px) {
+      .product-spec__text {
+        justify-content: center; } }
+    .product-spec__text span {
+      width: max-content;
+      display: block;
+      text-align: left;
+      position: relative; }
+    .product-spec__text .text-icon {
+      margin-right: 10px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      max-width: 24px;
+      max-height: 24px; }
+      .product-spec__text .text-icon img {
+        width: 100%;
+        height: 100%; }
+      @media only screen and (min-width: 768px) {
+        .product-spec__text .text-icon {
+          max-width: 48px;
+          max-height: 48px;
+          margin-right: 15px; } }
+    @media only screen and (min-width: 768px) {
+      .product-spec__text {
+        justify-content: left;
+        width: calc(100% / 5) !important; } }

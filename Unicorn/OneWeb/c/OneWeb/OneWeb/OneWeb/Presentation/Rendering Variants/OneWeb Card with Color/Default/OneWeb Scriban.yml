@@ -1,0 +1,41 @@
+﻿---
+ID: "8b2f3860-3ee2-4ef1-88be-23ccf638f196"
+Parent: "fb8ffba3-2f27-4eed-9823-dd500504b88e"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Card with Color/Default/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="ow-card column-content ">
+    
+                {{color_item_id = (sc_parameter  'HeaderColor')}}          
+                 {{color_item= ow_item color_item_id }}
+                   {{ if color_item  }}
+                       {{color= sc_raw color_item "Color"}}
+                   {{ end }}
+               
+                   <div class="ow-card-content graymode-light-background " style="border-left: 6px solid {{color}}">
+    
+      {{if i_item.Title !="" }}
+    
+      <h3 class="title" style="background:{{color}}">{{i_item.Title}}</h3>
+      {{ end }}
+      {{if i_item.Content !=""}}
+    <div class="description">
+      {{i_item.Content}}
+    </div>
+      {{ end }}
+    
+      </div>
+    
+      </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T130030Z

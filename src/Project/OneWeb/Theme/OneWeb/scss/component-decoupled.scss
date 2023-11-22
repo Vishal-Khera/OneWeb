@@ -1,0 +1,305 @@
+@import 'base/base-index.scss';
+
+
+#header{
+	> .container{
+		&.decoupled-menu{
+			&.square-logo-menu{
+				padding-top: 0px;
+				padding-bottom: 0px;
+				padding-bottom: unset;
+				margin-top: unset;
+				@include lg{
+					.brand-logo{
+						padding-bottom: 19px;
+    					margin-top: 0;
+					}
+				}	
+				@include xl{
+					.brand-logo{
+						padding-bottom: 14px;
+    					margin-top: 0;
+					}
+				}			
+				
+			}
+
+			.global-search{
+				width: 100% !important;
+				.search-box-input{
+					width: 100% !important;
+				}
+				.ow-container{width: 100% !important;}
+			}
+		}
+	}
+	> .container:not(.decoupled-menu){
+		.col-6{
+			.file-type-icon-media-link{
+				@media (min-width:500px) and (max-width:991px) {
+					margin-left: -5%;
+					@media (min-width:768px){
+						margin-left: -7%;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.decoupled-menu {
+	.global-search{
+		width: 100% !important;
+		&.focusIn{
+			input{
+				position: relative;
+			}
+		}
+	}
+	.search-mobile{
+		@media (max-width:991px) {
+			display: none;
+		}
+	}
+
+	.r-absolute{
+		position: absolute;
+		right: 0px;
+		padding-left: 0px;
+		margin-right: 0px;
+		
+		@include lg{
+			position: unset;
+			padding-left: 0px;
+			margin-right: -15px;
+		}
+	}
+	.space-1{
+		padding-left: 0px;
+		padding-right: 0px;
+		@include lg{
+			padding-right: 15px;
+    		padding-left: 15px;
+		}
+	}
+	.mobile-search {
+		margin-right: 10px;
+		margin-top: 0px;
+		display: block !important;
+		@include lg{
+			display: none !important;
+		}
+	}
+	.vertical-logo{
+		max-height: 100px;
+		width: auto;
+		transition: .3s all;
+		height: 100px;
+		.component-content{
+			height: 100%;
+			a{
+				img{
+					height: 100%;
+					max-width: max-content;
+				}
+
+			}
+		}
+		@include lg{
+			max-height: 150px;
+			height: 150px;
+		}
+	}
+	&.square-logo-menu{
+		padding-top: 0;
+		padding-bottom: 0;
+		transition: .3s all;
+		&.single-logo-menu{
+			@media (max-width:991px) {
+				.mobile-menu nav{
+					.mega-nav{
+						max-height: calc(100vh - 160px);
+					}
+				}
+			}
+			
+		}
+	}
+
+	@media (max-width:991px) {
+		.ow-language-selector{
+			display: none;
+		}		
+	}
+}
+
+.open-menu{
+	.decoupled-menu{
+		.brand-logo{
+			display: none;
+		}
+		.ow-language-selector{
+			display: block;
+		}
+		@media (max-width: 991px) {
+			.mobile-menu{
+				padding-top: 102px;
+				nav {
+					.menu-open{
+						max-height: 100%;
+					}
+					.list-open{
+						> ul{
+							max-height: calc(100vh - 130px);
+						}
+					}
+				}
+			}
+			.search-mobile{
+				display: block;
+				
+					width: calc(100vw - 0px);
+					position: fixed;
+					left: 0px;
+					top: 65px;
+					z-index: 120;
+				
+			}
+			&.square-logo-menu{
+				.mobile-menu{
+					nav {
+						.list-open {
+							> ul{
+								max-height: calc(100vh - 170px);
+							}
+						}
+					}
+				}
+				.global-search{
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+				&.single-logo-menu{
+					.search-mobile{
+						top: 85px;
+					}
+					.mobile-menu{
+						padding-top: 120px;
+						nav {
+							.list-open {
+								> ul{
+									max-height: calc(100vh - 150px);
+								}
+							}
+						}
+					}
+					
+				}
+			}
+		}
+	}
+}
+
+body{
+	&.menu-overflow{
+		.decoupled-menu{
+			.mega-nav-level1{
+				@include lg{
+					height: calc(100vh - 160px);
+				}
+			}
+			nav{
+				.mega-nav{
+					.menu-open {
+						> a{
+							&:after{
+								@include lg{
+									bottom: -24px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.sticky{
+		header {
+			nav {
+				.mega-nav {
+					.menu-open {
+						.mega-nav-level1{
+							margin-top: 20px;
+						}
+					}
+				}
+			}
+		}
+		&.menu-overflow{
+			.decoupled-menu{
+				nav{
+					.mega-nav{
+						.menu-open {
+							> a{
+								&:after{
+									bottom: -20px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.square-logo-menu{
+			.vertical-logo{
+				max-height: 115px;
+			}
+		}
+	}
+	@media (max-width: 991px) {
+	&.open-menu{
+		.square-logo-menu{
+			.mega-nav {
+				> .has-menu{
+					&.menu-open {
+						.list-open {
+							> .mega-nav-level3,
+							> .mega-nav-level4{
+								top: 175px;
+							}
+						}
+					}
+				}
+			}
+			.has-child {
+				ul{
+					top: 175px;
+				}
+			}
+			&.single-logo-menu{
+				.mega-nav {
+					> .has-menu{
+						&.menu-open {
+							.list-open {
+								> .mega-nav-level3,
+								> .mega-nav-level4{
+									top: 150px;
+								}
+							}
+						}
+					}
+				}
+				.has-child {
+					ul{
+						top: 150px;
+					}
+				}
+			}
+		}
+		
+		
+	}
+}
+}

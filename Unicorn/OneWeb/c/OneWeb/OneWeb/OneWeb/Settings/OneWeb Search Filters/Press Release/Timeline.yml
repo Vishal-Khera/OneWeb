@@ -1,0 +1,32 @@
+﻿---
+ID: "3d3bb435-dc81-428c-86f2-f8fe7733c14e"
+Parent: "4e3fad5e-94db-4579-a48a-b5bdb75bfe59"
+Template: "1da424d9-d256-4cfe-8ba9-23ede9519e1c"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings/OneWeb Search Filters/Press Release/Timeline
+DB: master
+SharedFields:
+- ID: "40f3911c-31ae-4cc6-a811-68104dd8e899"
+  Hint: FieldName
+  Value: ow_timeline_s
+- ID: "813292fc-041f-4bdf-ae52-2fb5fd8df217"
+  Hint: Enabled
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1680635b-2b61-4c1a-a1ab-e789aec2156a"
+      Hint: IsDynamicFilter
+      Type: Checkbox
+      Value: 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211221T051806Z
+    - ID: "6f6d3317-9055-4dfc-a5de-ffd670487a44"
+      Hint: MinimumCount
+      Value: 1
+    - ID: "c2162163-f687-44eb-8cd0-b3f28a91965b"
+      Hint: DisplayName
+      Value: Timeline

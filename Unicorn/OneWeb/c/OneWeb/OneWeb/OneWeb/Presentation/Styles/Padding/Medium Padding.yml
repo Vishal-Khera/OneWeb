@@ -1,0 +1,28 @@
+﻿---
+ID: "b8b8e672-81a7-46d4-bf41-3ea79ba94276"
+Parent: "97be0e02-43a3-4a8b-85c1-4d6a916bae6d"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Styles/Padding/Medium Padding
+DB: master
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "medium-padding"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Type: TreelistEx
+  Value: |
+    {A6E7A90A-4B1A-4936-A512-2A918A04B3A6}
+    {4F1D055A-D52F-4581-944C-FE1E641BDA34}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220718T145622Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,52 @@
+﻿---
+ID: "c393110b-4c0b-451a-81d5-a50c95c78a53"
+Parent: "fce67594-699f-40bc-8311-aa30fb0690ea"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Related Listing/P2 Related Product/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if o_model && (o_model.related_listing.size > 0)}}  
+       <h2>{{sc_translate 'OneWeb-Related-Product-Heading'}}</h2>
+        {{ for data in o_model.related_listing}}    
+    	{{item = ow_item data.item_id}}    	
+    	{{media_model = ow_media_model item "Image"
+    				if(media_model.url|string.size < 0)
+    					media_model.url= ""
+    				end
+    	}}
+    	
+    <a class="title" href = '{{item.url}}' target="_self">
+    				<div class="card featured-card mt-3">
+    				<div class="card-body">	
+    				{{if data.title | string.size >0}}
+    				<div class="card-title">
+    					{{data.title }}
+    				</div>
+    				{{end}}
+    				{{if data.content | string.size >0}}
+    				<div class="card-subtitle">
+                    {{data.content }}
+    				</div>
+    				{{end}}
+    				</div>
+    				{{if media_model | string.size >0}}
+    				<div class="card-image">			
+    				<img class="ow-lazy card-img-top"  data-src = "{{media_model.url}}"  alt="{{media_model.alt}}" title="{{media_model.title}}" />				
+    				</div>	
+    				{{end}}
+    				</div>
+    </a>					     			        
+           {{end}}    
+     
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221007T170740Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "c22d5a35-a0cf-4d8d-99a1-5e63c4cc1f6d"
+Parent: "27843b52-eb62-4fad-9943-3c07d2755207"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Search/Datasource/OneWeb AutoSuggest Search Configuration/Configurations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211228T202938Z

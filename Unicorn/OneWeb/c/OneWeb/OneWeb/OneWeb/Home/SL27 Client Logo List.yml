@@ -1,0 +1,65 @@
+﻿---
+ID: "2eb7df2f-dc3c-43d6-9eac-e3a0e31746fe"
+Parent: "e0ed3b59-4400-4464-8b05-80d9d39ba6b7"
+Template: "97167eaa-fbde-43ac-aace-f453d151cd87"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/SL27 Client Logo List
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{BFA27019-5F8A-45BD-9460-AB2EF1F186E5}"
+              p:before="*"
+              s:ds="{B16B810D-B824-462E-83C9-FA16BA5B8FAA}"
+              s:id="{B21D2D5F-8E69-4977-A038-57973EC482F7}"
+              s:par="GridParameters=%7BAE58AC63-220B-4C8D-A491-D5E8D025078E%7D&amp;Grid Count&amp;FieldNames=%7B77C40497-BD85-470B-9C25-F03CA6BF47DB%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+              s:ph="/main/ow-container-fluid-2/ow-row-3/ow-container-4/ow-row-5" />
+            <r
+              uid="{F4562235-6724-41E6-B616-C29393AB6D8D}"
+              p:after="r[@uid='{BFA27019-5F8A-45BD-9460-AB2EF1F186E5}']"
+              s:ds=""
+              s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+              s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+              s:ph="/main/ow-container-fluid-2/ow-row-3/ow-container-4" />
+            <r
+              uid="{56038C9E-D618-4A34-8F96-7B90221BF1C9}"
+              p:after="r[@uid='{F4562235-6724-41E6-B616-C29393AB6D8D}']"
+              s:ds=""
+              s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+              s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+              s:ph="/main/ow-container-fluid-2/ow-row-3" />
+            <r
+              uid="{FCC19651-D6D2-4945-A72B-C9300D667B9C}"
+              p:after="r[@uid='{56038C9E-D618-4A34-8F96-7B90221BF1C9}']"
+              s:ds=""
+              s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+              s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+              s:ph="/main/ow-container-fluid-2" />
+            <r
+              uid="{A096D470-8BAF-4332-AA4E-2C477FD5C634}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+              s:par="GridParameters&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220707T100113Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Test Client Logo List
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Test Client Logo List

@@ -1,0 +1,67 @@
+﻿---
+ID: "3703a5c1-5464-4eb4-8d82-9a7e8b9e1fc2"
+Parent: "88440ca0-e31b-40c9-ad8f-560f9b32a853"
+Template: "596bce13-1e1c-4e55-9c1a-8bf176b4e9d3"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/Products/AC Motors
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{367D2B7A-CDCE-49F1-9EB4-F7388E9B0EDB}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{2AECBADF-C4D9-46B6-8EDE-ED5749991A98}"
+          p:before="*"
+          s:ds=""
+          s:id="{22FDD975-E198-42BC-BC36-F9B8319133DD}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;Related Product List&amp;Autoplay&amp;Autoplay Speed&amp;Show Arrows=1&amp;Show Dots=1&amp;Slides To Show=3&amp;Slides To Show Mobile=1.2&amp;Slides To Show Tab=2.2&amp;Custom Slider Class&amp;Carousel Desktop Disable&amp;FieldNames&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-fluid-1/ow-row-2/ow-container-3" />
+        <r
+          uid="{C4AADB32-BCCF-4438-8637-0ED41B0E21E6}"
+          p:after="r[@uid='{2AECBADF-C4D9-46B6-8EDE-ED5749991A98}']"
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-fluid-1/ow-row-2" />
+        <r
+          uid="{64EAF736-7DEE-4E5E-A5E5-A6C2CA625C1B}"
+          p:after="r[@uid='{C4AADB32-BCCF-4438-8637-0ED41B0E21E6}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-fluid-1" />
+        <r
+          uid="{2BA7A440-F389-4CC7-B798-DB43AB4BBDF6}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{4F1D055A-D52F-4581-944C-FE1E641BDA34}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles=%7BDC3E505E-99C7-427B-8A25-29D9A6838161%7D&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1&amp;OwClass=text-center"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220330T161351Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: AC Motors
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: AC Motors
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "657d540d-e855-44ce-a71b-c1fb4168a8ca"
+      Hint: Product List
+      Value: "{35F5AAF1-367F-49FD-AAAE-FA2E0E7BAB5B}|{0F48A855-AE61-4FDA-ACDB-3B76EFBAFB32}|{939DA2C4-AF16-4CCB-9A23-96895F735C48}|{19C12AA7-2BD6-4330-865E-10B7217E094E}|{70DD2B41-E9F9-400F-908E-9DE37DB70F7D}"

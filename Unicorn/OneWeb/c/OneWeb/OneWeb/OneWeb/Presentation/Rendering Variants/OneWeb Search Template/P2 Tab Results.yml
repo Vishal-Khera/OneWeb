@@ -1,0 +1,26 @@
+﻿---
+ID: "d716cb0a-1b6f-4a7b-9b0a-598a9e6eba10"
+Parent: "65d97de6-1804-4b22-8c66-f8aef7a4b0b6"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/P2 Tab Results
+DB: master
+SharedFields:
+- ID: "6e87db8e-58a6-4613-823b-e99e244f07a0"
+  Hint: ItemCssClassField
+  Value: "ow-video"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9BC79815-2A38-48DD-ACC4-5625DF5EF741}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T192007Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

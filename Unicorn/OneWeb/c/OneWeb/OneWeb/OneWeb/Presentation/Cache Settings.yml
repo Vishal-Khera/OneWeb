@@ -1,0 +1,18 @@
+﻿---
+ID: "803fd2aa-a6c2-4b2c-9025-2061bfba70c8"
+Parent: "7584adca-2102-4f65-9929-ce62e62b72de"
+Template: "26fce9bf-0256-458d-8281-a713a5bf5520"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Cache Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T074212Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

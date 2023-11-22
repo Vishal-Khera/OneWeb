@@ -1,0 +1,14 @@
+﻿---
+ID: "a61fc488-e73d-40b2-8638-f652a67be27c"
+Parent: "43304123-dd2f-4725-958d-9b2d14c77882"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWebV2/sass/styles/tabs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170614T063815Z

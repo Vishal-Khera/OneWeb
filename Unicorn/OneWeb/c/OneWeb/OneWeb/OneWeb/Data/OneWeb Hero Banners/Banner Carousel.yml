@@ -1,0 +1,33 @@
+﻿---
+ID: "c706a361-8513-4a66-8946-6b5713250c29"
+Parent: "d977a6d2-6b9f-4304-9f88-2bcf5f4c04ba"
+Template: "2dcd3b85-ec83-4de1-87fa-44e00f1e588f"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Hero Banners/Banner Carousel
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b8496b9-c8f6-4ad4-889a-8a62e7e94bc7"
+      Hint: AutoPlay
+      Type: Checkbox
+      Value: 0
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T122930Z
+    - ID: "5443dcee-501e-41e2-9d03-83ff4ce5e66d"
+      Hint: Banner List
+      Type: Treelist
+      Value: 
+    - ID: "8ee77d9a-0940-44c3-b0a8-7362d177d84d"
+      Hint: Show Arrows
+      Type: Checkbox
+      Value: 0
+    - ID: "d10f2aa4-5254-4d9e-863f-6605e9b079f7"
+      Hint: Loop
+      Type: Checkbox
+      Value: 0
+    - ID: "f66e9231-de31-4e54-98d3-a32556b8a710"
+      Hint: Interval
+      Value: 

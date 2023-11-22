@@ -1,0 +1,58 @@
+﻿---
+ID: "860ed62f-d57f-41df-a5e0-3b6a52d45f4b"
+Parent: "7c7225cf-5481-4206-92d7-14853d8bd5f7"
+Template: "3f392054-7fc1-4720-bac7-b8954eafe180"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Event Card/Event Card 1
+DB: master
+SharedFields:
+- ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
+  Hint: __Unpublish
+  Value: 
+- ID: "86fe4f77-4d9a-4ec3-9ed9-263d03bd1965"
+  Hint: __Publish
+  Value: 
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FD2AE510-C98B-4925-A112-7D7B5F02A098}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <image mediaid="{0CDF9637-9DCC-4024-AD9B-EDFA5EA17B9A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220706T094926Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: <b>FITMA Tradeshow</b>
+    - ID: "2b1035b2-079b-4c94-8744-e65376ca9aef"
+      Hint: Page Type
+      Value: Events
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: FITMA Tradeshow
+    - ID: "60266db3-ba2e-4a92-aafe-ee3a7a16831e"
+      Hint: State
+      Value: Mexico
+    - ID: "65f0c58f-a730-4fb9-a6e1-a5c3631460eb"
+      Hint: City
+      Value: Ciudad de Mexico
+    - ID: "6a30b727-97b0-48ff-94d8-0656a5973182"
+      Hint: Navigation Url
+      Value: |
+        <link text="Home" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />
+    - ID: "b7bb883d-973f-4fb4-ba6c-656221470a7c"
+      Hint: EndDateTime
+      Value: 20220720T183000Z
+    - ID: "bafbf54f-6268-400e-a500-1c0501401f18"
+      Hint: StartDateTime
+      Value: 20220708T113000Z
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{E0ED3B59-4400-4464-8B05-80D9D39BA6B7}" />

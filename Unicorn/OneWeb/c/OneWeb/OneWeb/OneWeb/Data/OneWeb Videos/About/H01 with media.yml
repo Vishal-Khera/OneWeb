@@ -1,0 +1,54 @@
+﻿---
+ID: "02f05c6a-08a3-4605-81b3-dcbc45c5d785"
+Parent: "ad1d72b7-4416-4995-a7a8-fc83131400e8"
+Template: "105e1ae4-0a89-449a-a4bf-69e7fb23c0ca"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Videos/About/H01 with media
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15344fb8-6901-4745-a50d-359d20556eee"
+      Hint: Placeholder Image
+      Value: |
+        <image mediaid="{D5F6C144-969D-4D93-A850-02ED9C1BD3B7}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T115613Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Title
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    - ID: "48997a62-ca56-48fb-9644-ed4cf9826271"
+      Hint: sitecore Video
+      Value: 
+    - ID: "5558b158-8d88-4507-bd60-ff2649f1f3eb"
+      Hint: Loop
+      Type: Checkbox
+      Value: 1
+    - ID: "72b1ed0f-917e-43b1-99af-855a84af8689"
+      Hint: Attributes
+      Value: allowfullscreen
+    - ID: "883ad9cc-d3be-485e-955e-2feb6dc0d74c"
+      Hint: Autoplay
+      Type: Checkbox
+      Value: 1
+    - ID: "8d4cb2dc-29ae-483d-a62f-afd8d23d4a08"
+      Hint: Id
+      Value: msccbppNuRs
+    - ID: "983a37b2-16e7-4dba-a96d-c0d5530f7699"
+      Hint: Subtext
+      Value: 
+    - ID: "a908b235-b1cf-4d36-b08c-9563338aaf5a"
+      Hint: Muted
+      Type: Checkbox
+      Value: 1
+    - ID: "cc1be248-6ed6-4731-ba35-bf109542397b"
+      Hint: Provider
+      Value: "{D5E064AF-D3B1-4A2A-AF12-225A29F22731}"
+    - ID: "ecbfd2ea-802b-4007-ad3a-5a84bc6e43d6"
+      Hint: PrimaryLink
+      Value: 

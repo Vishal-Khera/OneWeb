@@ -1,0 +1,22 @@
+﻿---
+ID: "0644bb42-3b44-4395-88b9-828bb17be2fc"
+Parent: "08ae69b3-b5cc-4d37-b26e-b94f8eab4bd1"
+Template: "e24e0789-a058-48bf-abb6-c69c0e60b6b7"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Links/Header/Skip to Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211220T130051Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "dd05144a-bd66-4ea3-956a-4b7104daaba3"
+      Hint: Link
+      Value: |
+        <link text="Skip to content" linktype="anchor" url="mainContent" anchor="mainContent" title="" class="skip-content" />

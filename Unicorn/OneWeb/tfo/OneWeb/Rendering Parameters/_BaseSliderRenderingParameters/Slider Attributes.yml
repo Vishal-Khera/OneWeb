@@ -1,0 +1,18 @@
+﻿---
+ID: "8fa4a078-290a-44e6-b58d-449a509963ae"
+Parent: "d447f0e1-8001-418f-bc73-72118b000439"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/OneWeb/Rendering Parameters/_BaseSliderRenderingParameters/Slider Attributes
+DB: master
+SharedFields:
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211206T164552Z

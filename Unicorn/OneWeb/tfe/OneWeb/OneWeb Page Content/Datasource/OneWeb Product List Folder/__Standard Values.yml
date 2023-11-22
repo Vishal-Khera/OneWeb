@@ -1,0 +1,25 @@
+﻿---
+ID: "4cd2f902-1dca-4397-baaf-e66ba6df84df"
+Parent: "85834245-10af-4df5-b2ee-e29d82fe97b5"
+Template: "85834245-10af-4df5-b2ee-e29d82fe97b5"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Product List Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {E47DAB27-CF96-422A-9A74-7F7F5D2CA3FC}
+    {85834245-10AF-4DF5-B2EE-E29D82FE97B5}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

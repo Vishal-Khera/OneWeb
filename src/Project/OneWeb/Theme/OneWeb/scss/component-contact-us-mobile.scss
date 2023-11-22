@@ -1,0 +1,23 @@
+// contatus link mobile view
+@import 'base/base-index.scss';
+.ow-contact-us-link{
+    padding-left: 0px;
+    .component-content{
+        .field-link{           
+                a{
+                    padding: 10px 0 0 15px;
+                    background: unset;
+                    @include font-size($md-font);
+                    border: none;
+                    outline: none;
+                    text-transform: capitalize;
+                    color: $white;
+                    font-family: 'Helvetica Neue';
+                    &:hover{
+                        color:inherit !important;
+                    }
+               }
+          
+       }
+   }
+}

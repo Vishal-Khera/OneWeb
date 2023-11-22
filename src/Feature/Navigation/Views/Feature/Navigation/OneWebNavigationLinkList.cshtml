@@ -1,0 +1,59 @@
+@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using OneWeb.Foundation.SitecoreExtensions.Models
+@using OneWeb.Foundation.Serialization
+@model Sitecore.XA.Foundation.RenderingVariants.Models.VariantListsRenderingModel
+@{
+    var index = 0;
+}
+<div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "ow-navigation-link-list", Model.Attributes)>
+    <div class="component-content">
+        @{
+            LinkModel link = new LinkModel(Model.DataSourceItem, BaseIconLink.Fields.Link_FieldName);
+            if (link != null && !string.IsNullOrWhiteSpace(link.Url))
+            {
+                @Html.Sxa().RenderHeading(Model.HeadingTag, Model.DataSourceItem, BaseIconLink.Fields.Link_FieldName, Model.GetRenderingWebEditingParams())
+            }
+        }
+        @if (Model.Rendering.DataSourceItem == null)
+        {
+            @Model.MessageIsEmpty
+        }
+        @if (!Model.Items.Any() && Model.Rendering.DataSourceItem != null)
+        {
+            using (Html.Sxa().BeginEditFrame(Html.Sitecore().CurrentRendering.DataSource, "Link Empty", Model.IsControlEditable))
+            {
+                @Model.MessageIsEmpty
+            }
+        }
+        <div class="secondary-nav-items">
+            <div class="back-to-previous">@Sitecore.Globalization.Translate.Text("OneWebNavigation-Back")</div>
+            <ul>
+                <li class="d-lg-none">
+                    <div class="field-link">
+                        @{
+                            if (link != null && !string.IsNullOrWhiteSpace(link.Url))
+                            {
+                                @Html.Sitecore().Field(BaseIconLink.Fields.Link_FieldName, Model.DataSourceItem)
+                            }
+                        }
+                    </div>
+                </li>
+                @foreach (var item in Model.Items)
+                {
+                    <li class="@ListsHelper.BuildCssClass(index, Model.Items.Count())">
+                        @using (Html.Sxa().BeginEditFrame(item.ID.ToString(), BaseIconLink.Fields.Link_FieldName, Model.IsControlEditable))
+                        {
+                            foreach (var variantField in Model.VariantFields)
+                            {
+                                @Html.RenderingVariants().RenderVariant(variantField, item, Model.RenderingWebEditingParams, Model)
+                            }
+                        }
+                    </li>
+                    index++;
+                }
+            </ul>
+        </div>
+    </div>
+</div>

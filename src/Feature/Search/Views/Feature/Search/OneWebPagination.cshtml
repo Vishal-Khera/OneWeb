@@ -1,0 +1,31 @@
+@model OneWeb.Feature.Search.Models.PaginationRenderingModel
+@using OneWeb.Foundation.Serialization
+@using OneWeb.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields
+
+@{
+    var configId = string.Empty;
+    if (!string.IsNullOrWhiteSpace(Model.ConfigurationId))
+    {
+        configId = "ow-config-id=" + Model.ConfigurationId + "";
+    }
+}
+
+	<div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "ow-pagination", Model.Attributes) @configId ow-next-text="@Model.NextText" ow-previous-text="@Model.PreviousText" ow-displayed-pages="@Model.DisplayedPages" ow-visible-edges="@Model.VisibleEdges">
+	<div class="component-content">
+		@if (Model.DataSourceItem == null)
+		{
+			@Model.MessageIsEmpty
+		}
+		else
+		{
+			foreach (BaseVariantField variantField in Model.VariantFields)
+			{
+				@Html.RenderingVariants().RenderVariant(variantField, Model.Item, Model.RenderingWebEditingParams, Model)
+			}
+		}
+	</div>
+</div>

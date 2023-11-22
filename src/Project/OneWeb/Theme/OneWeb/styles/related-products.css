@@ -1,0 +1,17 @@
+.ow-related-product-card {
+  font-family: 'HelveticaNeue-Bold'; }
+  .ow-related-product-card-image {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 30px; }
+    .ow-related-product-card-image img {
+      max-width: 100%;
+      margin: 0 auto; }
+  .ow-related-product-card-text {
+    color: #000; }
+
+.dark-theme {
+  background-color: #2B2B2B;
+  color: #fff; }
+  .dark-theme * {
+    color: inherit !important; }

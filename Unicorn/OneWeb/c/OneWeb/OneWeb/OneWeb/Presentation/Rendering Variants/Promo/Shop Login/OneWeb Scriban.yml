@@ -1,0 +1,26 @@
+﻿---
+ID: "132355e9-1e37-4c15-b9ac-ea0496744de8"
+Parent: "376093dd-9790-41b3-89fe-b1881c2fe266"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Promo/Shop Login/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{link_classes = ow_get_linkClass  i_item "PromoLink" "btn btn-primary w-100"}}
+    {{link = ow_link_model i_item "PromoLink"}}
+    {{position = sc_parameter 'IconPosition'}}
+    {{if (position == "right")}}
+    <a href= '{{link.url}}' class= '{{link_classes}}' title = '{{link.title}}' target = '{{link.target}}'>{{link.text}} {{sc_field i_item 'PromoIcon'}}</a> 
+    {{else}}
+    <a href= '{{link.url}}' class= '{{link_classes}}' title = '{{link.title}}' target = '{{link.target}}'>{{sc_field i_item 'PromoIcon'}} {{link.text}}</a> 
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T100012Z

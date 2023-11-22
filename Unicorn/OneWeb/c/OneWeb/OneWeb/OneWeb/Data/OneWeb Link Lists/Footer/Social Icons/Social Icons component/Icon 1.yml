@@ -1,0 +1,22 @@
+﻿---
+ID: "e4138936-059c-42d3-9e5e-66947c842d56"
+Parent: "bd617694-a280-4cb8-8dd7-f9115f9af7b0"
+Template: "fca1aaee-864c-4658-8fdb-75cdb4ca89be"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Link Lists/Footer/Social Icons/Social Icons component/Icon 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211123T112305Z
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://www.facebook.com/" anchor="" target="_blank" />
+    - ID: "c1ef176f-8343-4bbc-aa16-684ef202abf0"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D6750E82-0F2B-4644-8D43-2996E4E96CF0}" ></image>

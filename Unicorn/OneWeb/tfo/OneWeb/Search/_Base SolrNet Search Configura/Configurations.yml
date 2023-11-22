@@ -1,0 +1,14 @@
+﻿---
+ID: "9cd4cdf2-263f-4acc-a502-40f70588f515"
+Parent: "6f1eee41-895b-4227-a93c-0592bce1171b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/OneWeb/Search/_Base SolrNet Search Configuration/Configurations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T121033Z

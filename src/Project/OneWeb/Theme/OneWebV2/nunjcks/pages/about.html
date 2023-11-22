@@ -1,0 +1,117 @@
+{% extends "layout/layout.html" %} {% block maincontent %}
+<main>
+    <div id="content">
+
+        {% include "../templates/components/modal-popup.html" %}
+
+        <!-- Software Comparison -->
+        <div class="component container-fluid large-padding">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <div class="component row">
+                                <div class="col-6 col-md-3 py-2">
+                                    {% include "../templates/components/component-software-comparison.html" %}
+                                </div>
+                                <div class="col-6 col-md-3 py-2">
+                                    {% include "../templates/components/component-software-comparison.html" %}
+                                </div>
+                                <div class="col-6 col-md-3 py-2">
+                                    {% include "../templates/components/component-software-comparison.html" %}
+                                </div>
+                                <div class="col-6 col-md-3 py-2">
+                                    {% include "../templates/components/component-software-comparison.html" %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Media -->
+        <div class="component container-fluid large-padding">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <div class="component row">
+                                {% include "../templates/components/component-media.html" %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card List -->
+        <div class="component container-fluid large-padding">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <div class="component row">
+                                <div class="col-md-6 py-md-4">
+                                    <div class="component-content">
+                                        <div class="ow-content-card">
+                                            <div class="component-content">
+                                                {% include "../templates/components/component-card-list.html" %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 py-md-4">
+                                    <div class="component-content">
+                                        <div class="ow-content-card">
+                                            <div class="component-content">
+                                                {% include "../templates/components/component-card-list.html" %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimony Card -->
+        <div class="component container-fluid large-padding">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <div class="component row">
+                                <div class="col-md-6 py-md-4">
+                                    <div class="component-content">
+                                        <div class="ow-content-card">
+                                            <div class="component-content">
+                                                {% include "../templates/components/component-testimony-card.html" %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 py-md-4">
+                                    <div class="component-content">
+                                        <div class="ow-content-card">
+                                            <div class="component-content">
+                                                {% include "../templates/components/component-testimony-card.html" %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+</main>
+{% endblock %}

@@ -1,0 +1,27 @@
+﻿---
+ID: "4a9592d2-f84d-4c74-9b21-73280264b3c6"
+Parent: "077adb8a-9062-4a61-9755-fe8cf885dfb9"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Available Renderings/Sitecore Forms
+DB: master
+BranchID: "c67cd936-6bd9-4c62-a832-bfd19bb37cf7"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Type: TreelistEx
+  Value: "{6AB4EE29-CB78-4DCE-A316-3E6C3D5513F5}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3B2007C2-4C8D-4A2F-94D5-843169B102AB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T074225Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

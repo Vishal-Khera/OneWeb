@@ -1,0 +1,48 @@
+﻿---
+ID: "c904de9f-7ad8-46c0-9aa8-e7fc474c366e"
+Parent: "2c38d6d0-fe27-4950-ba9a-1ac982e9fa5d"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Navigation/P2 Navigation/Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="navigation-wrapper">
+    {{-if o_model && o_model.children.size>0-}}
+        {{if sc_parameter 'HoverEnabled'}}
+          {{hoverEnabledClass = 'hoverEnabled'}}
+        {{else}}
+          {{hoverEnabledClass = ''}}
+        {{end}}	
+        <nav class="navbar navbar-expand-lg main-navigation {{hoverEnabledClass}}">
+          <div class="collapse navbar-collapse" id="main_nav">
+              <ul class="navbar-nav">
+    		  {{var_index = 0}}		
+                  {{-for menu_item in o_model.children-}}                
+                          <li class="nav-item dropdown has-dropdown {{activeClass}}">
+                              <a class="nav-link dropdown-toggle {{menu_item.css_class}}" href="{{-menu_item.link.url-}}" data-toggle="dropdown" target="{{-menu_item.link.target-}}" anchor="{{-menu_item.link.anchor-}}">{{-menu_item.title-}}</a>	 
+    							{{ var_index = var_index+1}}
+    							{{sc_placeholder 'ow-navigation-content*' + var_index }}             
+    					   </li>
+    			{{-end-}}       						  
+              </ul>
+          </div>
+        </nav>
+    {{-end-}}
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211127T153344Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

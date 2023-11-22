@@ -1,0 +1,22 @@
+﻿---
+ID: "c1740699-a0aa-4b2e-b900-f6d368147e21"
+Parent: "29785ad1-bb99-4e8b-b46d-d531059e0ec4"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Link/Footer Contact Us/Contact Us
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{linkModel = ow_link_model i_item 'Link'}}
+    {{if linkModel.url && linkModel.text}} 
+     <h4> {{sc_field i_item 'Link'}}</h4>
+    {{-end-}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211223T082447Z

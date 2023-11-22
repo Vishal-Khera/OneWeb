@@ -1,0 +1,64 @@
+
+@import 'base/base-index.scss';
+.btn{
+    padding: 10px 18px;
+    text-transform: uppercase;
+    @include border-radius(0%);  
+    transition: .3s all;
+    font-size: 15px;
+}
+.btn-primary{
+    background:$primary !important;
+    color: $white !important;
+    border:3px solid $primary !important;
+    &:hover{
+        background:$primary !important;
+        color: $white !important;
+        border:3px solid $primary !important;
+        outline: none;
+    }
+    &:focus,&:active{
+        box-shadow: none !important;
+        border:3px solid $white !important;
+        outline: none;
+    } 
+}
+
+.btn-tertiary {
+    background:transparent;
+    color: $black !important;
+    border:3px solid $black !important;
+    &:hover{
+        background:transparent;
+        color: $black !important;
+        border:3px solid $black !important;  
+        outline: none;
+    }
+    &:focus,&:active{
+        background:$primary !important;
+        border:3px solid $black !important;
+        color: $black !important;
+        box-shadow: none !important;
+        outline: none;
+    }  
+}
+
+.btn-secondary{
+    background:$dark-gray;
+    color: $white !important;
+    border:2px solid $dark-gray !important;
+    &:hover{
+        background:$dark-gray;
+        color: $white !important;
+        border:2px solid $dark-gray !important;
+        outline: none;
+    }
+    &:focus,&:active{
+        background:$dark-gray !important;
+        border:2px solid $white !important;
+        color: $white !important;
+        box-shadow: none !important;
+        outline: none;
+    }
+}
+

@@ -1,0 +1,14 @@
+﻿---
+ID: "4a678f5d-94f0-4588-9c0b-af082ac8f575"
+Parent: "f15e0f5d-4c76-4caa-ad13-00ed98465b16"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Themes/OneWeb/OneWeb/OneWeb/OneWebV2/sass/abstracts/vars
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170613T150639Z

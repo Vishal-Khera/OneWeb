@@ -1,0 +1,17 @@
+﻿---
+ID: "b09187c2-7017-48c6-898c-28add2b6f87b"
+Parent: "f51d3a48-392c-4d2b-adbd-b6d392c93a9f"
+Template: "7501c76d-ca5a-4436-b9d6-1330d295f3fa"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Text With Placeholder/Creaform Education Detail/Slider
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220824T192431Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Slider

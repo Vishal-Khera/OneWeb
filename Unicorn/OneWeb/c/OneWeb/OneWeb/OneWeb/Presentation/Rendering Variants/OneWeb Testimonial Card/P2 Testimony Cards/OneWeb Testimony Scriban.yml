@@ -1,0 +1,62 @@
+﻿---
+ID: "b224d738-4a67-4d59-8e0a-d17a7ecd43b9"
+Parent: "1654e3f3-699b-447c-9d94-a0c581f4a326"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Testimonial Card/P2 Testimony Cards/OneWeb Testimony Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{media_model = ow_media_model i_item "Image"
+        if(media_model.url|string.size < 0)
+            media_model.url= ""
+        end
+    }}
+                                        {{primary_link_classes = ""}}
+                                        {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+                                            if( primary_filtered_classes)
+                                            if(primary_filtered_classes.class | string.size) > 0
+                                                primary_link_classes = primary_link_classes + primary_filtered_classes.class
+                                            end
+                                            end}}
+                                    {{link_model = ow_link_model i_item 'PrimaryLink'}}
+                                    
+                                    {{if i_item.Image | string.size > 0}}
+                                <div class="card testimony-card">
+                                    <div class="card-image">
+                                        
+                                        <img class="ow-lazy"  data-src = "{{media_model.url}}" alt="{{media_model.alt}}" title="{{media_model.title}}" />
+                                        {{ if(link_model.url != "") }}
+                                        <a class="ow-play-button video-modal" href="{{link_model.url}}" title="{{link_model.title}}">
+                                            <i class="icon-play-btn"></i>
+                                        </a>
+                                        {{end}}
+                                    </div>
+                                    {{end}}
+                                    <div class="card-body">
+                                    {{if i_item.Content | string.size > 0}}
+                                        <div class="card-title">
+                                            {{i_item.Content}}
+                                        </div>
+                                    {{end}}
+                                    {{if i_item.Title | string.size > 0}}
+                                        <div class="card-subtitle">
+                                            {{i_item.Title}}
+                                        </div>
+                                    {{end}}
+                                    {{if i_item.Subtext | string.size > 0}}
+                                        <div class="card-text">
+                                            {{i_item.Subtext}}
+                                        </div>
+                                    {{end}}
+                                    </div>        
+                                </div>                                
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220725T125211Z

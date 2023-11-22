@@ -1,0 +1,20 @@
+﻿---
+ID: "d9006073-e706-46c5-ad7f-a5412594e12c"
+Parent: "846870d6-6223-41fb-8f20-7d621b34268c"
+Template: "7d4c4208-af1e-4876-904d-3baa749b31df"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Header Strip/TopStrip
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220325T090852Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: TopStrip
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: Telguard AT&amp;T 3G Communicators will continue to transmit alarm signals <b>past February 22, 2022</b>

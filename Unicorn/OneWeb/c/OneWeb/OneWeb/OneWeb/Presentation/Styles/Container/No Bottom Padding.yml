@@ -1,0 +1,18 @@
+﻿---
+ID: "9eabb855-a15e-49fc-a37b-50e140944c1c"
+Parent: "74318771-3388-4f15-9968-d5f5e5b64dcc"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Styles/Container/No Bottom Padding
+DB: master
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "no-bottom-padding"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220922T084243Z

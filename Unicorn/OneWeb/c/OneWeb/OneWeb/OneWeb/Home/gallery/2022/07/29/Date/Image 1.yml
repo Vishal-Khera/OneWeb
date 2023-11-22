@@ -1,0 +1,26 @@
+﻿---
+ID: "bc3619f9-cec3-4005-a917-b114fdfd48ae"
+Parent: "942ab8f7-ab26-4f85-8c71-098c079c623b"
+Template: "fcce0824-4ce9-4d46-b19f-45b60f9ab77e"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/gallery/2022/07/29/Date/Image 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: |
+        <link linktype="media" target="" id="{B1E72EAF-19ED-429E-B528-1A2C106726DA}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230407T070644Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8a9e8fc5-0cc0-4e55-bc95-b7d0f6b7e23e"
+      Hint: Media
+      Value: |
+        <file mediaid="{59B75799-F16A-48B5-A62E-5DECCD6F044D}" src="-/media/59B75799F16A48B5A62E5DECCD6F044D.ashx" />

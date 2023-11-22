@@ -1,0 +1,64 @@
+@import 'base/base-index.scss';
+
+.ow-locations{
+    .locations-wrapper{
+        margin: 15px 0px;
+        box-shadow: 0px 3px 6px #00000029;
+        .ow-card-content{
+            display: flex;
+            flex-wrap: wrap;
+            h3{
+                @include font-size($sxxl-font);
+                font-family: 'HelveticaNeue-Bold';
+                padding: 10px 0px;
+                border-bottom: 2px solid $mid-light-gray;
+            }
+            .locations{
+                padding-top: 10px;
+                padding-bottom: 50px;
+                .rte_content{
+                    display: inline-block;
+                }
+                @media (max-width:767px) {
+                    padding-bottom: 10px;
+                }
+                .locations-detail{
+                    padding-bottom: 15px;
+                    border-bottom: 2px solid $mid-light-gray;
+                    h4{
+                        font-family: 'HelveticaNeue-Bold';
+                        @include font-size($md-font);
+                    }
+                    p{
+                        font-family: 'HelveticaNeue-Light';
+                        margin-bottom: 0px;
+                    }
+                    a{
+                        color: inherit;
+                        display: inline-block;
+                    }
+                }
+                .locations-info{
+                    padding: 15px 0px;
+                    display: grid;
+                    font-family: 'HelveticaNeue-Bold';
+                    @include font-size($sm-font);
+                    a{  
+                        color: $black !important;
+                        width: max-content;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: baseline;
+                    }
+                    a.web-link{
+                        color: $primary !important;
+                        border-bottom: 1px solid $primary;
+                        .sr-only{
+                            color:$black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

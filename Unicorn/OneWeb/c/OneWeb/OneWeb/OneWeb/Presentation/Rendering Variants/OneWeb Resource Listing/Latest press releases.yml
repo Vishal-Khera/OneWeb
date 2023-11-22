@@ -1,0 +1,19 @@
+﻿---
+ID: "87a0a4f7-269d-4586-b8b4-23952a61f74a"
+Parent: "1b34d350-4313-44df-b7d7-863953a6529d"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Resource Listing/Latest press releases
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{78F70F97-91AB-491D-BD7E-021BBD0B196A}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220211T144032Z

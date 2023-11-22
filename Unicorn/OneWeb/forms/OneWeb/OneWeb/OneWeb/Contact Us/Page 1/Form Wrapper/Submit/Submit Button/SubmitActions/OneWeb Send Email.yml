@@ -1,0 +1,29 @@
+﻿---
+ID: "cfca6c75-d076-4bb2-ad91-a3752066f654"
+Parent: "4adf505e-537e-45bf-919d-95797724e367"
+Template: "05fe45d4-b9c7-40de-b767-7c5abe7119f9"
+Path: /sitecore/Forms/OneWeb/OneWeb/OneWeb/Contact Us/Page 1/Form Wrapper/Submit/Submit Button/SubmitActions/OneWeb Send Email
+DB: master
+SharedFields:
+- ID: "5c796924-3f06-4d1f-8510-8ad9a4244477"
+  Hint: Parameters
+  Value: |
+    {"from":"noreply@altudo.co","to":"[Email Address]","subject":"Ametek Contact Us Successfully Submitted","message":"Below are your details - <br></div><br/>\n\nFirst Name - [First Name]<br/>\nLast Name - [Last Name]<br/>\nCompany Name - [Company Name]<br/>\nEmail Address - [Email Address]<br/>\nCountry - [Country]<br/>\nQuestion or Comment - [Question or Comment]<br/>\nConsent - [Consent]<br/><br/>\n\nThank You","isHtml":false}
+- ID: "abc57b6d-5542-4ab9-a889-106225a032e6"
+  Hint: Submit Action
+  Value: "{E3A7B6B9-F443-468D-A57C-252CB0F28170}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211205T165335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

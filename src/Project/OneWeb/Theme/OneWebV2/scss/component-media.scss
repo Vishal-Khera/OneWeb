@@ -1,0 +1,95 @@
+@import 'base/base-index.scss';
+
+.media-wrapper {
+    width: 100%;
+    // @include md{
+    //     padding: 0px 15px;
+    // }
+    &__media{
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 2;
+        }
+    
+        img {
+            width: 100%;
+            max-height: 600px;
+        }
+    
+        video {
+            width: 100%;
+        }
+    
+        video::-webkit-media-controls-panel {
+            display: none !important;
+            opacity: 1 !important;
+        }
+    
+        .play-control {
+            position: absolute;
+            z-index: 3;
+            top: 10px;
+            right: 10px;
+            background-color: $ash-gray;
+            height: 25px;
+            width: 25px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            @include border-radius(50%);
+    
+            @include md {
+                top: 25px;
+                right: 25px;
+            }
+
+            button{
+                &:focus, &:focus-visible{
+                    outline: none;
+                }
+            }
+    
+            .play-button {
+                position: absolute;
+                left: 8px;
+                cursor: pointer;
+                border: 0;
+                box-sizing: border-box;
+                width: 0;
+                height: 11px;
+                background: transparent;
+                border-style: double;
+                border-width: 0px 0 0px 9px;
+                border-color: transparent transparent transparent #202020;
+                transition: 0.1s all ease;
+                opacity: 0.4;
+            }
+    
+            &.paused {
+                .play-button {
+                    border-style: solid;
+                    border-width: 5px 0 5px 8px;
+                    left: 9px;
+                }
+            }
+        }
+    }
+    &__caption{
+        padding-top: 5px;
+        color: $mediumblack;
+        @include font-size($sssmd-font);
+        *{
+            font-family: $franklinMd !important;
+        }
+        @include md{
+            //padding: 0px;
+            padding-top: 10px;
+        }
+    }
+}

@@ -1,0 +1,172 @@
+﻿---
+ID: "40ba3e3e-3603-4f69-a8f3-5085c8884763"
+Parent: "1dabcf4c-9c5e-443e-9672-8f29fd9c3f0f"
+Template: "e84e0893-0809-46c8-bfa5-1233e978908b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Settings
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "05e03a40-4b4a-4ad8-8f86-e29da6feadb3"
+  Hint: CompositeTheme
+  Value: "{837FB415-3A7C-41EA-822C-F4D742A840AA}"
+- ID: "07169859-2d91-46cc-a4da-5900bf492869"
+  Hint: Default PPT Icon
+  Value: "fa fa-file-powerpoint-o"
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {11F57D7B-CBB2-4647-B98C-71457564BA4F}
+    {0D792404-79AA-483D-BB0C-50785F2E295B}
+    {F86FE270-00A4-492F-BFAF-5BF27E40CE13}
+    {E1CF805E-7F49-4EC9-A25A-182DC798CB5F}
+    {DC66D5DA-3216-48E6-AE78-BAC8445B6A46}
+    {70461699-48E4-45FA-B74B-0CCE849FCA6A}
+    {5A6BF1D1-836B-425A-A6E6-32CEAA8FF3A5}
+    {B14BAB5B-8965-466B-886B-1F93175BCAB3}
+    {041C1F9F-99A4-4EE6-8308-985499F91032}
+- ID: "2bbd6f57-8adc-4e7c-89c3-b3db22e07518"
+  Hint: Default DOC Icon
+  Value: "fa fa-file-word-o"
+- ID: "2dcb14c8-22ba-4b5b-9d6d-c64b87d793cd"
+  Hint: API Settings
+  Value: "{F7911BF7-92A2-4542-9DB0-5DE53384A48B}"
+- ID: "64971fa7-f8ac-4c88-9bb2-2949f2a28670"
+  Hint: RobotsContent
+  Value: 
+- ID: "6d97c6b1-ca0e-4b17-8ead-c819a92933e4"
+  Hint: Default Video Icon
+  Value: "fa fa-file-video-o"
+- ID: "883a8782-2307-48c0-b3ce-bac005d2d090"
+  Hint: Default PDF Icon
+  Value: "fa fa-file-pdf-o"
+- ID: "acbae42a-2da4-40b6-a537-0d530c73f1d7"
+  Hint: Default One Web Product List Image
+  Value: |
+    <image mediaid="{CD02C1AC-4376-406A-B44C-8595CC065017}" />
+- ID: "ad84cc6b-32ef-49d8-9326-916976cb2520"
+  Hint: Grid Mapping
+  Value: "%7bFE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3%7d%3d%257B9992045A-61ED-4624-8DD5-33E61E11A6DA%257D"
+- ID: "af332c24-fe17-41e7-8caf-8e64c588fe72"
+  Hint: EditingTheme
+  Value: "{2214FC29-D2ED-4689-B1FE-D1D56AA3EA99}"
+- ID: "b31a3b74-d75c-477a-be16-f44c4593dfe9"
+  Hint: Favicon
+  Value: 
+- ID: "beeede03-ab13-4558-96f9-c3e8957b46f8"
+  Hint: Themes
+  Type: Treelist
+  Value: |
+    {2214FC29-D2ED-4689-B1FE-D1D56AA3EA99}
+    {E065E5C0-4FA6-4323-9A9F-492233CC10A3}
+    {C52773EF-8365-4FDE-80E7-C773FFBDC7D7}
+- ID: "c3c93e55-7321-4008-a60a-cdfc6007d8df"
+  Hint: Default Display Tag Count
+  Value: 2
+- ID: "cb3996a8-1222-4586-92c8-325f9736e086"
+  Hint: Fonts
+  Type: Treelist
+  Value: |
+    {EDFF4EF3-57B1-4247-A6E1-A2341FE4DF1A}
+    {BDDC2F3C-050D-464D-8972-87B8FA20B089}
+    {98D26EB1-B201-40DC-BEA8-4AA03A44BDFD}
+    {31085346-3239-42EB-B0A9-193676B729BF}
+    {87CE7006-F33D-443F-BB4C-EDC02867311E}
+- ID: "e81e1f9e-8b87-495b-9cb7-84a2a23133be"
+  Hint: MediaLibrary
+  Value: "{FA58903C-FCA5-4ABF-9428-B0F7A95A319A}"
+- ID: "e8881464-38af-4655-be4a-ee10586578a2"
+  Hint: Templates
+  Value: "{0B5AEC76-E247-40D7-9005-3451FCB625F8}"
+- ID: "f463ba14-28b5-4972-be33-9954025bd0ba"
+  Hint: CustomRenderingViewPath
+  Value: ~/OneWeb
+- ID: "f56ed797-f5ed-4fc9-8813-2d9fd0462802"
+  Hint: Default Home Breadcrumb Icon
+  Value: |
+    <image mediaid="{01B53A21-C3FE-4A30-97EE-A08C3D5348BF}" />
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{3E739E69-859C-4694-8D14-2BA6CA779CC6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03922fe9-9b2a-450a-aa7d-755ff16683d3"
+      Hint: Default Promo Card Image
+      Value: |
+        <image mediaid="{39D29928-8409-4062-B45F-AE724975E97F}" />
+    - ID: "25136c02-ccf3-43eb-94ac-2b89cbc1f183"
+      Hint: Default Content Card Mobile Image
+      Value: |
+        <image mediaid="{2823E5A5-D517-4425-8F33-D643114AC820}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211114T074155Z
+    - ID: "348220fb-0eac-4994-8c6d-57c52bffdb54"
+      Hint: Default Product Card Mobile Image
+      Value: |
+        <image mediaid="{241DE78D-0B2E-4422-9AFC-D9E9D0BE5DFA}" />
+    - ID: "3edd4fc9-caa8-4a1d-b861-bab6ce818b83"
+      Hint: External Scripts
+      Value: 
+    - ID: "4d911040-a949-446f-8c24-da884dc12eba"
+      Hint: Default Promo Card Mobile Image
+      Value: |
+        <image mediaid="{39D29928-8409-4062-B45F-AE724975E97F}" />
+    - ID: "512e0c10-277e-4308-91df-2d2741c01482"
+      Hint: Video Popup Variant
+      Value: "{FA154955-9D47-44BC-843B-F933138126C1}"
+    - ID: "55ad52eb-dc28-4a8f-9d7a-753978934063"
+      Hint: Integrations
+      Type: Treelist
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6765a102-2568-40d4-aaa3-cadfe4b32184"
+      Hint: Applications Page
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{84664C45-0556-40AA-8B4D-CF52074DCC69}" />
+    - ID: "88048357-6da6-4ae4-b8d4-ea12765e5723"
+      Hint: Secondary CDN Enabled
+      Type: Checkbox
+      Value: 0
+    - ID: "95a15fbe-0de3-4078-addc-067494c601b6"
+      Hint: News Date Format
+      Value: dddd, MMMM d, yyyy
+    - ID: "a0467a44-8a6b-48e5-8a43-6826635ae623"
+      Hint: Default Date Format
+      Value: MMMM dd, yyyy
+    - ID: "a694f038-ae39-47ad-ace1-d1f6cd1049fb"
+      Hint: External Links
+      Value: |
+        <script src="https://kit.fontawesome.com/2356e544d0.js" crossorigin="anonymous" defer async></script>
+    - ID: "c5ddf9c6-694b-4fe2-9596-11ec86c1c797"
+      Hint: Default Content Card Image
+      Value: |
+        <image mediaid="{2823E5A5-D517-4425-8F33-D643114AC820}" />
+    - ID: "ca1c819f-0275-43c6-8dd9-9878d20ef01b"
+      Hint: Events Date Format
+      Value: dd MMM yyyy
+    - ID: "d68aee9a-dd44-4084-aaed-474d818c6dbb"
+      Hint: Default Product Card Image
+      Value: |
+        <image mediaid="{241DE78D-0B2E-4422-9AFC-D9E9D0BE5DFA}" />
+    - ID: "d6d04d54-c77e-4851-b270-182be7018911"
+      Hint: Default Hero Banner Image
+      Value: |
+        <image mediaid="{2DD57236-9432-43A1-9648-03A95F0174EB}" />
+    - ID: "dd8e52ff-d66a-40c1-a0c4-95cdf9abed97"
+      Hint: Industries Page
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{0751CF22-2843-4F7E-AC72-71281DBD4170}" />
+    - ID: "f3dc8dff-ac25-41c4-b819-aff8fa3563fb"
+      Hint: External Styles
+      Value: 
+    - ID: "fc642d94-aaa4-46da-b712-3b8575dde956"
+      Hint: Default Play Image
+      Value: |
+        <image mediaid="{CE9BBEEA-4B15-4F2F-8D65-6A0D10B48EFE}" />

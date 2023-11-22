@@ -1,0 +1,20 @@
+﻿---
+ID: "bdbadeab-526a-4689-8656-02894dffe464"
+Parent: "3e9096c2-273c-45d0-86c2-8955f5e4b70e"
+Template: "3e9096c2-273c-45d0-86c2-8955f5e4b70e"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Events/OneWeb Events/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T112128Z
+    - ID: "789d1621-02ff-4b0a-a658-84ca9e13dcbf"
+      Hint: End Date
+      Value: $date
+    - ID: "e0c95825-ace3-44ed-ba2f-127c799918e2"
+      Hint: Start Date
+      Value: $date

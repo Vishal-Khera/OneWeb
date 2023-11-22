@@ -1,0 +1,18 @@
+﻿---
+ID: "1cf31a07-ec6c-42f5-99c5-8fab57346e7c"
+Parent: "3aab6472-670f-4713-a785-3afbf8c6cd57"
+Template: "6a17fd68-e31c-422e-9485-24492d5ebc5f"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Header Contents/H04 Resource Header
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220810T095604Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

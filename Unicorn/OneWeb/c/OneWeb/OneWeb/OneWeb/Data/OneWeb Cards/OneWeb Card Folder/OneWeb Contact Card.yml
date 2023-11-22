@@ -1,0 +1,33 @@
+﻿---
+ID: "d7b51d3b-17c4-4a70-93d6-903246928613"
+Parent: "614ceb24-f3be-4525-9c1c-7345c0e96011"
+Template: "0d4f3a61-243a-42a9-a33c-9f054e02449b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Cards/OneWeb Card Folder/OneWeb Contact Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220701T032710Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: OneWeb Card
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: |
+        <div class="right-contact-details">
+        <ul>
+            <li class="phone-number">
+            <a href="tel:610-647-2121">
+            <em class="fa fa-phone-alt fa-w-16" aria-hidden="true"></em> Tel:610-647-2121</a>
+            </li>
+            <li class="mailto">
+            <a href="mailto:info.corp@ametek.com">
+            <em class="fa fa-envelope fa-w-16" aria-hidden="true"></em> Email: info.corp@ametek.com</a>
+            </li>
+            <li class="contact-timings">Monday to Friday from 8:00AM - 5:00PM</li>
+        </ul>
+        </div>

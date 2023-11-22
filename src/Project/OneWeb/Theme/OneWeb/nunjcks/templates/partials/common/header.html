@@ -1,0 +1,122 @@
+<header>
+<div class="container-fluid py-0">
+    <div class="row">
+        <div class="col-12 light-gray-background">
+            {% include "../../components/header-toolbar.html" %}
+        </div>
+    </div>
+</div>
+<div class="container-fluid py-0">
+    <div class="row">
+        <div class="col-12 mega-menu-bg text-center">
+            {% include "../../components/menustrip.html" %}
+        </div>
+    </div>
+</div>
+    <div id="header">
+	<div class="component container col-12">
+        <div class="component-content"> 
+            <div class="row">
+                <div class="col-1 d-flex d-lg-none">
+                    <div class="component-content">
+                        <div class="component rich-text">
+                            <div class="component-content">
+                                <div class="handburger"> 
+                                    <span> </span> 
+                                    <span> </span> 
+                                    <span> </span> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <div class="component-content">
+                        <div class="component image file-type-icon-media-link">
+                            <div class="component-content">
+                                <a title="Default Logo" href="/">
+                                    <img src="images/logo.png" alt="logo" width="216" height="33">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="component link col-12">
+                            <div class="component-content">
+                                <div class="field-link">
+                                    <a href="#mainContent" class="skip-content">Skip to content</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-8 mobile-menu space-1">
+                    <div class="component-content"> 
+                        <div class="row component column-splitter">
+                            <div class="col-lg-9 order-1 order-lg-0">
+                                <div class="component ow-navigation">
+                                    <div class="component-content">
+                                        {% include "../../components/main-nav.html" %}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 order-0 order-lg-1">
+                                <div class="global-search component ow-search-box global-header">
+                                    <span class="sr-only">global-search</span>
+                                    <input type="text" placeholder="search" />
+                                    <label class="fa search_icon" for="global-search" aria-hidden="true">
+                                        <span class="sr-only">global-search</span>
+                                    </label>
+                                    <a class="clear-text" href="javascript:void(0)">
+                                        <span class="sr-only">cross-icon</span>
+                                    </a>
+                                    <div class="ow-container d-none">
+                                    <div class="result-item-wrapper"> 
+                                        <div class="result-value"> 12 results for <span class="primary-color">Services</span></div>
+                                        {% include "../../components/search-result.html" %}
+                                        {% include "../../components/search-result.html" %}
+                                    </div>
+                                </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="component column col-5 col-lg-2 pl-0">
+                    <div class="component ow-language-selector"> 
+                        <div class="language"> 
+                            <i class="fas fa-globe"></i>
+                            <div class="select-box">
+                            <select class="js-language">
+                                <option value="EN"> EN </option>
+                                <option value="sp"> SP </option>
+                                <option value="de"> DE </option>
+                                <option value="it"> IT </option>
+                            </select>
+                            
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="component image file-type-icon-media-link d-block d-lg-none mobile-search float-right">
+                        <div class="component-content">
+                            <a title="Search Mobile" href="javascript:void(0)">
+                                <img src="images/search-icon-red.svg" alt="search icon">
+                            </a>
+                        </div>
+                        <!-- <img src="images/search-icon-red.svg" alt="search-icon" /> -->
+                    </div>
+                <div class="component link d-none d-lg-block">
+                    <div class="component-content">
+                        <div class="field-link">
+                            <a href="#">Contact Us</a>
+                        </div>    
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</header>

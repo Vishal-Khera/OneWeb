@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Creaform</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.12.2/dist/css/uikit.min.css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-accordion.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-alphabetic-filter.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-banner.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-banner-data-value.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-banner-video.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-block-image.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-breadcrumb.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-business.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-business-list.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-business-support.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-button.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-card-business.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-card-tile.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-client-industry.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-column.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-contactus.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-copyright.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-custom-modal.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-data-counter.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-decoupled.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-email-signup.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-filter-facet.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-filter-search.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-footer.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-form.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-global.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-global-search.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-grid-list-view.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-header.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-language.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-location-card.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-mega-nav.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-news.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-news-item.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-phone-number.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-search-result.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-sidebar.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-sitemap.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-skip-content.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-social-icon.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-unsubscribe-form.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-video.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/content-tabs.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/grid-list-view.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/image-carousal.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/slick.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/slick-theme.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/sliderbar-nav.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-mega-strip.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-main-navigation.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/map-popover.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/related-products.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/banner-with-search.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/header-toolbar.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/image-gallery.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/teams-card.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/grid-tabs.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/employee-carousal.css" type="text/css" />
+	<link rel="stylesheet" href="../../Theme/OneWeb/styles/component-countdown.css" type="text/css" />
+	
+	<link rel="stylesheet" href="styles/slider-image-items.css" type="text/css" />
+	
+	<link rel="stylesheet" href="styles/component-header.css" type="text/css" />
+	<link rel="stylesheet" href="styles/footer.css" type="text/css" />
+	<link rel="stylesheet" href="styles/main-navigation.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-global.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-language-dropdown.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-hamburger.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-text.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-button.css" type="text/css" />
+	<link rel="stylesheet" href="styles/icomoon-fonts.css" type="text/css" />
+	<link rel="stylesheet" href="styles/video-player.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-breadcrumb.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-engineering-header.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-drawer-media.css" type="text/css" />
+	<link rel="stylesheet" href="styles/bootstrap-overight.css" type="text/css" />
+	<link rel="stylesheet" href="styles/component-grid-container.css" type="text/css" />
+	<link rel="stylesheet" href="styles/banner-image-text-centre.css" type="text/css" />
+	
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body class="light-theme">
+	<!--header-->
+	
+	<header>
+    <div id="header">
+        <div class="container-fluid engineering-header">
+            <div class="component-content">
+                <div class="row ow-secondary-header">
+                    <div class="container">
+    <div class="component-content">
+        <div class="row">
+            <div class="col-6 main-logo">
+                <div class="component-content">
+                    <div class="component image file-type-icon-media-link">
+                        <div class="component-content">
+                            <a title="Default Logo" href="/">
+                                <img src="images/creaform-logo-blue.svg" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="component image file-type-icon-media-link">
+                        <div class="component-content">
+                            <a title="Default Logo" href="/">
+                                <img src="images/ametek-logo.svg" alt="logo"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 text-right secondary-nav-top">
+                <div class="component-content">
+                    <div class="component link">
+                        <div class="component-content">
+                            <div class="field-link">
+                                <a href="/">Contact Us </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component link">
+                        <div class="component-content">
+                            <div class="field-link">
+                                <a href="/">Careers <span class="link-career">14</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component ow-language-selector">
+                        <div class="language">
+                            <i class="fas fa-globe"></i>
+                            <div class="select-box">
+                                <select class="js-language">
+                                    <option value="EN"> EN </option>
+                                    <option value="sp"> SP </option>
+                                    <option value="de"> DE </option>
+                                    <option value="it"> IT </option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+                    
+                </div>
+                <div class="row ow-primary-header">
+                    <div class="container">
+                        <div class="component-content">
+                            <div class="row primary-nav-wrapper">
+                                <div class="col-6 col-lg-9 d-flex align-items-center">
+                                    <div class="component rich-text hamburger-wrapper d-block d-lg-none">
+                                        <div class="component-content">
+                                            <div class="hamburger-mobile"> 
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                    <div class="component image file-type-icon-media-link mobile-logo">
+                                        <div class="component-content">
+                                            <a title="Default Logo" href="/">
+                                                <img src="images/mobile-logo.svg" alt="logo"></a>
+                                        </div>
+                                    </div>
+                                    <div class="component image file-type-icon-media-link mobile-logo-white">
+                                        <div class="component-content">
+                                            <a title="Default Logo" href="/">
+                                                <img src="images/mobile-logo-white.svg" alt="logo"></a>
+                                        </div>
+                                    </div>
+                                    <div class="navigation-wrapper">
+                                        <nav class=" navbar navbar-expand-lg main-navigation ">
+    <div class="collapse navbar-collapse justify-content-end" id="main_nav">
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown has-dropdown">
+                <a class="nav-link" href="https://www.google.com/">Products </a>
+            </li>
+            <li class="nav-item dropdown has-dropdown">
+                <a class="nav-link dropdown-toggle" href="https://www.google.com/" data-toggle="dropdown"> Solutions </a>
+                <div class="dropdown-menu full-width container-fluid">
+                    <div class="component-content">
+                        <div class="container"> 
+                            <div class="multipal-col row">
+                                <div class="col-lg-4 sub-item">
+                                    <div class="component ow-link-list">
+                                        <div class="component-content">
+                                            <h4><a href="https://www.google.com/">Metrology</a></h4>
+                                            <div class="secondary-nav-items">  
+                                                <div class="back-to-previous">
+                                                    Back
+                                                </div> 
+                                                <ul>
+                                                    <li class="item0 odd first">
+                                                        <div class="field-link"><a href="#">Product development & design </a></div>
+                                                    </li>
+                                                    <li class="item1 even">
+                                                        <div class="field-link"><a href="#">Reverse engineering</a></div>
+                                                    </li>
+                                                    <li class="item2 odd">
+                                                        <div class="field-link"><a href="#">Quality control & quality assurance</a></div>
+                                                    </li>
+                                                    <li class="item3 even">
+                                                        <div class="field-link"><a href="#">Maintenance, repair & overhaul</a></div>
+                                                    </li>
+                                                    <li class="item4 odd">
+                                                        <div class="field-link"><a href="#">Medical</a></div>
+                                                    </li>
+                                                    <li class="item5 even last">
+                                                        <div class="field-link"><a href="#">Other applications</a></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 sub-item">
+                                    <div class="component ow-link-list">
+                                        <div class="component-content">
+                                            <h4><a href="https://www.google.com/">Metrology</a></h4>
+                                            <div class="secondary-nav-items">  
+                                                <div class="back-to-previous">
+                                                    Back
+                                                </div> 
+                                                <ul>
+                                                    <li class="item0 odd first">
+                                                        <div class="field-link"><a href="#">Product development & design </a></div>
+                                                    </li>
+                                                    <li class="item1 even">
+                                                        <div class="field-link"><a href="#">Reverse engineering</a></div>
+                                                    </li>
+                                                    <li class="item2 odd">
+                                                        <div class="field-link"><a href="#">Quality control & quality assurance</a></div>
+                                                    </li>
+                                                    <li class="item3 even">
+                                                        <div class="field-link"><a href="#">Maintenance, repair & overhaul</a></div>
+                                                    </li>
+                                                    <li class="item4 odd">
+                                                        <div class="field-link"><a href="#">Medical</a></div>
+                                                    </li>
+                                                    <li class="item5 even last">
+                                                        <div class="field-link"><a href="#">Other applications</a></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 sub-item">
+                                    <div class="component ow-link-list">
+                                        <div class="component-content">
+                                            <h4><a href="https://www.google.com/">Metrology</a></h4>
+                                            <div class="secondary-nav-items">  
+                                                <div class="back-to-previous">
+                                                    Back
+                                                </div> 
+                                                <ul>
+                                                    <li class="item0 odd first">
+                                                        <div class="field-link"><a href="#">Product development & design </a></div>
+                                                    </li>
+                                                    <li class="item1 even">
+                                                        <div class="field-link"><a href="#">Reverse engineering</a></div>
+                                                    </li>
+                                                    <li class="item2 odd">
+                                                        <div class="field-link"><a href="#">Quality control & quality assurance</a></div>
+                                                    </li>
+                                                    <li class="item3 even">
+                                                        <div class="field-link"><a href="#">Maintenance, repair & overhaul</a></div>
+                                                    </li>
+                                                    <li class="item4 odd">
+                                                        <div class="field-link"><a href="#">Medical</a></div>
+                                                    </li>
+                                                    <li class="item5 even last">
+                                                        <div class="field-link"><a href="#">Other applications</a></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                </div>
+            </li>
+
+            <li class="nav-item dropdown has-dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"> Resources </a>
+                
+                <div class="dropdown-menu single-col container-fluid">
+                    <div class="component-content">
+                        <div class="container"> 
+                            <div class="multipal-col row">
+                                <div class="col-lg-12 sub-item">
+                                    <div class="component ow-link-list">
+                                        <div class="component-content">
+                                            <h4><a href="https://www.google.com/">Metrology inter</a></h4>
+                                            <div class="secondary-nav-items">  
+                                                <div class="back-to-previous">
+                                                    Back
+                                                </div> 
+                                                <ul>
+                                                    <li class="item0 odd first">
+                                                        <div class="field-link"><a href="#">Product development & design </a></div>
+                                                    </li>
+                                                    <li class="item1 even">
+                                                        <div class="field-link"><a href="#">Reverse engineering</a></div>
+                                                    </li>
+                                                    <li class="item2 odd">
+                                                        <div class="field-link"><a href="#">Quality control & quality assurance</a></div>
+                                                    </li>
+                                                    <li class="item3 even">
+                                                        <div class="field-link"><a href="#">Maintenance, repair & overhaul</a></div>
+                                                    </li>
+                                                    <li class="item4 odd">
+                                                        <div class="field-link"><a href="#">Medical</a></div>
+                                                    </li>
+                                                    <li class="item5 even last">
+                                                        <div class="field-link"><a href="#">Other applications</a></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                </div>
+            </li>
+            <li class="nav-item dropdown has-dropdown"><a class="nav-link" href="javascript:void(0)"> Services & Support </a></li>
+            <li class="nav-item dropdown has-dropdown">
+                <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"> About Us </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-6 col-lg-3 d-flex justify-content-end align-items-center">
+                                    <div class="field-link talk-cta">
+                                        <a href="tel:+496170961709"> 
+                                            <i class="icon-mobile-icon"> </i>
+                                            <span class="d-none d-lg-block">+1 877 959-3098</span> 
+                                            <span class="d-lg-none">Lets Talk</span>  
+                                        </a>
+                                    </div>
+
+                                </div>
+                                
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+	<!--header-->	
+
+	<!-- body starts -->
+			
+<main>
+<div id="content">
+
+
+    
+</div>
+</main>
+
+	<!-- Body ends -->
+	<!--footer-->
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer class="animation-element">
+    <div id="footer">
+        <div class="component container-fluid">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <!-- logos row start from here... -->
+                            <div class="component row">
+                                <div class="component col-12 d-flex footer-logos">
+                                    <div class="component image file-type-icon-media-link">
+                                        <div class="component-content">
+                                            <a title="Default Logo" href="/">
+                                                <img src="images/creaform-white-logo.svg" alt="logo"></a>
+                                        </div>
+                                    </div>
+                                    <div class="component image file-type-icon-media-link seprater-line">
+                                        <div class="component-content">
+                                            <a title="Default Logo" href="/">
+                                                <img src="images/ametek-logo-white.svg" alt="logo"></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="component row">
+                                <div class="component container footer-link-items link-list-footer">
+                                    <div class="component col-md-3">
+                                        <div class="component row">
+                                            <div class="component col-12 footer-container">
+                                                <div class="component footer-links-container">
+                                                    <h4><a href="javascript:void(0)">How to buy</a></a></h4>
+                                                    <ul>
+                                                        <li><a href="javascript:void(0)">Contact Us</a></li>
+                                                        <li><a href="javascript:void(0)">Ask for a Demo</a></li>
+                                                        <li><a href="javascript:void(0)">Contact Us</a></li>
+                                                        <li><a href="javascript:void(0)">Ask for a Demo</a></li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="component col-md-3">
+                                        <div class="component row">
+                                            <div class="component col-12 footer-container">
+                                                <div class="component footer-links-container">
+                                                    <h4><a href="javascript:void(0)">Customer Care</a></h4>
+                                                    <ul>
+                                                        <li><a href="javascript:void(0)">Customer Center</a></li>
+                                                        <li><a href="javascript:void(0)">Resources</a></li>
+                                                        <li><a href="javascript:void(0)">Customer Center</a></li>
+                                                        <li><a href="javascript:void(0)">Resources</a></li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="component col-md-3">
+                                        <div class="component row">
+                                            <div class="component col-12 footer-container">
+                                                <div class="component footer-links-container">
+                                                    <h4><a href="javascript:void(0)">Partners</a></h4>
+                                                    <ul>
+                                                        <li><a href="javascript:void(0)">Partners Portal</a></li>
+                                                        <li><a href="javascript:void(0)">Become a distributor</a></li>
+
+                                                    </ul>
+                                                </div>
+                                               
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="component col-md-3">
+                                        <div class="component row">
+                                            <div class="component col-12 footer-container">
+                                                <div class="component footer-links-container footer-social-icons">
+                                                    <h4><a href="javascript:void(0)">Follow Us</a></h4>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="javascript:void(0)"><i
+                                                                    class="fab fa-facebook"></i>Join our community</a>
+                                                        </li>
+                                                        <li><a href="javascript:void(0)"><i
+                                                                    class="fab fa-twitter"></i>Watch & learn</a></li>
+                                                        <li><a href="javascript:void(0)"><i
+                                                                    class="fab fa-youtube"></i>Stay up-to-date</a></li>
+                                                        <li><a href="javascript:void(0)"><i
+                                                                    class="fab fa-instagram"></i>Latest updates</a></li>
+                                                        <li><a href="javascript:void(0)"><i
+                                                                    class="fab fa-linkedin"></i>Watch & learn</a></li>
+
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="component row footer-cards-items">
+                                <div class="col-md-4 col-lg-3 mb-3">
+                                    <a class="redirect-card-wrapper" href="javascript:void(0)">
+    <div class="redirect-card-content">
+        <div class="redirect-card-title">
+            Join the Team
+        </div>
+        <div class="redirect-card-subtitle">
+            <div class="redirect-card-text">
+                <span class="link-career">14</span> Careers opportunities are waiting for you.
+            </div>
+            <div class="redirect-card-icon">
+                <i class="icon-diag-arrow"></i>
+            </div>
+        </div>
+    </div>
+</a>
+                                </div>
+                                <div class="col-md-4 col-lg-3 mb-3">
+                                    <a class="redirect-card-wrapper" href="javascript:void(0)">
+    <div class="redirect-card-content">
+        <div class="redirect-card-title">
+            Join the Team
+        </div>
+        <div class="redirect-card-subtitle">
+            <div class="redirect-card-text">
+                <span class="link-career">14</span> Careers opportunities are waiting for you.
+            </div>
+            <div class="redirect-card-icon">
+                <i class="icon-diag-arrow"></i>
+            </div>
+        </div>
+    </div>
+</a>
+                                </div>
+                                <div class="col-md-4 col-lg-3 mb-3">
+                                    <a class="redirect-card-wrapper" href="javascript:void(0)">
+    <div class="redirect-card-content">
+        <div class="redirect-card-logo">
+            <img class="ow-lazy" alt="" data-src="images/creaform-engineering.svg">
+        </div>
+        <div class="redirect-card-subtitle">
+            <div class="redirect-card-text">
+                Discover our Engineering Solutions
+            </div>
+            <div class="redirect-card-icon">
+                <i class="icon-download"></i>
+            </div>
+        </div>
+    </div>
+</a>
+                                </div>
+                                <div class="col-md-4 col-lg-3 mb-3">
+                                    <a class="redirect-card-wrapper" href="javascript:void(0)">
+    <div class="redirect-card-content">
+        <div class="redirect-card-title">
+            Join the Team
+        </div>
+        <div class="redirect-card-subtitle">
+            <div class="redirect-card-text">
+                <span class="link-career">14</span> Careers opportunities are waiting for you.
+            </div>
+            <div class="redirect-card-icon">
+                <i class="icon-diag-arrow"></i>
+            </div>
+        </div>
+    </div>
+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="component container-fluid engineering-footer">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <!-- logos row start from here... -->
+                            <div class="component row">
+                                <div class="component col-12  footer-logos">
+                                    <div class="component image file-type-icon-media-link">
+                                        <div class="component-content">
+                                            <a title="Default Logo" href="/">
+                                                <img src="images/creaform-white-logo.svg" alt="logo"></a>
+                                        </div>
+                                        <div class="component-content">
+                                            <a title="Default Logo" href="/">
+                                                <img src="images/ametek-logo-white.svg" alt="logo"></a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            <div class="component row">
+                                <div class="component container footer-link-items link-list-footer">
+                                    <div class="component col-md-3">
+                                        <div class="component row">
+                                            <div class="component col-12 footer-container">
+                                                <div class="component footer-links-container">
+                                                  
+                                                    <ul>
+                                                        <li>We delivered full-scale engineering services, staff outsourcing and training in product design, industrial design, engineering, and numerical simulation for major corporations and SMBs in many industries. </li>
+                                                       
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="component col-md-3">
+                                        <div class="component row">
+                                            <div class="component col-12 footer-container footer-address">
+                                                <div class="component footer-links-container ">
+                                                    <h4><a href="javascript:void(0)">Customer Care</a></h4>
+                                                    <ul>
+                                                        <li>Open Monday to Friday,
+                                                            8:30 AM to 4:30 PM (EST)</li>
+                                                       
+                                                    </ul>
+                                                </div>
+                                                <div class="component footer-links-container footer-contact-us">
+                                                    <ul>
+                                                        <li>Contact Us</li>
+                                                        <li><a tel="+1 877-959-3098" href="javascript:void(0)">+1 877-959-3098</a></li>
+                                                    </ul>
+                                                </div>
+                                                
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="component col-md-3">
+                                        <div class="component row">
+                                            <div class="component col-12 footer-container">
+                                                <div class="component footer-links-container footer-social-icons">
+                                                    <h4><a href="javascript:void(0)">Follow Us</a></h4>
+                                                    <ul>
+                                                        
+                                                        <li><a href="javascript:void(0)"><i
+                                                            class="fab fa-instagram"></i>Latest updates</a></li>
+                                                        <li><a href="javascript:void(0)"><i
+                                                                    class="fab fa-youtube"></i>Stay up-to-date</a></li>
+                                                       
+                                                       
+
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="component row">
+                                cards come here....
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- secondary footer  -->
+        <div class="component container-fluid separator-line-top">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                               
+                                <div class="component row justify-content-between d-flex secondary-footer">
+
+                                    <div class="component ow-link-list  order-1 order-md-0">
+                                        <div class="component-content">
+
+                                            <ul>
+                                                <li class="item0 odd first">
+                                                    <div class="field-link"><a href="/">© 2022 - Creaform. All rights reserved.</a></div>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="component ow-link-list text-md-right order-0 order-md-1">
+                                        <div class="component-content">
+                                            <ul>
+                                                <li class="item0 odd first">
+                                                    <div class="field-link"><a href="/">Cookie preferences</a></div>
+                                                </li>
+                                                <li class="item1 even"> 
+                                                    <div class="field-link"><a href="/sitemap">Accessibility</a></div>
+                                                </li>
+                                                <li class="item2 odd last">
+                                                    <div class="field-link"><a href="/">Privacy Statement</a></div>
+                                                </li>
+                                                <li class="item2 odd last">
+                                                    <div class="field-link"><a href="/">Terms & Conditions</a></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- secondary footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</footer>
+	<!--footer-->
+
+
+	
+	<script src="https://kit.fontawesome.com/2356e544d0.js" crossorigin="anonymous"></script>
+	<script src="../../Theme/OneWeb/scripts/1-jquery.js" type="text/javascript"></script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+	<script src="../../Theme/OneWeb/scripts/2-slick.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/3-mega-nav.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/3-utility.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/3-select-box.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/3-component-carousel.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/3-card-tile.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/32-component-video.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/3-slidebar-nav.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/41-business-card.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/4-business-support-toggle.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/4-client-logo-toggle.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/4-component-global-search.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/42-component-search.js" type="text/javascript"></script>
+
+	<script src="../../Theme/OneWeb/scripts/31-component-lazyload.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/2-map.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/4-custom-map.js" type="text/javascript"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/3-image-gallery.js" type="text/javascript"></script>
+	<script src="../../Theme/OneWeb/scripts/4-component-countdown.js" type="text/javascript"></script>
+	
+
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.12.2/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.12.2/dist/js/uikit-icons.min.js"></script>
+	
+	<script src="scripts/2-main-navigation.js" type="text/javascript"></script>
+	<script src="scripts/3-video-player.js" type="text/javascript"></script>
+	<script src="scripts/3-header-scroll.js" type="text/javascript"></script>
+	<script src="scripts/2-component-drawer-media.js" type="text/javascript"></script>
+</body>
+
+</html>

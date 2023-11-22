@@ -1,0 +1,19 @@
+﻿---
+ID: "8fd43873-f3cc-4f53-b273-5d28f3df9f6e"
+Parent: "5adefd4d-4d49-452f-919e-72f560678079"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/OneWeb/Base/_BaseHandleBar
+DB: master
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211211T161031Z

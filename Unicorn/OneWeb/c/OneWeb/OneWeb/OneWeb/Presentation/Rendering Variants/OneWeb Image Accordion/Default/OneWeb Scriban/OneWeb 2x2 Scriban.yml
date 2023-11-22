@@ -1,0 +1,70 @@
+﻿---
+ID: "b78fbffa-5f1a-40b8-b9b7-3d5c961d446e"
+Parent: "7e6de434-695b-44bd-932f-c51213ff66c7"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Image Accordion/Default/OneWeb Scriban/OneWeb 2x2 Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{logo_list_model =(sc_followmany i_item "Image List")
+    if (logo_list_model | array.size) > 0
+    	
+    	item_per_row = 2
+    	logo_per_slide = 4
+    	displayed_logos=0
+    	row_item_count = 0
+    	all_logo_count = (logo_list_model | array.size)}}
+        <div class="client-industry-logos"> 
+            <div class="slider-wrapper" data-slides-to-show="1" data-slides-to-show-tab="1"
+        data-slides-to-show-mob="1" data-arrow="false" data-dots="true" data-autoplaySpeed="3000000" data-autoplay="false"
+        data-infinite="true">
+    		{{for logo_model in logo_list_model}}
+    			<div class="slider-item">
+    				
+    					{{row_item_count = row_item_count + logo_per_slide}}
+    					{{for row_model in (logo_list_model | array.limit logo_per_slide)}}
+    						<div class = "row">
+    						{{for column in ((logo_list_model | array.offset displayed_logos) | array.limit item_per_row)}}
+    							<div class = "col-6">
+    								<div>
+    									{{link_model = (ow_link_model column 'TargetUrl')}}
+    									{{if (link_model.url|string.size > 0)}}
+    										<a href="{{link_model.url}}" target="{{link_model.target}}">
+    									{{end}}
+    										{{media_model = ow_media_model column 'Image'}}
+    										{{if media_model}}
+    											{{if (media_model.url|string.size > 0 )}}
+    												<img class="ow-lazy" data-src="{{media_model.url}}" alt="{{media_model.alt}}" title="{{media_model.title}}"/>
+    											{{end}}
+    										{{end}}
+    									{{if (link_model.url|string.size > 0)}}
+    										</a>
+    									{{end}}
+    								</div>
+    							</div>
+    						{{end}}
+    						</div>
+    						{{displayed_logos = displayed_logos + item_per_row}}
+    						{{if row_item_count <= displayed_logos || all_logo_count <= displayed_logos}}
+    							{{break}}
+    						{{end}}
+    					{{end}}
+    				
+    			</div>
+    			{{if all_logo_count <= displayed_logos}}
+    				{{break}}
+    			{{end}}
+    		{{end}}
+    		</div>
+    	</div>
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211216T134340Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "7968d3e7-97d2-476d-833c-0ecf963ca81d"
+Parent: "23fc29eb-26e8-4b53-af69-a7c030861066"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/Forms/OneWeb/OneWeb/OneWeb/OneWeb/Subscribe Form/Sign Up Form/SignupButton/SubmitActions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T132941Z

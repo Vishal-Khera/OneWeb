@@ -1,0 +1,87 @@
+﻿---
+ID: "aea419f4-2644-4a54-a3ee-484662c01a06"
+Parent: "c093700b-1568-47fa-b013-32206b63d74f"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Video/Default/OneWeb Video Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if o_model.video_info && o_model.video_info.sitecore_video && (o_model.video_info.sitecore_video.url |string.size > 0)}}
+    <div class="modal-wrapper">
+    <div class="videowraper videoplay-btn iframe-wrapper">
+    <div class="video-comp"> 
+    <video controls>
+    <source data-src="{{o_model.video_info.sitecore_video.url}}" type="video/mp4">
+    </video>
+    </div>
+      <div class="iframe-overlay">
+                {{if (o_model.video_info.placeholder_image.url | string.size>0)}}
+                <img class="ow-lazy" data-src='{{o_model.video_info.placeholder_image.url}}'
+                    alt='{{o_model.video_info.placeholder_image.alt}}'
+                    title='{{o_model.video_info.placeholder_image.title}}' />
+                {{end}}
+                {{media_model = ow_default_play_icon i_item.Image.media_url}}
+                {{if media_model}}
+               <a class="play-video" href="javascript:void(0)"> <img class="ow-lazy" data-src='{{ media_model.url }}' alt='{{media_model.alt}}'
+                    title='{{media_model.title}}' /></a>
+                {{end}}
+            </div>
+    </div>
+    <div class="text-wrapper">
+            {{if o_model.video_info.title != ''}}
+                <h4>{{o_model.video_info.title}}</h4>
+            {{end}}
+            {{if o_model.video_info.content != ''}}
+                <p>{{o_model.video_info.content}}</p>
+            {{end}}
+    </div>
+    </div>
+    {{else}}
+    {{if o_model.video_info && o_model.video_info.iframe && o_model.video_info.iframe != ''}}
+    <div class="modal-wrapper">
+        <div class="iframe-wrapper">
+            {{o_model.video_info.iframe}}
+            {{if o_model.video_info.placeholder_image && o_model.video_info.placeholder_image.url}}
+            <div class="iframe-overlay">
+                {{if (o_model.video_info.placeholder_image.url | string.size>0)}}
+                <img class="ow-lazy" data-src='{{o_model.video_info.placeholder_image.url}}'
+                    alt='{{o_model.video_info.placeholder_image.alt}}'
+                    title='{{o_model.video_info.placeholder_image.title}}' />
+                {{end}}
+                {{media_model = ow_default_play_icon i_item.Image.media_url}}
+                {{if media_model}}
+    <a href="javascript:void(0)" class="play-video">
+                <img class="ow-lazy " data-src='{{ media_model.url }}' alt='{{media_model.alt}}'
+                    title='{{media_model.title}}' /></a>
+                {{end}}
+            </div>
+            {{end}}
+        </div>
+        <div class="text-wrapper">
+            {{if o_model.video_info.title != ''}}
+            <h4>{{o_model.video_info.title}}</h4>
+            {{end}}
+            {{if o_model.video_info.content != ''}}
+            <p>{{o_model.video_info.content}}</p>
+            {{end}}
+        </div>
+    </div>
+    {{end}}
+    {{-end-}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T192025Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

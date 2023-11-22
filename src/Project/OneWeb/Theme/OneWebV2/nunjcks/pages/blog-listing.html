@@ -1,0 +1,68 @@
+{% extends "layout/layout.html" %} {% block maincontent %}
+<main>
+    <div id="content">
+
+        {% include "../templates/components/modal-popup.html" %}
+
+        <!-- Card List -->
+        <div class="component container-fluid large-padding dark-pagination">
+            <div class="component-content">
+                <div class="component row">
+                    <div class="component container">
+                        <div class="component-content">
+                            <div class="component row">
+                                <div class="col-lg-3">
+                                    <div class="filter-tab filter-category-wrap">
+                                       Categories
+                                    </div>
+                                    <div class="filter-wrapper-container">
+                                        <div class="filter-tab filter-title">
+                                            Categories
+                                            <a href="javascript:void(0)" class="close-filter"> 
+                                                <span class="sr-only"> Cross Icon </span> 
+                                            </a>
+                                        </div>
+                                        {% include "../templates/components/filter-card-blog.html" %}
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="search-container">
+                                        <div class="search-container__search">
+                                            {% include "../templates/components/component-search.html" %}
+                                            <div class="list-grid-view-wrap">
+                                                <a href="javascript:void(0)" class="grid-view">
+                                                   
+                                                    <i class="icon-grid-view"> <span class="sr-only"> Grid view</span></i>
+                                                </a>
+                                                <a href="javascript:void(0)" class="list-view active">
+                                                    
+                                                    <i class="icon-list-view"><span class="sr-only"> List view</span></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="search-container__result light-view-card">
+                                            {% include "../templates/components/news-item.html" %}
+                                            {% include "../templates/components/news-item.html" %}
+                                            {% include "../templates/components/news-item.html" %}
+
+                                        </div>
+                                        <div class="search-container__pagination">
+                                            <div class="news-pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+</main>
+{% endblock %}

@@ -1,0 +1,9 @@
+.ow-card-icon:first-child .simple-list {
+  border-radius: 8px 8px 0 0;
+  -webkit-border-radius: 8px 8px 0 0;
+  -moz-border-radius: 8px 8px 0 0; }
+
+.ow-card-icon:last-child .simple-list {
+  border-radius: 0 0 8px 8px;
+  -webkit-border-radius: 0 0 8px 8px;
+  -moz-border-radius: 0 0 8px 8px; }

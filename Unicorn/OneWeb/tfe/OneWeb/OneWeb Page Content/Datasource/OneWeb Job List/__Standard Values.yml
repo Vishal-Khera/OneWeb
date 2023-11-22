@@ -1,0 +1,14 @@
+﻿---
+ID: "6e174d73-22a5-423a-bf7a-14a66ffecfbe"
+Parent: "e27f4069-06c7-47df-9b39-ac20fdb11d90"
+Template: "e27f4069-06c7-47df-9b39-ac20fdb11d90"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Job List/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T112128Z

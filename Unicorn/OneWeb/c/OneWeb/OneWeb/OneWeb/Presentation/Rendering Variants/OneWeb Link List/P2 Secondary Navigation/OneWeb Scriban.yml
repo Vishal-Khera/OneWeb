@@ -1,0 +1,38 @@
+﻿---
+ID: "f098f7fc-321a-41aa-9b1a-d25c18a9978d"
+Parent: "d72ae026-d236-4c2e-b550-8614d7e9a7f0"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Link List/P2 Secondary Navigation/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{ sc_raw i_item "Link" }}
+    {{ description = sc_follow i_item "Link" | sc_raw "Subtext" }}
+    {{primary_link_classes = ""}}						
+    {{ primary_filtered_classes = ow_link_model i_item 'Link'
+    	if primary_filtered_classes 
+    			if (primary_filtered_classes.class | string.size) > 0
+    				primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    			end
+    		end}}
+    		
+    	{{primary_link = (sc_field i_item 'Link'[['text', (i_item.Link.text)], ['class', (primary_link_classes)]])}}
+    													
+    	{{-if primary_link-}}
+    	<a href="{{primary_filtered_classes.url}}" class="{{primary_filtered_classes.class}}" target="{{primary_filtered_classes.target}}" title="{{primary_filtered_classes.title}}">{{primary_filtered_classes.text}} </a>
+    	{{-end-}}
+    	<div class="card-text">{{description}}</div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T162059Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

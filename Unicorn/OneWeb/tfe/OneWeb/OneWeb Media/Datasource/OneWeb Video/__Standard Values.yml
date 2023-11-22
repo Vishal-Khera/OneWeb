@@ -1,0 +1,18 @@
+﻿---
+ID: "d604de01-7030-47d4-bd12-bdcce26c5a13"
+Parent: "105e1ae4-0a89-449a-a4bf-69e7fb23c0ca"
+Template: "105e1ae4-0a89-449a-a4bf-69e7fb23c0ca"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Media/Datasource/OneWeb Video/__Standard Values
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 201
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160706T133344Z

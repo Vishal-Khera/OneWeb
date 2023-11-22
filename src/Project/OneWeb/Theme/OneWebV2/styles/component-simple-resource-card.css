@@ -1,0 +1,53 @@
+.resource-card-simple {
+  height: auto;
+  flex-direction: column; }
+  .resource-card-simple .card-image {
+    aspect-ratio: 5/3; }
+    .resource-card-simple .card-image img {
+      border-radius: 8px 8px 0px 0px;
+      margin-bottom: 0; }
+  .resource-card-simple .create-date {
+    color: rgba(44, 42, 41, 0.6); }
+  .resource-card-simple .card-body {
+    height: auto;
+    padding-bottom: 60px;
+    max-width: 350px; }
+    .resource-card-simple .card-body .card-title {
+      color: #236192 !important;
+      margin-bottom: 0px;
+      font-size: 18px; }
+      @media screen and (min-width: 0) {
+        .resource-card-simple .card-body .card-title {
+          font-size: 18px; } }
+      @media screen and (min-width: 768px) {
+        .resource-card-simple .card-body .card-title {
+          font-size: 18px; } }
+      @media screen and (min-width: 992px) {
+        .resource-card-simple .card-body .card-title {
+          font-size: 21px; } }
+    .resource-card-simple .card-body .card-text {
+      color: #2C2A29 !important;
+      font-size: 16px; }
+      @media screen and (min-width: 0) {
+        .resource-card-simple .card-body .card-text {
+          font-size: 16px; } }
+      @media screen and (min-width: 768px) {
+        .resource-card-simple .card-body .card-text {
+          font-size: 16px; } }
+      @media screen and (min-width: 992px) {
+        .resource-card-simple .card-body .card-text {
+          font-size: 16px; } }
+
+.dark-theme .product-card-wrapper:focus .card.resource-card-simple {
+  outline-color: rgba(240, 240, 240, 0.7) !important; }
+
+.dark-theme .resource-card-simple {
+  background-color: #2C2A29 !important; }
+  .dark-theme .resource-card-simple .create-date {
+    color: rgba(240, 240, 240, 0.7) !important; }
+  .dark-theme .resource-card-simple .card-image {
+    padding: 0px; }
+  .dark-theme .resource-card-simple .card-body .card-title {
+    color: rgba(240, 240, 240, 0.7) !important; }
+  .dark-theme .resource-card-simple .card-body .card-text {
+    color: #F7F7F7 !important; }

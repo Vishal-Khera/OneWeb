@@ -1,0 +1,14 @@
+﻿---
+ID: "1f29ea0b-05dc-444e-8098-fde0cfdaf2ea"
+Parent: "0e20d56e-4b79-4469-a210-d8ae38ed9cb1"
+Template: "7dd606c4-52a3-4628-83ef-832b5bb88b0c"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Card Grids/Static Icon and Text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220202T113212Z

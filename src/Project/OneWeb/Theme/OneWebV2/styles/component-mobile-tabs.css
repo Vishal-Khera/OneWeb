@@ -1,0 +1,28 @@
+.mobile-tabs {
+  transition: 0.2s ease-in-out all;
+  width: 100%;
+  margin-bottom: 15px; }
+  .mobile-tabs ul {
+    display: flex;
+    border-bottom: 1px solid rgba(26, 25, 24, 0.15); }
+    .mobile-tabs ul li {
+      font-family: "FranklinGothicLTPro-Md" !important;
+      padding-bottom: 15px;
+      width: 100%;
+      font-size: 18px;
+      text-align: center; }
+      @media screen and (min-width: 0) {
+        .mobile-tabs ul li {
+          font-size: 18px; } }
+      @media screen and (min-width: 768px) {
+        .mobile-tabs ul li {
+          font-size: 18px; } }
+      @media screen and (min-width: 992px) {
+        .mobile-tabs ul li {
+          font-size: 18px; } }
+      .mobile-tabs ul li::before {
+        content: none !important; }
+  .mobile-tabs .active {
+    display: block;
+    color: #236192;
+    border-bottom: 1px solid #236192; }

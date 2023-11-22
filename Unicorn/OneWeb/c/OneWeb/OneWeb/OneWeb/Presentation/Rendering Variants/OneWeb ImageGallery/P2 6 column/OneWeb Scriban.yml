@@ -1,0 +1,61 @@
+﻿---
+ID: "725e9ee4-fdc9-4288-b488-80371ea40b1c"
+Parent: "ff45385f-813a-4bae-b613-2a0b9571cb40"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb ImageGallery/P2 6 Column/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     <div class="lightbox-wrapper">
+    						{{ if(i_item.title != "") }}
+                                <div class="lightbox-text">
+                                    <h2>{{ i_item.title }}</h2>
+                                </div>
+    						{{end}}
+    						{{logo_list_model =(sc_followmany i_item "Images")
+    						if (logo_list_model | array.size) > 0
+    						item_per_row = 4
+    						row_item_count = 0
+    						displayed_logos=0
+    						all_logo_count = (logo_list_model | array.size)}}
+    						
+    						<div class="lightbox-gallery">
+    							<div class="row align-items-center">
+    							{{for logo_model in logo_list_model}}
+    								{{for column in (logo_list_model)}}
+    									
+    									{{media_model = ow_media_model column 'Image'}}
+    										{{if media_model}}
+    										<div class="col-6 col-md-2 col-lg-2 mb-3">
+    											{{if (media_model.url|string.size > 0 )}}
+    											<a href="{{media_model.url}}" data-toggle="lightbox" data-gallery="example-gallery" data-footer="{{media_model.title}}">
+    											<img class="ow-lazy" data-src="{{media_model.url}}">
+    											</a>
+    											 <h3>{{media_model.title}}</h3>
+    											{{end}}
+    										</div>
+    										{{end}}
+    									{{end}}
+    									
+    								{{displayed_logos = displayed_logos + item_per_row}}
+    									{{if row_item_count <= displayed_logos || all_logo_count <= displayed_logos}}
+    										{{break}}
+    									{{end}}
+    								{{end}}
+    								
+    							
+    							{{end}}
+    							
+    						</div>
+    					</div>
+    					</div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220802T082951Z

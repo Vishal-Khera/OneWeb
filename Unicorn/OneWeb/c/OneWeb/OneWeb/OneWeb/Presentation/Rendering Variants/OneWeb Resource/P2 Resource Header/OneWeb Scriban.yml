@@ -1,0 +1,40 @@
+﻿---
+ID: "2d5f4090-0744-4259-94a7-78cb07e8873f"
+Parent: "04a55a16-98e4-4dec-af5d-91f19e7a8cb2"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Resource/P2 Resource Header/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="component text-wrapper">
+             {{ if(i_item.title != "") }}
+                <h2>{{ i_item.title }}</h2>
+    	 {{ end }}
+    	 
+             {{ if(i_item.subtext != "") }}
+                <div class="paragraph-wrapper lg-paragraph">{{ i_item.subtext }}</div>
+    	 {{ end }}
+    	{{primary_link_classes = "button btn-default "}}
+            {{ primary_filtered_classes = ow_link_model i_item 'Navigation Url'
+                  if( primary_filtered_classes)
+    	            if(primary_filtered_classes.class | string.size) > 0
+    		          primary_link_classes = primary_link_classes + primary_filtered_classes.class
+    	            end
+                  end}}
+            
+    		 {{link_model = ow_link_model i_item 'Navigation Url'}}
+    		  {{ if(link_model.url != "") }}
+                      <a href="{{link_model.url}}" class="{{primary_link_classes}}" title="{{link_model.title}}" target="{{link_model.target}}">{{link_model.text}}</a>
+    		   {{ end }}
+    
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220914T083231Z

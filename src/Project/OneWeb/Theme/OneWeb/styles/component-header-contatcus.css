@@ -1,0 +1,54 @@
+.decoupled-menu .ow-promo .promo {
+  width: auto;
+  float: right;
+  padding: 0px;
+  background: unset;
+  position: relative;
+  top: 12px; }
+  .decoupled-menu .ow-promo .promo .component-content {
+    border-width: unset;
+    border-style: unset;
+    border-color: unset;
+    width: auto; }
+    .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us {
+      display: inline-flex !important;
+      text-align: right;
+      padding: 0px; }
+      .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us a {
+        font-family: "Helvetica Neue";
+        font-size: 16px;
+        text-decoration: unset; }
+        @media screen and (min-width: 0) {
+          .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us a {
+            font-size: 16px; } }
+        @media screen and (min-width: 768px) {
+          .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us a {
+            font-size: 16px; } }
+        @media screen and (min-width: 992px) {
+          .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us a {
+            font-size: 16px; } }
+        .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us a:hover {
+          color: #D9171D; }
+      .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us span a {
+        font-family: "Helvetica Neue";
+        font-size: 16px;
+        padding-right: 8px;
+        text-decoration: unset; }
+        @media screen and (min-width: 0) {
+          .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us span a {
+            font-size: 16px; } }
+        @media screen and (min-width: 768px) {
+          .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us span a {
+            font-size: 16px; } }
+        @media screen and (min-width: 992px) {
+          .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us span a {
+            font-size: 16px; } }
+        .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us span a:hover {
+          color: #D9171D; }
+        .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us span a img {
+          margin-right: 3px;
+          margin-top: -6px;
+          width: 12px;
+          height: 12px; }
+      .decoupled-menu .ow-promo .promo .component-content .ow-header-contact-us .highlighted {
+        color: #D9171D !important; }

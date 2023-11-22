@@ -1,0 +1,26 @@
+.toolbar-wrapper {
+  padding: 5px 0px; }
+  @media (max-width: 767px) {
+    .toolbar-wrapper {
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0px; } }
+  @media (max-width: 767px) {
+    .toolbar-wrapper .toolbar-social-icons {
+      width: 100%; } }
+  @media (max-width: 767px) {
+    .toolbar-wrapper .toolbar-social-icons ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-around; } }
+  .toolbar-wrapper .toolbar-social-icons ul a {
+    color: #fff;
+    padding: 5px 10px; }
+    .toolbar-wrapper .toolbar-social-icons ul a:hover {
+      color: #D9171D; }
+  .toolbar-wrapper .toolbar-buttons {
+    padding: 0px; }
+    @media (max-width: 767px) {
+      .toolbar-wrapper .toolbar-buttons a {
+        width: 100%;
+        margin: 5px 0px; } }

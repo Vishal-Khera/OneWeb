@@ -1,0 +1,86 @@
+@import 'base/base-index.scss';
+
+.filter-facet-wrapper{
+    padding: 20px;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-bottom: 30px;
+    .filter-facet-head{
+        border-bottom: 1px solid $border-gray-white;
+        @include font-size($lg-font);
+        padding-bottom: 10px;
+        font-family: 'HelveticaNeue-Bold';
+    }
+    .filter-facet-items{
+        .filter-item{
+            padding: 10px 0 0;
+            display: flex;
+            align-content: flex-start;
+            label{
+                margin-bottom: 0;
+                cursor: pointer;
+            }
+            input{
+                height: auto;
+                margin-right: 5px;
+                cursor: pointer;
+                margin-top: 3px;
+                min-width: 15px;
+            }
+        }
+    }
+    .filter-facet-clear{
+        border-top: 1px solid $border-gray-white;
+        padding-top: 10px;
+        margin-top: 10px;
+        a{
+            color:$primary;
+            border-right:1px solid $border-light-gray;
+            padding-right: 13px;
+            margin-right: 10px;
+            font-family: 'HelveticaNeue-Medium';
+            &:last-child{
+                border-right:0;
+                padding-right: 0;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.filter-mobile{
+    margin-bottom: 30px;
+    i{
+        margin-right: 5px;
+    }
+    .reset-text,
+    .filter-text{
+        padding: 10px 0;
+        text-align: center;
+        width: 100%;
+        color: $white;
+    }
+    .filter-text{
+        background: $dark-gray;
+        color: $white;
+        
+    }
+    .reset-text{
+        display: none;
+        background: $primary;
+    }
+    &.active{
+        .filter-text{
+            display: none;
+        }
+        .reset-text{
+            display: block;
+        }
+    }
+}
+
+.filter-wrapper{
+    display: none;
+    @include md{
+        display: block;
+    }
+}

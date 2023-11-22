@@ -1,0 +1,14 @@
+﻿---
+ID: "e03d0d50-0938-43d1-8f55-9b7044647d50"
+Parent: "fa58903c-fca5-4abf-9428-b0f7a95a319a"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Card Images
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T184932Z

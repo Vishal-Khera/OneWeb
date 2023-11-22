@@ -1,0 +1,106 @@
+.sitecore-form {
+  font-size: 16px; }
+  @media screen and (min-width: 0) {
+    .sitecore-form {
+      font-size: 16px; } }
+  @media screen and (min-width: 768px) {
+    .sitecore-form {
+      font-size: 16px; } }
+  @media screen and (min-width: 992px) {
+    .sitecore-form {
+      font-size: 16px; } }
+  .sitecore-form * {
+    font-family: "FranklinGothicLTPro-Md" !important; }
+  .sitecore-form .form-control {
+    padding: 15px;
+    background: transparent;
+    color: rgba(26, 25, 24, 0.5);
+    border: 2px solid rgba(26, 25, 24, 0.15);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    outline: 4px solid transparent;
+    transition: .35s;
+    box-shadow: unset; }
+    .sitecore-form .form-control:hover {
+      border-color: rgba(26, 25, 24, 0.7); }
+    .sitecore-form .form-control:focus-within {
+      border-color: rgba(26, 25, 24, 0.7);
+      outline: 4px solid rgba(40, 98, 144, 0.7);
+      color: #2C2A29; }
+      .sitecore-form .form-control:focus-within::placeholder {
+        color: #2C2A29; }
+    .sitecore-form .form-control:active {
+      border-color: #1A1918;
+      color: #2C2A29;
+      outline: 4px solid transparent; }
+      .sitecore-form .form-control:active::placeholder {
+        color: #2C2A29; }
+  .sitecore-form .field-validation-error {
+    color: #FF0000;
+    font-size: 13px; }
+    @media screen and (min-width: 0) {
+      .sitecore-form .field-validation-error {
+        font-size: 13px; } }
+    @media screen and (min-width: 768px) {
+      .sitecore-form .field-validation-error {
+        font-size: 13px; } }
+    @media screen and (min-width: 992px) {
+      .sitecore-form .field-validation-error {
+        font-size: 13px; } }
+  .sitecore-form .form-button {
+    margin-top: 30px; }
+    .sitecore-form .form-button input[type="submit"] {
+      margin: 0px;
+      margin: 0px;
+      padding: 0px;
+      border: none !important;
+      background: none !important; }
+  .sitecore-form input.input-validation-error,
+  .sitecore-form textarea.input-validation-error {
+    color: #FF0000 !important;
+    border-color: #FF0000 !important; }
+    .sitecore-form input.input-validation-error::placeholder,
+    .sitecore-form textarea.input-validation-error::placeholder {
+      color: #FF0000 !important; }
+  .sitecore-form span.field-validation-error {
+    padding-left: 20px;
+    color: #FF0000 !important;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    font-size: 16px; }
+    @media screen and (min-width: 0) {
+      .sitecore-form span.field-validation-error {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .sitecore-form span.field-validation-error {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .sitecore-form span.field-validation-error {
+        font-size: 16px; } }
+    .sitecore-form span.field-validation-error::after {
+      font-family: 'icomoon' !important;
+      content: "\e915";
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      font-size: 13px; }
+
+.dark-theme .sitecore-form .form-control {
+  color: rgba(26, 25, 24, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.15); }
+  .dark-theme .sitecore-form .form-control:hover {
+    border-color: rgba(255, 255, 255, 0.7); }
+  .dark-theme .sitecore-form .form-control:active {
+    border-color: #fff;
+    color: #F0F0F0;
+    outline: 4px solid transparent; }
+    .dark-theme .sitecore-form .form-control:active::placeholder {
+      color: #F0F0F0; }
+  .dark-theme .sitecore-form .form-control:focus-within {
+    border-color: rgba(255, 255, 255, 0.7);
+    outline: 4px solid rgba(255, 255, 255, 0.5);
+    color: #F0F0F0; }
+    .dark-theme .sitecore-form .form-control:focus-within::placeholder {
+      color: #F0F0F0; }

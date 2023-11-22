@@ -1,0 +1,30 @@
+﻿---
+ID: "ae166118-5775-41c3-a9f6-795bc6ce1794"
+Parent: "b517d56e-5c60-436e-af3c-acd02222c475"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Styles/OneWeb/Layout/Light Gray Background
+DB: master
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "light-gray-background"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Type: TreelistEx
+  Value: |
+    {4F1D055A-D52F-4581-944C-FE1E641BDA34}
+    {896A2C68-1362-4E88-8BA0-1805AE6D4837}
+    {B90B9CDC-71B1-4146-85E4-02AAC366F246}
+    {DD8E8E1F-5532-4638-9FF2-58D0E0264B08}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211125T122833Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

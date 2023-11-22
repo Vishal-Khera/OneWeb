@@ -1,0 +1,27 @@
+.skip-content {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+  .skip-content:focus, .skip-content:active {
+    color: #fff;
+    background-color: #000;
+    left: 100%;
+    top: -77px;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    margin: 10px 35%;
+    padding: 3px 5px;
+    text-align: center;
+    font-size: 16px;
+    z-index: 99; }
+    @media screen and (min-width: 0) {
+      .skip-content:focus, .skip-content:active {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .skip-content:focus, .skip-content:active {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .skip-content:focus, .skip-content:active {
+        font-size: 16px; } }

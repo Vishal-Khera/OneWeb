@@ -1,0 +1,31 @@
+﻿---
+ID: "5863690f-1702-4138-9ed3-fdd4425c36a5"
+Parent: "3fd5401d-5366-4ae2-90ec-d16e05bd5544"
+Template: "962b53c4-f93b-4df9-9821-415c867b8903"
+Path: /sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Favicon/favicon
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/5863690F170241389ED3FDD4425C36A5.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "23ff5285-fcff-4e81-a1bb-5ee9be8f7173"
+  Value: AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+HgvX/Myvu/zky7/81Lu7/eXTz/+/u/////////////6Cfof83Njn/NzY5/zU0OP81NDj/jY2P////////////rKn4/yQc7f8kHO3/JBzt/zEp7f/Fw/////////T08/9RUFL/IB8j/yAfI/8gHyP/KSgs/7W0tv////////////b1/v91cPT/JBzt/yQc7f8kHOv/ZF////Tz+v+dnZ3/IyIi/yAfI/8gHyP/IB8j/4WEhv/8/Pz/////////////////1NL7/0U/8P8yKu7/Ni/u/0I7/v+al9X/RkZI/yAfH/8gHyP/IB8j/0hHS//f3t////////////////////////7+///v7v7/5+b+/+vr///x8f3/bm2J/yAfGv8gHyL/IB8j/yUkKP+mpaf/////////////////////////////////////////////////xsbc/zc2L/8gHx//IB8k/yAfI/9hYGP/9/f3////////////////////////////////////////////8fHv/2dmWv8gHyT/IB8k/yAfI/8xMTT/ysnK/////////////////////////////////////////////////7Gxsv8nJi3/IB8j/yAfI/8gHyP/gYGD///////////////////////////////////////////////////////ExMX/NDM3/yAfI/8gHyP/PTw//+Tk5P///////////////////////////////////////////////////////Pv8/4WEhv8iISX/IB8j/6inqf/////////////////////////////////////////////////////////////////d3d3/Pj1A/1ZVWP/z8/P//////////////////////////////////////////////////////////////////////6Wlpv/Kycr/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1150
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: "image/x-icon"
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: ico
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220117T093926Z

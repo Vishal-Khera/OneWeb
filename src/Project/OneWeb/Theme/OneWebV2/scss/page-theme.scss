@@ -1,0 +1,284 @@
+@import 'base/base-index.scss';
+
+body{
+    &.light-theme-page {
+        header{
+            background-color: $base-light-gray;
+        }
+        .ow-primary-header {
+            .link{
+                @media (max-width:991px){
+                    background-color: $cta-gray;
+                }
+            }
+            .mobile-logo{
+                @media (max-width:991px){
+                    display:block !important;
+                }
+               
+            }
+            .mobile-logo-white{
+                @media (max-width:991px){
+                    display:none !important;
+                }
+            }
+            &.sticky-header{
+                .mobile-logo{
+                    display:block !important;
+                    @include lg{
+                        display:none !important; 
+                    }
+                    
+                }
+                .mobile-logo-white{
+                    display:none !important;
+                    @include lg{
+                        display:block !important; 
+                    }
+                }
+            }
+        }
+        @media(max-width:991px){
+            .ow-primary-header{
+                background-color:$cta-gray;
+                .link{
+                    background-color: $base-light-gray;
+                }
+            }
+        }
+        &.light-theme-overlay {
+            #header{
+                > .container-fluid{
+                    > .component-content{
+                        > .row{
+                            > .container-fluid:nth-child(2){
+                                background-color: $cta-gray;
+                                .ow-primary-header {
+                                    @media(max-width:991px) {
+                                        background-color: $cta-gray;
+                                        .link{
+                                            background-color: $base-light-gray;
+                                        }
+                                    }
+                                    &.sticky-header{
+                                        > .container {
+                                            > .component-content{
+                                                @include lg{
+                                                    background-color: $brandblack2;
+                                                }
+                                            }
+                                        }
+                                        
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+               
+            .talk-cta {
+                a{
+                    @include lg{
+                        background-color: $base-light-gray;
+                    }
+                    
+                }
+            }
+        }
+
+        .light-theme {
+            // background-color: $cta-gray;
+            .primary-nav-wrapper{
+                @media(max-width: 991px){
+                    background-color: transparent;
+                    .talk-cta {
+                        a{
+                            background-color: $base-light-gray;
+                        }
+                    }
+                }
+                
+            }
+            .ow-primary-header{
+                &.sticky-header{
+                    @media(max-width:1199px){
+                        background-color: $cta-gray;
+                    }
+                    
+                }
+            }
+        }
+
+        &.dark-theme-overlay{
+            @media(max-width:991px){
+                .ow-primary-header{
+                    background-color: $brandblack2 !important;
+                    &.sticky-header{
+                        .mobile-logo{
+                            display:none !important;
+                        }
+                        .mobile-logo-white{
+                            display:block !important;
+                        }
+                    }
+                }
+                .hamburger-mobile {
+                    span {
+                        background-color: $white;
+                    }
+                }
+                .link{
+                    background-color: $brandblack
+                }
+                .mobile-logo{
+                    display:none !important;
+                   
+                }
+                .mobile-logo-white{
+                    display:block !important;
+                }
+                
+            }
+        }
+
+        &.blue-theme-overlay{
+            @media(max-width:991px){
+                .ow-primary-header{
+                    background-color: $brand !important;
+                    &.sticky-header{
+                        .mobile-logo{
+                            display:none !important;
+                        }
+                        .mobile-logo-white{
+                            display:block !important;
+                        }
+                    }
+                }
+                .hamburger-mobile {
+                    span {
+                        background-color: $white;
+                    }
+                }
+                .link{
+                    background-color: $brandblack2;
+                }
+                .mobile-logo{
+                    display:none !important;
+                   
+                }
+                .mobile-logo-white{
+                    display:block !important;
+                }
+            }
+        }
+    }
+
+    &.dark-theme-page {
+        header{
+            background-color: $brandblack;
+        }
+        .ow-primary-header {
+            &.sticky-header{
+                @media(max-width:991px){
+                    background-color: $brandblack2;
+                }
+            }
+        }
+        
+        .light-theme{
+            .text-wrapper {
+                .light-gray-text {
+                    color: $paragraph-text !important;
+                }
+            }
+        }
+        
+        .ow-secondary-header,
+        .primary-nav-wrapper {
+            color: $white;
+
+            * {
+                color: inherit !important;
+            }
+        }
+        &.blue-theme-overlay {
+            .ow-primary-header {
+                &.sticky-header {
+                    >.container {
+                        @media (max-width:991px) {
+                            background: $brand  !important;
+                        }
+
+                        >.component-content {
+                            @media (max-width:991px) {
+                                background: $brand;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.light-theme-overlay{
+            .primary-nav-wrapper {
+                .nav-link, .contact-us{
+                    @include lg{
+                        color: $brandblack2 !important;
+                        * {
+                            color: inherit !important;
+                        }
+                    }
+                }
+                .link{
+                    .contact-us{
+                        color: $brandblack2 !important;
+                    }
+                }
+            }
+            .ow-primary-header{
+                &.sticky-header{
+                    .primary-nav-wrapper {
+                        .nav-link, .contact-us{
+                            @include lg{
+                                color: $white !important;
+                                * {
+                                    color: inherit !important;
+                                }
+                            }
+                        }
+                        .link{
+                            .contact-us{
+                                @include lg{
+                                    color: $white !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+
+        .hamburger-mobile {
+            span {
+                background-color: $white;
+            }
+        }
+    }
+
+    &.dark-theme,
+    &.dark-theme-overlay,
+    &.dark-theme-page,
+    &.blue-theme,
+    &.blue-theme-overlay,
+    &.blue-theme-page {
+        .text-wrapper {
+            .light-gray-text {
+                color: $mid-light-gray !important;
+            }
+        }
+    }
+}

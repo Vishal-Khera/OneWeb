@@ -1,0 +1,25 @@
+﻿---
+ID: "c4db91bc-4445-4527-8bd1-09d192f12f7a"
+Parent: "68af126f-6255-42aa-99c3-35385bf7db87"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: /sitecore/Forms/OneWeb/OneWeb/OneWeb/Contact Us/Page 2/Thank You
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 7CD78E33BB484E859637C0F2B2000CDF
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211205T165335Z

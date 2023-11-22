@@ -1,0 +1,18 @@
+﻿---
+ID: "e794cbea-89c8-4610-a0a7-ee60f6ad432e"
+Parent: "d76ac750-a8fc-467d-821a-8a73faba8e41"
+Template: "c88cce23-8b0a-415a-98d2-b17294434a45"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder/H09 Sub Category Header
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T175014Z

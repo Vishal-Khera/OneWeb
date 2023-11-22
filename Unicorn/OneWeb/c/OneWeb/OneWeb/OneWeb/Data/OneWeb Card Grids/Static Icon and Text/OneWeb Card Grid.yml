@@ -1,0 +1,21 @@
+﻿---
+ID: "fa8f673c-8546-45b5-b83c-4396a304d0f1"
+Parent: "1f29ea0b-05dc-444e-8098-fde0cfdaf2ea"
+Template: "72e57dc4-4c05-4067-a749-c74e9b20beb0"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Card Grids/Static Icon and Text/OneWeb Card Grid
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0102c8a0-b60f-4e19-86cb-74caa9eee49e"
+      Hint: Card List
+      Value: "{F5A37156-59FB-476A-B8A5-A625461931AB}|{8128DB5D-7C51-4635-AAF3-6B3BF16239FE}|{49953B84-B265-4FFE-9CB8-F4FCB198EABA}|{0B57D89F-3563-4597-8561-0879302662FC}|{7ECE5306-7189-47BB-AC6D-3FD6DA00BB96}|{3484DE3A-1C41-45DD-8875-436D43E796D1}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220202T113225Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

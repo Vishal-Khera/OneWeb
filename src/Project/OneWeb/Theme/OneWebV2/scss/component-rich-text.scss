@@ -1,0 +1,35 @@
+@import 'base/base-index.scss';
+
+.rich-text{
+    h2{
+        font-family: $franklinMd !important;
+    }
+    .mobile-tabs{
+        ul{
+            margin-left: 0px;
+        }
+    }
+    ul{
+        margin-left: 20px;
+        li{
+            &::before{
+                content:"\2022";
+                color: $brand;
+                display: inline-block;
+                margin-left: -1em;
+                width: 1em;
+                font-family: $franklinMd !important;
+            }
+        }
+    }
+    a, a:hover{
+        color:$brand;
+        text-decoration: underline;
+    }
+    a{
+        &:focus{
+            outline:  4px solid $btn-light-border;
+            line-height: 1.2;
+        }
+    }
+}

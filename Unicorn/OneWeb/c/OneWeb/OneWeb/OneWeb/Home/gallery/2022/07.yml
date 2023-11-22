@@ -1,0 +1,14 @@
+﻿---
+ID: "c59296b2-693e-49e1-b0aa-5d629a7b086c"
+Parent: "ef99bea1-f047-400a-b488-2f2e058cc3b1"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Home/gallery/2022/07
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230409T190657Z

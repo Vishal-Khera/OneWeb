@@ -1,0 +1,22 @@
+﻿---
+ID: "e2f8e1db-9e47-4f2c-8979-8ad4914c2cef"
+Parent: "78eaf212-aa11-4053-aa6c-e1aea1276c75"
+Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Styles/OneWeb/Font Size and Headings
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211215T065939Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

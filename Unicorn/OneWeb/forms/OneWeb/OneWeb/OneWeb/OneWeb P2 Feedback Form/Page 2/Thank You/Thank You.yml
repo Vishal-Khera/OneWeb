@@ -1,0 +1,34 @@
+﻿---
+ID: "7dc4ab35-b407-4ec6-95c0-c605882fa5f9"
+Parent: "554fb909-c19e-4598-a13f-0a7ea48e1360"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: /sitecore/Forms/OneWeb/OneWeb/OneWeb/OneWeb P2 Feedback Form/Page 2/Thank You/Thank You
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: "text-subheading"
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "c6caa979-c3ac-4ffc-861e-2961f5fc3c48"
+  Hint: Html Tag
+  Value: h4
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211205T165335Z
+    - ID: "9666782b-21bb-40ce-b38f-8f6c53fa5070"
+      Hint: Text
+      Value: Thank you for submitting this form.

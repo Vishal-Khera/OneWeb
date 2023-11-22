@@ -1,0 +1,14 @@
+﻿---
+ID: "0673d6eb-5bc8-4748-bc54-0ae13a0179f1"
+Parent: "8cdb02ae-4106-4fc3-9627-8a8e6d01de5d"
+Template: "56ef46ce-fe64-4acc-aedf-fb4ff01c058b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Integrations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211216T102225Z

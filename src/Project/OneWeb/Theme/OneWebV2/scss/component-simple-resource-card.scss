@@ -1,0 +1,62 @@
+@import 'base/base-index.scss';
+
+
+.resource-card-simple{
+    height: auto;
+    flex-direction: column;
+    .card-image{
+        aspect-ratio: 5/3;
+        img{
+            border-radius: 8px 8px 0px 0px ;
+            margin-bottom: 0;
+        }
+    }
+    .create-date{
+        color:$paragraph-text
+    }
+    .card-body{
+        height: auto;
+        padding-bottom: 60px;
+        max-width: 350px;
+        .card-title{ 
+            color:$brand !important;
+            margin-bottom: 0px;
+            @include font-size($smlg-font);
+        }
+        .card-text{
+            color:$brandblack !important;
+            @include font-size($md-font);
+            
+        }
+    }
+}
+
+.dark-theme{
+    .product-card-wrapper{
+        &:focus{
+            .card{
+                &.resource-card-simple{
+                    outline-color: $mid-light-gray !important;
+                }
+            }
+        }
+    }
+    .resource-card-simple{
+        background-color: $brandblack !important;
+        .create-date{
+            color:$mid-light-gray !important
+        }
+        .card-image{
+            padding: 0px;
+        }
+        .card-body{
+            .card-title{
+                color:$mid-light-gray !important
+            }
+            .card-text{
+                color:$base-light-gray !important
+                
+            }
+        }
+    }
+}

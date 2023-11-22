@@ -1,0 +1,14 @@
+﻿---
+ID: "f0814748-8305-47b2-afaf-9671191e0341"
+Parent: "df8365ca-2d57-47ad-91fa-2d7f2ac87c03"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Integrations/Google Analytics Integration/Integrations
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211216T102042Z

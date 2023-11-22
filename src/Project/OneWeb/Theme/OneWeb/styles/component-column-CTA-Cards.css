@@ -1,0 +1,116 @@
+.ow-card-column {
+  margin-bottom: 30px !important;
+  display: flex;
+  min-height: 120px; }
+  @media only screen and (min-width: 768px) {
+    .ow-card-column {
+      min-height: 100px; } }
+  .ow-card-column .component-content {
+    padding: 20px 25px;
+    background: #F9F9F9;
+    border-left: 2px solid #D9171D;
+    display: flex; }
+    .ow-card-column .component-content .column-icon {
+      margin-right: 15px;
+      width: 45px; }
+      .ow-card-column .component-content .column-icon img {
+        height: 40px; }
+      .ow-card-column .component-content .column-icon .icon-hover {
+        display: none; }
+    .ow-card-column .component-content .column-details {
+      width: 90%;
+      min-height: 100px; }
+      .ow-card-column .component-content .column-details .description {
+        font-size: 14px;
+        line-height: 19px;
+        color: #2B2B2B;
+        margin-bottom: 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden; }
+        @media screen and (min-width: 0) {
+          .ow-card-column .component-content .column-details .description {
+            font-size: 14px; } }
+        @media screen and (min-width: 768px) {
+          .ow-card-column .component-content .column-details .description {
+            font-size: 14px; } }
+        @media screen and (min-width: 992px) {
+          .ow-card-column .component-content .column-details .description {
+            font-size: 14px; } }
+      .ow-card-column .component-content .column-details .btn {
+        font-size: 12px;
+        text-transform: uppercase;
+        border: 1px solid #D9171D !important;
+        text-decoration: none;
+        padding: 5.5px 18px;
+        position: absolute;
+        bottom: 15px; }
+        @media screen and (min-width: 0) {
+          .ow-card-column .component-content .column-details .btn {
+            font-size: 12px; } }
+        @media screen and (min-width: 768px) {
+          .ow-card-column .component-content .column-details .btn {
+            font-size: 12px; } }
+        @media screen and (min-width: 992px) {
+          .ow-card-column .component-content .column-details .btn {
+            font-size: 12px; } }
+        .ow-card-column .component-content .column-details .btn:after {
+          content: "\276F";
+          padding-left: 5px; }
+  .ow-card-column:hover .component-content {
+    background: rgba(217, 23, 29, 0.75); }
+    .ow-card-column:hover .component-content .column-icon .icon-default {
+      display: none; }
+    .ow-card-column:hover .component-content .column-icon .icon-hover {
+      display: block; }
+    .ow-card-column:hover .component-content .column-details .description {
+      color: #fff; }
+    .ow-card-column:hover .component-content .column-details .btn {
+      font-size: 12px;
+      text-transform: uppercase;
+      border: 1px solid #fff !important; }
+      @media screen and (min-width: 0) {
+        .ow-card-column:hover .component-content .column-details .btn {
+          font-size: 12px; } }
+      @media screen and (min-width: 768px) {
+        .ow-card-column:hover .component-content .column-details .btn {
+          font-size: 12px; } }
+      @media screen and (min-width: 992px) {
+        .ow-card-column:hover .component-content .column-details .btn {
+          font-size: 12px; } }
+      .ow-card-column:hover .component-content .column-details .btn:after {
+        content: "\276F";
+        padding-left: 5px; }
+  .ow-card-column .active-mobile {
+    background: rgba(217, 23, 29, 0.75); }
+    @media only screen and (min-width: 992px) {
+      .ow-card-column .active-mobile {
+        background: #F9F9F9; } }
+    .ow-card-column .active-mobile .column-icon .icon-default {
+      display: none; }
+    .ow-card-column .active-mobile .column-icon .icon-hover {
+      display: block; }
+    .ow-card-column .active-mobile .column-details .description {
+      color: #fff; }
+      @media only screen and (min-width: 992px) {
+        .ow-card-column .active-mobile .column-details .description {
+          color: #000; } }
+    .ow-card-column .active-mobile .column-details .btn {
+      font-size: 12px;
+      text-transform: uppercase;
+      border: 1px solid #fff !important;
+      position: absolute;
+      bottom: 15px; }
+      @media screen and (min-width: 0) {
+        .ow-card-column .active-mobile .column-details .btn {
+          font-size: 12px; } }
+      @media screen and (min-width: 768px) {
+        .ow-card-column .active-mobile .column-details .btn {
+          font-size: 12px; } }
+      @media screen and (min-width: 992px) {
+        .ow-card-column .active-mobile .column-details .btn {
+          font-size: 12px; } }
+      .ow-card-column .active-mobile .column-details .btn:after {
+        content: "\276F";
+        padding-left: 5px; }

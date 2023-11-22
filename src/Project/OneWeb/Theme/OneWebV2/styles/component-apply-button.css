@@ -1,0 +1,43 @@
+.apply-button {
+  width: min-content;
+  color: rgba(26, 25, 24, 0.5);
+  font-size: 13px; }
+  @media screen and (min-width: 0) {
+    .apply-button {
+      font-size: 13px; } }
+  @media screen and (min-width: 768px) {
+    .apply-button {
+      font-size: 13px; } }
+  @media screen and (min-width: 992px) {
+    .apply-button {
+      font-size: 13px; } }
+  .apply-button .button {
+    padding: 12px 20px 12px 20px;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    font-size: 16px; }
+    @media screen and (min-width: 0) {
+      .apply-button .button {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .apply-button .button {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .apply-button .button {
+        font-size: 16px; } }
+    .apply-button .button::before, .apply-button .button::after {
+      content: none; }
+    .apply-button .button:hover {
+      padding: 12px 20px 12px 20px;
+      padding-bottom: 8px; }
+    .apply-button .button i {
+      font-family: 'icomoon' !important;
+      display: block !important;
+      margin-left: 10px; }
+
+.btn-apply {
+  display: block;
+  white-space: nowrap; }
+
+.blue-theme .apply-button {
+  color: rgba(240, 240, 240, 0.7); }

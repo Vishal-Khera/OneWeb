@@ -1,0 +1,14 @@
+﻿---
+ID: "6cef3492-8662-44b6-8056-b350b2605348"
+Parent: "2dcd3b85-ec83-4de1-87fa-44e00f1e588f"
+Template: "2dcd3b85-ec83-4de1-87fa-44e00f1e588f"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Hero/Datasource/OneWeb Banner Carousel/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T112405Z

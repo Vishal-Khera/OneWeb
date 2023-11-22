@@ -1,0 +1,41 @@
+﻿---
+ID: "22faa21f-478f-42f2-89ee-30baecfc6530"
+Parent: "2ed96ad0-6694-4aeb-ad70-d82fd2b0fdc4"
+Template: "ba8640ab-9b2d-48da-8431-e412f8f4bdb8"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Comparison Table/SL41 Comparison Table/MetraSCAN 375
+DB: master
+SharedFields:
+- ID: "042d6b00-ccf6-436c-a50a-419cafa2ffe4"
+  Hint: PropertyList
+  Type: Multilist
+  Value: |
+    {A06F708A-C749-4E78-A7E1-8C9320BF05E9}
+    {30D2C1C8-05D9-4B6E-8178-067C2051A0BA}
+    {2ED72DD5-35BE-4D77-B37A-04B6CB6E6A48}
+    {75C7A459-20C1-4F37-BF57-7B01E367AAC5}
+    {72578A70-5DF8-4D0D-8ABD-B2C790A26320}
+    {68573936-2EE9-46C4-9F70-2D45C285F59E}
+- ID: "97464823-b56f-4229-88ce-b813cdccf2f8"
+  Hint: CardList
+  Type: Multilist
+  Value: |
+    {D74E6DAA-E722-4336-ACA6-34236FD40553}
+    {1904B7ED-3AE7-40CB-991D-FA465B78E153}
+    {7A025F51-91B1-46DE-A0D3-E20603C17B0D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0d1c33b0-5d59-48f5-888e-2ab4213313db"
+      Hint: Image
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220805T074745Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: 
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: 

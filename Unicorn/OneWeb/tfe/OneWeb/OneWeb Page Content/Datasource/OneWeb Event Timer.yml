@@ -1,0 +1,28 @@
+﻿---
+ID: "6526777c-85bc-4ae9-a3d9-19ce39c4db7a"
+Parent: "b3909844-ff45-449b-8f94-42cb3c9dbbf2"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Event Timer
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "business/16x16/date-time.png"
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {3112F3CF-F144-4FB0-A29C-E326EE1FBA1D}
+    {901C5F21-89E3-4074-876C-56268E26D181}
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{385ED133-0DE9-4BFC-9C59-E7DD6D10A7DD}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220518T065909Z

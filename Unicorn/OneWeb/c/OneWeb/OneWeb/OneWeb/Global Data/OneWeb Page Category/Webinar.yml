@@ -1,0 +1,20 @@
+﻿---
+ID: "11ddcae4-c3af-498f-b303-3cbb34f891e7"
+Parent: "6c526d5f-19ee-4ba8-8e41-585f8a2a779a"
+Template: "851511fa-16f0-4200-9650-33c8af27bf94"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Global Data/OneWeb Page Category/Webinar
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220809T193931Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Webinar
+    - ID: "cf4fe835-3638-40e4-9fc6-3d121a24e00f"
+      Hint: Value
+      Value: Webinar

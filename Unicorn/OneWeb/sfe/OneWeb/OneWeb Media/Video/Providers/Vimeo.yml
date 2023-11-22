@@ -1,0 +1,21 @@
+﻿---
+ID: "da4a478c-d173-4598-b15c-e5488cf7ee39"
+Parent: "348a715c-3509-4455-be2d-5f019b4582ca"
+Template: "beef29e6-1876-4917-bbc0-35533f716f0b"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Media/Video/Providers/Vimeo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T114633Z
+    - ID: "55694a0b-cc7c-442b-b0d1-98e2fae81ab1"
+      Hint: Name
+      Value: Vimeo
+    - ID: "5bec946f-2b44-4d15-9a2f-455be2bb7c0e"
+      Hint: EmbedTemplate
+      Value: |
+        <iframe class="ow-lazy" type="text/html" {{source}}="https://player.vimeo.com/video/{{id}}?muted={{muted}}&autoplay={{autoplay}}&loop={{loop}}" {{attributes}}></iframe>

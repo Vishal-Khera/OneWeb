@@ -1,0 +1,187 @@
+.testimonial-card {
+  position: relative;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin-bottom: 30px; }
+  .testimonial-card .component-content {
+    width: 100%;
+    height: 100%;
+    display: unset;
+    flex-direction: unset; }
+    @media only screen and (min-width: 992px) {
+      .testimonial-card .component-content {
+        display: flex;
+        flex-direction: column; } }
+    .testimonial-card .component-content .cards {
+      width: 100%;
+      height: 100%;
+      box-shadow: 0px 3px 12px #7F7F7F; }
+      .testimonial-card .component-content .cards .card {
+        height: 100%;
+        background: unset;
+        border: none;
+        padding: 30px; }
+        .testimonial-card .component-content .cards .card .card-header {
+          display: flex;
+          position: relative;
+          margin-bottom: 15px;
+          padding-bottom: 15px;
+          padding: 0 0 20px;
+          align-items: flex-start;
+          background-color: unset; }
+          @media only screen and (min-width: 992px) {
+            .testimonial-card .component-content .cards .card .card-header {
+              flex-direction: row; } }
+          .testimonial-card .component-content .cards .card .card-header .card-image {
+            object-fit: cover;
+            transition: all 0.5s;
+            margin-right: 20px;
+            width: 30%;
+            margin-bottom: 20px; }
+            @media only screen and (min-width: 768px) {
+              .testimonial-card .component-content .cards .card .card-header .card-image {
+                margin-right: 40px !important; } }
+            @media only screen and (min-width: 992px) {
+              .testimonial-card .component-content .cards .card .card-header .card-image {
+                width: 155px;
+                margin-right: 40px !important; } }
+            .testimonial-card .component-content .cards .card .card-header .card-image img {
+              width: 100%;
+              border-radius: 100%;
+              -webkit-border-radius: 100%;
+              -moz-border-radius: 100%; }
+              .testimonial-card .component-content .cards .card .card-header .card-image img:hover {
+                -moz-transition: visibility 0.5s ease 10s;
+                -o-transition: visibility 0.5s ease 10s;
+                -webkit-transition: visibility 0.5s ease 10s;
+                transition: visibility 0.5s ease 10s;
+                outline: 1px solid #D9171D;
+                border: 5px solid #fff;
+                -moz-transform: scale(1.2);
+                -o-transform: scale(1.2);
+                -webkit-transform: scale(1.2);
+                transform: scale(1.2); }
+          .testimonial-card .component-content .cards .card .card-header .card-heading {
+            width: 70%; }
+            .testimonial-card .component-content .cards .card .card-header .card-heading .name {
+              font-family: "Helvetica Neue";
+              font-size: 22px;
+              color: #D9171D; }
+              @media screen and (min-width: 0) {
+                .testimonial-card .component-content .cards .card .card-header .card-heading .name {
+                  font-size: 22px; } }
+              @media screen and (min-width: 768px) {
+                .testimonial-card .component-content .cards .card .card-header .card-heading .name {
+                  font-size: 24px; } }
+              @media screen and (min-width: 992px) {
+                .testimonial-card .component-content .cards .card .card-header .card-heading .name {
+                  font-size: 24px; } }
+            .testimonial-card .component-content .cards .card .card-header .card-heading .designation {
+              font-size: 18px;
+              color: #c7c7c7; }
+              @media screen and (min-width: 0) {
+                .testimonial-card .component-content .cards .card .card-header .card-heading .designation {
+                  font-size: 18px; } }
+              @media screen and (min-width: 768px) {
+                .testimonial-card .component-content .cards .card .card-header .card-heading .designation {
+                  font-size: 18px; } }
+              @media screen and (min-width: 992px) {
+                .testimonial-card .component-content .cards .card .card-header .card-heading .designation {
+                  font-size: 18px; } }
+            .testimonial-card .component-content .cards .card .card-header .card-heading .card-quote {
+              font-family: "HelveticaNeue-Bold";
+              font-size: 20px;
+              color: #2B2B2B;
+              padding-top: 15px; }
+              @media screen and (min-width: 0) {
+                .testimonial-card .component-content .cards .card .card-header .card-heading .card-quote {
+                  font-size: 20px; } }
+              @media screen and (min-width: 768px) {
+                .testimonial-card .component-content .cards .card .card-header .card-heading .card-quote {
+                  font-size: 20px; } }
+              @media screen and (min-width: 992px) {
+                .testimonial-card .component-content .cards .card .card-header .card-heading .card-quote {
+                  font-size: 20px; } }
+              @media only screen and (min-width: 992px) {
+                .testimonial-card .component-content .cards .card .card-header .card-heading .card-quote {
+                  padding-top: 24px; } }
+        .testimonial-card .component-content .cards .card .card-body {
+          display: flex;
+          padding: 0px; }
+          .testimonial-card .component-content .cards .card .card-body .card-paragraph {
+            text-align: left;
+            line-height: 24px;
+            font-size: 18px;
+            color: #2B2B2B; }
+            @media screen and (min-width: 0) {
+              .testimonial-card .component-content .cards .card .card-body .card-paragraph {
+                font-size: 18px; } }
+            @media screen and (min-width: 768px) {
+              .testimonial-card .component-content .cards .card .card-body .card-paragraph {
+                font-size: 18px; } }
+            @media screen and (min-width: 992px) {
+              .testimonial-card .component-content .cards .card .card-body .card-paragraph {
+                font-size: 18px; } }
+            .testimonial-card .component-content .cards .card .card-body .card-paragraph ul li a {
+              color: #D9171D;
+              font-size: 16px; }
+              @media screen and (min-width: 0) {
+                .testimonial-card .component-content .cards .card .card-body .card-paragraph ul li a {
+                  font-size: 16px; } }
+              @media screen and (min-width: 768px) {
+                .testimonial-card .component-content .cards .card .card-body .card-paragraph ul li a {
+                  font-size: 16px; } }
+              @media screen and (min-width: 992px) {
+                .testimonial-card .component-content .cards .card .card-body .card-paragraph ul li a {
+                  font-size: 16px; } }
+              .testimonial-card .component-content .cards .card .card-body .card-paragraph ul li a em {
+                padding-right: 10px; }
+      .testimonial-card .component-content .cards.ow-employee-card {
+        box-shadow: none; }
+        @media only screen and (min-width: 992px) {
+          .testimonial-card .component-content .cards.ow-employee-card {
+            padding: 0 30px; } }
+        @media only screen and (min-width: 1200px) {
+          .testimonial-card .component-content .cards.ow-employee-card {
+            padding: 0 70px; } }
+        .testimonial-card .component-content .cards.ow-employee-card .card {
+          padding: 0; }
+          .testimonial-card .component-content .cards.ow-employee-card .card .card-header {
+            border-bottom: 0;
+            margin-bottom: 0;
+            padding-bottom: 0; }
+            .testimonial-card .component-content .cards.ow-employee-card .card .card-header .card-image {
+              margin-right: 0 !important; }
+              .testimonial-card .component-content .cards.ow-employee-card .card .card-header .card-image img {
+                border-radius: 0; }
+                .testimonial-card .component-content .cards.ow-employee-card .card .card-header .card-image img:hover {
+                  transition: visibility 0.5s ease 10s;
+                  outline: 0;
+                  border: 0;
+                  transform: scale(1); }
+            .testimonial-card .component-content .cards.ow-employee-card .card .card-header .card-heading .card-quote {
+              padding-top: 0;
+              margin-bottom: 30px;
+              font-size: 16px; }
+              @media screen and (min-width: 0) {
+                .testimonial-card .component-content .cards.ow-employee-card .card .card-header .card-heading .card-quote {
+                  font-size: 16px; } }
+              @media screen and (min-width: 768px) {
+                .testimonial-card .component-content .cards.ow-employee-card .card .card-header .card-heading .card-quote {
+                  font-size: 16px; } }
+              @media screen and (min-width: 992px) {
+                .testimonial-card .component-content .cards.ow-employee-card .card .card-header .card-heading .card-quote {
+                  font-size: 16px; } }
+              .testimonial-card .component-content .cards.ow-employee-card .card .card-header .card-heading .card-quote .name {
+                color: #D9171D; }
+            .testimonial-card .component-content .cards.ow-employee-card .card .card-header .card-heading * {
+              color: #000; }
+
+.slider-wrapper.ow-disable-carousal-desktop .slick-prev:after,
+.slider-wrapper.ow-disable-carousal-desktop .slick-next:after {
+  border-color: #7F7F7F; }
+
+.slider-wrapper.ow-disable-carousal-desktop .slick-prev.slick-disabled,
+.slider-wrapper.ow-disable-carousal-desktop .slick-next.slick-disabled {
+  display: none !important; }

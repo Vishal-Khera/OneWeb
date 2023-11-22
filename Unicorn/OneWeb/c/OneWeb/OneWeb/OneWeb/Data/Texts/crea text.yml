@@ -1,0 +1,14 @@
+﻿---
+ID: "ce1c3416-c8d9-468d-a399-956ff0bff466"
+Parent: "d46c1b39-c0ff-4233-ac03-e6e5779a1356"
+Template: "a6298267-7240-472e-94d0-09fad3d32c7b"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Texts/crea text
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220808T093535Z

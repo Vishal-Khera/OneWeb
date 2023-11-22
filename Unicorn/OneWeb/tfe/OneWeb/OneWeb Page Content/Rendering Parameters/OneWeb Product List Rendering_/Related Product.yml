@@ -1,0 +1,14 @@
+﻿---
+ID: "1aa52469-6799-4d03-87d3-d4eabe829777"
+Parent: "db3705ee-e987-496f-8022-a36f88d9ea41"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Product List Rendering Parameters/Related Product
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220401T143234Z

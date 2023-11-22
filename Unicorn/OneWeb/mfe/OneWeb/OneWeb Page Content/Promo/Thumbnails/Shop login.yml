@@ -1,0 +1,47 @@
+﻿---
+ID: "df56cc13-ff2c-4ce2-be0b-085bd594904a"
+Parent: "98e265ca-a349-4120-82a8-f9ab8df34b1a"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Page Content/Promo/Thumbnails/Shop login
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/DF56CC13FF2C4CE2BE0B085BD594904A.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 121
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "f4fc7146-7636-4639-894c-a0887be96c4f"
+  Value: iVBORw0KGgoAAAANSUhEUgAAAHkAAAAfCAYAAADDV2IOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASNSURBVGhD7ZdvaFdVGMd90Yte+KIXvggSChIKDAwU9IVQ4EAjwQhFwTBjgn8yFEf/GKSiYChitJbpwmEOl4puOk3nv7G2GrnMPz905rIx/6050+nI/lg8nc/ZOZdz7+5vBv4utMO58OV37vOce87vns/zPOfcYRIu768IcvneszK6eHuQh4ogr/jihAwr+iTIRxnGAbLPMowDZJ9lGAfIPsswDpB9lmEcIPsswzhA9lmGceaQX1i2R8pqz0jFgXMy7YMDqX2CMpJhnCnkdyu+ldYfu2XW6kMytXS/HDl5WcNO6xuUgQzjzCCPmrNN2i7fkuFTN8XsgH65tC5mQ49MLpdVVa1yqv2G5H6+qdvY8BEsz75RFevv2pijdEuLtF7o1lq384do3hGvfi6Vh85HIsgmv7cvNhaauHR33kozfvEu2dXYLu1Xb0tdS4f6//tj/rGLdmh/W+ctaTh9VWaqoLa+4vXH9Ni0mZ+xrA/xX937gsowzgzy4rJGWb71uwH219Yclg27Tw+wA7Wyvk0efWmjBlPzzSUNDh8L92JJTay/ayNw1lSf1GAR8zblrukgeWr2VrnS06d/0SsK5JUbffLcvO2x8eauPZr6f4FCfzsXz+U6bsps9R7cj5n/pYLfK0Xv1Eb+lvNdkZ93YmzaXDzLO3KPOn65G7ULLj2jurKCvOCjBrXw3w+wz1t/PNVOhrxuFgNRCez9YJCnqKxsyl2P+RDjzVxdr8EmF9JdeKt8kJmHwHBtgAQ87ZrmS2o7qo/5x6nMLvmsWbeTkAlGN3uHNOT+xb2js9LayCyi/HkV/W5fVPR2rXT9+ptUH78oS8q/lmec8sxCs1hAsOrouqMh23t3LEQlKas925/JCsiT6heNXbhDPzvhrXjZzAf59z/vxzLPiuowclal3O77Qx6btlnbqCJ2nieUD1sSMmORzVQAbEMaMipWWUspI6rf/LhR77VpWWzFApCZLHb7td6oL5A/VBnAYlmx3w8Geb6qJBVfndOQAcUYiAxny0j2zweZy54NXAGHse///U8UBPx3O4+Fl4TMLwF26qcePe6QhkwGc8Ch7HJIIqs4abMATytbsj/7tD0sIdosIAvBM/nK9fSVBzU414eoCGwNaeU6TfkgU3n4DHRtZHBP7z3dZquYpKpQ0j8YZMR6cOYYspApX+7hxBWfUmQp8F07oHhpmzUsrN33BoNsy5+7n3O6pYLge1jIBBEVyJZf3u3giU4p2dS/55K9nKop0dbPPv0gyAQx1ajv3l+RreDSM6orC8gb63Ky5NOmVB+a8n5/WXNtj8/YItUNF/V+CSAyZNyindqHPbmHurbYsyqA+JwBLj6yKu1glhQwAePKvgMHK8or4wPGArYicMl4/AQc20HV0QvaxyGLsWlb8FacyJO2gsowLjhkIpSXTdvHXLHwyc+YoALLMC44ZMCxH6b5XFEak58eQQWWYZxJuX5QFqP/0ifoIWUYZwI56H8iwzhA9lmGcYDsswzjANlnGcYBss8yjANkn2UYS2f3XWnOXQ/yUBHkcPl7BcjeXyL/AhjQBXXZH7zxAAAAAElFTkSuQmCC
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1272
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: PNG
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 121 x 31
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 31
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T072159Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: shop login

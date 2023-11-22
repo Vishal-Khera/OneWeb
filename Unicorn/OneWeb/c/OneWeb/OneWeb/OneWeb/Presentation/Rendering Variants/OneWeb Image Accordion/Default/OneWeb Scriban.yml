@@ -1,0 +1,61 @@
+﻿---
+ID: "7e6de434-695b-44bd-932f-c51213ff66c7"
+Parent: "cfd3fd36-899c-483a-88ad-28a1a858e954"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Image Accordion/Default/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if i_datasource}}
+    	{{if i_datasource.children}}
+    	<div class="client-industry-wrapper">
+    		{{if i_datasource.children}}
+    			{{index = 1}}
+    			{{for level_one_child in (i_datasource.children | array.limit (sc_parameter 'AccordionItemCount'))}}
+    			{{if index == 1}}
+    				<div class="client-industry-item active"> 
+    			{{else}}
+    				<div class="client-industry-item"> 
+    			{{end}}
+    			{{index = index + 1 }}
+    					<div class="client-industry-name" tabindex="0">
+    						{{svg_model = ow_svg_model level_one_child 'Icon' ''}}
+    						{{if (svg_model | string.size) > 0}}
+    							<div class="svg-wrapper">
+    								{{svg_model}}
+    							</div>
+    						{{end}}
+    						
+    						{{if (level_one_child.title|string.size > 0 )}}   
+    							<div class="industry-value">
+    								{{level_one_child.Title}}
+    							</div>
+    						{{end}}
+    					</div>
+    				{{caroursel_type = level_one_child.Structure.target
+    				if caroursel_type
+    					case  caroursel_type.Value.raw
+    						when "3x3"
+    						sc_execute level_one_child "OneWeb 3x3 Scriban"
+    						when "2x2"
+    						sc_execute level_one_child "OneWeb 2x2 Scriban"
+    						else
+    						sc_execute level_one_child "OneWeb 1x1 Scriban"
+    					end}}
+    				{{end}}
+    			</div>
+    			{{end}}
+    		{{end}}
+    	</div>
+    	{{end}}
+    {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211216T082811Z

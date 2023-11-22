@@ -1,0 +1,109 @@
+.simple-list.card {
+  width: 100%;
+  height: unset;
+  display: flex;
+  justify-content: start;
+  padding: 15px;
+  align-items: center;
+  background-color: #EDEDED;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-bottom: 1px solid rgba(26, 25, 24, 0.15); }
+  .simple-list.card * {
+    font-family: "FranklinGothicLTPro-Md" !important; }
+  @media only screen and (min-width: 768px) {
+    .simple-list.card {
+      padding: 20px; } }
+  .simple-list.card i {
+    font-family: 'icomoon' !important; }
+    .simple-list.card i::before {
+      color: #F7F7F7;
+      font-size: 12px; }
+      @media screen and (min-width: 0) {
+        .simple-list.card i::before {
+          font-size: 12px; } }
+      @media screen and (min-width: 768px) {
+        .simple-list.card i::before {
+          font-size: 12px; } }
+      @media screen and (min-width: 992px) {
+        .simple-list.card i::before {
+          font-size: 12px; } }
+
+.simple-list .card-title {
+  color: #236192;
+  font-size: 18px; }
+  @media screen and (min-width: 0) {
+    .simple-list .card-title {
+      font-size: 18px; } }
+  @media screen and (min-width: 768px) {
+    .simple-list .card-title {
+      font-size: 18px; } }
+  @media screen and (min-width: 992px) {
+    .simple-list .card-title {
+      font-size: 21px; } }
+
+.simple-list .card-icon {
+  min-width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #236192;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  margin-right: 10px; }
+  @media only screen and (min-width: 768px) {
+    .simple-list .card-icon {
+      margin-right: 15px; } }
+
+.simple-list .card-info {
+  font-size: 16px; }
+  @media screen and (min-width: 0) {
+    .simple-list .card-info {
+      font-size: 16px; } }
+  @media screen and (min-width: 768px) {
+    .simple-list .card-info {
+      font-size: 16px; } }
+  @media screen and (min-width: 992px) {
+    .simple-list .card-info {
+      font-size: 16px; } }
+
+.dark-theme .simple-list, .dark-theme-overlay .simple-list {
+  background-color: #2C2A29; }
+  .dark-theme .simple-list.card, .dark-theme-overlay .simple-list.card {
+    background-color: #2C2A29;
+    color: #F7F7F7 !important;
+    border-bottom: 1px solid rgba(240, 240, 240, 0.15); }
+  .dark-theme .simple-list .card-info, .dark-theme-overlay .simple-list .card-info {
+    color: #F7F7F7 !important; }
+  .dark-theme .simple-list i::before, .dark-theme-overlay .simple-list i::before {
+    color: #F7F7F7; }
+
+.blue-theme .simple-list, .blue-theme-overlay .simple-list {
+  background-color: #114B79; }
+  .blue-theme .simple-list.card, .blue-theme-overlay .simple-list.card {
+    background-color: #114B79;
+    color: #F7F7F7 !important;
+    border-bottom: 1px solid rgba(240, 240, 240, 0.15); }
+  .blue-theme .simple-list .card-info, .blue-theme-overlay .simple-list .card-info {
+    color: #F7F7F7 !important; }
+  .blue-theme .simple-list i::before, .blue-theme-overlay .simple-list i::before {
+    color: #F7F7F7; }
+
+.simple-list-wrapper .ow-card-icon:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 1px solid rgba(26, 25, 24, 0.15); }
+  .simple-list-wrapper .ow-card-icon:first-child .simple-list {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px; }
+
+.simple-list-wrapper .ow-card-icon:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom: none; }
+  .simple-list-wrapper .ow-card-icon:last-child .simple-list {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px; }

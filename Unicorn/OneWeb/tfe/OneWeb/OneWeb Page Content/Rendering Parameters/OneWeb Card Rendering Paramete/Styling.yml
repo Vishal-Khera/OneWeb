@@ -1,0 +1,14 @@
+﻿---
+ID: "b65f847e-06f4-4178-9a57-1d0a224cf7d0"
+Parent: "2f01b189-6afe-4ba7-887a-717ea46e698e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Card Rendering Parameters/Styling
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220509T105044Z

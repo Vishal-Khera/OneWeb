@@ -1,0 +1,14 @@
+﻿---
+ID: "066baf94-bb0a-4f29-99a7-69a53e031de5"
+Parent: "92431d1a-d1d4-4160-b5f0-f4d77984ac43"
+Template: "92431d1a-d1d4-4160-b5f0-f4d77984ac43"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Navigation/Rendering Parameters/OneWeb Link List Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211123T084741Z

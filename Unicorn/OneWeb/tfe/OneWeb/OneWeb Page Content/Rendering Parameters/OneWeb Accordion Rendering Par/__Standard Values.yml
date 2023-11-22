@@ -1,0 +1,32 @@
+﻿---
+ID: "f50a5970-2ef4-4d12-89b8-35f3d266822b"
+Parent: "3733c0e8-7db6-42ba-9cf9-13ae73e9e7d9"
+Template: "3733c0e8-7db6-42ba-9cf9-13ae73e9e7d9"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Accordion Rendering Parameters/__Standard Values
+DB: master
+SharedFields:
+- ID: "22c51b11-fa90-4d03-b621-1161f8df7609"
+  Hint: EasingFunction
+  Value: Swing
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+- ID: "4cbc636b-af6c-4a74-a09d-de5a8740d84b"
+  Hint: CanToggle
+  Type: Checkbox
+  Value: 1
+- ID: "784e5fde-67e8-4664-8c50-03fd18450923"
+  Hint: Speed
+  Value: 500
+- ID: "99aca381-d70b-4bf1-95e5-afdbb4e41ce9"
+  Hint: CanOpenMultiple
+  Type: Checkbox
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130319T100900Z

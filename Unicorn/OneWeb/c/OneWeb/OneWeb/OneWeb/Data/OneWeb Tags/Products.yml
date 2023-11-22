@@ -1,0 +1,25 @@
+﻿---
+ID: "b131f76f-30df-47fd-aca8-068f3f5fdbdd"
+Parent: "02b72c12-65fe-433f-9dc9-9578817a0ea8"
+Template: "bd83c41b-884d-4bc2-a871-e2d2d5e53cc9"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Tags/Products
+DB: master
+SharedFields:
+- ID: "866c16cc-5200-48b9-9e2d-a30620172578"
+  Hint: CategoryName
+  Value: products
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220812T153623Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "e19779a0-5442-4bc9-a131-898a2a98d42f"
+      Hint: Title
+      Value: Products

@@ -1,0 +1,21 @@
+﻿---
+ID: "ca116666-40ed-41f9-8f1d-dfa707f45b72"
+Parent: "b7fb94c2-9c5e-4ad6-aed7-6798cc03e952"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Search Template/P2 Job Listing Results/Container
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="search-container__result light-view-card">
+            <div class="ow-container"></div>
+        </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211223T225806Z

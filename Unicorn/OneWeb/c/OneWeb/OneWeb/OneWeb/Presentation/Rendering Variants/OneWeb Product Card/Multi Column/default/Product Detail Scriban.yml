@@ -1,0 +1,47 @@
+﻿---
+ID: "fee50f54-1eb2-43a9-b4fc-66b5a2627e24"
+Parent: "2022943d-a60b-4baf-9014-8285e468290a"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Product Card/Multi Column/default/Product Detail Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if i_item -}}
+            {{ link_classes = ow_get_linkClass i_item 'Navigation Url' "row-item"}}
+        	{{product_url = ow_link_model i_item 'Navigation Url'}}
+        	{{if (product_url.url | string.size >0)}}
+        		<a href= '{{product_url.url}}'class= '{{link_classes}}' target='{{product_url.target}}' anchor='{{product_url.anchor}}' >
+        	{{else}}
+        	<a href = '{{i_item.url}}' class = "row-item" target = "_self" >
+        	{{end}}
+            <div class="product-thumbnail">
+             <img data-src="{{i_item.Image.url}}" alt="{{i_item.Image.alt.raw}}" title="{{i_item.Image.title.raw}}" class="ow-lazy">
+            </div>
+            <div class="product-details product-details-w">
+            {{-if (i_item.Category | string.size >0) -}}          
+            <span class="product-category">{{-i_item.Category-}}</span>            
+            {{end}}
+            {{if (i_item.Title | string.size >0)}}
+            <h4>{{ sc_field i_item 'Title' }}</h4>
+            {{end}}
+            {{if (i_item.Content | string.size >0)}}
+            <div class="description content-strip">{{sc_field i_item 'Content'}}</div>
+            {{end}}
+            {{if (product_url.text | string.size >0)}}
+            	<button class="btn btn-primary">{{product_url.text}}</button>
+            {{else}}
+            	<button class="btn btn-primary">{{ sc_translate 'OneWeb-Product-Card-View' }}</button>
+            {{end}}
+            </div>
+            </a>
+        {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T104034Z

@@ -1,0 +1,51 @@
+﻿---
+ID: "47d933d1-cbde-4ce7-8f4d-16e82c2baeb2"
+Parent: "5db4ebd5-c50e-490f-8190-588769dc8f50"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Text With Placeholder/P2 Title With CTA/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="text-wrapper">
+    {{if i_item.title !=""}}
+    <div class="ow-heading card-main-heading"><h2>{{i_item.Title}}</h2></div>
+    {{end}}
+    
+    
+    <div class="component-placeholder-wrapper">
+    {{sc_dynamic_placeholder 'ow-text-placeholder'}}
+    </div>
+     <div class="comparison-card-links">
+    
+     {{link_model_primary = ow_link_model i_item 'PrimaryLink'}}
+    		  {{ if(link_model_primary.url != "") }}		   
+    			<div class="card-cta-link"> 
+                      <a href="{{link_model_primary.url}}" class="{{link_model_primary.class}} button btn-default" title="{{link_model_primary.title}}" target="{{link_model_primary.target}}">{{link_model_primary.text}}</a>
+    			</div>
+    		   {{ end }}
+    		
+    		{{link_model_secondary = ow_link_model i_item 'SecondaryLink'}}
+    		  {{ if(link_model_secondary.url != "") }}
+    		  <div class="card-cta-link">
+                      <a href="{{link_model_secondary.url}}" class="{{link_model_secondary.class}} button btn-simple m-0" title="{{link_model_secondary.title}}" target="{{link_model_secondary.target}}">{{link_model_secondary.text}}</a>
+    		  </div>
+    		   {{ end }}
+     </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T185907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

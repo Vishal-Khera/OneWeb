@@ -1,0 +1,30 @@
+﻿---
+ID: "cd3acf7e-21c6-4ff1-968a-e6dca1a1863b"
+Parent: "c3058b10-34f8-4eaf-85ed-23fe657cd98e"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Hero Banner/Default/Hero Banner
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{-if o_model
+    	case o_model.template_name
+    		when "OneWeb Banner Carousel"
+    			sc_execute o_model.datasource_item "Carousel Scriban"
+    		when "OneWeb Image List Banner"
+    			sc_execute o_model.datasource_item "Image List Scriban"
+    		when "OneWeb Video Banner"
+    			sc_execute o_model.datasource_item "Video Banner"
+    		else 
+    			sc_execute o_model.datasource_item "Image Scriban"
+    	end
+    end-}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211208T071723Z

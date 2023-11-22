@@ -1,0 +1,150 @@
+@import "base/base-index.scss";
+.trade-fair-events-bg {
+  .component {
+    background-size: 100% 340px;
+    background-repeat: no-repeat;
+
+    @include lg {
+      background-size: 100% auto;
+    }
+    .ow-trade-events {
+      position: relative;
+      padding: 55px 0;
+      display: flex;
+      @include lg {
+        padding: 200px 0;
+      }
+      .trade-fair-item {
+        margin-bottom: 15px;
+        position: relative;
+        max-width: 100%;
+        .tile-slide {
+          background: rgba($color: $white, $alpha: 0.9);
+          position: relative;
+          height: 250px;
+
+          .card-title-content {
+            color: $black;
+
+            h4 {
+              font-family: "Helvetica Neue";
+              @include font-size($lg-font);
+              padding: 20px 20px 0 20px;
+              color: $black;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+
+            .description {
+              font-family: "Helvetica Neue";
+              @include font-size($md-font);
+              line-height: 22px;
+              padding: 0px 20px 0px 20px;
+              color: $dark-gray;
+              margin-bottom: 60px;
+              display: -webkit-box;
+              -webkit-line-clamp: 3;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+
+            .button-wrapper {
+              left: 20px;
+              bottom: 45px;
+              position:absolute;
+
+             
+              .btn {
+                font-family: "Helvetica Neue";
+                @include font-size($ssm-font);
+              }
+
+              .btn-tertiary {
+                border-color: $primary !important;
+                color: $primary !important;
+                border: 2px solid $primary !important;
+
+                &:hover,
+                &:focus,
+                &:active {
+                  background-color: unset !important;
+                  color: $primary !important;
+                  background-color: transparent !important;
+                }
+              }
+            }
+          }
+        }
+        .stripe {
+          position: absolute;
+          bottom: 0px;
+          background: $primary;
+          width: 100%;
+          padding: 8px 20px;
+          height: 48px;
+          display: flex;
+          align-items: center;
+
+          .location {
+            float: left;
+            color: $white;
+            width: 45%;
+            @include font-size($ssm-font);
+            @include lg {
+              @include font-size($sm-font);
+            }
+            &:before {
+              background: url(../images/location-svgrepo-com.svg);
+              content: "";
+              padding-right: 11px;
+              background-repeat: no-repeat !important;
+              position: relative;
+              top: 2px;
+              margin-right: 5px;
+            }
+          }
+
+          .watch {
+            float: right;
+            color: $white;
+            width: 55%;
+            @include font-size($ssm-font);
+            text-align: right;
+            @include lg {
+              @include font-size($sm-font);
+            }
+
+            &:before {
+              background: url(../images/time-svgrepo-com.svg);
+              content: "";
+              padding-right: 15px;
+              background-repeat: no-repeat !important;
+              position: relative;
+              top: 2px;
+              margin-right: 5px;
+              background-size: 15px;
+            }
+          }
+        }
+      }
+
+      .slick-dots {
+        bottom: 40px !important;
+        left: 15px !important;
+        display: block;
+        padding-top: unset;
+        top: unset;
+
+        li {
+          border: 1px solid $white !important;
+          &.slick-active {
+            background: $white !important;
+            border: 1px solid $white !important;
+          }
+        }
+      }
+    }
+  }
+}

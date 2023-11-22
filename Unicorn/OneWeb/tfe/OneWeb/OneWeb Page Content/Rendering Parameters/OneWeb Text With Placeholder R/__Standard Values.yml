@@ -1,0 +1,14 @@
+﻿---
+ID: "54e4d041-9f23-4720-81b0-77be47ab5313"
+Parent: "0cc8a491-0f5c-41e1-9f10-020de7b1b70a"
+Template: "0cc8a491-0f5c-41e1-9f10-020de7b1b70a"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Text With Placeholder Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T160304Z

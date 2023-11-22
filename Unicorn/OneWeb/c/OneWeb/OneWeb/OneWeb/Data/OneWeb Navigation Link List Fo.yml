@@ -1,0 +1,14 @@
+﻿---
+ID: "b91bd839-063c-46bf-a6ae-3fbf75b851eb"
+Parent: "8cdb02ae-4106-4fc3-9627-8a8e6d01de5d"
+Template: "d84485ad-38fe-45d2-963f-4adb78febcde"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Navigation Link List Folder
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220706T122247Z

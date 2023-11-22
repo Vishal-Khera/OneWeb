@@ -1,0 +1,17 @@
+﻿---
+ID: "75514ddd-576e-40a8-bee9-b4175f4ce391"
+Parent: "3aab6472-670f-4713-a785-3afbf8c6cd57"
+Template: "552c7c41-fcf3-45a9-a813-3d75a4d5c654"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Header Contents/Creaform Info Header Job List
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220801T163107Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Featured jobs

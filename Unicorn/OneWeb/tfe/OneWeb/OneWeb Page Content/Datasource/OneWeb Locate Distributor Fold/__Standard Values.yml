@@ -1,0 +1,25 @@
+﻿---
+ID: "1426294e-7049-45ea-a18d-4b2d6575b025"
+Parent: "0a258998-4a1c-4c1f-a3b3-5a4c0f473c11"
+Template: "0a258998-4a1c-4c1f-a3b3-5a4c0f473c11"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Datasource/OneWeb Locate Distributor Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {1CA6ADEE-9FE5-4BE7-9051-814A32BB89DC}
+    {0A258998-4A1C-4C1F-A3B3-5A4C0F473C11}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220218T060821Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

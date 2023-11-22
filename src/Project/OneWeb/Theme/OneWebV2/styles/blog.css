@@ -1,0 +1,38 @@
+.ow-related-post .ow-card-content * {
+  font-family: "FranklinGothicLTPro-Md" !important; }
+
+.ow-related-post .ow-card-content h2 {
+  color: #2C2A29;
+  margin-bottom: 0px;
+  font-size: 18px; }
+  @media screen and (min-width: 0) {
+    .ow-related-post .ow-card-content h2 {
+      font-size: 18px; } }
+  @media screen and (min-width: 768px) {
+    .ow-related-post .ow-card-content h2 {
+      font-size: 18px; } }
+  @media screen and (min-width: 992px) {
+    .ow-related-post .ow-card-content h2 {
+      font-size: 21px; } }
+
+.ow-related-post .ow-card-content ul {
+  display: flex;
+  flex-direction: column;
+  color: rgba(44, 42, 41, 0.7); }
+  .ow-related-post .ow-card-content ul li {
+    padding: 10px 0px; }
+    .ow-related-post .ow-card-content ul li a {
+      display: block;
+      color: #236192; }
+      .ow-related-post .ow-card-content ul li a:hover {
+        color: #236192; }
+
+.dark-theme .ow-related-post .ow-card-content h2 {
+  color: rgba(255, 255, 255, 0.6) !important; }
+
+.dark-theme .ow-related-post .ow-card-content ul {
+  color: rgba(255, 255, 255, 0.6) !important; }
+  .dark-theme .ow-related-post .ow-card-content ul li a {
+    color: #fff !important; }
+    .dark-theme .ow-related-post .ow-card-content ul li a:hover {
+      color: #fff; }

@@ -1,0 +1,17 @@
+﻿---
+ID: "85a5ddd2-06de-4f53-874d-fe0c5c1e273c"
+Parent: "69896860-2849-4349-a992-a400733106bd"
+Template: "552c7c41-fcf3-45a9-a813-3d75a4d5c654"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Header Contents/Secondary Navigation/3D Automated Solutions Creaform
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220816T135549Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: 3D Automated Solutions

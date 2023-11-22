@@ -1,0 +1,45 @@
+﻿---
+ID: "fbfc70e4-a53f-428c-a44d-8fc35113dc41"
+Parent: "fc478adb-8acb-4d48-abc9-2610a5349083"
+Template: "105e1ae4-0a89-449a-a4bf-69e7fb23c0ca"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Videos/Education Detail Page/Video
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15344fb8-6901-4745-a50d-359d20556eee"
+      Hint: Placeholder Image
+      Value: |
+        <image mediaid="{42B1A861-5A8F-4225-A593-1797CFA84119}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220726T133541Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Creaform Banner Video
+    - ID: "48997a62-ca56-48fb-9644-ed4cf9826271"
+      Hint: sitecore Video
+      Value: /sitecore/media library/Project/OneWeb/OneWeb/OneWeb/Videos/big_buck_bunny_720p_1mb
+    - ID: "5558b158-8d88-4507-bd60-ff2649f1f3eb"
+      Hint: Loop
+      Type: Checkbox
+      Value: 1
+    - ID: "72b1ed0f-917e-43b1-99af-855a84af8689"
+      Hint: Attributes
+      Value: allowfullscreen
+    - ID: "883ad9cc-d3be-485e-955e-2feb6dc0d74c"
+      Hint: Autoplay
+      Type: Checkbox
+      Value: 1
+    - ID: "a8b5c5bc-277e-4879-9aa9-e742daf4d1eb"
+      Hint: Duration
+      Value: 
+    - ID: "a908b235-b1cf-4d36-b08c-9563338aaf5a"
+      Hint: Muted
+      Type: Checkbox
+      Value: 1
+    - ID: "cc1be248-6ed6-4731-ba35-bf109542397b"
+      Hint: Provider
+      Value: "{D5E064AF-D3B1-4A2A-AF12-225A29F22731}"

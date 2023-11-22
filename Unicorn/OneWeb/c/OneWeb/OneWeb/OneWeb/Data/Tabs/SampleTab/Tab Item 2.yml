@@ -1,0 +1,68 @@
+﻿---
+ID: "6c66c4ca-cabd-4f6b-a6b2-00d749e57e0d"
+Parent: "484aeb6e-77e6-4ff7-8c8c-8b91c2ab7cfc"
+Template: "b27059e6-1190-4273-92a0-d22af3c440b4"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/Tabs/SampleTab/Tab Item 2
+DB: master
+BranchID: "a306f3b4-98f5-4973-9ae8-e3693bcb3252"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1292FC57-9F1D-48E4-943B-8B4A6EA865A1}">
+          <p:d />
+        </r>
+        <r
+          uid="{8D78A6A9-1A4A-438F-9951-03896182E1D1}">
+          <p:d />
+        </r>
+        <r
+          uid="{C22E418B-3CB0-4F61-B14F-441889940142}"
+          p:before="*"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B5423143A-760D-4F0E-BA4D-0B02E649A778%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId"
+          s:ph="section-title" />
+        <r
+          uid="{8320577B-F887-4796-9B66-C2C3BE60FCAF}"
+          p:after="r[@uid='{C22E418B-3CB0-4F61-B14F-441889940142}']"
+          s:ds=""
+          s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7B2D27F43E-F2E8-4AA5-99A5-6AB0D7CEEB74%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId"
+          s:ph="section-content" />
+        <r
+          uid="{4F81F93B-5AD7-4B9D-8FB1-F6BAECE74AA3}"
+          p:after="*[1=2]"
+          s:ds="/sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Image Accordions/Careers"
+          s:id="{35C04913-63CE-4EF7-8E94-87960A343347}"
+          s:par="GridParameters&amp;AccordionItemCount=10&amp;FieldNames&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1"
+          s:ph="section-content" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FCDCDFB4-DF26-4B34-8752-234CD99CB709}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220121T100648Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "70181515-2aab-4710-91f4-52a08151693e"
+      Hint: Heading
+      Value: Tab Item 2
+    - ID: "99f62656-1f3e-4f98-9eac-a596fb174ba0"
+      Hint: Content
+      Value: 

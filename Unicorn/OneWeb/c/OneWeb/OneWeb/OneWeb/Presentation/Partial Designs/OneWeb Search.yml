@@ -1,0 +1,108 @@
+﻿---
+ID: "6b2c2d43-a7f5-418e-b7ca-05ec5b9cc6b0"
+Parent: "7449c49b-f4d9-44e3-8416-073e4471543c"
+Template: "5fb09cb1-caf4-43f1-b10d-5daca960b3ca"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Partial Designs/OneWeb Search
+DB: master
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "oneweb-seach"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{E574C88E-7414-404C-B012-E31FACE22944}"
+          p:before="*"
+          s:ds="query:$owSite/Settings/OneWeb Search Filters/Global Search/Template Name"
+          s:id="{8FCBC59C-90EB-45A3-9DD2-8E1300BA189A}"
+          s:par="GridParameters&amp;Configuration=query%3A%24owSite%2FSettings%2FOneWeb%20Search%20Configurations%2FSearch%2FGlobal&amp;FieldNames=%7BB6442FF2-9173-4837-A566-7B177D4A5B4A%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-7/ow-search-filter-wrapper" />
+        <r
+          uid="{CDAB67CC-1C41-4727-BB38-6844235F7B42}"
+          p:after="r[@uid='{E574C88E-7414-404C-B012-E31FACE22944}']"
+          s:ds="query:$owSite/Settings/OneWeb Search Filters/Global Search/Product Types"
+          s:id="{8FCBC59C-90EB-45A3-9DD2-8E1300BA189A}"
+          s:par="GridParameters&amp;Configuration=query%3A%24owSite%2FSettings%2FOneWeb%20Search%20Configurations%2FSearch%2FGlobal&amp;FieldNames=%7BB6442FF2-9173-4837-A566-7B177D4A5B4A%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-7/ow-search-filter-wrapper" />
+        <r
+          uid="{A7DC9CAC-89F7-4300-8B62-34E13313C1E1}"
+          p:after="r[@uid='{CDAB67CC-1C41-4727-BB38-6844235F7B42}']"
+          s:ds="query:$owSite/Settings/OneWeb Search Filters/Global Search/Brands"
+          s:id="{8FCBC59C-90EB-45A3-9DD2-8E1300BA189A}"
+          s:par="GridParameters&amp;Configuration=query%3A%24owSite%2FSettings%2FOneWeb%20Search%20Configurations%2FSearch%2FGlobal&amp;FieldNames=%7BB6442FF2-9173-4837-A566-7B177D4A5B4A%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=8"
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-7/ow-search-filter-wrapper" />
+        <r
+          uid="{82C0967E-9220-4EF5-BB3C-F735BB302ABC}"
+          p:after="r[@uid='{A7DC9CAC-89F7-4300-8B62-34E13313C1E1}']"
+          s:id="{E97323A4-2C43-45D6-811E-8B4DDE6F4EFA}"
+          s:par=""
+          s:ph="/main/ow-container-1/ow-row-2/ow-column-7" />
+        <r
+          uid="{4898CF1C-F82A-4F2E-B2E0-EED3289DC35D}"
+          p:after="r[@uid='{82C0967E-9220-4EF5-BB3C-F735BB302ABC}']"
+          s:ds="query:$site/Data/OneWeb Search Boxes/Global"
+          s:id="{A518A432-35D8-4945-B8A6-52874CBA07A7}"
+          s:par="GridParameters=%7BAE58AC63-220B-4C8D-A491-D5E8D025078E%7D&amp;FieldNames=%7B5274CF70-A833-4102-B15F-0F59029DB55C%7D&amp;Styles&amp;Reset Caching Options&amp;SearchTextBoxVisible=1&amp;RenderingIdentifier&amp;DynamicPlaceholderId=3"
+          s:ph="/main/ow-container-1/ow-row-2" />
+        <r
+          uid="{E38905C0-7459-4E24-9F9D-C399B3C20699}"
+          p:after="r[@uid='{4898CF1C-F82A-4F2E-B2E0-EED3289DC35D}']"
+          s:ds=""
+          s:id="{B90B9CDC-71B1-4146-85E4-02AAC366F246}"
+          s:par="GridParameters=%7BE00A67A8-5980-4362-98EA-84300830D880%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=7"
+          s:ph="/main/ow-container-1/ow-row-2" />
+        <r
+          uid="{440DFADE-5850-4F34-9FCC-B406045C533C}"
+          p:after="r[@uid='{E38905C0-7459-4E24-9F9D-C399B3C20699}']"
+          s:ds="query:$owSite/Settings/OneWeb Search Configurations/Search/Global"
+          s:id="{8FCBC59C-90EB-45A3-9DD2-8E1300BA189A}"
+          s:par="GridParameters=%7B0ADE1895-F8BD-4846-9C21-410CD2CB63DB%7D&amp;Configuration=query%3A%24owSite%2FSettings%2FOneWeb%20Search%20Configurations%2FSearch%2FGlobal&amp;FieldNames=%7B1FAA3822-68A4-41A8-903D-1485E773D974%7D&amp;Styles&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+          s:ph="/main/ow-container-1/ow-row-2" />
+        <r
+          uid="{E34D66FF-866A-4902-9511-6FDF8779A4C8}"
+          p:after="r[@uid='{440DFADE-5850-4F34-9FCC-B406045C533C}']"
+          s:id="{BFE4C09B-0469-4348-A5ED-08ED00E18853}"
+          s:par="BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=2"
+          s:ph="/main/ow-container-1" />
+        <r
+          uid="{A75018E1-FA05-4402-83AD-E3D57428754C}"
+          p:after="*[1=2]"
+          s:ds=""
+          s:id="{A6E7A90A-4B1A-4936-A512-2A918A04B3A6}"
+          s:par="GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;BackgroundColor&amp;Styles&amp;BackgroundImage&amp;Reset Caching Options&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1&amp;OwClass=search-half-overflow"
+          s:ph="main" />
+      </d>
+    </r>
+Languages:
+- Language: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211225T023741Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211214T195039Z
+    - ID: "4c2f221f-9426-45ed-9eeb-c79bb3169565"
+      Hint: StickyNotes
+      Value: |
+        {"items":[]}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

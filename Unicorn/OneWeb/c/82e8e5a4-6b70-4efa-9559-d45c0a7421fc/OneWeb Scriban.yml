@@ -1,0 +1,62 @@
+﻿---
+ID: "3776de30-f7e8-4366-846b-8d584ccc045b"
+Parent: "82e8e5a4-6b70-4efa-9559-d45c0a7421fc"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Text With Placeholder/Phase 2 Comparison Table 50 Text/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "249869f3-af2d-40ab-b658-bb16422cb7ff"
+  Hint: Tag
+  Value: 
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    <div class="text-wrapper">
+    <div class="col-md-6 row">
+    {{if i_item.title !=""}}
+    <h1>{{i_item.Title}}</h1>
+    {{end}}
+    {{if i_item.subtext !=""}}
+    <h3 class="light-gray-text">{{i_item.subtext}}</h3>
+    {{ end }}
+    </div>
+    <div class="component-placeholder-wrapper">
+    {{sc_placeholder 'ow-text-placeholder*'}}
+    </div>
+    
+    {{primary_link_classes = "button btn-default "}}
+            {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+                  if( primary_filtered_classes)
+                    if(primary_filtered_classes.class | string.size) > 0
+                      primary_link_classes = primary_link_classes + primary_filtered_classes.class
+                    end
+                  end}}
+            {{secondary_link_classes = "button btn-standard "}}
+            {{ secondary_filtered_classes = ow_link_model i_item 'SecondaryLink'
+                     if( secondary_filtered_classes)
+                       if(secondary_filtered_classes.class | string.size) > 0
+                          secondary_link_classes = secondary_link_classes + secondary_filtered_classes.class
+                       end
+                     end}}       
+             {{link_model = ow_link_model i_item 'PrimaryLink'}}
+              {{ if(link_model.url != "") }}
+                      <a href="{{link_model.url}}" class="{{primary_link_classes}}" title="{{link_model.title}}" target="{{link_model.target}}">{{link_model.text}}</a>
+               {{ end }}
+            {{link_model_sec = ow_link_model i_item 'SecondaryLink'}}
+            {{ if(link_model_sec.url != "") }}
+            <a href="{{link_model_sec.url}}" class="{{secondary_link_classes}}" title="{{link_model_sec.title}}" target="{{link_model_sec.target}}">{{link_model_sec.text}}</a>
+                    {{ end }}
+    
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211130T185907Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

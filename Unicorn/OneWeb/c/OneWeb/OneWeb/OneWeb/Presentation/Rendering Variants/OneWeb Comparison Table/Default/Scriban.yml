@@ -1,0 +1,89 @@
+﻿---
+ID: "0e9d87ad-c39a-4250-9842-46d9c1075070"
+Parent: "93115f61-cf52-4eeb-bf95-f0796e8fc9e0"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Comparison Table/Default/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+     {{-if o_model -}}
+      <div class="comparsion-table-card stickeyElement">
+        <div class="component-content">
+          <div class="comparison-wrapper">
+        <div class="comparison-wrapper__card-header-row">  
+    {{-for menu_carditem in o_model.card_list-}}    
+            <div class="card-wrapper">
+             {{ if (menu_carditem.card_title | string.size >0) }}
+                <div class="comparison-header">
+                  <a href="{{menu_carditem.card_link.url}}">{{-menu_carditem.card_title-}}</a>
+                </div>
+                {{end}}
+            </div>
+            {{end}}
+        </div>
+        <div class="comparison-wrapper__card-row">  
+    {{-for menu_carditem in o_model.card_list-}}        
+            <div class="card-wrapper">
+                <div class="card comparison-table">
+                    <div class="card-header">
+                        <div class="header">
+                        {{ if (menu_carditem.card_image.url | string.size >0) }}    
+                            <div class="card-image">
+                                <img class="ow-lazy" data-src = "{{menu_carditem.card_image.url}}"  alt="{{menu_carditem.card_image.alt}}" title="{{menu_carditem.card_image.title}}" />
+                            </div>
+                            {{end}}
+                        </div>
+                    </div>
+                    {{ if (menu_carditem.card_content | string.size >0) }}
+                    <div class="card-footer">
+                        <span class="light-grey-content price">{{-menu_carditem.card_content-}}</span>
+                    </div>
+                    {{end}}
+                </div>
+            </div>
+            {{end}}
+        </div>
+    
+    
+    
+       <div class="comparison-wrapper__specifications">
+        {{-for menu_item in o_model.property_list-}}
+            <div class="comparison-row">
+                 {{ if (menu_item.property_name | string.size >0) }}
+                <div class="specifications-wrapper">
+                        <div class="comparison-column">{{-menu_item.property_name-}}</div>
+                </div>
+                {{end}}
+                <div class="comparison-specifications-row">
+                {{-for menu_carditem in o_model.card_list-}}
+                {{ if (menu_carditem.custom_property_list | string.size >0) }}
+                {{-for menu_valueitem in menu_carditem.custom_property_list-}}
+                {{ if (menu_item.property_id == menu_valueitem.key)}}
+                    <div class="comparison-column">{{-menu_valueitem.value-}}
+                    </div>
+                    {{end}}
+                    {{end}}
+                  {{end}}
+                  {{end}}
+                </div>
+            </div>
+             {{end}}
+        </div>
+    </div>
+    </div>
+    </div>
+      {{end}}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220805T080011Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

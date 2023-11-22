@@ -1,0 +1,24 @@
+﻿---
+ID: "bfe6f77a-a0e9-4d97-a3d8-ca9ede37bd7c"
+Parent: "d1b67493-84ff-42a1-8fb9-82d9c91bf81b"
+Template: "79805dc1-05db-489f-9aa0-f06f284e3534"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Card with Color/OneWeb Card with Color 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T130459Z
+    - ID: "2858f997-e26f-4084-ab19-bcd957034d63"
+      Hint: Title
+      Value: Nexofox Advantage
+    - ID: "2d799767-6fb3-4bfd-9b19-902e49c02b19"
+      Hint: Content
+      Value: "To make autonomous farming more efficient and affordable, we have developed an IIoT system that works together with our motor. Nexofox supports you with intelligent solutions and services from motor configuration and programming to field IIoT communication, device cloud and smartphone apps - all with the expertise of the market and technology leader in smart BLDC motors."
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

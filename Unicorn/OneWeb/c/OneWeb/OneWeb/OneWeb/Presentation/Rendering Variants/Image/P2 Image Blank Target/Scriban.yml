@@ -1,0 +1,34 @@
+﻿---
+ID: "18ebf22b-5804-4ab7-b1aa-b1710e3ea696"
+Parent: "27fa4dca-a8fa-4efd-971a-63494fabd6c4"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Image/P2 Image Blank Target/Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{if (i_item.Image.media_url|string.size > 0 )}}
+    <div>
+    {{link_model = (ow_link_model i_item 'TargetUrl')}}
+    {{if (link_model.url|string.size > 0)}}
+    <a href="{{link_model.url}}" target="{{link_model.target}}" title= "{{i_item.image.alt.raw}} ">
+    <img class="ow-lazy" data-src="{{i_item.Image.media_url}}" alt= "{{i_item.image.alt.raw}}" title= "{{i_item.image.title.raw}}">
+    </a>
+    {{else}}
+    <img class="ow-lazy" data-src="{{i_item.Image.media_url}}" alt= "{{i_item.image.alt.raw}}" title= "{{i_item.image.title.raw}}">
+    {{end}}
+    </div>
+    {{end}}                 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220701T074927Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

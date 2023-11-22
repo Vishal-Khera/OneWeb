@@ -1,0 +1,14 @@
+﻿---
+ID: "3f6cc489-614e-4fee-96a1-b0d0133e3b9e"
+Parent: "0b728da7-92fb-4b21-9618-7dc251988466"
+Template: "0b728da7-92fb-4b21-9618-7dc251988466"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Page Content/Rendering Parameters/OneWeb Header Content Rendering Parameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211214T083118Z

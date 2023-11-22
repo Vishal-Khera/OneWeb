@@ -1,0 +1,52 @@
+﻿@using OneWeb.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.Grid.Extensions
+@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.XA.Foundation.Theming.Bundler
+@using System.Web.Mvc.Html
+@using OneWeb.Foundation.SitecoreExtensions.Caching
+@using Sitecore.ExperienceForms.Mvc.Html
+@using Sitecore.Mvc
+@{
+    var assetLinks = AssetLinksGenerator.GenerateLinks(new ThemesProvider());
+}
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="@ContextExtensions.GetContextLanguageNameTwoDigitCode()">
+<!--<![endif]-->
+
+<head>
+    @Html.Partial("~/Views/Project/OneWeb/HeaderPartials.cshtml")
+    @Html.Raw(CacheManager.GetOrSet("PreConnectExternalServers", SiteExtensions.PreConnectExternalServers, 86400))
+    @Html.Raw(CacheManager.GetOrSet("LoadFontResources", SiteExtensions.LoadFontResources, 86400))
+    @foreach (var style in assetLinks.Styles)
+    {
+        @Html.Raw(SiteExtensions.TransformStyleLinks(style))
+    }
+    @Html.Raw(CacheManager.GetOrSet("LoadExternalStyles", SiteExtensions.LoadExternalStyles, 86400))
+    @Html.Sxa().VisitorIdentification()
+    @Html.Sxa().Placeholder("head")
+    @Html.Raw(CacheManager.GetOrSet("LoadExternalLinks", SiteExtensions.LoadExternalLinks, 86400))
+    @Html.Raw(CacheManager.GetOrSet("LoadFormScripts", SiteExtensions.LoadFormScripts, 86400))
+    @Html.RenderFormScripts()
+    @Html.AntiForgeryToken()
+</head>
+<body @Html.Sxa().Body().Decorate()>
+@Html.Partial("~/Views/Project/OneWeb/BodyStartPartials.cshtml")
+@Html.Partial("~/Views/Project/Common/DebugView.cshtml")
+@Html.Sitecore().Placeholder("body-top")
+@Html.Sxa().GridBody()
+@Html.Sitecore().Placeholder("body-bottom")
+@Html.Partial("~/Views/Project/OneWeb/BodyEndPartials.cshtml")
+@foreach (var script in assetLinks.Scripts)
+{
+	@Html.Raw(SiteExtensions.TransformScriptLinks(script))
+}
+@Html.Raw(CacheManager.GetOrSet("LoadExternalScripts", SiteExtensions.LoadExternalScripts, 86400))
+</body>
+</html>

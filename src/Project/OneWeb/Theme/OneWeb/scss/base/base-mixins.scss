@@ -1,0 +1,261 @@
+@mixin fontface($name, $folder, $file, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: "#{$name}";
+    src: url('./assets/fonts/#{$folder}/#{$file}.eot');
+    src: url('./assets/fonts/#{$folder}/#{$file}.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/#{$folder}/#{$file}.woff') format('woff'),
+    url('./assets/fonts/#{$folder}/#{$file}.ttf') format('truetype'),
+    url('./assets/fonts/#{$folder}/#{$file}.svg?#webfont') format('svg');
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+
+// Responsive Font-Size
+@mixin line-height($fs-map,
+$fs-breakpoints: $breakpoints) {
+  @each $fs-breakpoint,
+  $fs-line-height in $fs-map {
+    @if $fs-breakpoint==null {
+      line-height: $fs-line-height;
+    }
+    @else {
+      @if map-has-key($fs-breakpoints,
+      $fs-breakpoint) {
+        $fs-breakpoint: map-get($fs-breakpoints, $fs-breakpoint);
+      }
+      @media screen and (min-width: $fs-breakpoint) {
+        line-height: $fs-line-height;
+      }
+    }
+  }
+}
+
+
+@mixin font-size($fs-map,
+$fs-breakpoints: $breakpoints) {
+  @each $fs-breakpoint,
+  $fs-font-size in $fs-map {
+    @if $fs-breakpoint==null {
+      font-size: $fs-font-size;
+    }
+    @else {
+      @if map-has-key($fs-breakpoints,
+      $fs-breakpoint) {
+        $fs-breakpoint: map-get($fs-breakpoints, $fs-breakpoint);
+      }
+      @media screen and (min-width: $fs-breakpoint) {
+        font-size: $fs-font-size;
+      }
+    }
+  }
+}
+
+
+// Shadow
+@mixin shadow($shadow) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+// Transform
+//@include transform(all,300ms,ease);
+@mixin transform($transform...) {
+  -moz-transform: $transform;
+  -o-transform: $transform;
+  -webkit-transform: $transform;
+  transform: $transform;
+}
+
+// Transform origin
+//@include transform-origin(20px 10px);
+@mixin transform-origin($transform...) {
+  -moz-transform-origin: $transform;
+  -o-transform-origin: $transform;
+  -webkit-transform-origin: $transform;
+  transform-origin: $transform;
+}
+
+// Transition
+//@include transition(all,300ms,ease);
+@mixin transition($transition...) {
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+
+@mixin transition-property($property...) {
+  -moz-transition-property: $property;
+  -o-transition-property: $property;
+  -webkit-transition-property: $property;
+  transition-property: $property;
+}
+
+@mixin transition-duration($duration...) {
+  -moz-transition-property: $duration;
+  -o-transition-property: $duration;
+  -webkit-transition-property: $duration;
+  transition-property: $duration;
+}
+
+@mixin transition-timing-function($timing...) {
+  -moz-transition-timing-function: $timing;
+  -o-transition-timing-function: $timing;
+  -webkit-transition-timing-function: $timing;
+  transition-timing-function: $timing;
+}
+
+@mixin transition-delay($delay...) {
+  -moz-transition-delay: $delay;
+  -o-transition-delay: $delay;
+  -webkit-transition-delay: $delay;
+  transition-delay: $delay;
+}
+
+// Animation
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+//  Media queries mixins
+@mixin xs {
+  @media only screen and (min-width: #{map-get($breakpoints, xs)}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media only screen and (min-width: #{map-get($breakpoints, sm)}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (min-width: #{map-get($breakpoints, md)}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media only screen and (min-width: #{map-get($breakpoints, lg)}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media only screen and (min-width: #{map-get($breakpoints,xl)}) {
+    @content;
+  }
+}
+
+@mixin xxl {
+  @media only screen and (min-width: #{map-get($breakpoints,xxl)}) {
+    @content;
+  }
+}
+
+@mixin custom-width ($min,$max) {
+  @media only screen and (min-width: #{$min}) and (max-width: #{$max}) {
+    @content;
+  }
+}
+
+//clearfix
+@mixin clearfix {
+  &:after,
+  &:before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+//vertical align
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+//placeholder
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+  &:-moz-placeholder {
+    @content;
+  }
+  &::-moz-placeholder {
+    @content;
+  }
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+// mixin link
+@mixin link-hover{
+  color:$primary;
+  @include transition(.3s);
+  position: relative;
+  &:after{
+      content: '';
+      width:0%;
+      height:2px;
+      bottom:-5px;
+      position: absolute;
+      background-color: $secondary;
+      @include transition(.3s);
+      left:50%;
+  }
+  &:hover{
+      // color:$secondary;
+      &:after{
+          width:100%;
+          left:0;
+      }
+  }
+}
+
+@mixin linear-gradient($direction, $color-stops...) {
+  @if is-direction($direction)==false {
+      $color-stops: ($direction, $color-stops);
+      $direction: 180deg;
+  }
+  background: nth(nth($color-stops, 1), 1);
+  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
+  background: linear-gradient($direction, $color-stops);
+}
+
+//Cross browser CSS3 mixins border radius
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+}

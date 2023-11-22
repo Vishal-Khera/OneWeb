@@ -1,0 +1,14 @@
+﻿---
+ID: "e05227c6-a44b-433d-8551-7700de8b65c4"
+Parent: "ef91e2cb-ae39-41e5-ada5-8357adf1609b"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Resource/P2 Resource Category Header
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221010T105447Z

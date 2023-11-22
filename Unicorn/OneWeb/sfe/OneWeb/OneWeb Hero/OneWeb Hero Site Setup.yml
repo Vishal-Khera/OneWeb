@@ -1,0 +1,26 @@
+﻿---
+ID: "130b50de-ae8d-4d20-b9d3-cb09a075d7c7"
+Parent: "bf38f6a8-d7d2-4aa4-abbe-48e5f83cedb6"
+Template: "292ccfcd-7790-4692-856b-76014b8038e7"
+Path: /sitecore/system/Settings/Feature/OneWeb/OneWeb Hero/OneWeb Hero Site Setup
+DB: master
+SharedFields:
+- ID: "40deee2f-7595-40bd-b2c9-51f9e2346100"
+  Hint: Dependencies
+  Type: Treelist
+  Value: "{BDF83718-907A-435B-B1BA-64139E07983F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211128T111948Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c202067e-7fab-4606-afb4-e76df2185ddc"
+      Hint: Name
+      Value: OneWeb Hero

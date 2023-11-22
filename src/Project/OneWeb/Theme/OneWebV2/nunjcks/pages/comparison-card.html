@@ -1,0 +1,83 @@
+{% extends "layout/layout.html" %} {% block maincontent %}
+<main>
+    <div id="content">
+
+        <div class="component container-fluid medium-padding">
+            <div class="component row">
+                <div class="component container">
+                    <div class="component-content">
+                        <div class="row ow-comparison-card ow-card-align">
+                            <div class="component ow-product-card col-6 col-md-4 col-lg-3">
+                                <a href="javscript:void(0)" class="comparison-card">
+                                    {% include "../templates/components/component-comparison-card.html" %}
+                                </a>
+                            </div>
+
+                            <div class="component ow-product-card col-6 col-md-4 col-lg-3">
+                                <a href="javscript:void(0)" class="comparison-card">
+                                    {% include "../templates/components/component-comparison-card.html" %}
+                                </a>
+                            </div>
+
+                            <div class="component ow-product-card active-card col-6 col-md-4 col-lg-3">
+                                <a href="javscript:void(0)" class="comparison-card">
+                                    {% include "../templates/components/component-comparison-card.html" %}
+                                </a>
+                            </div>
+
+
+                            <div class="component ow-product-card col-6 col-md-4 col-lg-3">
+                                <a href="javscript:void(0)" class="comparison-card">
+                                    {% include "../templates/components/component-comparison-card.html" %}
+                                </a>
+                            </div>
+
+
+                            <div class="component ow-product-card col-6 col-md-4 col-lg-3">
+                                <a href="javscript:void(0)" class="comparison-card">
+                                    {% include "../templates/components/component-comparison-card.html" %}
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="component container-fluid medium-padding">
+            <div class="component row">
+                <div class="component container">
+                    <div class="component-content">
+                        <div class="component row">
+                            <div class="component container">
+                                <div class="component-content">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            {% include "../templates/components/component-heading-description.html" %}
+                                        </div>
+                                        <div class="col-12 comparsion-table-card stickeyElement">
+                                            <div class="component-content">
+                                                {% include "../templates/components/3component-comparison-table.html" %}
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8 pt-3">
+                                            <div class="component-content">
+                                                {% include "../templates/components/page-description.html" %}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</main>
+{% endblock %}

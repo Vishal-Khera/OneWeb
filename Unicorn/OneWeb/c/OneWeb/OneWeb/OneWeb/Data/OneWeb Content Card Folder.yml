@@ -1,0 +1,14 @@
+﻿---
+ID: "d76ac750-a8fc-467d-821a-8a73faba8e41"
+Parent: "8cdb02ae-4106-4fc3-9627-8a8e6d01de5d"
+Template: "c88cce23-8b0a-415a-98d2-b17294434a45"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Content Card Folder
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220628T195503Z

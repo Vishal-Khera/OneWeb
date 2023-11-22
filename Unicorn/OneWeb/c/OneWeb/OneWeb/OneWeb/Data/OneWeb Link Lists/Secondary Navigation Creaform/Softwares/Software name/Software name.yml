@@ -1,0 +1,22 @@
+﻿---
+ID: "4a5db42d-2646-47b0-b326-0e03ff5c1e6c"
+Parent: "d7ec9407-19dc-4f67-830b-8619afca98d1"
+Template: "fca1aaee-864c-4658-8fdb-75cdb4ca89be"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Data/OneWeb Link Lists/Secondary Navigation Creaform/Softwares/Software name/Software name
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220817T182915Z
+    - ID: "bb3cc368-e6a3-4b38-b6f0-82551dca2bf1"
+      Hint: Link
+      Value: |
+        <link text="Software name" anchor="" linktype="internal" class="" title=""  querystring="" id="{C959214D-3779-42D1-BFBD-210E2BA1980A}" />

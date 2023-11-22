@@ -1,0 +1,105 @@
+@import 'base/base-index.scss';
+
+.resource-header {
+    .text-wrapper {
+        .paragraph-wrapper {
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+    }
+
+    .ow-header-content {
+        padding-bottom: 20px;
+        padding-top: 25px;
+    }
+.text-heading{
+   &.column-heading{
+    *{
+        @include font-size($smlg-font)
+    }
+   }
+}
+    .resource-header-container {
+        align-items: flex-start;
+        .resource-card-simple {
+            .card-image {
+                aspect-ratio: 9/4;
+            }
+
+            .card-body {
+                height: auto;
+                padding-bottom: 25px;
+            }
+        }
+    }
+
+    // .resource-header-container {
+    //     .resource-header-main__wrapper {
+    //             a {
+    //                 &.resource-card-simple {
+    //                     .button{
+    //                         padding-top:10px;
+    //                         padding-bottom: 9px;
+    //                     }
+    //                     &:hover {
+    //                         .button {
+    //                             &.btn-simple {
+    //                                 border: none;
+    //                                 outline: none;
+    //                                 text-decoration: none;
+    //                                 padding: 10px 25px 9px 25px;
+
+    //                                 &::before {
+    //                                     left: 10px;
+    //                                     transition-delay: .12s;
+    //                                     opacity: 1;
+    //                                 }
+
+    //                                 &::after {
+    //                                     right: -15px;
+    //                                     opacity: 0;
+    //                                     transition-delay: 0s;
+    //                                 }
+    //                             }
+    //                         }
+    //                     }
+    //                 }
+
+
+
+    //             }
+
+    //             .resource-card-simple {
+    //                 .card-image {
+    //                     aspect-ratio: 9/4;
+    //                 }
+
+    //                 .card-body {
+    //                     padding: 20px;
+    //                     padding-top: 30px;
+    //                     padding-bottom: 10px;
+    //                 }
+
+    //                 .card-footer {
+    //                     padding: 3px 20px;
+    //                     background: transparent
+    //                 }
+    //             }
+    //         }
+    //     }
+}
+
+// .dark-theme {
+//     .resource-header-main__wrapper {
+//         .column-heading {
+//             color: $mid-light-gray;
+//         }
+
+
+//     }
+//     .top-border-100 {
+//         &::after {
+//             background-color: $white-gray-light
+//         }
+//     }
+// }

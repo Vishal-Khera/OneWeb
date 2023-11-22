@@ -1,0 +1,51 @@
+.subscribe-form-box {
+  padding: 20px 20px 30px 20px; }
+  .subscribe-form-box .email-subscribe {
+    margin-bottom: 0px; }
+    .subscribe-form-box .email-subscribe input[type="email"] {
+      padding-right: 155px; }
+  .subscribe-form-box .form-heading {
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #BEBEBE;
+    font-size: 18px;
+    color: #2B2B2B;
+    font-family: 'HelveticaNeue-Medium'; }
+    @media screen and (min-width: 0) {
+      .subscribe-form-box .form-heading {
+        font-size: 18px; } }
+    @media screen and (min-width: 768px) {
+      .subscribe-form-box .form-heading {
+        font-size: 18px; } }
+    @media screen and (min-width: 992px) {
+      .subscribe-form-box .form-heading {
+        font-size: 18px; } }
+  .subscribe-form-box .form-title {
+    font-size: 16px;
+    color: #2B2B2B;
+    font-family: 'HelveticaNeue-Medium';
+    padding-top: 20px; }
+    @media screen and (min-width: 0) {
+      .subscribe-form-box .form-title {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .subscribe-form-box .form-title {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .subscribe-form-box .form-title {
+        font-size: 16px; } }
+  .subscribe-form-box p {
+    padding-top: 10px;
+    position: relative;
+    margin: 0px;
+    padding-bottom: 0px;
+    color: #2B2B2B;
+    font-size: 16px; }
+    @media screen and (min-width: 0) {
+      .subscribe-form-box p {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .subscribe-form-box p {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .subscribe-form-box p {
+        font-size: 16px; } }

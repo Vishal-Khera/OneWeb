@@ -1,0 +1,18 @@
+﻿---
+ID: "6a3fc631-b81f-44a5-b941-0fa76965163c"
+Parent: "4f251c3e-125d-4b02-863c-2e81ce6feca2"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Login/Datasource/OneWeb User API Settings/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220324T072525Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

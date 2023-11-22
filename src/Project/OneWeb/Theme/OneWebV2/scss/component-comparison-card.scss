@@ -1,0 +1,391 @@
+@import 'base/base-index.scss';
+
+.ow-comparison-card {
+    @include md{
+        margin-left: -22px !important;
+        margin-right: -22px !important;
+    }
+    .ow-product-card {
+        height:100%;
+        margin-bottom: unset;
+        text-align: left;
+        .comparison-card {
+            width: 100%;
+            &__card-wrapper {
+                width: 100%;
+                border-radius: 8px;
+                flex-direction: column;
+                height: 100% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                justify-content: space-evenly !important;
+
+                * {
+                    font-family: $franklinMd !important;
+                    color: $brandblack !important;
+                    border-color:$border-light !important;
+                }
+
+                .card-header {
+                    padding: 0px;
+                    background: transparent;
+
+                    .card-image {
+                        margin-top:10px;
+                        height: 105px;
+                        aspect-ratio: unset !important;
+                        text-align: center;
+                        @include md{
+                            margin-top:12px;
+                            height: 170px;
+                        }
+
+                        img {
+                            aspect-ratio: unset !important;
+                            max-width: 100%;
+                            width: unset !important;
+                        }
+                    }
+
+                    .header {
+                        width: 100%;
+                        padding: 0px 10px;
+                        margin-top: 10px;
+                        @include font-size($slg-font);
+                        position: relative;
+                        color: $brand;
+                        color: $brand !important;
+
+                        @include md {
+                            padding: 0px 70px 0px 20px;
+                            margin-top: 20px;
+                            
+                        }
+                       
+                    }
+                    .circle-arrow {
+                        width: 32px;
+                        height: 32px;
+                        background-color: $white !important;
+                        border-radius: 100%;
+                        font-size: 13px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        top: 13px;
+                        right: 20px;
+                        display: none;
+                        color: $brand;
+                        transition: .35s;
+
+                        @include md {
+                            display: flex;
+                        }
+
+                        i {
+                            transition: .55s;
+                            font-family: 'icomoon' !important;
+                            color: $brand !important;
+                        }
+                    }
+                    
+                }
+
+
+                .card-body {
+                    height: unset !important;
+                    padding: 10px !important;
+                    padding-bottom: 0px !important;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    @include font-size($ssm-font);
+
+                    @include md {
+                        padding: 20px !important;
+                        @include font-size($md-font)
+                    }
+
+                    .card-deatils {
+                        .light-gray{
+                            opacity: .6;
+                        }
+                    }
+
+                    .price-wrapper-dots {
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 35px 00px 10px 00px;
+
+                        @include lg {
+                            padding: 60px 00px 0px 00px;
+                        }
+
+                        ul {
+                            display: flex;
+                            justify-content: space-between;
+
+                            li {
+                                width: 16px;
+                                height: 16px;
+                                margin-left: 5px;
+                                border-radius: 100%;
+                                background-color: $brandblack !important;
+                                opacity: .2;
+
+                                @include md{
+                                    width: 18px;
+                                    height: 18px;
+                                }
+                                &.active {
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                .card-footer {
+                    padding: 1px 10px;
+                    background-color: transparent;
+                    @include font-size($ssm-font);
+
+                    @include md {
+                        padding: 6px 20px;
+                        @include font-size($md-font)
+                    }
+
+                    .btn-simple {
+                        margin-bottom: unset !important;
+                        color: $brandblack !important;
+
+                        &::before,
+                        &:after {
+                            color: $brand !important;
+                        }
+                    }
+                }
+            }
+            &:hover {
+                color: inherit !important;
+                transform: unset !important;
+                border: none !important;
+                .card-header{
+                    
+                    .circle-arrow{
+                        background-color: $brand !important;
+                        i{
+                            color: $white !important;
+                        }
+                    }
+                }
+               
+
+                .button{
+                    &.btn-simple{
+                        border: none;
+                        outline: none;
+                        text-decoration: none;
+                        padding: 9px 25px 9px 25px;
+
+                        &::before {
+                            left: 5px;
+                            transition-delay: .12s;
+                            opacity: 1;
+                        }
+                        &::after{
+                            right: -15px;
+                            opacity: 0;
+                            transition-delay: 0s;
+                        }
+                    }
+                }
+            }
+        }
+        &.active-card{ 
+            a{
+                pointer-events: none;
+            }      
+            .comparison-card {
+                &__card-wrapper {
+                    background-color: $brandblack2 !important;
+                    * {
+                        font-family: $franklinMd !important;
+                        color: $base-light-gray !important;
+                        border-color:$white-gray-light !important;
+                    }
+    
+                    .card-header {
+                        .header {
+                            color: $base-light-gray !important;
+                        }
+    
+                        .circle-arrow {
+                            display: none !important;
+                            i {
+                                color: $brand !important;
+                            }
+                        }
+                    }
+    
+                    .card-body {
+                        .price-wrapper-dots {
+                            ul {
+                                li {
+                                    background-color: $base-light-gray !important;
+                                }
+                            }
+                        }
+    
+                    }
+    
+                    .card-footer {
+                        .btn-simple {
+                            color: $base-light-gray !important;
+    
+                            &::before,
+                            &:after {
+                                color: $base-light-gray !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+.dark-theme {
+    .ow-comparison-card {
+        .ow-product-card{
+        .comparison-card {
+            &__card-wrapper {
+                * {
+                    font-family: $franklinMd !important;
+                    color: $base-light-gray !important;
+                    border-color:$white-gray-light !important;
+                }
+
+                .card-header {
+                    .header {
+                        color: $base-light-gray !important;
+                    }
+
+                    .circle-arrow {
+                        i {
+                            color: $brand !important;
+                        }
+                    }
+                }
+
+                .card-body {
+                    .price-wrapper-dots {
+                        ul {
+                            li {
+                                background-color: $base-light-gray !important;
+                            }
+                        }
+                    }
+
+                }
+
+                .card-footer {
+                    .btn-simple {
+                        color: $base-light-gray !important;
+
+                        &::before,
+                        &:after {
+                            color: $base-light-gray !important;
+                        }
+                    }
+                }
+            }
+        }
+        &:hover {
+            color: inherit !important;
+            transform: unset !important;
+            border: none !important;
+           
+                .card-header {
+                    .circle-arrow {
+                        i {
+                            &:before{
+                                color: $white !important;
+                            }
+                        }
+                    }
+               
+        }
+        }
+        &.active-card{
+            
+            .comparison-card {
+                &__card-wrapper {
+                    background-color: $card-base !important;
+                    * {
+                        font-family: $franklinMd !important;
+                        color: $brandblack !important;
+                        border-color:$border-light !important;
+                    }
+    
+                    .card-header {
+                        .header {
+                            color: $brand !important;
+                        }
+    
+                        .circle-arrow {
+                            display: none !important;
+                            i {
+                                color: $brand !important;
+                            }
+                        }
+                    }
+    
+                    .card-body {
+                        .price-wrapper-dots {
+                            ul {
+                                li {
+                                    background-color: $brandblack !important;
+                                }
+                            }
+                        }
+    
+                    }
+    
+                    .card-footer {
+                        .btn-simple {
+                            color: $brandblack !important;
+    
+                            &::before,
+                            &:after {
+                                color: $brand !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+
+
+
+.comparison-card-links{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @include md{
+        flex-direction: row;
+    }
+    .card-cta-link{
+        margin-bottom: unset;
+        .btn-simple{
+            margin-left: 30px;
+        }
+    }
+}

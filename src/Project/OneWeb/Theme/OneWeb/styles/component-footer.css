@@ -1,0 +1,103 @@
+footer {
+  margin-top: auto;
+  padding: 50px 0 0;
+  background: #000;
+  clear: both;
+  color: #c7c7c7; }
+  @media only screen and (min-width: 768px) {
+    footer {
+      padding: 107px 0 0; } }
+  footer .divider hr {
+    margin-bottom: 0px !important; }
+  footer .shared-global ul {
+    margin-top: 0px; }
+  footer .column .rich-text .rte_content {
+    color: #c7c7c7; }
+  footer h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: 'HelveticaNeue-Medium'; }
+    footer h4 a {
+      color: #fff; }
+  footer .primary-footer {
+    text-align: left;
+    margin-bottom: 0px; }
+    @media only screen and (min-width: 768px) {
+      footer .primary-footer {
+        margin-bottom: 40px; } }
+    @media (max-width: 767px) {
+      footer .primary-footer {
+        margin-bottom: 30px; } }
+    footer .primary-footer ul {
+      list-style: none;
+      padding: 0px; }
+      footer .primary-footer ul li {
+        color: #F1F1F1;
+        margin: 5px 0; }
+      footer .primary-footer ul a {
+        color: #DFDFDF; }
+
+.question {
+  position: relative;
+  float: none;
+  width: 40%; }
+  @media only screen and (min-width: 768px) {
+    .question {
+      float: none;
+      width: 50%;
+      float: right; } }
+  .question h4 {
+    color: #fff;
+    font-size: 20px; }
+
+.position-right .secondary-footer {
+  text-align: right; }
+
+.secondary-footer {
+  text-align: left;
+  line-height: normal;
+  padding: 5px; }
+  .secondary-footer.ow-link-list {
+    width: auto; }
+  .secondary-footer h3 {
+    display: none; }
+  @media only screen and (min-width: 768px) {
+    .secondary-footer {
+      padding: 15px; } }
+  .secondary-footer ul {
+    margin-left: 0;
+    padding: 0px;
+    margin-bottom: 0px; }
+    .secondary-footer ul li {
+      color: #DFDFDF;
+      font-size: 12px;
+      display: inline-flex;
+      border-right: 1px solid #707070;
+      margin-right: 5px; }
+      @media only screen and (min-width: 768px) {
+        .secondary-footer ul li {
+          padding: 0px 0;
+          font-size: 16px; } }
+      .secondary-footer ul li:last-child {
+        border-right: 0px; }
+      .secondary-footer ul li a {
+        color: #fff;
+        padding: 0 10px; }
+        @media only screen and (min-width: 768px) {
+          .secondary-footer ul li a {
+            padding: 0px 10px; } }
+        .secondary-footer ul li a:first-child {
+          padding-left: 0px; }
+      .secondary-footer ul li span {
+        display: inline-flex;
+        margin-top: 15px; }
+  .secondary-footer .footer-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+    display: block; }
+
+.right-align {
+  float: right; }

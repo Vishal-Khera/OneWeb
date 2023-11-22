@@ -1,0 +1,14 @@
+﻿---
+ID: "0efc6002-116f-4ab4-b17e-b2cd5adca581"
+Parent: "6dbabb40-0cd2-4cbe-aca2-6dfa040340f7"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/OneWeb/OneWeb Navigation/OneWeb Navigation Link List/Thumbnail
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220706T131712Z

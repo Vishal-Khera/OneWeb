@@ -1,0 +1,19 @@
+﻿---
+ID: "376093dd-9790-41b3-89fe-b1881c2fe266"
+Parent: "ff9b8ecb-2b24-4691-aff8-faf4b0065da5"
+Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/Promo/Shop Login
+DB: master
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DF56CC13-FF2C-4CE2-BE0B-085BD594904A}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T100008Z

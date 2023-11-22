@@ -1,0 +1,75 @@
+body .ow-product-card .component-content .card-description a {
+  display: flex;
+  flex-direction: row; }
+
+.card-description {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  @media only screen and (min-width: 768px) {
+    .card-description {
+      width: 80%; } }
+  @media only screen and (min-width: 1200px) {
+    .card-description {
+      margin-top: 25px;
+      margin-bottom: 0px; } }
+  .card-description p {
+    color: rgba(26, 25, 24, 0.75);
+    font-family: "FranklinGothicLTPro-Md" !important;
+    font-size: 14px;
+    margin-bottom: 10px; }
+    @media screen and (min-width: 0) {
+      .card-description p {
+        font-size: 14px; } }
+    @media screen and (min-width: 768px) {
+      .card-description p {
+        font-size: 14px; } }
+    @media screen and (min-width: 992px) {
+      .card-description p {
+        font-size: 14px; } }
+    .card-description p:last-child {
+      margin-bottom: 0px; }
+  .card-description a {
+    font-size: 16px;
+    font-family: "FranklinGothicLTPro-Md" !important;
+    color: #236192; }
+    @media screen and (min-width: 0) {
+      .card-description a {
+        font-size: 16px; } }
+    @media screen and (min-width: 768px) {
+      .card-description a {
+        font-size: 16px; } }
+    @media screen and (min-width: 992px) {
+      .card-description a {
+        font-size: 16px; } }
+    .card-description a:hover {
+      -ms-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      border: none;
+      transition: none; }
+    .card-description a .ow-play-button {
+      margin-right: 10px;
+      position: relative;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      background-color: rgba(35, 97, 146, 0.2);
+      transition: ease-in-out 0.2s all; }
+      .card-description a .ow-play-button i {
+        font-size: 8px; }
+        .card-description a .ow-play-button i::before {
+          position: absolute;
+          top: 6px;
+          left: 7px;
+          color: #236192; }
+          @media only screen and (min-width: 768px) {
+            .card-description a .ow-play-button i::before {
+              left: 8px; } }
+
+.dark-theme .card-description p {
+  color: rgba(26, 25, 24, 0.75) !important; }
+
+.dark-theme .card-description a {
+  color: #236192 !important; }

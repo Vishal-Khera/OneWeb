@@ -1,0 +1,74 @@
+﻿---
+ID: "234d0c71-c837-4f29-8043-37ffb2ef61b0"
+Parent: "78696ba3-f86a-402e-99d0-92861dd44eb8"
+Template: "54571f1a-cd2e-4215-96f5-f28af4caab48"
+Path: /sitecore/content/OneWeb/OneWeb/OneWeb/Presentation/Rendering Variants/OneWeb Job/P2 Job Description/OneWeb Scriban
+DB: master
+SharedFields:
+- ID: "9e02be90-89ab-4127-9e33-2a2fb3ac5a77"
+  Hint: Template
+  Value: |
+    {{primary_link_classes = "button btn-default"}}
+    {{ primary_filtered_classes = ow_link_model i_item 'PrimaryLink'
+    if( primary_filtered_classes)
+        if(primary_filtered_classes.class | string.size) > 0
+        primary_link_classes = primary_link_classes + primary_filtered_classes.class
+        end
+    end}}
+    {{link_model_primary = ow_link_model i_item 'PrimaryLink'
+    if(link_model_primary.url | string.size < 0)
+            link_model_primary.url= "#"
+    end}}
+    
+    
+    
+    <div class="component text-wrapper">
+         <div class="text-wraper-body">    
+    
+    
+    
+    {{if i_item.Title | string.size >0}}
+    <div class="light-gray-text">
+    <h2>{{i_item.Title}}</h2>
+    </div>
+    {{end}}
+    {{if i_item.Content | string.size >0}}
+    <h1>{{i_item.Content}}</h1>
+    {{end}}
+    <div class="job-info">
+        {{if i_item.Department | string.size >0}}
+            <div class="profile"><i class="icon-job"></i>{{i_item.Department}}</div>
+        {{end}}
+        {{if i_item.Type | string.size >0}}
+            <div class="hours"><i class="icon-clock"></i>{{i_item.Type}}</div>
+        {{end}}
+        {{if i_item.Location | string.size >0}}
+            <div class="location"><i class="icon-location"></i>{{i_item.Location}} </div>
+        {{end}}
+        {{if i_item.Availability | string.size >0}}
+            <div class="calender"><i class="icon-calender"></i>{{i_item.Availability}} </div>
+        {{end}}                    
+    </div>                    
+    <div class="apply-button">
+        <a href="{{link_model_primary.url}}" class="{{primary_link_classes}} mb-3" title="{{link_model_primary.title}}" target="{{link_model_primary.target}}">
+        {{link_model_primary.text}}
+        <i class="icon-diag-arrow"></i>
+        </a>
+        {{if i_item.Subtext | string.size >0}}
+        {{i_item.Subtext}}
+        {{end}}
+    </div>
+    </div>
+    </div>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220803T144859Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

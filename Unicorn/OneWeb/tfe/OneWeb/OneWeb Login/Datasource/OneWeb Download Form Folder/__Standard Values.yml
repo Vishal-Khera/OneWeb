@@ -1,0 +1,25 @@
+﻿---
+ID: "1c45167d-7289-4d9d-bc9e-df837de55195"
+Parent: "60d302cf-a0a8-4bf8-a2f3-04f38d3c7e51"
+Template: "60d302cf-a0a8-4bf8-a2f3-04f38d3c7e51"
+Path: /sitecore/templates/Feature/OneWeb/OneWeb Login/Datasource/OneWeb Download Form Folder/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {5BF220B8-4D10-424C-B2A0-BA933B68A197}
+    {60D302CF-A0A8-4BF8-A2F3-04F38D3C7E51}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220323T121903Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
